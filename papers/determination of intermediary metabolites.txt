@@ -1,0 +1,1058 @@
+ELSEVIER
+
+Journal
+ofMicrobiological
+Methods
+
+Journal of Microbiological Methods, 25 (1996) 295-302
+
+Determination
+
+of intermediary
+
+metabolites
+
+in Aspergihs
+
+niger
+
+G.J.G. Ruijter*, J. Visser
+Section Molecular
+
+Genetics of Industrial Microorganisms, Wageningen Agricultural
+6703 HA Wageningen, Netherlands
+
+Received 14 August 1995; revised 24 October
+
+1995; accepted
+
+University,
+
+13 November
+
+Dreijenlaan
+
+2,
+
+1995
+
+Abstract
+Procedures are described to recover and determine intermediary metabolites in Aspergillus
+m&r. The methods involve
+rapid quenching of meta.bolism by direct transfer of a culture sample from a bioreactor to a buffered solution containing 60%
+methanol at -45°C. Metabolites do not leak from the cells when this sampling technique is used. Following quenching, the
+mycelium is collected by filtration and washed if required. Extraction of metabolites at -20°C and neutral pH using
+chloroform to permeabilise the cells prevents degradation of labile metabolites. An internal standard (xylitol) is used to
+
+correct for extraction recovery which was approximately 80%. To calculate actual intracellular concentrations, the
+intracellular volume has, been determined. A value of 1.2 ml/g of dry weight was obtained for the growth conditions used.
+This method is suitable to determine the levels of glycolytic intermediates in Aspergillus
+niger mycelium. Although the
+measured levels were, in general, similar to values published previously and obtained by various other methods, the
+advantage of the procedure described here is that all metabolites can be assayed in a single extract.
+Keywords:
+
+Glycolysis;
+
+Metabolite;
+
+Method; Filamentous
+
+fungus
+
+1. Introduction
+In studies on metabolic
+regulation,
+often the
+approach is taken to just investigate the kinetic and
+regulatory characteristics of enzymes in vitro. However, the physiological relevance of regulatory mechanisms deduced from experiments
+with isolated
+enzyme systems can only be assessed when the in
+vivo concentrations of substrates, products and effectors are also known. In other words, knowledge
+about the concentrations
+of intermediary metabolites
+is required to determine the factors that control
+metabolic fluxes in vivo.
+The methods used for sampling of biomass and
+*Corresponding author. Tel: +31 (317) 484 439; Fax: +31 (317)
+484 011; E-mail: office@algemeen.mgim.wau.nl
+0
+0167-7012/96/$15.00
+SSDZ 0167.7012(95)00104-2
+
+extraction of metabolites from the cells should be
+designed in such a way that the experimental values
+obtained for metabolite
+levels reflect those truly
+existing in vivo [ 1,2]. For instance, the turnover of
+intermediary
+metabolites is usually high. Thus, an
+important requirement
+of such a method is that
+cellular metabolism
+is quenched
+instantaneously
+upon sampling. In addition, the conditions used for
+extraction should not lead to conversions
+of the
+metabolites of interest. Recently an elegant method
+that satisfies these conditions
+was developed for
+Succharomyces
+cerevisiae
+[3]. These experiments
+involve rapid quenching of metabolism by spraying
+yeast cells in a cold methanol-water
+mixture and
+extraction of metabolites from the cells at neutral
+PH.
+Although
+
+1996 Elsevier Science B.V. All rights reserved
+
+determination
+
+of intermediary
+
+metabo-
+
+296
+
+G.J.G. Ruijter,
+
+J. Visser I Journal of Microbiological
+
+lites has been frequently reported for yeast, little is
+known about metabolite levels in filamentous fungi.
+This is surprising in view of the biotechnological
+relevance of filamentous fungi in the production of
+primary and secondary metabolites
+and proteins.
+Regarding primary metabolites, a well known example is citric acid production by Aspergillus niger. A
+high rate of citric acid accumulation by this fungus
+depends on a high glycolytic flux [4]. By investigating the factors which control the glycolytic flux,
+rational optimisation of the process may be obtained.
+To this end and to facilitate studies on metabolic
+regulation in filamentous fungi in general, we developed a methodology
+for the determination
+of
+intermediary metabolites in Aspergillus niger based
+on the procedures described for yeast. In this report,
+the method and some experiments that establish the
+validity of the results are described.
+
+2. Materials
+
+and methods
+
+2.1. Materials
+HPLC-grade methanol was used since methanol of
+technical quality occasionally gave turbid solutions
+when mixed with water. Other chemicals were of
+analytical grade and obtained from Merck (Darmstadt, Germany). Fructose 2,6-diphosphate
+and sulphate-free preparations of aldolase, triosephosphate
+isomerase, glycerol-3-phosphate
+dehydrogenase
+and
+pyrophosphate-dependent
+phosphofructokinase
+used
+in the kinetic determination
+of fructose 2,6-diphosphate were purchased from Sigma (St. Louis, MO,
+USA). All other enzymes and biochemicals
+were
+obtained from Boehringer (Mannheim, Germany).
+2.2. Strains and culture conditions
+Aspergillus niger NW131 (cspA1, goxCI7) was
+used in all experiments.
+Conidiospores
+were harvested from complete medium [5] solidified with
+1.5% (w/v) agar and containing
+50 mM glucose.
+Mycelia were cultured for 48 h at 30°C in a defined
+medium
+containing
+0.5
+g KH,PO,,
+2.5 g
+(NH,),SO,,
+0.25 g MgSO;7H,O,
+6.5 mg FeSO,.
+7H,O,
+1.3 mg ZnSO,*7H,O,
+0.15 ml polypropyleneglycol
+and 140 g of glucose per litre using
+
+Methods 25 (1996) 295-302
+
+3-litre fermenters
+(Applikon,
+Schiedam,
+Netherlands). After 48 h of culturing, the mycelia were in
+the late exponential growth phase. The culture pH
+was not regulated and decreased from an initial value
+of 3.5 to approximately 2 at the moment of sampling.
+Cultures were sparged with 0.2 vvm air, while
+addition of pure oxygen was used to keep the
+dissolved oxygen tension above 50% air saturation.
+2.3. Sampling
+
+of mycelium
+
+A 25-ml sample (containing approximately
+200
+mg of mycelial dry weight) was transferred directly
+from the fermenter vessel into 100 ml of a solution
+containing 60% (v/v) methanol and 200 mM triethanolamine,
+pH 7.3, which was precooled to
+-45°C in a cooling bath (B. Braun Biotech, Melsungen, Germany). Following sampling, the sample
+temperature was approximately
+-20°C.
+The residence time in the sample tubing (i.d., 5 mm; total
+length, approximately 1 m) was approximately 1 s. A
+short residence time is important to prevent changes
+in the conditions as present in the bioreactor during
+sampling. After 5-10 min of further cooling in a
+stirred ethanol bath at -45°C
+mycelia were collected by vacuum filtration on a sintered glass funnel
+(pore size 40-100 pm) and washed 3 times with 100
+ml of a solution containing 50% (v/v) methanol and
+50 mM triethanolamine,
+pH 7.3, precooled
+to
+-45°C.
+Mycelium
+samples were either extracted
+immediately or frozen in liquid nitrogen and stored
+at -70°C.
+2.4. Extraction
+
+of metabolites
+
+Unless stated otherwise, all further manipulations
+were performed at -45°C.
+A mycelium
+sample
+obtained as described above was transferred to a tube
+and resuspended in 6 ml of methanol. To each tube,
+15 ,umol xylitol was added as an internal standard.
+Following
+addition of 10 ml of chloroform
+and
+mixing, samples were incubated for 30 min to allow
+permeabilisation
+of cells and denaturation
+of enzymes. Subsequently 4 ml of 5 mM triethanolamine,
+pH 7.2, kept at 0°C was added, followed by
+vigorous mixing and a further lo-min incubation to
+cool the samples. To accomplish efficient extraction
+of metabolites from the cells the tubes were shaken
+
+G.J.G. Ruijrer, J. Visser / Journal
+
+of Microbiological Methods 25 (1996) 295-302
+
+for 30 min at -20°C (in a commercial type freezer)
+at 1800 rpm on an IKA Vibrax VXR shaker (Janke
+and Kunkel, Staufen, Germany) using a universal
+holder. The water-methanol
+and chloroform phases
+were separated by centrifugation
+at 5OOOXg for 5
+min at -20°C (mycelium collects at the interface).
+The water-methanol
+phase (supematant) containing
+the extracted metabolites was taken off and transferred to another tube. The mycelium
+was then
+extracted a second time by adding 2 ml of methanol,
+mixing, and 2 ml of 5 mM triethanolamine
+pH 7.2
+(0°C) followed by vigorous mixing. Following centrifugation, the supematant fraction was added to the
+first extract. To the combined extracts, 15 ml of
+diethylether was added. After mixing and centrifugation at 1OOOXg for 5 minutes at -20°C the diethylether was removed. Samples were then frozen in
+liquid nitrogen and concentrated from approximately
+12 to 1.5 ml by evaporation under vacuum using a
+Speedvac (Savant Inslruments, Hicksville, NY, USA)
+without additional heating. The exact volume of the
+extracts was then determined and the extracts were
+centrifuged briefly at 4°C to remove possible insoluble material.
+The extracted
+mycelium
+was collected
+and
+lyophilised
+to determine
+the dry weight of the
+sample. The dry weight of a mycelium sample did
+not decrease significantly by extraction.
+Xylitol, used as internal standard, was measured
+with high performance anion-exchange
+chromatography (Dionex, Sunnyvale, CA, USA) using isocratic
+elution with 0.48 M NaOH on a CarboPac MA1
+column.
+2.5. Determination
+
+of metabolites
+
+Analyses were performed on a Cobas Bio (Roche,
+Basel, Switzerland) autoanalyser that was connected
+to a computer for data logging. The data-logging and
+data-analysis
+programs were those used by De
+Koning and Van Dam [3].
+Metabolites
+were determined
+essentially
+as described by Bergmeyer [6] in 50 mM triethanolamine,
+5 mM MgCl,, pH 7.6, unless stated otherwise.
+Where possible, a number of metabolites
+were
+assayed in one samplle aliquot in the order given.
+Glucose 6-phosphate (G6P), fructose 6-phosphate
+(F6P) and ATP were determined in the presence of
+
+297
+
+0.5 mM NADP+ by addition of 0.3 U/ml glucose-6phosphate dehydrogenase, 2.8 U/ml phosphoglucose
+isomerase and 2.2 U/ml hexokinase+ 1 mM glucose,
+respectively.
+Dihydroxyacetonephosphate
+(DHAP),
+glyceraldehyde 3-phosphate (GAP) and fructose 1,6-diphosphate (F1,6DP) were determined in the presence of
+0.2 mM NADH by the addition of 0.7 U/ml
+glycerol-3-phosphate
+dehydrogenase,
+40 U/ml triosephosphate
+isomerase and 0.1 U/ml
+aldolase,
+respectively.
+Pyruvate,
+phosphoenolpyruvate
+(PEP), 2-phosphoglycerate (2PG) and 3-phosphoglycerate
+(3PG)
+were determined in the presence of 0.2 mM NADH
+and 100 mM KC1 by addition of 1.1 U/ml lactate
+dehydrogenase, 0.8 U/ml pyruvate kinase+0.8
+mM
+ADP, 3.2 U/ml enolase and 20 U/ml phosphoglycerate mutase+40 yM 2,3-diphosphoglycerate,
+respectively.
+ADP and AMP were determined in the presence of
+0.2 mM NADH, 100 mM KC1 and 1.1 U/ml lactate
+dehydrogenase
+by addition of 0.8 U/ml pyruvate
+kinase+0.4 mM PEP and 5.6 U/ml myokinase+0.2
+mM ATP, respectively.
+NADH was determined in the presence of 0.5 mM
+DHAP by the addition of 0.7 U/ml glycerol-3phosphate dehydrogenase. NAD+ was determined in
+4X diluted glycine buffer reagent (Sigma, no. 332-9)
+in the presence of 250 mM ethanol by the addition of
+36 U of alcohol dehydrogenase per ml.
+Fructose 2,6-diphosphate
+(F2,6DP)
+was determined using a kinetic assay as described by Van
+Schaftingen et al. [7]. The assay mixture contained
+50 mM Tris pH 8.1, 2.5 mM MgCl,, 0.2 mM
+NADH, 0.75 mM fructose 6-phosphate,
+17 mM
+glucose 6-phosphate, 0.05 U/ml pyrophosphate-dependent phosphofructokinase,
+0.5 U/ml aldolase, 25
+U/ml triosephosphate isomerase, 2.2 U/ml glycerol3-phosphate dehydrogenase and 1 mM sodium pyrophosphate. Samples containing
+O-20 nM fructose
+2,6-diphosphate were included in measuring series to
+calculate the fructose 2,6-diphosphate content of the
+metabolite extracts.
+2.6. intracellular
+
+volume
+
+The intracellular
+volume was determined as described for Neurospora crassa [8] using xylitol as a
+
+G.J.G. Ruijter, J. Visser / Journal of Microbiological Methods 25 (1996) 295-302
+
+298
+
+probe. Solid xylitol was added to a 25ml culture
+sample to a final concentration of approximately 50
+mM. After 10 min of incubation, the mycelium was
+collected on a sintered glass funnel. A sample was
+taken from the filtrate to determine the exact starting
+concentration
+of xylitol (concentration
+Fl ) by high
+performance
+anion-exchange
+chromatography.
+Following measurement of the wet weight (WW) of the
+mycelium, the pellet was resuspended in 50 ml of
+water and incubated
+for 10 min. After another
+filtration step the dry weight (DW) of the mycelium
+was determined after lyophilisation
+and the xylitol
+concentration
+was measured in the second filtrate
+(concentration
+F2). The intracellular
+volume was
+calculated as ml/g dry weight according to the
+following equation in which WW and DW are in
+grams and using a value of 1 g/ml for the density of
+water:
+Intracellular
+
+volume =
+
+(WW - DW - 50*F2/Fl)/DW
+
+3. Results
+3. I. Determination
+
+of metabolites
+
+With the methods employed,
+most glycolytic
+metabolites could be measured without difficulty in
+Aspergillus niger extracts. A few exceptions were
+glyceraldehyde
+3-phosphate, which is unstable and
+decomposes
+rapidly, and 2-phosphoglycerate
+and
+NADH, for which the levels were always very low in
+our Aspergillus niger samples.
+The lowest metabolite concentration that could be
+determined routinely in a concentrated extract was
+2-3 PM, which is equivalent to approximately 0.02
+pmollg
+dry weight (the kinetic assay used for
+fructose 2,6-diphosphate allows determination of 10
+nM F2,6DP in a concentrated
+extract). Standard
+deviations were generally lo-20% of the measured
+values, but were higher for metabolites that were
+present at low concentrations
+in the cells.
+3.2. Sampling
+
+method
+
+To quench cellular metabolism rapidly, a sample
+of an Aspergillus
+niger culture was transferred
+
+directly to a solution containing 60% methanol and
+200 mM triethanolamine
+pH 7.3 precooled
+to
+-45°C. The use of cold methanol for quenching has
+been developed for yeast [2,3], but due to strong
+acidification of the culture medium by Aspergillus
+niger a buffered methanol solution had to be used in
+this case to prevent degradation
+of acid labile
+metabolites.
+Following
+quenching,
+the mycelia were either
+collected by centrifugation
+or filtration, both at low
+temperature. When centrifugation was used to collect
+mycelia from the samples, the amounts of dihydroxyacetonephosphate
+and ATP extracted were 3080% lower than the amounts obtained with filtration
+(data not shown). In addition, the amounts of ADP
+and AMP were higher with centrifugation. With the
+available equipment,
+a suboptimal temperature
+of
+- 10 to -5°C could be maintained during centrifugation. Since the temperature could be kept lower
+during filtration (below -20°C)
+we interpreted the
+observed differences as a phosphatase activity that
+could be inhibited by extremely low temperatures.
+Therefore, filtration was used to collect mycelium.
+Possible leakage of metabolites from the cells was
+checked by measuring the amount of the various
+metabolites
+both in the cells and in the filtrate
+directly following
+sampling and after a 30-min
+incubation of the sample at -45°C.
+None of the
+metabolites could be detected in significant amounts
+in the filtrates (Table 1). Furthermore, the metabolite
+levels in the cells were independent of the residence
+time at -45°C following quenching. Variation in the
+number of wash steps (O-5 times) also did not affect
+the metabolite levels (data not shown). These observations indicate that the metabolites determined
+did not leak from the cells after quenching of culture
+samples in 60% methanol at -45°C.
+In addition, the constant level of metabolites in the
+cells verifies the effectiveness of the sampling method in sufficiently stopping metabolism.
+3.3. Extraction
+
+method
+
+Due to the filamentous morphology of the fungus,
+quantitative removal of the water-methanol
+phase
+after extraction was difficult. With two subsequent
+extraction steps an acceptable, but not quantitative,
+extraction recovery could be obtained. To correct for
+
+G.J.G. Ruijter, J. Visser I Journal
+Table 1
+The effect of sampling
+
+of Aspergillus niger mycelium
+Amount of intracellular
+(nmoliml)”
+
+G6P
+F6P
+Fl,6DP
+F2,6DP”
+DHAP
+3PG
+2PG
+PEP
+Pyruvate
+NAD’
+NADH
+ATP
+ADP
+AMP
+
+of Microbiological Methods 25 (1996) 295-302
+
+in 60% methanol
+
+metabolite
+
+at -45°C
+
+on metabolite
+
+Amount of extracellular
+(nmollml)”
+
+299
+
+levels
+metabolite
+
+Inculcation time after sampling
+(min)
+
+Incubation
+(min)
+
+time after sampling
+
+?---
+
+30
+
+1
+
+30
+
+7.1
+1.8
+1.3
+37.0
+1.3
+1.5
+0.0
+0.3
+0.2
+6.6
+0.1
+17.1
+2.5
+0.5
+
+7.4
+1.7
+1.3
+38.0
+1.2
+I .6
+0.0
+0.3
+0.1
+5.8
+0.1
+17.1
+2.6
+0.5
+
+0.1
+0.2
+0.3
+0.0
+0.1
+-0.1
+0.5
+0.4
+0.9
+-0.5
+0.0
+-0.1
+-0.1
+-0.5
+
+0.1
+0.0
+0.6
+0.0
+0.2
+-0.1
+0.4
+0.3
+0.6
+-0.1
+-0.2
+-0.5
+0.2
+-0.6
+
+Culture
+
+0.0
+-0.1
+0.1
+0.0
+0.0
+-0.3
+0.1
+0.2
+0.2
+0.4
+0.1
+-0.2
+0.1
+- 1.0
+
+Fifty millilitres of an Aspwgillus niger culture was sampled into 200 ml of a solution containing 60% (v/v) methanol and 200 mM
+triethanolamine
+(pH 7.3) precooled to -45°C. Mycelia were collected by filtration from 125-ml portions either directly (approximately
+1
+min after sampling) or following a 30.min incubation at -45°C and extracted as described in Materials and methods. The sample filtrates
+were concentrated under vacuum from 125 to IO ml. Metabolites were assayed in extracts and filtrates as described in Materials and methods
+and expressed as nmollml culture to facilitate direct comparison between extracellular
+and intracellular concentrations.
+The column
+‘Culture’ gives the metabo.lite concentrations
+present in culture filtrate at the time of sampling. The detection limits are 0.2 nmol/ml for
+extracts and 1.0 nmollml for sample filtrates and culture filtrate. Negative values can occur due to baseline drift.
+“Fructose-2,6-diphosphate
+is given- in pmol/ml.
+
+extraction recovery xylitol was added at the start of
+each extraction as an internal standard. The recovery
+of xylitol was 8 1?4?& (va1uekS.D.; n =4) when two
+extraction steps were performed. Introduction
+of a
+third extraction step improved the recovery slightly
+(89?3%
+(value+S.D.;
+n =4)), but increased the
+volume of the extract leading to a longer time
+required for concentmtion
+of the extract. Therefore
+we routinely applied two extraction steps and used
+xylitol as an internal standard.
+A test was performed to check whether the use of
+low temperature was sufficient to block metabolism
+during extraction of the cells. For a number of
+glycolytic
+metabolites
+added at the start of an
+extraction the recovery was 73-81%, values similar
+to that obtained for xylitol (Table 2). This result
+indicates that not more than 10% and usually less, of
+the metabolites was lost due to conversions during
+extraction.
+
+3.4. Intracellular
+
+concentrations
+
+of metabolites
+
+To enable calculation of actual intracellular concentrations a conversion factor relating dry weight to
+the intracellular
+volume was determined. With an
+intracellular volume of 1.2050.15 ml/g dry weight
+(va1ueZS.D.;
+n= 13) concentrations
+of glycolytic
+intermediates were calculated for Aspergillus niger
+cultured 48 h on a medium designed for citric acid
+production (Table 3).
+
+4. Discussion
+Knowledge about the intracellular concentrations
+of intermediary metabolites is essential when regulation of metabolic pathways is studied quantitatively.
+In this report, we describe a method to determine
+intermediary metabolites in Aspergillus niger which
+
+G.J.G. Ruijter, J. Visser I Journal
+
+300
+Table 2
+Recovery
+
+of metabolites
+
+from Aspergillus
+
+of Microbiological
+
+Methods 25 (1996) 295-302
+
+niger mycelium
+Amount of
+metabolite added
+(nmol)
+
+Amount of metabolite
+in control extract
+(nmol)
+
+Amount of metabolite
+in spiked extract
+(nmol)
+
+Recovery of
+spiked metabolite
+(8)
+
+19
+4
+
+77
+
+78
+6
+
+77
+
+F6P
+G6P
+
+45
+359
+
+655
+
+531
+395
+
+74
+
+2PG
+3PG
+PEP
+
+3
+42
+12
+
+90
+
+69
+51
+12
+
+73
+
+NADH
+NAD+
+
+2
+122
+
+97
+
+80
+132
+
+80
+
+ADP
+ATP
+AMP
+
+182
+344
+62
+
+731
+
+777
+351
+66
+
+81
+
+0
+
+14,500
+
+11,800
+
+81
+
+F1,6DP
+DHAP
+
+Xylitol
+
+Fifty millilitres of an Aspergillus niger culture was sampled into 200 ml of a solution containing 60% (v/v) methanol and 200 mh4
+triethanolamine
+(pH 7.3) precooled to -45°C. Following collection of the mycelium as described in Materials and methods the mycelium
+was resuspended in 12 ml methanol and the sample was split into two equal portions. Just before the start of extraction, a number of
+metabolites were added to one of the two portions. The other portion was used as a control sample. Subsequently metabolites were extracted
+from the spiked sample and the control sample and assayed as described in Materials and methods. The absolute amounts of metabolites
+obtained by extraction are given. In addition to the metabolites added, values for some compounds that can be formed from the added
+metabolites due to biochemical conversions are shown. Xylitol is used as an internal standard.
+
+Table 3
+Concentrations
+Metabolite
+
+of glycolytic
+
+intermediates
+
+in Aspergillus
+
+Intracellular
+
+niger
+
+concentration
+
+WV”
+G6P
+F6P
+F1,6DP
+F2,6DP”
+DHAP
+3PG
+2PG
+PEP
+Pyruvate
+ATP
+ADP
+AMP
+NAD’
+NADH
+
+1.08?0.13
+0.23?0.03
+0.2520.03
+6.70?0.70
+0.171tro.03
+0.23?0.01
+0.01 to.01
+0.04~0.01
+0.04?0.01
+2.59kO.22
+0.47 -CO.06
+0.09t0.03
+0.8320.12
+0.01 ?O.Ol
+
+Procedures
+for culturing Aspergillus niger and for sampling,
+extraction and determination of metabolites are given in Materials
+and methods. For the extracted metabohtes,
+intracellular
+concentrations were calculated using a conversion factor of 1.2 ml/g
+dry weight. The values are given with standard deviations and are
+averages of 5 extracts.
+“Fructose-2,6-diphosphate
+is given in nM.
+
+is based on procedures developed for yeast [3]. The
+method involves rapid quenching of metabolism by
+sampling in cold methanol followed by extraction of
+metabolites from the cells at neutral pH. A few tests
+indicated
+that no changes in metabolite
+levels
+occurred due to leakage from the cells upon sampling, whereas changes due to conversions
+during
+sampling or extraction were minimal and not exceeding 10%. The tests described here were all performed
+on mycelia cultured for 48 h, but in other experiments the validity of the results was also established
+for both younger and older mycelia.
+In pilot experiments
+the extraction method described here, using chloroform at neutral pH, was
+compared to procedures frequently described in the
+literature using either acid or alkaline treatments. For
+a number of glycolytic intermediates (e.g., F2,6DP,
+DHAP, PEP) the chloroform method appeared to be
+superior to both extraction with perchloric acid and
+KOH, since larger amounts of these metabolites were
+extracted. This is probably due to instability of these
+metabolites at both high and low pH.
+
+G.J.G. Ruijter, J. Visser I Journal of Microbiological Methods 25 (1996) 295-302
+
+Using fast quenching of metabolism by sampling
+in cold methanol, De Koning and Van Dam [3]
+described experiments in which they studied changes
+in the levels of glycolytic intermediates in yeast on a
+subsecond
+time scale. The morphology
+of filamentous fungi is likely to cause specific problems in
+such experiments
+due to high viscosity or nonhomogeneous
+incubation mixtures. We did not test
+the possibilities to perform experiments with Aspergillus niger at the same time-scale. In this study, the
+method is used to determine steady-state levels of
+glycolytic
+intermediates
+in citric acid producing
+Aspergillus niger. No extensive analysis is presented
+here, but work is in progress using the techniques
+described to investigate the glycolytic flux in relation
+to citric acid production by this fungus. For most of
+the glycolytic metabolites determined here the intracellular concentrations
+obtained are similar to the
+few values published for citric acid producing Aspergillus niger. Values for fructose 2,6-diphosphate
+determined by Kubicek-Pranz
+et al. [9] are nearly
+identical to the values measured here. Fuhrer et al.
+[lo] determined NAD+ and NADH and found high
+levels of NADH compared to our results. The
+extraction procedure used by these authors has been
+checked thoroughly and does not appear to give
+erroneous results. One reason for relatively high
+NADH levels might be anaerobic conditions during
+sampling, but otherwise the reason for the observed
+discrepancy remains obscure. Finally, the intracellular concentrations
+of fructose &phosphate, glucose
+6-phosphate, ATP and AMP determined by Habison
+et al. [ 1 l] are lower than the values obtained in this
+study. This is, however, mainly due to the high value
+for the intracellular volume (2.54 ml/g dry weight
+[8]) assumed by these authors. When the two-fold
+difference in the values used for intracellular volume
+is taken into account, the differences in metabolite
+levels are minor. A range of values for intracellular
+volume of fungi is reported in the literature. For
+yeast, a frequently citied value is 3 ml/g dry weight
+[l], whereas values for filamentous fungi vary from
+1 ml/g dry weight for Claviceps purpurea [ 121 to
+2.5 ml/g dry weight for Neurospora crussa [8]. In
+our experience the intracellular volume to dry weight
+ratio for Aspergillus (Tiger varies with growth conditions (e.g., a value of 2.3 ml/g dry weight was
+found for Aspergillus niger mycelium cultured in
+
+301
+
+medium supplemented with trace metals). This is not
+surprising in view of the effects on morphology and
+cellular composition of Aspergillus niger caused by
+cultivation on a manganese-depleted
+medium (i.e.,
+during citric acid production). Therefore it appears
+necessary to determine the intracellular
+volume of
+the mycelium for the experimental growth conditions
+one wants to use for the determination
+of metabolites.
+Finally, it should be noted that the procedures
+described here may also be applied to studies on
+metabolic regulation in other filamentous fungi.
+
+Acknowledgments
+The work described in this paper was supported by
+a grant from Haarmann and Reimer, Elkhart, IN,
+USA. The authors thank Drs. W. de Koning, H.
+Panneman,
+A.G. Brooke, W.J.E. Gardner and J.
+Lawson for valuable discussions
+and Dr. W. De
+Koning and Prof. Dr. K. van Dam for providing us
+with the appropriate data-logging and data-analysis
+programs.
+
+References
+111Gancedo,
+
+J.G. and Gancedo. C. (1973) Concentrations
+of
+intermediary metabolites in yeast. Biochimie 55, 205-211.
+
+121Skz. M.J. and Lagunas, R. (1976) Determination
+
+of intermediary metabolites in yeast. Critical examination
+of the
+effect of sampling conditions
+and recommendations
+for
+obtaining true levels. Mol. Cell. Biochem. 13, 73-78.
+[31 De Koning, W. and Van Dam, K. ( 1992) A method for the
+determination of changes of glycolytic metabolites in yeast
+on a subsecond time scale using extraction at neutral pH.
+Anal. Biochem. 204, 118-123.
+[41 Kubicek. C.P. and Rohr, M. (1986) Citric acid fermentation.
+CRC Crit. Rev. Biotechnol. 3. 331-373.
+[51 Pontecorvo, G., Roper, J.A., Hemmons. L.J., MacDonald,
+K.J. and Bufton, A.W.J. (1953) The genetics of Aspergillus
+nidulans. Adv. Genet. 5, 141-238.
+[61 Bergmeyer, H.U. (1985) Methods of Enzymatic Analysis,
+Vol. VI and VII, VCH Publishers, Deerfield Beach. FL, USA.
+E., Lederer, B., Bartrons, R. and Hers,
+[71 Van Schaftingen,
+H.-G. (1982) A kinetic study of pyrophosphate : fructose-6phosphate phosphotransferase
+from potato tubers. Application to a microassay
+of fructose-2.6-diphosphate.
+Eur. J.
+Biochem. 129, 191-195.
+
+302
+[S] Slayman,
+
+G.J.G. Ruijter, J. Visser I Journal
+
+of Microbiological
+
+C.W. and Tatum, E.L. (1964) Potassium transport
+in Neurospora.
+I. Intracellular sodium and potassium concentrations and cation requirements
+for growth. Biochim.
+Biophys. Acta 88, 578-592.
+[9] Kubicek-Pranz,
+E.M., Mozelt, M., Rohr, M. and Kubicek,
+C.P. (1990) Changes in the concentration
+of fructose-2,6bisphosphate
+in Aspergillus niger during stimulation
+of
+acidogenesis
+by elevated sucrose concentration.
+Biochim.
+Biophys. Acta 1033, 250-255.
+
+Methods
+
+25 (1996)
+
+295-302
+
+[IO] Fiihrer, L., Kubicek, C.P. and Rohr, M. (1980) Pyridine
+nucleotide levels and ratios in Aspergillus niger. Can. J.
+Microbial. 26, 405-408.
+[l I] Habison. A., Kubicek, C.P. and Rohr, M. (1983) Partial
+purification and regulatory properties of phosphofructokinase
+from Aspergillus niger. Biochem. J. 209, 669-676.
+[12] Aniur, M., Tome, B., Sentjurc. M. and Schara, M. (1985)
+Cellular volume determinations
+of fungus Claviceps purpurea sclerotic cells. Biotechnol. Bioeng. 28, 1879- 1883.
+
+

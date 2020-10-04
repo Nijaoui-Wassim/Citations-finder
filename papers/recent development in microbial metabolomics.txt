@@ -1,0 +1,1190 @@
+Trends in Analytical Chemistry 56 (2014) 37–48
+
+Contents lists available at ScienceDirect
+
+Trends in Analytical Chemistry
+journal homepage: www.elsevier.com/locate/trac
+
+Review
+
+Recent developments and applications of metabolomics in
+microbiological investigations
+Yong-Jiang Xu a,⇑, Chengshu Wang a, Wanxing Eugene Ho b, Choon Nam Ong b
+a
+Key Laboratory of Insect Developmental and Evolutionary Biology, Institutes of Plant Physiology and Ecology, Shanghai Institutes for Biological Sciences, Chinese Academy of
+Sciences, Shanghai 200023, People’s Republic of China
+b
+Saw Swee Hock School of Public Health and NUS Environmental Research Institute, National University of Singapore, 16 Medical Drive, Singapore 117597, Singapore
+
+a r t i c l e
+
+i n f o
+
+Keywords:
+Biomarker
+Foodomics
+Food safety
+Mass spectrometry
+Metabolic pathway
+Metabolomics
+Metabonomics
+Microbiological investigation
+Microbiology
+Nuclear magnetic resonance spectroscopy
+
+a b s t r a c t
+Metabolomics is the comprehensive (qualitative and quantitative) analysis of all metabolites within an
+organism or a biological system. By studying endogenous metabolites produced from an organism in
+or around growing biosystems or cells at a given time during growth or the production cycle, metabolomics can potentially provide critical information to help understand the changes occurring in the relevant
+metabolic pathways. The emerging ﬁeld of microbial metabolomics has received much attention in
+recent years, because it not only offers a broad picture of the altered pathways, but also elaborates the
+mechanisms of the interplay between microbe and host. This article reviews major issues in microbial
+metabolomics, and gives a comprehensive, critical overview of the current state of the art, future challenges and trends in microbal metabolomics, including systems microbiology and foodomics.
+Ó 2014 Elsevier Ltd. All rights reserved.
+
+Contents
+1.
+2.
+
+3.
+
+4.
+5.
+
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Analytical technologies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.1.
+Sample preparation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.2.
+Analytical methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.2.1.
+Mass spectrometry for metabolomics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.2.2.
+Nuclear magnetic resonance spectroscopy for metabolomics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.3.
+Data processing and analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Microbial metabolomics and applications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.1.
+Interactions of gut microbiota . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.2.
+Food, nutrition and microbial metabolomics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.3.
+Phytopathogens and entomopathogens . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Recent trends . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Acknowledgements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+38
+38
+38
+41
+41
+42
+42
+43
+43
+44
+44
+44
+45
+45
+45
+
+Abbreviations: CE, Capillary electrophoresis; ECVA, Extended canonical variates analysis; FT-ICR, Fourier transform-ion cyclotron resonance; GC, Gas chromatography;
+HCA, Hierarchical cluster analysis; LC, Liquid chromatography; LDA, Linear discriminant analysis; MS, Mass spectrometry; NMR, Nuclear magnetic resonance spectroscopy;
+PCA, Principal-components analysis; PCDA, Principal-component discriminant analysis; PLS-DA, Partial least squares discriminant analysis; QDA, Quadratic discriminant
+analysis; QIT, Quadruple ion trap; Q-TOF, Quadrupole time of ﬂight; STOCSY, Statistical correlation spectroscopy.
+⇑ Corresponding author. Tel./Fax: +86 21 54924170.
+E-mail address: yjxutju@gmail.com (Y.-J. Xu).
+http://dx.doi.org/10.1016/j.trac.2013.12.009
+0165-9936/Ó 2014 Elsevier Ltd. All rights reserved.
+
+38
+
+Y.-J. Xu et al. / Trends in Analytical Chemistry 56 (2014) 37–48
+
+1. Introduction
+To understand the biological mechanism on all different hierarchical levels, systems biology was introduced to examine the structure and the dynamics of cellular and organismal functions, rather
+than the characteristics of isolated parts of a cell or an organism
+[1]. Systems biology has now evolved as a broad research ﬁeld that
+offers the prospect of assisting in solving fundamental problems
+[2]. The metabolome is one of the components in systems biology.
+It is the core in connection with many cellular changes and phenotypes [3]. Speciﬁcally, metabolism is regulated by gene expression
+and post-transcriptional and post-translational events, metabolites
+are functional entitles within cells and their amounts vary as a consequence of genetic or physiological changes, and can reﬂect the
+phenotype (Fig. 1A). Moreover, the metabolome, which refers to
+the global collection of small-molecule metabolites (such as metabolic intermediates, hormones and other signaling molecules, and
+secondary metabolites) found within a biological sample, is an
+ampliﬁed product of upstream molecular changes in the transcriptome and the proteome [4].
+Progress in studies of the metabolome or metabolites has been
+aided by the recent advent of analytical technologies for comprehensive metabolic analysis, termed ‘‘metabolomics’’ [5].
+Historically, there were two terms, ‘‘metabolomics’’ and ‘‘metabonomics’’, which were deﬁned as the quantitative measurement of
+the dynamic multi-parametric metabolic response of living systems to pathophysiological stimuli or genetic modiﬁcation [6].
+The difference between the two terms is simply because of usages
+amongst different groups that have popularized them. In practice,
+the term ‘‘metabolomics’’ is often used interchangeably with
+‘‘metabonomics’’ [7] (Fig. 1B). Metabolomics is the endpoint of
+the omics cascade, so it provides access to the biochemical phenotype. Integrative use of multiple approaches in systems biology
+may thus be a better strategy and can also further offer insight
+for better understanding of an organism [8].
+Metabolomics has proved to be an acceptable, reproducible platform technology, capable of capturing key molecular signatures and
+characteristics of diseases at different stages and progression [9,10].
+Considering the importance of microbes as model organisms, the
+application of metabolomics techniques in microbiology has
+recently received much attention. The ﬁrst microbial metabolomics
+study was in 1992 by Elmroth et al. [11], who employed GC-MS
+combined with chemometrics to detect fatty acids, amino acids
+and sugars in evaluating bacterial contamination of cultures of
+Leuconostoc mesenteroides.
+So far, microbial metabolomics has been widely applied in various microbiological ﬁelds, such as microorganism identiﬁcation,
+mutant screening and functional gene research, metabolic pathway identiﬁcation and microbial engineering. Compared to studying plants and animals, the main disadvantage of microbe-based
+metabolomics is that the microbial metabolites are generally complicated and thus difﬁcult to identify. Moreover, the intracellular
+and extracellular metabolites in microbes are not easily separable.
+Within a system-wide framework, there are also distinct advantages in studying microbial systems over higher organisms. As
+microbes are less complex biological organisms, the majority of
+genome-sequenced data of microorganisms are readily available.
+Relevant information on gene regulation, metabolic network, and
+physiology of microbial cells is also easily accessible. Microbiology
+is therefore a research area that can greatly beneﬁt from recent
+advances in metabolomics [12].
+In the past few years, there have been several excellent reviews on
+microbial metabolomics [13–18]. However, there is growing awareness that many technical problems in microbial metabolomics have
+remained unsolved, especially with regards to sample preparation,
+
+biomarker identiﬁcation and mechanism interpretation. There are
+no reviews providing a comprehensive, in-depth summary of current
+strategies of microbial metabolomics.
+In this context, we seek to focus this review on research methodology and to provide an update on recent progresses and pitfalls
+of microbial metabolomics. In addition, we also discuss challenges
+associated with microbial metabolomics.
+
+2. Analytical technologies
+Numerous analytical procedures (e.g., sample preparation, signal acquisition, data processing, and data analysis) are involved
+in a metabolomics study and can directly inﬂuence the ﬁnal results
+and the biological interpretations. Currently, there are no deﬁnitive
+or standardized operating procedures for microbial metabolomics.
+Analysis of data from identical samples using different analytical
+technologies will differentially affect the data and can potentially
+lead to incorrect ﬁndings and contradictory conclusions (Fig. 2A).
+Numerous analytical technologies were recently developed in
+several laboratories that promoted the formulation of in-house
+strategies for sample preparation, and analytical and bioinformatics tools for analysis of the vast amount of data generated [19,20].
+Herein, we provide a step-wise description of general analytical
+technologies for microbial metabolomics.
+
+2.1. Sample preparation
+In order to obtain meaningful metabolomics data, microbial
+metabolomics requires appropriate sample-preparation steps,
+which include immediate quenching of enzymatic activities, separation of exo- and endo-metabolomes, and the thorough extraction
+of metabolites.
+As intracellular metabolites in microbes may also undergo rapid
+metabolic responses during the sample-preparation steps (usually
+in 1–2 s), it is crucial to collect the samples quickly. Such a strategy
+prevents alterations in the microbial substrate concentrations and
+helps maintain the stability of the microbial metabolism. Speciﬁcally, this step is regarded as especially important for continuous
+cellular cultivation, as the medium-substrate concentration (such
+as, glucose) is generally low, so the physiological changes tend to
+be rapid. To date, some simple instrumentation for collecting
+samples has been improvised for microbial metabolomics. For
+example, Schaefer et al. [21] developed an automated sampling
+device, coupled to a stirred tank reactor, for monitoring intracellular metabolite dynamics with a sampling rate of 4.5 s 1. For determination of rapid changes, Buziol et al. [22] developed a sampling
+technique based on a continuous stream of biosuspension, from
+the bioreactor, which was mixed with a glucose solution in a
+turbulent mixing chamber. In the same year, Visser et al. [23]
+presented a novel device, namely BioScope, that allowed elucidation of in vivo kinetics of microbial metabolism via perturbation
+experiments.
+Generally, the separation of extracellular metabolites and cells
+should be kept at low temperatures to prevent side reactions.
+However, the intracellular metabolism is also altered after sampling, due to separation from the culture environment. As current
+metabolomics focuses on the metabolite per se, sample quenching
+is required to stop the metabolism at speciﬁc time intervals to
+obtain the real metabolic information at given times. The ideal
+quenching technology should therefore meet two basic criteria:
+(1) rapid quenching of enzyme activity;
+(2) maintaining the cell or organism intact at all times.
+
+Y.-J. Xu et al. / Trends in Analytical Chemistry 56 (2014) 37–48
+Fig. 1. (A) In information ﬂow in the omics family, the ﬂow is from genes to transcripts to proteins to metabolites and to phenotype. (B) In classiﬁcation of metabolomics, untargeted metabolomics are generally for discovery of
+metabolites or global metabolic pathways, whereas targeted metabolomics are tailored for speciﬁc metabolic pathway or metabolites.
+
+39
+
+40
+Y.-J. Xu et al. / Trends in Analytical Chemistry 56 (2014) 37–48
+Fig. 2. (A) General strategies and major experimental factors that might lead to variations in microbial metabolomics studies. (B) Current analytical methods that can be used for microbial metabolomics. In general, nuclear
+magnetic resonance spectrometry covers comprehensive features of the metabolome, whereas mass spectrometry caters for higher sensitivity measurements.
+
+Y.-J. Xu et al. / Trends in Analytical Chemistry 56 (2014) 37–48
+
+In 1992, De Koning and Van Dam [24] designed the following
+protocol for quenching of yeast metabolism:
+ spraying 15 mL of culture broth into 60 mL of cold ( 40°C) 60%
+methanol in water;
+ after cooling for 5 min, the sample/methanol mixture was centrifuged at 5000 rmp for 5 min at 20°C to obtain a cell pellet;
+ the cell pellet was subsequently extracted.
+This protocol has become one of the most popular quenching
+methods applied in microbial metabolomics. However, metabolite
+leakage during quenching accomplished by a fast decrease of the
+temperature has been attributed to the so-called cold-shock
+phenomenon, whereby the decrease in temperature results in an
+increase in the permeability of the cell membrane [25,26].
+In order to minimize metabolite leakage, methods and procedures have been developed to quench various speciﬁc microbial
+species. A recent study showed that signiﬁcant amounts of metabolites can diffuse out of yeast cells into cold methanol. Thus, Spura
+et al. [27] developed an alternative quenching solution containing
+40% ethanol and 0.8% (w/v) sodium chloride at 20°C, proposed
+speciﬁcally for the metabolomics sampling of yeast, and increased
+detected metabolite levels for 60–80% of 120–160 identiﬁed compounds. However, Kim et al. [28] evaluated the quenching method,
+using 60% (v/v) methanol, pure methanol at 40°C, boiling ethanol
+(75%, v/v) and fast ﬁltration, by analyzing 110 identiﬁed intracellular metabolites of Saccharomyces cerevisiae. According to their
+results, fast ﬁltration, followed by washing with an appropriate
+volume of water, can substantially minimize metabolite loss.
+There are also many quenching procedures applicable to other
+eukaryotes. Faijes et al. [29] compared four different aqueous
+quenching solutions for studying Lactobacillus plantarum. Only 60%
+(v/v) methanol buffer containing either 70 mM HEPES or 0.85%
+(w/v) ammonium carbonate (pH 5.5) in 40°C caused less than
+10% cellular metabolite leakage. Compared with the eukaryotic
+microorganisms, such as ﬁlamentous fungi and yeast, bacterial cells
+are more likely to leak intracellular metabolites, when using
+cold-methanol quenching. The occurrence of metabolite leakage in
+Gram-negative bacterium is more frequent than in Gram-positive
+bacterium, due to compositional differences in their cell-wall
+structures [30,31]. As a result, a few modiﬁed procedures for
+bacterial quenching have also been established.
+In 2008, Winder et al. [32] developed and validated standard
+operating procedures for quenching metabolites from Escherichia
+coli to determine the best method for global analysis of the E. coli
+metabolome. They claimed that 60% cold-methanol solution
+( 48°C) is the most appropriate quenching method. However,
+Taymaz-Nikerel et al. [33] compared a different method of
+obtaining metabolomics data for E. coli, which concluded that cold
+aqueous methanol was not appropriate, as they observed the
+release of a major portion of the metabolites from the cells. Hence,
+Link et al. proposed that the cold mixture of methanol and glycerol
+(3:2 v/v) at 50°C should be the preferred quenching method for
+E. coli [34].
+Moreover, Wu et al. evaluated three quenching methods for
+Staphylococcus aureus, which include quenching-centrifugation
+(Q-C), ﬁltration-quenching (F-Q) and ﬁltration-quenching-lyophilization (F-Q-L). The study noted that Q-C caused severe metabolite
+leakage and possible decomposition of nucleotides. F-Q achieved
+high yields and reproducibility, although it possessed other disadvantages, such as long ﬁltration and rinse times prior to quenching.
+F-Q-L resulted in losses of several metabolites and a lower yield
+due to the lyophilization step. Hence, they recommended that
+F-Q is the most appropriate sampling method because of its high
+yield and reproducibility [35].
+
+41
+
+In summary, although numerous quenching methods have been
+proposed speciﬁcally for various microbial species, there is still an
+unmet demand for a suitable quenching method that can eliminate
+metabolite leakage, so further efforts are needed to resolve this
+issue.
+Extraction of metabolites is another important process in
+microbial metabolomics. For the proﬁling of metabolites, the ideal
+extraction method should satisfy the following features:
+(1) unbiased to include the diversity of metabolites;
+(2) maximal extraction of metabolites;
+(3) minimal degradation or modiﬁcations of physical and chemical properties of metabolites.
+Currently, the common extraction methods include the use of cold
+or hot methanol, hot ethanol, perchloric acid or alkali, a mixture of
+chloroform and methanol, and acetonitrile. Amongst them, acid or alkali extraction is considered one of the most conventional methods,
+speciﬁcally used for acid- or alkali-resistant metabolites. Perchloric
+acid has also been widely used to extract bacterial metabolites. This
+method extracts nucleotides and water-soluble substances with
+excellent results, such as CAMP, ppGpp and precursors of the cell
+wall. Similarly, potassium hydroxide was used for extraction of
+ADP, ATP and precursors. However, low/high pH can cause instability
+of some metabolites [36]. The methanol-chloroform method is suitable for the extraction of non-polar metabolites, but performs poorly
+for polar metabolites. Furthermore, the method is relatively timeconsuming and the toxicity of the solvents involved is of concern
+[37]. The methanol- or ethanol-extraction method has the trait of
+being simple and fast. Furthermore, the extraction agent can be easily
+removed and metabolites can be concentrated without much difﬁculty. Nevertheless, hot methanol or ethanol extraction tends to
+affect the thermal stability of metabolites [38]. However, all existing
+extraction methods are imperfect for microbial metabolomics, due to
+their inability to extract all metabolites.
+So far, there is a lack of a comprehensive, generally acceptable
+sample-preparation method that covers all aspects of microbial
+metabolomics. Due to the diversity of the metabolites, it is difﬁcult
+to acquire all intracellular metabolites comprehensively by a single
+extraction method. Thus, the combination of different methods
+may be useful to improve extraction capability. In short, additional
+effort to develop an ideal quenching method is needed to improve
+sample preparation in microbial metabolomics.
+2.2. Analytical methods
+Global proﬁling of metabolites requires analytical techniques
+capable of measuring a variety of chemical classes of molecules
+in biological samples, potentially existing in a wide dynamic range
+of concentrations [39]. Two major analytical technologies commonly employed in metabolomics are mass spectrometry (MS)
+and nuclear magnetic resonance (NMR) spectroscopy. A number
+of good review articles were published recently, providing details
+on technical aspects of MS and NMR, comparing their advantages
+and limitations, and discussing some of their unique applications
+[40–43] (Fig. 2B). Herein, we brieﬂy introduce these analytical
+technologies in microbial metabolomics.
+2.2.1. Mass spectrometry for metabolomics
+MS is a well-established analytical technique for metabolomics,
+with high selectivity and sensitivity. Combination with advanced,
+high-throughput separation techniques, such as gas chromatography-MS (GC-MS), liquid chromatography-MS (LC-MS) and more
+recently, capillary electrophoresis-MS (CE-MS), have widened the
+applications of MS technology.
+
+42
+
+Y.-J. Xu et al. / Trends in Analytical Chemistry 56 (2014) 37–48
+
+In GC-MS, several hundred compounds could be analyzed
+simultaneously, including organic acids, most amino acids, sugars,
+sugar alcohols, aromatic amines and fatty acids. In microbial metabolomics, GC-MS has developed into a mature platform, the ﬁrst
+technology used in this ﬁeld. The Nielsen group has conducted
+many microbial metabolomics studies based on GC-MS, including:
+ the development of chloroformate derivatives for analyzing
+amino acids for different species of ﬁlamentous fungi [44];
+ a microwave-assisted derivatization method for analyzing fatty
+acids in yeast samples [45];
+ comparing direct infusion-MS and GC-MS for metabolic footprinting of yeast mutants [46].
+However, the derivatization reaction is a prerequisite in GC-MS
+analysis. The experiment-derived variations and originations of
+chromatographic peaks are two fundamental issues that could
+directly inﬂuence GC-MS analysis [47,48], so efﬁcient, reproducible
+derivatization methods are critical elements for GC-MS metabolomics analysis, and can help minimize experimental variations. So
+far, many strategies have been developed to overcome some of
+these confounding factors [49–52].
+In metabolomics, LC-MS is better suited to the analysis of labile
+and non-volatile polar and non-polar compounds, without the
+need for a derivatization reaction. Lv et al. [53] applied an untargeted metabolomics approach to identify compounds, associated
+with a population with E. coli-infected urinary tracts and revealed
+the discovery of infection-associated endocrine, catabolic and lipid
+pathways.
+Coulier et al. [54] developed an ion-pair LC coupled to electrospray-ionization MS (IP-LC-ESI-MS) method for the simultaneous
+quantitative analysis of several key classes of polar metabolites.
+The method was demonstrated to be a useful tool for microbial
+metabolomics (i.e., a comprehensive platform that could be used
+to quantitative analysis of a wide range of metabolites in extracts
+of microorganisms).
+Despite being successfully applied in many studies, LC-MSbased microbial metabolomics still has some unsolved problems.
+High salt concentration produced from culture medium can suppress ESI efﬁciency and block the smooth ﬂow of the pump, which
+leads to poor quantitation and compromises the repeatability of
+the LC-MS analysis.
+Recently, a new method was developed for the quantitative
+analysis of the microbial metabolome using a mixture of fullyuniformly (U) (13)C-labeled metabolites as internal standards in
+LC-MS analysis. This method has led to reduced workload and
+increased robustness, and made metabolomics analysis more
+precise [55].
+CE-MS separations are very efﬁcient, require only small
+amounts of sample, regents and solvent, and are relatively inexpensive (cheap fused-silica capillaries versus costly LC columns).
+However, reproducibility tends to be one of the major challenges,
+due to the small size of the samples and analytical conditions. Soga
+et al. [56,57] developed and utilized CE-MS to determine intracellular metabolites extracted from wild-type and gene-knockout
+mutants of E. coli and Bacillus subtilis. The applicability of CE-MS
+for microbial metabolomics studies has been summarized in several reviews [58–60].
+2.2.2. Nuclear magnetic resonance spectroscopy for metabolomics
+NMR spectroscopy is one of the principal techniques used to
+identify organic compounds distinctly. NMR-based metabolomics
+can provide a ‘holistic view’ of metabolites under certain conditions, due to its ability to measure intact biomaterials non-destructively, while obtaining rich structural information. Disadvantages
+of NMR technology include low sensitivity and spectral resolution,
+
+and poor time resolution. It also suffers from limited quantiﬁcation
+methods and limited availability of commercial software [61].
+In microbiology, the composition of intracellular metabolites of
+microbe is complex and includes inorganic ions, hydrophobic lipids
+and complex natural molecules. Their molecular concentrations
+may range and alter over several orders of magnitude (from pmol
+to mmol). For this reason, concerns over the low sensitivity of NMR
+have greatly limited its widespread use in microbial metabolomics.
+However, there is still much interest in applying NMR techniques
+for microbial metabolomics. For example, Boroujerdi et al. [62]
+have examined intracellular metabolites from bacterium Vibrio
+coralliilyticus cultured at 27°C (virulent form) and 24°C (avirulent
+form) using NMR technology.
+2.3. Data processing and analysis
+Data preprocessing is an intermediate step between raw spectra
+and data analysis. Typical data processing usually proceeds
+through multiple stages, including baseline correction, feature
+detection, ﬁltering, alignment and normalization. So far, software
+has been developed to convert the initial MS raw data to a twodimensional data table {e.g., MZmine [63], XCMS [64] and METIDEA [65]}. Many instrument manufacturers also offer their own
+proprietary software {e.g., MarkerLynx (Waters), MassProﬁler (Agilent), MarkerView (Applied Biosystems/MDS SCIEX) and SIEVE
+(Thermo Fisher Scientiﬁc)}. For NMR-data preprocessing, quantitative or scored integrals of speciﬁc spectral peaks called ‘‘binning’’
+are used [41].
+Multivariate and univariate statistical methods are professional
+approaches to analyzing and maximizing information retrieval from
+complex raw data. They can be classiﬁed into two sub-families of
+methods, namely unsupervised and supervised. There are several
+unsupervised approaches available, including principal-components analysis (PCA), robust-PCA, hierarchical cluster analysis
+(HCA), K-means, statistical correlation spectroscopy (STOCSY)
+[66,67], and cluster analysis statistical spectroscopy (CLASSY) [68].
+Supervised methods can reveal the most important factors of variability characterizing the data set, which are commonly found to
+be distinct from the factor speciﬁcally investigated. Many other
+discriminant techniques are available to analyze metabolomics
+datasets, including partial least squares discriminant analysis
+(PLS-DA) [69], orthogonal PLS-DA (OPLS-DA) [70], linear discriminant analysis (LDA), quadratic discriminant analysis (QDA) [71],
+principal-component Discriminant Analysis (PCDA) [72], and
+extended canonical variates analysis (ECVA) [73].
+Biomarker identiﬁcation is another essential component of
+metabolomics analysis and is a challenging, time-consuming process, especially in microbial metabolomics. This is because the
+microorganism can produce a very diverse range of metabolites
+under different conditions, which may not be commonly recognized by standard spectrometry. However, the ‘‘naïve’’ identiﬁcation of metabolites by simplistic mass matching, without
+considering their molecular origins, can lead to spurious, humorous or meaningless compound identiﬁcations [74]. Beneﬁtting
+from the wealth of information, a number of microbial databases
+are emerging and have helped to speed up identiﬁcation. In parallel, researchers can also resort to general metabolomics databases. The representative useful databases are shown in Table 1.
+In microbiology, metabolic pathway analysis may shed light on
+the interaction of metabolites and complement functional genomics research exploring in gene-expression data. However, the generalized metabolic pathway, such as KEGG, is unable to cover
+comprehensively the entire metabolic network and the intricate
+metabolic processes of all metabolites. In view of this, silico models
+of microbial network have been constructed. Oh et al. [75] presented a genome-scale reconstruction of B. subtilis metabolism
+
+Y.-J. Xu et al. / Trends in Analytical Chemistry 56 (2014) 37–48
+Table 1
+Representative website resources for microbial metabolomics
+Microbial metabolomics resources
+HMP: The Human Microbiome Project
+http://www.hmpdacc.org/
+EcoCyc: Encyclopedia of Escherichia coli K-12 Genes and Metabolism
+http://www.ecocyc.org/
+ECMDB: The Escherichia coli Metabolome Database
+http://www.ecmdb.ca
+YMDB: The Yeast Metabolome Database
+http://www.ymdb.ca
+NMD: National Microbiological Database
+http://www.foodsafety.govt.nz/industry/general/nmd/
+MNPD: Microbial Natural Products Database
+http://naturalprod.ucsd.edu/
+UMBBD: University of Minnesota Biocatalysis/Biodegradation Database
+http://umbbd.ethz.ch/
+BioCyc Pathway/Genome Databases and Pathway Tools Software
+http://biocyc.org/
+Metabolomics databases
+HMDB: http://www.hmdb.ca/
+BiGG: http://bigg.ucsd.edu/
+SYSTOMONAS: http://systomonas.tu-bs.de/
+LIPID MAPS: www.lipidmaps.org/
+KEGG: www.genome.jp/kegg/
+PubChem Compound: http://www.ncbi.nlm.nih.gov/pccompound
+MetaCyc Encyclopedia of Metabolic Pathways: http://metacyc.org/
+
+and its iterative development based on the combination of genomic, biochemical, and physiological information and high-throughput phenotyping experiments, consisting of 1020 metabolic
+reactions and 988 metabolites. In 2008, Herrgård et al. [76] produced a consensus metabolic network reconstruction for S. cerevisiae, including 1168 metabolites, 832 genes, 888 proteins and 1857
+reactions.
+3. Microbial metabolomics and applications
+Microbial metabolomics is one of the platforms for integrating
+biological information into systems microbiology [77]. Microbial
+metabolomics has contributed to the discovery of unique metabolic pathways, regulatory interactions and homeostasis mechanisms. Recently, many metabolic pathways were revealed by
+investigations in microbial metabolomics [78–80]. Meanwhile,
+metabolomics has also made substantial contributions to mapping
+novel substrates and metabolic pathways, and is a promising quantitative tool for investigating the dynamics of microbial evolution
+and development, rather than being used simply for resolving connections between species [81]. These ﬁndings can provide useful
+insights into global metabolism and metabolic regulation. In other
+words, microbial metabolomics can contribute signiﬁcantly
+towards understanding systems biology. To date, there are many
+topics and applications reported in the literature that have
+demonstrated such capability. In this review, we further select
+the following four areas to illustrate recent progress in microbial
+metabolomics.
+3.1. Interactions of gut microbiota
+The amount of microbes in humans far exceeds that of their
+own cells [82]. Amongst these microbes, the gut microbiota is
+one of the topics of current focus in systems biology and metabolomics. Indeed, the gut-microbiota community is one of the best
+illustrations for interactions between mammal and microbial metabolomes. However, this does not undermine the biological importance of other microbial communities with respective colonization
+sites in our body. Promising and interesting ﬁndings on other
+
+43
+
+microbiota have also been observed [83–85]. Gut microbiota possess a broad spectrum of biological effects on health, such as preventing the development of serious diseases, improving the
+immune system and gut health, through to stimulating the brain
+centers responsible for appetite and food-intake control [86].
+Normally, the gut microbiota offer many beneﬁts to the host,
+including defense against pathogens, immunity, renewal of gut
+epithelial cells, harvesting inaccessible nutrients, and generating
+energy by anaerobic metabolism of substrates [87]. The microbes
+residing in the gut are considered an important integral part of
+the intestinal ecosystem [88,89]. Hence, the analysis of metabolites
+derived from gut microbe–host co-metabolism is essential for
+understanding the metabolic functions of the gut microbiome.
+Recent studies revealed that the gut microbiota has many
+potential biological effects in the host metabolism. Nicholson
+et al. [90] employed multiple technologies to investigate microbiome-mammalian metabolic interactions in a mouse model, including metabolic proﬁling by 1H-NMR of liver, plasma, urine and ileal
+ﬂushes, and targeted proﬁling of bile acids by LC-MS and fatty
+acids in cecum by GC equipped with a ﬂame-ionization detector
+(FID). They showed that the microbiome modulates absorption,
+storage and harvest of energy from the diet at the systems level.
+Furthermore, they conﬁrmed that the microbiome strongly
+impacts upon the metabolism of bile acids, and the gut microbiota
+can modulate metabotype expression at the levels of both local
+(gut) and global (bioﬂuids, kidney, liver) systems using NMR technology [91].
+Other research groups have also demonstrated that gut
+microbes can inﬂuence many important metabolic processes in
+the host. For example, Wikoff et al. [92] reported a broad MS-based
+metabolomics study that demonstrated a surprisingly substantial
+effect of the gut microbiome on mammalian blood metabolites.
+Saric et al. [93] presented a 1H-NMR-based metabolomics investigation in aqueous fecal extracts of humans, mice and rats, which
+revealed differential gastrointestinal microbiome inﬂuences on
+the fecal metabolome. The main chemical classes involved in the
+microbiome-mammalian metabolism include lipid, choline, bile
+acids and fatty acids [94,95]. However, it is likely that there are
+many more classes of compounds and interactions to be discovered, considering the vast diversity of gut microbial genes with
+unidentiﬁed functions.
+Generally, modulation of the gut-microbiota composition has
+potential beneﬁcial effects in reducing occurrence or in control of
+disease manifestation. However, the gut-microbial community
+can also exert adverse effects on hosts, resulting in various immune disorders within and outside the gut [96]. Alteration or
+instability of the microbiota or changes in microbiota biodiversity
+is a characteristic phenotypic hallmark of a number of gastrointestinal disorders and metabolic diseases. Irritable bowel syndrome
+(IBS) and Crohn’s disease (CD) are perhaps the best known examples of inﬂammatory intestinal diseases resulting from a dysregulated immune response to the gut microbial community. Ahmed
+et al. [97] reported a GC-MS based metabolomics study of the fecal
+volatile organic metabolites (VOMs) in patients with diarrheapredominant IBS, active CD, ulcerative colitis and healthy controls.
+Short-chain fatty acids, cyclohexanecarboxylic acids and aldehydes
+were observed in the study to be associated with IBS. An
+NMR-based metabolomics study suggested that, in a subset of
+IBS patients, there exists potential dysregulation in energy homeostasis (serum glucose) and liver function (serum tyrosine) that may
+be improved through probiotics supplementation [98].
+Some of these recent studies clearly indicated that metabolomics is an emerging novel technology that can provide exclusive
+insights into the role of gut microbial metabolic interactions in
+an individual’s susceptibility to health and disease outcome. A
+recent review article highlighted the critical interactions of gut
+
+44
+
+Y.-J. Xu et al. / Trends in Analytical Chemistry 56 (2014) 37–48
+
+microbiota with their host, and some examples of metabolomics
+applications for characterizing the metabolic footprints of the gut
+microbial-host co-metabolism [99].
+3.2. Food, nutrition and microbial metabolomics
+Rapidly emerging discipline ‘‘foodomics’’ examines the connections of food components, foods, diet, individual, health, and diseases by applying advanced omics technologies in order to
+improve individuals’ health, well-being, and knowledge [100].
+Foodomics has been deﬁned as a discipline that integrates the food
+domain and the nutrition domain as a whole, using tools from
+genomics, transcriptomics, epigenomics, proteomics, and metabolomics [101].
+As an integral part of the omics family, metabolomics is widely
+used in foodomics. To date, microbial metabolomics has also been
+successfully applied to several foodomics or nutritional studies,
+such as food safety, food quality and food nutrition.
+For years, food safety has been a legitimate concern. The
+advancement of metabolomics technology allows simultaneous
+and sensitive quantiﬁcation of diverse groups of compounds in different food matrices. The representative researches on the simultaneous analysis of more than 30 pesticides and/or antimicrobials
+was summarized in a recent review [102].
+Pathogens, toxins, and sub-products in food degraded by microorganisms are relevant aspects of food safety. Hence, investigations
+on relevant metabolites are also important to food safety. MSbased technologies have made great efforts to detect toxins from
+food microorganisms {e.g., GC-MS has been used to proﬁle volatile
+metabolites related to a particular microbial contamination
+[103–105], and NMR technologies to determine microbial toxins
+[105–108]}.
+Wholesomeness is a characteristic quality of food that is acceptable to consumers, so metabolomics technologies are widely used
+in food-quality inspection. For example, MS technologies were
+used for analysis of genetically-modiﬁed organism (GMO) crops,
+providing very useful information on GMO composition (e.g.,
+metabolites and proteins) [109].
+NMR was introduced to elucidate the variation between cultivars and the magnitude of changes in the metabolic ﬁngerprints
+between harvests from spring season and the second growing season [110].
+Also, food composition has the potential to improve health or
+even to prevent disease. Recent nutritional metabolomics studies
+inspected gut microbiota host metabolic interactions with a speciﬁc focus on the co-metabolism of food composition [111]. Microbial metabolomics has been used to characterize the effects of both
+deﬁciency and supplementation of different nutrients, and to
+compare the metabolic effects of closely-related foods. It may also
+enable more accurate measurements of diet-linked effects on an
+individual or a community, while minimizing the effects of
+confounding factors, such as age, gender, physiological states and
+lifestyle [112]. For example, Ibáñez et al. [113] developed an analytical multiplatform that combined CE, RP/UPLC and HILIC/UPLC,
+all coupled to TOF-MS, to study the anti-proliferative effects of dietary polyphenols on human colon-cancer cells. Their results indicated the intracellular levels of 22 highly-related metabolites,
+known to be essential for the maintenance of the cellular functions,
+were altered in HT-29 cells by treatment with dietary polyphenols.
+An NMR-based metabolomics study exploring urinary proﬁles
+from control-fed and diet-restricted dogs found that diet restriction altered the activities of the gut microbiota, manifested by
+variation in aromatic metabolites and aliphatic amine compounds
+[114].
+Another NMR-based metabolomics study successfully demonstrated that different weaning diets in pigs induced divergent
+
+and sustained shifts in the metabolic phenotype, which resulted
+in the alteration of urinary gut microbial co-metabolites, even after
+4 weeks of dietary standardization. Also, the production of gut
+mucosa-associated IgA and IgM was found to depend upon the
+weaning diet and on Biﬁdobacterium lactis supplementation [115].
+3.3. Phytopathogens and entomopathogens
+Although metabolomics studies on plant pathogens have only
+started emerging, their potential to dissect many facets of the
+pathogen will quickly promote an increase in popularity. This
+sub-section describes the applications of metabolomics to study
+phytopathogens and their respective diseases.
+MS is the most commonly-used technique for metabolomics in
+fungal phytopathogen research. While GC-MS is the predominant
+technique, LC-MS has not been applied in any comprehensive metabolomics study but has been used to examine and to screen for
+secondary metabolites [116]. Nevertheless, MS-based metabolomics is a robust, sensitive and reproducible analytical technology
+to study fungal phytopathogens. For example, GC-MS proﬁling discovered that mannitol have critical roles during pycnidial development of wheat pathogen Stagonospora nodorum [117]. GC-MS
+proﬁling was also used to identify signiﬁcant alterations in metabolism upon exposure of S. nodorum to 0.5 M NaCl. It observed that
+arabitol and glycerol responded to salt stress in pathogens. Moreover, a reverse genetic approach was undertaken to dissect the role
+of the arabitol metabolism. This study is pertinent example of
+metabolomics contributing to the direct identiﬁcation of gene
+functions and involvement [118].
+Metabolomics has also been used to help dissect the mutation
+of pathogens. Metabolic proﬁling was undertaken on the mutant
+strains of S. nodorum lacking the Sch1 gene to help elucidate the
+roles and the functions of Sch1 gene. GC-MS analysis could identify
+secondary metabolites in Sch1-absent mutants at 200-fold
+concentrations greater than wild-type strains. ESI-MS/MS was then
+utilized to conﬁrm the identity of the altered molecule as alternariol [119].
+In addition, metabolomics has been used as a tool for the discrimination of fungal diseases on infected hosts. Several studies
+have exhibited that certain volatiles can be associated with a single
+disease. Cao et al. used LC-MS to characterize the metabolites of
+three different host tissues in infected and uninfected ryegrass,
+and revealed the presence of several compounds in the infected
+plants, including the ubiquitous mannitol, as well as peramine
+and perloline [120].
+The application of NMR to dissect fungal plant diseases is in its
+early stages, with only a handful of reports having emerged so far.
+Keon et al. [121] used 1H-NMR to study the nutritional content of
+the apoplast in wheat during infection by Mycosphaerella
+graminicola.
+Entomopathogen is another object in microbial metabolomics.
+Traditionally, most of the investigations on the interactions of
+entomopathogens and hosts focused on the levels of genome and
+transcriptome [122–124]. Recently, there were also some reports
+about metabolomics studies of entomopathogens {e.g., Luo et al.
+[125], who investigated the global metabolic proﬁling of mycelia
+and conidia of transgenic and wild-type Beauveria bassiana using
+LC-MS analysis}.
+4. Recent trends
+Corresponding to the rapid development of analytical technology, microbial metabolomics has also made signiﬁcant progress
+in the past two decades with exciting discoveries relating to
+altered metabolism and regulation of biological systems, as
+
+Y.-J. Xu et al. / Trends in Analytical Chemistry 56 (2014) 37–48
+
+detailed above. However, there are certain problems that remain to
+be resolved.
+First, there are no standard protocol in microbial metabolomics
+for the instantaneous quenching of microbial metabolic activity,
+comprehensive extracting of metabolites and analysis of the
+metabolites of interest. Current quenching procedures appear to
+be strongly dependent on a speciﬁc organism, and incapable of
+preventing metabolite leakage, so, when developing a quenching
+protocol for precise quantiﬁcation of intracellular metabolites,
+the metabolite-leakage test is an essential experimental consideration due to the inherent differences in cell-wall structure and
+membrane composition in different organisms. Recent extraction
+methods are most suited to the analysis of certain classes of
+metabolite and can be further improved. Hence, comprehensive
+metabolite proﬁling may require the combination and the integration of multiple extraction methods.
+Second, although a number of databases for microbial metabolomics are emerging, they are limited to speciﬁc microbes, particularly yeast and E. coli. There are also no available databases
+that encompass integrated metabolic data from different microbes,
+especially for viruses, bacteria and fungi. This may be due the
+boundless diversity and complexity of microbial metabolites. Indeed, hundreds of thousands of compounds have been identiﬁed
+from microorganisms, and their numbers are still increasing. As a
+result, the construction of a comprehensive database is a major
+venture that would entail enormous efforts, and technological
+and ﬁnancial resources.
+In addition, it seems that mammalian metabolic pathways cannot be entirely applied to microorganisms, as many microbial reactions do not exist in mammals, such as secondary metabolite
+biosynthesis. As existing pathway data cannot fully fulﬁl the needs
+of microbial metabolomics, it is necessary to identify and to establish speciﬁc distinctive metabolic pathways and networks for
+microorganisms.
+Furthermore, recent research has mostly focused on those
+model microbes. Increasingly, genomic information from nonmodel microbes has been obtained. However, these microbes are
+relatively less studied and the genomic information is also less
+employed to direct metabolomics studies.
+Last, current microbial metabolomics studies have largely been
+concerned about metabolites solely, with little regard for their origins. For example, glucose from microbe and host is chemically
+identical, but the biological signiﬁcance and the mechanisms that
+lead to their differential regulation differ. Hence, it is important
+to study metabolic changes of microbe and host differently, especially in research on microbe–host interactions.
+In conclusion, the current progression of microbial metabolomics is still not ﬂawless and will require further development.
+Compared to the application of metabolomics in pharmacological drug research and development, disease diagnosis and plant
+metabolomics, microbial metabolomics is still in its early stage of
+development. Nevertheless, microbial metabolomics does possess
+its own strengths, such as simplicity of the microbial system, an
+abundance of microbial genomic data and rich knowledge of
+microbial metabolic network and physiological characteristics.
+Based on the above merits, microbial metabolomics has been
+widely used to identify new metabolites, studying the environmental effects and elucidating novel and complex metabolic networks and pathways. We can therefore examine the reaction
+kinetics, the metabolic pathways and the mechanisms on a speciﬁc
+metabolic reaction, using both qualitative and quantitative analysis of metabolomics. Furthermore, the biomarkers and metabolic
+pathway derived from metabolomics investigation can also complement other omics tools to understand alterations in the global
+organism. Notably, microbial metabolomics alone is inadequate
+to understand cellular metabolic activity. Thus, a systems
+
+45
+
+microbiology approach, integrating genomics, transcriptomics,
+proteomics and metabolomics, is needed for the discovery of metabolic pathways, regulatory interactions and homeostasis mechanisms. Correspondingly, the other omics techniques can offer
+many useful molecular leads for understanding metabolomics
+data, especially with targeted investigation. Moreover, due to the
+simplicity of the microbial system, genetic and proteomic techniques (e.g., knock-in/out and overexpression) can easily be applied for validation of a metabolomics result.
+
+5. Conclusion
+As highlighted above, microbial metabolomics has opened up a
+new area of scientiﬁc interest for microbiological study and is rapidly becoming an emerging research ﬁeld. It has made tremendous
+contributions to the development of systems microbiology. Being
+both an important element of systems microbiology and an invaluable technological platform, microbial metabolomics will inevitably soon become an essential and exceptional ﬁeld of focus in
+systems microbiology.
+Acknowledgements
+We are grateful for ﬁnancial support from the Key Deployment
+Project of Chinese Academy of Sciences (KSZD-EW-Z-021-2) and
+the Open Project Program of State Key Laboratory of Natural Medicines, China Pharmaceutical University (No. SKLNMKF201304).
+We thank the NERI-Agilent Research Alliance for the technical
+support.
+References
+[1] H. Kitano, Systems biology: a brief overview, Science 295 (2002) 1662–1664.
+[2] L. Stromback, D. Hall, P. Lambrix, A review of standards for data exchange
+within systems biology, Proteomics 7 (2007) 857–867.
+[3] B. Palsson, Metabolic systems biology, FEBS Lett. 583 (2009) 3900–3904.
+[4] L.M. Raamsdonk, B. Teusink, D. Broadhurst, N. Zhang, A. Hayes, M.C. Walsh,
+J.A. Berden, K.M. Brindle, D.B. Kell, J.J. Rowland, H.V. Westerhoff, K. van Dam,
+S.G. Oliver, A functional genomics strategy that uses metabolome data to
+reveal the phenotype of silent mutations, Nat. Biotechnol. 19 (2001) 45–50.
+[5] J.K. Nicholson, I.D. Wilson, Opinion: understanding ‘global’ systems biology:
+metabonomics and the continuum of metabolism, Nat. Rev. Drug Discov. 2
+(2003) 668–676.
+[6] J.K. Nicholson, Global systems biology, personalized medicine and molecular
+epidemiology, Mol. Syst. Biol. 2 (2006) 52.
+[7] J.K.N. John, C. Lindon, Elaine Holmes, The Handbook of Metabonomics and
+Metabolomics, Elsevier, Amsterdam, The Netherlands, 2007.
+[8] C.W. Schmidt, Metabolomics: what’s happening downstream of DNA,
+Environ. Health Perspect. 112 (2004) 410–415.
+[9] W.B. Dunn, N.J. Bailey, H.E. Johnson, Measuring the metabolome: current
+analytical technologies, Analyst 130 (2005) 606–625.
+[10] W.E. Ho, Y.J. Xu, F. Xu, C. Cheng, H.Y. Peh, S.R. Tannenbaum, W.S. Wong, C.N.
+Ong, Metabolomics reveals altered metabolic pathways in experimental
+asthma, Am. J. Respir. Cell Mol. Biol. 48 (2013) 204–211.
+[11] I. Elmroth, P. Sundin, A. Valeur, L. Larsson, G. Odham, Evaluation of
+chromatographic methods for the detection of bacterial contamination in
+biotechnical processes, J. Microbiol. Methods 15 (1992) 3.
+[12] S.G. Villas-Boas, P. Bruheim, Cold glycerol-saline: the promising quenching
+solution for accurate intracellular metabolite analysis of microbial cells, Anal.
+Biochem. 370 (2007) 87–97.
+[13] W.M. van Gulik, Fast sampling for quantitative microbial metabolomics, Curr.
+Opin. Biotechnol. 21 (2010) 27–34.
+[14] E.E. Baidoo, P.I. Benke, J.D. Keasling, Mass spectrometry-based microbial
+metabolomics, Methods Mol. Biol. 881 (2012) 215–278.
+[15] M.R. Mashego, K. Rumbold, M. De Mey, E. Vandamme, W. Soetaert, J.J.
+Heijnen, Microbial metabolomics: past, present and future methodologies,
+Biotechnol. Lett. 29 (2007) 1–16.
+[16] J. Tang, Microbial metabolomics, Curr. Genomics 12 (2011) 391–403.
+[17] M.J. van der Werf, K.M. Overkamp, B. Muilwijk, L. Coulier, T. Hankemeier,
+Microbial metabolomics: toward a platform with full metabolome coverage,
+Anal. Biochem. 370 (2007) 17–25.
+[18] C.L. Winder, W.B. Dunn, R. Goodacre, TARDIS-based microbial metabolomics:
+time and relative differences in systems, Trends Microbiol. 19 (2011) 315–
+322.
+
+46
+
+Y.-J. Xu et al. / Trends in Analytical Chemistry 56 (2014) 37–48
+
+[19] J. Xia, D.S. Wishart, Web-based inference of biological patterns, functions and
+pathways from metabolomic data using MetaboAnalyst, Nat. Protoc. 6 (2011)
+743–760.
+[20] E.J. Want, P. Masson, F. Michopoulos, I.D. Wilson, G. Theodoridis, R.S. Plumb, J.
+Shockcor, N. Loftus, E. Holmes, J.K. Nicholson, Global metabolic proﬁling of
+animal and human tissues via UPLC-MS, Nat. Protoc. 8 (2013) 17–32.
+[21] U. Schaefer, W. Boos, R. Takors, D. Weuster-Botz, Automated sampling device
+for monitoring intracellular metabolite dynamics, Anal. Biochem. 270 (1999)
+88–96.
+[22] S. Buziol, I. Bashir, A. Baumeister, W. Claassen, N. Noisommit-Rizzi, W.
+Mailinger, M. Reuss, New bioreactor-coupled rapid stopped-ﬂow sampling
+technique for measurements of metabolite dynamics on a subsecond time
+scale, Biotechnol. Bioeng. 80 (2002) 632–636.
+[23] D. Visser, G.A. van Zuylen, J.C. van Dam, A. Oudshoorn, M.R. Eman, C. Ras,
+W.M. van Gulik, J. Frank, G.W. van Dedem, J.J. Heijnen, Rapid sampling for
+analysis of in vivo kinetics using the BioScope: a system for continuous-pulse
+experiments, Biotechnol. Bioeng. 79 (2002) 674–681.
+[24] W. de Koning, K. van Dam, A method for the determination of changes in
+glycolytic metabolites in yeast on a subsecond time scale using extraction at
+neutral pH, Anal. Biochem. 204 (1992) 118–123.
+[25] C. Wittmann, J.O. Kromer, P. Kiefer, T. Binz, E. Heinzle, Impact of the cold
+shock phenomenon on quantiﬁcation of intracellular metabolites in bacteria,
+Anal. Biochem. 327 (2004) 135–139.
+[26] M. Wellerdiek, D. Winterhoff, W. Reule, J. Brandner, M. Oldiges, Metabolic
+quenching of Corynebacterium glutamicum: efﬁciency of methods and impact
+of cold shock, Bioprocess Biosyst. Eng. 32 (2009) 581–592.
+[27] J. Spura, L.C. Reimer, P. Wieloch, K. Schreiber, S. Buchinger, D. Schomburg, A
+method for enzyme quenching in microbial metabolome analysis successfully
+applied to gram-positive and gram-negative bacteria and yeast, Anal.
+Biochem. 394 (2009) 192–201.
+[28] S. Kim, do Y. Lee, G. Wohlgemuth, H.S. Park, O. Fiehn, K.H. Kim, Evaluation and
+optimization of metabolome sample preparation methods for Saccharomyces
+cerevisiae, Anal. Chem. 85 (2013) 2169–2176.
+[29] M. Faijes, A.E. Mars, E.J. Smid, Comparison of quenching and extraction
+methodologies for metabolome analysis of Lactobacillus plantarum, Microb.
+Cell. Fact 6 (2007) 27.
+[30] M.H. Shin, do Y. Lee, K.H. Liu, O. Fiehn, K.H. Kim, Evaluation of sampling and
+extraction methodologies for the global metabolic proﬁling of Saccharophagus
+degradans, Anal. Chem. 82 (2010) 6660–6666.
+[31] C.J. Bolten, P. Kiefer, F. Letisse, J.C. Portais, C. Wittmann, Sampling for
+metabolome analysis of microorganisms, Anal. Chem. 79 (2007) 3843–3849.
+[32] C.L. Winder, W.B. Dunn, S. Schuler, D. Broadhurst, R. Jarvis, G.M. Stephens, R.
+Goodacre, Anal. Chem. 80 (2008) 2939–2948.
+[33] H. Taymaz-Nikerel, M. de Mey, C. Ras, A. ten Pierick, R.M. Seifar, J.C. van Dam,
+J.J. Heijnen, W.M. van Gulik, Development and application of a differential
+method for reliable metabolome analysis in Escherichia coli, Anal. Biochem.
+386 (2009) 9–19.
+[34] H. Link, B. Anselment, D. Weuster-Botz, Leakage of adenylates during cold
+methanol/glycerol quenching of Escherichia coli, Metabolomics 4 (2008) 240–
+247.
+[35] X.H. Wu, H.L. Yu, Z.Y. Ba, J.Y. Chen, H.G. Sun, B.Z. Han, Sampling methods for
+NMR-based metabolomics of Staphylococcus aureus, Biotechnol. J. 5 (2010)
+75–84.
+[36] D. Mengin-Lecreulx, B. Flouret, J. van Heijenoort, Pool levels of UDP Nacetylglucosamine and UDP N-acetylglucosamine-enolpyruvate in Escherichia
+coli and correlation with peptidoglycan synthesis, J. Bacteriol. 154 (1983)
+1284–1290.
+[37] J. Zaldivar, A. Borges, B. Johansson, H.P. Smits, S.G. Villas-Boas, J.
+Nielsen, L. Olsson, Fermentation performance and intracellular
+metabolite patterns in laboratory and industrial xylose-fermenting
+Saccharomyces cerevisiae, Appl. Microbiol. Biotechnol. 59 (2002) 436–
+442.
+[38] R.P. Maharjan, T. Ferenci, Global metabolite analysis: the inﬂuence of
+extraction methodology on metabolome proﬁles of Escherichia coli, Anal.
+Biochem. 313 (2003) 145–154.
+[39] N.L. Kuehnbaum, P. Britz-McKibbin, New advances in separation science for
+metabolomics: resolving chemical diversity in a post-genomic era, Chem.
+Rev. 113 (2013) 2437–2468.
+[40] H. Lv, Mass spectrometry-based metabolomics towards understanding of
+gene functions with a diversity of biological contexts, Mass Spectrom. Rev. 32
+(2013) 118–128.
+[41] A. Smolinska, L. Blanchet, L.M. Buydens, S.S. Wijmenga, NMR and pattern
+recognition methods in metabolomics: from data acquisition to biomarker
+discovery: a review, Anal. Chim. Acta 750 (2012) 82–97.
+[42] J. Boccard, J.L. Veuthey, S. Rudaz, Knowledge discovery in metabolomics: an
+overview of MS data handling, J. Sep. Sci. 33 (2010) 290–304.
+[43] A. Zhang, H. Sun, P. Wang, Y. Han, X. Wang, Modern analytical techniques in
+metabolomics analysis, Analyst 137 (2012) 293–300.
+[44] S.G. Villas-Boas, D.G. Delicado, M. Akesson, Simultaneous analysis of amino
+and nonamino organic acids as methyl chloroformate derivatives using gas
+chromatography-mass spectrometry, Anal. Biochem. 322 (2003) 134–138.
+[45] S. Khoomrung, P. Chumnanpuen, S. Jansa-ard, I. Nookaew, J. Nielsen, Fast and
+accurate preparation fatty acid methyl esters by microwave-assisted
+derivatization in the yeast Saccharomyces cerevisiae, Appl. Microbiol.
+Biotechnol. 94 (2012) 1637–1646.
+
+[46] S. Mas, S.G. Villas-Boas, M.E. Hansen, M. Akesson, J. Nielsen, A comparison of
+direct infusion MS and GC-MS for metabolic footprinting of yeast mutants,
+Biotechnol. Bioeng. 96 (2007) 1014–1022.
+[47] Fengguo Xu, Li Zou, C.N. Ong, Experiment-originated variations, and multipeak and multi-origination phenomena in derivatization-based GC-MS
+metabolomics, TrAC Trends Anal. Chem 29 (2010) 269–280.
+[48] F. Xu, L. Zou, C.N. Ong, Multiorigination of chromatographic peaks in
+derivatized GC/MS metabolomics: a confounder that inﬂuences metabolic
+pathway interpretation, J. Proteome Res. 8 (2009) 5657–5665.
+[49] M. Liebeke, A. Wunder, M. Lalk, A rapid microwave-assisted derivatization of
+bacterial metabolome samples for gas chromatography/mass spectrometry
+analysis, Anal. Biochem. 401 (2010) 312–314.
+[50] J. Tian, P. Sang, P. Gao, R. Fu, D. Yang, L. Zhang, J. Zhou, S. Wu, X. Lu, Y. Li, G. Xu,
+Optimization of a GC-MS metabolic ﬁngerprint method and its application in
+characterizing engineered bacterial metabolic shift, J. Sep. Sci. 32 (2009)
+2281–2288.
+[51] X. Gao, E. Pujos-Guillot, J.F. Martin, P. Galan, C. Juste, W. Jia, J.L. Sebedio,
+Metabolite analysis of human fecal water by gas chromatography/mass
+spectrometry with ethyl chloroformate derivatization, Anal. Biochem. 393
+(2009) 163–175.
+[52] A.A. Karamani, Y. Fiamegos, G. Vartholomatos, C.D. Stalikas,
+Fluoroacetylation/ﬂuoroethylesteriﬁcation as a derivatization approach for
+gas chromatography-mass spectrometry in metabolomics: preliminary study
+of lymphohyperplastic diseases, J. Chromatogr. A 1302 (2013) 125–132.
+[53] H. Lv, C.S. Hung, K.S. Chaturvedi, T.M. Hooton, J.P. Henderson, Development of
+an integrated metabolomic proﬁling approach for infectious diseases
+research, Analyst 136 (2011) 4752–4763.
+[54] L. Coulier, R. Bas, S. Jespersen, E. Verheij, M.J. van der Werf, T. Hankemeier,
+Simultaneous quantitative analysis of metabolites using ion-pair liquid
+chromatography-electrospray ionization mass spectrometry, Anal. Chem. 78
+(2006) 6573–6582.
+[55] L. Wu, M.R. Mashego, J.C. van Dam, A.M. Proell, J.L. Vinke, C. Ras, W.A. van
+Winden, W.M. van Gulik, J.J. Heijnen, Quantitative analysis of the microbial
+metabolome by isotope dilution mass spectrometry using uniformly 13Clabeled cell extracts as internal standards, Anal. Biochem. 336 (2005) 164–
+171.
+[56] T. Soga, T. Ishikawa, S. Igarashi, K. Sugawara, Y. Kakazu, M. Tomita, Analysis of
+nucleotides
+by
+pressure-assisted
+capillary
+electrophoresis-mass
+spectrometry using silanol mask technique, J. Chromatogr. A 1159 (2007)
+125–133.
+[57] T. Soga, Y. Ohashi, Y. Ueno, H. Naraoka, M. Tomita, T. Nishioka, Quantitative
+metabolome analysis using capillary electrophoresis mass spectrometry, J.
+Proteome Res. 2 (2003) 488–494.
+[58] R. Ramautar, G.W. Somsen, G.J. de Jong, CE-MS for metabolomics:
+developments and applications in the period 2010–2012, Electrophoresis
+34 (2013) 86–98.
+[59] R. Ramautar, O.A. Mayboroda, G.W. Somsen, G.J. de Jong, CE-MS for
+metabolomics: developments and applications in the period 2008–2010,
+Electrophoresis 32 (2011) 52–65.
+[60] R. Ramautar, G.W. Somsen, G.J. de Jong, CE-MS in metabolomics,
+Electrophoresis 30 (2009) 276–291.
+[61] N.J. Serkova, M.S. Brown, Quantitative analysis in magnetic resonance
+spectroscopy: from metabolic proﬁling to in vivo biomarkers, Bioanalysis 4
+(2012) 321–341.
+[62] A.F. Boroujerdi, M.I. Vizcaino, A. Meyers, E.C. Pollock, S.L. Huynh, T.B. Schock,
+P.J. Morris, D.W. Bearden, NMR-based microbial metabolomics and the
+temperature-dependent coral pathogen Vibrio coralliilyticus, Environ. Sci.
+Technol. 43 (2009) 7658–7664.
+[63] T. Pluskal, S. Castillo, A. Villar-Briones, M. Oresic, MZmine 2: modular
+framework for processing, visualizing, and analyzing mass spectrometrybased molecular proﬁle data, BMC Bioinform. 11 (2010) 395.
+[64] R. Tautenhahn, G.J. Patti, D. Rinehart, G. Siuzdak, XCMS online: a web-based
+platform to process untargeted metabolomic data, Anal. Chem. 84 (2012)
+5035–5039.
+[65] C.D. Broeckling, I.R. Reddy, A.L. Duran, X. Zhao, L.W. Sumner, MET-IDEA: data
+extraction tool for mass spectrometry-based metabolomics, Anal. Chem. 78
+(2006) 4334–4341.
+[66] E. Holmes, O. Cloarec, J.K. Nicholson, Probing latent biomarker signatures and
+in vivo pathway activity in experimental disease states via statistical total
+correlation spectroscopy (STOCSY) of bioﬂuids: application to HgCl2 toxicity,
+J. Proteome Res. 5 (2006) 1313–1320.
+[67] O. Cloarec, M.E. Dumas, A. Craig, R.H. Barton, J. Trygg, J. Hudson, C. Blancher,
+D. Gauguier, J.C. Lindon, E. Holmes, J. Nicholson, Statistical total correlation
+spectroscopy: an exploratory approach for latent biomarker identiﬁcation
+from metabolic 1H NMR data sets, Anal. Chem. 77 (2005) 1282–1289.
+[68] S.L. Robinette, K.A. Veselkov, E. Bohus, M. Coen, H.C. Keun, T.M. Ebbels, O.
+Beckonert, E.C. Holmes, J.C. Lindon, J.K. Nicholson, Cluster analysis statistical
+spectroscopy using nuclear magnetic resonance generated metabolic data
+sets from perturbed biological systems, Anal. Chem. 81 (2009) 6581–6589.
+[69] S. Wold, L.E. Michael Sjostrom, PLS-regression: a basic tool of chemometrics,
+Chemom. Int. Lab. Syst. 58 (2001) 109–130.
+[70] J. Trygg, S. Wold, Orthogonal projections to latent structures (O-PLS), J.
+Chemom. 16 (2002) 119–128.
+[71] A.R. Webb, K.D. Copsey, G. Cawley, Statistical Pattern Recognition, Third
+revised ed., Wiley-Blackwell, UK, 2011.
+
+Y.-J. Xu et al. / Trends in Analytical Chemistry 56 (2014) 37–48
+[72] C.-J. Xu, H.C. Hoefsloot, A.K. Smilde, To aggregate or not to aggregate highdimensional classiﬁers, BMC Bioinform. 12 (2011) 153.
+[73] L. Nørgaard, R. Bro, Frank Westad, S. Engelsen, A modiﬁcation of canonical
+variates analysis to handle highly collinear multivariate data, J. Chemom. 20
+(2006) 425–435.
+[74] A.C. Guo, T. Jewison, M. Wilson, Y. Liu, C. Knox, Y. Djoumbou, P. Lo, R. Mandal,
+R. Krishnamurthy, D.S. Wishart, ECMDB: the E. coli metabolome database,
+Nucleic Acids Res. 41 (2013) D625–D630.
+[75] Y.K. Oh, B.O. Palsson, S.M. Park, C.H. Schilling, R. Mahadevan, Genome-scale
+reconstruction of metabolic network in Bacillus subtilis based on highthroughput phenotyping and gene essentiality data, J. Biol. Chem. 282 (2007)
+28791–28799.
+[76] M.J. Herrgard, N. Swainston, P. Dobson, W.B. Dunn, K.Y. Arga, M. Arvas, N.
+Bluthgen, S. Borger, R. Costenoble, M. Heinemann, M. Hucka, N. Le Novere, P.
+Li, W. Liebermeister, M.L. Mo, A.P. Oliveira, D. Petranovic, S. Pettifer, E.
+Simeonidis, K. Smallbone, I. Spasic, D. Weichart, R. Brent, D.S. Broomhead,
+H.V. Westerhoff, B. Kirdar, M. Penttila, E. Klipp, B.O. Palsson, U. Sauer, S.G.
+Oliver, P. Mendes, J. Nielsen, D.B. Kell, A consensus yeast metabolic network
+reconstruction obtained from a community approach to systems biology, Nat.
+Biotechnol. 26 (2008) 1155–1160.
+[77] M.L. Reaves, J.D. Rabinowitz, Metabolomics in systems microbiology, Curr.
+Opin. Biotechnol. 22 (2011) 17–25.
+[78] D. Amador-Noguez, X.J. Feng, J. Fan, N. Roquet, H. Rabitz, J.D. Rabinowitz,
+Systems-level metabolic ﬂux proﬁling elucidates a complete, bifurcated
+tricarboxylic acid cycle in Clostridium acetobutylicum, J. Bacteriol. 192 (2010)
+4452–4461.
+[79] J. Jorda, C. Suarez, M. Carnicer, A. ten Pierick, J.J. Heijnen, W. van Gulik, P.
+Ferrer, J. Albiol, A. Wahl, Glucose-methanol co-utilization in Pichia pastoris
+studied by metabolomics and instationary 13C ﬂux analysis, BMC Syst. Biol. 7
+(2013) 17.
+[80] D.K. Barupal, P.K. Haldiya, G. Wohlgemuth, T. Kind, S.L. Kothari, K.E.
+Pinkerton, O. Fiehn, MetaMapp: mapping and visualizing metabolomic data
+by integrating information from biochemical pathways and chemical and
+mass spectral similarity, BMC Bioinform. 13 (2012) 99.
+[81] L. Wu, J. van Dam, D. Schipper, M.T. Kresnowati, A.M. Proell, C. Ras, W.A. van
+Winden, W.M. van Gulik, J.J. Heijnen, Short-term metabolome dynamics and
+carbon, electron, and ATP balances in chemostat-grown Saccharomyces
+cerevisiae CEN.PK 113-7D following a glucose pulse, Appl. Environ.
+Microbiol. 72 (2006) 3566–3577.
+[82] N.H.W. Group, J. Peterson, S. Garges, M. Giovanni, P. McInnes, L. Wang, J.A.
+Schloss, V. Bonazzi, J.E. McEwen, K.A. Wetterstrand, C. Deal, C.C. Baker, V. Di
+Francesco, T.K. Howcroft, R.W. Karp, R.D. Lunsford, C.R. Wellington, T.
+Belachew, M. Wright, C. Giblin, H. David, M. Mills, R. Salomon, C. Mullins,
+B. Akolkar, L. Begg, C. Davis, L. Grandison, M. Humble, J. Khalsa, A.R. Little, H.
+Peavy, C. Pontzer, M. Portnoy, M.H. Sayre, P. Starke-Reed, S. Zakhari, J. Read, B.
+Watson, M. Guyer, The NIH human microbiome project, Genome Res. 19
+(2009) 2317–2323.
+[83] T. Nakatsuji, H.I. Chiang, S.B. Jiang, H. Nagarajan, K. Zengler, R.L. Gallo, The
+microbiome extends to subepidermal compartments of normal skin, Nat.
+Commun. 4 (2013) 1431.
+[84] E.A. Grice, J.A. Segre, The skin microbiome, Nat. Rev. Microbiol. 9 (2011) 244–253.
+[85] E.A. Grice, H.H. Kong, S. Conlan, C.B. Deming, J. Davis, A.C. Young, N.C.S.
+Program, G.G. Bouffard, R.W. Blakesley, P.R. Murray, E.D. Green, M.L. Turner,
+J.A. Segre, Topographical and temporal diversity of the human skin
+microbiome, Science 324 (2009) 1190–1192.
+[86] O.C. Umu, M. Oostindjer, P.B. Pope, B. Svihus, B. Egelandsdal, I.F. Nes, D.B.
+Diep, Potential applications of gut microbiota to control human physiology,
+Antonie Van Leeuwenhoek 104 (2013) 609–618.
+[87] J.K. Nicholson, E. Holmes, J. Kinross, R. Burcelin, G. Gibson, W. Jia, S.
+Pettersson, Host-gut microbiota metabolic interactions, Science 336 (2012)
+1262–1267.
+[88] M. Li, B. Wang, M. Zhang, M. Rantalainen, S. Wang, H. Zhou, Y. Zhang, J. Shen,
+X. Pang, M. Zhang, H. Wei, Y. Chen, H. Lu, J. Zuo, M. Su, Y. Qiu, W. Jia, C. Xiao,
+L.M. Smith, S. Yang, E. Holmes, H. Tang, G. Zhao, J.K. Nicholson, L. Li, L. Zhao,
+Symbiotic gut microbes modulate human metabolic phenotypes, Proc. Natl.
+Acad. Sci. USA 105 (2008) 2117–2122.
+[89] A. Walker, A glut from the gut: metagenomics takes a giant step foward, Nat.
+Rev. Microbiol. 8 (2010) 315.
+[90] F.P. Martin, M.E. Dumas, Y. Wang, C. Legido-Quigley, I.K. Yap, H. Tang, S. Zirah,
+G.M. Murphy, O. Cloarec, J.C. Lindon, N. Sprenger, L.B. Fay, S. Kochhar, P. van
+Bladeren, E. Holmes, J.K. Nicholson, A top-down systems biology view of
+microbiome-mammalian metabolic interactions in a mouse model, Mol. Syst.
+Biol. 3 (2007) 112.
+[91] S.P. Claus, T.M. Tsang, Y. Wang, O. Cloarec, E. Skordi, F.P. Martin, S. Rezzi, A.
+Ross, S. Kochhar, E. Holmes, J.K. Nicholson, Systemic multicompartmental
+effects of the gut microbiome on mouse metabolic phenotypes, Mol. Syst.
+Biol. 4 (2008) 219.
+[92] W.R. Wikoff, A.T. Anfora, J. Liu, P.G. Schultz, S.A. Lesley, E.C. Peters, G. Siuzdak,
+Metabolomics analysis reveals large effects of gut microﬂora on mammalian
+blood metabolites, Proc. Natl. Acad. Sci. USA 106 (2009) 3698–3703.
+[93] J. Saric, Y. Wang, J. Li, M. Coen, J. Utzinger, J.R. Marchesi, J. Keiser, K. Veselkov,
+J.C. Lindon, J.K. Nicholson, E. Holmes, Species variation in the fecal
+metabolome gives insight into differential gastrointestinal function, J.
+Proteome Res. 7 (2008) 352–360.
+[94] G. den Besten, K. van Eunen, A.K. Groen, K. Venema, D.J. Reijngoud, B.M.
+Bakker, The role of short-chain fatty acids in the interplay between diet,
+
+[95]
+
+[96]
+[97]
+
+[98]
+
+[99]
+
+[100]
+[101]
+[102]
+
+[103]
+[104]
+
+[105]
+
+[106]
+
+[107]
+
+[108]
+
+[109]
+
+[110]
+
+[111]
+
+[112]
+
+[113]
+
+[114]
+
+[115]
+
+[116]
+
+[117]
+
+[118]
+
+[119]
+
+[120]
+
+47
+
+gut microbiota and host energy metabolism, J. Lipid Res. 54 (2013) 2325–
+2340.
+G. Musso, R. Gambino, M. Cassader, Interactions between gut microbiota and
+host metabolism predisposing to obesity and diabetes, Annu. Rev. Med. 62
+(2011) 361–380.
+T. Greiner, F. Backhed, Effects of the gut microbiota on obesity and glucose
+homeostasis, Trends Endocrinol. Metab. 22 (2011) 117–123.
+I. Ahmed, R. Greenwood, L. Costello Bde, N.M. Ratcliffe, C.S. Probert, An
+investigation of fecal volatile organic metabolites in irritable bowel
+syndrome, PLoS One 8 (2013) e58204.
+Y.S. Hong, K.S. Hong, M.H. Park, Y.T. Ahn, J.H. Lee, C.S. Huh, J. Lee, I.K. Kim, G.S.
+Hwang, J.S. Kim, Metabonomic understanding of probiotic effects in humans
+with irritable bowel syndrome, J. Clin. Gastroenterol. 45 (2011) 415–425.
+G. Xie, S. Zhang, X. Zheng, W. Jia, Metabolomics approaches for characterizing
+metabolic interactions between host and its commensal microbes,
+Electrophoresis (2013).
+A. Cifuentes, Foodomics: Advanced Mass Spectrometry in Modern Food
+Science and Nutrition, Wiley Online Library, 2013.
+F. Capozzi, A. Bordoni, Foodomics: a new comprehensive approach to food
+and nutrition, Genes Nutr. 8 (2013) 1–4.
+M. Herrero, C. Simo, V. Garcia-Canas, E. Ibanez, A. Cifuentes, MS-based
+strategies in modern food science and nutrition, Mass Spectrom. Rev. 31
+(2012) 49–69.
+H. Xiao, S. Fu, A sensitive gas chromatography-mass spectrometry method for
+the determination of patulin in apple juice, J. AOAC Int. 95 (2012) 1709–1712.
+Y. Rodriguez-Carrasco, G. Font, J. Manes, H. Berrada, Determination of
+mycotoxins in bee pollen by gas chromatography-tandem mass
+spectrometry, J. Agric. Food Chem. 61 (2013) 1999–2005.
+Y. Rodriguez-Carrasco, H. Berrada, G. Font, J. Manes, Multi-mycotoxin
+analysis in wheat semolina using an acetonitrile-based extraction
+procedure and gas chromatography-tandem mass spectrometry, J.
+Chromatogr. A 1270 (2012) 28–40.
+Y. Liu, M. Rychlik, Development of a stable isotope dilution LC-MS/MS
+method for the alternaria toxins tentoxin, dihydrotentoxin, and isotentoxin, J.
+Agric. Food Chem. 61 (2013) 2970–2978.
+M. Castro-Puyana, V. Garcia-Canas, C. Simo, A. Cifuentes, Recent advances in
+the application of capillary electromigration methods for food analysis and
+foodomics, Electrophoresis 33 (2012) 147–167.
+K. Kleigrewe, F. Aydin, K. Hogrefe, P. Piecuch, K. Bergander, E.U. Wurthwein,
+H.U. Humpf, Structure elucidation of new fusarins revealing insights in the
+rearrangement mechanisms of the Fusarium mycotoxin fusarin C, J. Agric.
+Food Chem. 60 (2012) 5497–5505.
+V. Garcia-Canas, C. Simo, C. Leon, E. Ibanez, A. Cifuentes, MS-based analytical
+methodologies to characterize genetically modiﬁed crops, Mass Spectrom.
+Rev. 30 (2011) 396–416.
+H.C. Bertram, M.R. Weisbjerg, C.S. Jensen, M.G. Pedersen, T. Didion, B.O.
+Petersen, J.O. Duus, M.K. Larsen, J.H. Nielsen, Seasonal changes in the
+metabolic ﬁngerprint of 21 grass and legume cultivars studied by nuclear
+magnetic resonance-based metabolomics, J. Agric. Food Chem. 58 (2010)
+4336–4341.
+S. Moco, F.P. Martin, S. Rezzi, Metabolomics view on gut microbiome
+modulation by polyphenol-rich foods, J. Proteome Res. 11 (2012) 4781–
+4790.
+A. Scalbert, L. Brennan, O. Fiehn, T. Hankemeier, B.S. Kristal, B. van Ommen, E.
+Pujos-Guillot, E. Verheij, D. Wishart, S. Wopereis, Mass-spectrometry-based
+metabolomics: limitations and recommendations for future progress with
+particular focus on nutrition research, Metabolomics 5 (2009) 435–458.
+C. Ibanez, C. Simo, V. Garcia-Canas, A. Gomez-Martinez, J.A. Ferragut, A.
+Cifuentes, CE/LC-MS multiplatform for broad metabolomic analysis of dietary
+polyphenols effect on colon cancer cells proliferation, Electrophoresis 33
+(2012) 2328–2336.
+Y. Wang, D. Lawler, B. Larson, Z. Ramadan, S. Kochhar, E. Holmes, J.K.
+Nicholson, Metabonomic investigations of aging and caloric restriction in a
+life-long dog study, J. Proteome Res. 6 (2007) 1846–1854.
+C.A. Merriﬁeld, M.C. Lewis, S.P. Claus, J.T. Pearce, O. Cloarec, S. Duncker, S.S.
+Heinzmann, M.E. Dumas, S. Kochhar, S. Rezzi, A. Mercenier, J.K. Nicholson, M.
+Bailey, E. Holmes, Weaning diet induces sustained metabolic phenotype shift
+in the pig and inﬂuences host response to Biﬁdobacterium lactis NCC2818, Gut
+62 (2013) 842–851.
+K.F. Nielsen, J. Smedsgaard, Fungal metabolite screening: database of 474
+mycotoxins and fungal metabolites for dereplication by standardised liquid
+chromatography-UV-mass spectrometry methodology, J. Chromatogr. A 1002
+(2003) 111–136.
+R.G. Lowe, M. Lord, K. Rybak, R.D. Trengove, R.P. Oliver, P.S. Solomon,
+Trehalose biosynthesis is involved in sporulation of Stagonospora nodorum,
+Fungal Genet. Biol. 46 (2009) 381–389.
+R.G. Lowe, M. Lord, K. Rybak, R.D. Trengove, R.P. Oliver, P.S. Solomon, A
+metabolomic approach to dissecting osmotic stress in the wheat pathogen
+Stagonospora nodorum, Fungal Genet. Biol. 45 (2008) 1479–1486.
+K.-C. Tan, R.D. Trengove, G.L. Maker, R.P. Oliver, P.S. Solomon, Metabolite
+proﬁling identiﬁes the mycotoxin alternariol in the pathogen Stagonospora
+nodorum, Metabolomics 5 (2009) 330–335.
+M. Cao, A. Koulman, L.J. Johnson, G.A. Lane, S. Rasmussen, Advanced datamining strategies for the analysis of direct-infusion ion trap mass
+spectrometry data from the association of perennial ryegrass with its
+endophytic fungus, Neotyphodium lolii, Plant Physiol. 146 (2008) 1501–1514.
+
+48
+
+Y.-J. Xu et al. / Trends in Analytical Chemistry 56 (2014) 37–48
+
+[121] J. Keon, J. Antoniw, R. Carzaniga, S. Deller, J.L. Ward, J.M. Baker, M.H. Beale, K.
+Hammond-Kosack, J.J. Rudd, Transcriptional adaptation of Mycosphaerella
+graminicola to programmed cell death (PCD) of its susceptible wheat host,
+Mol. Plant Microbe Interact. 20 (2007) 178–193.
+[122] A. Warburg, K. Ostrovska, An immune response-dependent mechanism for the
+vertical transmission of an entomopathogen, Experientia 45 (1989) 770–772.
+[123] J.R. Fuxa, M.L. Milks, Y.Y. Sokolova, A.R. Richter, Interaction of an
+entomopathogen with an insect social form: an epizootic of Thelohania
+solenopsae (Microsporidia) in a population of the red imported ﬁre ant,
+Solenopsis invicta, J. Invertebr. Pathol. 88 (2005) 79–82.
+
+[124] B.N. Adhikari, C.Y. Lin, X. Bai, T.A. Ciche, P.S. Grewal, A.R. Dillman, J.M.
+Chaston, D.I. Shapiro-Ilan, A.L. Bilgrami, R. Gaugler, P.W. Sternberg, B.J.
+Adams, Transcriptional proﬁling of trait deterioration in the insect
+pathogenic nematode Heterorhabditis bacteriophora, BMC Genomics 10
+(2009) 609.
+[125] F. Luo, R. Lu, H. Zhou, F. Hu, G. Bao, B. Huang, Z. Li, Metabolic effect of an
+exogenous gene on transgenic Beauveria bassiana using liquid
+chromatography-mass spectrometry-based metabolomics, J. Agric. Food
+Chem. 61 (2013) 7008–7017.
+
+

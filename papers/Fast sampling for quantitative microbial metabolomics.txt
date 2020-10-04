@@ -1,0 +1,657 @@
+Available online at www.sciencedirect.com
+
+Fast sampling for quantitative microbial metabolomics
+Walter M van Gulik
+Targeted metabolomics, aimed at the study of metabolic
+reaction networks and their regulation in vivo, is a rapidly
+emerging field in systems biology. Obtaining proper
+quantitative snapshots of the microbial metabolome requires
+fast sampling, immediate quenching of enzymatic activity,
+separation of exometabolome and endometabolome,
+complete metabolite extraction from the cells, and reliable
+high-throughput analysis methods. This review addresses the
+current state of the art of rapid sampling and quenching for
+microbial metabolomics. Several robust and reliable rapid
+sampling devices have been developed. Various quenching
+and separation procedures have been proposed and applied,
+but with respect to the reliability of the different methods the
+literature is contradictory. To date a reliable universal method
+applicable to different microbial species is still lacking.
+Address
+Department of Biotechnology, Delft University of Technology,
+Julianalaan 67, 2628BC Delft, The Netherlands
+Corresponding author: van Gulik, Walter M (w.m.vangulik@tudelft.nl)
+
+Current Opinion in Biotechnology 2010, 21:27–34
+This review comes from a themed issue on
+Analytical biotechnology
+Edited by Peter Neubauer and Andreas Schmid
+Available online 10th February 2010
+0958-1669/$ – see front matter
+# 2010 Elsevier Ltd. All rights reserved.
+DOI 10.1016/j.copbio.2010.01.008
+
+Introduction
+To obtain a quantitative systems biology understanding
+of cellular metabolism and its regulation, measurements
+on all different hierarchical levels, for example genome,
+transcriptome, proteome, fluxome, and metabolome are
+required [1]. At present whole genome sequencing and
+measurement of genome-wide expression levels have
+become common practice. Also methods for the quantification of intracellular fluxes, either through metabolite
+balancing or based on stable isotope (e.g. 13C) labeling,
+have been well established [2]. Although significant progress has been made in proteomics [3] and metabolomics
+[4], especially because of the advancement of MS-based
+analytical procedures, these are still far from being established routine techniques. A prerequisite for obtaining
+meaningful metabolome data is the application of proper
+sampling and sample processing procedures. Many
+metabolites, especially the intermediates of the central
+www.sciencedirect.com
+
+metabolic pathways and connected cofactors like ATP
+and NADH, have turnover times in the order of seconds,
+as can be calculated from their in vivo pool sizes and
+conversion rates. It should be realized that to obtain a
+proper snapshot of the intracellular metabolite levels,
+sampling, and subsequent arrest of metabolic activity
+should be fast, that is, significantly faster than the turnover time of the metabolite pools. In this review the
+current state of the art of rapid sampling and quenching
+for quantitative microbial metabolomics is addressed
+whereby the reliability of the published procedures is
+critically investigated.
+
+Fast sampling from bioreactors
+Sampling devices
+
+In the past several manually operated devices for rapid
+sampling from bioreactors have been developed [5,6,7].
+Main disadvantages of these systems were that the operation is relatively laborious, and that the variation in
+sample volume highly depends on the skills of the
+operator. This led to the construction of sampling systems
+with electrically operated valves controlled by a timer
+[8,9]. Disadvantage of these systems is that they do not
+allow increasing the sampling frequency much above one
+sample per five seconds, because of the many manual
+handlings that have to be performed. Therefore Schaefer
+et al. [10] developed a completely automated sampling
+device whereby the sampling tubes are fixed in transport
+racks, moved by a step engine underneath a continuous
+jet of sample from a bioreactor, allowing a sampling rate of
+approx. 4.5 samples per second. A completely different
+approach to increase the sampling frequency, and to
+minimize the number of handlings required, was developed by Weuster-Botz [11]. The basic idea was to perform
+sampling, inactivation of metabolic activity, and extraction of intracellular metabolites in a continuous way in a
+long tube connected to the bioreactor. In this way the
+highly dynamic metabolite patterns, resulting from a
+sudden disturbance of the culture in the reactor, were
+fixed at a certain position in the sampling tube. After
+sampling the tube was disconnected and immediately
+frozen at 808C. To obtain single samples at different
+reaction times the frozen tube was cut into parts. It was
+demonstrated that the system could be successfully
+applied to capture the short time dynamics, on a subsecond scale, of some glycolytic intermediates of chemostat cultivated Zymomonas mobilis as a response to a
+glucose pulse.
+A different approach for integrated sampling and extraction from a bioreactor culture has been published by
+Schaub et al. [12]. Hereby short time heating of the
+Current Opinion in Biotechnology 2010, 21:27–34
+
+28 Analytical biotechnology
+
+sample was used as the procedure to quench all metabolic
+activity and at the same time extracting the metabolites
+from the cells. This was achieved by using a helical coil
+heat exchanger, which allowed continuous withdrawal of
+sample from a bioreactor, whereby the broth was rapidly
+heated to 958C. The helical geometry was chosen to
+enhance radial mixing. After extraction the cells were
+removed by filtration. This sampling device allowed
+withdrawing five samples per second. The method has
+been applied for the analysis of the growth rate dependent in vivo dynamics of glycolysis in Escherichia coli [13].
+
+quickly frozen at 1968C in liquid nitrogen. With this
+system a minimum time span between glucose stimulus
+and quenching of less than 100 ms could be obtained. It
+should be realized, however, that for aerobic conditions
+the maximum reaction time with the glucose is determined by the time it takes until the available dissolved
+oxygen has decreased to a limiting value. This is highly
+dependent on the biomass concentration in the reactor, as
+well as the maximum oxygen uptake rate of the microorganism studied, and may range from seconds to a few
+tenths of seconds.
+
+Stopped flow sampling systems
+
+The solution is to apply a stopped flow system, which
+allows gas exchange with the broth in the device. This
+was accomplished by Visser et al. [18], who developed a
+mini plug flow reactor, named the BioScope, wherein the
+flow channel consisted of an oxygen and carbon dioxide
+permeable silicon tubing. For practical reasons, and to
+assure sufficient plug flow characteristics, the tubing was
+configured in a serpentine geometry. The system was
+equipped with 11 sample ports, including 1 sample port
+before the mixing chamber where the perturbing agent
+was mixed with the culture broth. The oxygen and carbon
+dioxide transfer characteristics of the BioScope were
+measured and were found to be sufficient for glucose
+pulse experiments under the reported conditions. From
+multiple glucose pulse experiments with Saccharomyces
+cerevisiae, carried out in the BioScope, the authors
+observed that the obtained dynamic patterns of the
+glycolytic intermediates were very reproducible and
+appeared to be highly similar to the patterns obtained
+from a comparable glucose pulse experiment, carried out
+by injecting the glucose directly into the chemostat.
+
+Several authors have applied rapid sampling methods in
+studies aimed at the elucidation of the in vivo kinetic
+properties of enzymes of metabolic pathways of microorganisms. Typically this can be achieved with so-called
+stimulus response experiments, whereby a culture growing under well-defined steady-state conditions is suddenly disturbed. This can be achieved for example by
+injecting a concentrated glucose solution into a glucose
+limited chemostat, whereafter the dynamic changes in
+the intracellular metabolite levels are measured within a
+timeframe of a few hundreds of seconds [10,14,15]. However, with respect to capturing the changes which occur
+during the first milliseconds to seconds after the disturbance, the pulse response technique has an inherent
+limitation. After injection into the bioreactor a certain
+amount of time is required for the compound to be
+completely mixed with the culture and to come in contact
+with all cells. This mixing time depends on the reactor
+type and volume, the stirring speed and the viscosity of
+the culture, and may easily be several seconds. Another
+disadvantage of disturbing the complete bioreactor culture is that the steady-state condition is lost after each
+experiment. This can be circumvented by applying the
+perturbation outside the bioreactor, for example by using
+a stopped flow technique. The first authors who applied
+this technique to microbial cultures, with the aim to
+capture metabolite dynamics in the milliseconds range,
+were De Koning and Van Dam [16]. They performed
+incubations of starved yeast cells in a freeze quench
+apparatus with a four jet tangential mixer to measure
+the changes of glycolytic intermediates after adding a
+pulse of glucose within a time frame of 15–5000 ms. A
+similar stopped flow apparatus was developed by Buziol
+et al. [17]. The system consisted of a sampling port with a
+mixing chamber, which was mounted in the wall of the
+bioreactor. By means of applying an overpressure of 0.4–
+0.5 bar in the headspace the culture broth was driven out
+of the reactor through a capillary into the mixing chamber,
+where it was instantaneously mixed with a concentrated
+glucose solution. Subsequently the broth/glucose mixture
+flowed toward a cascade of five three way valves, whereby
+each valve corresponded with a certain distance from the
+mixing chamber and thus with a certain contact time with
+the glucose solution. Samples taken from the valves were
+Current Opinion in Biotechnology 2010, 21:27–34
+
+Later on an improved and more robust version of the
+BioScope device was developed by Mashego et al. [19].
+In this design the serpentine channels were milled into
+PMMA. Two mirror images of a PMMA block, with
+semicircular two-dimensional serpentine channels milled
+in the surface of each block, were screwed together,
+separated by a silicone membrane (Figure 1). In this
+way a two channel system was obtained, whereby one
+of the channels was used for the flow through of cell
+culture broth and the opposite channel for gas transfer, for
+example for oxygen supply and carbon dioxide removal in
+case of aerobic conditions, or for carbon dioxide and
+oxygen removal by nitrogen flushing in case of anaerobic
+conditions. A clear advantage, compared to the first BioScope design, is that in this system the gas transfer, that is
+oxygen, carbon dioxide, or other gaseous compounds, can
+be controlled by variation of the gas composition in the
+gas channel. The observation window was between 1 and
+30 s for the highest and 5 and 180 s for the lowest flow rate
+applied.
+The above shows that a variety of sampling systems, both
+manually operated and semiautomatic, for obtaining fast
+www.sciencedirect.com
+
+Fast sampling van Gulik 29
+
+Figure 1
+
+(a) 2D serpentine channel geometry of the BioScope and (b) cross-section of the BioScope channel.
+
+representative samples from bioreactor cultures of
+microbes has been developed and successfully applied.
+
+Quenching methods
+Quenching procedures for metabolome measurements in
+microorganisms can be divided in two main groups,
+namely procedures which allow separation of cells and
+supernatant, and procedures which do not. The last
+category also contains methods wherein quenching and
+metabolite extraction are combined. It should be realized
+that methods which do not allow separation of the cells
+after quenching, are only suitable to measure compounds
+of which the total amounts present in the supernatant are
+negligible compared to the total intracellular amounts.
+Although extracellular metabolite concentrations may
+often be several orders of magnitude lower than intracellular concentrations, the contribution to the measured
+amount in total broth samples may still be significant,
+because the volume of the extracellular medium in
+laboratory cultivations is often two orders of magnitude
+larger than the total cell volume.
+In the early days of fast sampling from microbial cultures
+separation of cells from the supernatant, for example by
+filtration or centrifugation, was often applied before
+quenching of the metabolism. The main reason for this
+approach was to obtain a concentrated cell sample, such
+that the metabolite levels were above the detection limits
+of the analysis method applied. The disadvantage of this
+approach was that metabolism continued for several minwww.sciencedirect.com
+
+utes under undefined conditions with respect to temperature and the availability of substrate, oxygen, and other
+nutrients, and thus that measured metabolite levels are
+not representative for the applied cultivation conditions.
+For this reason several researchers used immediate
+quenching by direct sampling into cold perchloric acid,
+followed by a series of freezing–thawing cycles, thus
+achieving quenching, release of intracellular metabolites,
+and inactivation of enzymes [20].
+Most popular quenching method: cold methanol/water
+
+The first authors who combined fast quenching and
+subsequent separation of cells and supernatant in one
+procedure were De Koning and Van Dam [16]. They used
+cold ( 408C) 60% methanol for instant quenching of
+yeast metabolism by spraying 15 mL of culture broth
+into 60 mL of the cold solution. After the mixture was
+cooled for approx. 5 min, the sample/methanol mixture
+was centrifuged for 5 min at 5000 rpm at 208C to obtain
+a cell pellet which was subsequently extracted. This
+method is currently one of the most frequently applied
+quenching methods in microbial metabolomics [21,22],
+and in principle allows determining in vivo intracellular
+metabolite levels without interference of the extracellular
+amounts.
+Metabolite leakage
+
+An important requirement for this method to be
+applicable is that the metabolites remain in the cells
+during cold methanol quenching. Several authors have
+Current Opinion in Biotechnology 2010, 21:27–34
+
+30 Analytical biotechnology
+
+Figure 2
+
+Sample fractions where metabolite concentrations were measured to investigate the fate of the metabolites during quenching and further sample
+processing of S. cerevisiae. Figure from Canelas et al. [23].
+
+checked this for different microorganisms but the outcomes have been contradictory (see Canelas et al. [23]
+and references therein) which has mainly been caused by
+differences in sensitivity of the applied analytical
+methods. However, more recent research, whereby sensitive MS-based analytical methods have been applied,
+clearly shows that significant amounts of metabolites
+diffuse out of the cells into the cold methanol, both for
+yeast [23,24] and bacteria [25,26,27]. Canelas et al.
+accurately quantified metabolite leakage during cold
+methanol quenching of the yeast S. cerevisiae, by determining the levels of a large range of metabolites in total
+broth and different sample fractions (see Figure 2) using
+isotope dilution mass spectrometry (IDMS), whereby
+100% U-13C labeled cell extract was used as internal
+standard [23]. In this way the authors could set up
+accurate mass balances and track down the fate of each
+metabolite during the quenching procedure. They confirmed that leakage of metabolites from yeast cells does
+occur during conventional cold methanol quenching, and
+presented evidence that the levels of most metabolites
+have been previously underestimated by at least twofold.
+It was shown that metabolite leakage could be entirely
+prevented by quenching in pure methanol, at a temperature of 408C or lower (see Figure 3).
+A comparable study was carried out to quantify leakage of
+amino acids during cold methanol quenching of five
+Current Opinion in Biotechnology 2010, 21:27–34
+
+phylogenetically different yeast strains [28]. Surprisingly,
+this study showed that amino acid leakage from S. cerevisiae cells was negligible during conventional cold
+methanol quenching. An explanation for this discrepancy
+could be that the cultivation methods (glucose-limited
+chemostats versus shake-flask cultures), as well as the
+yeast strains used, were different.
+Quenching of prokaryotes
+
+Also for bacteria metabolite leakage during quenching has
+been investigated. Bolten et al. [26] applied the cold
+methanol method for quenching of different Gram
+positive and Gram negative bacteria, grown in shake
+flasks. They observed that the method led to drastic
+loss (>60%) of all metabolites measured because of
+leakage. Similar findings were published by TaymazNikerel et al. [27], for cold methanol quenching of E.
+coli cells grown in glucose-limited chemostats. These
+authors applied the same procedure as previously applied
+to quantify metabolite leakage from yeast cells [23],
+whereby the fate of the different metabolites was tracked
+down by high accuracy measurements in all sample fractions, using IDMS. Because of the observed massive
+leakage of metabolites into the cold methanol quenching
+solution, they proposed, and successfully applied, a differential method whereby the intracellular amounts were
+obtained from metabolite measurements in total broth
+and extracellular culture liquid.
+www.sciencedirect.com
+
+Fast sampling van Gulik 31
+
+Figure 3
+
+Full mass balance for the metabolites measured in the different sample fractions (see Figure 2) under eight different variations in sample treatment
+protocol (see Table), exemplified for G6P, glutamate, and fumarate. The intracellular metabolite levels were calculated from the difference of the
+concentrations in whole-broth and extracellular medium (T EX). Samples were from glucose limited chemostat cultures at D = 0.1 h 1. Data are
+averages  standard deviation of at least two replicate samples, each analyzed at least in duplicate. Figure adapted from Canelas et al. [23].
+
+Surprisingly Winder et al. [29] concluded that 60% cold
+( 488C) methanol solution is the most appropriate
+method to quench metabolism of E. coli. Their conclusion
+was based on the measured relative recovery of some
+selected metabolites and the total number of peaks
+www.sciencedirect.com
+
+detected, when comparing two variations of the cold
+methanol quenching method (with and without tricine
+buffer, 0.5 mM, pH 7.4), and hot ethanol quenching.
+Leakage of metabolites was observed but not quantified,
+and appeared more pronounced during hot ethanol
+Current Opinion in Biotechnology 2010, 21:27–34
+
+32 Analytical biotechnology
+
+quenching. This is not surprising, because incubation in
+hot ethanol is an efficient and often applied procedure for
+the extraction of metabolites from microbial cells [30].
+Because of the fact that these, and other [26,27], authors
+observed metabolite leakage during cold methanol
+quenching of prokaryotes, this method should not be
+considered suited for these organisms. Clearly quenching
+of prokaryotes seems much more problematic in comparison with eukaryotic microbes, which could be a
+matter of cell membrane composition, cell surface to
+volume ratio, which is much larger for prokaryotes
+because they are much smaller than their eukaryotic
+counterparts, and/or the phenomenon of cold shock.
+Cold shock
+
+Leakage of metabolites from bacteria during quenching
+accomplished by a fast decrease of the temperature, has
+been attributed to the so-called cold shock phenomenon
+[25], whereby the decrease in temperature results in an
+increase of the permeability of the cell membrane. Wellerdiek et al. [31] applied a microstructure heat exchanger
+to analyze the cold shock effect on a time scale of seconds
+using Corynebacterium glutamicum as a model organism.
+They observed that fast cooling (within 220 ms) of cell
+suspension from 30 to 08C resulted in rapid and significant
+release (1.5–3-fold increase of the concentration in the
+supernatant) of central metabolites from the cells within
+1.5 s or less. From 10 s after cooling to 08C, further release
+was negligible for most metabolites. Release of metabolites after rapid cooling to 08C has also been observed for
+E. coli [27] and it was concluded that in this case rapid
+sampling and fast filtration for measurement of the exometabolome should not include a rapid cooling step, for
+example by sampling onto ice cold steel beads as proposed by Mashego et al. [32].
+Alternatives for cold methanol quenching
+
+Recently several attempts have been undertaken to
+develop new or adapt existing quenching procedures
+for individual microorganisms, with the aim to minimize
+metabolite leakage [23,24,34,35]. Villas-Bôas and Bruheim [24] proposed a cold glycerol-saline solution as most
+promising quenching fluid for yeast and bacteria. Spura
+et al. [33] attempted to apply the glycerol-saline method
+for the quenching of yeast and bacteria, but concluded
+that it did not meet the requirements for an applicable
+quenching method. They reported that the protocol
+appeared very laborious, that it was impossible to get
+rid of the glycerol sticking to the compact cell pellets, and
+that the obtained chromatograms showed a dominating
+glycerol peak, masking other metabolites.
+In an attempt to develop a quenching procedure
+applicable to eukaryotes as well as to Gram positive
+and Gram negative prokaryotes, an alternative quenching
+solution composed of 40% ethanol and 0.8% (w/v) sodium
+Current Opinion in Biotechnology 2010, 21:27–34
+
+chloride at 208C was proposed [33]. The performance
+was compared with cold methanol quenched and
+unquenched samples, held at 48C in 0.9% sodium
+chloride solution. Unfortunately the relatively high final
+temperatures of the quenched (above 108C), and
+unquenched (48C), samples do not exclude that enzymatic conversion has taken place, which, depending on
+the metabolite, can lead to increased or decreased levels.
+In accordance with this, the authors reported that experiments aimed at detecting cell leakage yielded inconsistent results, that is, a direct relation between reduced
+levels in the extract, and increased levels in the supernatant, which would be a clear indication of cell leakage,
+could not be observed.
+Faijes et al. [34] proposed quenching in cold ( 408C) 60%
+(v/v) methanol buffered with 0.85% (w/v) ammonium
+carbonate or with 70 mM HEPES, as most suitable for
+metabolomics studies in Lactobacillus plantarum. However, they based their conclusion solely on measurements
+of the leakage of ATP from the cells during quenching
+and subsequent washing of the cell pellet. Published
+results on accurate measurements of metabolite leakage
+during quenching of S. cerevisiae and E. coli, show that the
+extent of leakage is very different for different compounds [23,27], whereby relatively large polar molecules such as ATP show less leakage than smaller and
+less polar molecules.
+Link et al. [35] proposed quenching in a cold mixture of
+methanol and glycerol (3:2 v/v) at 508C as the preferred
+method for metabolome measurements in E. coli. This
+method was compared with quenching in cold ( 508C)
+buffered and unbuffered 60% methanol/water. Metabolite leakage was quantified by measuring the adenylates
+ATP, ADP, and AMP, in cell extracts and supernatants
+after cold centrifugation of the quenched sample. The
+authors reported that leakage of adenylates was significantly reduced, but not completely avoided, when the
+quenching was performed with cold methanol/glycerol,
+and that increased concentrations in the cell extract
+corresponded with decreased concentrations in the
+quenching fluid.
+
+Conclusions
+To aid the measurement of true intracellular metabolite
+levels of microorganisms, various manual, semiautomatic
+and fully automated rapid sampling techniques have been
+constructed and successfully applied. For elucidation of
+in vivo kinetic properties stopped flow systems have been
+developed to carry out pulse response experiments without disturbing the culture in the bioreactor. In contrast to
+the development of rapid sampling systems, the development of reliable sample processing methods has been
+relatively poor. To obtain meaningful metabolome data
+immediate quenching of enzyme activity is required
+followed by the separation of the exometabolome and
+www.sciencedirect.com
+
+Fast sampling van Gulik 33
+
+endometabolome, without leakage of metabolites from
+the cells to the quenching solution. Preferably the
+method should be applicable to different species, both
+eukaryotes and prokaryotes. In the literature various
+methods have been proposed to be suitable for particular
+microbial species. In many cases, however, the suitability
+of these methods is not confirmed by the presented
+results. Therefore additional effort should be directed
+toward the improvement of sample processing procedures
+for quantitative microbial metabolomics.
+
+References and recommended reading
+Papers of particular interest, published within the period of review,
+have been highlighted as:
+ of special interest
+ of outstanding interest
+1.
+
+De Backer P, De Waele D, Van Speybroeck L: Ins and outs of
+systems biology vis-à-vis molecular biology: continuation or
+clear cut? Acta Biotheor 2009. published online October 24.
+
+2.
+
+Tang YJ, Martin HG, Myers S, Rodriguez S, Baidoo EE,
+Keasling JD: Advances in analysis of microbial metabolic
+fluxes via (13)C isotopic labeling. Mass Spectrom Rev 2009,
+28:362-375.
+
+3.
+
+Gstaiger M, Aebersold R: Applying mass spectrometry-based
+proteomics to genetics, genomics and network biology. Nat
+Rev Genet 2009, 10:617-627.
+
+4.
+
+Oldiges M, Lütz S, Pflug S, Schroer K, Stein N, Wiendahl C:
+Metabolomics: current state and evolving methodologies and
+tools. Appl Microbiol Biotechnol 2007, 76:495-511.
+
+5.
+
+Lønsmann Iversen JJ: A rapid sampling valve with minimal dead
+space for laboratory scale fermenters. Biotechnol Bioeng 1981,
+23:437-440.
+
+6.
+
+Theobald U, Mailinger W, Reuss M, Rizzi M: In-vivo analysis of
+glucose-induced fast changes in yeast adenine nucleotide
+pool applying a rapid sampling technique. Anal Biochem 1993,
+214:31-37.
+
+7.
+
+
+Schädel F, Franco-Lara E: Rapid sampling devices for
+metabolic engineering applications. Appl Microbiol Biotechnol
+2009, 83:199-208.
+Comprehensive overview of devices for rapid sampling from bioreactors.
+8.
+
+Larsson G, Törnkvist M: Rapid sampling, cell inactivation and
+evaluation of low extracellular glucose concentrations during
+fed-batch cultivation. J Biotechnol 1996, 49:69-82.
+
+9.
+
+Lange HC, Eman M, van Zuijlen G, Visser D, van Dam JC, Frank J,
+Teixeira de Mattos MJ, Heijnen JJ: Improved rapid sampling for
+in vivo kinetics of intracellular metabolites in Saccharomyces
+cerevisiae. Biotechnol Bioeng 2001, 75:406-415.
+
+10. Schaefer U, Boos W, Takors R, Weuster-Botz D: Automated
+sampling device for monitoring intracellular metabolite
+dynamics. Anal Biochem 1999, 270:88-96.
+11. Weuster-Botz D: Sampling tube device for monitoring
+intracellular metabolite dynamics. Anal Biochem 1997,
+246:225-233.
+12. Schaub J, Schiesling C, Reuss M, Dauner M: Integrated sampling
+procedure for metabolome analysis. Biotechnol Prog 2006,
+22:1434-1442.
+13. Schaub J, Reuss M: In vivo dynamics of glycolysis in
+Escherichia coli shows need for growth rate
+dependent metabolome analysis. Biotechnol Prog 2008,
+24:1402-1407.
+14. Theobald U, Mailinger W, Baltes M, Rizzi M, Reuss M: In vivo
+analysis of metabolic dynamics in Saccharomyces cerevisiae:
+I. Experimental observations. Biotechnol Bioeng 1997,
+55:305-316.
+www.sciencedirect.com
+
+15. Rizzi M, Baltes M, Theobald U, Reuss M: In vivo analysis of
+metabolic dynamics in Saccharomyces cerevisiae. 2.
+Mathematical model. Biotechnol Bioeng 1997, 55:592-608.
+16. De Koning W, Van Dam K: A method for the determination of
+changes of glycolytic metabolites in yeast on a subsecond
+time scale using extraction at neutral pH. Anal Biochem 1992,
+204:118-123.
+17. Buziol S, Bashir I, Baumeister A, Claassen W, Noisommit-Rizzi N,
+Mailinger W, Reuss M: New bioreactor-coupled rapid
+stoppedflow sampling technique for measurements of
+metabolite dynamics on a subsecond time scale. Biotechnol
+Bioeng 2002, 80:632-636.
+18. Visser D, van Zuylen GA, van Dam JC, Oudshoorn A, Eman MR,
+Ras C, van Gulik WM, Frank J, van Dedem GWK, Heijnen JJ: Rapid
+sampling for analysis of in vivo kinetics using the BioScope: a
+system for continuous-pulse experiments. Biotechnol Bioeng
+2002, 79:674-681.
+19. Mashego MR, van Gulik WM, Vinke JL, Visser D, Heijnen JJ: In vivo
+
+kinetics with rapid perturbation experiments in
+Saccharomyces cerevisiae using a second-generation
+BioScope. Metab Eng 2006, 8:370-383.
+Description and characterization of an improved version of the BioScope
+plug flow reactor for rapid perturbation experiments outside the bioreactor and subsequent rapid sampling.
+20. Weibel EK, Mor J-R, Fiechter A: Rapid sampling of yeast and
+automated assays of adenylate, citrate, pyruvate and glucose6-phosphate pools. Anal Biochem 1974, 58:208-216.
+21. Oldiges M, Takors R: Applying metabolic profiling techniques
+for stimulus–response experiments: chances and pitfalls. Adv
+Biochem Eng/Biotechnol 2005, 92:173-196.
+22. Mashego MR, Rumbold K, De Mey M, Vandamme E, Soetaert W,
+Heijnen JJ: Microbial metabolomics: past, present and future
+methodologies. Biotechnol Lett 2007, 29:1-16.
+23. Canelas AB, Ras C, ten Pierick A, van Dam JC, Heijnen JJ, van
+ Gulik WM: Leakage-free rapid quenching technique for yeast
+metabolomics. Metabolomics 2008, 4:226-239.
+First authors who carried out highly accurate measurements, using
+isotope dilution mass spectrometry, of a large number of different metabolites in different sample fractions to verify metabolite leakage during
+cold methanol quenching and further sample processing in S. cerevisiae.
+On the basis of these results an improved version of the cold methanol
+quenching method is proposed.
+24. Villas-Bôas SG, Bruheim P: Cold glycerol-saline: the
+promising quenching solution for accurate intracellular
+metabolite analysis of microbial cells. Anal Biochem 2007,
+370:87-97.
+25. Wittmann C, Kromer JO, Kiefer P, Binz T, Heinzle E: Impact of the
+cold shock phenomenon on quantification of intracellular
+metabolites in bacteria. Anal Biochem 2004, 327:135-139.
+26. Bolten CJ, Kiefer P, Letisse F, Portais JC, Wittmann C: Sampling
+
+for metabolome analysis of microorganisms. Anal Chem 2007,
+79:3843-3849.
+Different rapid sampling procedures were tested for the quantification of
+metabolite leakage from different Gram positive and Gram negative
+bacteria.
+27. Taymaz-Nikerel H, De Mey M, Ras C, ten Pierick A, Seifar RM, Van
+
+Dam JC, Heijnen JJ, van Gulik WM: Development and
+application of a differential method for reliable
+metabolome analysis in Escherichia coli. Anal Biochem 2009,
+386:9-19.
+The authors carried out highly accurate measurements, using isotope
+dilution mass spectrometry, of a large number of different metabolites in
+different sample fractions to verify metabolite leakage during cold methanol quenching and further sample processing in E. coli. On the basis of the
+observed massive leakage of metabolites they proposed and successfully applied a differential method for metabolome measurement in E. coli.
+28. Bolten CJ, Wittmann C: Appropriate sampling for intracellular
+amino acid analysis in five phylogenetically different yeasts.
+Biotechnol Lett 2008, 30:1993-2000.
+29. Winder CL, Dunn WB, Schuler S, Broadhurst D, Jarvis R,
+Stephens GM, Goodacre R: Global metabolic profiling of
+Escherichia coli cultures: an evaluation of methods for
+Current Opinion in Biotechnology 2010, 21:27–34
+
+34 Analytical biotechnology
+
+quenching and extraction of intracellular metabolites. Anal
+Chem 2008, 80:2939-2948.
+30. Gonzalez B, Francois J, Renaud M: A rapid and reliable method
+for metabolite extraction in yeast using boiling buffered
+ethanol. Yeast (Chichester, England) 1997, 13:1347-1355.
+31. Wellerdiek M, Winterhoff D, Reule W, Brandner J, Oldiges M:
+
+Metabolic quenching of Corynebacterium glutamicum:
+efficiency of methods and impact of cold shock. Bioprocess
+Biosyst Eng 2009, 32:581-592.
+Interesting application of a microstructure heat exchanger to examine the
+short-term impact of rapid cooling on the release of metabolites from
+bacteria.
+32. Mashego MR, van Gulik WM, Vinke JL, Heijnen JJ: Critical
+evaluation of sampling techniques for residual glucose
+
+Current Opinion in Biotechnology 2010, 21:27–34
+
+determination in carbon-limited chemostat culture of
+Saccharomyces cerevisiae. Biotechnol Bioeng 2003, 83:
+395-399.
+33. Spura J, Reimer LC, Wieloch P, Schreiber K, Buchinger S,
+Schomburg D: A method for enzyme quenching in microbial
+metabolome analysis successfully applied to Gram-positive
+and Gram-negative bacteria and yeast. Anal Biochem 2009,
+394:192-201.
+34. Faijes M, Mars AE, Smid EJ: Comparison of quenching and
+extraction methodologies for metabolome analysis of
+Lactobacillus plantarum. Microb Cell Fact 2007, 6:27.
+35. Link H, Anselment B, Weuster-Botz D: Leakage of adenylates
+during cold methanol/glycerol quenching of Escherichia coli.
+Metabolomics 2008, 4:240-247.
+
+www.sciencedirect.com
+
+

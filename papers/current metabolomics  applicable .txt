@@ -1,0 +1,1805 @@
+Journal of Bioscience and Bioengineering
+VOL. 115 No. 6, 579e589, 2013
+www.elsevier.com/locate/jbiosc
+
+REVIEW
+
+Current metabolomics: Practical applications
+Sastia P. Putri,1 Yasumune Nakayama,1 Fumio Matsuda,2 Takato Uchikata,1 Shizu Kobayashi,1
+Atsuki Matsubara,1 and Eiichiro Fukusaki1, *
+Department of Biotechnology, Graduate School of Engineering, Osaka University, 2-1 Yamadaoka, Suita, Osaka 565-0871, Japan1 and Department of Bioinformatic
+Engineering, Graduate School of Information Science and Technology, Osaka University, 2-1 Yamadaoka, Suita, Osaka 565-0871, Japan2
+Received 10 June 2012; accepted 5 December 2012
+Available online 29 January 2013
+
+The ﬁeld of metabolomics continues to grow rapidly over the last decade and has been proven to be a powerful
+technology in predicting and explaining complex phenotypes in diverse biological systems. Metabolomics complements
+other omics, such as transcriptomics and proteomics and since it is a ‘downstream’ result of gene expression, changes in
+the metabolome is considered to best reﬂect the activities of the cell at a functional level. Thus far, metabolomics might
+be the sole technology capable of detecting complex, biologically essential changes. As one of the omics technology,
+metabolomics has exciting applications in varied ﬁelds, including medical science, synthetic biology, medicine, and
+predictive modeling of plant, animal and microbial systems. In addition, integrated applications with genomics, transcriptomics, and proteomics provide greater understanding of global system biology. In this review, we discuss recent
+applications of metabolomics in microbiology, plant, animal, food, and medical science.
+Ó 2013, The Society for Biotechnology, Japan. All rights reserved.
+[Key words: Metabolomics; Metabolome; Mass spectrometry; Chemometrics; Multivariate analysis]
+
+The rapidly growing ﬁeld of metabolomics complements data
+derived from genomics, transcriptomics and proteomics in
+providing a systematic approach to the study of biological
+systems and networks (1). Metabolomics has been an applicationdriven science with broad range of applications in various ﬁelds,
+including medical science, synthetic biology, medicine, and
+predictive modeling of plant, animal and microbial systems. The
+high applicability of metabolomics to various ﬁelds partly stems
+from the close association of the metabolome to the physiology of
+the cell. While the genome, transcriptome and proteome can be
+seen as mediums in the ﬂow of gene expression, the metabolome
+represents the ﬁnal omic level in a biological system, and reﬂects
+changes in phenotype and function (2). The metabolomics
+workﬂow includes sample preparation, analysis using various
+instruments, data processing and data analysis. The power of
+metabolomics lies on the acquisition of analytical data in which
+metabolites in a cellular system are quantiﬁed, and the extraction
+of the most meaningful elements of the data by using various
+data analysis tool. In this article, we discuss the application of
+metabolomics in various ﬁelds, namely in microbiology, and
+plant, animal, medical and food sciences.
+MICROBIAL METABOLOMICS
+Microbe is an important sample for the ﬁeld of metabolomics
+since it has been used for development of experimental procedures
+* Corresponding author. Tel./fax: þ81 6 6879 7424.
+E-mail address: fukusaki@bio.eng.osaka-u.ac.jp (E. Fukusaki).
+
+and construction of research tactics. Because metabolomics is
+a high-resolution analysis, it requires controllable experimental
+conditions, such as growth conditions and surrounding environment to validate methods. Therefore, checking method validation is
+one important application of microbial metabolomics, especially
+sample preparation and metabolite measurement.
+Several studies have been conducted to optimize sample preparation using microorganisms for metabolomics (3e7). There are
+two important processes in sample preparation: quenching and
+extraction. Quenching is the process of stopping biological reactions in a cell, and extraction is the process of obtaining metabolites
+from the cell. In the early stages of its development, metabolomics
+was used for the discrimination of strains possessing different
+characteristics. Owing to its multicomponent data, high-resolution
+information for each cell type could be successfully obtained (8). In
+such study, high reproducibility is an important consideration for
+sample preparation. However, recent applications have been
+gradually focusing on metabolism per se. Thus, sample preparation,
+especially sample quenching, has been focused on stopping
+metabolism at a speciﬁc period to measure the true quantity of
+metabolites at a given time. For quenching, the following are
+required to accurately measure the quantity of metabolite in a cell:
+short time frame during which the biological reaction is stopped,
+limited leakage of metabolite and reproducibility. A summary of
+quenching procedures can be seen in Table 1 (9e15).
+The appropriate extraction method must be chosen considering
+the following: cell properties, such as robustness of the cell
+membrane, chemical properties of the target analyte and reactivity
+of enzymes. The most common method is organic solvent
+
+1389-1723/$ e see front matter Ó 2013, The Society for Biotechnology, Japan. All rights reserved.
+http://dx.doi.org/10.1016/j.jbiosc.2012.12.007
+
+580
+
+PUTRI ET AL.
+
+J. BIOSCI. BIOENG.,
+TABLE 1. Summary of common quenching methods in microbial metabolomics.
+
+Method
+Filtration
+quenching
+
+Injection
+quenching
+
+Features
+
+Advantage
+
+Disadvantage
+
+Application
+
+Sample is collected with a
+ﬁlter membrane and
+quenched by rapid cooling
+or chemicals
+Sample is directly injected to
+a pre-cooled quenching
+solution and collected by
+centrifugation
+
+Good
+reproducibility
+
+Time-consuming, requires manual operation
+
+Recommended for
+prokaryotes,
+i.e., E. coli
+
+9e11
+
+Rapid
+
+Metabolite leakage (particularly in
+gram-negative bacteria) and leftover
+sample (can be overcome by additional
+washing step but may result in signiﬁcant
+metabolite leakage)
+
+Commonly used
+in S. cerevisiae
+
+3,4,12e14
+
+extraction, using methanol and chloroform but physical stresses,
+such as high temperature or freeze-thaw, are sometimes applied. In
+an early study of metabolite extraction from Escherichia coli for
+global analysis, cold (40 C) methanol extraction produced good
+results compared with hot ethanol, hot methanol, perchloric acid,
+alkaline or methanol/chloroform extraction in terms of metabolite
+coverage, reproducibility and simplicity (15). A version of this
+protocol, using 100% cold methanol at 48 C with multiple
+freezeethaw cycles, has also been developed (4). Although the
+authors concluded that this method has global applicability, they
+noted that some other extraction methods were also suitable for
+some target analyses. For Saccharomyces cerevisiae, the boiling
+ethanol and chloroform-methanol extraction methods exhibited
+the best efﬁcacy and highest metabolite recovery, compared with
+hot water, freezing-thawing in methanol and acidic acetonitrilemethanol extraction (16).
+One of the groundbreaking works in early microbial metabolomics was the phenotyping of silent gene mutants (8). In this
+work, silent gene knockout mutants were distinguished by metabolic snapshots and multivariate analysis. This suggested a possible
+beneﬁt of metabolomics phenotyping with high resolution for gene
+functioning. The recent advancement in metabolic phenotyping has
+succeeded in the semi-rational screening of aging-related genes
+(17). For phenotyping, relative quantiﬁcation is usually sufﬁcient,
+while absolute quantiﬁcation can be used to study metabolic
+dynamics, e.g., using the Km of enzymes, within a particular
+pathway.
+Although absolute quantiﬁcation is difﬁcult to achieve by MSbased metabolomics, it has been made possible by the combination
+of isotopically full labeled cells and commercially available
+compounds (18). Stable isotopes are also used in the study of
+microbial metabolomics. Recently, an interesting study, using 13C,
+discovered riboneogenesis in S. cerevisiae by target proﬁling of
+isotopomers in knockout mutants (19). Furthermore, metabolomics-based molecular network analysis has been performed
+using systematic in vivo metaboliteeprotein interactions in the
+ergosterol biosynthesis pathway (20). Footprinting, which is analysis of culture medium, is also used to distinguish genotype (21).
+And recent study showed the potential of footprinting for study of
+co-culture system (22).
+The most studied bacterial species in metabolomics is E. coli. In
+early studies, thin-layer chromatography and 14C-glucose were
+used to reveal the relationship between cellular metabolism and
+global regulation (23). This report demonstrated that multiple
+metabolites, such as glutamate, aspartate, trehalose, adenosine,
+UDP-sugar and putrescine level varied with different speciﬁc
+growth rate under chemostat condition. More recently, metabolic
+dynamics was studied by using absolute quantiﬁcation and Km of
+related enzymes to clarify that the pair of most detected metabolite
+intercellular concentration exceeded the Km value of its related
+enzyme (18). In addition, the relationship between ammonia
+assimilation and nutrient perturbation was studied by combination
+of absolute quantiﬁcation and ﬂux simulation (24). This study reported two important intermediates, 2-oxoglutarate and
+
+Reference
+
+glutamine, for ammonia assimilation and more interestingly the
+authors showed that despite having weak enzymatic inhibition,
+some active-site inhibitors play important role in metabolic
+dynamics (24). Rapid analysis using MALDI has been used to obtain
+detailed time course data to study the dynamics of intracellular
+metabolism (25). An approach using 13C-labeled intermediates in
+central metabolism for metabolic ﬂux analysis has also been
+developed for non-stationary metabolic ﬂux analysis (26).
+Some innovative methodological studies in eukaryotes have
+already been described above (17,19e21). In S. cerevisiae, the relationship between concentration of metabolites and enzyme abundance was studied to reveal the link between metabolic ﬂux and
+global metabolism (27). In metabolic engineering, several studies
+have been conducted to improve yields of important metabolites,
+such as high production of SO2 in the bottom-fermenting yeast
+Saccharomyces pastorianus (28), through a combination of metabolomics and transcriptomics. In addition, the development of
+metabolic engineering strategies to confer resistance to stresses has
+been studied using xylose-fermenting S. cerevisiae to ﬁnd target
+genes for optimization of fermentation (29). The discovery of a new
+synthetic pathway for glyoxylate from glycine was achieved using
+metabolomics and isotope labeling analysis (30).
+Co-culture system also has been studied (22,31). Zhou et al.
+studied the cooperation between Bacillus megaterium and Ketogulonicigenium vulgare, which is used for production of precursor of
+vitamin C, by time course sampling and discovered symbiotic
+relation at early growth stage and antagonism at later stage (31).
+Nakanishi et al. (22) studied more dynamic state of metabolism
+under co-culture system using 13C-substrate and nuclear magnetic
+resonance, and cooperation between Biﬁdobacterium longum and
+E. coli O157. The author demonstrated that aspartate and serine
+from B. longum is utilized by E. coli.
+Metabolomics for the study of biological systems still has a long
+period of development ahead before reaching maturity. In the
+future, metabolome analysis of microorganisms will remain
+invaluable for the development of methods for the study of higher
+organisms.
+PLANT METABOLOMICS
+The application of metabolomics techniques to plant science
+was pioneered by groups at the Max Planck Institute. Weckwerth
+and coworkers obtained a series of metabolome data from potato
+tubers using GC/MS (32). A pair-wise comparison of metabolite
+levels showed that many pairs of metabolites exist, and that their
+levels show high correlation coefﬁcients despite ﬂuctuations in
+biological replicates. The investigators also demonstrated that the
+structure of the correlation network could be changed in a mutant
+with a silent phenotype, in which metabolic changes were
+observed despite a lack of visible changes. Theoretical studies
+revealed that factors such as equilibrium between neighboring
+metabolites shared biosynthetic enzymes and coordinated regulation of gene expression are likely responsible for the correlation
+between metabolite levels (33). These pioneering works
+
+VOL. 115, 2013
+demonstrated that a novel relationship among metabolites can be
+determined using statistical analysis of a metabolome dataset, from
+which information on the plant metabolic system can be obtained.
+These investigations also indicate that the metabolome represents
+the ultimate phenotype of cells. Due to the technical advantages,
+metabolomics has played a key role in plant science, helping
+researchers to understand cellular systems and decode the function
+of genes (34).
+It is known that the metabolic state of plants is dynamically
+controlled by transcriptional regulation in response to environmental and developmental conditions. The regulatory mechanisms
+between gene expression and the resulting metabolic phenotype is,
+however, still a black box. Thus, detailed investigation of the
+dynamic behavior of metabolic systems has been a big challenge for
+plant systems biologists. One promising strategy is a global survey
+of gene expression and metabolite accumulation to estimate
+mechanisms. In order to address this issue, an integrated analysis of
+transcriptome and metabolome data combined with metabolic
+pathway information was performed. The early applications of this
+strategy included an investigation of the reprogramming of gene
+expression and metabolism triggered by nutritional stress, such as
+sulfur starvation. A major breakthrough provided by this strategy
+was the identiﬁcation of a gene-to-metabolite network regulating
+plant metabolism against environmental stress. Integrated analysis
+of time course data revealed that groups of metabolites and genes
+related to primary and secondary metabolites are coordinately
+modulated by stress induced by sulfur deﬁciency (35,36). A similar
+analysis was performed for various plants, including pathogeninfected Medicago and metabolically engineered rice (37,38).
+Another major achievement was the prediction of novel gene
+function by using the rules governing the link between gene
+expression and metabolite accumulation. The integrated analysis
+allowed the prediction of genes involved in glucosinolate biosynthesis [e.g., genes coding for two MYB transcription factors (39) and
+side chain elongation (40)] in a comprehensive manner. This
+strategy has also been applied to other plant species (41,42).
+The integrated analysis of gene expression and secondary
+metabolites in the model plant Arabidopsis thaliana was intensively
+performed for construction of the AtMetExpress development
+dataset, which is part of the AtMetExpress metabolite accumulation
+atlas (43). Genome sequence analysis of A. thaliana revealed that it
+has many metabolic genes, possibly for the production of many
+phytochemicals. However, phytochemical diversity in plant species,
+and the underlying metabolic systems are unclear. Thus, the
+phytochemicals produced during development in A. thaliana were
+investigated in samples covering many growth stages and organs.
+Based on the dataset, 1589 metabolite signals were detected, from
+which the structures of 167 metabolites were elucidated. Analysis of
+the dataset demonstrated that Arabidopsis produces various
+phytochemicals in a highly tissue-speciﬁc manner. Integrated
+analyses with transcriptome data revealed that tissue-speciﬁc
+accumulation often accompanies the expression of key biosynthesis-related genes (44). These results indicate that the functional
+differentiation of secondary metabolite biosynthesis among the
+various tissues was achieved by controlling the expression of a small
+number of key regulatory genes. It is also postulated that a simple
+mode of regulation, transcript-to-metabolite, is the origin of the
+dynamics and diversity of plant secondary metabolism.
+Metabolomics techniques have also been applied to the crop and
+breeding sciences. Genetic factors regulating metabolite levels have
+been intensively investigated because nutritional quality is an
+important quantitative trait of crops. For example, quantitative trait
+locus (QTL) analysis of m-traits revealed the loci responsible for the
+control of vitamin E levels (45). Recently, metabolome QTL analyses
+have been conducted for a comprehensive understanding of the
+genetic background controlling the plant metabolome (46e51).
+
+APPLICATION OF METABOLOMICS
+
+581
+
+QTL analysis of tomato fruit traits indicated that levels of primary
+metabolites, including amino acids and sugars, were under the
+control of many QTLs (52), and also showed that the modes of
+inheritance differ for the various metabolites (53). The analysis of
+Arabidopsis revealed that QTLs are unevenly distributed in the
+genome, suggesting that the overall composition of the plant
+metabolome can be controlled by small genomic regions (48). In
+addition, the relationship between metabolite composition and
+other important traits, such as yield and biomass, has been investigated since these traits are likely to interact closely with metabolism in plants. The analysis of tomato fruit traits with metabolome
+data indicated that there are certain correlations among these
+traits, although in most cases, only weak correlations were
+observed (46). Regression analysis of metabolome data for Arabidopsis biomass traits demonstrated that the growth rate of Arabidopsis seedlings is predictable from the metabolome signature to
+a degree (48). These studies suggest that the interactions between
+metabolites and other traits should be predictable using metabolome data.
+Molecular breeding by the introduction of various transgenes
+into plants is an efﬁcient way to produce genetically modiﬁed (GM)
+crops with improved performance. Metabolomics plays a key role
+in the public acceptance of GM crops by providing data necessary
+for risk management (52). Similarities between the metabolic
+proﬁles of tissues from GM plants, non-transformants and other
+cultivars have been examined using multivariate analysis (53,54).
+Substantial equivalence is veriﬁed when the perturbation of the
+metabolic proﬁle caused by transgene expression is within the
+variance that exists among the various cultivars.
+Technical improvements in metabolomics have been spurred by
+the need of plant scientists to detect and identify diverse phytochemicals. The ability to produce various phytochemicals has
+evolved in plants for the purpose of self-defense, environmental
+adaptation and interaction with other organisms. Because humans
+utilize phytochemicals for numerous purposes, including the
+production of pharmaceuticals, further understanding of the
+genetic background behind the diversity of secondary metabolites
+produced by plants will facilitate a more intensive application of
+these compounds. However, the current bottleneck in metabolome
+analysis of plant metabolites is the annotation of metabolite signals
+(55e57). It has recently been recognized that three types of data
+and infrastructure are required for database-assisted elucidation of
+metabolite structures (58,59). First, tandem mass (MS/MS) spectra
+data for structural elucidation of metabolites (60). Second, a
+comprehensive mass spectral database of phytochemicals. Although
+great effort has been put into construction of the MS/MS spectral
+databases (61), further enrichment is required for structural elucidation of a wider range of metabolites. Third, a method to determine
+the false discovery rate in large-scale search results (62). Further
+development of these databases and methodology is required to
+explore the diversity of plant secondary metabolites. This is the next
+challenge in the development of metabolomics technology.
+ANIMAL METABOLOMICS
+Metabolomics technology has been applied to study biological
+phenomena in several model organisms, including zebra ﬁsh and
+fruit ﬂy. Comprehensive analysis of metabolites in these organisms
+has provided a wealth of information on physiological, developmental and pathological processes. Metabolomics can therefore
+provide novel insight that can be developed and applied to research
+in other species. A summary of application of metabolomics in
+animal science can be seen in Table 2.
+Zebra ﬁsh (Danio rerio) The zebra ﬁsh (D. rerio) is a very
+popular model organism for biological, behavioral and biomedical
+
+582
+
+PUTRI ET AL.
+
+J. BIOSCI. BIOENG.,
+TABLE 2. Summary of animal metabolomics applications cited in this review.
+
+Species
+Zebra ﬁsh
+Zebra ﬁsh
+Zebra ﬁsh
+Nematode
+Nematode
+Fruit ﬂy
+Fruit ﬂy
+Fruit ﬂy
+Fruit ﬂy
+Fruit ﬂy
+
+Material
+
+Method
+
+Approach
+
+Application
+
+Reference
+
+Egg
+Egg
+Liver
+Whole body
+Whole body
+Whole body
+Whole body
+Whole body
+Thorax
+Whole body
+
+GC/MS
+LC/MS
+GC/MS, LC/MS/MS, NMR
+LC/MS, NMR
+LC/ﬂuorescence detection
+NMR
+NMR
+NMR
+NMR
+LC/FT-MS
+
+Non-targeted
+Non-targeted
+Targeted
+Targeted/non-targeted
+Targeted
+Non-targeted
+Non-targeted
+Non-targeted
+Non-targeted
+Targeted
+
+Prediction of vertebrate development
+Prediction of vertebrate development
+Metabolic proﬁling of male and female zebra ﬁsh liver
+Metabolic responses to cadmium
+Metabolic proﬁling of mitochondrial respiratory chain mutants
+Metabolomic signatures of inbreeding
+Metabolic proﬁling of heat stress
+Metabolomic proﬁling of rapid cold hardening and cold shock
+Metabolomic of age-related decline of hypoxia tolerance
+Metabonomic proﬁling of different strains
+
+66
+67
+68
+75
+77
+85
+86
+87
+88
+89
+
+research, particularly for studies on embryogenesis, organogenesis
+and general vertebrate development. The zebra ﬁsh is now gaining
+popularity as a model for research into disease and drug discovery.
+This is because, compared with rodents, they are easily bred in large
+numbers with a relatively low maintenance cost. In addition, the
+small size of this ﬁsh makes it highly suitable for whole organism
+assessment of changes in global gene expression caused by chemicals and drugs (63e65).
+Hayashi et al. (66) successfully demonstrated the dynamic
+changes involved in early vertebrate development by the metabolomics approach. They used a metabolomics as a novel strategy in
+order to understand embryogenesis in zebra ﬁsh. The metabolome
+during the different stages of embryogenesis exhibited dynamic
+changes, indicating that the types and quantities of metabolites are
+correlated with biological activities during development because
+they could successfully predict embryonic stages using metabolomic information. On the basis of the robust correlation between
+the metabolome and embryogenesis, they concluded that the
+metabolome can be used as a ﬁngerprint for a particular developmental process.
+Metabolomics has been used to study single zebra ﬁsh
+embryos (67). Highly accurate PLS models of developmental
+stages were constructed using single-embryo metabolic nontarget ﬁngerprinting. This model was implemented on different
+developmental stages under standard rearing conditions, but it
+was necessary to apply different rearing conditions to demonstrate the applicability and versatility of this single-embryo
+metabolomics approach. This metabolomics approach should
+enable the identiﬁcation of the developmental stage of embryos
+exhibiting no visible defects and help clarify the metabolic
+differences between wild-type and mutant animals or drug
+treatments and so on.
+Ong et al. (68) performed a multiple platform approach, incorporating GC/MS, LC/MS and 1H NMR to study the biochemical
+proﬁles of livers from female and male zebra ﬁsh. Their ﬁndings
+showed that 1H NMR provided comprehensive information on
+glucose, amino acids, pyruvate and other biochemical constituents
+of the zebra ﬁsh liver. GC/MS spectrometry was able to analyze
+cholesterol, as well as saturated and unsaturated fatty acids. LC/MS
+spectrometry was ideal for the analysis of lipids and phospholipids.
+This multiple techniques approach showed signiﬁcant differences
+in the liver of female and male zebra ﬁsh. The biomolecules
+observed to be different included amino acid, unsaturated fatty
+acids, cholesterol, phospholipids and other small molecules. The
+overall ﬁndings suggest that the multiplatform approach offers
+a much better coverage of the metabolome.
+Nematode (Caenorhabditis elegans) The nematode (C. elegans) has been characterized in great detail in terms of its development, morphology and physiology at the cellular level, and its
+genome has been completely sequenced (69). A powerful genetic
+tool for C. elegans is available, as well as a large collection of
+mutants. In addition, C. elegans is one of the few animals for
+
+which high-throughput in vivo RNA interference (RNAi) screening
+has been established (70). C. elegans is a good platform, for
+example, to understand the physiology of lifespan and aging, for
+the study of genetic diseases, drug toxicity screening and
+pharmacological studies (71e74).
+Hughes et al. (75) generated different mutants and performed
+NMR- and UPLC-MS-based metabolomic analyses. Their results
+imply that the main physiological responses to cadmium are
+independent of metallothionein status (at least in phytochelatin
+synthase-normal nematodes) and result in an increased production
+of phytochelatins by altered ﬂux through the methionine transsulfonation pathway. They conﬁrmed earlier observations that
+phytochelatin synthase is required in C. elegans for protection
+against cadmium by demonstrating the production of phytochelatins (phytochelatin-2 and phytochelatin-3) directly in tissue
+extracts of cadmium-exposed C. elegans.
+C. elegans, which has greater than 83% genetic homology with
+humans (76), affords a model of primary mitochondrial dysfunction
+that provides insight into cellular adaptations that accompany
+mutations in nuclear genes encoding mitochondrial proteins. Falk
+et al. (77) applied metabolomics to mutants of the mitochondrial
+respiratory chain. Their work showed that primary mitochondrial
+disease is associated with gene expression alterations in multiple
+metabolic pathways. Speciﬁc pathways that were signiﬁcantly
+upregulated in primary mitochondrial respiratory chain disease
+included those involved in oxidative phosphorylation and the
+tricarboxylic acid cycle, and those participating in carbohydrate,
+amino acid and fatty acid metabolism.
+A powerful genetic toolset for C. elegans exists and a large
+collection of mutants is available. Therefore, C. elegans is an ideal
+model organism to explore the correlation between metabolites
+and gene function.
+Fruit ﬂy (Drosophila melanogaster) The fruit ﬂy (D. melanogaster) is another principal model organism used for studying the
+genetics of aging and physiology, for a number of reasons. Flies
+develop to adulthood quickly, have a short lifespan, are easy to breed
+and undergo functional senescence with similarities to human
+aging (78). Transcriptional expression studies of D. melanogaster
+that investigate the extent to which gene transcription varies
+between phenotypes are increasingly common, including studies
+of pesticide resistance (79), developmental biology (80), oxidative
+stress (81,82), starvation, sugar feeding and the effects of
+phenobarbital (83,84). Metabolomics approach of D. melanogaster
+was performed in order to investigate the relationship between
+metabolite and phenotype.
+Pedersen et al. (85) applied metabolomics using a multiple
+platform approach to study the effects of breeding of Drosophila,
+including mutations and stressful temperatures. They found that
+the metabolite ﬁngerprints of inbred and outbred ﬂies were clearly
+distinguishable. The approach used in this study to examine the
+association between metabolite and gene expression levels is likely
+to be generally applicable for the integration of multivariate data
+
+VOL. 115, 2013
+
+APPLICATION OF METABOLOMICS
+
+from different omic technologies. Integration of information across
+multi-omic technologies has the potential to broaden the limited
+window provided by individual technologies, thus enhancing the
+understanding of biological systems.
+Malmendal et al. (86) conﬁrmed that NMR metabolomic proﬁling
+could be used to understand the perturbations (and the homeostatic
+response) caused by heat stress in D. melanogaster. The metabolite
+proﬁle was analyzed during recovery after exposure to different
+thermal stress treatments and compared with untreated controls
+with time course. They demonstrated that the analytical method
+used to understand the metabolic trajectory caused by a biological
+stress is a powerful tool for monitoring effects on homeostasis, which
+could be widely applied to cellular/molecular physiology and
+biochemistry. The data revealed changes in several speciﬁc metabolites that are likely to be related to stress, and both the overall
+metabolomic response and changes in the speciﬁc metabolites varied
+with the intensity of the heat stress applied to the ﬂies. In addition,
+D. melanogaster has features that make it an ideal organism for the
+development of metabolomics models for the study of physiology.
+Indeed, metabolomics has been successfully applied for the study of
+cold shock (87), hypoxia (88) and mutations (89) in this species.
+Although the application of metabolomics for the study of
+animal physiology and biochemistry is still relatively limited in
+comparison with plant science and microbiology (less than 30
+articles for each study organism, i.e., zebra ﬁsh, nematode and fruit
+ﬂy as shown by the number of hit articles in PubMed, August 1,
+2012), the number of reports is steadily increasing in recent years.
+Metabolomics approach will enable identiﬁcation of mutants
+exhibiting no visible defects and clariﬁcation of novel aspects of
+known mutants. Integration of information across multi omics
+technologies has the potential to broaden the limited window
+provided by individual technologies, thus enhancing our understanding of biological systems. Accumulation of metabolome data
+for various model organisms should further animal science.
+MEDICAL METABOLOMICS
+With the recent breakthrough in metabolomics technologies,
+application of metabolomics has been increasing in the medical
+
+583
+
+ﬁeld. There are two major purposes for its use in medicine; the ﬁrst
+is to acquire knowledge on the mechanisms of drug action or the
+disease itself, and another is to explore biomarkers. Aside from
+diagnostic purposes, biomarkers have been used as indicators of
+toxicity and therapeutic effects. This chapter discusses the different
+approaches used for various diseases (Table 3).
+Metabolic syndromes and related diseases Life-threatening
+diseases caused by disorders of lipid and sugar metabolism, such as
+cerebrovascular and cardiovascular disease, are a major cause of
+death in developed countries. Therefore, it is important to detect
+changes in metabolites for the acquisition of pathophysiological
+knowledge and discovery of biomarkers for early diagnosis of these
+fatal diseases. Sabatine et al. examined changes in the metabolome
+caused by exercise stress in inducible ischemia patients and
+a control group to identify novel biomarkers of myocardial ischemia
+(90). LC/MS-based metabolomic analysis revealed that 6 out of the
+23 metabolites that varied after exercise in patients were involved
+in the citric acid metabolic pathway. Furthermore, a signiﬁcant
+difference in changes of six metabolites, including citric acid,
+between patients and controls was observed. Teul and coworkers
+used GC/MS in combination with 1H NMR and identiﬁed 24
+metabolites involved in insulin-resistance that were important
+for distinguishing patients with stable carotid atherosclerosis
+from healthy subjects (91).
+Recently, research has been conducted to clarify the detailed
+pathogenic mechanisms of hyperlipidemia and diabetes, which
+occur prior to these diseases. Connor et al. applied an integrated
+metabolome/transcriptome analysis to model type 2 diabetes in db/
+db mice (92). As a result, differences in 24 pathways related to lipid
+metabolism, including gluconeogenesis, mitochondrial dysfunction, oxidative stress and branched chain amino acid biosynthesis,
+were observed between db/db and db/þ (control) mice. Metabolomic analysis was also applied to human subjects. Suhre et al.
+applied multiplatform metabolomics using GC, LC, MS/MS and
+NMR to subjects with self-reported diabetes and controls and
+identiﬁed 420 metabolites from the sera of these subjects (93).
+They found perturbations in pathways linked to kidney dysfunction, lipid metabolism and interactions with gut microﬂora. Two
+independent studies of obesity using metabolomics were also
+
+TABLE 3. Summary of medical metabolomics applications cited in this review.
+Disease
+
+Species
+
+Material
+
+Method
+
+Speciﬁc biomarker species
+
+Reference
+
+Targeted
+Targeted
+Targeted
+
+Gamma-amino-butyric acid, uric acid, citrate
+Mannose, 1,5-anhydroglucitol, phenylacetylglutamine
+3-Indoxyl sulfate, glycerophospholipids, bile acids
+
+90,91
+92
+93
+
+Lysophosphatidylcholine
+Phosphatidylcholine
+Trimethylamine N-oxide, choline, betaine
+Alpha-glycerolphosphate, uracil, glycine
+(13C-enrichment in lactate, alanine, succinate)
+
+94
+95
+96
+97
+98
+
+GC/MS
+GC/MS
+
+Non-targeted
+Targeted
+Non-targeted
+Non-targeted
+Stable isotope
+resolved analysis
+Targeted
+Non-targeted
+
+Thiodiglycolic acid, lactic acid, 7-hydroxyoctanoic acid
+Xylitol, urea, hydroxy proline dipeptide
+
+99
+100
+
+Urine/tissue
+Saliva
+Saliva
+Saliva
+
+GC/MS
+CE/MS
+CE/MS
+CE/MS
+
+Targeted
+Non-targeted
+Non-targeted
+Non-targeted
+
+101
+102
+102
+102
+
+NMR
+
+Non-targeted
+
+Human
+Human/mouse
+Human
+
+Cerebrospinal
+ﬂuid
+Plasma
+Serum
+Plasma
+
+Succinate, N-acetyl-aspartate, 2-hydroxyhippurate
+Pyrroline, leucine þ isoleucine, taurine
+Taurine, putrescine, leucine þ isoleucine
+Leucine þ isoleucine, phenylalanine,
+alpha-amino butyric acid
+Lactate, citrate, glucose
+
+NMR
+GC/MS
+LC/MS/MS, GC/MS
+
+Targeted
+Non-targeted
+Targeted
+
+104
+105
+106
+
+Rat
+
+Plasma
+
+GC/MS
+
+Targeted
+
+Threonate, myoinositol, suberate
+Glycerol, urea, valine
+Free fatty acids, triglycerides,
+phosphatidylethanolamine
+Glucose, glutamine, butanedioic acid
+
+Myocardial ischemia
+Type 2 diabetes
+Type 2 diabetes
+
+Human
+Mouse
+Human
+
+Plasma
+Urine
+Plasma
+
+Obesity
+Obesity
+Cardiovascular disease
+Ovarian carcinoma
+Lung cancer
+
+Human
+Human
+Human
+Human
+Human
+
+Serum
+Serum
+Plasma
+Tumor tissue
+Tissue, plasma
+
+LC/MS/MS
+NMR
+GC/MS, LC/MS/MS,
+NMR
+LC/MS/MS
+MS/MS
+LC/MS/MS
+GC/MS
+GC/MS, NMR
+
+Pancreatic cancer
+Hepatocellular
+carcinoma
+Colorectal cancer
+Oral cancer
+Breast cancer
+Pancreatic cancer
+
+Human
+Human
+
+Serum
+Urine
+
+Human/rat
+Human
+Human
+Human
+
+Schizophrenia
+
+Human
+
+Parkinson’s disease
+Huntington’s disease
+Schizophrenia
+Depression
+
+Approach
+
+103
+
+107
+
+584
+
+PUTRI ET AL.
+
+conducted. Differences in the fatty acids lysophosphatidylcholine
+(94), phosphatidylcholine (95) and acylcarnitine were observed
+between obese and lean subjects. Their results partially revealed
+the mechanism underlying hyperlipidemia.
+More recently, a large-scale human study of cardiovascular
+disease (CVD) was conducted using LC/MS/MS-based metabolomics
+(96). The authors chose trimethylamine oxide (TMAO) as a candidate biomarker. The effectiveness of the marker was conﬁrmed by
+analyzing TMAO in serum of nearly 2000 patients. TMAO levels
+exhibited a dose-dependent association with the risk of CVD and
+multiple individual CVD phenotypes, including peripheral artery
+disease, coronary artery disease and history of myocardial infarction. This study has shown the potential for clinical application of
+biomarkers discovered by metabolomics and is a milestone in the
+history of metabolomics.
+Cancer Cancer is a leading cause of death worldwide and
+accounted for 7.6 million deaths in 2008. Deaths from cancer are
+projected to rise to over 11 million by 2030. Because early diagnosis
+is required to improve prognosis, discovery of sensitive cancer
+biomarkers has become one of the priorities of cancer research.
+Denkert and coworkers analyzed invasive carcinomas and
+borderline tumors (97) by GC/TOF-MS, and detected 291 metabolites,
+of which more than a hundred were annotated. Furthermore, 51
+metabolites were signiﬁcantly different between carcinomas and
+borderline tumors, and 88% of borderline tumor cells could be
+identiﬁed using a supervised prediction model. The authors used the
+Kyoto Encyclopedia of Genes and Genomes for correlating the
+metabolic changes to different pathways and key enzymes. They
+found perturbations in the metabolic pathways for glycerolipids,
+fatty acids and amino acids in the carcinomas. Metabolomics helps
+provide an accurate diagnosis of cancer and provides insight into the
+pathogenesis of the disease. Fan et al. used 13C stable isotope
+metabolomics using uniformly labeled 13C-glucose as tracers to study
+metabolite ﬂux in lung cancer cells (98). Their analysis of lung cancer
+tissue from 13C-infused patients revealed that lung cancer cells
+contained high amounts of 13C-labeled lactate, alanine, indicating
+enhancement of energy production via glycolysis. Generally, glucose
+for glycolysis and glutamine for glutaminolysis via the Krebs cycle are
+thought to be the major energy resources in cancer cell. However, the
+elevated levels of the aspartate isotopomer with three 13C-labeled
+carbons and the 13C-2,3-glutamate isotopomer in lung tumor tissues
+provides deﬁnitive evidence of the increased production of aspartate
+and glutamate from 13C-glucose via glycolysis, anaplerotic pyruvate
+carboxylation and the Krebs cycle. Furthermore, the authors
+conﬁrmed pyruvate carboxylation activation in tumor tissues by an
+increased level of pyruvate carboxylase mRNA and protein. These
+ﬁndings suggest that isotopomer-based metabolomics is useful for
+understanding the biochemical changes in cancer cells.
+Numerous studies have been performed to identify cancerspeciﬁc biomarkers in less-invasive samples. Nishiumi et al. sought
+to identify serum biomarkers of pancreatic cancer, which is difﬁcult
+to detect and diagnose early (99). The levels of 18 out of 60
+metabolites identiﬁed in patients’ sera by GC/MS was signiﬁcantly
+different from that of healthy subjects. Furthermore, this difference
+was observed even in stage I patients. These results suggest that
+screening of early stage pancreatic cancer can be realized by using
+serum metabolomics. Researchers have been keen on seeking
+biomarkers in non-invasive samples, such as urine (100,101) and
+saliva (102). In these studies, in the same fashion of most metabolomic studies of diagnostic method, multivariable analysis and/or
+multiple biomarkers were used to enhance sensitivity and speciﬁcity of the method. Taken together, metabolomics is a promising
+non-invasive, highly sensitive diagnostic method for cancer.
+Central nervous system diseases and psychiatric disorders In
+diseases of the central nervous system, it is difﬁcult to establish
+
+J. BIOSCI. BIOENG.,
+quantitative diagnostic criteria. Therefore, the most urgent task for
+these diseases is to build a biomarker panel for diagnosis and
+conﬁrmation of treatment effects.
+Holmes et al. applied 1H NMR-based metabolomics to the study
+of cerebrospinal ﬂuid (CSF) (103). CSF circulates throughout the
+entire central nervous system, thus it is an appropriate target of
+neural metabolomics. Their results suggest that there is a dysregulation of glucose homeostasis in the CSF of drug-naive schizophrenics. Application of PLS-DA clearly distinguished the
+schizophrenic patients from healthy subjects. Furthermore, the 1H
+NMR spectra of over 50% of the patients returned to normal after
+antipsychotic drug treatment.
+Numerous studies have been conducted using blood, which can
+be collected in a less-invasive manner. However, the biochemical
+properties of the cerebrospinal ﬂuid are quite different from that of
+blood due to the blood-cerebrospinal barrier. The matter of concern
+is how perturbations of the brain affect the blood metabolic proﬁle.
+Ahmed et al. applied 1H NMR-based metabolomics to Parkinson’s
+disease patients (104), revealing that 22 metabolites showed
+signiﬁcantly different concentrations compared with healthy
+subjects. According to the PLS-DA loading plot, pyruvate is the most
+important variable for cluster separation, and the results of gene
+expression studies suggest that there is altered expression of
+enzymes related to pyruvate metabolism. Furthermore, the application of 1H NMR spectra to neural network algorithms showed
+>90% accuracy for prediction of disease progression. Metabolomic
+proﬁling using GC/TOF-MS has been applied to Huntington disease
+patients and transgenic mice (105). The results indicate that there
+are alterations in fatty acid and aliphatic amino acid metabolism in
+patients and in a mouse model of the disease. These results clearly
+reveal that degeneration in the brain affects the metabolite proﬁle
+of blood, despite the blood-cerebrospinal barrier.
+A number of researchers have focused on psychiatric diseases,
+such as schizophrenia and depression. Schizophrenia is partly
+caused by alterations in neuronal membrane phospholipids
+and neurotransmitter systems. Weight increase and hypertriglyceridemia are major side effects of anti-schizophrenic medication. Therefore, lipid metabolism seems to be important in
+schizophrenia pathogenesis. Kaddurah-Daouk and coworkers
+applied the lipidomic method to schizophrenia, targeting >300
+lipids, including a wide range of polar and nonpolar molecules (106).
+The proﬁle of many lipid species was affected by anti-schizophrenic
+drugs. Elevated levels of free fatty acids and triglycerides in plasma
+were observed, and the level of phosphatidylethanolamine was
+lower, in drug-naive patients compared with healthy controls.
+Interestingly, plasma phosphatidylethanolamine was increased by
+anti-schizophrenic medication. These results indicate that lipidomic analysis has the potential to identify biomarkers that deﬁne
+drug-response phenotypes. Further study with larger sample set
+will enable us to elucidate the relationship between therapeutic
+beneﬁt and the plasma lipid changes. Metabolomics has also been
+applied to depression, for which the etiology is unclear. Li et al. used
+chronic unpredictable mild stress (CUMS) rats as a model for
+depression, and performed GC/MS-based metabolomic analysis of
+the plasma (107). The control and CUMS groups were well
+discriminated by PCA, and the loading indicated that the CUMS rats
+were perturbed in amino acid metabolism, energy metabolism and
+glycometabolism. These results suggest that metabolomic analysis
+can detect the biochemical alterations in mood disorders. Thus,
+metabolomics is a powerful tool for understanding the pathogenesis of these diseases, and for identifying biomarkers for early
+diagnosis, therapeutics and drug toxicity.
+Metabolomic analysis of tissues from patients and/or animal
+models is a promising approach to reveal pathogenesis of diseases.
+Integration of metabolomics with other omics science, more
+speciﬁcally, genomics, transcriptomics and proteomics will lead to
+
+VOL. 115, 2013
+
+APPLICATION OF METABOLOMICS
+
+a better understanding of the link between changes that occur in
+body and pathological condition. Clariﬁcation of pathogenic
+mechanism by metabolomics is expected to be directly connected
+with discovery of drug targets. Discovery of highly sensitive,
+speciﬁc biomarkers is also one of the deﬁned goals of medical
+metabolomics. A number of researches have shown that some of
+diagnostic indexes based on multiple metabolite concentration
+constricted by metabolomics are superior to conventional
+biochemical markers in terms of speciﬁcity and/or sensitivity (108).
+Metabolomic approach is expected to discover biomarkers for
+diseases which are difﬁcult to set deﬁnite diagnostic criteria such as
+psychiatric disease and to diagnose cancer in its early stages
+contributing to improve prognosis. Validation of these markers on
+a larger cohort of patients will conﬁrm the utility of metabolomics
+in clinical science.
+METABOLOMICS OF FOOD AND HERBAL MEDICINES
+In the ﬁelds of food science and herbal medicines, metabolomics
+has emerged as an important tool for evaluating quality and safety
+(109). The quality of ﬁnal food products are greatly affected by preharvest (genetic origin, cultivation area and growing environment)
+and post-harvest (milling, modiﬁed/controlled and atmosphere
+storage) processes (110). Recently, metabolomics has been
+employed for quality control, because it is useful for evaluating
+multiple factors simultaneously. Although metabolomics
+approaches have recently gained popularity in the area of foods and
+herbal medicines, sensory evaluation is still the main method used
+to assess the quality and taste of foods and herbal medicines.
+Sensory evaluation is deﬁned as a scientiﬁc method used to evoke,
+measure, analyze and interpret responses to products, as perceived
+through the senses of sight, smell, touch, taste and hearing (111).
+Sensory evaluation holds great importance in food industry as it
+greatly affects the prices and quality of various food products.
+However, the reproducibility of sensory evaluation highly depends
+on the skill of sensory panels. As training and maintenance of welltrained sensory experts are time-consuming and expensive, an
+alternative instrument-based method that is less subjective and
+more efﬁcient is needed to complement sensory evaluation. In this
+section, we describe the recent applications of metabolomics
+techniques for the quality evaluation of food and herbal medicine,
+particularly in relation to human senses.
+Metabolomics have been applied for the analysis of major crops
+[potato (112), tomato (113), cereals (114) and fruits (115)] and
+popular beverages (wine (116) and beer (117)). A summary of
+references of this part can be seen in Table 4 (117e127). There are
+two concepts on applications of food metabolomics, mimicking
+human senses and cataloging taste-active compounds. In order to
+
+585
+
+mimic ﬁve canonical senses: sight, hearing, touch, taste and smell,
+electronic sensors have achieved a remarkable breakthrough (128).
+Main target of food assessment by electronic sensors are alcohols,
+such as beer (129) and wine (130). Recently, electric sensors
+conjunction with MS-based instruments (118) has been employed
+to evaluate food quality. Combinations of electronic sensors and
+MS-based instruments will be important tools toward improvement of food metabolomics. Another growing application of food
+metabolomics is sensomics, in which the main objective is to
+discover the key players imparting the attractive taste of foods
+(119,131). In order to identify and catalog taste-active metabolites,
+omics technology has been frequently employed. Metabolomics
+technology helps to understand the complexity of human sense to
+evaluate food quality.
+Multivariate analyses were used to identify the relationship
+between metabolite proﬁles of food and quality as assessed by
+professional sensory panels. For example, PLS-based models have
+been used to examine the relationship between green tea metabolites and quality, with FT/NIR (120), NMR (121), GC/MS (122), and
+UPLC/MS (123) techniques being employed. In addition, the electronic tongue was used in combination with principal component
+analysis (PCA) for the classiﬁcation of Chinese tea samples of
+different geographical origins and quality grades by professional
+tasters (132). Various analytical instruments and multivariate
+analyses have been used to characterize the sensory properties of
+green tea. These reports show that combinations of instrument
+data and multivariate analyses are promising tools for the future of
+sensory chemistry.
+In the area of herbal medicines, which is closely related with
+food, metabolomics is expected to resolve the special issues of
+traditional Chinese medicines (TCM) and focus on biomarker
+discovery (133). In the market, it is difﬁcult to assess quality of
+herbal medicines by the quantities of the various constituents
+because of interaction like synergistic effect. Therefore, sensory
+tests remain practically important for deciding quality and price.
+However, only a few studies (134e137) have been conducted to
+assess sensory quality of herbal medicines. Therefore, further
+research on sensory analysis is still required for the herbal medicine
+industry.
+A combination of sensory and instrumental data has the
+potential to improve quality control procedures for herbal medicines. Thus, to study the relationship between metabolic proﬁling
+and quality ranking, metabolomics analyses using NMR (124), GC/
+MS (125), pyrolysis GC/MS (126) and UPLC/MS (127) have been
+applied to Angelica acutiloba. Recently, the relationship between
+content of pharmacological components and the grade of Angelicae
+Radix was documented, although only some ligustilides and furocoumarin were assessed (138). Comprehensive analyses of herbal
+
+TABLE 4. Summary of food and herbal medicine metabolomics applications cited in this review.
+Material
+Potato
+Tomato
+Cereals (rice)
+Fruits (melon)
+Wine
+Beer
+Wine
+Beer
+Green tea
+Green tea
+Green tea
+Green tea
+Angelica acutiloba
+A. acutiloba
+A. acutiloba
+A. acutiloba
+
+Method
+
+Approach
+
+Application
+
+Reference
+
+LC/MS
+GC/MS, LC/MS
+GC/MS
+GC/MS
+HPLC/MS
+NMR
+EN/MS
+LC-MS/MS
+FT/NIR
+NMR
+Pyrolysis GC/MS
+UPLC/MS
+NMR
+GC/MS
+Pyrolysis GC/MS
+UPLC/MS
+
+Random forest regression
+PCA, PLS
+PCA
+PCA
+PCA, PLS-DA
+PCA, PLS-DA
+PCA, PLS-DA, SLDA
+PCA
+PLS
+PCA, PLS
+PLS
+PCA, PLS
+PLS, PLS-DA
+PCA
+PCA, PLS-DA
+PCA, PLS-DA
+
+Construction of networks integrating gene expression, metabolites and phenotypic traits
+Determination of key metabolites as /efﬁcient predictors
+Distinction of biological variability
+Distinction and characterization of varieties
+Distinction of varieties and geographical origins
+Determination of the chemical changes
+Prediction of the geographical origin
+Determination of the change of bitter compounds during storage
+Classiﬁcation of quality
+Classiﬁcation and search of biomarkers of quality
+Classiﬁcation and search of biomarkers of quality
+Classiﬁcation and search of biomarkers of quality
+Classiﬁcation of geographical origins, variety differences and quality
+Classiﬁcation of geographical origins, variety differences and quality
+Classiﬁcation of geographical origins, variety differences and quality
+Classiﬁcation of geographical origins, variety differences and quality
+
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+
+586
+
+PUTRI ET AL.
+
+J. BIOSCI. BIOENG.,
+
+medicines, e.g., using metabolomics techniques, are required for
+both pharmaceutical and industrial purposes. Further research is
+required, not only to determine genetic origin and cultivation
+conditions, but also to identify compounds that affect quality.
+Metabolomics techniques are effective tools to assess food
+quality. The studies of food metabolomics include sensory evaluation, investigation of taste-active compounds and the development
+of instruments mimicking the human senses. In particular,
+metabolomics can identify important components assessed by
+sensory evaluation by combining the metabolome information
+derived from instruments and professional sensory evaluation
+scores. Products, such as wine, coffee and green tea, that are usually
+ranked by sensory evaluation, are of particular interest for such
+studies. Metabolomics techniques will continue to assist
+researchers in ﬁnding a scientiﬁc method to determine the real
+quality of food. In assessment of herbal medicines, one of the most
+important goals is to analyze pharmacological and adverse (toxic)
+effects. Currently, it is a challenging task to technically to assess and
+deﬁne all active compounds in all raw materials. Therefore,
+prediction of sensory tests by metabolomics technology is essential
+to evaluate quality of herbal medicine because sensory test is
+a practical method in the market. Ultimately metabolomics should
+lead to the establishment of a robust and reliable method for
+quality control. In the future, technological advances in instrument
+development and data processing methods in metabolomics
+should lead to the establishment of a more practical scientiﬁc
+assessment of sensory chemistry.
+CONCLUSION
+This review describes in detail the recent progress in metabolomics application in various ﬁelds. Snapshot metabolomics is
+a high-resolution phenotype analysis tool that is very useful for
+revealing silent phenotypes in microorganisms. Stable isotope
+dilution is also used in quantitative analysis and for dynamic
+observation. Studies focusing on development of methods in
+microbes will remain invaluable for method development in the
+study of higher organisms.
+Plant metabolomics is a key technology for understanding
+cellular systems and for decoding the function of genes. In many
+cases, plant metabolomics is integrated with genomics, transcriptomics and proteomics. Metabolomics technology has also
+been applied to the breeding of commercially important crops.
+Metabolomics should be useful for QTL analysis of m-traits, such as
+the level of variable constituents. Annotation of metabolomics
+signals is one of the remaining problems to be resolved for further
+progression of metabolomics research. Particularly, in plant
+metabolomics, secondary metabolite annotation is a very important procedure and technical improvements are expected in this
+area.
+In animal metabolomics, discoveries in early development are
+thoroughly discussed. Zebra ﬁsh, fruit ﬂy and nematode are given
+as examples of model organisms. Accumulation of metabolome
+data for various model organisms should further animal science.
+Metabolomics is obviously useful for medical research. The relationship between metabolic perturbations and disease is discussed,
+with a focus on cancer, the most signiﬁcant research target of
+medical metabolomics. Metabolomic approach is expected to
+discover biomarkers for diseases which are difﬁcult to set deﬁnite
+diagnostic criteria such as psychiatric disease and to diagnose
+cancer in its early stages contributing to improve prognosis.
+Finally, application of metabolomics for foods and herbal
+medicines are reviewed. Chemometrics techniques have been used
+for food characterization, in which gas chromatography and near
+infrared spectroscopy are employed. Recently, the newest metabolomics technologies have been applied to food characterization. In
+
+particular, sensory assessment of food by skilled human evaluators
+has been examined using metabolic ﬁngerprinting methodology.
+In recent years, the usefulness of metabolomics as applied to
+various ﬁelds of life science has become apparent. In addition to
+providing experimental data for identifying unknown and underappreciated reactions in the metabolic network, metabolomics has
+also emerged as a powerful tool for quantitatively predicting
+physiological traits. By identifying the metabolites important to the
+trait, crucial information can be gleaned regarding the underlying
+molecular mechanisms contributing to the phenotype in question.
+Elucidation of such molecular mechanisms or pathways will be of
+tremendous use in metabolic engineering aiming at modifying
+these phenotypes in various target organisms.
+
+References
+1. Fukusaki, E. and Kobayashi, A.: Plant metabolomics: potential for practical
+operation, J. Biosci. Bioeng., 100, 347e354 (2005).
+2. Ryan, D. and Robards, K.: Metabolomics: the greatest omics of them all?
+Anal. Chem., 78, 7954e7958 (2006).
+3. Canelas, A. B., Ras, C., Pierick, A., Dam, J. C., Heijnen, J. J., and Gulik, W. M.:
+Leakage-free rapid quenching technique for yeast metabolomics, Metabolomics, 4, 226e239 (2008).
+4. Winder, C. L., Dunn, W. B., Schuler, S., Broadhurst, D., Jarvis, R.,
+Stephens, G. M., and Goodacre, R.: Global metabolic proﬁling of Escherichia
+coli cultures: an evaluation of methods for quenching and extraction of
+intracellular metabolites, Anal. Chem., 80, 2939e2948 (2008).
+5. Ewald, J. C., Heux, S., and Zamboni, N.: High-throughput quantitative
+metabolomics: workﬂow for cultivation, quenching, and analysis of yeast in
+a multiwell format, Anal. Chem., 81, 3623e3629 (2009).
+6. van Gulik, W. M.: Fast sampling for quantitative microbial metabolomics,
+Curr. Opin. Biotechnol., 21, 27e34 (2010).
+7. Shin, M. H., Lee, D. Y., Liu, K.-H., Fiehn, O., and Kim, K. H.: Evaluation of
+sampling and extraction methodologies for the global metabolic proﬁling of
+Saccharophagus degradans, Anal. Chem., 82, 6660e6666 (2010).
+8. Raamsdonk, L. M., Teusink, B., Broadhurst, D., Zhang, N., Hayes, A.,
+Walsh, M. C., Berden, J. A., Brindle, K. M., Kell, D. B., Rowland, J. J., and other
+3 authors: A functional genomics strategy that uses metabolome data to
+reveal the phenotype of silent mutations, Nat. Biotechnol., 19, 45e50 (2001).
+9. Ohashi, Y., Hirayama, A., Ishikawa, T., Nakamura, S., Shimizu, K., Ueno, Y.,
+Tomita, M., and Soga, T.: Depiction of metabolome changes in histidinestarved Escherichia coli by CE-TOFMS, Mol. Biosyst., 4, 135e147 (2008).
+10. Wittmann, C., Krömer, J. O., Kiefer, P., Binz, T., and Heinzle, E.: Impact of the
+cold shock phenomenon on quantiﬁcation of intracellular metabolites in
+bacteria, Anal. Biochem., 327, 135e139 (2004).
+11. Soga, T., Ueno, Y., Naraoka, H., Ohashi, Y., Tomita, M., and Nishioka, T.:
+Simultaneous determination of anionic intermediates for Bacillus subtilis
+metabolic pathways by capillary electrophoresis electrospray ionization mass
+spectrometry, Anal. Chem., 74, 2233e2239 (2002).
+12. Bolten, C. J. and Wittmann, C.: Appropriate sampling for intracellular amino
+acid analysis in ﬁve phylogenetically different yeasts, Biotechnol. Lett., 30,
+1993e2000 (2008).
+13. Taymaz-Nikerel, H., de Mey, M., Ras, C., ten Pierick, A., Seifar, R. M., van
+Dam, J. C., Heijnen, J. J., and van Gulik, W. M.: Development and application
+of a differential method for reliable metabolome analysis in Escherichia coli,
+Anal. Biochem., 386, 9e19 (2009).
+14. Bolten, C. J., Kiefer, P., Letisse, F., Portais, J.-C., and Wittmann, C.: Sampling
+for metabolome analysis of microorganisms, Anal. Chem., 79, 3843e3849
+(2007).
+15. Maharjan, R. P. and Ferenci, T.: Global metabolite analysis: the inﬂuence of
+extraction methodology on metabolome proﬁles of Escherichia coli, Anal.
+Biochem., 313, 145e154 (2003).
+16. Canelas, A. B., ten Pierick, A., Ras, C., Seifar, R. M., van Dam, J. C., van
+Gulik, W. M., and Heijnen, J. J.: Quantitative evaluation of intracellular
+metabolite extraction techniques for yeast metabolomics, Anal. Chem., 81,
+7379e7389 (2009).
+17. Yoshida, R., Tamura, T., Takaoka, C., Harada, K., Kobayashi, A., Mukai, Y.,
+and Fukusaki, E.: Metabolomics-based systematic prediction of yeast lifespan
+and its application for semi-rational screening of ageing-related mutants,
+Aging Cell, 9, 616e625 (2010).
+18. Bennett, B. D., Kimball, E. H., Gao, M., Osterhout, R., Van, Dien, S. J., and
+Rabinowitz, J. D.: Absolute metabolite concentrations and implied enzyme
+active site occupancy in Escherichia coli, Nat. Chem. Biol., 8, 593e599 (2009).
+19. Clasquin, M. F., Melamud, E., Singer, A., Gooding, J. R., Xu, X., Dong, A.,
+Cui, H., Campagna, S. R., Savchenko, A., Yakunin, A. F., Rabinowitz, J. D.,
+and Caudy, A. A.: Riboneogenesis in yeast, Cell, 145, 969e980 (2011).
+
+VOL. 115, 2013
+20. Li, X., Gianoulis, T. A., Yip, K. Y., Gerstein, M., and Snyder, M.: Extensive in
+vivo metabolite-protein interactions revealed by large-scale systematic
+analyses, Cell, 143, 639e650 (2010).
+21. Allen, J., Davey, H. M., Broadhurst, D., Heald, J. K., Rowland, J. J., Oliver, S. G.,
+and Kell, D. B.: High-throughput classiﬁcation of yeast mutants for functional
+genomics using metabolic footprinting, Nat. Biotechnol., 21, 692e696 (2003).
+22. Nakanishi, Y., Fukuda, S., Chikayama, E., Kimura, Y., Ohno, H., and
+Kikuchi, J.: Dynamic omics approach identiﬁes nutrition-mediated microbial
+interactions, J. Proteome Res., 10, 824e836 (2010).
+23. Tweeddale, H., Notley-McRobb, L., and Ferenci, T.: Effect of slow growth on
+metabolism of Escherichia coli, as revealed by global metabolite pool
+(“metabolome”) analysis, J. Bacteriol., 180, 5109e5116 (1998).
+24. Yuan, J., Doucette, C. D., Fowler, W. U., Feng, X.-J., Piazza, M., Rabitz, H. A.,
+Wingreen, N. S., and Rabinowitz, J. D.: Metabolomics-driven quantitative
+analysis of ammonia assimilation in E. coli, Mol. Syst. Biol., 5, 302 (2009).
+25. Yukihira, D., Miura, D., Saito, K., Takahashi, K., and Wariishi, H.:
+MALDIeMS-based high-throughput metabolite analysis for intracellular
+metabolic dynamics, Anal. Chem., 82, 4278e4282 (2010).
+26. Nöh, K., Grönke, K., Luo, B., Takors, R., Oldiges, M., and Wiechert, W.:
+Metabolic ﬂux analysis at ultra short time scale: isotopically non-stationary
+13
+C labeling experiments, J. Biotechnol., 129, 249e267 (2007).
+27. Fendt, S.-M., Buescher, J. M., Rudroff, F., Picotti, P., Zamboni, N., and
+Sauer, U.: Tradeoff between enzyme and metabolite efﬁciency maintains
+metabolic homeostasis upon perturbations in enzyme capacity, Mol. Syst.
+Biol., 6, 356 (2010).
+28. Yoshida, S., Imoto, J., Minato, T., Oouchi, R., Sugihara, M., Imai, T.,
+Ishiguro, T., Mizutani, S., Tomita, M., Soga, T., and Yoshimoto, H.: Development of bottom-fermenting Saccharomyces strains that produce high SO2
+levels, using integrated metabolome and transcriptome analysis, Appl.
+Environ. Microbiol., 74, 2787e2796 (2008).
+29. Hasunuma, T., Sanda, T., Yamada, R., Yoshimura, K., Ishii, J., and Kondo, A.:
+Metabolic pathway engineering based on metabolomics confers acetic and
+formic acid tolerance to a recombinant xylose-fermenting strain of Saccharomyces cerevisiae, Microb. Cell Fact., 10, 2 (2011).
+30. Villas-Bôas, S. G., Kesson, M., and Nielsen, J.: Biosynthesis of glyoxylate from
+glycine in Saccharomyces cerevisiae, FEMS Yeast Res., 5, 703e709 (2005).
+31. Zhou, J., Ma, Q., Yi, H., Wang, L., Song, H., and Yuan, Y. J.: Metabolome
+proﬁling reveals metabolic cooperation between Bacillus megaterium and
+Ketogulonicigenium vulgare during induced swarm motility, Appl. Environ.
+Microbiol., 77, 7023e7030 (2011).
+32. Weckwerth, W., Loureiro, M. E., Wenzel, K., and Fiehn, O.: Differential
+metabolic networks unravel the effects of silent plant phenotypes, Proc. Natl.
+Acad. Sci. USA, 101, 7809e7814 (2004).
+33. Camacho, D., Fuente, A., and Mendes, P.: The origin of correlations in
+metabolome data, Metabolomics, 1, 53e63 (2005).
+34. Saito, K. and Matsuda, F.: Metabolomics for functional genomics, systems
+biology, and biotechnology, Annu. Rev. Plant Biol., 61, 463e489 (2010).
+35. Hirai, M. Y., Yano, M., Goodenowe, D. B., Kanaya, S., Kimura, T.,
+Awazuhara, M., Arita, M., Fujiwara, T., and Saito, K.: Integration of transcriptomics and metabolomics for understanding of global responses to
+nutritional stresses in Arabidopsis thaliana, Proc. Natl. Acad. Sci. USA, 101,
+10205e10210 (2004).
+36. Nikiforova, V. J., Kopka, J., Tolstikov, V., Fiehn, O., Hopkins, L.,
+Hawkesford, M. J., Hesse, H., and Hoefgen, R.: Systems rebalancing of
+metabolism in response to sulfur deprivation, as revealed by metabolome
+analysis of arabidopsis plants, Plant Physiol., 138, 304e318 (2005).
+37. Broeckling, C. D., Huhman, D. V., Farag, M. A., Smith, J. T., May, G. D.,
+Mendes, P., Dixon, R. A., and Sumner, L. W.: Metabolic proﬁling of medicago
+truncatula cell cultures reveals the effects of biotic and abiotic elicitors on
+metabolism, J. Exp. Bot., 56, 323e336 (2005).
+38. Dubouzet, J. G., Ishihara, A., Matsuda, F., Miyagawa, H., Iwata, H., and
+Wakasa, K.: Integrated metabolomic and transcriptomic analyses of hightryptophan rice expressing a mutant anthranilate synthase alpha subunit,
+J. Exp. Bot., 58, 3309e3321 (2007).
+39. Hirai, M. Y., Sugiyama, K., Sawada, Y., Tohge, T., Obayashi, T., Suzuki, A.,
+Araki, R., Sakurai, N., Suzuki, H., Aoki, K., and other 3 authors: Omics-based
+identiﬁcation of Arabidopsis myb transcription factors regulating aliphatic
+glucosinolate biosynthesis, Proc. Natl. Acad. Sci. USA, 104, 6478e6483 (2007).
+40. Sawada, Y., Kuwahara, A., Nagano, M., Narisawa, T., Sakata, A., Saito, K., and
+Hirai, M. Y.: Omics-based approaches to methionine side chain elongation in
+Arabidopsis: characterization of the genes encoding methylthioalkylmalate
+isomerase and methylthioalkylmalate dehydrogenase, Plant Cell Physiol., 50,
+1181e1190 (2009).
+41. Rischer, H., Oresic, M., Seppanen-Laakso, T., Katajamaa, M., Lammertyn, F.,
+Ardiles-Diaz, W., Van Montagu, M. C., Inze, D., Oksman-Caldentey, K. M.,
+and Goossens, A.: Gene-to-metabolite networks for terpenoid indole alkaloid
+biosynthesis in Catharanthus roseus cells, Proc. Natl. Acad. Sci. USA, 103,
+5614e5619 (2006).
+42. Zulak, K. G., Cornish, A., Daskalchuk, T. E., Deyholos, M. K.,
+Goodenowe, D. B., Gordon, P. M., Klassen, D., Pelcher, L. E., Sensen, C. W.,
+
+APPLICATION OF METABOLOMICS
+
+43.
+
+44.
+
+45.
+
+46.
+
+47.
+
+48.
+
+49.
+
+50.
+
+51.
+
+52.
+
+53.
+
+54.
+
+55.
+
+56.
+
+57.
+
+58.
+
+59.
+60.
+
+61.
+
+62.
+
+587
+
+and Facchini, P. J.: Gene transcript and metabolite proﬁling of elicitorinduced opium poppy cell cultures reveals the coordinate regulation of
+primary and secondary metabolism, Planta, 225, 1085e1106 (2007).
+Matsuda, F., Hirai, M. Y., Sasaki, E., Akiyama, K., Yonekura-Sakakibara, K.,
+Provart, N. J., Sakurai, T., Shimada, Y., and Saito, K.: Atmetexpress development: a phytochemical atlas of Arabidopsis development, Plant Physiol.,
+152, 566e578 (2010).
+Schmid, M., Davison, T. S., Henz, S. R., Pape, U. J., Demar, M., Vingron, M.,
+Scholkopf, B., Weigel, D., and Lohmann, J. U.: A gene expression map of
+Arabidopsis thaliana development, Nat. Genet., 37, 501e506 (2005).
+Gilliland, L. U., Magallanes-Lundback, M., Hemming, C., Hemming, C.,
+Supplee, A., Koornneef, M., Bentsink, L., and DellaPenna, D.: Genetic basis
+for natural variation in seed vitamin E levels in Arabidopsis thaliana, Proc. Natl.
+Acad. Sci. USA, 103, 18834e18841 (2006).
+Schauer, N., Semel, Y., Balbo, I., Steinfath, M., Repsilber, D., Selbig, J.,
+Pleban, T., Zamir, D., and Fernie, R. A.: Mode of inheritance of primary
+metabolic traits in tomato, Plant Cell, 20, 509e523 (2008).
+Schauer, N., Semel, Y., Roessner, U., Gur, A., Balbo, I., Carrari, F., Pleban, T.,
+Perez-Meliz, A., Bruedigam, C., Kopka, J., and other 3 authors: Comprehensive metabolic proﬁling and phenotyping of interspeciﬁc introgression
+lines for tomato improvement, Nat. Biotechnol., 24, 447e454 (2006).
+Lisec, J., Meyer, R. C., Steinfath, M., Redestig, H., Becher, M., WituchkaWall, H., Fiehn, W., Torjek, O., Selbig, J., Altmann, T., and
+Willmitzer, L.: Identiﬁcation of metabolic and biomass QTL in Arabidopsis thaliana in a parallel analysis of RIL and IL populations, Plant J.,
+53, 960e972 (2008).
+Brotman, Y., Riewe, D., Lisec, J., Meyer, R. C., Willmitzer, L., and
+Altmann, T.: Identiﬁcation of enzymatic and regulatory genes of plant
+metabolism through QTL analysis in Arabidopsis, J. Plant Physiol., 168,
+1387e1394 (2011).
+Riedelsheimer, C., Angelika, C., Grieder, C., Lisec, J., Technow, F., Sulpice, R.,
+Altmann, T., Still, M., Willmitzer, L., and Melchinger, A. E.: Genomic and
+metabolic prediction of complex heterotic traits in hybrid maize, Nat. Genet.,
+44, 217e220 (2012).
+Matsuda, F., Okazaki, Y., Oikawa, A., Kusano, M., Nakabayashi, R.,
+Kikuchi, J., Yonemaru, J.-I., Ebana, K., Yano, M., and Saito, K.: Dissection of
+genotypeephenotype associations in rice grains using metabolome quantitative trait loci analysis, Plant J., 70, 624e636 (2012).
+Rischer, H. and Oksman-Caldentey, K. M.: Unintended effects in genetically
+modiﬁed crops: revealed by metabolomics? Trends Biotechnol., 24, 102e104
+(2006).
+Catchpole, G. S., Beckmann, M., Enot, D. P., Mondhe, M., Zywicki, B.,
+Taylor, J., Hardy, N., Smith, A., King, R. D., Kell, D. B., Fiehn, O., and
+Draper, J.: Hierarchical metabolomics demonstrates substantial compositional similarity between genetically modiﬁed and conventional potato crops,
+Proc. Natl. Acad. Sci. USA, 102, 14458e14462 (2005).
+Kusano, M., Redestig, H., Hirai, T., Oikawa, A., Matsuda, F., Fukushima, A.,
+Arita, M., Watanabe, S., Yano, M., Hiwasa-Tanase, K., Ezura, H., and
+Saito, K.: Covering chemical diversity of genetically-modiﬁed tomatoes using
+metabolomics for objective substantial equivalence assessment, PLoS One, 6,
+e16989 (2011).
+Iijima, Y., Nakamura, Y., Ogata, Y., Tanaka, K., Sakurai, N., Suda, K.,
+Suzuki, T., Suzuki, H., Okazaki, K., Kitayama, M., and other 3 authors:
+Metabolite annotations based on the integration of mass spectral information,
+Plant J., 54, 949e962 (2008).
+Bottcher, C., Roepenack-Lahaye, E. V., Schmidt, J., Schmotz, C.,
+Neumann, S., Scheel, D., and Clemens, S.: Metabolome analysis of biosynthetic mutants reveals diversity of metabolic changes and allows identiﬁcation of a large number of new compounds in Arabidopsis thaliana, Plant
+Physiol., 147, 2107e2120 (2008).
+Matsuda, F., Nakabayashi, R., Sawada, Y., Suzuki, M., Hirai, M. Y., Kanaya, S.,
+and Saito, K.: Mass spectra-based framework for automated structural
+elucidation of metabolome data to explore phytochemical diversity, Front.
+Plant Sci., 2, 40 (2011).
+Shinbo, V., Nakamura, Y., Altaf-Ul-Amin, M., Asahi, H., Kurokawa, K.,
+Arita, M., Saito, K., Ohta, D., Shibata, D., and Kanaya, S.: KNApSAcK:
+a comprehensive species-metabolite relationship database, pp. 165e184, in:
+Saito, K., Dixon, R. A., and Willmitzer, L. (Eds.), Biotechnology in agriculture
+and forestry 57 plant metabolomics. Springer, Heidelberg (2006).
+Kind, T. and Fiehn, O.: Advances in structure elucidation of small molecules
+using mass spectrometry, Bioanal. Rev., 2, 23e60 (2010).
+Matsuda, F., Yonekura-Sakakibara, K., Niida, R., Kuromori, T., Shinozaki, K.,
+and Saito, K.: MS/MS spectral tag (MS2T)-based annotation of non-targeted
+proﬁle of plant secondary metabolites, Plant J., 57, 555e577 (2009).
+Horai, H., Arita, M., Kanaya, S., Nihei, Y., Ikeda, T., Suwa, K., Ojima, Y.,
+Tanaka, K., Tanaka, S., Aoshima, K., and other 25 authors: MassBank:
+a public repository for sharing mass spectral data for life sciences, J. Mass.
+Spectrom., 45, 703e714 (2010).
+Matsuda, F., Shinbo, Y., Oikawa, A., Hira, M. Y., Fiehn, O., Kanaya, S., and
+Saito, K.: Assessment of metabolome annotation quality: a method for
+
+588
+
+63.
+
+64.
+
+65.
+
+66.
+
+67.
+
+68.
+
+69.
+70.
+
+71.
+72.
+
+73.
+
+74.
+
+75.
+
+76.
+
+77.
+
+78.
+79.
+
+80.
+
+81.
+
+82.
+
+83.
+
+84.
+
+85.
+
+86.
+
+PUTRI ET AL.
+evaluating the false discovery rate of elemental composition searches, PLoS
+One, 4, e7490 (2009).
+Hill, A. J., Teraoka, H., Heideman, W., and Peterson, R. E.: Zebraﬁsh as
+a model vertebrate for investigating chemical toxicity, Toxicol. Sci., 86, 6e19
+(2005).
+Hoffmann, J. L., Torontali, S. P., Thomason, R. G., Lee, D. M., Brill, J. L.,
+Price, B. B., Carr, G. J., and Versteeg, D. J.: Hepatic gene expression proﬁling
+using Genechips in zebraﬁsh exposed to 17alpha-ethynylestradiol, Aquat.
+Toxicol., 79, 233e246 (2006).
+Notch, E. G., Miniutti, D. M., and Mayer, G. D.: 17alpha-Ethinylestradiol
+decreases expression of multiple hepatic nucleotide excision repair genes in
+zebraﬁsh (Danio rerio), Aquat. Toxicol., 84, 301e309 (2007).
+Hayashi, S., Akiyama, S., Tamaru, Y., Takeda, Y., Fujiwara, T., Inoue, K.,
+Kobayashi, A., Maegawa, S., and Fukusaki, E.: A novel application of
+metabolomics in vertebrate development, Biochem. Biophys. Res. Commun.,
+386, 268e272 (2009).
+Hayashi, S., Yoshida, M., Fujiwara, T., Maegawa, S., and Fukusaki, E.: Singleembryo metabolomics and systematic prediction of developmental stage in
+zebraﬁsh, Z. Naturforsch. C, 66, 191e198 (2011).
+Ong, E. S., Chor, C. F., Zou, L., and Ong, C. N.: A multi-analytical approach for
+metabolomic proﬁling of zebraﬁsh (Danio rerio) livers, Mol. Biosyst., 5,
+288e298 (2009).
+Press, H., York, N., and Nw, A.: Genome sequence of the nematode C. elegans:
+a platform for investigating biology, Science, 282, 2012e2018 (1998).
+Kamath, R. S., Fraser, A. G., Dong, Y., Poulin, G., Durbin, R., Gotta, M.,
+Kanapin, A., Le Bot, N., Moreno, S., Sohrmann, M., and other 3 authors:
+Systematic functional analysis of the Caenorhabditis elegans genome using
+RNAi, Nature, 421, 231e237 (2003).
+Johnson, T. E.: Caenorhabditis elegans 2007: the premier model for the study
+of aging, Exp. Gerontol., 43, 1e4 (2008).
+Atherton, H. J., Jones, O. A. H., Malik, S., Miska, E. A., and Grifﬁn, J. L.:
+A comparative metabolomic study of NHR-49 in Caenorhabditis elegans and
+PPAR-alpha in the mouse, FEBS Lett., 582, 1661e1666 (2008).
+Tampakakis, E., Okoli, I., and Mylonakis, E.: A C. elegans-based, whole
+animal, in vivo screen for the identiﬁcation of antifungal compounds, Nat.
+Protoc., 3, 1925e1931 (2008).
+Leung, M. C. K., Williams, P. L., Benedetto, A., Au, C., Helmcke, K. J.,
+Aschner, M., and Meyer, J. N.: Caenorhabditis elegans: an emerging model in
+biomedical and environmental toxicology, Toxicol. Sci., 106, 5e28 (2008).
+Hughes, S. L., Bundy, J. G., Want, E. J., Kille, P., and Stürzenbaum, S. R.: The
+metabolomic responses of Caenorhabditis elegans to cadmium are largely
+independent of metallothionein status, but dominated by changes in cystathionine and phytochelatins, J. Proteome Res., 8, 3512e3519 (2009).
+Lai, C.-H.: Identiﬁcation of novel human genes evolutionarily conserved in
+Caenorhabditis elegans by comparative proteomics, Genome Res., 10, 703e713
+(2000).
+Falk, M. J., Zhang, Z., Rosenjack, J. R., Nissim, I., Daikhin, E., Nissim, I.,
+Sedensky, M. M., Yudkoff, M., and Morgan, P. G.: Metabolic pathway
+proﬁling of mitochondrial respiratory chain mutants in C. elegans, Mol. Genet.
+Metab., 93, 388e397 (2008).
+Grotewiel, M. S., Martin, I., Bhandari, P., and Cook-Wiens, E.: Functional
+senescence in Drosophila melanogaster, Ageing Res. Rev., 4, 372e397 (2005).
+Pedra, J. H. F., McIntyre, L. M., Scharf, M. E., and Pittendrigh, B. R.: Genomewide transcription proﬁle of ﬁeld- and laboratory-selected dichlorodiphenyltrichloroethane (DDT)-resistant Drosophila, Proc. Natl. Acad. Sci.
+USA, 101, 7034e7039 (2004).
+Arbeitman, M. N., Furlong, E. E. M., Imam, F., Johnson, E., Null, B. H.,
+Baker, B. S., Krasnow, M. A., Scott, M. P., Davis, R. W., and White, K. P.: Gene
+expression during the life cycle of Drosophila melanogaster, Science, 297,
+2270e2275 (2002).
+Li, H.-M., Buczkowski, G., Mittapalli, O., Xie, J., Wu, J., Westerman, R.,
+Schemerhorn, B. J., Murdock, L. L., and Pittendrigh, B. R.: Transcriptomic
+proﬁles of Drosophila melanogaster third instar larval midgut and responses to
+oxidative stress, Insect Mol. Biol., 17, 325e339 (2008).
+Girardot, F., Monnier, V., and Tricoire, H.: Genome wide analysis of common
+and speciﬁc stress responses in adult Drosophila melanogaster, BMC Genomics,
+5, 74 (2004).
+Zinke, I., Schütz, C. S., Katzenberger, J. D., Bauer, M., and Pankratz, M. J.:
+Nutrient control of gene expression in Drosophila: microarray analysis of
+starvation and sugar-dependent response, EMBO J., 21, 6162e6173 (2002).
+Sun, W., Margam, V. M., Sun, L., Buczkowski, G., Bennett, G. W.,
+Schemerhorn, B., Muir, W. M., and Pittendrigh, B. R.: Genome-wide analysis
+of phenobarbital-inducible genes in Drosophila melanogaster, Insect Mol. Biol.,
+15, 455e464 (2006).
+Pedersen, K. S., Kristensen, T. N., Loeschcke, V., Petersen, B. O., Duus, J.Ø.,
+Nielsen, N. C., and Malmendal, A.: Metabolomic signatures of inbreeding at
+benign and stressful temperatures in Drosophila melanogaster, Genetics, 180,
+1233e1243 (2008).
+Malmendal, A., Overgaard, J., Bundy, J. G., Sørensen, J. G., Nielsen, N. C.,
+Loeschcke, V., and Holmstrup, M.: Metabolomic proﬁling of heat stress:
+
+J. BIOSCI. BIOENG.,
+
+87.
+
+88.
+
+89.
+
+90.
+
+91.
+
+92.
+
+93.
+
+94.
+
+95.
+
+96.
+
+97.
+
+98.
+
+99.
+
+100.
+
+101.
+
+102.
+
+103.
+
+104.
+
+105.
+
+106.
+
+hardening and recovery of homeostasis in Drosophila, Am. J. Physiol. Regul.
+Integr. Comp. Physiol., 291, 205e212 (2006).
+Overgaard, J., Malmendal, A. M., Sorensen, J. G., Bundy, J. G., Loeschcke, V.,
+Nielsen, N., and Holmstrup, M.: Metabolomic proﬁling of rapid cold hardening and cold shock in Drosophila melanogaster, J. Insect Physiol., 53,
+1218e1232 (2007).
+Coquin, L., Feala, J. D., McCulloch, A. D., and Paternostro, G.: Metabolomic
+and ﬂux-balance analysis of age-related decline of hypoxia tolerance in
+Drosophila muscle tissue, Mol. Syst. Biol., 4, 233 (2008).
+Kamleh, M. A., Hobani, Y., Dow, J. A., Zheng, L., and Watson, D. G.: Towards
+a platform for the metabonomic proﬁling of different strains of Drosophila
+melanogaster using liquid chromatography-Fourier transform mass spectrometry, FEBS J., 276, 6798e6809 (2009).
+Sabatine, M. S., Liu, E., Morrow, D. A., Heller, E., McCarroll, R., Wiegand, R.,
+Berriz, G. F., Roth, F. P., and Gerszten, R. E.: Metabolomic identiﬁcation of
+novel biomarkers of myocardial ischemia, Circulation, 112, 3868e3875
+(2005).
+Teul, J., Rupérez, F. J., Garcia, A., Vaysse, J., Balayssac, S., Gilard, V., MaletMartino, M., Martin-Ventura, J. L., Blanco-Colio, L. M., Tuñón, J., Egido, J.,
+and Barbas, C.: Improving metabolite knowledge in stable atherosclerosis
+patients by association and correlation of GC-MS and 1H NMR ﬁngerprints,
+J. Proteome Res., 8, 5580e5589 (2009).
+Connor, S. C., Hansen, M. K., Corner, A., Smith, R. F., and Ryan, T. E.: Integration of metabolomics and transcriptomics data to aid biomarker discovery
+in type 2 diabetes, Mol. Biosyst., 6, 909e921 (2010).
+Suhre, K., Meisinger, C., Döring, A., Altmaier, E., Belcredi, P., Gieger, C.,
+Chang, D., Milburn, M. V., Gall, W. E., Weinberger, K. M., and other 6
+authors: Metabolic footprint of diabetes: a multiplatform metabolomics
+study in an epidemiological setting, PLoS One, 5, e13953 (2010).
+Kim, H.-J., Kim, J. H., Noh, S., Hur, H. J., Sung, M. J., Hwang, J.-T., Park, J. H.,
+Yang, H. J., Kim, M.-S., Kwon, D. Y., and Yoon, S. H.: Metabolomic analysis of
+livers and serum from high-fat diet induced obese mice, J. Proteome Res., 10,
+722e731 (2011).
+Oberbach, A., Blüher, M., Wirth, H., Till, H., Kovacs, P., Kullnick, Y.,
+Schlichting, N., Tomm, J. M., Rolle-Kampczyk, U., Murugaiyan, J., and other
+3 authors: Combined proteomic and metabolomic proﬁling of serum reveals
+association of the complement system with obesity and identiﬁes novel
+markers of body fat mass changes, J. Proteome Res., 10, 4769e4788 (2011).
+Wang, Z., Klipfell, E., Bennett, B. J., Koeth, R., Levison, B. S., DuGar, B.,
+Feldstein, A. E., Britt, E. B., Fu, X., Chung, Y.-M., and other 8 authors: Gut
+ﬂora metabolism of phosphatidylcholine promotes cardiovascular disease,
+Nature, 472, 57e63 (2011).
+Denkert, C., Budczies, J., Kind, T., Weichert, W., Tablack, P., Sehouli, J.,
+Niesporek, S., Könsgen, D., Dietel, M., and Fiehn, O.: Mass spectrometrybased metabolic proﬁling reveals different metabolite patterns in invasive
+ovarian carcinomas and ovarian borderline tumors. Cancer Res., 66,
+10795e10804 (2006).
+Fan, T. W. M., Lane, A. N., Higashi, R. M., Farag, M. A., Gao, H., Bousamra, M.,
+and Miller, D. M.: Altered regulation of metabolic pathways in human lung
+cancer discerned by (13)C stable isotope-resolved metabolomics (SIRM), Mol.
+Cancer, 8, 41 (2009).
+Nishiumi, S., Shinohara, M., Ikeda, A., Yoshie, T., Hatano, N., Kakuyama, S.,
+Mizuno, S., Sanuki, T., Kutsumi, H., Fukusaki, E., and other 3 authors:
+Serum metabolomics as a novel diagnostic approach for pancreatic cancer,
+Metabolomics, 6, 518e528 (2010).
+Wu, H., Xue, R., Dong, L., Liu, T., Deng, C., Zeng, H., and Shen, X.: Metabolomic proﬁling of human urine in hepatocellular carcinoma patients using
+gas chromatography/mass spectrometry, Anal. Chim. Acta, 648, 98e104
+(2009).
+Qiu, Y., Cai, G., Su, M., Chen, T., Liu, Y., Xu, Y., Ni, Y., Zhao, A., Cai, S., Xu, L. X.,
+and Jia, W.: Urinary metabonomic study on colorectal cancer, J. Proteome
+Res., 9, 1627e1634 (2010).
+Sugimoto, M., Wong, D. T., Hirayama, A., Soga, T., and Tomita, M.: Capillary
+electrophoresis mass spectrometry-based saliva metabolomics identiﬁed oral,
+breast and pancreatic cancer-speciﬁc proﬁles, Metabolomics, 6, 78e95 (2010).
+Holmes, E., Tsang, T. M., Huang, J. T.-J., Leweke, F. M., Koethe, D.,
+Gerth, C. W., Nolden, B. M., Gross, S., Schreiber, D., Nicholson, J. K., and
+Bahn, S.: Metabolic proﬁling of CSF: evidence that early intervention may
+impact on disease progression and outcome in schizophrenia, PLoS Med., 3,
+e327 (2006).
+Ahmed, S. S., Santosh, W., Kumar, S., and Christlet, H. T. T.: Metabolic
+proﬁling of Parkinson’s disease: evidence of biomarker from gene expression
+analysis and rapid neural network detection, J. Biomed. Sci., 16, 63 (2009).
+Underwood, B. R., Broadhurst, D., Dunn, W. B., Ellis, D. I., Michell, A. W.,
+Vacher, C., Mosedale, D. E., Kell, D. B., Barker, R. a., Grainger, D. J., and
+Rubinsztein, D. C.: Huntington disease patients and transgenic mice have
+similar pro-catabolic serum metabolite proﬁles, Brain, 129, 877e886 (2006).
+Kaddurah-Daouk, R., McEvoy, J., Baillie, R. A., Lee, D., Yao, J. K.,
+Doraiswamy, P. M., and Krishnan, K. R. R.: Metabolomic mapping of atypical
+antipsychotic effects in schizophrenia, Mol. Psychiatry, 12, 934e945 (2007).
+
+VOL. 115, 2013
+107. Li, Z.-Y., Zheng, X.-Y., Gao, X.-X., Zhou, Y.-Z., Sun, H.-F., Zhang, L.-Z.,
+Guo, X.-Q., Du, G.-H., and Qin, X.-M.: Study of plasma metabolic proﬁling and
+biomarkers of chronic unpredictable mild stress rats based on gas chromatography/mass spectrometry, Rapid Commun. Mass Spectrom., 24,
+3539e3546 (2010).
+108. Trock, B. J.: Application of metabolomics to prostate cancer, Urol. Oncol., 29,
+572e581 (2011).
+109. Cevallos-Cevallos, J. M., Reyes-De-Corcuera, J., Etxeberria, E.,
+Danyluk, M. D., and Rodrick, G. E.: Metabolomic analysis in food science:
+a review, Trends Food Sci. Technol., 20, 557e566 (2009).
+110. Shepherd, L. V., Fraser, P., and Stewart, D.: Metabolomics: a secondgeneration platform for crop and food analysis, Bioanalysis, 3, 1143e1159
+(2011).
+111. Tuorila, H. and Monteleone, E.: Sensory food science in the changing society:
+opportunities, needs, and challenges, Trends Food Sci. Technol., 20, 54e62
+(2009).
+112. Acharjee, A., Kloosterman, B., de Vos, R. C. H., Werij, J. S., Bachem, C. W. B.,
+Visser, R. G. F., and Maliepaard, C.: Data integration and network reconstruction with womics data using Random Forest regression in potato, Anal.
+Chim. Acta, 705, 56e63 (2011).
+113. Thissen, U., Coulier, L., Overkamp, K. M., Jetten, J., van der Werff, B. J. C.,
+van de Ven, T., and van der Werf, M. J.: A proper metabolomics strategy
+supports efﬁcient food quality improvement: a case study on tomato sensory
+properties, Food Qual. Prefer., 22, 499e506 (2011).
+114. Kim, J. K., Ha, S.-H., Park, S.-Y., Lee, S. M., Kim, H. J., Lim, S. H., Suh, S.-C.,
+Kim, D. H., and Cho, H. S.: Determination of lipophilic compounds in
+genetically modiﬁed rice using gas chromatography-time-of-ﬂight mass
+spectrometry, J. Food Compost. Anal., 25, 31e38 (2012).
+115. Kende, A., Portwood, D., Senior, A., Earll, M., Bolygo, E., and Seymour, M.:
+Target list building for volatile metabolite proﬁling of fruit, J. Chromatogr. A,
+1217, 6718e6723 (2010).
+116. Vaclavik, L., Lacina, O., Hajslova, J., and Zweigenbaum, J.: The use of high
+performance liquid chromatography-quadrupole time-of-ﬂight mass spectrometry coupled to advanced data mining and chemometric tools for
+discrimination and classiﬁcation of red wines according to their variety, Anal.
+Chim. Acta, 685, 45e51 (2011).
+117. Rodrigues, J. A., Barros, A. S., Carvalho, B., Brandao, T., and Gil, A. M.:
+Probing beer aging chemistry by nuclear magnetic resonance and multivariate analysis, Anal. Chim. Acta, 702, 178e187 (2011).
+118. Cynkar, W., Dambergs, R., Smith, P., and Cozzolino, D.: Classiﬁcation of
+Tempranillo wines according to geographic origin: combination of mass
+spectrometry based electronic nose and chemometrics, Anal. Chim. Acta, 660,
+227e231 (2010).
+119. Intelmann, D., Haseleu, G., Dunkel, A., Lagemann, A., Stephan, A., and
+Hofmann, T.: Comprehensive sensomics analysis of hop-derived bitter
+compounds during storage of beer, J. Agric. Food Chem., 59, 1939e1953
+(2011).
+120. Ikeda, T., A.-U.-A., M., Aziza Kawsar, P., Kanaya, S., Yonetani, T., and
+Fukusaki, E.: Predicting rank of Japanese green teas by derivative proﬁles of
+spectra obtained from fourier transform near-infrared reﬂectance spectroscopy, J. Comput. Aided Chem., 9, 37e46 (2008).
+121. Tarachiwin, L., Ute, K., Kobayashi, A., and Fukusaki, E.: 1H NMR based
+metabolic proﬁling in the evaluation of Japanese green tea quality, J. Agric.
+Food Chem., 55, 9330e9336 (2007).
+
+APPLICATION OF METABOLOMICS
+
+589
+
+122. Pongsuwan, W., Bamba, T., Yonetani, T., Kobayashi, A., and Fukusaki, E.:
+Quality prediction of Japanese green tea using pyrolyzer coupled GC/MS
+based metabolic ﬁngerprinting, J. Agric. Food Chem., 56, 744e750 (2008).
+123. Pongsuwan, W., Bamba, T., Harada, K., Yonetani, T., Kobayashi, A., and
+Fukusaki, E.: High-throughput technique for comprehensive analysis of
+Japanese green tea quality assessment using ultra-performance liquid chromatography with time-of-ﬂight mass spectrometry (UPLC/TOF MS), J. Agric.
+Food Chem., 56, 10705e10708 (2008).
+124. Tarachiwin, L., Katoh, A., Ute, K., and Fukusaki, E.: Quality evaluation of
+Angelica acutiloba Kitagawa roots by 1H NMR-based metabolic ﬁngerprinting,
+J. Pharm. Biomed. Anal., 48, 42e48 (2008).
+125. Tianniam, S., Tarachiwin, L., Bamba, T., Kobayashi, A., and Fukusaki, E.:
+Metabolic proﬁling of Angelica acutiloba roots utilizing gas chromatographytime-of-ﬂight mass spectrometry for quality assessment based on cultivation
+area and cultivar via multivariate pattern recognition, J. Biosci. Bioeng., 105,
+655e659 (2008).
+126. Tianniam, S., Bamba, T., and Fukusaki, E.: Pyrolysis GC-MS-based metabolite
+ﬁngerprinting for quality evaluation of commercial Angelica acutiloba roots,
+J. Biosci. Bioeng., 109, 89e93 (2009).
+127. Tianniam, S., Bamba, T., and Fukusaki, E.: Non-targeted metabolite ﬁngerprinting of oriental folk medicine Angelica acutiloba roots by ultra performance liquid chromatography time-of-ﬂight mass spectrometry, J. Sep. Sci.,
+32, 2233e2244 (2009).
+128. Ciosek, P. and Wroblewski, W.: Sensor arrays for liquid sensing e electronic
+tongue systems, Analyst, 132, 963e978 (2007).
+129. Arrieta, A. A., Rodriguez-Mendez, M. L., de Saja, J. A., Blanco, C. A., and
+Nimubona, D.: Prediction of bitterness and alcoholic strength in beer using an
+electronic tongue, Food Chem., 123, 642e646 (2010).
+130. Novakowski, W., Bertotti, M., and Paixao, T. R. L. C.: Use of copper and gold
+electrodes as sensitive elements for fabrication of an electronic tongue:
+discrimination of wines and whiskies, Microchem. J., 99, 145e151 (2011).
+131. Toelstede, S. and Hofmann, T.: Sensomics mapping and identiﬁcation of the
+key bitter metabolites in Gouda cheese, J. Agric. Food Chem., 56, 2795e2804
+(2008).
+132. He, W., Hu, X., Zhao, L., Liao, X., Zhang, Y., Zhang, M., and Wu, J.: Evaluation
+of Chinese tea by the electronic tongue: correlation with sensory properties
+and classiﬁcation according to geographical origin and grade level, Food Res.
+Int., 42, 1462e1467 (2009).
+133. Zhang, A., Sun, H., Wang, Z., Sun, W., Wang, P., and Wang, X.: Metabolomics: towards understanding traditional Chinese medicine, Planta Med.,
+76, 2026e2035 (2010).
+134. Molares, S. and Ladio, A.: Chemosensory perception and medicinal plants for
+digestive ailments in a Mapuche community in NW Patagonia, Argentina,
+J. Ethnopharmacol., 123, 397e406 (2009).
+135. Pieroni, A. and Torry, B.: Does the taste matter? Taste and medicinal perceptions associated with ﬁve selected herbal drugs among three ethnic groups in
+West Yorkshire, Northern England, J. Ethnobiol. Ethnomed., 3, 21 (2007).
+136. Yokomi, N. and Ito, M.: Inﬂuence of composition upon the variety of tastes in
+Cinnamomi Cortex, J. Nat. Med., 63, 261e266 (2009).
+137. Mikage, M., Tanabe, M., Shinmura, H., and Sugaya, Y.: Evaluation of crude
+drug by means of odor sensor, Nat. Med., 59, 63e69 (2005).
+138. Katoh, A. and Ninomiya, Y.: Relationship between content of pharmacological
+components and grade of Japanese Angelica radixes, J. Ethnopharmacol., 130,
+35e42 (2010).
+
+

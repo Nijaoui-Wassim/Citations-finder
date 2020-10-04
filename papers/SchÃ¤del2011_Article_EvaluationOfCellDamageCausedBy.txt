@@ -1,0 +1,1272 @@
+Appl Microbiol Biotechnol (2011) 92:1261–1274
+DOI 10.1007/s00253-011-3377-1
+
+APPLIED MICROBIAL AND CELL PHYSIOLOGY
+
+Evaluation of cell damage caused by cold sampling
+and quenching for metabolome analysis
+Friederike Schädel & Florian David &
+Ezequiel Franco-Lara
+
+Received: 8 March 2011 / Revised: 9 May 2011 / Accepted: 9 May 2011 / Published online: 21 June 2011
+# Springer-Verlag 2011
+
+Abstract Cell damage during sampling and quenching for
+metabolome analysis have been investigated at whole
+sample level using an OD-based method and ATP loss
+investigation, and at single cell level by means of flow
+cytometry. Escherichia coli was cultivated in shake flasks
+and sampled into several cold quenching solutions during
+exponential growth phase varying quenching solution
+composition and sampling temperature. For single cell
+analysis, the samples were incubated with selective propidium iodide dye and analysed via flow cytometry to
+differentiate between intact and damaged cells. It was
+found that every combination of quenching solution,
+temperature, or cooling rate tested influenced the E. coli
+cell membrane integrity indicating rupture which will not
+only let the dye in, but also intracellular ATP out of the
+cells, which is not desired in in vivo metabolome analysis.
+Keywords Cell leakage . Quenching . Flow cytometry .
+Propidium iodide . Membrane integrity
+
+Introduction
+Cell leakage during cold-shock quenching has been
+reported over the last years by numerous research groups
+seeking for an ideal solution to stop cell activity of pro- and
+eukaryotic cells in metabolome studies (Bolten et al. 2007;
+Link et al. 2008; Spura et al. 2009; Villas-Bôas et al. 2007).
+This phenomenon has been reported long before the boom
+F. Schädel : F. David : E. Franco-Lara (*)
+Institute of Biochemical Engineering,
+Technische Universität Braunschweig,
+Gaußstraße 17,
+38106 Braunschweig, Germany
+e-mail: e.franco-lara@tu-braunschweig.de
+
+of the “omics”-era as an answer to cold and osmotic stress,
+reporting the release of intracellular components like
+cations and small non-electrolyte molecules (Haest et al.
+1972), phosphorylated glucose analogs (Delobbe et al.
+1971), thiomethylgalactosidase, valine and galactose (Leder
+1972), amino acids (Wargel et al. 1970), and even whole
+membrane proteins (Neu and Heppel 1965; Nossal and
+Heppel 1966; Piperno and Oxender 1966). Nevertheless, up
+to date, no cold quenching agent or technique has been
+found that enables an accurate estimation of intracellular
+concentrations of intermediate metabolites with high turnover rates since cell leakage prevents its unambiguous
+quantification (Villas-Boas and Bruheim 2007).
+Besides the development of reproducible sampling
+procedures for quantitative analysis of the low intracellular
+metabolite concentrations, the sampling procedure should
+ensure that the present rapid changing state of the culture is
+correctly reflected in the measurements (Schaedel and
+Franco-Lara 2009). Therefore, a sampling procedure for
+accurate metabolome analysis is only guaranteed when cell
+integrity and minimal cell damage of the sampled microbial
+population are also guaranteed. Until now, cell wall and
+membrane damage has been assumed as the main reason for
+preventing detailed analysis of in vivo metabolite concentration and distribution (Spura et al. 2009; Villas-Bôas et al.
+2007; Villas-Boas and Bruheim 2007), since the contact to
+any quenching solution might cause the unspecific loss of a
+variety of metabolites in an unknown amount (Bolten et al.
+2007). However, validation of this presumption through
+whole or single cell analysis during or after the quenching
+process is actually the exception than the rule for metabolome
+studies.
+To picture the stresses that microbial cells must withstand during rapid cold and quenching sampling, several
+analogies to works on cell membranes applied to cryopres-
+
+1262
+
+ervation or to complement-mediated bacterial killing
+(bactericidal chilling), e.g., for food product preservation,
+can be named, including (Fay and Farías 1976; Kato and
+Bito 1978; Beney and Gervais 2001 and references therein;
+Cao-Hoang et al. 2008; Saragusty et al. 2009 and references
+therein): (1) increase in the surface to volume ratio through
+volumetric changes and membrane shrinkage and stretching
+in response to cold hyperosmotic solutions, (2) toxicity
+effects of the quenching solution, (3) thermotropic phase
+transition of microbial membrane phospholipids in response
+to decreasing temperature, (4) freeze-induced dehydration,
+(5) osmotic-induced dehydration, (6) loss of cell turgor
+pressure, (7) plasmolysis, (8) possible mechanical stresses
+induced by extracellular ice formation as well as cell–cell
+and cell–sampler walls interactions, (9) ionic and electrical
+effects resulting from preferential incorporation of some
+ionic species into the ice, (10) the effects of elevated solute
+concentration and intracellular ice formation (IIF), which
+are cooling-rate dependent, (11) cold-induced lipid peroxidation and loss of superoxide dismutase activity, (12)
+recrystallization during sample preparation for analytics,
+which is warming-rate dependent, (13) decrease of cell
+membrane fluidity and increase of its viscosity due to
+mechanical compression and temperature drop, (14) nonspecific membrane lipid extraction through organic solvents
+in the quenching solution, (15) influence of hydrodynamic
+energy peaks due to the hydromechanical shear stress
+through the rapid liquid withdraw generated in the sampling
+device channels at high sampling rates.
+Still, the numerous stresses at which the microbial
+cells are subject, different aqueous quenching solutions,
+e.g., buffered methanol (Bolten et al. 2007) or glycerol/
+saline (Villas-Boas and Bruheim 2007), have been tested
+in the last years comparing metabolome loss during the
+quenching and extraction process searching for the ideal
+composition which enables the minimal influences on cell
+leakage caused by either osmotic or cold shock (Villas-Bôas et
+al. 2007). Britten and McClure (1962) determined an osmotic
+equilibrium of intra- and extracellular metabolites in growing
+Escherichia coli cells. They observed that changes of the
+osmolarity of the surrounding media removed all the free
+intracellular amino acids out of the cells (Villas-Bôas et
+al. 2007). Based on this osmotic principle, the use of a
+solution which does not alter the cell physiology should
+therefore reduce osmolaric leakage (Villas-Boas and Bruheim
+2007).
+The use of methanol as the basic component of
+quenching solutions has the advantage that very low
+temperatures can be applied during the cold sampling and
+quenching process to stop the cell metabolism. The choice
+of the starting temperature of the quenching solution has to
+be made carefully because it adds to the amount of leakage
+during the sampling process (Canelas et al. 2008). A
+
+Appl Microbiol Biotechnol (2011) 92:1261–1274
+
+downside of aqueous solutions containing organic solvents
+is the removal of several intracellular metabolites from
+bacterial cells (Villas-Bôas et al. 2007) or even cell lysis.
+Nonetheless, the cold methanol method, originally developed for quenching yeast cells (de Koning and van Darn
+1992), still represents the only alternative where the
+biomass can be separated from the extracellular medium
+with good efficiency. Extracting cells without removing the
+media first often leads to severe misjudgement of intracellular concentrations due to extracellular metabolite fractions
+(Bolten et al. 2007; Canelas et al. 2008). In addition, media
+components like salts may also interfere with many
+analytical techniques (Canelas et al. 2008).
+Investigation of the possible causes for cell leakage due
+to sampling and quenching for metabolome analysis can be
+accomplished through determination of cell membrane
+integrity by means of flow cytometry. As indicated by
+Nebe-von-Caron and Badley (1995), the evaluation of
+membrane integrity is the most definite proof of cell
+viability since this is an indicator that a cell can potentially
+generate gradients and is therefore able to carry on
+metabolic activity. Cells with damaged or compromised
+membranes are considered as dead (Díaz et al. 2010;
+Shapiro 2003), since larger membrane defects may deprive
+the cell of materials it would normally accumulate, may
+expose it to toxins it would normally exclude, and therefore
+the cell would not be able to maintain or generate the
+electrochemical gradient and hence the membrane potential
+(Shapiro 2003; Díaz et al. 2010).
+Flow cytometry is a high-throughput quantitative analysis
+technology which enables the characterization of cell populations at single cell level. Based on the scattering and/or
+fluorescence signals (either through auto-fluorescence or
+using fluorescent dyes) generated after single cell illumination
+with a laser beam or UV, the individual response intensity is
+correlated to structural and/or functional cell parameters. The
+ability of common cytometers to analyze a very large number
+of particles (around 5,000 cells per second) while simultaneously measuring multiple cellular parameters per cell
+enables the classification of cells into populations (Díaz et
+al. 2010 and references therein).
+To label damaged cells, several non-vital dyes like
+propidium bromide, 7-ADD, or propidium iodide (PI) can
+be applied. These dyes, known as impermeant, are
+incapable to pass intact cell membranes or walls therefore
+staining only damaged or dead cells (Shapiro 2003). The
+advantage of PI is an unnecessary use of a second dye to
+exclude living cells (Zamai et al. 1996). PI intercalates with
+DNA and RNA inside the cell, forming a red fluorescent
+complex (Jones and Senft 1985). The fluorescence signal
+can then be detected to determine the dye distribution
+within the cell population (Diaz et al. 2009; Jepras et al.
+1995).
+
+Appl Microbiol Biotechnol (2011) 92:1261–1274
+
+In the present work, the effect of several quenching
+solutions and initial temperatures on cell damage during
+sampling and quenching for metabolome analysis was
+studied for E. coli by means of flow cytometry. To quantify
+the degree of cell damage, a PI-staining detection accounting for cell membrane integrity was used. Still, the
+applicability of the PI-staining method itself was studied
+too, since several groups have reported PI accumulation in
+some intact bacteria or cells at exponential growth phase
+(Díaz et al. 2010; Nebe-von-Caron et al. 2000; Shi et al.
+2007; Quirós et al. 2009). Because completely ruptured
+cells, which also cause metabolite loss, cannot be detected
+with flow cytometry, total cell rupture was instead quantified by monitoring the reduction of optical density (OD) of
+treated samples (Delobbe et al. 1971; Svarachorn et al.
+1991; Tsuchido et al. 1995) referred to that of untreated
+cells. A simultaneous analysis of ATP concentrations in
+quenching solution supernatant and cell extract was
+performed to account for key metabolite leakage. Throughout the manuscript, the concept of “whole sample level”
+refers to measurements performed which delivered integral
+values of the sample taken, like the estimation of the optical
+density (OD). Contrastingly, flow cytometry delivers
+differentiated information per events/cells present in the
+sample, i.e., splitting the integral information into quantitative single cell characteristics and therefore this kind of
+analysis is referred to as “single cell level”.
+
+Material and methods
+Strain and culture medium
+For this study, E. coli strain MG1655 was used. Cultivation
+was done in minimal medium (Hiller et al. 2007) with only
+0.255 g/L MgSO4*7H2O. Agar plates for cell viability tests
+consisted of 20 g/L agar, 20 g/L yeast extract, 10 g/L
+peptone, and 11 g/L glucose monohydrate. Chemicals were
+purchased from Sigma-Aldrich.
+Cultivation
+E. coli preculture was inoculated with 200 μL of a
+glycerol stock stored at −86°C and grown at 30°C over
+night at 120 rpm in 100 mL of culture medium in
+500 mL Erlenmeyer flasks with four baffles in an
+incubator (Inkubations-Schüttelschrank BS4, Braun,
+Melsungen, Germany). For the main culture, the preculture was centrifuged and re-suspended in the minimal
+medium so that 1 mL of the solution was sufficient to
+inoculate the main culture. Cultures were grown at 37°C
+starting with an OD660 of 0.4 under the same conditions
+as the preculture.
+
+1263
+
+Quenching
+For quenching tests, 4 mL samples from exponential growing
+culture were taken with a 10 mL electrical glass pipette
+(Hirschmann, Herrenberg, Germany). The samples were put
+directly into Falcon tubes containing 16 mL of precooled
+quenching solutions. Tests were done in triplicates. The
+quenching solutions themselves were cooled down to −40°C
+with a cryostat (Lauda, Lauda-Königshofen, Germany).
+Lower temperatures of the quenching solution were achieved
+by a −86°C freezer. Afterwards, the falcon tubes were placed
+in the cryostat at −40°C, and samples were added when the
+solution reached the target initial temperature. Falcon tubes
+were weighted for exact sample size determination and
+centrifuged (5 min, −19°C, 10,000×g, Biofuge stratos,
+Heraeus). Samples from quenching solutions supernatant
+were stored at −86°C until ATP determination. Additives in
+cultivation broth were ectoine and hydroxyectoine. Additives
+in 60% MeOH quenching solution included 70 mM HEPES
+(Hiller et al. 2007), 40% glycerine/NaCL (5.6% m/v, saline
+solution) (Link et al. 2008), glutaraldehyde (GA) (Tsuchido
+et al. 1995), trehalose (5% m/v), and mannitol (0.5% m/v). In
+addition, 60% glycerine/NaCL (5.6% m/v, saline solution)
+(Villas-Boas and Bruheim 2007) was tested.
+Monitoring of cell damage
+The quenched cell pellet was re-suspended in 4 mL 1%
+PBS buffer (with 8 g/L NaCl, 0.2 g/L KCl, 1.44 g/L
+Na2HPO4, and 0.24 g/L KH2PO4) and placed on ice. OD660
+was determined, and samples were diluted to 0.1 with PBS
+buffer. This was done as well to untreated samples from the
+main culture for comparison. Cell lysis was monitored by
+reduction of OD660 after re-suspension in 4 mL PBS buffer.
+As parameter, the OD recovery ratio, φ was used:
+
+8
+
+OD660;Recovered
+ 100%
+OD660;Original
+
+ð1Þ
+
+where OD660,Recovered is the OD660 value of the resuspended sample and OD660,Original the value of the culture
+itself. Membrane integrity was determined by incubation
+with PI (10 μg/mL) for 4 min and measurement of
+fluorescence with a flow cytometer (Cell Lab Quanta™
+Flow Cytometer, Beckman Coulter, Brea, USA).
+The Sideward Scatter (SS) signal was used as a trigger
+signal, and red fluorescence (FL3) was detected through a
+670 nm long pass filter. Sample rate never exceeded 1,000
+events/s. Signals were logarithmically amplified, and PMT
+settings were adjusted to particular PI-staining method.
+Untreated cells from cultivation caused a single peak during
+FL3 measurement at low fluorescence intensities. These
+measurements were taken in all cases as reference.
+
+1264
+
+Appl Microbiol Biotechnol (2011) 92:1261–1274
+
+Complete cell rupture/lysis was monitored following the
+method reported by Delobbe et al. (1971) and Tsuchido et
+al. (1995) employing the OD recovery ratio, φ. The
+influence of the main aqueous component methanol on cell
+damage was first tested by varying its concentration in the
+quenching solution using a starting temperature for sampling of −20°C. Despite its concentration, methanol had, in
+essence, a negative effect on the OD recovery ratio of the
+re-suspended cell pellet, and none of the solutions permitted
+the complete recovery of the culture OD (Fig. 1). The OD
+recovery ratio φ ranged from 75% to 85% indicating that
+about 15% to 25% of the E. coli cells in the sample
+underwent a volume loss and/or lysis process with basically
+direct metabolite loss into the quenching solution. Using
+
+methanol as sole component of a quenching solution
+therefore provokes cell rupture not only through the shock
+caused by the high osmotic difference suffered by the cells
+entering the pure aqueous methanol solution from the
+culture medium but also through methanol as cellpermeating substance itself (Villas-Boas and Bruheim
+2007).
+In a second step, the influence of the starting temperature
+of the quenching solution on cell damage was tested for E.
+coli taking a broader temperature range than that described
+in Canelas et al. (2008) for yeast. In this case, 100%
+methanol with a starting temperature below −40°C and a
+maximum mixing temperature below −20°C was identified
+as optimal conditions for yeast quenching using a quenching solution-sample volume ratio of 1:5.
+In the presented study, temperatures between 0°C and −76°C
+with a sample quenching solution ratio of 1:5 (Canelas et al.
+2008) were used. Results showed that with higher temperatures, the OD recovery ratio declined more and more sinking
+below 60% at 0°C. The highest OD recovery ratio value of
+about 88% was reached with samples taken with the sharpest
+temperature shift using a starting temperature of −76°C
+(Fig. 2). Using −76°C as sampling temperature was also the
+only method appropriate to keep the resulting mixture sample/
+quenching solution temperature below −20°C using this
+method, which has been traditionally considered to be
+sufficient to stop the metabolism (Weuster-Botz 1999).
+In a third study, the OD recovery ratio test was further
+applied to other quenching solutions reported in literature
+which made use of several additives to the methanol-based
+formulation (Fig. 3).
+Mixing 60% methanol with different additives resulted in
+about 30% loss for HEPES buffered solution (−50°C) (Hiller
+et al. 2007) which was even more than in un-buffered 60%
+
+Fig. 1 OD recovery ratio φ vs. methanol concentration. After the
+cells were quenched at −20°C, centrifuged, and re-suspended in PBS
+buffer, no culture recovered the original optical density indicating the
+existence of volume loss and/or lysis process
+
+Fig. 2 OD recovery ratios dependent on initial sampling temperature
+of the quenching solution. Lowering the starting temperature reduced
+the fraction of lysed cells during the quenching process noticeably.
+Quenching was performed with a 100% MeOH quenching solution to
+avoid viscosity problems at low temperatures
+
+Normalization of FL3 data was done via particular single
+cell electronic volume measurements to determine the
+“fluorescence concentration”. Cells from quenching solution stained with PI led to two separate peaks, where one
+was located in the same area as the one from untreated cells
+and was therefore associated with living, undamaged cells.
+The area of both peaks was determined, and the area ratios
+were related to undamaged and damaged cell pool fractions.
+ATP in quenching solution supernatant and cell extract
+was determined using the ATP determination kits of Biaffin
+(supernatant) and Invitrogen (extract). Extraction was
+performed using 1 mL of buffered water (30 mM TEA,
+pH 7.5) at 95°C for 15 min in water bath (Hiller et al.
+2007).
+
+Results
+Cell lysis through cold sampling
+
+Appl Microbiol Biotechnol (2011) 92:1261–1274
+
+1265
+
+Fig. 3 Effect of quenching solution composition. All solutions containing 60% MeOH led
+to equal φ values, except for
+MeOH buffered with HEPES.
+The saline glycerine solution
+could not be separated from the
+cells due to high viscosity of the
+resulting mixture. Cultivation
+with ectoine and hydroxyectoine
+as additives and subsequent
+quenching in 100% MeOH did
+not change φ markedly (starting
+temperature of sampling: GA,
+trehalose, and mannitol −40°C,
+Glycerine −20°C, rest −50°C).
+The use of NaCl in the solution’s legends describes the saline solutions used
+
+methanol (20%). The 60% methanol/glycerine (saline)
+solution reported by (Link et al. 2008) had nearly the same
+effect as 40% methanol (19%) at a sampling temperature of
+−50°C. However, the saline solution of Villas-Boas and
+Bruheim (2007) caused severe problems during sampling
+and sample preparation. In general, bad mixing was reached
+due to its extremely high viscosity at −20°C generating a
+kind of two-phase fluid with discernible cell broth/quenching
+solution boundaries using pipettes. Cell re-suspension for
+OD measurements was therefore not possible to perform
+adequately, because cells could also not be homogeneously
+separated from the quenching solution with the available
+equipment, and it would have been necessary to transfer the
+quenching solution mixture to several smaller tubes for
+better, but time-consuming centrifugation. Given that samples could not be kept on low temperatures throughout the
+process, cells quenched in this solution were not further used
+for extraction. Trehalose (5% m/v) and mannitol (0.5% m/v),
+which have been used traditionally as cryoprotectants
+(Rudolph et al. 1986; Tibbett et al. 2002; Sztein et al.
+2001) led to 16% and 19% loss, respectively. Glutaraldehyde
+(GA), which is a cell wall stabilizing agent and was already
+applied by Tsuchido et al. (1995) to stabilize membrane
+lipids in Bacillus subtilis cells (Granboulan and Leduc 1967),
+was tested in different concentrations as well and led to 19–
+21% loss of OD (−40°C).
+Certainly, a fraction of these differences is also due to the
+quick re-suspension process in 4 mL of PBS buffer rather
+than in the loss of the original OD value, i.e., few cells
+could also be removed from the quenching supernatant after
+centrifugation of the sample to obtain the cell pellet. The
+removal of some cells cannot be completely avoided during
+the procedure. The PBS buffer itself appeared to have no
+effect on untreated cells but did not completely prevent resuspended quenched cells to undergo further lysis. Still, the
+decrease on the OD recovery ratio is a good and direct
+
+indicator for the effect of the cold sampling and quenching
+process on whole cell damage.
+Single cell damage through cold sampling
+After cold sampling, quenched cells were re-suspended in
+PBS buffer, incubated with PI, and analyzed in a flow
+cytometer. The measured fluorescence was automatically
+normalized to the single cell electronic volume estimated
+via the Coulter-counter principle. Including the analysis of
+non-treated not quenched E. coli cells, two distinguishable
+peaks were detected, one related to intact and one to
+damaged cells emitting fluorescence due to PI labeling. The
+technique was validated with heat-treated cells in combination with agar cultivation of the same samples.
+Hiller et al. (2007) used SYTO 9 and PI in microtiter
+plates to validate the cell viability during the quenching
+process. Cells (99.1±0.8%) were detected as viable with an
+intact cell wall. Opposite findings at the single cell scale in
+this study suggest that cell membrane is disrupted during
+the quenching process. Essentially, every single quenching
+solution tested resulted in a distinct pool of damaged cells
+(Fig. 4). The variation of the methanol concentration at a
+starting temperature of −20°C showed that 40% or 60% of
+methanol led to around 50% to 60% of PI-labeled cells.
+Using 80% or even 100% of methanol led to about 100%
+labeling, and therefore to 100% membrane damaged cells.
+Culturability of the quenched cells, i.e., the existence of
+colony-forming units, was confirmed using agar plates.
+Barely any cells were detected in samples quenched with
+80% MeOH, none in 100%, and a closed biological film
+with 40% and 60% MeOH (data not shown), while
+temperature variation did not change the influence of
+100% MeOH on PI labeling.
+The addition of HEPES (Hiller et al. 2007) as a buffering
+agent and GA (Tsuchido et al. 1995) in concentrations of
+
+1266
+
+Appl Microbiol Biotechnol (2011) 92:1261–1274
+
+Fig. 4 Relative fraction of
+PI-labeled cells using different
+methanol concentrations and
+supplements in the quenching
+solution. Buffered methanol
+(70 mM HEPES), 0.0025% and
+0.05% GA did not change the
+pattern. Trehalose, mannitol,
+0.5% GA, and glycerine
+increased the amount of not
+labeled cells. The minimal
+damage was caused by the
+glycerine/saline solution
+
+0.0025% and 0.05% did not change the resulting percentage of labeled cells in 60% methanol. The use of a
+combination of 60% methanol and glycerine with the same
+amount of NaCL (saline solution, Villas-Boas and Bruheim
+2007) resulted in an even higher percentage. Patterns were
+shifted to unlabeled cells only by using 0.5% GA (33%)
+and the cryoprotectants mannitol (41%) as well as trehalose
+(24%), and also by the solution based on glycerine.
+As for the saline solution of Villas-Boas and Bruheim
+(2007), although it was not possible to estimate an accurate
+OD recovery ratio for this sample, the isolation and further
+dilution in PBS buffer for cytometric analysis was possible.
+The supernatant itself was filtered through a 0.2-μm filter
+unit and was analyzed for ATP. In relation to single cell
+damage, it could be confirmed that the saline solution can
+be considered as a gentile quenching solution, since it
+resulted in the least percentage of labeled cells.
+ATP leakage through cold sampling
+To search for a functional relationship between the damage of
+cells to the loss of intracellular metabolites, ATP concentration
+in supernatant and cell extract was analyzed varying the
+starting temperature of the 100% methanol quenching
+solution. The ATP concentration in the quenching solution
+supernatant and in the cell extract were examined, since it has
+been shown in the past that ATP can be used as an appropriate
+indicator for metabolite leakage, as it is usually not excreted
+from the cell interior under normal cultivation conditions and
+only present in low concentrations in the culture media (Link
+et al. 2008; Nasution et al. 2006).
+Variation in methanol concentration in the quenching
+solution at a starting temperature of −20°C led to a high
+
+loss of ATP during the whole quenching process (Fig. 5). In
+general, high extraction values were observed in solutions
+with high MeOH concentrations.
+Contrastingly, lower starting temperatures led to higher
+ATP concentration in the cell extract (Fig. 6). That is, less
+extracellular ATP was detected in the quenching solution
+supernatant with temperatures below −40°C, which can be
+a result of diminished whole cell damage. As for the
+intracellular ATP extracted from the quenched cells, two
+groups were distinguishable with a sampling temperature
+of −30°C as threshold value. While in the first group,
+fairly constant ATP concentrations around 1,600 μg/gDCW
+were measured for cell extracts sampled with temperatures
+equal to or below −30°C, lower ATP concentrations of
+approx. 1,200 μg/gDCW were detected for sampling
+temperatures above −30°C.
+Of all additives and cryoprotectants tested in combination with 60% methanol, like HEPES, trehalose, mannitol,
+glycerine, or GA, only glycerine led to a higher ATP
+concentration in the cell extract (Fig. 7). However, although
+the glycerine-based solution led to a quite high ATP
+concentration in the supernatant, the high concentration
+could be due to slower chilling and, therefore, to subtle cell
+treatment after the quenching process.
+The compatible solutes ectoine and hydroxyectoine in
+the cultivation media did not affect the ATP concentration
+in the supernatant of 100% MeOH quenching solution or in
+the cell extract noticeably, which probably simply means
+that, due to a lack of stress during cultivation, none of the
+stress reducing agents was assimilated and in the quenching
+process its protecting effects were negligible. An extra
+indication should be given to the low ATP concentration
+obtained with solutions containing GA 0.05% and 0.5%. It
+
+Appl Microbiol Biotechnol (2011) 92:1261–1274
+
+1267
+
+Fig. 5 Methanol quenching
+solutions with starting
+temperature −20°C. Using lower
+methanol concentrations (40%,
+60%) led to a high ATP
+concentration detected in the
+quenching solution. Methanol
+(80%) still led to a loss of ATP,
+but a high concentration was
+detected in the cell extract which
+was higher than the one using
+100% methanol
+
+is probable that GA interfered with luciferase in the ATP
+determination kit fixing the lysine residues which are
+essential for enzyme activity (Kumita et al. 2000; Sung
+and Kang 1998).
+The results of ATP determination for high methanol
+concentration and low starting temperature matched the
+findings of Canelas et al. (2008) for Saccharomyces
+cerevisiae but not those of Wittmann et al. (2004), where
+lower methanol concentrations led to a significant decrease
+of metabolite loss from the cells. Unfortunately, the ATP
+leakage results neither correlated with the corresponding
+OD recovery ratios for whole cell damage (e.g., Figs. 1 and
+
+Fig. 6 Dependence of ATP
+recovery as function of the
+starting temperature in
+quenching solutions. Starting
+temperatures below −30°C led
+to higher ATP concentrations in
+the quenched biomass and lower
+extracellular ATP concentrations
+in the quenching solution
+supernatant
+
+5) nor with the flow cytometer analysis for single cell
+damage (see Figs. 4 and 5).
+
+Discussions
+Leakage due to cold shock or osmotic stress is considered the
+major source of experimental inaccuracies for metabolomic
+studies in microorganisms due the non-specific intracellular
+metabolite loss during sampling using cold quenching solutions. The results presented in this study indicate that the
+membrane integrity is indeed negatively influenced by every
+
+1268
+
+Appl Microbiol Biotechnol (2011) 92:1261–1274
+
+Fig. 7 Any of the tested
+quenching solutions led to ATP
+leakage, shown by ATP in the
+quenching solution supernatant
+after sampling. The addition of
+ectoine or hydroxyectoine to the
+cultivation media did not
+improve the performance of
+100% MeOH solutions (see
+Fig. 6). Cells could not be
+separated from the glycerine
+solution, therefore no extraction
+took place. Starting
+temperatures for quenching
+solutions from top to bottom:
+−40°C, −40°C, −50°C, −40°C,
+−40°C, −40°C, −50°C, −50°C,
+−20°C, −50°C, −50°C
+
+one of the quenching solutions reported in literature, independent of their composition, but with different damage levels.
+Cell damage and resulting metabolite leakage can occur
+mainly due to two different phenomena: total lysis with
+resulting cell fragmentation or single cell damage, e.g.,
+reflected in the loss of the membrane integrity, with consequent
+cell permeabilization. While the OD recovery ratio of the resuspended cells after quenching gives a first quantitative
+indication to complete cell damage, flow cytometry enables the
+quantification of cell damage at the single cell level based on
+the membrane integrity.
+In general, methanol concentrations lower than 100% in
+the quenching solution led to a less damaged E. coli cell
+pool, whereas variation of the temperature did not change
+the impact of methanol significantly, both indicated by PI
+labeling. Using different supplements as cryoprotectants or
+osmolytes also changed the influence of both methanol
+concentration and starting temperature on the ATP concentration spectrum. For example, raising the salt concentration
+in the quenching solution to lower the osmotic shock in
+combination with the use of the cryoprotectant glycerol can
+improve the output of ATP in the cell extract but still led to
+a high ATP concentration in the quenching solution
+supernatant.
+The use of different starting temperatures provokes fairly
+constant single cell damage during the cold sampling process.
+With an almost constant value of approximately 99% PIlabeled single cells, almost no differences between pure
+methanol quenched samples were observed. These results
+are confirmed for the whole cell damage too. As discussed
+before, it was observed that with starting temperatures equal to
+or below −30°C, OD recovery ratios lower than 75% were
+estimated, while for sampling temperatures above −30°C,
+higher OD recovery ratios were obtained with a consequent
+
+diminished contribution of whole cell disruption to ATP
+leakage. Matching to these findings, the concentrations of
+intracellular ATP estimated from the cell pellet extract were
+lower for temperatures equal to or below −30°C and higher
+and almost constant for sampling temperatures above −30°C
+(see Fig. 5), implying a more adequate sampling procedure
+for intracellular metabolome analysis under the late conditions. Since only ATP was investigated as a model
+metabolite in the presented study, different results might be
+obtained for other intracellular metabolites. Considering
+the ATP findings, the OD recovery ratio method and the
+flow cytometer analysis might confirm the assumption of
+Wittmann et al. (2004), who reported high losses of
+intracellular metabolites in methanol-based quenching
+solution: metabolite leakage takes place because of whole
+cell damage and permeated single cells. Lower methanol
+concentration led to only partially labeled samples,
+indicating a still intact cell fraction in the biomass pellet,
+which has been erroneously reported before as the intact
+metabolite pool using the cold sampling method without
+consideration of leakage (Lange et al. 2001; Theobald et
+al. 1993).
+However, the fundamental question still remaining is
+why E. coli cells are leaky when using any methanol-based
+solutions for rapid cold sampling and quenching? From
+several studies, it is clear that at least three different kinds
+of events can cause important variations in the membrane
+structure and may induce cell damage: thermal stress,
+osmotic stress, and the use of organic solvents. At
+physiological temperatures and levels of hydration, the
+most relevant functional state of the phospholipids bilayer
+of biological membranes is in a fluid, lamellar, liquid
+crystalline phase (Mille et al. 2002), which act as a
+molecular sieve allowing small hydrophilic molecules to
+
+Appl Microbiol Biotechnol (2011) 92:1261–1274
+
+enter into the periplasm of the cell. Maintenance of a
+specific bulk lipid state would therefore correlate with a
+functional pore-like structure required for nutrient transport
+(Janoff et al. 1979).
+In bacteria, phospholipids can adopt various fluid and
+solid phases characterized by different spatial arrangements
+(van Meer et al. 2008). It is known that bacterial
+phospholipids may suffer from gel (Lb ) to liquid crystalline
+(La ) phase transitions undergoing a thermotropic, cooperative and, usually, reversible process in response to
+environmental stresses but especially to temperature
+changes (Haest et al. 1972; Cronan and Vagelos 1972;
+Morrisett et al. 1975; Eze 1993; Beney and Gervais 2001).
+The temperature at which the transition occurs is called the
+phase transition temperature, and it depends on various
+growth and environmental factors. The classical fluid
+mosaic model of the membrane (Singer and Nicolson
+1972) considers a leaflet (bilayer) of phospholipids with
+considerable motional freedom in which the membrane
+integral proteins and other molecules float. In this context,
+the term membrane fluidity represents the dynamic properties of lipids within the bilayer. In general, during phase
+transition, the long range order of the bilayer is preserved.
+Above the transition temperature, the phospholipids bilayer
+is in the liquid crystalline state (La ) with short range
+disorder of the acyl chains, which are melted and mobile.
+Below the transition temperature, the phospholipids are in
+the gel state (Lb ) with short range order being the acyl
+chains rigid and immobile (Eze 1993). For example,
+increasing the degree of saturation of the fatty acyl chains
+results in a lowering of the transition temperature (Fay and
+Farías 1976; Kato and Bito 1978; Jones et al. 1987; Parola
+et al. 1990; Morein et al. 1996; Thieringer et al. 1998;
+Yamanaka 1999).
+It has been shown before that below certain temperature
+and depending on the fatty acid composition of the lipid
+bilayer, the membrane of E. coli cells become fragile
+causing the rupture of the permeability barrier of the cells
+(Haest et al. 1972). Thereby, the amount of released
+intracellular cations and non-electrolyte molecules increases
+with decreasing temperature of the sampling medium. For
+example, a phase transition between 18°C and 30°C has
+been observed with the ultimate loss of contact between cell
+membrane and cell wall after rapid cold shock or
+mechanical stress, due to a sudden decrease in the
+cytoplasmic volume enclosed by the cell membrane. The
+phase transitions exist not only in the cells membranes of E.
+coli, but also in the lipids extracted from them as
+demonstrated by Morrisett et al. (1975) for cells grown on
+media supplemented with elaidic acid. Simple bilayer lipid
+mixtures, which have been extensively used as biophysical
+approaches emulating cell membranes, have revealed richphase behavior with the coexistence of even two-fluid
+
+1269
+
+phases, e.g., liquid-ordered and -disordered domains, with
+different physical properties within a single membrane
+plane (Albon and Sturtevant 1978; Feigenson 2006, 2007;
+van Meer et al. 2008). In the case of the E. coli membranes,
+the observation of multiple phase transitions was suggested
+as to be caused by a heterogeneous distribution of the
+membrane lipids into multiple domains and its preferential
+association with particular proteins within the bilayer and,
+therefore, be the reason for the absence of some transitions
+in the membranes, but not in the extracted lipids (Morrisett
+et al. 1975). In any case, no matter if the chilling commonly
+used for deactivation with cold sampling and quenching is
+performed slow or rapid: the change in temperature implies
+the passage through at least one lipid membrane phase
+transition of cells cultivated at physiologic temperatures.
+Still, E. coli cells grown at low temperatures are less
+sensitive to membrane transitions caused by cold shock by
+increasing the levels of unsaturated fatty acids (Kato and Bito
+1978; Parola et al. 1990; Yamanaka 1999). These changes in
+membrane lipid composition causes lower phase transition
+temperatures and thus compensate order and rigidity of
+membrane lipids under cold shock. Similar experimental
+evidence has also been obtained for the Gram-positive
+bacteria B. subtilis (Delobbe et al. 1971; Svarachorn et al.
+1991; Tsuchido et al. 1995; Beranová et al. 2008). However,
+even when it has been reported that the reorganization of the
+membrane components like proteins and phospholipids
+induced by temperature and osmotic pressure variation could
+prevent cell mortality (Mille et al. 2002), cell adaptation
+would be not possible under the extreme and abruptly change
+in temperature and osmotic stress occurring during rapid cold
+sampling and quenching. For example, since induction of
+cold shock proteins in E. coli is preceded by a 4-h lag after
+cold shift from 37°C to 10°C (Jones et al. 1987), and the
+characteristic times for rapid cold sampling and quenching
+are far below this time, the bacteria would not be able during
+this process to compensate for the membrane transition from
+a fluid state to a non-fluid state by means of changes in the
+membrane lipid composition (Morein et al. 1996; Thieringer
+et al. 1998; Yamanaka 1999). This fact might consistently
+explain why many samples used for metabolome experiments using either Gram-negative or Gram-positive bacteria
+that grow rapidly, e.g., at the exponential growth phase, have
+leaky membranes. An enhanced resistance has been found in
+E. coli and B. subtilis cells that have grown in minimal
+medium, which are reported to recover better than cells
+grown on rich medium since their lipid membrane order is
+smaller due to enlarged cell diameters (Parola et al. 1990;
+Beranová et al. 2008). These experimental observations
+would imply that E. coli cells sampled from the exponential
+growing phase and incubated on rich medium are more
+sensitive to a cold shock and, therefore, present more
+metabolome leakage than cells sampled either from the
+
+1270
+
+stationary phase or from steady-state cultivations grown on
+minimal medium, as confirmed experimentally with membrane fluidity measurements performed by Cao-Hoang et al.
+(2008) for E. coli and B. subtilis.
+The late hypothesis is reinforced by the work of Janoff et al.
+(1979) who found out that the reason of the differences in
+sensitivity to membrane transitions caused by cold shock lies
+in the lipid order to disorder transition suffered by the outer
+membrane, but not by the cytoplasmic membrane of E. coli
+cells, which was not dramatically affected by the temperature
+of growth. Their experimental evidence suggests that the
+cytoplasmic membrane presumably exists in the gel+liquid
+crystalline state during cellular growth at 12°C and 20°C, but
+in a liquid crystalline state when E. coli cells were grown at
+37°C and 43°C, while the outer membrane apparently
+existed in a gel+liquid crystalline state at all incubation
+temperatures (Janoff et al. 1979). This fact can be the key
+event to understand the occurrence of metabolite leakage in
+E. coli during rapid cold sampling and quenching, and also
+give a hint to its location: while the outer membrane
+undergoes only one phase transition for all incubation
+temperatures, the cytoplasmic membrane experiences one
+phase transition for growth at 12°C and 20°C, but suffers
+from two-phase transitions for growth at 37°C and 43°C. The
+existence of more phase transitions would not only explain
+the lower sensitivity of cells grown at low temperatures, but
+also indicate a more extensive damage of the cytoplasmic
+membrane than of the outer membrane due to the twofold
+phase transition if they are irreversible. Since Gram-positive
+bacteria only have a cytoplasmic membrane but no outer
+membrane, similar damages due to phase transitions may be
+expected; however, in contrast to E. coli studies, extremely
+scarce experimental evidence on thermotropic membrane
+characterization has been reported for them.
+Besides the total temperature change, the cooling rate itself
+has been reported to cause extended cell damage in E. coli and
+B. subtilis cells too (Svarachorn et al. 1991; Cao-Hoang et al.
+2008). For example, studies on the permeability of E. coli
+membrane to permease accumulated substrates showed that
+the bacterial membrane is exquisitely sensitive to isoosmotic
+cold shock and the substrate pools formed may suffer almost
+total loss if the cells are rapidly chilled from 25°C to 0°C
+during sampling (Leder 1972). As suggested by the authors,
+the isoosmotic shock causes crystallization of the liquid-like
+lipids within the membrane and therefore a rapid efflux of
+permease-accumulated substrates would be facilitated
+through the hydrophilic channels created in the phase change
+process.
+As showed by Cao-Hoang et al. (2008) with E. coli and
+B. subtilis cells, sensitivity to rapid cold shock is a function
+of the growth phase: exponentially growing cells were more
+sensitive to the rapid cold shock than stationary growing
+cells. The measurements indicated that exponentially
+
+Appl Microbiol Biotechnol (2011) 92:1261–1274
+
+growing cells have a more fluid membrane than stationary
+growing cells at the physiological temperature before the cold
+shock occurred and concluded that the instantaneous decrease
+in membrane fluidity induced by the rapid cold shock of
+exponentially growing cells was higher than that of stationary
+growing cells. Moreover, they made anisotropy measurements
+comparing the effects of low against rapid cooling rates,
+clearly demonstrating that bacterial cells growing exponentially experienced a permanent loss of the membrane integrity
+(irreversible membrane rigidification) caused only by the
+rapid cold shock, but not by slow chilling. As the authors
+argue, this loss in membrane integrity would be unfavorable to
+the maintenance of homeostasis, giving rise to discontinuities
+in the gelled membrane and creating hydrophilic channels
+which facilitate the outflow of cell components, i.e., one more
+cause of metabolome loss. Additionally, metabolic compound
+lost is also a function of solubility which itself is dependent on
+the particular temperature. Therefore, cells may lose their
+integrity due to transitions to low temperatures of, e.g., −76°C
+(Fig. 2), but the loss of metabolites is avoided by reduced
+solubilities in methanol as a solvent as for the case of
+peptides (Scanu and Edelstein 1971).
+Although Cao-Hoang et al. (2008) claim to have carried
+out PI measurements and found a far greater PI uptake in
+bacterial cells from the exponential growth phase upon the
+rapid chilling than during slow chilling, these measurements
+unfortunately are not available for comparison with the
+actual results achieved in our study. In any case, both studies
+point out that the membrane of exponentially growing E. coli
+cells was highly permeabilized after a rapid cold treatment
+inducing irreversible alteration of the membrane integrity
+and that this chilling-induced damage is exclusively due to a
+physic effect, which is the rapidity of the temperature
+downshift. Still, metabolome leakage during quenching is
+intriguing and may be caused not only by cold shock. For
+example, using 40% of methanol at −20°C led to a partially
+PI-labeled sample. This indicates that cells must still be
+intact otherwise PI would go through the cell membrane.
+Quantification of ATP in contrast proved a high leakage,
+which can only be due to loss of ATP passing through the
+cell wall. Methanol (100%), on the other hand, led to an
+almost 100%-labeled cell pool. Still, less ATP was detected
+in the quenching supernatant. Increasing the temperature
+difference of growth conditions and quenching solution, and
+therefore the cold shock, even led to a decreasing amount of
+detectable ATP in the supernatant and high ATP concentrations in the cell extract but still to an almost completely
+PI-labeled cell pool.
+In addition to cold shock, osmotic shock has been named
+a possible cause for metabolome leakage in different works
+and corresponding quenching solutions adapted to undermine detrimental effects. Thus, the addition of salts, to
+adapt the ionic strength of the quenching solution, and
+
+Appl Microbiol Biotechnol (2011) 92:1261–1274
+
+cryoprotectants like trehalose or mannitol has been used
+traditionally in quenching solutions for rapid sampling to
+simultaneously reduce the damage from cold shock (Bolten
+et al. 2007; Villas-Boas and Bruheim 2007). As has been
+proposed by Nossal and Heppel (1966), the use of salts like
+MgCl2 in solutions as medium to avoid osmotic shock
+maintains high viability ratios, being hypothesized that the
+cells have in this solution a tendency to stick together and
+might not mix perfectly on dilution. In the case of E. coli, it
+is well known that it suffers a drastic decrease in cell
+volume when confronted to increased osmotic pressure.
+This volume change can induce a mechanical effect on the
+membrane as primary site of injury, deforming it by cell
+shrinkage that can lead to final membrane disruption, which
+explains cell mortality due to osmotic stress (Mille et al.
+2002 and references therein). The increased area-to-volume
+ratio of the cytoplasmic membrane leads to irreversible
+surface changes, such as membrane vesiculation, which
+induces surface depletion and, when subjected to fast
+rehydration, cannot even recover their initial internal
+volume, and rupture (Mille et al. 2002). Similar to
+increased osmotic pressure, it has been demonstrated that
+the mechanical effect of hydrostatic pressure causes a closer
+packing of the hydrocarbon chains of phospholipids in E.
+coli, which is analogous to the alteration caused by cooling
+(Casadei et al. 2002). At least for eukaryotic cells, dramatic
+changes in area by ca. 50% are also possible when a phase
+transition occurs, as for example by cooling, affecting even
+the bounded proteins and, therefore, altering protein–
+protein contacts and behavior (Feigenson 2006).
+Finally, as for the interaction of the hydrophobic core of the
+lipid bilayer with alcohols and organic solvents, as those used
+in standard quenching solutions, it has been reported that they
+mainly influence the fluidity of E. coli cell membranes
+destabilizing them due to increased mobility of the acyl
+groups, increased permeability to hydrophilic solutes of cells
+and liposome membranes, even enabling a transition from a
+lamellar to hexagonal state of the inner membrane (Beney
+and Gervais 2001 and references therein).
+Considering that besides E. coli and B. subtilis, several
+other Gram-positive and Gram-negative bacteria like
+Gluconobacter oxydans, Pseudomonas putida, Zymononas
+mobilis (Bolten et al. 2007), and Corynebacterium glutamicum (Bolten et al. 2007; Wellerdiek et al. 2009) have also
+presented cell leakage of intracellular metabolites, it is
+consequently valid to ask if only damage to the cytoplasmic
+membrane make these bacteria especially sensitive to cold
+shock, but also ask why other microorganisms like the yeast
+Saccharomyces cerevisiae presents minimal cell leakage
+after cold shock (Mashego et al. 2003, 2007; Canelas et al.
+2008, 2009; Spura et al. 2009).
+In contrast to E. coli and B. subtilis, no irreversible
+rigidification of the membrane, i.e., reversible phase
+
+1271
+
+transition of exponentially growing cells was observed for
+S. cerevisiae (Cao-Hoang et al. 2008). The same research
+group have especially focused on studying the mortality of
+S. cerevisiae cells exposed to a combination of thermal and
+osmotic treatments and the leakage of cellular components
+through the unstable membrane when lipid phase transition
+occurs (Laroche et al. 2001; Simonin et al. 2008; Gervais
+and Martinez de Marañon 1995). First evidence to the cause
+of minimal leakage may be found in the reversible phase
+transition, which indicates a more robust membrane of S.
+cerevisiae than those of bacteria. As proposed by CaoHoang et al. (2008), the answer may lie in the composition
+of the membrane. E. coli has three main membrane
+phospholipids, which occur frequently in prokaryotic and
+eukaryotic cells: phosphatidylethanolamine (PE), phosphatidylglycerol (PG), and diphosphatidylglycerol (DPG)
+(Cronan and Vagelos 1971; Morein et al. 1996). In contrast,
+yeast cells contain sterols, which are particularly involved
+in the resistance of the cell to different types of stress.
+Sterols, such as cholesterol and ergosterol, decrease the
+fluidity of the La phase of membranes and above a certain
+concentration even suppress the transition of pure phospholipid bilayers from the La to the Lb phase, conferring on
+the membrane a stable fluidity over the transition temperature range (Bottema et al. 1983; Beney and Gervais 2001).
+That leakage of solutes across membranes associated with
+either pressure or thermotropic phase transitions in membrane lipids containing high portions of cholesterol also
+occurs, has been early demonstrated in human (Drobnis et
+al. 1993) and bovine (Saragusty et al. 2009) sperm cells, a
+phenomenon which reinforces the hypothesis of cell
+damage of the membranes exclusively due to physic effects.
+Resuming the findings of the membrane characteristic of E.
+coli cells: when growing at temperatures around 37°C and
+inoculated in complex media and sampled at the exponential growing phase cells are far more sensitive to damage
+arising from rapid cold sampling and quenching than cells
+cultivated at lower temperatures with minimal media and
+sampled from the stationary growth phase, no matter what
+kind of quenching solution is used and if the final sample
+temperature is around or below 0°C.
+In this work, it was demonstrated that the use of
+methanol as sole component of an aqueous quenching
+solution causes ca. 15% to 25% cell rupture and lysis of E.
+coli. Most probable causes for this cell damage, which
+could be monitored using the OD recovery ratio as
+parameter, are the organic solution as solvent and possible
+osmotic shock suffered by cells entering the methanol
+quenching solution from the culture medium. Contrastingly
+to the negative effect of methanol concentrations, the
+starting temperature of the quenching solution plays an
+important role in diminishing E. coli cell lysis. In this sense,
+the use of the term “cold shock” as possible explanation for
+
+1272
+
+cell damage in intracellular metabolome analysis literature
+may be misleading as was discussed elsewhere (Cao-Hoang
+et al. 2008). According to the present results, actually a
+positive effect is reached, i.e., whole cell damage diminishment was found for decreasing quenching temperatures.
+Therefore, it can be concluded that E. coli cells are more
+sensitive to lysis through thermal shock with OD recovery
+ratios varying from ca. 58% to 88% than to variations in the
+composition of the quenching solution, where OD recovery
+ratios ranged from 75% to 85%. From the single cell
+analysis, the main conclusion of the present study is that
+rapid cold sampling and quenching neither with methanol
+nor with the recently proposed ethanol-based solution
+(Spura et al. 2009) would be well-suited to avoid unspecific
+metabolome leakage in Gram-negative and Gram-positive
+bacteria, because both methods would inevitably induce
+irreversible alteration of the membrane integrity through
+chilling, cell fragmentation, and permeabilization damage
+of the membranes exclusively due to physic effects, like the
+rapidity of the temperature downshift, increase of osmotic
+stress, or unspecific solvent extraction. It is clear that due to
+its facility for application and broad spread use, the cold
+sampling and quenching method is still an alternative for
+rapid inactivation of enzymatic cell activity but very
+inconvenient and even burdensome when reaching the final
+analytical stage: a differential method, like the one
+presented by Canelas et al. (2008) and Taymaz-Nikerel et
+al. (2009), is unavoidable for reliable metabolome analysis
+requiring independent measurements in the cell extract,
+supernatant, and culture broth.
+Acknowledgments The authors gratefully acknowledge the financial
+support of the (German) Federal Ministry of Education and Research
+(BMBF) to this project.
+
+References
+Albon N, Sturtevant JM (1978) Nature of the gel to liquid crystal
+transition of synthetic phosphatidylcholines. Proc Natl Acad Sct
+USA 75(5):2258–2260
+Beney L, Gervais P (2001) Influence of the fluidity of the membrane
+on the response of microorganisms to environmental stresses.
+Appl Microbiol Biotechnol 57:34–42
+Beranová J, Jemiola-Rzeminska M, Elhottová D, Strzalka K,
+Konopásek I (2008) Metabolic control of the membrane fluidity
+in Bacillus subtilis during cold adaptation. Biochim Biophys
+Acta 1778:445–453
+Bolten CJ, Kiefer P, Letisse F, Portais J-C, Wittmann C (2007)
+Sampling for metabolome analysis of microorganisms. Anal
+Chem 79:3843–3849
+Bottema CDK, McLean-Bowen CA, Parks LW (1983) Role of
+sterol structure in the thermotropic behavior of plasma
+membranes of Saccharomyces cerevisiae. Biochim Biophys
+Acta 734:235–248
+Britten RJ, McClure FT (1962) The amino acid pool in Escherichia
+coli. Bacteriol Rev 26:292–335
+
+Appl Microbiol Biotechnol (2011) 92:1261–1274
+Canelas AB, Ras C, ten Pierick A, van Dam JC, Heijnen JJ, van Gulik
+WM (2008) Leakage-free rapid quenching technique for yeast
+metabolomics. Metabolomics 4:226–239
+Canelas AB, ten Pierick A, Ras C, Seifar RM, van Dam JC, van Gulik
+WM, Heijnen JJ (2009) Quantitative evaluation of intracellular
+metabolite extraction techniques for yeast metabolomics. Anal
+Chem 81(17):7379–7389
+Cao-Hoang L, Dumont F, Marechal PA, Le-Thanh M, Gervais P
+(2008) Rates of chilling to 0°C: implications for the survival
+of microorganisms and relationship with membrane fluidity
+modifications. Appl Microbiol Biotechnol 77:1379–1387
+Casadei MA, Mañas P, Niven G, Needs E, Mackey BM (2002) Role of
+membrane fluidity in pressure resistance of Escherichia coli
+NCTC 8164. Appl Environ Microbiol 68(12):5965–5972
+Cronan JE, Vagelos PR (1971) Metabolism and function of the
+membrane phospholipids of Escherichia coli. Biochim Biophys
+Acta 265:25–60
+de Koning W, van Darn K (1992) A method for the determination
+of changes of gtycolytic metabolites in yeast on a subsecond
+time scale using extraction at neutral pH. Anal Biochem
+204:118–123
+Delobbe A, Haguenauer R, Rapoport G (1971) Studies on the
+transport of α-methyl-d-glucoside in Bacillus subtilis 168.
+Biochimie 53:1015–1021
+Díaz M, Herrero M, García LA, Quirós C (2010) Application of flow
+cytometry to industrial microbial bioprocesses. Biochem Eng J
+48(3):385–407
+Drobnis EZ, Crowe LM, Berger T, Anchordoguy TJ, Overstreet JW,
+Crowe JH (1993) Cold shock damage is due to lipid phase
+transitions in cell membranes: a demonstration using sperm as a
+model. J Exp Zool 265:432–437
+Eze MO (1993) Membrane phase separations, asymetry and
+implications in the origin of life. Internal report IC/93/381.
+International Atomic Energy Agency and United Nations
+Educational Scientific and Cultural Organization, International
+Centre for Theoretical Physics
+Fay JP, Farías RN (1976) Chilling cells enhances the bactericidal
+action of fatty acids on Escherichia coli. Appl Environ Microbiol
+31(2):153–157
+Feigenson GW (2006) Phase behavior of lipid mixtures. Nat Chem
+Biol 2(11):560–563
+Feigenson GW (2007) Phase boundaries and biological membranes.
+Annu Rev Biophys Biomol Struct 36:63–77
+Granboulan P, Leduc EH (1967) Ultrastructural cytochemistry of
+Bacillus subtilis. J Ultrastruct Res 20(1–2):111–126
+Haest CWM, de Gier J, van Es GA, Verkleij AJ, van Deenen LLM
+(1972) Fragility of the permeability barrier of Escherichia coli.
+Biochim Biophys Acta 288:43–53
+Hiller J, Franco-Lara E, Weuster-Botz D (2007) Metabolic
+profiling of Escherichia coli cultivations: evaluation of
+extraction and metabolite analysis procedures. Biotechnol Lett
+29:1169–1178
+Janoff AS, Haug A, McGroarty EJ (1979) Relationship of growth
+temperature and thermotropic lipid phase changes in cytoplasmic
+and outer membranes from Escherichia coli K12. Biochim
+Biophys Acta 555:56–66
+Jepras RI, Carter J, Pearson SC, Paul FE, Wilkinson MJ (1995)
+Development of a robust flow cytometric assay for determining
+numbers of viable bacteria. Appl Environ Microbiol 61:2696–
+2701
+Jones KH, Senft JA (1985) An improved method to determine cell
+viability by simultaneous staining with fluorescein diacetatepropidium iodide. J Histochem Cytochem 33:77–79
+Jones PG, VanBogelen RA, Neidhardt FC (1987) Induction of proteins
+in response to low temperature in Escherichia coli. J Bacteriol
+169:2092–2095
+
+Appl Microbiol Biotechnol (2011) 92:1261–1274
+Kato K, Bito Y (1978) Relationship between bactericidal action of
+complement and fluidity of cellular membranes. Infect Immun 19
+(1):12–17
+Kumita JR, Jain L, Safroneeva E, Woolley GA (2000) A cystein-free
+firefly luciferase retains luminescence activity. Biochem Biophys
+Res Comm 267(1):394–397
+Lange HC, Eman M, van Zuijlen G, Visser D, van Dam JC, Frank J,
+Teixeira de Mattos MJ, Heijnen JJ (2001) Improved rapid
+sampling for in vivo kinetics of intracellular metabolites in
+Saccharomyces cerevisiae. Biotechnol Bioeng 75(4):406–415
+Laroche C, Beney L, Marechal PA, Gervais P (2001) The effect of
+osmotic pressure on the membrane fluidity of Saccharomyces
+cerevisiae at different physiological temperatures. Appl Microbiol
+Biotechnol 56:249–254
+Leder IG (1972) Interrelated effects of cold shock and osmotic
+pressure on the permeability of the Escherichia coli membrane
+to permease accumulated substrates. J Bacteriology 111(1):211–
+219
+Link H, Anselment B, Weuster-Botz D (2008) Leakage of adenylates
+during cold methanol/glycerol quenching of Escherichia coli.
+Metabolomics 4:240–247
+Mashego M, van Gulik WM, Vinke JL, Heijnen JJ (2003) Critical
+evaluation of sampling techniques for residual glucose determination in carbon-limited chemostat culture of Saccharomyces
+cerevisiae. Biotech Bioeng 83(4):395–399.
+Mashego MR, Rumbold K, de Mey M, Vandamme E, Soetaert W,
+Heijnen JJ (2007) Microbial metabolomics: past, present, and
+future methodologies. Biotechnol Lett 29:1–16
+Mille Y, Beney L, Gervais P (2002) Viability of Escherichia coli after
+combined osmotic and thermal treatment: a plasma membrane
+implication. Biochim Biophys Acta 1567:41–48
+Morein S, Andersson A-S, Rilfors L, Lindblom G (1996) Wild-type
+Escherichia coli cells regulate the membrane lipid composition in
+a “window” between gel and non-lamellar structures. J Biol
+Chem 271(12):6801–6809
+Morrisett JD, Pownall HJ, Plumlee RT, Smith LC, Zehner ZE, Esfahani
+M, Wakil SJ (1975) Multiple thermotropic phase transitions in
+Escherichia coli membranes and membrane lipids. A comparison
+of results obtained by nitroxyl stearate paramagnetic resonance,
+pyrene excimer fluorescence, and enzyme activity measurements. J
+Biol Chem 250(17):6969–6976
+Nasution U, van Gulik WM, Kleijn RJ, van Winden WA, Proell A,
+Heijnen JJ (2006) Measurement of intracellular metabolites of
+primary metabolism and adenine nucleotides in chemostat cultivated
+Penicillium chrysogenum. Biotechnol Bioeng 94:159–166
+Nebe-von-Caron G, Badley RA (1995) Viability assessment of bacteria in
+mixed populations using flow cytometry. J Microscopy 179:55–66
+Nebe-von-Caron G, Stephens PJ, Hewitt CJ, Powell JR, Badley RA
+(2000) Analysis of bacterial function by multi-colour fluorescence flow cytometry and single cell sorting. J Microbiol
+Methods 42:97–114
+Neu HC, Heppel LA (1965) The release of enzymes from Escherichia
+coli by osmotic shock and during the formation of spheroplasts. J
+Biol Chem 240(9):3685–3692
+Nossal NG, Heppel LA (1966) The release of enzymes by osmotic
+shock from Escherichia coli in exponential phase. J Biol Chem
+241(13):3055–3062
+Parola AH, Ibdah M, Gill D, Zaritsky A (1990) Deviation from
+homeoviscous adaptation in Escherichia coli membranes. Biophys
+J 57:621–626
+Piperno JR, Oxender DL (1966) Amino acid-binding protein released
+from Eschericia coli by osmotic shock. J Biol Chem 241
+(23):5732–5734
+Quirós C, Herrero M, García LA, Díaz M (2009) Taking advantage of
+the flow cytometry technique for improving malolactic starters
+production. Eur Food Res Technol 228:543–552
+
+1273
+Rudolph AS, Crowe JH, Crowe LM (1986) Effects of three stabilizing
+agents proline, betaine, and trehalose on membrane phospholipids.
+Arch Biochem Biophys 15:134–143
+Saragusty J, Gacitua H, Rozenboim I, Arav A (2009) Do physical
+forces contribute to cryodamage? Biotechnol Bioeng 104
+(4):719–728
+Scanu AM, Edelstein C (1971) Solubility in aqueous solutions of
+ethanol of the small molecular weight peptides of the serum very
+low density and high density lipoproteins: relevance to the
+recovery problem during delipidation of serum lipoproteins. Anal
+Biochem 44(2):576–588
+Schaedel F, Franco-Lara E (2009) Rapid sampling devices for
+metabolic engineering applications. Applied Microbiology and
+Biotechnology 83(2):199–208
+Shapiro HM (2003) Practical flow cytometry, 4th edn. Wiley-Liss,
+Hoboken
+Shi L, Günther S, Hübschmann T, Wick LY, Harms H, Müller S (2007)
+Limits of propidium iodide as a cell viability indicator for
+environmental bacteria. Cytometry 71:592–598
+Simonin H, Beney L, Gervais P (2008) Controlling the membrane
+fluidity of yeasts during coupled thermal and osmotic treatments.
+Biotechnol Bioeng 100:325–333
+Singer SJ, Nicolson GL (1972) The fluid mosaic model of the
+structure of cell membranes. Science 175(23):720–731
+Spura J, Reimer LC, Wieloch P, Schreiber K, Buchinger S,
+Schomburg D (2009) A method for enzyme quenching in
+microbial metabolome analysis successfully applied to Grampositive and Gram-negative bacteria and yeast. Anal Biochem
+394:192–201
+Sung D, Kang H (1998) The N-terminal amino acid sequences of
+firefly luciferase are important for the stability of the enzyme.
+Photochem Photobiol 68(5):749–753
+Svarachorn A, Tsuchido T, Shinmyo A, Takano M (1991) Autolysis of
+Bacillus subtilis induced by low temperature. J Ferm Bioeng 71
+(4):281–283
+Sztein JM, Noble K, Farley JS, Mobraaten LE (2001) Comparison of
+permeating and nonpermeating cryoprotectants for mouse sperm
+cryopreservation. Cryobiol 42(1):28–39
+Taymaz-Nikerel H, de Mey M, Ras C, ten Pierick A, Seifar RM, van
+Dam JC, Heijnen JJ, van Gulik WM (2009) Development and
+application of a differential method for reliable metabolome
+analysis in Escherichia coli. Anal Biochem 386(1):9–19
+Theobald U, Mailinger W, Reuss M, Rizzi M (1993) In vivo analysis
+of glucose-induced fast changes in yeast adenine nucleotide pool
+applying a rapid sampling technique. Anal Biochem 214(1):31–
+37
+Thieringer HA, Jones PG, Inouye M (1998) Cold shock and
+adaptation. Bioessays 20:49–57
+Tibbett M, Sanders F, Cairney J (2002) Low-temperature-induced
+changes in trehalose, mannitol and arabitol associated with
+enhanced tolerance to freezing in ectomycorrhizal basidiomycetes
+(Hebeloma spp.). Mycorrhiza 12(5):249–255
+Tsuchido T, Nishino T, Kato Y, Takano M (1995) Involvement of
+membrane lipids in cold shock-induced autolysis of Bacillus
+subtilis cells. Biosci Biotechnol Biochem 59:1636–1640
+van Meer G, Voelker DR, Feigenson GW (2008) Membrane lipids:
+where they are and how they behave. Mol Cell Biol 9:112–
+124
+Villas-Boas SG, Bruheim P (2007) Cold glycerol-saline: the promising
+quenching solution for accurate intracellular metabolite analysis
+of microbial cells. Anal Biochem 370:87–97
+Villas-Bôas SG, Nielsen J, Smedsgaard J, Hansen MAE, Roessner-Tunali
+U (2007) Metabolome analysis: an introduction. Wiley, Hoboken
+Wargel RJ, Shadur CA, Neuhaus FC (1970) Mechanisms of D-cycloserine
+action: transport systems for D-alanine, D-cycloserine, L-alanine
+and glycin. J Bacteriol 103(3):778–788
+
+1274
+Wellerdiek M, Winterhoff D, Reule W, Brandner J, Oldiges M (2009)
+Metabolic quenching of Corynebacterium glutamicum: efficiency
+of methods and impact of cold shock. Bioprocess Biosys Eng 32
+(5):581–592
+Weuster-Botz D (1999) Die Rolle der Reaktionstechnik in der
+mikrobiellen Verfahrensentwicklung. Forschungszentrums
+Jülich/Life Sciences 2. ISBN-10: 3893362452; ISBN-13: 9783893362455; ISSN: 1433-5549
+
+Appl Microbiol Biotechnol (2011) 92:1261–1274
+Wittmann C, Kromer JO, Kiefer P, Binz T, Heinzle E (2004) Impact of
+the cold shock phenomenon on quantification of intracellular
+metabolites in bacteria. Anal Biochem 327:135–139
+Yamanaka K (1999) Cold shock response in Escherichia coli. J Mol
+Microbiol Biotechnol 1(2):193–202
+Zamai L, Falcieri E, Marhefka G, Vitale M (1996) Supravital exposure
+to propidium iodide identifies apoptotic cells in the absence of
+nucleosomal DNA fragmentation. Cytometry 23:303–311
+
+

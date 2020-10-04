@@ -1,0 +1,4075 @@
+2
+Mass Spectrometry
+Alan L. Rockwood, Mark M. Kushnir, and Nigel J. Clarke*
+
+ABSTRACT
+Background
+Mass spectrometry is a powerful analytical technique used
+to identify and quantify analytes using the mass-to-charge
+ratio (m/z) of ions generated from a sample. It is useful for the
+analysis of a wide range of clinically relevant analytes, including
+small molecules, proteins, and peptides. When mass spectrometry is coupled with either gas or liquid chromatographs,
+the resultant analyzers have expanded analytical capabilities
+with widespread clinical applications, including quantitation
+of analytes from myriad body tissues and ﬂuids. In addition,
+because of its ability to identify and quantify proteins, mass
+spectrometry is widely used in the ﬁeld of proteomics.
+Content
+This chapter describes the basic concepts and deﬁnitions of
+mass spectrometry. Techniques based on mass spectrometry
+require an ionization step wherein an ion is produced from
+neutral atoms or molecules. Electron impact and chemical
+
+Mass spectrometry (MS) is a powerful qualitative and
+quantitative analytical technique that is used to identify and
+quantify a wide range of clinically relevant analytes. When
+coupled with gas or liquid chromatographs, mass spectrometers allow expansion of analytical capabilities to a variety of
+clinical applications. In addition, because of its ability to
+identify and quantify proteins, MS is a key analytical tool in
+the ﬁeld of proteomics.
+We begin this chapter with a discussion of the basic
+concepts and deﬁnitions of MS, followed by discussions of
+MS instrumentation and clinical applications, and we end
+the chapter with a discussion of logistic, operational, and
+quality issues. In this chapter it is impossible to cover all
+concepts in a ﬁeld as vast as MS, even if focus is limited to
+clinical applications. The Clinical and Laboratory Standards
+Institute (CLSI) has published recommendations on clinical
+*The authors gratefully acknowledge the original contributions by
+Thomas M. Annesley, Nicholas E. Sherman, and Larry D. Bowers
+on which portions of this chapter are based. We also wish to
+acknowledge technical assistance by Leita Rogers, Jacquelyn
+McCowen-Rose, and Martha Fowles and helpful suggestions from
+N. Leigh Anderson, Julianne C. Botelho, Pierre Chaurand, David
+K. Crockett, Ulrich Eigner, Steven A. Hofstadler, Andrew N. Hoofnagle, Gary H. Kruppa, Donald Mason, Michael Morris, Maria M.
+Ospina, and Hubert W. Vesper.
+
+ionization (CI) are often used in gas chromatographyemass
+spectrometry. In liquid chromatographyemass spectrometry, electrospray ionization (ESI) and atmospheric pressure
+CI are the most commonly used techniques. In microbiology, a desorption/ionization technique termed MALDI
+(matrix-assisted laser desorption ionization) is employed.
+Each of these ionization techniques is described in detail, and
+advantages of the techniques are highlighted. Once molecules
+are ionized, resultant ions are analyzed using either beam type
+analyzers (eg, quadrupole, or time-of-ﬂight [TOF]) or trapping mass analyzers (eg, ion trap). Mass analyzers also can be
+combined to form tandem mass spectrometers, which allow
+further expending capabilities of the technique. Clinical applications of mass spectrometry are provided to illustrate the
+role of this technique in the analysis of clinically relevant
+analytes.
+
+MS that can serve as a good next step to study this topic
+and another gateway into the extensive literature on this
+topic.1,2
+
+BASIC CONCEPTS AND DEFINITIONS
+MS is the branch of physical chemistry (often also considered
+a branch of analytical chemistry) that deals with all aspects of
+instrumentation and the applications of this technique.
+Molecular mass (sometimes referred to as molecular weight)
+is measured in uniﬁed atomic mass units (u), also known as
+the dalton (Da), equal to 1/12 of the atomic mass of the
+most abundant isotope of a carbon atom in its lowest energy
+state, deﬁned as 12 Da. Although the term atomic mass unit
+(amu) has been regarded as equivalent to the Da, it is only
+approximately equal to the dalton and now is considered an
+obsolete unit; its use to refer to the dalton is strongly
+discouraged.
+Most MS data are presented in units of mass-to-charge
+ratio, or m/z, where m is the molecular weight of the ion
+(in daltons) and z is the number of charges present on the
+measured molecule. For small molecules (<1000 Da) there
+is typically only a single charge and therefore the m/z value
+is the same as the mass of the molecular ion. However,
+when larger molecules such as proteins or peptides are
+
+Principles and Applications of Clinical Mass Spectrometry. https://doi.org/10.1016/B978-0-12-816063-3.00002-5
+Copyright © 2018 Elsevier Inc. All rights reserved.
+
+33
+
+Principles and Applications of Clinical Mass Spectrometry
+If the ionization of the analyte in the source produces little
+fragmentation, it is referred to as being soft, and the most
+abundant peak in the mass spectrum (the base peak) is often
+the molecular ion. If the ion source produces extensive
+fragmentation it is referred to as hard ionization, and the
+base peak in the resulting spectra may be one of the fragment
+ions. By convention, the base peak in a mass spectrum is
+assigned a relative abundance value of 100%.
+Fragment ions that are formed in a separate dissociation
+cell (also known as the collision cell) inside a tandem mass
+spectrometer are known as product ions, and the technique is
+called tandem mass spectrometry (MS/MS). Ions that give
+rise to product ions are known as precursor ions. A tandem
+mass spectrometer consists of two mass spectrometers
+operated in sequence (MS/MS in space) or a single mass
+spectrometer capable of sequential fragmentation and
+measurement of ions within a single region of space (MS/
+MS in time). Most commonly in the clinical diagnostic
+methods, precursor ions are dissociated into product ions
+between the two stages of m/z analysis (MS/MS in space).
+A mass spectrum is represented by the relative abundance
+of each ion plotted as a function of m/z (Fig. 2.1). As
+mentioned earlier, for small molecules, usually each ion has
+100
+204
+80
+Relative abundance
+
+measured, they typically carry multiple ionic charges and
+therefore the z value is an integer greater than 1. In these cases
+the m/z value will be a fraction of the mass of the ion.
+All MS techniques require an initial ionization step in
+which an ion is produced from a neutral atom or molecule.
+Ions are formed in the ion source of the mass spectrometer.
+The development of versatile ionization techniques has
+allowed MS to become the excellent broad-spectrum
+analytical technique it is today; this was highlighted when,
+in 2002, John Fenn and Koichi Tanaka shared the Nobel Prize
+for their development of electrospray3,4 and laser desorption5-7 ionization, respectively. In the ion sources most
+commonly used with MS instruments in clinical chemistry,
+ionization in positive ion mode results from the addition of
+one (or more) protons to the basic sites on the molecule.
+This is referred to as protonation and leads to formation of
+a positively charged ion. The mass of the ion is greater than
+the mass of the uncharged neutral molecule by the added
+mass of one proton, approximately 1 Da, or multiples of a
+single proton mass (in case of multiply charged ions).
+Negatively charged ions (negative ion mode of MS operation)
+can be generated by the loss of a proton or addition of a
+negatively charged moiety (such as a hydroxyl group).
+Ions may also be produced by removal of one or more
+electrons from a molecule using electron ionization (EI).
+This ionization method is historically the dominant
+ionization method used in MS (most commonly in gas
+chromatographyemass spectrometry [GC-MS] instruments)
+and is still used in some applications, but other ionization
+methods are now more frequently used in clinical laboratories. The removal of one electron produces a positively
+charged ion and reduces the mass by approximately 5 
+104 Da relative to the neutral molecule from which the ion
+is produced. This relatively small mass shift is often considered to be negligible and therefore ignored. More rarely,
+ions may be produced by addition of one electron to a molecule, producing a negative ion with mass approximately 5 
+104 Da greater than the neutral molecule from which the
+ion is produced. This small mass increment is also often
+considered to be negligible relative to the neutral molecule.
+Ions formed in the ion source are separated according to
+m/z values in a mass analyzer. The term mass analyzer is in
+common use, although more correctly it would be termed
+an m/z analyzer given the fact that mass spectrometers separate ions according to m/z, not mass. This chapter will use the
+terms mass analyzer and m/z analyzer interchangeably.
+While in a mass analyzer, ions may undergo fragmentation,
+whereby energy is imparted into the ionized analyte, causing
+internal bonds to break and resulting in the production
+of multiple independent unconnected chemical species.
+Fragmentation can occur within different regions of the mass
+spectrometer and can occur due to the deliberate action of the
+operator or excessive energy imparted into the parent molecule
+as it is being ionized or passes through the vacuum region of
+the mass analyzer. An unfragmented ion of the intact molecule
+is referred to as the molecular ion, whereas the species that occur
+on fragmentation of the molecular ion are called the fragment
+ions. There is a certain ambiguity in the term molecular ion
+because in many cases the structure of the ion is not identical
+to the structure of the original neutral molecule (eg, differing
+by the addition or removal of one or more protons, so the
+term molecular ion must be thought of in terms of an unfragmented ion whose structure is closely related to, but not necessarily identical to, the original uncharged molecule.
+
+60
+
+40
+
+160
+
+118
+20
+
+42
+
+91
+
+65
+
+0
+60
+
+80
+
+A
+
+100 120 140
+Mass/charge
+
+160
+
+180
+
+200
+
+100
+308
+80
+Relative abundance
+
+34
+
+60
+
+40
+
+20
+44
+
+91
+
+195
+
+118
+159
+
+262
+236
+
+0
+50
+
+B
+
+100
+
+200
+150
+Mass/charge
+
+250
+
+300
+
+FIGURE 2.1 Mass spectrum of the pentaﬂuoropropionyl
+(A) and carbethoxyhexaﬂuorobutyryl (B) derivatives of
+methamphetamine.
+
+D-
+
+CHAPTER 2 Mass Spectrometry
+a single charge (z ¼ 1); thus the m/z ratio is equal to the mass of
+the ion and is approximately 1 Da greater than the neutral molecule from which the ion is formed. However, in some cases, the
+charge may be represented by an integer number greater than 1,
+in which case the m/z ratio is not equal to the mass of the ion,
+but rather is some fraction of the mass of the ion.
+An ion may be positively charged, in which case the
+number of electrons in the ion is less than the sum of the
+number of protons in all nuclei of the ion, or negatively
+charged, in which case the number of electrons is greater
+than the number of protons. By convention, in MS z is taken
+as an absolute value. For example, z ¼ 1 for both Naþ and Cl.
+Chemical interferences as well as higher background noise
+are more common for analytes with m/z 200 to 500 than for
+m/z less than 200 and m/z greater than 500. Monitoring ions
+with higher m/z often results in lower limits of detection
+because of the lower background noise and lower occurrence
+of isomers and isobars of the targeted molecules (ie, superior
+signal to noise).
+A peak in a mass spectrum can be characterized by its
+resolution [(m/z)/(Dm/z)], where Dm/z is the width of the
+mass spectral peak. This parameter characterizes the ability
+of a mass spectrometer to separate nearby masses from
+each other. Typically the width of the peak is measured at
+50% of the height of the peak and is referred to as the full
+width half height (FWHH) or full width half maximum
+(FWHM) resolution. A second frequently encountered
+deﬁnition for resolution is 10% valley. It deﬁnes Dm/z as
+the distance between two peaks of equal intensity, spaced so
+that the valley between the peaks is 10% of the peak height
+(Fig. 2.2). This is a more conservative deﬁnition than FWHM
+because for a given quoted resolution (eg, 2000) the peaks are
+narrower under the 10% valley deﬁnition, hence better separated. High resolution is a desirable property in MS because it
+can help reduce interferences from nearby peaks in the mass
+spectrum, thereby allowing it to achieve a higher speciﬁcity.
+By setting the relative abundance of the base peak to 100%
+and therefore using the relative, rather than absolute,
+abundance of each ion fragment, instrument-dependent
+variability is minimized and the mass spectrum can be
+compared with mass spectra obtained on other instruments.
+Because fragmentation at speciﬁc bonds depends on their
+chemical nature and strength of the bonds, the mass
+spectrum can be interpreted in terms of the molecular
+
+1.2
+(Δm/z)10% valley
+
+Relative abundance
+
+1.0
+0.8
+
+10% valley
+
+0.6
+(Δm/z)FWHM
+
+0.4
+0.2
+0.0
+999
+
+1000
+
+1001
+
+1002
+
+m/z
+
+FIGURE 2.2 Parameters used to deﬁne resolution in mass
+spectrometry. FWHM, Full width half maximum.
+
+35
+
+structure of the analyte. In some cases, the chemical structure
+of the analyte can be deduced or at least reconciled with features found in the mass spectrum. Computer-based libraries
+of mass spectra are also available to assist in identiﬁcation of
+the analyte(s) based on fragmentation pattern. In some
+applications, the mass spectrum of an analyte may be matched
+against mass spectra in a database, thereby identifying the analyte by its mass spectral ﬁngerprint. In general, an unknown is
+considered to be identiﬁed if the relative abundances of three
+or four ion fragments agree within 20% of those from a
+reference compound and the relative abundances of the fragments, monoisotopic and isotopic ions of the molecular ion
+are in agreement with the relative abundances of the reference
+mass spectrum.
+When interfaced to a liquid or gas chromatograph, the mass
+spectrometer functions as a powerful detector, providing
+structural information in real time on individual analytes as
+they elute from a chromatographic column. Depending on
+the operating characteristics of the mass spectrometer and
+the chromatographic peak width, multiple mass spectral scans
+can be acquired across the peak. The data also can be displayed
+as a function of time to yield a total ion chromatogram in which
+at each time point in the chromatogram the abundances of all
+ions in a mass spectrum are summed to constitute a single point
+in the ion chromatogram, regardless of m/z.
+The mass spectrometer can be considered to be close to a
+universal detector because molecules of many identities may
+be ionized and then detected in a mass spectrometer. Furthermore there are different MS operation modes and different types
+of fragmentation that can be applied to provide different types
+of data, giving more information about the measured compound(s). Finally, the instrument data system can analyze and
+display the collected data in various manners, allowing the operator to selectively extract information from the acquired data.
+For example, it is possible to display chromatograms of
+only preselected ions acquired during data acquisitiondthat
+is, representing data from only part of the mass spectrum.
+The resultant display of data is called an extracted ion
+chromatogram, displaying signal intensity plotted as a function
+of time; peak heights or peak areas can be integrated for use in
+quantitative analysis. Use of the extracted ion chromatogram
+allows selecting data corresponding to the analyte of interest,
+as identiﬁed by its m/z, while disregarding data corresponding
+to different m/z. With high-resolution instruments, speciﬁcity
+of analysis can be improved by use of narrow m/z windows for
+plotting extracted ion chromatograms. Such data processing
+results in a reduced number of overlapping chromatographic
+peaks from ions of nearby m/z thus improving the quantitative accuracy and the speciﬁcity (Fig. 2.3).
+Sample preparation is critical to successful MS, particularly
+when dealing with complex matrices, such as are commonly
+encountered in clinical chemistry. This typically involves one
+or more of the following steps: (1) protein precipitation
+followed by centrifugation or ﬁltration, (2) solid-phase extraction, (3) liquid-liquid extraction, (4) afﬁnity enrichment, or
+(5) derivatization (see Chapter 3).
+Derivatization is the process of chemically modifying the
+target compound(s) to be more favorably analyzed by MS.
+Derivatization usually involves the addition of some welldeﬁned functional group. The goals of derivatization vary,
+depending on the application, but typically include (1) increased
+volatility, (2) greater thermal stability, (3) modiﬁed chromatographic properties, (4) greater ionization efﬁciency, (5) favorable
+fragmentation properties, or a combination of these.
+
+36
+
+Principles and Applications of Clinical Mass Spectrometry
+×104
+6
+
+3
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+9
+Time (min)
+
+10
+
+11
+
+12
+
+13
+
+14
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+9
+Time (min)
+
+10
+
+11
+
+12
+
+13
+
+14
+
+A
+×103
+2
+
+1
+
+B
+
+FIGURE 2.3 Extracted ion chromatograms for a peptide ion of m/z 761.3718 using a window of 1 Da (A) and 0.0076 Da
+(B). Arrows point on peak that is completely hidden in the chemical background noise while resolved from the noise using
+mass extraction window of 0.0076 Da.
+
+Analysis by MS can be used to target speciﬁc known
+compounds (targeted analysis) or seek to identify one or
+more unknown compounds in a sample (screening). When
+only one or a few targeted analytes are of interest for quantitative analysis and their mass spectrum is known, the mass spectrometer is set to monitor only those ions of interest. This
+selective detection technique is known as selected ion monitoring (SIM). Because SIM focuses on a limited number of
+ions, more data points are collected for the selected m/z, which
+results in better, more precise measurements. The SIM data acquisition increases the signal-to-noise ratio for the analyte of interest, improves the lower limit of detection, and enables more
+accurate quantitation. One drawback of SIM is that it is based
+around measurement of a nominal analyte mass. Most biological samples are highly complex, and thus it is not unexpected
+to ﬁnd multiple compounds with very close or identical masses
+in the matrix. In those cases, chromatography can aid in separation of these isobars; however, they still can affect a SIM
+result should the isobar not be separated completely from
+the analyte to be measured. By using a triple-quadrupole
+mass analyzer, a method known as selected reaction monitoring (SRM) (or generalized for the analysis of many ions at
+the same time, multiple reaction monitoring [MRM]) can be
+used to help alleviate such potential issues. This is where the
+ﬁrst quadrupole instrument is set to transmit the m/z of the
+molecular ion, the analyte is caused to fragment in the second
+quadrupole and the third quadrupole is set to transmit the m/z
+of one or more known fragment ions from the analyte. In this
+manner data similar to those gathered by SIM can be produced
+but with added speciﬁcity from the structural information
+gathered by the use of the fragment ion as a gatekeeper. A
+more detailed description of MRM is given in the section of
+this chapter on tandem mass spectrometers.
+Screening methods (used here in the analytical chemistry
+sense, not to be confused with screening in a clinical or
+medical sense) are less common in clinical chemistry than
+the analysis of target compounds; the main task for screening
+methods is qualitative identiﬁcation of unknowns in a sample.
+
+In most cases this reduces to the problem of matching chromatographic retention time and fragment ion patterns, that
+is, mass and abundance patterns of either fragment ions generated in the source of a single-stage mass spectrometer or product ions from a collision cell in a tandem mass spectrometer.
+A chemical element may be composed of a single or
+multiple isotopes. Each isotope of an element has the same
+number of protons in its nucleus but different numbers of neutrons. For example, naturally occurring carbon is composed
+primarily of two isotopes: 12C, whose nuclei contain six protons
+and six neutrons, and 13C, whose nuclei contain six protons
+and seven neutrons. (Here we ignore 14C, which is generally
+of negligible abundance compared to the other two isotopes.)
+The natural abundance of 12C is approximately 98.9%, and
+the natural abundance of 13C is approximately 1.1%. Some
+elements, such as arsenic, have only a single isotope in the naturally occurring state, whereas other elements, such as tin, may
+have as many as 10 naturally occurring isotopes.
+When a compound is made of multiple atoms the isotope
+pattern is a convolution of the isotope patterns of the
+individual atoms. To illustrate with a simple example, carbon
+monoxide (CO) has the following combinations of isotopes
+12 16
+C O (molecular weight 28), 13C16O (molecular weight
+29), 12C17O (molecular weight 29), 12C18O (molecular weight
+30), and 13C18O (molecular weight 31).
+Nitrogen (N2) is isobaric with CO; that is, it has nearly the
+same mass. However, the accurate masses of the isotope peaks
+of isobars may differ. For example, the monoisotopic mass of
+12 16 þ
+C O (the isotopic peak composed of the most abundant
+atomic isotopes) has an accurate mass of 27.9944 Da, whereas
+the isobaric mass 28 Da peak of Nþ
+2 has an accurate molecular
+mass of 28.0056 Da. The small difference in masses of isobars
+can be used to infer the chemical formula of a compound or
+to conﬁrm the identity of a target compound. This technique
+requires a mass analyzer capable of mass accuracy of a few
+parts per million, is limited to compounds of a few hundred
+Da or less, and it is not capable of discriminating between
+isobars of the same chemical formula.
+
+CHAPTER 2 Mass Spectrometry
+Compounds that have the same chemical formulas but
+different chemical structures are also isobars and might
+therefore be referred to as strict isobars because they have exactly
+the same mass. Succinic acid and methylmalonic acid provide
+an example of a pair of compounds that are strict isobars
+because they have the same chemical formula (C4H6O4). Unlike
+isobars that have nearly the same masses but different accurate
+masses, strict isobars cannot be separated or distinguished by
+MS alone, although they often can be separated if MS is combined with a separation method or if tandem MS is applied.
+Isotopic information also can be used to identify a
+compound in a different way. Using COþ and Nþ
+2 as
+examples, the ﬁrst three isotopic peaks of COþ have a relative
+abundance pattern of 0.986, 0.011, and 0.002, whereas the ﬁrst
+three isotope peaks of Nþ
+2 has a pattern of 0.993, 0.007, and
+0.000. Differences in the isotopic pattern can be used to infer
+the chemical formula of an unknown or to conﬁrm chemical
+identity of a target compound. This technique requires accurate measurement of relative isotopic peak abundances and
+is sometimes used in conjunction with accurate mass measurements, particularly when using TOF mass spectrometers.
+A distinct advantage of the mass spectrometer is that it can
+distinguish between ions of the same chemical formula that
+have different masses because of the different isotopic composition. To illustrate with a trivial and simple example, 12C16Oþ
+has a different mass than 12C18Oþ, and these two forms can be
+separated and detected in a mass spectrometer. One can take
+advantage of this fact by using artiﬁcially labeled forms of a
+target analyte. The labeling consists of substitution of a less
+common isotope for one or more of the atoms in the analyte,
+for example, substituting 2H for 1H, 13C for 12C, or 15N for
+14
+N. The substituted molecule is prepared artiﬁcially and
+added to the sample as an internal standard, which behaves
+nearly identically to the native compounds during sample
+preparation and chromatographic separation. In this respect,
+13
+C or 15N is generally preferred over 2H labeling because
+2
+H-labeled compounds sometimes exhibit chromatographic
+shifts compared to unlabeled compounds, whereas 13C- or
+15
+N-labeled compounds generally do not. A quantitative analysis can then be carried out by comparison of the signal from
+
+the native compound versus the artiﬁcially added labeled
+version of the compound spiked into the sample.
+An internal standard should be selected to have a sufﬁcient
+number of isotopic ions so that no naturally occurring
+isotopes (such as 2H or 13C) of the analyte of interest would
+signiﬁcantly contribute to the signal of the internal standard.
+For the methamphetamine derivatives shown in Figure 2.4, A,
+an internal standard with at least three 2H or 13C atoms is
+preferred, because contribution of the natural abundance of
+these isotopes to the molecular ion [(M þ 3)þ] would be
+z0.1%. The position of the stable isotope atoms within the
+molecule and the number of isotopic ions within the structure
+is also important for adequate performance of the methods.8
+For example, the m/z 204 ion for methamphetamine represents the aliphatic portion of the molecule (loss of the aromatic ring). If three deuterium atoms were located on the
+aromatic ring of the pentaﬂuoropropionyl derivative of methamphetamine, the native and the isotope-labeled molecules
+would both yield the m/z 204 ion. This m/z 204 ion would
+therefore fail to distinguish the native compound from the
+isotope-labeled compound and would therefore not be useful
+as an internal standard. On the other hand, if 2H labeling were
+to occur in the aliphatic portion of the molecule, the fragment
+ion analogous to the m/z 204 fragment ion would be labeled,
+producing a higher m/z than 204 (eg, 207), and the ion could
+be useful as an internal standard. The same comments apply
+to the compound illustrated in Figure 2.4, B.
+These concepts of internal standard selection must be
+modiﬁed slightly when applied to tandem MS. For example,
+it is possible for a native compound and the internal standard
+to have product ions of the same m/z, because they can be
+distinguished by their differing precursor ion masses.
+When using hydrogen (2H) labeling the stable isotope
+must be located on atoms from which it will not be exchangeable with hydrogen atoms in solution or in gas phase (in the
+ion source). For example, deuterium labeling of an acidic
+hydrogen position would be useless because the 2H would
+easily exchange with protons in the matrix, making the
+original labeling moot. Certain other labeling positions also
+must be avoided. The hydrogen atoms in the constituent
+
+118 m/z
+O 119 m/z
+
+CH3
+CH2
+
+CH
+
+NH
+
+R
+58 (44) m/z
+
+A
+
+91 m/z
+
+C CF2 CF3
+147 m/z
+
+204 (190) m/z
+308 (294) m/z
+280 (266) m/z
+262 (248) m/z
+O
+
+CH3
+CH2
+
+B
+
+91 m/z
+118 m/z
+
+CH
+
+NH
+
+37
+
+O
+
+C CF2 CF2 CF2 C
+
+O
+
+CH2
+
+CH3
+
+R
+
+FIGURE 2.4 Fragmentation patterns for the pentaﬂuoropropionyl (A) and carbethoxyhexaﬂuorobutyryl (B) derivatives of
+methamphetamine (R ¼ CH3) and amphetamine (R ¼ H; masses in parentheses). Compare the predicted masses with
+the spectrum shown in Figure 2.1. Note that for the pentaﬂuoropropionyl derivative, only one ion [204 (190) m/z] is
+characteristic of the aliphatic portion of the molecule.
+
+38
+
+Principles and Applications of Clinical Mass Spectrometry
+
+groups of alcohols, amines, amides, and thiols all may readily
+exchange with hydrogen ions in an aqueous matrix.
+A technique of quantitative analysis of compounds relative
+to their isotopic analogs added to the samples at known or
+ﬁxed concentration is called isotope dilution analysis or
+isotope dilution mass spectrometry (IDMS). The IDMS
+technique has been used to develop deﬁnitive methods for
+a number of clinically relevant analytes, including drugs of
+abuse and disease markers.
+MS is often referred to as a highly sensitive technique.
+Sensitivity is a somewhat problematic term because it is
+used in two different ways. In an ofﬁcial deﬁnition9,10 it
+means the slope of a calibration curve (or more generally, a
+change in signal vs the change in concentration), but far
+more commonly it is used to signify the ability to detect or
+quantify an analyte at very low concentration; that is, a highly
+sensitive technique would be able to detect or quantify a very
+low concentration of the target analyte.
+
+INSTRUMENTATION
+A mass spectrometer consists of (1) an ion source, (2) a
+vacuum system, (3) a mass analyzer, (4) a detector, and (5)
+a computer (Fig. 2.5).
+
+three ion sources takes place at atmospheric pressure. Other
+ionization techniques include (1) inductively coupled plasma
+(ICP), (2) MALDI (see Chapter 4), (3) atmospheric pressure
+matrix-assisted laser desorption ionization, and others. This
+chapter will limit its discussion primarily to ion sources of
+interest to clinical applications of MS. The CLSI documents
+C-50A and C-62A contain recommendations for matching
+the capabilities of different ion source technologies to various
+application classes.1,2
+
+Electron Ionization
+In EI, gas-phase molecules are bombarded by electrons
+emitted from a heated ﬁlament and attracted to a collector
+electrode (Fig. 2.6). To prevent ﬁlament oxidation, as well
+as to minimize scattering of the electron beam, this process
+must occur in a vacuum. EI is typically performed using
+electrons with a kinetic energy of 70 eV; collision of electrons
+having such energy with most organic molecules results in
+formation of radical cations, that is, a structure that is both
+a positively charged ion and a radical.15 A radical is a molecule or ion with an unpaired electron. The radical ion
+then often undergoes unimolecular rearrangement and
+dissociation to produce a cation and an uncharged radical:
+ABþ /Aþ þ B
+
+Ion Source
+Many approaches have been used to form ions in both highvacuum and near-atmospheric pressure conditions. EI and CI
+are ionization techniques used when gas-phase molecules are
+introduced directly into an ion source operated at very low
+pressure, often from a gas chromatograph. In other analyses,
+such as high-performance liquid chromatographyemass
+spectrometry (HPLC-MS), ESI, atmospheric pressure chemical
+ionization (APCI), and atmospheric pressure photoionization
+(APPI) ion sources are often used.11-14 Ionization in these
+
+Chromatograph
+
+TIC
+EIP
+
+Spectra
+Lib Match
+
+Positive ions are drawn out of the ionization chamber by
+an electrical ﬁeld. The cations are then electrostatically
+focused and introduced into the mass analyzer. EI is primarily
+used as an ion source in GC-MS. Because the same ion energy
+(70 eV) is used in commercial instruments using EI, and
+because the fragmentation pattern is only weakly dependent
+on small deviations from 70 eV, fragmentation patterns
+observed using an EI source are reasonably reproducible
+among the GC-MS instruments. The fragmentation pattern
+Gas phase
+sample
+
+SIM
+
+Inlet Port
+Filament
+(cathode)
+Ion source
+
+Repeller
+
+Computer
+Ionization
+
+N
+Magnet
+
+Mass analyzer(s)
+
+Anode
+
+Vacuum system
+
+S
+Magnet
+
+Chamber
+Draw out
+Focus
+Accelerating
+voltage
+
+Exit slit
+Ion beam
+(free flight region)
+
+Detector
+
+FIGURE
+
+2.5 Block diagram of the components of a
+chromatographemass spectrometer system. The mass analyzer
+and the detector are always under vacuum. The ion source
+may be under vacuum or under near-atmospheric pressure
+conditions, depending on the ionization mode. The computer
+system is an integral part of data acquisition and output. EIP,
+Extracted ion proﬁle; SIM, selected ion monitoring; TIC, total ion
+current.
+
+FIGURE 2.6 Electron impact ion source. The small magnets are
+used to collimate a dense electron beam, which is drawn from a
+heated ﬁlament placed at a negative potential. The electron
+beam is positioned in front of a repeller, which is at a slightly
+positive potential compared with the ion source. The repeller
+sends any positively charged fragment ions toward the opening
+at the front of the ion source. The accelerating plates strongly
+attract the positively charged fragment ions.
+
+CHAPTER 2 Mass Spectrometry
+is therefore often used as a ﬁngerprint to identify compounds
+by matching mass spectra of unknowns to the entries in the
+mass spectral libraries.
+
+Chemical Ionization
+CI is a soft ionization technique in which a proton is
+transferred to, or abstracted from, a gas-phase molecule by
+a reagent gas molecule such as methane, ammonia (NH3),
+isobutane, or water. The reagent gas is supplied into a CI
+ion source at a pressure of about 0.1 torr. (Note: For virtually
+all practical purposes, torr is equivalent to millimeters of mercury and is the more customary term used in the ﬁeld of MS).
+An electron beam produces reactive species through a series
+of ion-molecule reactions, intermediate species (such as
+methonium [CHþ
+5 ] if methane is the CI reagent gas); further
+ion-molecule reactions can cause analyte ions to become
+charged, usually via attachment of a proton. In most cases,
+relatively little fragmentation occurs, and for the majority
+of the molecules, only molecular ions (in the form of a protonated version of the neutral molecule) are observed in the
+mass spectra; the lack of fragmentation enhances sensitivity
+of detection. Negative ion electron capture CI has become
+popular for quantiﬁcation of drugs such as benzodiazepines.
+Negative ions are formed when thermalized electrons are
+captured by electronegative functional groups, such as chlorine or ﬂuorine atoms within structure of the molecule. Negative ion CI often leads to very low limits of detection.
+
+Electrospray Ionization
+ESI is a soft ionization technique in which a sample is ionized
+at atmospheric pressure before introduction into the mass
+analyzer.16,17 An efﬂuent from a separation device, typically
+an HPLC, is passed through a narrow metal or fused silica
+capillary to which a 1- to 5-kV voltage has been applied
+(Fig. 2.7, A). The partial charge separation between the liquid
+
+and the capillary results in instability in the liquid that in turn
+results in expulsion of charged droplets from a Taylor cone,
+which forms at the tip of the capillary (Fig. 2.8). In many
+variations of ESI a coaxial nebulizing gas aids in nebulization
+and helps direct the charged droplets toward a counterelectrode as well as speeding up the evaporative process. As
+droplets evaporate while migrating through the atmospheric
+pressure region, they expel smaller droplets as the charge-tovolume ratio exceeds the Raleigh instability limit. The
+adducts of the molecules (with solvent molecules, NH3,
+etc.) are desolvated to form bare ions that are typically
+formed in the ionization process. However, other ionization
+products are sometimes observed, such as metal ion adducts,
+or ions formed by redox processes. Ions then pass through a
+sampling cone and one or more extraction cones (skimmers)
+before entering the high-vacuum region of the mass analyzer.
+One feature of ESI is the production of multiple charged
+ions, particularly from peptides and proteins. It is common
+to observe approximately one charge for every 10 to 15 amino
+acid residues in a protein. For example, for a molecule of
+mass 20,000, 20 charges supplied by the addition of 20
+protons would be detected at m/z approximately 1000 [or
+more correctly, m/z 1001 ¼ (20,000 þ 20)/20]. This
+phenomenon greatly extends the accessible mass range of
+an instrument. It is frequently observed that a distribution
+of charges occurs; in cases of multiple charged molecules,
+one usually observes a series of peaks, with each peak corresponding to a different number of charges. Multiply charged
+ions are also observed for nucleic acid polymers, particularly
+when ESI mass spectra are acquired in negative ion mode.
+It should be noted that Figure 2.7 is a simpliﬁed
+illustration of the probe being directed toward the sampling
+cone of the mass detector. To enhance performance and
+minimize contamination of the mass analyzer, modern
+hardware conﬁgurations have offset the probe and/or the
+Curtain gas
+
+5 kV
+
+Nebulizer
+gas
+
+Mass
+detector
+Sample
+solution
+ⴙⴙ
+ⴙ ⴙ
+ⴙ
+
+A
+
+ⴙ
+ⴙ ⴙ
+ⴙ
+
+ⴙ
+
+(M⫹H)⫹
+
+ⴙ
+
+(M⫹H)⫹
+
+ⴙ
+
+Corona discharge
+
+Curtain gas
+
+5 kV
+
+Nebulizer
+gas
+
+Mass
+detector
+Sample
+solution
+
+B
+
+M
+
+CH3OH⫹
+2
+
+CH3OH⫹
+2
+
+CH3OH
+5 kV
+
+M
+
+M
+
+(M⫹H)⫹
+CH3OH
+
+FIGURE 2.7 Schematics of (A) electrospray and (B) atmospheric pressure chemical ionization sources. Note the different
+points where ionization occurs, as described in the text.
+
+39
+
+40
+
+Principles and Applications of Clinical Mass Spectrometry
+Nebulizing gas
+Taylor cone
+
+Droplet
+plume
+
+From HPLC
+
+Jet
+
+FIGURE 2.8 Simpliﬁed conceptual schematic of electrospray ion source showing Taylor cone. HPLC, High-performance
+liquid chromatography. (Published with permission from Eclipse Business Media Ltd. Reprinted from MS Solutions, Issue
+7 [2010]. http://www.sepscience.com/Information/Archive/MS-Solutions/235-/MS-Solutions-7-Adjusting-Electrospray-Voltagefor-Optimum-Results.)
+
+mass detector relative to the sampling cone; in some
+instruments the spray is orthogonal to the sampling cone.
+ESI tends to be an efﬁcient ion source for polar
+compounds or for molecules that are present as ions in
+solution, which includes a majority of biomolecules. ESI,
+along with APCI, allows an effective interface between a
+liquid chromatograph and a mass spectrometer. ESI and
+APCI have become the most widely used ion sources in
+mass spectrometers used in clinical laboratories.
+As already mentioned, electrospray is considered a soft
+ionization source. However, it is also possible to generate
+fragment ions before mass analysis using a technique known
+as nozzle-skimmer dissociation,18 infrared multiphoton
+dissociation,19 and thermally induced dissociation.20 In these
+methods, ions are heated before entering the mass analyzer,
+and this causes ions to dissociate into fragment ions. In
+nozzle-skimmer dissociation, a higher than normal voltage
+gradient is applied in the ﬁrst low-pressure region of the
+electrospray interface, resulting in collisional heating of the
+ions. In infrared multiphoton dissociation, ions are subjected
+to an intense bombardment of infrared photons, resulting in
+heating of the ions, followed by dissociation. In thermally
+induced dissociation, ions are activated and dissociated by
+excess heating of the gas used to transport ions from
+atmospheric pressure to the vacuum system of the mass
+spectrometer.
+
+Atmospheric Pressure Chemical Ionization
+APCI is similar to ESI in the sense that ionization takes
+place at atmospheric pressure, involves nebulization and
+desolvation, and uses the same design of the ion extraction
+cone as ESI. The major difference lies in the mode of
+ionization. In APCI, no high voltage is applied to the inlet
+capillary. Instead, the mobile phase from the separation device gets evaporated and the vapor passes by a needle with
+applied current.21 This process generates a corona discharge.
+Somewhat analogously to the processes occurring in a CI
+source, ions generated by the corona discharge undergo variety of ion-molecule reactions such as the following:
+CH3 OH þ H
+
+þ
+
+/CH3 OHþ
+2
+
+þ
+AðanalyteÞ þ CH3 OHþ
+2 /AH þ CH3 OH
+
+or
+H2 O þ Hþ /H3 Oþ
+AðanalyteÞ þ H3 Oþ /AHþ þ H2 O
+Because solvent molecules from the evaporated mobile
+phase (eg, water, methanol, acetonitrile) are present in the
+vapor in excess relative to the sample constituents, they are
+predominantly ionized early in the ion molecule cascade of
+reactions and then act as a reagent gas that reacts secondarily
+to ionize analyte molecules (see Fig. 2.7, B). The products of
+these secondary reactions may contain clusters of solvent and
+analyte molecules, and thus a heated transfer tube or a
+countercurrent ﬂow of a curtain gas, such as nitrogen, is
+used to decluster the ions. As with ESI, APCI is a soft
+ionization technique that produces relatively little
+fragmentation. However, unlike ESI, APCI uses much higher
+heat and this can cause pyrolysis of the compound leading to
+loss of metabolically induced modiﬁcations to targeted
+compounds (glucuronidation, glutathionylation, etc.) and
+therefore can cause issues with analyses (in the methods
+that do not chromatographically resolve peaks of unconjugated and conjugated targeted molecules). On the other
+hand, in methods using ESI at lower temperature, those
+modiﬁcations tend to remain intact. When compared with
+EI, the mass spectra produced by APCI, ESI, and other soft
+ionization techniques typically have fewer fragments and
+are less useful for analyte identiﬁcation by mass spectral
+ﬁngerprinting. However, because the ion current is
+concentrated into a single mass spectral peak (or relatively
+few mass spectral peaks), APCI and other soft ionization
+sources are well matched to the requirements of tandem
+MS (discussed later) and are well suited for quantitative
+analysis. APCI and ESI are the most commonly used ion
+sources in quantitative analysis. However, in the case of
+nonpolar compounds such as steroids and some drug
+molecules, APCI is often a more efﬁcient ion source than ESI.
+
+Atmospheric Pressure Photoionization
+APPI is a relatively new and less frequently used ion source in
+clinical chemistry that provides a complementary ionization
+approach to ESI or APCI. The physical conﬁguration of an
+APPI source is similar to that for APCI, but an ultraviolet
+
+CHAPTER 2 Mass Spectrometry
+photon ﬂux (typically Krypton lamp that emits photons at 10
+Ev) is used instead of a corona discharge needle to generate
+ions in the gas phase.22-24 In APPI, an ionizable dopant,
+such as toluene or acetone, is often infused coaxially to the
+nebulizer to provide a source of ions that participate in charge
+or proton transfer to analyte molecules, thus increasing the
+efﬁciency of analyte ionization. APPI has a similar range of
+application to APCI and could be more useful than APCI
+for compounds of very low polarity, such as some steroids.
+
+Inductively Coupled Plasma
+ICP, as ESI, APCI, and APPI, is an atmospheric pressure
+ionization method. However, unlike most atmospheric
+pressure ionization methods, which are soft (ie, producing
+little fragmentation), ICP is the ultimate in hard ionization,
+typically leading to complete atomization of the sample
+during ionization. Consequently, its primary use is for
+elemental analysis. In the clinical laboratory, it is particularly
+useful for trace element analysis in tissues or body ﬂuids. ICP
+is extremely sensitive (eg, parts per trillion limits of
+detection) and is capable of extremely wide dynamic ranges.
+After sample preparation, which generally includes the
+addition of an internal standard such as yttrium and sometimes includes an acid digestion step, the sample is
+introduced into the ion source, usually via a nebulizer fed
+by a peristaltic pump. The nebulized sample is transmitted
+into hot plasma generated at atmospheric pressure by inductively coupling power into the plasma using a high-powered,
+radiofrequency (RF) generator (Fig. 2.9).25 The temperature
+of the plasma is typically 6000 to 10,000 K (comparable to
+the temperature of the surface of the sun). Sample is introduced in the plasma, and ions are transmitted to the mass
+analyzer through a series of differential pumping stages.
+The atmospheric sampling apparatus is conceptually similar
+to that of other atmospheric pressure ion sources, such as
+electrospray, except that the device must withstand the
+extremely high temperatures generated by the plasma.
+ICP-MS is comparatively free from most interference.
+However, some interfering species can be extremely troublesome. Most interfering species are small polyatomic ions
+
+41
+
+formed in the torch via ion-molecule reactions. For example,
+argon oxide (ArOþ) interferes with iron at m/z 56. One
+solution to this problem is to use a reaction cell, which
+consists of a moderate-pressure gas region in front of the
+m/z analyzer,26 with a reactant gas, such as NH3, bled into
+the reaction cell. The reactant gas reacts with polyatomic
+interferences and removes them before introduction into
+the m/z analyzer. A related technique uses a nonreactive
+collision gas, which removes interferences using collisions,
+relying on differences in collision cross-sections between
+polyatomic ions and atomic ions. Another approach to
+removing interferences of the same nominal mass is to use
+a high-resolution mass spectrometer, which is capable of
+resolving species with similar nominal mass.26 For example,
+the masses of ArOþ and 56Feþ differ by 0.022 Dada
+difference that may be resolved using a high-resolution
+mass spectrometer.
+
+Matrix-Assisted Laser Desorption Ionization
+MALDI is another type of soft ionization method that
+typically produces singly charged ions. MALDI and related
+techniques rely on energy transfer processes from a pulsed
+laser beam to the sample for ion generation. In most cases,
+the analyte is dissolved in a solution containing a solid phase
+matrix, a small molecular weight UV-absorbing compound,
+and this solution is placed on a target and dried. A pulsed
+laser irradiates the dried spots, triggering ablation, and
+desorption of the sample and matrix material; ions produced
+in the process are accelerated and introduced into the mass
+analyzer (Fig. 2.10). In other cases a layer of the solid matrix
+is deposited on the target and allowed to crystalize, and then
+the sample applied on top. The sample causes the top portion
+of the matrix to solubilize and mix with the sample before
+recrystallizing. In this way the sample is maintained in the
+very outer layer of the matrix, and this can help with
+enhancing the sensitivity and reducing the background noise.
+A related technique includes atmospheric pressure matrixassisted laser desorption/ionization, in which the MALDI
+process occurs at atmospheric pressure rather than reduced
+pressure (see Chapter 4).
+
+FIGURE 2.9 Simpliﬁed conceptual schematic of inductively coupled plasmaemass spectrometer (ICP-MS). Q-pole,
+Quadrupole. (From Kannamkumarath S, Wrobel K, Wrobel K, et al. Capillary electrophoresiseinductively coupled
+plasma-mass spectrometry: an attractive complementary technique for elemental speciation analysis. J Chromatogr A
+2002;975:245e266.)
+
+42
+
+Principles and Applications of Clinical Mass Spectrometry
+Incoming UV laser light
+
+Into mass
+analyzer
+Sample
+stage
+
+Analyte
+ions
+Matrix ions and
+neutrals
+Crystallized matrix
+with included analyte
+
+FIGURE 2.10 A generic view of the process of matrix-assisted
+laser desorption ionization. Co-crystallized matrix and analyte
+molecules are irradiated with an ultraviolet (UV) laser. The laser
+vaporizes the matrix, producing a plume of matrix ions, analyte
+ions, and neutrals. Gas-phase ions are directed into a mass
+analyzer.
+
+Ionization Methods of Potential Interest
+Desorption electrospray ionization (DESI)27 and direct analysis
+in real time (DART)28 are two relatively new ionization
+methods that generate ions from surfaces at atmospheric pressure. Most applications of DESI and DART to date have been
+directed toward minimal sample preparation. Paper spray MS
+is another emerging ionization method of potential interest. It
+is essentially a version of electrospray MS, but the spray is
+generated at the point of a triangular cut in a solvent-wetted
+piece of paper rather than from a capillary. It has the feature
+of easily integrating paper chromatography with MS.29 It
+also has been used for rapid measurement of therapeutic drugs
+from dried blood spots without the need for complex sample
+preparation and separation.30
+Ionization Methods of Historical Interest
+The older literature includes several ionization methods or
+sample introduction methods that, although promising, or
+even widely used at one time, hold little interest for current
+practice in clinical chemistry. Nevertheless, it is useful to be
+aware of them because they may still be referred to in the
+literature from time to time. Some of these include (1) fast
+atom bombardment, (2) thermospray, (3) direct liquid
+introduction, (4) plasma desorption, (5) ﬁeld ionization, (6)
+ﬁeld desorption, (7) secondary ion mass spectrometry, and (8)
+laser desorption. ESI and APCI ion sources have largely
+rendered these techniques obsolete.
+
+Vacuum System
+With the exception of certain ion trap mass spectrometers,
+ion separation in any of the mass analyzers requires that
+
+the ions do not collide with other molecules during their
+interaction with magnetic or electric ﬁelds. This requires
+the use of a vacuum from 103 to 109 torr, depending on
+mass analyzer type. The length of the ion path in the analyzer
+must be less than the mean free path length, unless collisions
+play a role in mass analysis.
+Fourier transform ion cyclotron resonance (FT-ICR)
+requires the lowest pressure (109 torr). The quadrupole
+ion trap (QIT) tolerates the highest pressure (103 to 105
+torr), a pressure range in which some collisions occur
+between ions and background gas. Routine quality assurance
+checks for vacuum leaks should include evaluation of the
+presence of air and water in the mass spectra.
+Efﬁcient high-vacuum pumps generally do not operate
+well near atmospheric pressure. Thus the vacuum system
+must have a positive displacement (mechanical) vacuum
+pump to evacuate the system to a pressure at which the
+high-vacuum pumps are effective. Mechanical pumps require
+routine maintenance, such as ballasting and replacing the
+pump oil.
+Although diffusion pumps are the least expensive and
+most reliable high-vacuum pump, they are rarely used
+outside of some very specialized mass spectrometers that
+typically are not used in the clinical laboratory. Cryopumps
+are another class of pumps that are sometimes used in
+specialized mass spectrometers but not in the clinical
+laboratory. In modern instruments, the most common
+high-vacuum pumps are turbomolecular (often referred to
+as “turbo”) pumps; they have largely replaced diffusion
+pumps and cryopumps because they are more convenient
+to use. A key consideration in the design of the vacuum
+system is pumping speed. The ability of the pump to maintain the vacuum by removing any gas (or solvent vapor)
+that enters the system determines the maximum ﬂow rate
+of gas introduced into the mass spectrometer. In general,
+higher pump capacities are associated with lower detection
+limits because noise arising from the gas background is
+reduced.
+
+Mass Analyzers, Tandem Mass Spectrometers, and
+Ion Detectors
+The term mass spectrometry is somewhat a misnomer because
+mass spectrometers do not measure molecular mass, but
+rather they measure the mass-to-charge ratio. This fact is
+fundamental to the physical operating principles of mass
+spectrometers and consequently affects all aspects of instrumentation design, instrument operation, and interpretation
+of results. The symbol m/z is used to denote mass-to-charge
+ratio and conventionally has been deﬁned as a dimensionless
+quantity31 (see also http://goldbook.iupac.org/M03752.html).
+However, a “dimensionless” mass-to-charge ratio is not
+consistent with equations of ion motion in the presence of electric and magnetic ﬁelds, which require units of mass divided by
+charge. Furthermore, the m/z scale sometimes is loosely discussed in terms of daltons (also known as uniﬁed atomic
+mass units [u]), although strictly speaking, Da is a unit of
+mass, not mass-to-charge ratio. Despite these somewhat
+confusing nomenclature issues, the present chapter generally
+follows convention by discussing m/z in terms of mass and Da.
+To help avoid some of the confusion surrounding the use
+of m/z, it has been proposed that it should be deﬁned
+
+CHAPTER 2 Mass Spectrometry
+explicitly as quantity having units of mass-to-charge ratio,
+with mass speciﬁed in daltons and charge speciﬁed in
+elementary charges; this proposed unit would be called the
+Thomson (Th) in honor of one of the pioneers of MS.32-34
+This terminology is sometimes seen in the literature but
+has not been widely adopted.
+
+General Classes of Mass Spectrometers
+Mass spectrometers are broadly classiﬁed into two groups:
+beam-type instruments and trapping-type instruments. In a
+beam-type instrument, the ions make one pass through the
+instrument and then strike the detector, where they are
+destructively detected. The entire process, from the time an
+ion enters the analyzer until the time it is detected, generally
+takes microseconds to milliseconds.
+In a trapping-type analyzer, ions are held in a spatially
+conﬁned region of space through a combination of magnetic
+and/or electrostatic and/or RF electrical ﬁelds. The trapping
+ﬁelds or supplemental ﬁelds are applied and manipulated in
+ways that allow m/z measurements to be performed. Trapping
+times may range from a fraction of a second to minutes,
+although most clinical applications are at the low end of
+this range.
+Examples of trapping-type instruments include QITs,
+linear ion traps (which, along with QITs, also depend on
+RF electric ﬁelds), ICR mass spectrometers, electrostatic ion
+traps, and orbitraps (which are a type of electrostatic ion
+traps).
+Detection of the ions in a trapping-type instrument may
+be destructive or nondestructive, depending on the speciﬁc
+type of mass spectrometer used. In this context, destructive
+means that ions are destroyed in the detection process.
+Additional discussions of mass analyzers, tandem mass
+spectrometers, and ion detectors can be found in the
+literature,33,35 and the CLSI documents C-50A and C-62A
+contain recommendations for matching the capabilities of
+different m/z analyzers to various application classes.1,2
+Beam-Type Designs. The main beam-type mass
+spectrometer designs are (1) quadrupole, (2) magnetic
+sector, and (3) TOF. It is convenient to categorize beamtype instruments into two broad categories, those that
+produce a mass spectrum by scanning the m/z range over a
+period (quadrupole and magnetic sectors) and those that
+acquire instantaneous snapshots of the mass spectrum
+(TOF). This categorization is not hard and fast. Certain
+instrument designs have been adapted to scanning or
+nonscanning operations. Nevertheless, the categorization is
+a useful one because it covers the majority of instruments
+currently available and because scanning and nonscanning
+instruments are adapted for different optimal usages.
+Quadrupole. Quadrupole mass spectrometers, sometimes known as quadrupole mass ﬁlters (QMFs), are
+currently the most widely used mass spectrometers, having
+displaced magnetic sector mass spectrometers as the standard
+instrument. Although these instruments lag behind magnetic
+sector instruments in terms of (1) sensitivity, (2) upper mass
+range, (3) resolution, and (4) mass accuracy, they offer an
+attractive and practical set of features that account for
+their popularity, including (1) ease of use, (2) ﬂexibility,
+(3) adequate performance for most applications, (4) relatively
+
+43
+
+low cost, (5) small size, (6) noncritical site requirements, and
+(7) highly developed data collection software systems.
+A quadrupole mass spectrometer consists of four parallel
+electrically conductive rods arranged in a square array
+(Fig. 2.11). The four rods form a long channel through which
+the ion beam passes. The beam enters near the axis at one end
+of the array, passes through the array in a direction generally
+parallel to the axis, and exits at the far end of the array. The
+ion beam entering the quadrupole array may contain a
+mixture of ions of various m/z values, and in different modes
+of operation, different mass ranges can be selected. If a very
+narrow m/z range is selected (eg, Dm/z <1) only ions of
+the speciﬁed m/z will be transported through the device to
+reach the detector. Ions outside this narrow range are ejected
+radially. The Dm/z range represents a pass band, analogous to
+the pass band of an interference ﬁlter in optics. This is why
+quadrupole mass spectrometers are often referred to as
+mass ﬁlters rather than mass spectrometers.
+Separation of ions in QMS is based on a superposition of
+RF and constant direct current, or DC potentials applied to
+the quadrupole rods. DC voltages are applied to the electrodes in a quadrupolar pattern. For example, a positive
+DC potential is applied to electrodes 1 and 3, as indicated
+in Figure 2.12, and an equivalent negative DC potential is
+applied to electrodes 2 and 4. The DC potentials are relatively
+small, on the order of a few volts. Superimposed on the DC
+potentials are RF potentials, also applied in a quadrupolar
+fashion. RF potentials range up to the kilovolt range, and
+frequency is on the order of 1 MHz. In the most frequently
+used mode of operation the frequency is ﬁxed and highly
+stable, derived from a crystal controlled oscillator.
+The physical principles underlying the operation of a
+quadrupole mass spectrometer are rigorously described by
+solutions of a complicated differential equation, the Mathieu
+equation.36 When an ion is subjected to a quadrupolar RF
+ﬁeld, its trajectory is described qualitatively as a combination
+of fast and slow oscillatory motions. For descriptive purposes,
+the fast component will be ignored here. The slow
+
+⫺
+⫹
+
+⫹
+y
+⫺
+
+z
+x
+
+FIGURE 2.11 Diagram of quadrupole mass ﬁlter, including the
+radiofrequency part of voltages applied to the quadrupole rods.
+
+44
+
+Principles and Applications of Clinical Mass Spectrometry
+
+⫺
+⫹
+
+⫹
+⫺
+
+A
+
+B
+
+C
+
+D
+
+y
+z
+x
+
+⫺
+
+⫹
+
+FIGURE 2.12 Direct current voltages applied to quadrupole rod
+assembly.
+
+component oscillates about the quadrupolar axis; this
+resembles the motion of a particle in a ﬁctitious harmonic
+pseudopotential. The frequency of this oscillation is
+sometimes called the secular frequency.
+Effective force associated with the pseudopotential is
+directed inward toward the quadrupolar axis and is proportional to the distance from the axis. It therefore acts as a
+conﬁning force, preventing ions from being ejected radially
+from the quadrupolar assembly. Figure 2.13, A, shows an
+example of an ion conﬁned by an RF-only quadrupole. Below
+a certain m/z cutoff frequency (which depends on the
+frequency and amplitude of the RF ﬁeld), ions are ejected
+rather than conﬁned. Figure 2.13, B, shows an example of
+an ion ejected by an RF-only quadrupolar ﬁeld. This
+establishes the low mass cutoff for the m/z pass band. The
+effective conﬁning force is strongest just above the low m/z
+cutoff and then decreases asymptotically toward zero at
+high m/z.
+The DC part of the quadrupolar potential is independent
+of m/z. Positive ions are attracted toward the negative poles.
+Negative ions are attracted toward the positive poles.
+Attraction increases as the distance from the quadrupolar
+axis increases. Because a quadrupolar DC potential always
+has both negative and positive poles, the quadrupolar DC
+potential always contributes to ejection in at least one
+direction. Whether ejection of an ion of a particular m/z
+actually occurs depends on whether the ejecting force caused
+by the quadrupolar DC potential overcomes the effective
+conﬁning force caused by the pseudopotential generated by
+the RF ﬁeld. Above a certain m/z value, the DC part dominates and ions are ejected radially from the device.
+This establishes an upper m/z limit for ion transmission.
+Figures 2.13, C and D, show examples of ion trajectories
+under the inﬂuence of combined RF-DC ﬁelds, one being
+conﬁned and the other being ejected. Trajectories in
+Figure 2.13 were calculated using the Simion ion optics
+computer program.37
+A rigorous description of low- and high-mass cutoffs is
+found in so-called stability diagrams, which graphically
+describe the lower and upper m/z cutoffs of a quadrupole
+mass spectrometer in terms of parameters related to voltages,
+
+FIGURE 2.13 Ion trajectories showing conﬁnement and ejection
+in quadrupole mass ﬁlters. A, Ion conﬁnement by radiofrequency
+(RF)-only ﬁeld. B, Ion ejection by RF-only ﬁeld. C, Ion conﬁnement
+with a combination of RF and direct current (DC) ﬁelds. D, Ion
+ejection with a combination of RF and DC ﬁelds. All trajectories
+were simulated using Simion software. (Courtesy Scientiﬁc
+Instrument Services, Ringoes, New Jersey.)
+
+frequencies, and m/z. However, a full discussion of the
+stability diagram is outside of the scope of this chapter.
+The combination of lower and upper m/z limits establishes
+a pass band (Dm/z) and ultimately a resolution [(m/z)/(Dm/
+z)]. With relatively few exceptions, quadrupole instruments
+are limited to a resolution of a few hundred to several
+thousand, which is sufﬁcient to achieve isotopic resolution
+for singly charged ions of m/z as high as several thousand.
+A quadrupole MS may be operated in SIM mode or
+scanning mode. In SIM mode, both DC and RF voltages
+are ﬁxed. Consequently, both the center of the pass band
+and the width of the pass band are ﬁxed. For example, the
+mass spectrometer may be set to pass ions of m/z 363 
+0.5. Both the center m/z and the Dm/z are adjusted by the
+appropriate choice of DC and RF.
+In the scanning mode of operation, the RF and/or DC
+voltages are continuously varied to scan a range of the
+speciﬁed m/z values. As with the SIM mode, the Dm/z is
+determined by the RF and DC voltages. Usually the scan
+function is designed to maintain a constant Dm/z across the
+full m/z range. Thus the resolution increases as m/z increases.
+The value of Dm/z is frequently chosen in the range 0.5 to 0.7
+to resolve isotopic peaks of singly charged species across the
+full m/z range.
+Magnetic Sector. Because magnetic sector mass spectrometers are rarely used in clinical laboratories, they will
+not be described in detail here. It should be noted, however,
+that these classic mass spectrometers are easy to understand
+(given a basic understanding of physics); are versatile,
+reliable, and highly sensitive; and in their “double focusing”
+design are capable of very high m/z resolution and mass
+accuracy. However, they are typically very large, expensive,
+and have the reputation of being difﬁcult to use.
+
+CHAPTER 2 Mass Spectrometry
+Consequently, other instruments have largely displaced
+magnetic sector mass spectrometers.
+Time-of-Flight. TOF mass spectrometry (TOF-MS) is a
+nonscanning technique whereby a full mass spectrum is
+acquired as a snapshot rather than by sweeping through a
+sequential series of m/z values while acquiring the data. It is
+described here as a snapshot because, although ions of
+different m/z arrive at the detector sequentially (low m/z
+ﬁrst), the samples are loaded into the ion source with little or
+no m/z discrimination with regard to time, and the duration
+of the acquisition of a single mass spectrum is measured in
+microseconds. One implication of this is that if the
+composition of the sample stream being presented to the
+mass spectrometer changes with time, there is essentially no
+distortion of the mass spectrum resulting from this time
+dependence, whereas with scanning-type mass spectrometers
+the mass spectrum may be distorted because of the interaction between scan time of the mass spectrometer and the
+changing concentration of the sample stream. This is
+particularly signiﬁcant when dealing with fast chromatography coupled to MS.
+TOF mass spectrometers have several advantages, including
+(1) a nearly unlimited m/z range, (2) high acquisition speed,
+(3) high mass accuracy, (4) moderate to high resolution, (5)
+moderate to high sensitivity, (6) absence of spectral distortions
+when used in conjunction with fast separations and narrow
+chromatographic peaks, and (7) reasonable cost. TOF-MS is
+also well adapted to pulsed ionization sources, which is an
+advantage in some applications, particularly with MALDI
+and related techniques.38
+A major advantage of modern TOF mass spectrometers is
+that they are capable of acquiring accurate mass measurements, sometimes loosely referred to as exact mass, which is
+typically accurate to a few parts per million (ppm). This
+allows TOF measurements to conﬁrm the molecular formula
+of a compound and assist with identiﬁcation of unknowns in
+the mass spectra. TOF mass spectrometers are conceptually
+simple to understand because they are based on the fact
+that in vacuum a lighter ion travels faster than a heavier
+ion, provided that both have the same kinetic energy.
+Figure 2.14 presents a simpliﬁed conceptual diagram of a
+TOF mass spectrometer. It resembles a long pipe wherein
+ions are created or injected at the source end of the device
+and are then accelerated by the applied potential of several
+kilovolts. The ions travel down the ﬂight tube and strike
+the detector at the far end. The time it takes to traverse the
+tube is known as the ﬂight time; this is related to the
+mass-to-charge ratio of the ion.
+The ﬂight time for an ion of mass m and kinetic energy
+E to travel a distance L in a region free of electric ﬁelds is
+given by:
+
+
+m
+t¼L
+2E
+
+1=2
+
+A sample calculation for an ion of molecular weight
+200 Da (3.32  1025 kg) with a kinetic energy of 10 keV
+(1.60  1015 J), traveling through a distance of 1 m, yields
+a ﬂight time of 10.18 ms, and an ion of molecular weight
+201 takes just 25 ns longer. To accurately capture such ﬂeeting
+signals, the data recording system must operate on an
+
+45
+Detector
+
+Ion
+
+FIGURE
+
+Trajectory
+
+2.14 Diagram
+
+of
+
+simpliﬁed
+
+time-of-ﬂight
+
+mass
+
+spectrometer.
+
+approximately 1 ns or shorter time-scale. Advances in signal
+processing electronics have made these mass analyzers
+possible at a modest cost, and this has been a major factor
+in the rise in popularity of TOF-MS.
+TOF is inherently a pulsed technique; it couples readily to
+pulsed ionization methods, with MALDI being the most
+common example, although TOF is also coupled with
+continuous ion sources such as EI, ESI, and APCI. However,
+the continuous nature of these sources causes a mismatch
+between continuous introduction of ions from the ion source
+and a pulsed detection with TOF-MS. This mismatch is
+overcome by using a technique known as orthogonal
+acceleration TOF-MS (OA-TOF-MS), in which the ion
+beam is injected orthogonal to the axis of the TOF-MS.39-41
+During the injection period, the acceleration voltage is
+turned off. Once the injection region is ﬁlled with the
+traversing beam, the acceleration voltage is quickly turned
+on and the TOF timing cycle starts. The process is cycled
+repeatedly. The overall duty cycle for this method can be
+more than 10%; this represents a vast improvement over
+the traditional method of gating the ion beam for TOF
+analysis. For full spectrum capability with continuous ion
+sources, orthogonal injection TOF mass spectrometers are
+generally considered to have the lowest detection limits of
+all mass spectrometers. However, for the monitoring of a
+single m/z rather than a full mass spectrum, the use of SIM
+mode with a quadrupole MS provides superior sensitivity.
+Improved resolution is an additional beneﬁt conferred by
+OA-TOF-MS. Although a complete explanation is beyond the
+scope of this chapter, in brief, orthogonal acceleration
+reduces the resolution-degrading effects that would normally
+accompany the kinetic energy variations of individual ions in
+the ion beam.
+Use of an ion mirror is another technique often employed
+in TOF-MS design to improve resolution by compensating
+for kinetic energy variations.42,43 Such instruments are
+known as reﬂectrons. To date, TOF-MS has had a limited
+impact in clinical chemistry with only a few commercially
+offered TOF-MS assays, such as insulin-like growth factor
+I44,45 and drug screening,46 but it could potentially play a
+greater role in the future. For example, full-spectrum
+capability, high resolution (up to 40,000 in some current
+instruments), high speed (10 to 100 stored spectra per
+second), and high mass accuracy of TOF-MS seem ideally
+suited to applications such as high-speed drug screens in
+toxicology when combined with fast chromatographic sample
+introduction.
+Another area in which TOF-MS provides an advantage is
+high-mass analysis, where its mass range is nearly unlimited.
+In MALDI-TOF, for example, it is not unusual to detect
+proteins with molecular weights exceeding 100,000 (see
+
+46
+
+Principles and Applications of Clinical Mass Spectrometry
+
+Chapter 4). The ability for high-mass analysis is expected to
+increase in importance as clinical laboratories embrace
+proteomic-based diagnostic methods.
+Trapping Mass Spectrometers. In contrast to beam-type
+designs, these mass spectrometers are based on the trapping
+of ions to capture and hold ions for an extended length of
+time in a small region of space. Trapping times vary from a
+fraction of a second to minutes. Compared with beam-type
+instruments, the division between scanning and nonscanning
+instruments has less meaning for ion-trapping instruments.
+The main practical difference between scanning and
+nonscanning instruments is related to distortions in
+chromatographic peak shape (or peak skewing). These arise
+from the ﬁnite scan time of a mass spectrometer relative to
+the time-scale of the width of a chromatographic peak. The
+result is that the abundances of the peaks in mass spectra
+collected during the rising or falling portions of a
+chromatographic peak are distorted relative to the true mass
+spectrum. In other words, as an instrument collects a mass
+spectrum, scanning from low m/z to high m/z, the peak
+intensities observed for low m/z will reﬂect the concentration
+of analyte that elutes earlier than the concentration of
+analyte that elutes when detecting high m/z. As a result,
+mass spectra collected at the beginning of a chromatographic peak may have different relative peak intensities
+compared with those of spectra collected at the end of a
+chromatographic peak. In terms of producing skewed
+spectra, trapping devices are more similar to nonscanning
+instruments, such as TOF (does not cause skewing), than to
+scanning instruments. This is because the sample is captured
+in an instant and then analyzed at leisure. Because the
+sample is captured in an instant, no skewing of the spectra
+occurs, regardless of whether the mass analysis is performed
+by a scanning or a nonscanning technique.
+Traditionally, ion traps have been classiﬁed as (1) a QIT,
+which relies on RF ﬁelds to provide ion trapping; (2) a linear
+ion trap, which is closely related to the QIT in its operating
+principles; (3) an ion cyclotron resonance (ICR) mass spectrometer, which relies on a combination of magnetic ﬁelds
+and electrostatic ﬁelds for trapping, and (4) an orbitrap, a
+more recent introduction into the ﬁeld of ion trap MS.47
+Quadrupole Ion Trap. QITs are relatively compact,
+inexpensive, and versatile instruments that are excellent
+for (1) exploratory studies, (2) structural characterization,
+and (3) qualitative identiﬁcation. They are also used for
+quantitative analysis, although precision of measurements is
+inferior when compared with quadrupole-based instruments.
+Operation of the QIT is based on the same physical
+principle as the quadrupole mass spectrometer described
+earlier. Both devices make use of the ability of RF ﬁelds to
+conﬁne ions. However, the RF ﬁeld of an ion trap is designed
+to trap ions in three dimensions rather than to allow the ions
+to pass through as in a QMF, which conﬁnes ions in two dimensions. This difference has a large impact on the operation
+and limitations of the QIT.
+The physical arrangement of a QIT is different from that
+of a QMF. If an imaginary axis is drawn through the y-axis
+of the quadrupole rods, and the rods are rotated around
+the axis, a solid ring with a hyperbolic inner surface results
+from the x-axis pair of rods. The two y-axis rods form two
+solid end caps. A diagram of an ion trap is given in
+
+Figure 2.15. The description of the ﬁelds within the electrodes
+must now include a radial component and an axial (between
+the end caps) component. These design features have an
+effect on the conditions required for ion conﬁnement when
+compared with a QMF, although the qualitative description
+of ion conﬁnement discussed previously is valid.
+A discussion of the several types of scanning experiments
+in QIT is beyond the scope of this chapter, except to mention
+that ions may be ejected from the trap in an m/z-dependent
+fashion for detection using an external electron multiplier.
+Some advantages of QITs are an ability to perform
+multiple stages of tandem MS (MSn), high sensitivity, and
+decoupling of the mass analysis from scanning, so no mass
+spectral peak skewing is seen in GC-MS and HPLC-MS.
+However, ion-ion repulsion effects (caused by large numbers
+of similarly charged species in a small space within the trap)
+limit the number of ions that can be trapped, simultaneously
+reducing dynamic range and producing mass misassignments at high signal levels. The previously mentioned
+features make QITs not well suited for quantitative analyses,
+which are typically required for majority of applications in
+clinical laboratories.
+Linear Ion Trap. The linear trap is an RF ion trap that is
+based on a modiﬁed linear QMF. Rather than being a
+pass-through device, as in a traditional linear QMF,
+electrostatic ﬁelds are applied to the ends to prevent ions
+from exiting out the ends of the device. When trapped in
+this manner, ions can be manipulated in many of the same
+ways as in a QIT. An advantage of the linear quadrupole
+ion trap is that the trapping ﬁeld can be turned off at will
+and the device operated as a normal QMF. Furthermore the
+trapping volume available within the QMF is much greater
+than the traditional QIT, allowing greater capacity of the
+ions to be trapped before ion-ion repulsion becomes an
+issue. Thus a single device combines most of the features of a
+QIT and QMF and is extremely versatile. Commercial
+triple quadrupole mass spectrometers are being offered in
+End cap electrode
+(electron entrance)
+
+Hyperbolic
+surfaces
+
+Ring
+electrode
+
+z
+r
+
+End cap electrode
+(ion exit)
+
+FIGURE 2.15 Diagram of quadrupole ion trap. r, Radial direction;
+z, axial direction.
+
+CHAPTER 2 Mass Spectrometry
+which the third quadrupole is modiﬁed to function either as a
+linear trap or as a conventional third quadrupole mass
+spectrometer as selected by the user.
+Ion Cyclotron Resonance. The ICR-MS excels in highresolution and high mass accuracy measurements.48 Measurements at resolution exceeding 1 million are not unusual.
+ICR is a trapping technique that shares many of the advantages of RF ion traps (QIT or linear ion traps). However, there
+are even more ways to manipulate ions in an ICR-MS than in
+RF ion traps, and MSn (multiple stages of MS/MS) measurements are easily done with an ICR-MS. Sensitivity of an
+ICR-MS is generally high. Furthermore, sampling is decoupled from spectral acquisition, so no peak skewing is seen in
+chromatographic experimentsda feature that ICR shares
+with TOF and QIT, and the signal acquisition times are
+typically longer than for other types of mass analyzers.
+Fourier transform ion cyclotron resonanceemass spectrometry (ICR-MS) is based on the principle that ions
+immersed in a magnetic ﬁeld undergo circular motion
+(cyclotron motion). A typical ICR-MS uses a high-ﬁeld (3
+to 12 tesla) superconducting magnet. Within this ﬁeld and
+within a high vacuum is mounted a cell typically composed
+of six metal electrodes, arranged as the faces of a cube. Ions
+are suspended inside the cell and undergo cyclotron motion,
+which keeps ions from being lost radially (the radial direction
+being deﬁned as perpendicular to the magnetic ﬁeld lines). A
+low (w1 V) potential is applied to the end caps to keep ions
+from leaving the trap axially. Thus the combination of electric
+and magnetic ﬁelds keeps ions conﬁned within the cell.
+Ions circulating in the ICR cell induce an electrical current
+in two parallel detection electrodes. The detection electrodes
+are on opposite sides of the ICR cell and are arranged parallel
+to the magnetic ﬁeld. After certain mathematical operations
+are performed on the signal (principally a Fourier transform
+[FT]), a mass spectrum is recovered. Each m/z is associated
+with a speciﬁc cyclotron frequency, and each m/z value that
+is present in the sample produces a peak in the transformed
+signal. Because of the frequent use of FT in ICR, the
+technique is often referred to as FT-ICR or FTMS.
+Although this technique has many advantages, including
+(1) high mass accuracy, (2) ultra-high resolution, and (3) the
+ability to perform MSn, ICR-MS has several disadvantages,
+including (1) high instrument costs; (2) very demanding site
+requirements, in terms of both space and access restrictions;
+(3) requirement for a high-ﬁeld superconducting magnet;
+(4) relatively long signal acquisition time, which limits the
+number of scans that can be acquired during the elution of a
+chromatographic peak; (5) safety concerns related to high
+magnetic ﬁelds; (6) demagnetization of credit cards and other
+magnetically encoded strips; (7) high costs of operation and
+maintenance because the instruments consume liquid helium
+and must never be allowed to run out of helium; and (8) necessity of a highly skilled individual to operate the instrument.
+Orbitrap. The suitability of a new type of mass analyzer,
+the orbitrap, for clinical analysis has yet to be proved.
+However, the high resolution and mass accuracy of the
+orbitrap suggest that it has potential for use in clinical
+laboratories. The orbitrap mass analyzer has resolution and
+mass accuracy approaching that of an ICR mass spectrometer
+but does not require a magnetic ﬁeld. This innovation
+minimizes many of the ICR disadvantages listed previously.
+
+47
+
+The principles of mass analysis in an orbitrap are based on
+an early ion storage devicedthe Kingdon trap.49 After many
+variations over the years, Makarov and associates47,50-52
+developed a modiﬁed version that was commercialized
+in 2006. The commercial instrument can easily achieve
+resolutions up to 100,000 and parts per million or even sube
+parts per million mass accuracy, has four orders of magnitude
+dynamic range, and has sampling decoupled from spectral
+acquisition (as in the ICR). The resolution and mass accuracy
+are typically approximately 2 orders of magnitude greater
+than with a quadrupole mass spectrometer.
+Orbitrap-MS is based on trapping within electrostatic
+ﬁelds.53 The actual device is a spindle-like central electrode
+surrounded by a barrel-like outer electrode.54 When ions
+are introduced perpendicular to the central electrode and a
+radial potential is applied between electrodes, the ions spiral
+(orbit) around the central electrode and are effectively trapped in a radial direction. Trapping in the axial direction is
+assisted by the shape of the electrodes, together with the potentials that are applied to the electrodes. Ion trapping therefore involves both orbital motion around the central electrode
+and axial oscillations.
+The trapping potential in the axial direction is of the form
+of a harmonic oscillator, and because the frequency of a
+harmonic oscillator is independent of oscillation amplitude,
+this frequency is very stable and well behaved. The m/z can
+be calculated from the frequency of axial oscillation:
+u ¼ 2pf ¼ ðkm=zÞ1=2
+where u is angular velocity, f is frequency, m/z is the mass-tocharge ratio, and k is a constant determined by the trap
+geometry, dimensions, and applied potential. (To be dimensionally correct, m/z in this equation must have units of
+mass divided by charge, which differs from the currently
+accepted deﬁnition of m/z as a unitless number31 (see also
+http://goldbook.iupac.org/M03752.html).
+The image current (current induced by a motion of ions
+passing near a conductor) made in the outer electrode
+induced by the ion motion is acquired in the time domain
+and can be Fourier-transformed to produce a frequency
+spectrum that is then converted to m/z using the previous
+equation.
+With the ability to perform accurate mass measurements,
+especially when combined with a linear ion trap or quadrupole to form a hybrid tandem mass spectrometer, orbitrap
+mass analyzers have excellent capabilities for proteomics
+research. One recent publication noted anomalous isotope
+ratios observed under high-resolution operating conditions.55 It is a curious point that the anomalies are
+compound-dependent, and generally increase with increasing
+resolution. A theoretical explanation for these anomalies has
+been given.56
+
+Tandem Mass Spectrometers
+Tandem MS, or MS/MS, has become the dominant MS-based
+technique used in clinical laboratories, where it has found
+extensive application in the quantitative analysis of routine
+samples.57 However, it is also a useful technique for structural
+characterization and compound identiﬁcation and therefore
+
+48
+
+Principles and Applications of Clinical Mass Spectrometry
+
+often used for exploratory work. The most important features
+of this technique are its very high selectivity, ability to
+measure very low concentrations of analyte(s), and ability
+to multiplex the measurement of multiple analytes in a single
+method. Susceptibility of MS/MS to interferences is typically
+very low, especially if MS/MS is combined with chromatographic separation. The reason is that a detected compound
+is separated and characterized by three physical properties:
+chromatographic retention time, precursor ion mass, and
+product ion mass. Because of its high speciﬁcity, low
+consumable cost, and a potentially high sample throughput,
+increasingly more clinical laboratories are using tandem
+mass spectrometers for the routine analysis of samples.
+The physical principle of MS/MS is based on the use of two
+mass spectrometers (or mass ﬁlters) arranged sequentially in
+tandem, with a collision cell placed between the two mass
+ﬁlters. The ﬁrst ﬁlter is used to select a precursor ion of a
+particular m/z. The precursor ion is directed into the collision
+cell, where ions collide with background gas molecules and
+are broken into smaller product ions. The second mass ﬁlter
+acquires the mass spectrum of the product ions.
+A variety of scan functions are possible with MS/MS. A
+product ion scan involves setting the ﬁrst mass spectrometer
+(also called mass ﬁlter 1, MF1, MF1, MS1, or Q1) to select a
+given m/z, and scanning through the full mass spectrum of
+product ions using the second mass spectrometer or mass
+ﬁlter, MF2. This scan function is often used for structural
+characterization.
+A precursor ion scan reverses this relationship, with the
+second mass ﬁlter, MF2, set to select a speciﬁc product ion,
+and MF1 is scanned through the spectrum of precursor
+ions. The scan tells which precursor ions produce a speciﬁc
+product ionda capability that is often used to analyze for
+speciﬁc classes of compounds. For example, acylcarnitines
+are often analyzed using precursor ion scan mode by
+acquiring signal from all the precursors of the m/z 85.
+In a constant neutral loss scan, the two mass ﬁlters are
+scanned synchronously, with a constant m/z offset between
+precursor and product ion. This scan indicates which ions
+lose a particular neutral fragment. For example, an offset of
+176 m/z units would select for ions losing a glucuronide
+moiety in the dissociation process.
+The most commonly used scan function in MS/MS is
+MRM (also referred as SRM). In this type of acquisition a
+series of precursor/product ion pairs are monitored, with
+the mass spectrometer set to step through the table of
+parent/product ion pairs in a cyclic fashion. MRM acquisition
+is primarily used for quantitative analysis of target compounds and is an analog to the SIM type of acquisition
+used in GC-MS.
+As with single-stage mass spectrometers, MS/MS are
+roughly categorized as beam-type instruments and trapping
+instruments. The most popular beam-type instrument is
+the triple quadrupole. In this instrument, the ﬁrst quadrupole
+(Q1) functions as MF1 and the third quadrupole (Q3)
+functions as MF2. Between these two quadrupoles is another
+quadrupole, Q2, which functions as the collision cell. The
+pressure is raised in Q2 (eg, >103 torr) by the addition of
+a nonreactive gas (nitrogen, helium, argon, etc.) to the point
+that ions traversing Q2 undergo multiple collisions, leading
+to deposition of energy onto the analyte and subsequent
+
+fragmentation of the precursor ion(s) into smaller fragments,
+followed by separation and detection of the product ions in a
+subsequent stage of mass analysis. The Q2 is operated as an
+RF-only quadrupole, ideally passing all ions regardless of
+m/z. The technique is typically used to fragment molecular
+or pseudomolecular ions in order to obtain analyte-speciﬁc
+fragments, which can be used for elucidating structure of
+the molecules of interest or in selective analysis of targeted
+molecules. In cases in which the collision-induced
+dissociation spectrum contains a large number of ions, the
+experienced investigator often can deduce the structure of a
+molecule from the mass spectrum of the product ion.
+Two magnetic sector instruments also have been operated
+in tandem, with a collision cell placed between the two mass
+analyzers. These instruments permit high-resolution
+selection of both precursor and product ions. However,
+they are now rarely used because of the high cost and
+cumbersome operation. A single magnetic sector mass
+spectrometer (in the form of a double focusing mass
+spectrometer) has also been used as an MS/MS by a technique
+known as linked scanning. A product ion scan by linked
+scanning involves low resolution for the ﬁrst m/z selection
+and high resolution for the second m/z selection.
+Hybrid mass spectrometers include a combination of two
+different types of mass spectrometers in a tandem arrangement. The combination of a magnetic sector mass spectrometer with a quadrupole mass spectrometer was an early
+instrument of this type. More popular today is the
+combination of a quadrupole for the ﬁrst stage of m/z
+selection and a TOF for the second m/z analyzer.
+Subsequently, linear ion trap and quadrupole mass analyzers
+have been combined with an orbitrap. Hybrid instruments
+are presently used mainly for proteomics research. These
+instruments cannot perform the true precursor ion scans or
+constant neutral loss scans, though it is possible to mimic
+these functions by postprocessing data, provided the full
+precursor-product ion map was generated in the experiment.
+QIT, linear ion trap, and ICR mass spectrometers also can
+be used as MS/MS. Unlike beam-type instruments, which are
+referred to as “tandem in space,” trapping mass spectrometers
+are “tandem in time,” meaning that ions are held in one
+region of space while the parent ion is selected and
+dissociated and the daughter ion is analyzed sequentially in
+time in the same region of space. The ability to perform
+MS/MS is inherent in the design of most trapping mass
+spectrometers. Generally, little or no additional hardware is
+required, and tandem capability is supplied via software. An
+exception is the orbitrap, which is not amenable to MS/MS
+when used alone. However, when incorporated into a hybrid
+instrument, with a different type of mass spectrometer
+supplying the ﬁrst stage of MS (such as a linear ion trap or
+a quadrupole), and with the orbitrap providing the ﬁnal
+stage of MS, MS/MS is possible in an orbitrap-based
+instrument.
+Most trap-based instruments are capable of multiple
+stages of MS. Thus, product ions may be further dissociated
+to produce another generation of product ions (MS/MS/MS,
+or MS3). In principle, any number of dissociation stages
+may be performed (MSn). This capability ﬁnds its greatest
+use in structural characterization, such as in the sequencing
+of peptides, and is less useful for quantitative analysis.
+
+CHAPTER 2 Mass Spectrometry
+MF1
+
+Collision cell
+
+A
+B
+C
+
+A
+
+MF2
+
+A1
+gas
+
+49
+
+A2
+
+A1
+B1
+
+A3
+
+Targeted MRM
+
+C1
+
+Targeted MRM
+
+A1
+A
+
+gas
+
+A2
+
+A1
+
+A3
+
+B
+
+Static
+
+Static
+
+A
+B
+
+A1⫹X
+gas
+
+C
+
+C
+
+C1⫹X
+
+Scan
+
+Static
+
+A
+B
+
+A1⫹X
+gas
+
+C
+
+D
+
+X
+
+B1⫹X
+
+A1
+
+B1⫹X
+
+B1
+
+C1⫹X
+
+C1
+
+Scan
+
+Scan
+
+FIGURE 2.16 Scan modes in mass spectrometry/mass spectrometry (MS/MS). A, Multiple reaction monitoring (MRM), in
+which A, B, C, A1, B1, and C1 are ions. Monitoring of MS/MS transitions A / A1, B / B1, and B / C1 is multiplexed. For
+simplicity, only the dissociation of A is shown in a collision cell in the ﬁgure. B, MRM of a single compound, where only one
+MS/MS transition is monitored. C, Precursor ion scan, in which A, B, C, and X are all ions. The second mass ﬁlter (MF2) is
+ﬁxed to monitor the mass-to-charge ratio (m/z) corresponding to ionic species X, and the ﬁrst mass ﬁlter (MF1) is scanned
+through a range of m/z values. D, Constant neutral loss scan, in which X is uncharged and A, B, C, A1, B1, and C1 are ions.
+The two mass ﬁlters are scanned with a constant m/z offset between the two corresponding to the mass of X.
+
+Although trapping designs are extremely versatile (such as
+allowing multiple stages of fragmentation), these instruments are unable to perform true precursor ion scans or
+constant neutral loss scans, as illustrated in Figure 2.16,
+C and D, respectively. However, it is possible to simulate
+the effect of precursor ion scans or constant neutral loss
+scans by taking a series of product ion scans, one for each
+possible parent ion m/z. This will generate a complete MS/
+MS map. From this complete map data can be selected to
+simulate these two scan modes because a precursor ion scan
+is just a subset of the complete MS/MS map, as is a constant
+neutral loss scan. However, this procedure can be quite
+time-consuming, which would make it impractical in some
+applications.
+
+Ion Mobility
+Although strictly speaking, ion mobility spectrometers (IMS)
+are not mass analyzers, they are nevertheless often included
+as part of the ﬁeld of MS, either as part of a hyphenated
+technique (eg, IMS-MS) or as a substitute for an MS
+analyzer.58-60 Ion mobility spectrometers are like mass
+spectrometers in the sense that they require the analyte to
+be ionized, but the separation mechanism is different. Rather
+than separating ions by their mass-to-charge ratio, ions are
+separated according to their mobility in an electric ﬁeld.
+Thus ion mobility can be regarded in some respects as a
+form of gas phase electrophoresis.
+The simpliﬁed schematic of a conventional ion mobility
+spectrometer strongly resembles a TOF-MS, but rather than
+
+50
+
+Principles and Applications of Clinical Mass Spectrometry
+
+following a collisionless trajectory, ions undergo many
+collisions as they drift under the inﬂuence of an electric ﬁeld.
+Other conﬁgurations for measuring gas phase mobility are
+also possible,58-60 but these will not be reviewed in detail here.
+An IMS may operate at atmospheric pressure or at reduced
+pressure but not under a high vacuum because collisions are
+necessary for its operation. When used in conjunction with a
+mass spectrometer it is possible to place the mobility device
+before the ﬁrst mass analyzer or following one or more stage
+of mass analysis.
+A technique known as ﬁeld asymmetric ion mobility
+spectrometry (FAIMS) is also based on ion mobility, but in
+this case ions are not separated strictly according to their
+mobility. FAIMS, sometimes known as differential mobility
+spectrometry (DMS), is based on the fact that the mobility
+of a gas phase ion is not strictly constant; that is, the drift
+velocity is not simply proportional to the electric ﬁeld, but
+rather at high ﬁeld there is a deviation from the proportional
+relationship. FAIMS uses a combination of an asymmetrical
+high-voltage RF ﬁeld and a smaller DC ﬁeld to separate
+ions according to a combination of low-ﬁeld mobility and
+high-ﬁeld mobility. FAIMS is beginning to ﬁnd applications
+in clinical MS when used as a ﬁltering device positioned
+between the ion source and the mass analyzer.61
+IMS also has been used alone for clinical applications,
+without being combined with MS. Notably, it has been used
+to separate unmodiﬁed lipoproteins on the basis of size using
+a differential mobility analyzer (DMA, not to be confused
+with DMS). The instrument conﬁguration differs from a
+conventional drift tube IMS, but like a drift tube IMS (and
+unlike FAIMS), the physical property being measured is gas
+phase ion mobility. After the separation, each lipoprotein
+particle is directly detected and counted as it exits the separation chamber, and the lipoprotein subfraction categorization is
+made based on the mobility of the particles.62-64
+
+Detectors
+With the exception of ICR-MS, orbitrap, and some ICP-MS
+instruments, most modern mass spectrometers use electron
+multipliers for ion detection. The main classes of electron
+multipliers used as MS detectors include the (1) discrete
+dynode multipliers; (2) continuous dynode electron
+multipliers (CDEMs), also known as channel electron multipliers; and (3) microchannel plate electron multipliers, also
+known as multichannel plate electron multipliers. Although
+different in design, all three work on the same physical principle. Additional types of detectors used in mass spectrometers are the Faraday cup, image current detection, and
+photomultipliers.
+Figure 2.17 presents a conceptual diagram of the operation
+of a discrete dynode electron multiplier. When an ion strikes
+the ﬁrst dynode, it causes the ejection of one or more
+electrons (secondary electrons) from the dynode surface.
+The electron is accelerated toward the second dynode by a
+voltage difference of approximately 100 V. On striking the
+second dynode, this electron causes the ejection of additional
+electrons, typically 2 or 3. The second group of electrons is
+then accelerated toward the third dynode and, on striking
+the third dynode, causes the ejection of several more
+electrons. This process is repeated through a chain of
+dynodes, numbering between 12 and 24 for most designs.
+The cascade process typically produces a gain of 104 to 108,
+
+Ion
+
+Dynodes
+Electron
+cascade
+
+Anode
+
+FIGURE 2.17 Discrete dynode electron multiplier showing
+dynode structure and generation of electron cascade.
+
+meaning that one ion striking the ﬁrst electrode produces a
+pulse of 104 to 108 electrons at the end of the cascade. The
+duration of the pulse is very short, typically less than 10 ns.
+A CDEM works on the same principle as a discrete dynode
+electron multiplier but differs in design. The set of dynodes of
+a discrete dynode electron multiplier is replaced by a single
+continuous resistive surface that acts both as a (continuous)
+voltage divider to establish the potential gradient and as
+the secondary electron-generating surface. A microchannel
+plate electron multiplier is essentially a monolithic array
+of miniaturized CDEMs fabricated in a single wafer or
+disk of glass. Sometimes these are stacked into a chevron
+conﬁguration for added gain.
+The Faraday cup is not an electron-multiplying device, but
+rather a simple electrode that intercepts the ion beam directly.
+This current is ampliﬁed using electronic ampliﬁers. Because
+the Faraday cup measures signal intensity directly, rather than
+indirectly (as in saturation-prone electron multipliers), it
+provides an absolute measure of ion current and is useful
+when the magnitude of the signal is too high for electron
+multiplierebased detection. Some instruments use both
+electron multiplier and Faraday cupebased detection to
+provide extended dynamic rangeda capability that is
+especially useful for elemental analysis of trace and toxic
+elements by ICP-MS.
+Detection in ICR occurs via image current detection. This
+is closely related to the Faraday detection cup in the sense that
+the ion current is detected directly. However, ions are not
+destroyed in the process of image current detection and are
+available for remeasurement. This feature is one of the keys
+to the versatility of ICR mass spectrometers. Image current
+detection is also used in the orbitrap.
+Closely linked to the detection system is the electronic and
+signal processing system. In instruments that use electron
+multiplier detection (the vast majority of mass spectrometers), the raw signal from the detector is processed in
+one of two ways: (1) individual pulses (corresponding to
+individual ions) may be counted, as in ion counting systems,
+or (2) the signal may be converted to a digital representation
+of the analog signal using an analog-to-digital converter, as in
+analog detection.
+
+Computer and Software
+Because of their (1) mass resolution capabilities, (2) scanning
+functions, (3) ability to automatically switch between positive
+
+CHAPTER 2 Mass Spectrometry
+to negative ionization modes, and (4) speed with which multiple
+m/z signals are acquired, modern MS instruments generate
+enormous quantities of raw data. In addition, the use of MS
+in such areas as (1) proteomics, (2) biomarker discovery, (3)
+synthetic combinatorial chemistry, (4) high-throughput drug
+discovery, (5) pharmacogenomics, (6) toxicology, and (7)
+therapeutic drug monitoring requires that MS manufacturers
+provide powerful computers and software.
+In toxicology laboratories, one important function of the
+data system is library searching to assist in compound
+identiﬁcation. Several commercial libraries, including the
+Wiley Registry of Mass Spectral Data; the NIST Mass Spectral
+Database; and the Pﬂeger, Maurer, and Weber drug libraries,
+are available. In addition, many laboratories generate their
+own libraries. The quality and number of available spectra,
+the search algorithm, and whether condensed or full spectra
+are searched are all important factors in spectral matching.
+In proteomics and biomarker discovery, complex mass
+spectra from single proteins, protein mixtures, or protein
+digests corresponding to complex samples are obtained. Data
+systems aid in characterization of spectral data to identify
+such properties as intact protein mass, amino acid subsequences, and posttranslational modiﬁcations. Fragmentation
+information also can be compared with peptide databases to
+identify structural mutations that may be present.
+The most important function of software in MS systems is
+data collection and processing. Chromatographic peaks are
+integrated using data analysis software, and integrated peak
+intensities or peak areas serve as the basis for quantitative
+analysis. Calibration curves are generated during data
+processing, and quantitative results from individual samples
+are generated using the calibration curves; the data systems
+also contain report generation capabilities.
+Deconvolution protocols have been developed that
+identify and characterize the mass spectra corresponding to
+the coeluting peaks. In addition to proprietary deconvolution
+protocols embedded in the data systems of mass spectrometers supplied by some vendors, there is a freely available
+deconvolution software program known as AMDIS.65
+
+CLINICAL APPLICATIONS
+Mass spectrometers coupled with gas or liquid chromatographs (GC-MS or LC-MS) serve as versatile analytical
+instruments that combine the resolving power of a
+chromatograph with the speciﬁcity of a mass spectrometer.66
+Such instruments are powerful analytical tools that are used
+by clinical laboratories to identify and quantify biomolecules.
+The instruments are capable of providing structural and
+quantitative information in real time on individual analytes
+as they elute from a chromatographic column. Speciﬁc
+applications of these coupled instruments can be found in
+Chapters 5 and 6.
+
+Gas ChromatographyeMass Spectrometry
+GC-MS has been used for the analysis of biological samples
+for several decades. This technique is used by the US National
+Institute of Standards and Technology and other agencies for
+the development of deﬁnitive methods to qualify standard
+reference materials and assign accurate concentration to
+reference materials of many clinically relevant analytes,
+
+51
+
+including cholesterol, glucose, steroid hormones, creatinine,
+and urea nitrogen.
+One of the most common applications of GC-MS is drug
+testing for clinical or forensic purposes. Many drugs have
+relatively low molecular weight and nonpolar and/or volatile
+properties, making these compounds particularly suitable for
+analysis by GC. Electron impact ionization with full scan
+mass detection is the most widely used approach for comprehensive drug screening. Unknown compounds can be identiﬁed by matching full mass spectrum of unknown peaks with a
+mass spectral library or a database. In addition, vendors have
+recently introduced GC tandem quadrupole (GC-MS/MS)
+mass spectrometers, which should expand the capability of
+GC-MS to perform improved targeted and untargeted analysis, thus enhancing existing screening and mass spectral
+identiﬁcation capabilities of GC-MS.
+GC-MS has many applications beyond drug testing.
+Numerous xenobiotic compounds are readily analyzed by
+GC-MS. Applications for anabolic steroids, pesticides,
+pollutants, and inborn errors of metabolism have been
+described.67-69
+One important limitation to GC-MS is the requirement
+that compounds be sufﬁciently volatile to allow transfer
+from the liquid phase to the mobile carrier gas and thus to
+elute from the analytical column to the detector. Although
+many biologic compounds are amenable to chromatographic
+separation with GC, numerous other compounds are too
+polar or too large to be analyzed with this technique. In
+many cases, chemical derivatization is necessary to create
+sufﬁciently volatile forms of compounds. Knapp’s classic
+work on derivatization70 may be consulted for more
+information.
+Despite its limitations, GC-MS has several positive attributes.
+High-efﬁciency separations have been achieved with numerous
+commercial capillary columns. This technique allows achieving
+high-efﬁciency chromatographic separation and excellent
+limits of quantiﬁcation, and it allows use of commercial
+mass spectral libraries for identiﬁcation of sample constituents. For some of the analytes, such as organic acids, GCMS has advantages of higher speciﬁcity compared to soft
+ionization techniques used in LC-MS.
+
+Liquid ChromatographyeMass Spectrometry
+As discussed earlier, several interface techniques have been
+developed for coupling a liquid chromatograph to a mass
+spectrometer, notably ESI and APCI, which have allowed
+LC-MS and LC-MS/MS to be successfully applied to analysis
+of a wide range of compounds. In theory, as long as a
+compound can be dissolved in a liquid, it can be introduced
+into an LC-MS system. Thus, in addition to low molecular
+weight polar and nonpolar analytes, large molecular weight
+compounds, such as proteins, can be analyzed using this
+technique (see Chapter 6).
+LC-MS/MS has gained momentum in the arena of
+toxicology screening and conﬁrmation.71-73 A majority of
+the currently used methods for targeted analysis use MRM
+acquisition using mass transitions corresponding to drugs
+of interest (see Fig. 2.16, A). For example, within the
+chromatographic time window of 1.0 to 2.0 minutes, the
+MRM transitions for selected sympathomimetic amines
+might be monitored. During the next deﬁned time window,
+
+52
+
+Principles and Applications of Clinical Mass Spectrometry
+
+a new set of MRM transitions are monitored and so on for the
+rest of the chromatographic run. A related approach is the use
+of targeted MRM, in which recognition of a chromatographic
+peak containing a preselected MRM transition triggers a
+product ion scan in a process called information-dependent
+acquisition, also known as data-dependent acquisition. One
+beneﬁt of this approach is the ability to provide conﬁrmation
+of the identity of the peaks identiﬁed during the analysis.
+Coupling of TOF-MS to GC or LC provides a new
+approach to the identiﬁcation of unknowns.46,74 Because
+TOF is capable of achieving high mass resolution and high
+sensitivity, the need for compound fragmentation may be
+minimized, allowing compound identiﬁcation based on
+retention time and accurate mass.75
+The number of quantitative LC-MS/MS assays introduced
+for the measurement of clinically important compounds has
+markedly increased. For example, a few compounds that have
+been of special interest include (1) immunosuppressant
+drugs,76 (2) biogenic amines,77 (3) 25(OH)-vitamin D,78
+(4) antiretroviral drugs,79,80 (5) psychoactive drugs,81-83 (6)
+methylmalonic acid,84,85 (7) thyroid hormones,86 and (8)
+steroids.87,88 When quantiﬁcation of a speciﬁc compound is
+desired, the most effective approach is MRM analysis (see
+Fig. 2.16, B). With MRM acquisition, both mass ﬁlters MF1
+and MF2 are set in a static mode, whereby only precursor
+ions speciﬁc for the compound and the internal standard
+being measured are passed through MF1. This preselected
+precursor ion is then fragmented in the collision cell, and
+molecule-speciﬁc fragment ions derived from the compound
+of interest are passed by MF2 to the detector. Because only
+one ion is monitored in MF1 and typically two moleculespeciﬁc fragment ions monitored in MF2, as opposed to
+scanning for multiple ions, the MRM approach allows
+much greater speciﬁcity as well as lower limits of
+quantiﬁcation.
+Another area in which MS/MS is used clinically is
+screening and conﬁrmation of genetic disorders and inborn
+errors of metabolism.89,90 The ability to analyze multiple
+compounds in a single analytical run makes this technique
+an efﬁcient tool for screening purposes. In this application,
+in some cases MS/MS is of sufﬁcient selectivity to eliminate
+the need to incorporate LC separation, a simpliﬁcation that
+allows high-throughput analysis.
+Electrospray-MS/MS is also used for carnitine and
+acylcarnitine analysis to detect organic acidemias and fatty
+acid oxidation defects.91,92 In the methods for acylcarnitine
+and amino acid analysis, these compounds vary widely in
+their polarity, which creates problems with consistency of
+response factors. To address this issue, most methods use a
+butyl ester derivatization of the carboxyl group to force
+cationic character on the amino acids and thus enhance the
+ionization efﬁciency.93
+Acylcarnitines can be analyzed without derivatization,94
+but most often are analyzed as butyl esters using a precursor
+ion scan mode of acquisition (see Fig. 2.16, C).95,96 This
+type of acquisition makes use of the fact that acylcarnitines
+have a common collision-induced m/z 85 product ion
+(represented by X in Fig. 2.16, C) that is selectively monitored
+in MF2. MF1 is set to scan for precursors with m/z 85, thus
+detecting and identifying acylcarnitines present in the sample
+(see Fig. 2.16, C). By incorporating in the method stable
+isotope-labeled analogs of the targeted acetylcarnitines,
+
+it is possible in addition to identiﬁcation, to establish
+concentration of the acylcarnitines of interest.
+Analysis of amino acids by LC-MS/MS is typically
+performed using traditional MRM monitoring but also can
+be performed using a data acquisition mode known as
+constant neutral loss (see Fig. 2.16, D).88 Butyl derivatives of
+a-amino acids share a common neutral product, butylformate,
+which has a mass of 102 Da (represented by X in Fig. 2.16, D).
+By scanning for both product (MF2) and precursor (MF1)
+ions, and by keeping a constant offset between the two mass
+m/z analyzers (eg, a difference of 102 m/z units), any m/z
+differences that equal 102 Da can be used to detect and identify
+amino acids present in the samples.
+One advantage of LC-MS/MS relative to GC-MS is that in
+many cases it allows avoidance of derivatization of the target
+compounds, but in some cases derivatization is useful for
+LC-MS/MS as well. An example of butyl ester derivatization
+was discussed previously. In this example, the derivative has
+more favorable fragmentation properties than the underivatized compounds. Similarly, the dibutyl ester of methylmalonic acid (MMA), when run in positive ion mode ESI, has
+more favorable MS/MS spectra than the underivatized
+compound run in negative ion mode ESI; in addition, the
+dibutyl esters of dicarboxylic acids are selectively ionized in
+positive ion mode ESI, whereas monocarboxylic organic acids
+are not efﬁciently ionized and are therefore not detected by
+the mass spectrometer.84 By using MMA extraction at
+conditions speciﬁc for acidic compounds and detection
+speciﬁc for polycarboxylic acids, it is possible to perform
+the LC-MS/MS analysis using isocratic chromatographic
+separation without the need for reconditioning and reequilibration of the chromatographic column between injections.84
+The most frequent reason for using derivatization in LCMS and LC-MS/MS is to achieve improved ionization
+efﬁciency. Gao and colleagues97 have emphasized this issue
+in an extensive discussion of derivatization in ESI and
+APCI MS.
+Product ion scan is another mode of acquisition using MS/
+MS; in this scan mode, the ﬁrst mass ﬁlter is ﬁxed to pass a
+speciﬁc m/z and the second mass ﬁlter is scanned over a
+speciﬁed range of m/z values. Product ion scan mode is
+very useful for structural elucidation, such as in peptide
+sequencing, but is less useful for routine quantitative analysis.
+
+Matrix-Assisted Laser Desorption Ionization Mass
+Spectrometry
+MALDI (typically coupled with a TOF analyzer) has been
+used to analyze many different classes of compounds.
+Notably, it has been widely applied in discovery applications for the detection and identiﬁcation of proteins and
+peptides (see Chapter 6). Primary limitations include
+high background noise and a higher coefﬁcient of variation
+that seems inherent in the MALDI ionization process. In
+addition, MALDI is essentially a batch-type process that
+does not interface naturally with online separation processes using chromatographic techniques (eg, HPLC, capillary electrophoresis).
+MALDI-TOF is often used to determine the identity of
+proteins through peptide mass ﬁngerprinting. This technique
+has been used to identify a large number of two-dimensional
+(2D) gel spots for the bacterial pathogen Pseudomonas
+
+CHAPTER 2 Mass Spectrometry
+Spec #1⇒BC[BP ⫽ 2139.0, 23588]
+2109.0288
+
+24E⫹4
+
+1130.5045
+2315.0525
+1272.6083
+951.4523
+1002.5003
+873.3013
+
+1585.5718
+1854.8123
+
+2006.0060
+2380.0219
+2154.9903
+2332.0246
+
+2187.6
+
+1824.7935
+1871.6569
+
+1956.2
+
+1524.8
+
+1193.4
+
+1588.6681
+
+2519.0
+
+1606.8390
+
+1303.7149
+1033.5130
+1159.5825
+1005.5340
+
+862.0
+
+% Intensity
+
+100
+90
+80
+70
+60
+50
+40
+30
+20
+10
+
+Mass (m/z)
+
+FIGURE 2.18 Example of a matrix-assisted laser desorption
+ionizationetime-of-ﬂight spectrum showing peptides generated
+in a tryptic digest of a spot cored from a two-dimensional
+sodium dodecyl sulfate polyacrylamide gel electrophoresis. The
+16 most abundant m/z values were submitted to the MS-Fit
+database for searching against the nonredundant database. The
+results for this search are shown in Table 2.1.
+
+aeruginosa.98 The procedure generally involves in-gel tryptic
+digestion followed by accurate mass measurement of the
+peptides produced during the digestion. The generated
+mass list is then compared with theoretical tryptic masses
+for proteins in a database (Fig. 2.18 and Table 2.1). This
+procedure, which works best for organisms with complete
+
+53
+
+and annotated genomes, is very rapid because 100 or more
+samples may be deposited on a single MALDI target plate
+and automatically processed. In the previous example,98 the
+group rapidly identiﬁed a large number of proteins that
+were expressed differently among the studied bacteria. In
+addition, it was found that some proteins were listed as
+“hypothetical,” meaning they were previously undescribed
+or conﬁrmed to be expressed, and that the theoretical
+molecular weight and/or isoelectric point (pI) in some cases
+were different from those measured in the gel, indicating
+possible loss of terminal amino acids and/or posttranslational
+modiﬁcations.
+One clinical application of MALDI-TOF that has proved
+its clinical utility is identiﬁcation of microorganisms
+(discussed in more depth in Chapter 4). Identiﬁcation of
+the bacteria is performed by ﬁngerprinting proteins and
+peptides extracted from cultures using gentle conditions.99
+The basis of this technique is that different bacteria express
+unique mixtures of proteins and peptides; when samples are
+analyzed using MALDI-TOF, the bacteria-speciﬁc mass
+spectra are observed in the 2- to 20-kDa mass range,
+allowing database searching and classiﬁcation based on the
+protein mass ﬁngerprint. One of the disadvantages99 of the
+technique is the lack of actual protein information and
+the relative lack of speciﬁcity to different strains of the
+same bacteria. The protein mass ﬁngerprints must be catalogued (entered in mass spectral library) for each bacterium
+and validated to be speciﬁc and reproducible for a given
+extraction method.
+
+TABLE 2.1 Example of Printout of Bacterial Identiﬁcation Through Peptide Mass
+Fingerprinting Using Matrix-Assisted Laser Desorption Ionization MALDI-Time of Flight*
+
+Rank
+
+Mowse
+Score
+
+1
+
+1.07eþ008
+
+m/z
+Submitted
+870.4746
+873.3981
+951.4901
+1002.5385
+1033.5513
+1130.6349
+1130.6349
+1159.6039
+1272.6508
+1303.7573
+1585.7190
+1606.8861
+2138.0756
+2315.1093
+2388.0671
+
+MHþ
+Matched
+870.4797
+873.3929
+951.4900
+1002.5373
+1033.5543
+1130.6322
+1130.6322
+1159.6071
+1272.6483
+1303.7599
+1585.7215
+1606.9029
+2138.0704
+2315.0951
+2388.0731
+
+# (%)
+Masses
+Matched
+
+Protein
+Mw
+(Da)/pI
+
+Species
+
+NCBInr.81602
+Accession #
+
+Protein Name
+
+14/16
+101754.9/ Saccharomyces 6321275
+(Z72685) ORF
+(87%)
+9.15
+cerevisiae
+YGL163c
+1. 14/16 matches (87%). 101754.9 Da, pI ¼ 9.15. Acc. #6321275. Saccharomyces cerevisiae. (Z72685) ORF YGL163c.
+Delta ppm
+5.8732
+5.9793
+0.1050
+1.2224
+2.8793
+2.4037
+2.4037
+2.7957
+1.9865
+1.9457
+1.5602
+10.4650
+2.4250
+6.1321
+2.5004
+
+Start
+598
+774
+814
+515
+46
+120
+514
+56
+734
+270
+446
+22
+747
+401
+293
+
+End
+606
+779
+821
+522
+55
+128
+522
+67
+746
+280
+459
+35
+765
+423
+313
+
+Peptide Sequence
+(Click for Fragment Ions)
+(K) GVGGSQPLR(A)
+(K) DCFIYR(F)
+(R) LFSSDNLR(Q)
+(K) NFENPILR(G)
+(K) NTHIPPAAGR(I)
+(R) LSHIQYTLR(R)
+(R) KNFENPILR(G)
+(R) IATGSDNIVGGR(S)
+(K) AGGCGINLIGANR(L)
+(K) ILRPHQVEGVR(F)
+(K) NCNVGLMLADEGHR(L)
+(R) LVPRPINVQDSVNR(L)
+(R) LILMDPDWNPAADQQALAR(V)
+(K) SSMGGGNTTVSQAIHAWAQAQGR(N)
+(K) DYLEAEAFNTSSEDPLKSDEK(A)
+
+Modiﬁcations
+
+C2H2O2
+
+C2H2O2
+C2H2O2
+
+MHþ, Ion formed by attachment of a proton to molecule M; MOWSE, MOlecular Weight SEarch method; MW, molecular weight; m/z,
+mass-to-charge ratio
+*
+A generated mass list is compared with theoretical tryptic masses for proteins in a database. Match quality is used for pathogen identiﬁcation.
+
+54
+
+Principles and Applications of Clinical Mass Spectrometry
+
+Some of these drawbacks were addressed in a MALDI
+technique that targets ribosomal proteins.100 This technique
+was evaluated using 1116 isolates collected in a routine
+clinical microbiology laboratory and was described as being
+fast, reliable, and easy to use. More than 95% of clinical
+isolates were correctly identiﬁed, and most of the previously
+incorrectly identiﬁed isolates were assigned to the correct
+genus or a closely related genus. Bacterial identiﬁcation
+by MALDI MS is rapidly becoming a routine method in
+microbiology laboratories.
+MALDI MS has the reputation of being a nonquantitative
+technique. However, some progress has been made toward its
+use as a quantitative technique.101 If this application becomes
+routine, it could have major beneﬁts for clinical MS because
+the time to acquire a mass spectrum by MALDI is only a few
+seconds. This could dramatically improve throughput.
+However, it seems likely that this application will require
+off-line separation (or sample fractionation) before loading
+on the MALDI target, to obtain sufﬁcient selectivity necessary
+for clinical applications.
+
+Inductively Coupled Plasma Mass Spectrometry
+ICP-MS is used for the determination of trace and toxic
+elements in many types of samples (see references 10, 102,
+and 103). However, it is known that the toxicity of an element
+may depend on the organic or inorganic state in which the
+element is present. In these cases, it is more important to
+ascertain the concentrations of toxic species rather than the
+total concentration of the element. To extend the usefulness
+of this technique, GC and HPLC systems have been coupled
+to ICP-MS to separate different compounds containing the
+targeted element before ICP-MS analysis.104
+
+Proteomics, Genomics, and Metabolomics
+The past 20þ years have seen tremendous progress in
+genomics, with hundreds of genomes completed or near
+completion and many now parsed and annotated. This
+information is highly complex, mainly because of the myriad
+changes that occur to proteins produced from the genome
+throughout the life cycle of a cell, but potentially will provide
+a better understanding of the cellular functions and allow
+discovery of novel disease biomarkers.105 In the mid-1990s,
+MS came to the forefront of analytical techniques used to
+study proteins, and the term proteomics was coined. Although
+the deﬁnition of proteomics is still debated, for the present
+discussion it is taken to encompass knowledge of the
+structure, function, and expression of all proteins in the
+biochemical or biological contexts of all organism.106 In a
+more basic and practical sense, proteomics refers to the
+identiﬁcation and quantiﬁcation of proteins and their
+posttranslational modiﬁcations in a given system or systems.
+Proteome analysis is a powerful tool for investigating (1)
+biomarkers of disease, (2) antigens of pathogens, (3) drug
+target proteins, and (4) posttranslational modiﬁcations, as
+well as for other investigations. This is a challenging task in
+that a given gene may have many distinct chemical protein
+isoforms. In addition, many other molecules (metals, lipids,
+etc.) interact with proteins in a noncovalent fashion. Therefore in a genome, such as the human genome, a repertoire
+of more than a million proteins may require identiﬁcation
+and quantiﬁcation. Two foundations are necessary to begin
+
+this daunting challenge. The ﬁrst is the basic sequence
+expected for each possible protein in a cell (ie, information
+from a completed genome). The second is instrumentation,
+which currently consists of advanced mass spectrometers
+that identify and quantify protein isoforms in an automated
+fashion at very low limits of detection. Both foundations
+are now essentially in place. However, the goals previously
+stated are far from being reached, and considerable advances
+will need to be made in the ﬁeld of systems biology for better
+understanding of the biological systems.
+Currently, MS is routinely used to accomplish many tasks
+in proteomics. The most basic task is protein identiﬁcation.
+The typical approach is known as the bottom-up method,
+whereby proteins are separateddby gel electrophoresis or
+by solution-based methodsdand then digested. The resulting
+enzymatic fragments are analyzed and used to identify the
+protein(s) present. This process is time-consuming and has
+many pitfalls. Increasingly, much research has been devoted
+to analysis of mixtures of proteins. These mixtures are
+derived from biological ﬂuids, cellular compartments, tissue,
+or immunoprecipitation. Currently, both instrumentation
+and data analysis software are not sufﬁciently advanced to
+allow unambiguous identiﬁcation of all the proteins in highly
+complex biological samples. As a result, much emphasis has
+been placed on separation methods and enrichment techniques for preparing samples for analysis of proteins and
+peptides.
+Another approach that was shown to enable sequencing of
+intact proteins and posttranslational modiﬁcations is known
+as the top-down method. Top-down proteomics involves
+identiﬁcation of proteins in complex mixtures without prior
+digestion of proteins into peptides. Approaches used for
+protein top-down characterization include extraction of the
+proteins from samples, fractionation and analysis of the
+samples using high-resolution accurate mass MS/MS with
+CID, higher energy collision dissociation, and electrontransfer dissociation fragmentation. Main beneﬁts of the
+top-down analysis are in the ability to detect in the samples
+proteins containing posttranslational modiﬁcations and their
+sequence variants.
+Many research groups have introduced methods allowing
+handling of highly complex biological samples. The most
+popular approaches include subcellular fractionation,
+multidimensional chromatography, afﬁnity enrichment,
+and multiplexing. By combining these approaches, several
+thousand protein species can be identiﬁed routinely.
+Obviously these numbers are better than those obtained
+through bottom-up methods from gels, but they still fall far
+short of those necessary for complete understanding of
+biological systems.
+The term proteomics is often used in the context of
+biomarker discovery. To date, very few markers have been
+discovered using proteomics methods that have migrated to
+the clinical laboratory. Some of the reasons for the dearth
+of new protein biomarkers have recently been discussed.107
+From a broader view, however, proteomics also may include
+the application of MS for the analysis of known protein and
+peptide biomarkers. For example, mass spectrometric
+methods for the analysis of carbohydrate-deﬁcient transferrin
+have been developed, including a reference method108 and a
+method for routine patient testing. Additional areas of
+
+CHAPTER 2 Mass Spectrometry
+application of MS include analysis of the proteome of the
+pathogenic mold Aspergillus fumigatus with the aim of
+identifying vaccine candidates and new allergens.109
+Analysis of thyroglobulin, a widely used marker of the
+recurrence of thyroid cancer, has been described by several
+groups.110-112 The initial digestion of the thyroglobulin by
+trypsin also digests and therefore removes autoantibodies
+which cause interference in immunoassays. Currently assays
+based on the above principle are offered in several
+commercial laboratories and represents substantial progress
+in the application of MS for routine analysis of proteins as
+well as providing important information to treating physicians.
+Promising proof-of-principle research has been performed
+on the characterization of hemoglobinopathies by MS.113,114
+Most methods for hemoglobin analysis use MS to detect separate hemoglobin chains or peptide products from enzymatic
+digests of hemoglobin. However, as shown by Rockwood and
+coworkers,115 and shortly thereafter by Ganem and associates,116,117 the retention of higher order structure, such as
+noncovalent complexes, is possible when ions are transferred
+from solution to gas phase, and hemoglobin tetramers have
+been observed by MS.118 Another hemoglobin application,
+a reference method for hemoglobin A1c using MS, has been
+approved by the International Federation of Clinical Chemistry and Laboratory Medicine.119 LC-MS methods for
+quantitative analysis of hepcidin, a peptide hormone believed
+to be a master regulator of iron status, have been published.120-122
+Genetic applications for clinical MS are beginning to
+emerge. For example, MALDI-TOF has been used for
+mutation detection in myeloproliferative disorders,123 DNA
+methylation analysis,124,125 and gene expression analysis.126
+A promising genomic approach for pathogen identiﬁcation uses polymerase chain reaction ampliﬁcation of selected
+regions of a pathogen genome, followed by accurate mass
+measurement using ESI-TOF-MS. From the accurate mass
+information, a DNA base composition is computed, and
+the results are matched to pathogen DNA base compositions
+in a database.127,128
+A burgeoning area in which MS plays a role is the
+emerging ﬁeld of metabolomics. This scientiﬁc area involves
+the investigation and characterization of small molecules,
+including intermediates and products of metabolism, present
+in biological ﬂuids under different conditions that include (1)
+normal homeostasis, (2) disease states, (3) stress, (4) dietary
+modiﬁcation, (5) treatment protocols, and (6) aging. In a
+fashion similar to a mass spectrum providing a ﬁngerprint
+signature for a speciﬁc molecule, it has been speculated that
+compounds identiﬁed and evaluated in metabolomic studies
+may provide a ﬁngerprint signature for different physiologic
+states.
+In practice, metabolites are identiﬁed through comparison
+with (1) known reference materials, (2) commercial or
+in-house developed mass spectral libraries or metabolite
+databases, (3) interpretation of mass spectra, or (4) ancillary
+techniques such as nuclear magnetic resonance. As with other
+applications of MS, both GC-MS and LC-MS have a place
+in such studies. GC-MS has some potential advantages
+that were described earlier. To use GC-MS, however, the metabolites in the sample must be volatile, or derivatization
+
+55
+
+needs to be used to enhance detectability of a larger number
+of compounds.
+LC-MS has its own usefulness in metabolomics because it
+has potentially wider applicability to polar and nonpolar
+compounds and allows the observation of the molecular or
+pseudomolecular ions. However, because reference materials
+or isotope-labeled internal reference materials do not exist for
+validating ionization efﬁciencies or recoveries for some of
+the biologically relevant compounds, the effects of ion
+suppression (discussed later) remain a potential confounding
+factor. Compared with proteomic research, metabolomics
+faces the added difﬁculties in that the MS/MS spectra are
+more difﬁcult to interpret, scarce information is available in
+the MS/MS libraries, and DNA and protein sequence
+databases are of no use in interpreting the results.
+Mass spectral imaging of tissue sections is another emerging
+technology that has potential for clinical applications and
+holds a great promise. The most common approach is to apply
+MALDI MS to image tissue sections.129,130 A mass spectrum is
+acquired at each spot on a regularly spaced array across the
+sample. From these data, an image is constructed for each
+m/z. The images provide a spatial map of chemical composition (peptides or small molecules) from the sample. Another
+approach uses laser ablation, followed by ICP-MS, to provide
+a spatial map of the inorganic elemental composition of the
+sample.131 This technique can be extended to immunohistochemical imaging by using metal-labeled antibodies.132 With
+this scheme, it is possible to use different labels on different antibodies to do multiplexed imaging of several different targets
+on the same sample. However, it should be noted that at the
+present time mass spectral imaging is an extremely timeconsuming process because the beam has to be rastered across
+the tissue by the laser many thousands of times and very large
+amounts of data need to be processed and analyzed. At this
+time this is mainly a research technique that is not used in
+routine diagnostic laboratories.
+
+Practical Aspects of Mass Spectrometry: Logistics,
+Operations, and Quality
+In many respects, the logistics, operations, quality control,
+and quality assurance processes for clinical MS laboratories
+follow the well-established clinical laboratory standards
+and guidelines. However, mass spectrometers are complex
+instruments and most manufacturers of instrumentation
+are still learning how to best support their clients in clinical
+laboratories. Consequently, the adoption of MS, and
+especially the more complex technologies such as LC-MS/
+MS, places added demands on training, competency, and
+manufacturers’ support beyond those of more familiar and
+well-established technologies used in clinical laboratories.
+In contrast to techniques such as optical spectrophotometry, mass spectrometers tend to require more frequent
+troubleshooting, tuning, calibration, and optimization, and
+the laboratory inspection checklist of the College of American
+Pathologists speciﬁes that mass spectrometer performance
+should be veriﬁed daily.133 In addition, the frequency
+of calibrations and optimizations needed to maintain
+instruments in ﬁt-for-purpose condition will vary, depending
+
+56
+
+Principles and Applications of Clinical Mass Spectrometry
+
+on the requirements of the assays being performed, the
+instrumentation used, and other factors.
+The term calibration in relation to MS is used in at least
+two distinct ways. The ﬁrst is calibration of the m/z scale of
+the instrument, usually referred to as mass calibration. The
+other is calibration for quantitative analysis.
+Schedules for mass calibration vary among laboratories,
+types of instruments used, and types of assays being run.
+For example, if accurate mass measurements are an
+important part of a method, as with many assays that employ
+TOF-MS, then very frequent mass calibration is typically
+required. In some cases, internal mass reference materials
+are included within each run, or even within each sample.
+For applications that are less dependent on mass accuracy,
+such as most quantitative methods performed on quadruple
+mass analyzers, mass calibration may be performed less
+frequently. For example, mass calibration may be performed
+every few weeks, with veriﬁcation of mass calibration
+performed more frequentlydas often as daily in some
+laboratories.
+Similarly, based on validation results obtained in individual
+laboratories, schedules for calibration for quantitative analysis
+may vary. For example, some laboratories calibrate an assay
+daily, whereas others calibrate with every run.
+One advantage of MS is that most methods in the MS
+laboratories avoid the use of highly specialized reagents
+such as commercial kits of reagents and antibodies.
+Consumables are mostly generic items, such as solvents,
+chromatographic columns, and sample vials or 96-well plates.
+This tends to buffer the laboratory from supply disruptions of
+specialized reagents, and in some cases can decrease consumable costs as well. However, consumables must be carefully
+selected and monitored for quality, because contaminated
+reagents and supplies may negatively affect performance of
+the methods; this problem is far too common. Solvent quality
+is of particular concern. For example, one study documented
+wide variations in methanol quality from different suppliers,
+which can lead to large differences in ionization efﬁciency
+and cause interferences in the analysis.134
+Whenever possible, a quantitative method should use
+isotopically labeled internal standards, which typically differ
+from the analyte of interest by substitution of monoisotopic
+ions with isotope labels (typically deuterium, 13C, or 15N).
+However, it is not always possible to obtain isotopically labeled
+versions of each target analyte, in which case a closely related
+chemical analog should be selected as an internal standard.
+MS provides several opportunities for enhancing analytical
+quality and therefore improving patient care. The high degree
+of selectivity of MS, particularly when included as a part of
+hyphenated techniques (GC-MS, LC-MS, LC-MS/MS, etc.)
+reduces the likelihood of interference compared with
+immunoassays or separation-based techniques (GC or LC)
+using nonspeciﬁc detection, particularly for small molecule
+analysis, where cross-reactivity is a concern.135 Perhaps as
+important as a high degree of selectivity, MS provides a means
+to detect the presence of interferences when they occur. With
+methods that produce fragmentation, in the ion source (as in
+EI) or in a collision cell (as in MS/MS), fragment ions are
+produced with reproducible relative intensity (compared to
+the base peak). By monitoring one or more ratios of the
+ion fragments, and by comparing these ratios to ratios
+
+obtained from authentic reference materials measured in
+the same run, it is possible to detect the presence of
+interfering compounds on a sample-by-sample basis.136
+In addition, accurate mass measurements are useful for
+detecting interferences if one is using an instrument capable
+of such measurements, such as a TOF mass spectrometer. To
+illustrate, the accurate mass of protonated cortisol
+(C21H31Oþ
+5 ) is 363.2166 Da, whereas the accurate mass of
+one of the isotope peaks of protonated molecule of the
+drug fenoﬁbrate (C20H22ClOþ
+4 ) is 363.1180 Dada difference
+of 271 ppm. Therefore an interference of even a few percent
+by fenoﬁbrate (drug used for treating patients with high
+cholesterol and high triglycerides) in a cortisol analysis would
+be detectable as a shift in mass of the observed peak on an
+instrument capable of low single-digit parts per million
+mass accuracy.137
+Obviously, detection of interferences by accurate mass
+measurement alone becomes more difﬁcult as the mass of
+the interfering compound approaches that of the target
+compound, but given the ability to detect interferences at a
+z 20% level or better, and assuming a mass spectrometer
+of z 3 ppm mass accuracy, a reasonable estimate is that
+interferences could be detected for all compounds with
+jDm/zj greater than 30 ppm relative to the target compound.
+Given the cortisol example discussed earlier, 22 chemical
+formulas for ions are within 30 ppm of the mass of protonated cortisol, provided we limit our list to the composition
+constraints listed earlier. Interferences from these would be
+difﬁcult or impossible to detect by mass measurement alone.
+Thus accurate mass would likely detect the majority of
+possible interferences, but some of the potentially interfering
+compounds would be difﬁcult or impossible to detect.
+
+OPTIMIZATION OF INSTRUMENT CONDITIONS
+When developing an MS-based method there are many
+parameters to optimize. This applies to both the mass
+spectrometer and the separation method.
+
+Selection of Mass Transitions and Operating
+Conditions
+MRM is the most commonly used type of acquisition in
+LC-MS/MS methods for targeted analysis. MRM-based
+methods allow sensitive and speciﬁc quantitation of analytes
+in samples with complex matrices. Typical MRM chromatograms contain one peak or a few peaks, which are easy to
+integrate, particularly if the sample preparation has been
+well designed.
+When developing MRM methods, it is useful to start with
+identifying all analyte-speciﬁc mass transitions. The typical
+approach for selection and optimization of mass transitions
+is through infusion of solution of pure standard of the
+targeted compound using syringe pump. During the infusion,
+the signal can be optimized by adjusting the ion source
+conditions, declustering potential, the ion transmission
+conditions, and collisional fragmentation. When ions are
+transported from atmospheric pressure to the vacuum
+region, they typically exist in the form of clusters. Application
+of the declustering potential during the ion focusing causes
+low-energy collisions, which lead to declustering of the ions.
+
+CHAPTER 2 Mass Spectrometry
+The MRM experiments are set by specifying m/z of the
+precursor ion (typically the molecular ion) of the targeted
+molecule and the m/z of the molecule-speciﬁc fragments,
+produced by fragmentation in the collision cell. While
+developing a method, it is important to carefully assess which
+mass transitions to be used in the method. The best sensitivity
+and speciﬁcity are typically achieved using high-intensity
+unique fragment ions, which have minimal background
+noise and no interfering peaks coeluting with the analyte of
+interest. Use of fragment ions corresponding to the loss of
+water, ammonia, carbonyl (CO), and CO2 groups generally
+should be avoided because they result in nonspeciﬁc mass
+transitions.
+The optimal values of the voltages needed for declustering
+the molecular ion and the ion transmission are established
+by scanning the voltages and ﬁnding the apex values that
+correspond to the maximum signal intensity. Optimization
+of the collision energy (CE) is accomplished by scanning
+the CE used for fragmentation of the molecular ion, and
+plotting the abundances as a function of CE produces a
+proﬁle, called a breakdown curve (Fig. 2.19).
+In the majority of cases, the voltage corresponding to the
+apex is selected for use in the method. At this value of the CE
+there is maximum signal intensity. A second advantage of
+operating at the apex is that slight ﬂuctuations in the
+instrument conditions do not result in large changes in
+the signal intensity, so the acquired signal is more stable.
+However, on some occasions, when unresolved chromatographic peaks could interfere with the analysis, it is beneﬁcial
+to select CE on the leading slope or the trailing slope of the
+breakdown curve (more commonly on the leading slope) to
+improve speciﬁcity of analysis by avoiding fragmentation of
+the substance that potentially interferes with target analyte.
+This can be useful in cases in which the breakdown
+curve of an MS/MS transition of a potentially interfering
+compound partially overlaps that of the target compound.
+In such cases, by operating on the slope of the breakdown
+curve of the selected MS/MS transition of the target
+compound it may be possible to more strongly discriminate
+from the interfering substances.
+In addition to evaluating breakdown curves, CE should
+be selected with the following principles in mind. If the CE
+is too low, ion fragmentation will be inefﬁcient, and the signal
+
+abundance will be low. If the CE is too high, fragmentation
+can become too extensive; the number of peaks in the
+product ion spectrum may increase intensity of the peaks
+that are selective to the product ion of interest may have
+insufﬁcient intensity to be useful, and the possibility of
+interfering peaks from coeluting isobars may increase.
+Depending on the type of ionization source used,
+ionizability of molecules is inﬂuenced by their volatility,
+pKa, proton afﬁnity, electronegativity, hydrophilicity/hydrophobicity, surfactant properties, solution pH, ionization
+energy, electron collision cross-section, etc. Of the ionization
+methods most commonly used in the MS applications in
+clinical laboratories, ESI is typically used for analysis of polar
+and ionizable molecules and APCI and APPI are used for
+nonpolar molecules. When a new method is being developed,
+available ionization techniques and polarity modes should be
+evaluated to assess effect of the conditions on the signal
+response and speciﬁcity of the detection.
+The electrospray voltage and ion source conditions have a
+great effect on the ionization efﬁciency; the optimal voltage depends on the molecular structure, mobile phase composition,
+and ﬂow rate. At higher electrospray voltages, greater ﬂuctuation in the ionization efﬁciency can be observed and a larger
+number of impurities present in the sample may get ionized,
+potentially causing the loss of speciﬁcity and poor reproducibility. Therefore the lowest voltage resulting in an adequate
+sensitivity for the analyte is typically preferred. In general
+terms, there tends to be a threshold voltage, below which
+ionization is very inefﬁcient; if the ESI voltage is too high,
+corona discharge or other undesirable effects may occur.
+
+Online Two-Dimensional Separations
+Two-dimensional chromatographic separation is a technique
+in which separation is performed using two HPLC columns
+with phases having different selectivity. The chromatographic
+columns are connected to each other through a switching
+valve, the sample is injected in the ﬁrst column, and efﬂuent
+of the column is directed to waste. At the time when the
+targeted peak is eluted from the the ﬁrst column, the efﬂuent
+is redirected into the second column, then during the column
+reconditioning and equilibration the switching valve is
+turned back to the original position. Using this approach,
+chromatographic columns with complementary (orthogonal
+
+a
+
+Intensity, cps
+
+7.5e4
+d
+
+b
+5.0e4
+
+2.5e4
+
+c
+e
+
+10
+
+20
+
+30
+
+40
+
+50
+
+57
+
+60
+70
+CE, Volts
+
+80
+
+90
+
+100
+
+110
+
+120
+
+FIGURE 2.19 Breakdown curves for collision energy scans of cortisol. Curves correspond to mass transitions: adm/z 363
+/ 345, bdm/z 363 / 327, cdm/z 363 / 171, ddm/z 363 / 121, edm/z 363 / 97. cps, Counts per second; CE,
+collision energy.
+
+58
+
+Principles and Applications of Clinical Mass Spectrometry
+
+or partially orthogonal) selectivity are typically used, so that
+peaks that are poorly resolved or unresolved by the ﬁrst
+column would get separated on the second column.
+In addition to the use of different stationary phases with
+complementary retention mechanisms, the selectivity may
+be modiﬁed through selection of the optimum for each
+separation mobile phase and temperature. Some advantages
+of well-designed 2D separations may include greater resolving
+power, faster analysis time (while the separation takes place on
+one column, the other column could be conditioned and
+reequilibrated), reduced contamination of the mass analyzer
+(major fraction of the efﬂuent from the ﬁrst column is directed
+to waste and not transferred into the second column), and
+ability to use for the second separation a mobile phase that
+is favorable for the optimal ionization efﬁciency. Various
+coupling strategies have been developed for the switching valve
+conﬁguration and the peak transfer from the ﬁrst to the
+second column; the choice of the speciﬁc strategy is methoddependent and would affect the robustness of the assay.
+Two-dimensional separations are more difﬁcult to develop
+and troubleshoot, but in many cases the beneﬁts in the
+methods’ performance overweigh the drawbacks.
+
+Conventional Versus Microﬂow Separations
+As more LC-MS methods are developed, greater sensitivity
+and reduced sample volume are often required. This is
+especially true for analysis of novel biomarkers. Other trends
+in modern analytical laboratories are aimed at reducing the
+volume of solvents used, the cost of the used mobile phase
+disposal, and the costs of labor. The beneﬁts of microﬂow
+separations in LC-MS analysis have been widely reported138;
+they include a higher sensitivity, greater efﬁciency of ion
+sampling, reduced solvent consumption and waste, and
+reduced contamination of the ion source. Despite the
+advantages, there are relatively few micro-ﬂow based
+LC-MS methods currently used in routine laboratories. The
+main reasons are related to the fact that these separations
+historically were insufﬁciently rugged, required greater
+technical expertise of the staff, and caused frequent interruptions in the workﬂow of a laboratory. However, recent
+publications on comparison of the microﬂow and highﬂow-rate traditional LC-MS/MS methods demonstrated the
+rugged method’s performance with up to 10-fold gain in
+the signal-to-noise ratios and up to 20-fold reduction in the
+use of the solvents.138
+
+Ion Suppression
+Ion suppression is another quality issue that should be
+evaluated during method development and validation.139
+First described in 1993,140,141 ion suppression is a matrix
+effect that results from the presence of coeluting nonvolatile
+or less volatile compounds (or compounds with greater
+proton afﬁnity) that change the efﬁciency of spray droplet
+formation, ionic properties, and evaporation. These interfering substances, which include salts, ion-pairing agents,
+endogenous compounds, surfactants, drugs and/or metabolites, compete with analyte ions for access to the droplet
+surface or transfer to the gas phase, which, in turn, affects
+the number of charged ions in the gas phase that ultimately
+reach the detector.142 Anions, such as phosphate or borate
+
+in buffers, also can neutralize the effective ionization of an
+analyte. Phospholipids present in biological samples and
+impurities introduced during the sample preparation and
+analysis have been demonstrated to be major contributors
+to ion suppression.134,143
+Ion suppression refers to the effect of the constituents
+of the sample that suppresses ionization of the analyte of
+interest. Factors contributing to ion suppression include
+greater ionizability of the substances coeluting with the
+peak of interest, and concentration of the coeluting substance
+causing ion suppression. Ion suppression can have an adverse
+effect on the accuracy, precision, and sensitivity of the assay,
+particularly if the internal standard does not perfectly coelute
+with the targeted analyte, in which case the internal standard
+and the analyte may undergo different extents of ion suppression and thus compromise quantitative measurements. This
+is most likely to happen if the internal standard is highly
+deuterated. Ion suppression also may reduce the signal of
+the target analyte to nearly undetectable levels, in which
+case it is essentially impossible to obtain an accurate
+quantitative result. Of the different types of ionization
+techniques used in LC-MS methods, ESI tends to be most
+susceptible to ion suppression; methods using APCI are
+typically less prone to the effects of ion suppression, but
+the possibility of ion suppression in APCI should not be
+dismissed without validation.
+Considering that biological samples contain a large
+number of endogenous molecules with concentrations
+ranging over a very wide dynamic range, ion suppression
+should be expected and the effects of ion suppression should
+be evaluated for all new or modiﬁed methods. The presence
+of ion suppression or other deleterious matrix effects can
+be evaluated via several experimental protocols.1 One involves comparison of (1) the instrument response for reference materials (including any internal standards) injected
+directly in the mobile phase, and (2) the same amount of
+compound spiked into preextracted samples.144 Data for
+the standard in the mobile phase provide a relative 100%
+response value. Data for the same amount of compound
+spiked into preextracted samples show the effects of sample
+matrix on MS response (ion suppression).
+A second, more commonly used and preferred protocol
+involves postcolumn continuous infusion of compound
+into the MS detector, while analyzing samples (type intended
+for the evaluated method, eg, serum, plasma, urine) prepared
+according to the protocol of the evaluated method.145-147 The
+instrumental setup includes a syringe pump connected via a
+tee to the column efﬂuent (Fig. 2.20). Because the compound
+being tested is introduced into the ion source at a constant
+rate, a constant instrument response should be observed if
+no ionization suppression or enhancement occurs while
+analyzing biological specimens (Fig. 2.21, A). Typically there
+is suppression of the signal at the portion of the analysis that
+corresponds to the void volume of the HPLC column (see
+Fig. 2.21, B). The void volume is that portion of a chromatogram corresponding to no retention other than the time it
+takes for the mobile phase to ﬂow through the column.
+Thus it represents a chromatographic time region, despite
+the word volume in the terminology.
+The degree of ion suppression and the recovery time to
+full response can vary from assay to assay145 and among the
+
+CHAPTER 2 Mass Spectrometry
+
+Tee
+HPLC
+
+Column
+
+ES
+Interface
+
+Mass
+Detector
+
+Syringe
+Pump
+
+FIGURE 2.20 Postcolumn infusion system. Mobile phase or
+specimen extracts are injected into the high-performance liquid
+chromatography (HPLC) system. The analyte being evaluated is
+continuously infused, post column, and is mixed with the
+column efﬂuent through a tee before entering the electrospray
+interface (ES).
+
+A
+
+Ion Intensity, ⫹105
+
+8
+4
+0
+1
+
+3
+
+5
+
+7
+
+1
+
+3
+
+5
+
+7
+
+8
+4
+0
+
+B
+
+Minutes
+
+FIGURE 2.21 Infusion chromatograms for hypothetical analytes.
+A, Mobile-phase injection. B, Serum liquid-liquid extract injection.
+These proﬁles illustrate that ion suppression can be greater than
+90%, that a recovery time may exist, and that suppression is
+not limited to the solvent front region. For a comprehensive
+presentation of these types of effects, the reader is referred to
+references 145 to 147.
+
+samples and can be dependent on the sample preparation
+method, chromatographic column used, and LC separation
+conditions. Because endogenous compounds from the
+specimen matrix may elute at any time during the chromatographic run, ion suppression is not limited to the column
+void and not limited to the analysis time of the evaluated
+sample. In the case of strongly retained compounds, substances causing ion suppression may elute in subsequent
+injections. Considering this, the detector response should
+be monitored during analysis of multiple patient samples,
+to ensure that ion suppression will not affect subsequent injections. The observed degree of ion suppression also can be
+dependent on the sample volume aliquotted for the analysis,
+the injection volume, and the concentration of the analyte being monitored,148 which is related to the matrix-to-analyte
+concentration ratio.149 It should be noted that the degree of
+the matrix effect might differ among the samples of the
+same biological material, as has been ably shown by Matuszewski and colleagues.150,151
+To control for ion suppression, it is highly desirable to use
+matrix-matched calibration standards and controls. It is
+important to evaluate ion suppression for all types of sample
+matrices intended for analysis by the method; in addition,
+considering the complexity of biological samples and
+the between-subject differences, there may be substantial
+
+59
+
+ﬂuctuations in the concentrations of the ion-suppressing
+species among samples. Because of this, a signiﬁcant number
+of individual samples of all sample matrices intended for the
+method (serum, plasma, urine, etc.) should be used during
+the evaluation of the ion suppression.
+In cases in which the isotope-labeled internal standards do
+not completely coelute with the analytes of interest, ion
+suppression cannot be completely compensated by the
+internal standard. This problem is particularly acute when
+using an internal standard that is highly deuterated, because
+these compounds are likely to not totally coelute with the
+native compound, and this can lead to signiﬁcant quantitative
+errors in the analysis.152 The 13C- or 15N-labeled compounds
+are chromatographically retained identically to the
+nonlabeled analogs and are not susceptible to the previously
+described problem.
+Ion suppression is not limited to HPLC-MS or ESI/APCI ion
+sources. For MALDI analysis, arginine-containing peptides
+have been reported to dominate over the signal from other peptides in protein digests,153 with the extent depending on the
+matrix used. The presence of ionic detergents, such as Triton
+X-100 and Tween 20, has also been shown to cause signal suppression in MALDI experiments, which can be countered by
+modiﬁcations to the matrix.154
+
+Noise Reduction Techniques
+In MS, background noise refers to the sum of electronic and
+chemical noise, which is independent of the data signal.
+Presence of the background noise interferes with the
+measurements and affects accuracy and speciﬁcity of analysis,
+especially at low concentrations. Reduction of chemical noise
+has been one of the aims for improvement since introduction
+of MS as an analytical technique. This is sometimes known as
+the “peak-at-every-mass” problem. The problem has long
+been known to mass spectrometrists, and it affects virtually
+all ionization methods to some degree.
+Chemical noise is often dominant over electronic noise in
+MS. Background ions are inherent of atmospheric pressure
+ionization and related to the presence of impurities in the
+samples and in the mobile phases, residues accumulating
+on the surfaces of the ion source, and in part the high
+efﬁciency of atmospheric pressure ionization. Approaches
+used for noise reduction include optimizing the sample
+preparation, improving selectivity of ionization, optimization
+of the declustering conditions and ion transmission, maintaining cleanliness of the ion sources, and the ﬂow path of
+the separation device.
+One effective way for signiﬁcant reduction of the effect of
+the background noise on the methods’ performance is the use
+of MS/MS acquisition (MRM, neutral loss scan, product ion
+scan, and precursor ion scan), which allows substantial
+improvement of the detection speciﬁcity and reduction of
+the effects of chemical noise. Other approaches for reduction
+of the background noise include the use of mass analyzers
+with high resolving power (see Fig. 2.3); the use of
+multidimensional separations along with MS, such as ion
+mobility separations (IMS); high FAIMS; multidimensional
+chromatographic separations; and the incorporation of
+additional stages of fragmentation (MS/MS/MS). Softwarebased approaches (eg, dynamic background subtraction,
+active background noise reduction) also have been applied
+
+60
+
+Principles and Applications of Clinical Mass Spectrometry
+
+as noise reduction techniques. The previously mentioned
+techniques allow a reduction in the interference from the
+chemical background noise, but do not affect its cause. The
+best approach to the reduction of chemical background noise
+is the use of more extensive and efﬁcient sample cleanup (as a
+way of minimizing introduction of contaminants into the ion
+source) and the use of high-purity solvents and additives
+for the mobile phases. This brings up the general issue of
+developing methods that are ﬁt for purpose, but not so
+complex or expensive that their use will be impractical. Every
+laboratory needs to balance these factors in a way that is
+consistent with their goals, throughput, and constraints.
+With regard to reducing background noise by using mass
+analyzers with high resolving power, it is important to understand the relationships among resolution, background
+noise (primarily chemical noise), electronic noise, and total
+signal level. A complete discussion is beyond the scope of
+the chapter, but a few general concepts can be useful to the
+clinical chemist without necessarily delving into all of the
+subtleties. For the sake of discussion, let us consider TOF
+detection. As mentioned earlier, this type of mass spectrometer acquires the full mass spectrum; that is, it is not possible
+to operate the instrument in SIM mode (or MRM mode in
+the case of a quadrupole TOF). However, it is possible to
+simulate SIM or MRM mode in postprocessing by integrating
+the mass spectrum over a limited m/z range and plotting the
+result as a function of spectrum number or chromatographic
+retention time.
+If the m/z window is wide compared to the mass spectral
+peak width, the portion of the integrated signal arising from
+the targeted peak is independent of peak width. However, the
+signal arising from chemical noise generally increases with
+increasing width of the m/z window. This corresponds to
+the conditions in Figure 2.3, Adthe FWHM of the TOF
+mass spectrometer was approximately 0.06 Da, whereas the
+window for generating the simulated SIM was 1 Da. Thus
+one would expect the chemical noise to decrease as the width
+of the integration window decreases.
+The simulated SIM in Figure 2.3, B has the integration
+window set at 0.0072 Da, nearly an order of magnitude
+narrower than the peak width of the mass spectrometer.
+Under these conditions (ie, with the integration window
+much narrower than the peak width), narrowing the
+integration window still further affects chemical noise and
+target analyte signal nearly equally, so there is very little to
+be gained in terms of improving the signal-to-noise ratio by
+making the integration window narrower. Furthermore, in
+some cases there is a danger of increased statistical noise in
+the signal because ion numbers are quantized, which shows
+up as shot noise in the integrated signal. The signal-to-noise
+ratio in the shot noise-limit scales as 1 over the square root of
+the integration window widthdthat is, it gets worse as the
+window is made narrower. Discussion of the effect of the
+electronic noise on the noise budget is outside of the scope
+of this chapter, but it can be evaluated using methods
+analogous to those discussed previously.
+Thus, in many cases, there is an optimum operating
+condition wherein the optimal integration window is often
+roughly equal to the peak width of the mass spectrometer.
+One additional comment is in order. Narrowing the integration window does nothing to reduce chemical noise if an
+
+interfering species is strictly isobaric with the targeted species. This implies that it is not at all useful if the goal is to
+reduce interferences from isomers. Furthermore, it is of
+very little usefulness if the mass offset of the interfering
+compound from the targeted compound is less than the
+peak width of the mass spectrometer. Nevertheless, as
+Figure 2.3 illustrates, a narrow window can be useful in
+improving the quality of chromatograms, and, as one can
+infer from the earlier discussion, this technique works best
+when using a high-resolution mass spectrometer.
+
+POINTS TO REMEMBER
+• MS is a highly sensitive and selective technique for
+analyzing a wide variety of clinically relevant analytes.
+• MS relies on ionizing analytes in a sample, followed by separation of the ions according to their mass to charge ratios.
+• When coupled with a separation technology such as gas
+chromatography or liquid chromatography, the hybrid technique is well suited for the quantitative analysis of clinically
+relevant molecules from bodily tissues and ﬂuids.
+• The use of MS for clinical applications has led to the development of highly speciﬁc assays that can overcome many
+of the issues faced when using immunoassays, such as
+cross-reactivity.
+• Although highly selective, MS is not immune from interferences; molecules with same m/z (isomers and isobars) and
+similar fragmentation pattern may interfere with analysis
+
+REFERENCES
+1. Clinical Laboratory Standards Institute. Mass spectrometry in
+the clinical laboratory. General principles and practice: approved
+guideline, vol. C-50A. Wayne, Penn: Clinical Laboratory
+Standards Institute; 2007.
+2. Clinical Laboratory Standards Institute. Liquid
+chromatography-mass spectrometry methods, vol. C-62A. Wayne,
+Penn: Clinical Laboratory Standards Institute; 2014.
+3. Fenn JB. Electrospray wings for molecular elephants (Nobel
+lecture). Angew Chem Int Ed Engl 2003;42:3871e94.
+4. Fenn JB, Mann M, Meng CK, et al. Electrospray ionization for
+mass spectrometry of large biomolecules. Science 1989;246:
+64e71.
+5. Koy C, Mikkat S, Raptakis E, et al. Matrix-assisted laser
+desorption/ionization-quadrupole ion trap-time of ﬂight mass
+spectrometry sequencing resolves structures of unidentiﬁed
+peptides obtained by in-gel tryptic digestion of haptoglobin
+derivatives from human plasma proteomes. Proteomics 2003;3:
+851e8.
+6. Nakanishi T, Okamoto N, Tanaka K, et al. Laser desorption
+time-of-ﬂight mass spectrometric analysis of transferrin
+precipitated with antiserum: a unique simple method to identify
+molecular weight variants. Biol Mass Spectrom 1994;23:230e3.
+7. Tanaka K. The origin of macromolecule ionization by laser
+irradiation (Nobel lecture). Angew Chem Int Ed Engl 2003;42:
+3860e70.
+8. Urry FM, Kushnir M, Nelson G, et al. Improving ion mass ratio
+performance at low concentrations in methamphetamine
+GC-MS assay through internal standard selection. J Anal Toxicol
+1996;20:592e5.
+
+CHAPTER 2 Mass Spectrometry
+9. Currie L. Nomenclature in evaluation of analytical methods
+including detection and quantiﬁcation capabilities. Pure Appl
+Chem 1995;67:1699e723.
+10. Calvert J. Glossary of atmospheric chemistry terms 1990. Pure
+Appl Chem 1990;62:2167e219.
+11. Cech NB, Enke CG. Practical implications of some recent
+studies in electrospray ionization fundamentals. Mass Spectrom
+Rev 2001;20:362e87.
+12. Ermer J, Vogel M. Applications of hyphenated LC-MS
+techniques in pharmaceutical analysis. Biomed Chromatogr
+2000;14:373e83.
+13. Glish GL, Vachet RW. The basics of mass spectrometry in
+the twenty-ﬁrst century. Nat Rev Drug Discov 2003;2:140e50.
+14. Huang C, Wachs T, Conboy J, et al. Atmospheric pressure
+ionization mass spectrometry. Anal Chem 1990;62:
+713Ae25A.
+15. Todd J. Recommendations for nomenclature and symbolism
+for mass spectrometry. IUPAC recommendations. Pure Appl
+Chem 1991;63:1541e66.
+16. Whitehouse CM, Dreyer RN, Yamashita M, et al. Electrospray
+interface for liquid chromatographs and mass spectrometers.
+Anal Chem 1985;57:675e9.
+17. Yamashita M, Fenn JB. Electrospray ion source: another variation on the free-jet theme. J Phys Chem A 1984;88:4451e9.
+18. Chen J, Shiyanov P, Schlager JJ, et al. A pseudo MS3 approach
+for identiﬁcation of disulﬁde-bonded proteins: uncommon
+product ions and database search. J Am Soc Mass Spectrom
+2012;23:225e43.
+19. Yamada N, Suzuki E, Hirayama K. Effective novel dissociation
+methods for intact protein: heat-assisted nozzle-skimmer
+collisionally induced dissociation and infrared multiphoton
+dissociation using a Fourier transform ion cyclotron resonance
+mass spectrometer equipped with a micrometal electrospray
+ionization emitter. Anal Biochem 2006;348:139e47.
+20. Rockwood AL, Busman M, Udseth HR, et al. Thermally
+induced dissociation of ions from electrospray mass
+spectrometry. Rapid Commun Mass Spectrom 1991;5:582e5.
+21. Carroll D, Dizdic I, Stillwell R, et al. Atmospheric pressure
+ionization mass spectrometry: corona discharge ion source for
+use in liquid chromatograph-mass spectrometer-computer
+analytical system. Anal Chem 1975;47:2369e73.
+22. Robb DB, Covey TR, Bruins AP. Atmospheric pressure photoionization: an ionization method for liquid chromatographymass spectrometry. Anal Chem 2000;72:3653e9.
+23. Syage J, Evans M, Hanold K. Photoionization mass
+spectrometry. Am Lab 2000;12:24e9.
+24. Syage J, Hanning-Lee M, Hanold K. A man-portable,
+photoionization time-of-ﬂight spectometer. Field Anal Chem
+Toxicol 2000;4:204e15.
+25. Elkadi M, Pillay A, Manuel J, et al. Sustainability study on heavy
+metal uptake in Neem Biodiesel using selective catalytic
+preparation and hyphenated mass spectrometry. Sustainability
+2014;6:2413e23.
+26. Becker JS. Inorganic mass spectrometry: principles and
+applications. Chichester, England: John Wiley & Sons; 2007.
+p. 181e7.
+27. Takats Z, Wiseman JM, Gologan B, et al. Mass spectrometry
+sampling under ambient conditions with desorption
+electrospray ionization. Science 2004;306:471e3.
+28. Cody RB, Laramee JA, Durst HD. Versatile new ion source for
+the analysis of materials in open air under ambient conditions.
+Anal Chem 2005;77:2297e302.
+
+61
+
+29. Wang H, Liu J, Cooks RG, et al. Paper spray for direct analysis
+of complex mixtures using mass spectrometry. Angew Chem Int
+Ed Engl 2010;49:877e80.
+30. Manicke NE, Abu-Rabie P, Spooner N, et al. Quantitative
+analysis of therapeutic drugs in dried blood spot samples by
+paper spray mass spectrometry: an avenue to therapeutic drug
+monitoring. J Am Soc Mass Spectrom 2011;22:1501e7.
+31. Price P. Standard deﬁnitions of terms relating to mass
+spectrometry: a report from the committee on measurements
+and standards of the American society for mass spectrometry.
+J Am Soc Mass Spectrom 1991;2:336e48.
+32. Cooks RG, Rockwood AL. The “Thomson”: a suggested unit for
+mass spectroscopists. Rapid Commun Mass Spectrom 1991;5:93.
+33. de Hoffmann E, Stroobant V. Mass spectrometry principles and
+applications. 2nd ed. New York: John Wiley & Sons; 2001.
+p. 63e122. 132e155.
+34. de Hoffmann E, Stroobant V. Mass spectrometry principles and
+applications. 2nd ed. New York: John Wiley & Sons; 2001. p. 361.
+35. Siuzdak G. Mass analyzers and ion detectors. In: Siuzdak G,
+editor. Mass analyzers and ion detectors. San Diego: Academic
+Press; 1996. p. 32e55.
+36. Dawson PH. Quadrupole mass spectometry and its applications.
+New York: Elsevier; 1976. p. 65e78.
+37. Dahl D Simion 6.0 ion optics computer program.
+38. Bucknall M, Fung KY, Duncan MW. Practical quantitative
+biomedical applications of MALDI-TOF mass spectrometry.
+J Am Soc Mass Spectrom 2002;13:1015e27.
+39. Dawson J, Gilhaus M. Orthogonal-acceleration time-of-ﬂight
+mass spectrometer. Rapid Commun Mass Spectrom 1989;3:155e9.
+40. Lazar I, Lee E, Rockwood AL, et al. General considerations for
+optimizing a capillary electrophoresis-electrospray time-ofﬂight mass spectrometry system. J Chromatogr A 1998;829:
+279e88.
+41. Sin C, Lee E, Lee M. Atmospheric pressure ionization
+time-of-ﬂight mass spectrometry. Anal Chem 1991;63:
+2897e900.
+42. Mamyrin B, Karataev V, Shmikk D, et al. Mass reﬂectron: new
+non-magnetic time-of-ﬂight high-resolution mass
+spectrometer. Zh Eksp Teor Fiz 1973;64:82e9.
+43. Rockwood AL. An improved time of ﬂight mass spectrometer.
+Cincinnati, Ohio: 34th Annual American Society for Mass
+Spectrometry; 1986.
+44. Bystrom CE, Sheng S, Clarke NJ. Narrow mass extraction of
+time-of-ﬂight data for quantitative analysis of proteins:
+determination of insulin-like growth factor-1. Anal Chem 2011;
+83:9005e10.
+45. Bystrom C, Sheng S, Zhang K, et al. Clinical utility of
+insulin-like growth factor 1 and 2: determination by high
+resolution mass spectrometry. PLoS ONE 2012;7:e43457.
+46. Marin SJ, Hughes JM, Lawlor BG, et al. Rapid
+screening for 67 drugs and metabolites in serum or plasma
+by accurate-mass LC-TOF-MS. J Anal Toxicol 2012;36:
+477e86.
+47. Makarov A, Scigelova M. Coupling liquid chromatography to
+orbitrap mass spectrometry. J Chromatogr A 2010;1217:
+3938e45.
+48. Marshall AG, Hendrickson CL, Jackson GS. Fourier transform
+ion cyclotron resonance mass spectrometry: a primer. Mass
+Spectrom Rev 1998;17:1e35.
+49. Kingdon K. A method for the neutralization of electron space
+charge by positive ionization at very low gas pressures. Phys Rev
+1923;21:408e18.
+
+62
+
+Principles and Applications of Clinical Mass Spectrometry
+
+50. Makarov A. Electrostatic axially harmonic orbital trapping: a
+high-performance technique of mass analysis. Anal Chem 2000;
+72:1156e62.
+51. Makarov A, Denisov E, Kholomeev A, et al. Performance
+evaluation of a hybrid linear ion trap/orbitrap mass
+spectrometer. Anal Chem 2006;78:2113e20.
+52. Makarov A, Denisov E, Lange O, et al. Dynamic range of mass
+accuracy in LTQ Orbitrap hybrid mass spectrometer. J Am Soc
+Mass Spectrom 2006;17:977e82.
+53. Perry RH, Cooks RG, Noll RJ. Orbitrap mass spectrometry:
+instrumentation, ion motion and applications. Mass Spectrom
+Rev 2008;27:661e99.
+54. Hu Q, Noll RJ, Li H, et al. The orbitrap: a new mass
+spectrometer. J Mass Spectrom 2005;40:430e43.
+55. Erve JC, Gu M, Wang Y, et al. Spectral accuracy of
+molecular ions in an LTQ/Orbitrap mass spectrometer
+and implications for elemental composition determination.
+J Am Soc Mass Spectrom 2009;20:2058e69.
+56. Rockwood AL, Erve JC. Mass spectral peak distortion due to
+Fourier transform signal processing. J Am Soc Mass Spectrom
+2014;25:2163e76.
+57. Chace DH. Mass spectrometry-based diagnostics:
+the upcoming revolution in disease detection has
+already arrived. Clin Chem 2003;49:1227e8. author reply
+1228e1229.
+58. Kanu AB, Dwivedi P, Tam M, et al. Ion mobility-mass
+spectrometry. J Mass Spectrom 2008;43:1e22.
+59. Shvartsburg AA. Differential ion mobility spectrometry:
+nonlinear ion transport and fundamentals of FAIMS. Boca
+Raton, Fla: CRC Press; 2008.
+60. Eiceman G, Karpas Z, Hill H. Ion mobility spectrometry: ion
+mobility spectrometry. 3rd ed. Boca Raton, Fla: CRC Press; 2013.
+p. 444.
+61. Ray JA, Kushnir MM, Yost RA, et al. Performance
+enhancement in the measurement of 5 endogenous
+steroids by LC-MS/MS combined with differential ion
+mobility spectrometry. Clin Chim Acta 2015;438:330e6.
+62. Caulﬁeld MP, Li S, Lee G, et al. Direct determination of
+lipoprotein particle sizes and concentrations by ion mobility
+analysis. Clin Chem 2008;54:1307e16.
+63. Krauss RM, Pinto CA, Liu Y, et al. Changes in LDL
+particle concentrations after treatment with the cholesteryl
+ester transfer protein inhibitor anacetrapib alone or
+in combination with atorvastatin. J Clin Lipidol 2015;9:
+93e102.
+64. Rosenson RS, Davidson MH, Le NA, et al. Underappreciated
+opportunities for high-density lipoprotein particles in risk
+stratiﬁcation and potential targets of therapy. Cardiovasc Drugs
+Ther 2015;29:41e50.
+65. Mallard WG, Reed J. Automated mass spectrometry
+deconvolution and identiﬁcation system (AMDIS) user guide.
+Gaithersburg, MD: US Department of Commerce-Technology
+Administration, National Institute of Standards and
+Technology (NIST), Standard Reference Data Program; 1997.
+66. Rodriguez H, Tezak Z, Mesri M, et al. Analytical validation of
+protein-based multiplex assays: a workshop report by the
+NCI-FDA interagency oncology task force on molecular
+diagnostics. Clin Chem 2010;56:237e43.
+67. Kelley RI. Diagnosis of Smith-Lemli-Opitz syndrome by gas
+chromatography/mass spectrometry of 7-dehydrocholesterol
+in plasma, amniotic ﬂuid and cultured skin ﬁbroblasts. Clin
+Chim Acta 1995;236:45e58.
+
+68. Maurer HH. Role of gas chromatography-mass spectrometry
+with negative ion chemical ionization in clinical and forensic
+toxicology, doping control, and biomonitoring. Ther Drug
+Monit 2002;24:247e54.
+69. Stellaard F, ten Brink HJ, Kok RM, et al. Stable isotope dilution
+analysis of very long chain fatty acids in plasma, urine and
+amniotic ﬂuid by electron capture negative ion mass
+fragmentography. Clin Chim Acta 1990;192:133e44.
+70. Knapp D. Handbook of analytical derivatization reactions. New
+York: John Wiley & Sons; 1979.
+71. Drees JC, Stone JA, Olson KR, et al. Clinical utility of an
+LC-MS/MS seizure panel for common drugs involved in
+drug-induced seizures. Clin Chem 2009;55:126e33.
+72. Maurer HH. Current role of liquid chromatography-mass
+spectrometry in clinical and forensic toxicology. Anal Bioanal
+Chem 2007;388:1315e25.
+73. Maurer HH. Mass spectrometric approaches in impaired
+driving toxicology. Anal Bioanal Chem 2009;393:97e107.
+74. Wu AH, Gerona R, Armenian P, et al. Role of liquid
+chromatography-high-resolution mass spectrometry
+(LC-HR/MS) in clinical toxicology. Clin Toxicol (Phila) 2012;
+50:733e42.
+75. Annesley T, Majzoub J, Hsing A, et al. Mass spectrometry in the
+clinical laboratory: how have we done, and where do we need
+to be? Clin Chem 2009;55:1236e9.
+76. Yang Z, Wang S. Recent development in application of high
+performance liquid chromatography-tandem mass spectrometry in therapeutic drug monitoring of immunosuppressants.
+J Immunol Methods 2008;336:98e103.
+77. de Jong WH, Graham KS, van der Molen JC, et al. Plasma free
+metanephrine measurement using automated online solidphase extraction HPLC tandem mass spectrometry. Clin Chem
+2007;53:1684e93.
+78. Knox S, Harris J, Calton L, et al. A simple automated
+solid-phase extraction procedure for measurement of
+25-hydroxyvitamin D3 and D2 by liquid chromatographytandem mass spectrometry. Ann Clin Biochem 2009;46:
+226e30.
+79. Koal T, Burhenne H, Romling R, et al. Quantiﬁcation of
+antiretroviral drugs in dried blood spot samples by means of
+liquid chromatography/tandem mass spectrometry. Rapid
+Commun Mass Spectrom 2005;19:2995e3001.
+80. Remmel RP, Kawle SP, Weller D, et al. Simultaneous HPLC
+assay for quantiﬁcation of indinavir, nelﬁnavir, ritonavir, and
+saquinavir in human plasma. Clin Chem 2000;46:73e81.
+81. de Castro A, Concheiro M, Quintela O, et al. LC-MS/MS
+method for the determination of nine antidepressants and
+some of their main metabolites in oral ﬂuid and plasma: study
+of correlation between venlafaxine concentrations in both
+matrices. J Pharm Biomed Anal 2008;48:183e93.
+82. Subramanian M, Birnbaum AK, Remmel RP. High-speed
+simultaneous determination of nine antiepileptic drugs using
+liquid chromatography-mass spectrometry. Ther Drug Monit
+2008;30:347e56.
+83. Wohlfarth A, Weinmann W, Dresen S. LC-MS/MS screening
+method for designer amphetamines, tryptamines, and
+piperazines in serum. Anal Bioanal Chem 2010;396:2403e14.
+84. Kushnir MM, Komaromy-Hiller G, Shushan B, et al.
+Analysis of dicarboxylic acids by tandem mass spectrometry:
+high-throughput quantitative measurement of methylmalonic
+acid in serum, plasma, and urine. Clin Chem 2001;47:
+1993e2002.
+
+CHAPTER 2 Mass Spectrometry
+85. Lakso HA, Appelblad P, Schneede J. Quantiﬁcation of
+methylmalonic acid in human plasma with hydrophilic
+interaction liquid chromatography separation and mass
+spectrometric detection. Clin Chem 2008;54:2028e35.
+86. Yue B, Rockwood AL, Sandrock T, et al. Free thyroid hormones
+in serum by direct equilibrium dialysis and online solid-phase
+extraction-liquid chromatography/tandem mass spectrometry.
+Clin Chem 2008;54:642e51.
+87. Kushnir MM, Blamires T, Rockwood AL, et al. Liquid
+chromatography-tandem mass spectrometry assay for
+androstenedione, dehydroepiandrosterone, and testosterone
+with pediatric and adult reference intervals. Clin Chem 2010;
+56:1138e47.
+88. Soldin SJ, Soldin OP. Steroid hormone analysis by tandem mass
+spectrometry. Clin Chem 2009;55:1061e6.
+89. Chace DH, Kalas TA. A biochemical perspective on the use of
+tandem mass spectrometry for newborn screening and clinical
+testing. Clin Biochem 2005;38:296e309.
+90. Chace DH, Kalas TA, Naylor EW. Use of tandem mass
+spectrometry for multianalyte screening of dried blood
+specimens from newborns. Clin Chem 2003;49:1797e817.
+91. Chace DH, DiPerna JC, Mitchell BL, et al. Electrospray tandem mass spectrometry for analysis of acylcarnitines in dried
+postmortem blood specimens collected at autopsy from infants with unexplained cause of death. Clin Chem 2001;47:
+1166e82.
+92. Hardy DT, Preece MA, Green A. Determination of plasma free
+carnitine by electrospray tandem mass spectrometry. Ann Clin
+Biochem 2001;38:665e70.
+93. Casetta B, Tagliacozzi D, Shushan B, et al. Development of a
+method for rapid quantitation of amino acids by liquid
+chromatography-tandem mass spectrometry (LC-MSMS) in
+plasma. Clin Chem Lab Med 2000;38:391e401.
+94. Chalcraft KR, Britz-McKibbin P. Newborn screening of inborn
+errors of metabolism by capillary electrophoresis-electrospray
+ionization-mass spectrometry: a second-tier method with
+improved speciﬁcity and sensitivity. Anal Chem 2009;81:
+307e14.
+95. Chace DH. Mass spectrometry in newborn and metabolic
+screening: historical perspective and future directions. J Mass
+Spectrom 2009;44:163e70.
+96. Rinaldo P, Cowan TM, Matern D. Acylcarnitine proﬁle analysis.
+Genet Med 2008;10:151e6.
+97. Gao S, Zhang ZP, Karnes HT. Sensitivity enhancement in liquid
+chromatography/atmospheric pressure ionization mass
+spectrometry using derivatization and mobile phase additives.
+J Chromatogr B Analyt Technol Biomed Life Sci 2005;825:
+98e110.
+98. Sherman NE, Stefansson B, Fox JW, et al. Pseudomonas
+aeruginosa and a proteomic approach to bacterial pathogenesis.
+Dis Markers 2001;17:285e93.
+99. Wang Z, Dunlop K, Long SR, et al. Mass spectrometric
+methods for generation of protein mass database used for
+bacterial identiﬁcation. Anal Chem 2002;74:3174e82.
+100. Eigner U, Holfelder M, Oberdorfer K, et al. Performance of a
+matrix-assisted laser desorption ionization-time-of-ﬂight
+mass spectrometry system for the identiﬁcation of bacterial
+isolates in the clinical routine laboratory. Clin Lab 2009;55:
+289e96.
+101. Szajli E, Feher T, Medzihradszky KF. Investigating the
+quantitative nature of MALDI-TOF MS. Mol Cell Proteomics
+2008;7:2410e8.
+
+63
+
+102. Batista BL, Grotto D, Rodrigues JL, et al. Determination of
+trace elements in biological samples by inductively coupled
+plasma mass spectrometry with tetramethylammonium
+hydroxide solubilization at room temperature. Anal Chim Acta
+2009;646:23e9.
+103. Beauchemin D. Inductively coupled plasma mass
+spectrometry. Anal Chem 2002;74:2873e93.
+104. Mandal BK, Ogra Y, Suzuki KT. Speciation of arsenic in human
+nail and hair from arsenic-affected area by HPLC-inductively
+coupled argon plasma mass spectrometry. Toxicol Appl
+Pharmacol 2003;189:73e83.
+105. Anderson NL. Counting the proteins in plasma. Clin Chem
+2010;56:1775e6.
+106. Kenyon GL, DeMarini DM, Fuchs E, et al. Deﬁning the
+mandate of proteomics in the post-genomics era: workshop
+report. Mol Cell Proteomics 2002;1:763e80.
+107. Carr SA, Anderson L. Protein quantitation through targeted
+mass spectrometry: the way out of biomarker purgatory? Clin
+Chem 2008;54:1749e52.
+108. Oberrauch W, Bergman AC, Helander A. HPLC and mass
+spectrometric characterization of a candidate reference
+material for the alcohol biomarker carbohydrate-deﬁcient
+transferrin (CDT). Clin Chim Acta 2008;395:142e5.
+109. Asif AR, Oellerich M, Amstrong VW, et al. Proteome of
+conidial surface associated proteins of Aspergillus fumigatus
+reﬂecting potential vaccine candidates and allergens.
+J Proteome Res 2006;5:954e62.
+110. Clarke NJ, Zhang Y, Reitz RE. A novel mass spectrometrybased assay for the accurate measurement of thyroglobulin
+from patient samples containing antithyroglobulin
+autoantibodies. J Investig Med 2012;60:1157e63.
+111. Hoofnagle AN, Becker JO, Wener MH, et al. Quantiﬁcation
+of thyroglobulin, a low-abundance serum protein, by
+immunoafﬁnity peptide enrichment and tandem mass
+spectrometry. Clin Chem 2008;54:1796e804.
+112. Kushnir MM, Rockwood AL, Roberts WL, et al. Measurement of
+thyroglobulin by liquid chromatography-tandem mass
+spectrometry in serum and plasma in the presence of
+antithyroglobulin autoantibodies. Clin Chem 2013;59:982e90.
+113. Bateman RH, Green BN, Morris M. Electrospray ionization
+mass spectrometric analysis of the globin chains in hemoglobin
+heterozygotes can detect the variants HbC, D, and E. Clin
+Chem 2008;54:1256e7.
+114. Wild BJ, Green BN, Stephens AD. The potential of electrospray
+ionization mass spectrometry for the diagnosis of hemoglobin
+variants found in newborn screening. Blood Cells Mol Dis 2004;
+33:308e17.
+115. Rockwood AL, Busman M, Smith RD. Coulombic effects in the
+dissociation of large highly charged ions. Int J Mass Spectrom
+Ion Processes 1991;111:103e29.
+116. Ganem B, Li Y, Henion J. Detection of noncovalent receptorligand complexes by mass spectrometry. J Am Chem Soc 1991;
+113:6294e6.
+117. Ganem B, Li Y, Henion J. Observation of noncovalent enzyme
+substrate and enzyme product complexes by ion spray mass
+spectrometry. J Am Chem Soc 1991;113:7818e9.
+118. Apostol I. Assessing the relative stabilities of engineered
+hemoglobins using electrospray mass spectrometry. Anal
+Biochem 1999;272:8e18.
+119. Jeppsson JO, Kobold U, Barr J, et al. Approved IFCC reference
+method for the measurement of HbA1c in human blood. Clin
+Chem Lab Med 2002;40:78e89.
+
+64
+
+Principles and Applications of Clinical Mass Spectrometry
+
+120. Wolff F, Deleers M, Melot C, et al. Hepcidin-25:
+measurement by LC-MS/MS in serum and urine, reference
+ranges and urinary fractional excretion. Clin Chim Acta 2013;
+423:99e104.
+121. Kobold U, Dulffer T, Dangl M, et al. Quantiﬁcation of
+hepcidin-25 in human serum by isotope dilution microHPLC-tandem mass spectrometry. Clin Chem 2008;54:
+1584e6.
+122. Rochat B, Peduzzi D, McMullen J, et al. Validation of hepcidin
+quantiﬁcation in plasma using LC-HRMS and discovery of a
+new hepcidin isoform. Bioanalysis 2013;5:2509e20.
+123. Fu JF, Shi JY, Zhao WL, et al. MassARRAY assay: a more
+accurate method for JAK2V617F mutation detection in
+Chinese patients with myeloproliferative disorders. Leukemia
+2008;22:660e3.
+124. Igarashi J, Muroi S, Kawashima H, et al. Quantitative analysis
+of human tissue-speciﬁc differences in methylation. Biochem
+Biophys Res Commun 2008;376:658e64.
+125. Wang SC, Oelze B, Schumacher A. Age-speciﬁc epigenetic
+drift in late-onset Alzheimer’s disease. PLoS ONE 2008;3:
+e2698.
+126. Au WY, Lam V, Pang A, et al. Glucose-6-phosphate
+dehydrogenase deﬁciency in female octogenarians, nanogenarians, and centenarians. J Gerontol A Biol Sci Med Sci 2006;
+61:1086e9.
+127. Ecker DJ, Sampath R, Massire C, et al. Ibis T5000: a universal
+biosensor approach for microbiology. Nat Rev Microbiol 2008;
+6:553e8.
+128. Hofstadler S, Sampatha R, Blyna L, et al. TIGER: the universal
+biosensor. Int J Mass Spectrom 2005;242:23e41.
+129. Chaurand P, Sanders ME, Jensen RA, et al. Proteomics in
+diagnostic pathology: proﬁling and imaging proteins directly
+in tissue sections. Am J Pathol 2004;165:1057e68.
+130. Cornett DS, Reyzer ML, Chaurand P, et al. MALDI imaging
+mass spectrometry: molecular snapshots of biochemical
+systems. Nat Methods 2007;4:828e33.
+131. Becker J. Inorganic mass spectrometry: principles and
+applications. Chichester, England: John Wiley & Sons; 2007.
+p. 366e75.
+132. Seuma J, Bunch J, Cox A, et al. Combination of
+immunohistochemistry and laser ablation ICP mass
+spectrometry for imaging of cancer biomarkers. Proteomics
+2008;8:3775e84.
+133. College of American Pathologists. Accreditation checklists.
+CHM 2009;18600.
+134. Annesley TM. Methanol-associated matrix effects in
+electrospray ionization tandem mass spectrometry. Clin Chem
+2007;53:1827e34.
+135. Hoofnagle AN, Wener MH. The fundamental ﬂaws of
+immunoassays and potential solutions using tandem mass
+spectrometry. J Immunol Methods 2009;347:3e11.
+136. Kushnir MM, Rockwood AL, Nelson GJ, et al. Assessing
+analytical speciﬁcity in quantitative analysis using tandem mass
+spectrometry. Clin Biochem 2005;38:319e27.
+137. Meikle AW, Findling J, Kushnir MM, et al. Pseudo-Cushing
+syndrome caused by fenoﬁbrate interference with urinary
+cortisol assayed by high-performance liquid chromatography.
+J Clin Endocrinol Metab 2003;88:3521e4.
+
+138. Christianson CC, Johnson CJ, Needham SR. The advantages
+of microﬂow LC-MS/MS compared with conventional
+HPLC-MS/MS for the analysis of methotrexate from human
+plasma. Bioanalysis 2013;5:1387e96.
+139. Annesley TM. Ion suppression in mass spectrometry. Clin
+Chem 2003;49:1041e4.
+140. Kebarle P, Tang L. From ions to solution in the gas phase: the
+mechanism of eletrospray mass spectrometry. Anal Chem 1993;
+65:972Ae86A.
+141. Tang L, Kebarle P. Dependence of ion intensity in
+electrospray mass spectrometry on the concentration of the
+analytes in the electrosprayed solution. Anal Chem 1993;65:
+3654e68.
+142. King R, Bonﬁglio R, Fernandez-Metzler C, et al.
+Mechanistic investigation of ionization suppression in
+electrospray ionization. J Am Soc Mass Spectrom 2000;11:
+942e50.
+143. Xia YQ, Jemal M. Phospholipids in liquid chromatography/mass
+spectrometry bioanalysis: comparison of three tandem mass
+spectrometric techniques for monitoring plasma phospholipids,
+the effect of mobile phase composition on phospholipids
+elution and the association of phospholipids with matrix effects.
+Rapid Commun Mass Spectrom 2009;23:2125e38.
+144. Matuszewski BK, Constanzer ML, Chavez-Eng CM. Matrix
+effect in quantitative LC/MS/MS analyses of biological ﬂuids: a
+method for determination of ﬁnasteride in human plasma at
+picogram per milliliter concentrations. Anal Chem 1998;70:
+882e9.
+145. Bonﬁglio R, King RC, Olah TV, et al. The effects of sample
+preparation methods on the variability of the electrospray
+ionization response for model drug compounds. Rapid
+Commun Mass Spectrom 1999;13:1175e85.
+146. Hsieh Y, Chintala M, Mei H, et al. Quantitative screening and
+matrix effect studies of drug discovery compounds in monkey
+plasma using fast-gradient liquid chromatography/tandem
+mass spectrometry. Rapid Commun Mass Spectrom 2001;15:
+2481e7.
+147. Muller C, Schafer P, Stortzel M, et al. Ion suppression
+effects in liquid chromatography-electrospray-ionisation
+transport-region collision induced dissociation mass spectrometry with different serum extraction methods for systematic toxicological analysis with mass spectra libraries.
+J Chromatogr B Analyt Technol Biomed Life Sci 2002;773:
+47e52.
+148. van Hout MW, Hoﬂand CM, Niederlander HA, et al. On-line
+coupling of solid-phase extraction with mass spectrometry
+for the analysis of biological samples. II. Determination of
+clenbuterol in urine using multiple-stage mass spectrometry in
+an ion-trap mass spectrometer. Rapid Commun Mass Spectrom
+2000;14:2103e11.
+149. Heller DN. Ruggedness testing of quantitative atmospheric
+pressure ionization mass spectrometry methods: the effect of
+co-injected matrix on matrix effects. Rapid Commun Mass
+Spectrom 2007;21:644e52.
+150. Matuszewski BK. Standard line slopes as a measure of a relative
+matrix effect in quantitative HPLC-MS bioanalysis.
+J Chromatogr B Analyt Technol Biomed Life Sci 2006;830:
+293e300.
+
+CHAPTER 2 Mass Spectrometry
+151. Matuszewski BK, Constanzer ML, Chavez-Eng CM. Strategies
+for the assessment of matrix effect in quantitative bioanalytical
+methods based on HPLC-MS/MS. Anal Chem 2003;75:
+3019e30.
+152. Wang S, Cyronak M, Yang E. Does a stable isotopically labeled
+internal standard always correct analyte response? A matrix
+effect study on a LC/MS/MS method for the determination of
+carvedilol enantiomers in human plasma. J Pharm Biomed
+Anal 2007;43:701e7.
+
+65
+
+153. Krause E, Wenschuh H, Jungblut PR. The dominance of
+arginine-containing peptides in MALDI-derived tryptic mass
+ﬁngerprints of proteins. Anal Chem 1999;71:4160e5.
+154. Gharahdaghi F, Kirchner M, Fernandez J, et al. Peptide-mass
+proﬁles of polyvinylidene diﬂuoride-bound proteins by
+matrix-assisted laser desorption/ionization time-of-ﬂight mass
+spectrometry in the presence of nonionic detergents. Anal
+Biochem 1996;233:94e9.
+
+

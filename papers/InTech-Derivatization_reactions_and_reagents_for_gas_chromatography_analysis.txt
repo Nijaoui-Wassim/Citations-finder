@@ -1,0 +1,1343 @@
+5
+Derivatization Reactions and Reagents
+for Gas Chromatography Analysis
+Francis Orata
+Masinde Muliro University of Science and Technology,
+Kenya
+1. Introduction
+Derivatization reactions are meant to transform an analyte for detectability in Gas
+Chromatography (GC) or other instrumental analytical methods. Derivatization in GC
+analysis can be defined as a procedural technique that primarily modifies an analyte’s
+functionality in order to enable chromatographic separations. A modified analyte in this
+case will be the product, which is known as the derivative. The derivative may have similar
+or closely related structure, but not the same as the original non-modified chemical
+compound.
+Volatility of sample is a requirement for GC analysis. Derivatization will render highly polar
+materials to be sufficiently volatile so that they can be eluted at reasonable temperatures
+without thermal decomposition (Knapp, 1979) or molecular re-arrangement (Kühnel et al.,
+2007; Blau and King 1979). Understanding the chemistry of the analytes, derivatizing
+reagents used in sample preparation, and the detailed functionality of Gas Chromatography
+are important to get reliable results. For GC analysis, compounds containing functional
+groups with active hydrogens such as -SH, -OH, -NH and -COOH are of primary concern
+because of the tendency of these functional groups to form intermolecular hydrogen bonds
+(Zaikin and Halket, 2003). These intermolecular hydrogen bonds affect the inherent
+volatility of compounds containing them, their tendency to interact with column packing
+materials and their thermal stability (Sobolevsky et al., 2003). Since GC is used to separate
+volatile organic compounds, modification of the functional group of a molecule by
+derivatization enables the analysis of compounds that otherwise can not be readily
+monitored by GC. Derivatization process either increases or decreases the volatility of the
+compound of interest. It also reduces analyte adsorption in the GC system and improves
+detector response, peak separations and peak symmetry.
+In addition to particular analytes such as pharmaceuticals, biomolecules such us organic
+acids, amides, poly-hydroxy compounds, amino acids, pesticides and other persistent
+organic compounds, new classes of compounds of interest for example fluorinated alkylated
+substances and polycyclic aromatic hydrocarbons continue to emerge. It is necessary to
+develop and/or improve on chemical analytical methods and hence the need to familiarize
+with derivatization methods that are applicable to GG analysis. Generally derivatization is
+aimed at improving on the following aspects in Gas Chromatography.
+
+www.intechopen.com
+
+84
+i.
+
+Advanced Gas Chromatography – Progress in Agricultural, Biomedical and Industrial Applications
+
+Suitability
+
+Suitability is the form of compounds that is amenable to the analytical technique. For GC, it
+is a requirement that the compound to be analyzed should be volatile with respect to gas
+chromatographic analysis conditions, as compared to liquid chromatography (LC), where
+the compound of interest should be soluble in the mobile phase. Therefore, derivatization
+procedure modifies the chemical structure of the compounds so that they can be analyzed
+by the desired technique.
+ii.
+
+Efficiency
+
+Efficiency is the ability of the compound of interest to produce good peak resolution and
+symmetry for easy identification and practicability in GC analysis. Interactions between the
+compounds themselves or between the compounds and the GC column may reduce the
+separation efficiency of many compounds s and mixtures (Knapp, 1979). Derivatization of
+analyte molecules can reduce these interactions that interfere with analysis. Also,
+compounds that co-elute or have poor resolution from other sample components during
+separation in GC can frequently be resolved by an appropriate derivative.
+iii. Detectability
+Detectability is the outcome signal that emanates from the interaction between the analyte
+and the GC detector. Increasing the amounts of materials will impact the range at which
+they can be detected in Gas chromatography. This can be achieved either by increasing the
+bulk of the compound or by introducing onto the analyte compound, atoms or functional
+groups that interact strongly with the detector and hence improve signal identification. For
+example the addition of halogen atoms to analyte molecules for electron capture detectors
+(ECD) and the formation of trimethylsilyl (TMS) ether derivatives to produce readily
+identifiable fragmentation patterns and mass ions (Knapp, 1979).
+1.1 Derivatization reagent
+Derivatization reagent is the substance that is used to chemically modify a compound to
+produce a new compound which has properties that are suitable for analysis in GC or LC.
+The following criteria must be used as guidelines in choosing a suitable derivatization
+reagent for GC analysis.
+i.
+ii.
+
+The reagent should produce more than 95 % complete derivatives.
+It should not cause any rearrangements or structural alterations of compounds during
+formation of the derivative.
+iii. It should not contribute to loss of the sample during the reaction.
+iv. It should produce a derivative that will not interact with the GC column.
+v. It should produce a derivative that is stable with respect to time.
+1.2 Objectives for derivatization
+The following outlined objectives among others can be achieved by application of proper
+derivatization procedures;
+i.
+
+Improvement of resolution and reduce tailing of polar compounds which may contain –
+OH, –COOH, =NH, –NH2, –SH, and other functional groups.
+
+www.intechopen.com
+
+Derivatization Reactions and Reagents for Gas Chromatography Analysis
+
+ii.
+iii.
+iv.
+v.
+
+85
+
+Analysis of relatively nonvolatile compounds.
+Reduction of volatility of compounds prior to GC analysis.
+Improvement of analytical efficiency and hence increase detectability.
+Stabilization of compounds for GC analysis.
+
+2. Types of derivatization reactions
+Derivatization reactions used for gas chromatography (GC) fall into three general reaction
+types namely; Alkylation of which the general process is esterification, Acylation and
+Silylation. Through these three processes, highly polar materials such as organic acids,
+amides, poly-hydroxy compounds, amino acids are rendered suitable for GC analysis by
+making them sufficiently volatile. These general processes are discussed below.
+2.1 Alkylation
+Alkylation is mostly used as the first step for further derivatizations or as a method of
+protection of certain active hydrogens in a sample molecule. It represents the replacement of
+active hydrogen by an aliphatic or aliphatic-aromatic (e.g., benzyl) group in process referred
+to as esterification. Equation 1 below shows the general reaction equation representing the
+esterification process.
+RCOOH + PhCH2X → RCOOCH2Ph + HX
+Equation 1: General reaction for esterification process: X = halogen or alkyl group R, H =
+another alkyl group R.
+The principal chromatographic use of this reaction is the conversion of organic acids into
+esters, especially methyl esters that produce better chromatograms than the free acids.
+Alkylation reactions can also be used to prepare ethers, thioethers and thioesters, Nalkylamines, amides and sulphonamides (Danielson, 2000). In general, the products of
+alkylation are less polar than the starting materials because active hydrogen has been
+replaced by an alkyl group. The alkyl esters formed offer excellent stability and can be
+isolated and stored for extended periods if necessary. In esterification an acid reacts with an
+alcohol to form an ester. In the reaction, a catalyst more often an inorganic acid such as
+hydrochloric acid or thionyl chloride (Zenkevich, 2009) is recommended for example, in the
+trans-esterification of fats or oils (Sobolevsky et al., 2003).
+2.1.1 Derivatization reagents used in alkylation
+Common derivatization reagents for the Alkylation type of reactions are Dialkylacetals,
+Diazoalkales, Pentafluorobenzyl bromide (PFBBr), Benzylbromide, Boron trifluoride (BF3) in
+methanol or butanol and Tetrabutylammonium hydroxide (TBH) among others. Alkylation
+reagents can be used alone to form esters, ethers and amides or they can be used in
+conjunction with acylation or silylation reagents. The reaction conditions can vary from
+strongly acidic to strongly basic with both generating stable derivatives. However, it must
+be noted that the reagents are more limited to amines and acidic hydroxyls and that the
+reaction conditions are frequently severe while the reagents are often toxic. Some
+derivatization reagents and their respective derivatization procedures in alkylation reactions
+are discussed below.
+
+www.intechopen.com
+
+86
+
+Advanced Gas Chromatography – Progress in Agricultural, Biomedical and Industrial Applications
+
+2.1.1.1 Dialkylacetals
+Dimethylformamide (DMF) is an example of dialkylacetals with a general formula
+CH3CH3NCHOROR are used to esterify acids to their methyl esters. Dialkylacetals have a
+wider applicability for the derivatization of a number of functional groups containing
+reactive hydrogens. Because the principal reaction product is dialkylacetals (DMF), the
+isolation of the derivative is not required and the reaction mixture can be injected directly
+into the gas chromatograph (Regis, 1999). This reagent is an excellent first choice for
+derivatization of a compound for which there is no published method available. The
+reaction between N, N-dimethylformamide dimethylacetal and Carboxylic acid is as follows
+(Equation 2).
+CH3CH3NCHOROR + R`COOH → R`COOR + ROH + CH3CH3NCHO
+Equation 2: The reaction between N, N-dimethylformamide dimethylacetal and Carboxylic
+acid.
+Although carboxylic acids, phenols, and thiols react quickly with DMF, to give the
+corresponding alkyl derivatives, hydroxyl groups are not readily methylated. During
+derivatization procedure, care should be taken because N, N-dimethylformamide
+dimethylacetals are moisture sensitive. The reagents work quickly with derivatization
+taking place just upon dissolution. The reaction is suitable for flash alkylation, where
+derivatization takes place in the injection port. Since adjustment of polarity and volatility of
+the sample is possible, this can allow change of retention time. It is worth noting that the
+reagents will react with water to give the corresponding alcohol though traces of water will
+not affect the reaction as long as you have an excess of the acid.
+A rapid procedure for the derivatization of both carboxylic and amino acids using DMFDialkylacetal reagents is by dissolving the sample in 0.5 mL of a 1:1 solvent of choice/
+reagent mixture by heating to 100 °C. For example, it is advisable to use pyridine for fatty
+acids, acetonitrile for amino acids as solvent of choice (Thenot and Horning, (1972).
+Alternative method comprises of combining 50 mg fatty acid and 1 ml DMF in a reaction
+vial. Cap the vial and heat at 60 °C for 10 - 15 minutes or until dissolution is complete and
+analyze the cooled sample in gas chromatography (Thenot et al., 1972).
+2.1.1.2 Diazoalkales
+The main reagent in the diazoalkales group is diazomethane. Diazomethane (N2CH2) is the
+quickest and cleanest method available for the preparation of analytical quantities of methyl
+esters. The reaction of diazomethane with a carboxylic acid is quantitative and essentially
+instantaneous in ether solutions. In the presence of a small amount of methanol as catalyst,
+diazomethane reacts rapidly with fatty acids, forming methyl esters. Elimination of gaseous
+nitrogen drives the reaction forward. The reaction for the conversion of carboxylic acids to
+methyl esters (Equation 3) is outlined below:
+RCOOH + -CH2N+N → RCOOCH3 + N2
+Equation 3: The reaction for the conversion of carboxylic acids to methyl esters
+The yield is high and side reactions are minimal. Sample sizes of 100 - 500 µl are easily
+derivatized and the isolation of the methyl esters is simple and quantitative when dealing
+
+www.intechopen.com
+
+Derivatization Reactions and Reagents for Gas Chromatography Analysis
+
+87
+
+with acids having chain lengths from C8 to C24. However, care should be taken in handling
+diazomethane because it is carcinogenic, highly toxic, and potentially explosive.
+2.1.1.3 Pentafluorobenzyl bromide (PFBBr) and Pentafluorobenzyl-hydroxylamine
+hydrochloride (PFBHA)
+Pentafluorobenzyl bromide (C7H2F5Br) and also Pentafluorobenzyl-hydroxylamine
+hydrochloride can be used to esterify phenols, thiols, and carboxylic acids. Equation 4 below
+is an example for PFBBr derivatization process.
+R`OR + C7H2F5Br → R`OC7H2F5 + RBr
+Equation 4: Reaction of PFBBr with either phenols, thiols or carboxylic acids: R = Hydrogen
+Derivatization can be done with O-(2,3,4,5,6-pentafluorobenzyl)-hydroxylamine
+hydrochloride (PFBHA) for carbonyls and pentafluorobenzyl bromide (PFBBr) for
+carboxylic acid and phenol groups for gas (GC/MS) in an electron impact mode (EI) and a
+gas chromatograph/ion trap mass spectrometry (GC/ITMS) in both chemical impact and EI
+modes. To confirm different isomers, the PFBHA-derivatives of analytes can be
+rederivatized by silylation using N, O-bis (trimethylsilyl)-trifluoroacetamide (BSTFA) (Jang
+and Kamens, 2001).
+Example for the application of this method is from the work of Allmyr et al., (2006) where
+the analysis of Triclosan in human plasma and milk was accomplished by the conversion of
+Triclosan into its pentafluorobenzyl ester by adding 2 ml of H2O (Milli-Q), 50 μl of 2M KOH,
+10 μl pentafluorobenzyl chloride in 10% toluene and 0.3 g NaCl (more sodium chloride was
+added if emulsion formed upon mixing) to the sample extract and shaking the tube
+vigorously for 2 minutes. This was followed by extraction of the aqueous phase with 2 ml of
+n-hexane. Then, 3 ml of 98 % H2SO4 was added to the extract, and the tube inverted 60 times
+and another extraction using 2 ml of n-hexane followed. The final extract was reduced to 2
+ml under a gentle stream of nitrogen gas at room temperature. Approximately 0.5 ml of the
+extract was injected to GC for analysis.
+i.
+
+Organic Acids derivatisation
+
+The following procedure by Chien et al., (1998) and Galceran et al., (1995) is a variation of
+methods previously utilized for organic acid and phenol analysis. In the method, sample
+extracts for organic acid/phenol derivatization are first dried by passing a gentle stream of
+nitrogen in the sample. Once the solvent has been evaporated, acetone is added to bring each
+sample to a volume of 500 µL. Each sample is added 20 µL of 10% PFBBr solution and 50 µL of
+1,4,7,10,13,16-hexaoxacyclooctadecane [C2H4O]6 (18-crown-6 ether solution), both in acetone.
+Approximately 10 mg of potassium is added to each extract, and the extracts are capped and
+sonicated for three hours. Upon completion of sonication the acetone is evaporated by passing
+a gentle stream of nitrogen, and the residue dissolved into hexane for GC analysis.
+Equation 5 below shows the chemical reactions for the conversion of organic acids and
+phenols into their pentafluorobenzyl esters and ether respectively using pentafluorobenzyl
+bromide (PFBBr) derivatization.
+i.
+
+www.intechopen.com
+
+ROCOH + C7H2F5Br 
+ C7H2F5OCOR + HBr
+18  c  6 ether
+K 2 CO 3
+
+88
+
+Advanced Gas Chromatography – Progress in Agricultural, Biomedical and Industrial Applications
+
+ii.
+
+K 2 CO 3
+PhOH + C7H2F5Br 
+ C7H2F5OPh + HBr
+18  c  6 ether
+
+Equation 5: Reactions for the conversion of organic acids and phenols into their
+pentafluorobenzyl esters (i) and ether (ii) respectively using pentafluorobenzyl bromide
+(PFBBr).
+In another example of pentafluorobenzylation procedure (Naritisin and Markey, 1996 &
+Kawahara, 1968), 20 μl of PFBBr is added to the vial containing already extracted and
+cleaned sample in methyl chloride. The vial is then capped and shaken for 20 – 30 minutes.
+Gas chromatography analysis can then be accomplished using either of the two methods
+depending on the available detector. A portion of methylene chloride phase can be injected
+into the chromatograph for FID analysis or it can be evaporated using a gentle stream of
+nitrogen gas and re-dissolve in benzene for ECD analysis. Reagents containing fluorinated
+benzoyl groups are good for ECD analysis.
+ii.
+
+Carbonyls
+
+The derivatization process performed by Spaulding et al., (2003), Destaillats et al., (2001) &
+Rao et al., (2001) for the analysis of carbonyl involves first, the reduction in volume of
+sample extracts to < 50 µL under a gentle stream of nitrogen. Once the extract volume has
+been reduced, a 9:1 (v/v) mixture of carbonyl-free Acetonitrile: Dichloromethane (DCM) is
+added to bring the sample to a volume of 500 µL. This is followed by the addition of 50
+mgmL-1 solution of O-(2, 3, 4, 5, 6-pentafluorobenzyl) hydroxylamine hydrochloride
+(PFBHA) in methanol that will result to a target PFBHA concentration of 5 mM. The sample
+is left at room temperature for a period of 24 hours then subsequently analyzed using GC.
+The balanced chemical reaction where O-(2, 3, 4, 5, 6-pentafluorobenzyl) hydroxylamine
+hydrochloride (PFBHA) is used for the conversion of carbonyls into their pentafluorobenzyl
+oximes is provided below (Equation 6).
+R´OCR´´ + C6F5-ONH2 → C6F5-ONR´CR´´ + Isomer(s) + H2O
+Equation 6: Chemical reaction for the conversion of carbonyls into pentafluorobenzyl
+oximes using O-(2, 3, 4, 5, 6-pentafluorobenzyl) hydroxylamine hydrochloride (PFBHA).
+The PFBHA derivatization process for most of the carbonyl compounds could be completed
+in 2 h at room temperature (Bao et al., 1998).
+2.1.1.4 Benzylbromide
+Benzyl bromide reacts with the acid part of an alkyl acid to form an ester, and therefore
+increase the volatility of the analyte of interest. Orata et al., (2009) determined long chain
+perfluorinated acids namely; perfluoro-n-octanoic acid (PFOA), 2H-perfluoro-2-octenoic
+acid (FHUEA), 2H-perfluoro-2-decenoic acid (FOUEA) and 2H-perfluoro-2-dodecenoic acid
+(FNUEA) in biota (fish) and abiota (water) by derivatization and subsequent analysis by
+GC/MS. The method involved derivatization of long chain perfluorinated compounds using
+benzyl bromide solution and acetone to form benzylperfluorooctanoate (benzyl ester) as
+presented by the equation 7 below which shows the modification of perfluorooctanoic acid
+to the respective ester.
+
+www.intechopen.com
+
+Derivatization Reactions and Reagents for Gas Chromatography Analysis
+
+89
+
+CF3(CF2 )6COOH + C7H7Br → C15H7F15O2 + HBr
+Equation 7: Convertion of Perfluorooctanoic acid to Benzylperfluorooctanoate using benzyl
+bromide.
+Long Chain Perfluorinated alkyl acids derivatization procedure by Orata et al (2009) is as
+follows: Following extraction and sample clean up procedure, the sample is dried by a
+gentle stream of nitrogen. The sample residue is then dissolved in 0.5 mL of acetone and 0.1
+mL of benzyl bromide solution is added to it. The tube is heated at 80 °C for 15 min, cooled,
+and evaporated to dryness with nitrogen. The residue is then dissolved in 1 mL of
+methylene chloride for GC analysis. Results obtained in the study (Orata et al, 2009)
+demonstrate that GC/MS can be an alternative to the LC/MS method for quantification of
+perfluorinated acids in contaminated areas, where expected higher concentration of the
+analyte is expected. It was in the view of the author (Orata et al, 2009) that the method can
+be further improved to lower the detection limits.
+2.1.1.5 Tetrabutylammonium hydroxide (TBH)
+Derivatization of a carboxylic acid with tetrabutylammonium hydroxide (TBH) forms butyl
+ester, which will allow a longer retention times in a GC column (Lin et al., 2008). The reagent
+is most commonly used for low molecular weight acids and is especially suitable for low
+molecular weight amines (Regis, 1999). Equation 8 represents the derivatization reaction for
+the conversion of carboxylic acid to alkyl esters using TBH.
+[N (CH3)4]+[OH] – + RCOOH → RCOOC4H9
+Equation 8: Conversion of carboxylic acid to alkyl esters using TBH.
+The following derivatization procedure can be used for flash alkylation which is suitable for
+biological fluids and thermally stable fatty acids analysis. Biological fluid or tissue is first
+extracted using toluene. Then 4 mL of the extract is transferred into a nipple tube and
+evaporate under a gentle stream of nitrogen gas at 60 °C. 25 μL of TBH solution is added to
+dissolve the residue. After 30 minutes, 4 μL of the dissolved residue is injected directly onto
+the chromatograph. The injection port temperature is set at 260 °C or above in GC
+instrument.
+2.1.1.6 Boron trifluoride (BF3) in methanol or butanol
+Boron trifluoride (BF3) in methanol or n-Butanol has a general formula is F3B: HO–CnH2n+1
+where (n = 1 or 4). This reagent is convenient and inexpensive method for forming esters. It
+is most commonly used to form methyl (butyl) ester by reacting it with acids, as shown by
+the following general equation 9.
+F3B: HO–CnH2n+1 + RCOOH → RCOOCnH2n+1
+Equation 9: General equation for formation of alkyl esters using Boron trifluoride (BF3) as a
+derivatization reagent.
+Boron trifluoride reagent forms fluoroboron compounds by reaction with atmospheric
+oxygen and methanol and therefore making it prone to instability (Christie 1993). Therefore,
+it should always be stored at the refrigerator temperature discarded after a few months use.
+
+www.intechopen.com
+
+90
+
+Advanced Gas Chromatography – Progress in Agricultural, Biomedical and Industrial Applications
+
+In a study by Lough (1964) were polyunsaturated fatty acids were analyzed, it was observed
+that boron trifluoride-methanol will cleave the rings in cyclopropane fatty acids (commonly
+encountered in microorganisms), and it causes cis-trans isomerization of double bonds in
+conjugated fatty acids. In addition, it reacts with the antioxidant Butylated hydroxytolune
+(BHT) to produce spurious peaks in chromatograms.
+The following esterification procedure can be used in derivatization using Boron trifluoride.
+To a 100 mg organic acid in a vial, 3 mL BF3 in methanol or BF3 in n-butanol is added and
+heated to 60 °C for 5 to 10 minutes. Heating temperature and time may vary i.e. Ribeiro et al.,
+(2009) used 90 °C for 10 minutes for the process. This is followed by cooling and transferring
+the mixture to a separating funnel with 25 mL hexane. Further, the sample is washed 2 times
+with saturated NaCl solution, and then dried over anhydrous Na2SO4. The solvent is
+evaporated to concentrate the sample and lastly injected onto column for GC analysis.
+2.2 Silylation
+Silylation is the most prevalent derivatization method as it readily volatizes the sample and
+therefore very suitable for non-volatile samples for GC analysis. Silylation is the
+introduction of a silyl group into a molecule, usually in substitution for active hydrogen
+such as dimethylsilyl [SiH(CH3)2], t-butyldimethylsilyl [Si (CH3)2C(CH3)3] and
+chloromethyldimethylsilyl [SiCH2Cl(CH3)2]. Replacement of active hydrogen by a silyl
+group reduces the polarity of the compound and reduces hydrogen bonding (Pierce, 1968).
+Many hydroxyl and amino compounds regarded as nonvolatile or unstable at 200 – 300 °C
+have been successfully analyzed in GC after silylation (Lin et al., 2008 & Chen et al., 2007).
+The silylated derivatives are more volatile and more stable and thus yielding narrow and
+symmetrical peaks (Kataoka, 2005).
+2.2.1 Silylation reaction and mechanism
+The silylation reaction is driven by a good leaving group, which means a leaving group with
+a low basicity, ability to stabilize a negative charge in the transitional state, and little or no
+back bonding between the leaving group and silicon atom (Knapp, 1979). The mechanism
+involves the replacement of the active hydrogens (in -OH, -COOH, -NH, -NH2, and -SH
+groups) with a trimethylsilyl group. Silylation then occurs through nucleophilic attack
+(SN2), where the better the leaving group, the better the siliylation. This results to the
+production of a bimolecular transition state (Kühnel et al., 2007) in the intermediate step of
+reaction mechanism. The general reaction for the formation of trialkylsilyl derivatives is
+shown by equation 10. The leaving group in the case of trimethylchlorosilane (TMCS) is the
+Cl atom.
+
+Equation 10: General reaction mechanism for the formation of trialkylsilyl derivatives for
+trimethylchlorosilane, X = Cl
+
+www.intechopen.com
+
+Derivatization Reactions and Reagents for Gas Chromatography Analysis
+
+91
+
+In silylation derivatisation, care must be taken to ensure that both sample and solvents are
+dry. Silyl reagents generally are moisture sensitive, and should be stored in tightly sealed
+containers (Sobolevsky et al., 2003) and therefore the solvents used should be as pure and as
+little as possible. This will eliminate excessive peaks and prevent a large solvent peak. In
+silylation, pyridine is the most commonly used solvent. Although pyridine may produce
+peak tailing, it is an acid scavenger and will drive the reaction forward. In many cases, the
+need for a solvent is eliminated with silylating reagents. The completion of the
+derivatization process in silylation is usually observed when a sample readily dissolves in
+the reagent. According to Regis (1999) the ease of reactivity of the functional group toward
+silylation follows the order:
+Alcohol > Phenol > Carboxyl > Amine > Amide /hydroxyl
+For alcohols, the order will be as follows:
+Primary > Secondary > Tertiary
+Many reagents will require heating that is not in excess of 60 °C for about 10 - 15 minutes, to
+prevent breakdown of the derivative. Although hindered products may require long term
+heating.
+2.2.2 Derivatization reagents used in Silylation
+Reagents used for the silylation derivatization process include Hexamethyldisilzane
+(HMDS),
+Trimethylchlorosilane
+(TMCS),
+Trimethylsilylimidazole
+(TMSI),
+Bistrimethylsilylacetamide (BSA), Bistrimethylsilyltrifluoroacetamide (BSTFA), N-methyltrimethylsilyltrifluoroacetamide (MSTFA), Trimethylsilyldiethylamine (TMS-DEA), Nmethyl-N-t-butyldimethylsilyltrifluoroacetamide
+(MTBSTFA),
+and
+Halo-methylsilyl
+derivatization reagents. Halo-methylsilyl derivatization reagents which although not
+discussed in this chapter can produce both silylated and halogenated derivatives for ECD.
+Silyl reagents will react with both alcohols and acids to form trimethylsilyl ethers and
+trimethylsilyl esters respectively. These derivatives formed are volatile and for the most
+part, are easily separated (Scott, 2003). Silyl reagents are compatible with most detection
+systems but, if they are used in excess, they can cause difficulties with flame ionization
+detectors (FID) (Sobolevsky et al, 2003). Silyl reagents are influenced by both the solvent
+system and the addition of a catalyst. A catalyst (e.g., trimethylchlorosilane or pyridine)
+increases the reactivity of the reagent.
+Reagents that introduce a t-butyldimethylsilyl group in place of the trimethylsilyl group
+were developed to impart greater hydrolytic stability to the derivatives. These tbutyldimethylsilyl derivatives not only have improved stability against hydrolysis, but
+they also have the added advantage of distinctive fragmentation patterns, which makes
+them useful in a variety of GC/MS applications. Most trimethylsilyl and tbutyldimethylsilyl derivatives have excellent thermal stability and are amenable to a wide
+range of injection and column conditions (Pierce 2004). Silylation gives ability to
+derivatize a wide variety of compounds for GC analysis. In addition a large number of
+silylating reagents available.
+
+www.intechopen.com
+
+92
+
+Advanced Gas Chromatography – Progress in Agricultural, Biomedical and Industrial Applications
+
+2.2.2.1 Bis(trimethylsilyl)–acetamide (BSA)
+Bis(trimethylsilyl)–acetamide (BSA) was the first widely used silylating reagent. The
+strength of BSA as a strong silylating reagent is enhanced more because acetamide is a good
+leaving group. BSA reacts under mild conditions and produces relatively stable byproducts. However, the by-product which is trimethylsilyl -acetamide sometimes produces
+peaks that overlap those of other volatile derivatives as shown in the equation 11 below.
+
+Equation 11: Equation showing the by-product which is trimethylsilyl –acetamide from
+Bis(trimethylsilyl)–acetamide silylation reagent: TMS = Si(CH3)3, Y = O, S, NH, NR`, COO,
+R, R` = Alk, Ar.
+BSA forms highly stable trimethylsilyl derivatives with most organic functional groups
+under mild reaction conditions but their mixtures also oxidize to form silicon dioxide, which
+can foul FID detectors. Experimentally, BSA has been found to be very efficient and only a
+small amount of reagent is required. Moreso the derivatization process takes a shorter time
+at room temperature. Saraji and Mirmahdieh, (2009) studied the influence of different
+parameters on the in-syringe derivatization process using BSA were three parameters, the
+amount of the BSA, the reaction time and the reaction temperature were investigated to
+achieve the highest derivatization reaction yield. The results showed that 0.2 µL volume of
+BSA derivatization reagent is enough to obtain the maximum derivatization reaction yield
+for all compounds in 2 min time at room temperature.
+2.2.2.2 Bis(trimethylsilyl)trifluoroacetamide (BSTFA)
+N, N–bis(trimethyl–silyl)trifluoro-acetamide (BSTFA) just like bis(trimethylsilyl)–acetamide
+(BSA) are the two most popular reagents for Silylation type of derivatization. They react
+rapidly with organic acids to give high yields. Gerhke, (1968) developed a method in which
+a few milligram of an acid is placed in a vial and about 50 µl of BSA or BSTFA is added to it.
+The reaction can be expected to be complete directly within the solution, but the mixture can
+also be heated for 5 to 10 min. at 60 °C to ensure that reaction is really complete, before GC
+analysis. BSTFA reacts faster (as shown using the reaction 12 below) and more completely
+than BSA, due to presence of trifluoroacetyl group.
+
+Equation 12: Silylation reaction using N, N–bis(tri methyl–silyl)trifluoro-acetamide: TMS =
+Si(CH3)3, Y = O, S, NH, NR`, COO, R, R` = Alk, Ar.
+The high volatility of BSTFA and its byproducts results in separation of early eluting peaks.
+In addition, its stable products result in low detector noise and fouling. Addition of
+
+www.intechopen.com
+
+Derivatization Reactions and Reagents for Gas Chromatography Analysis
+
+93
+
+trimethylchlorosilane (TMCS) catalyzes reactions of hindered functional groups in
+secondary alcohols and amines.
+In the method used by Schauer et al., (2002), sample extracts for analysis of hydroxylated
+polycyclic aromatic hydrocarbons (Hydroxy-PAHs), the sample extracts are first reduced in
+volume to 200 µL under a gentle stream of nitrogen. To each sample 20 µL of freshly
+prepared solution of 10% (v/v) Trimethylchlorosilane (TMCS) in N-O-bis (trimethylsilyl)trifluoroacetamide (BSTFA) is added. The samples are capped, wrapped with Teflon tape,
+and heated at 45 °C for 24 hours to convert the targeted analytes to their trimethylsilyl
+derivatives. The balanced reaction (Equation 13) for this conversion to trimethyl silyl (TMS)
+ethers using N-O-bis (trimethylsilyl)-trifluoroacetamide (BSTFA) is provided in below.
+
+Equation 13: Derivatization of Hydroxylated polycyclic aromatic hydrocarbons (HydroxyPAHs) into trimethyl silyl (TMS) ethers using BSTFA.
+Caution must be exercised to prevent any water from entering the samples as this will lead
+to hydrolysis of the BSTFA reagent and prevent any of the targeted analytes from
+undergoing derivatization.
+Szyrwińska et al., (2007) and Kuo and Ding, (2004) used N, O-bis(trimethylsilyl)trifluoroacetamide (BSTFA) containing 1% trimethylchlorosilane (TMCS),
+and bromoacetonitrile (BAN) reagents to analyze standard solutions of Bisphenol-A (BPA)
+and extracts of powdered milk.
+The method was by derivatization using Trimethylsilylation with the derivatizing reagent
+which was BSTFA + 1% TMCS. Bisphenol-A standard solution (200 μL) was placed in a vial
+(1 mL) and evaporated to dryness under a gentle stream of nitrogen at 60 °C. Silylating
+agent (BSTFA containing 1 % TMCS; 100 μL) was added to the residue and the vial was
+vortex mixed and heated at 80 °C for 30 min. After cooling, the derivatized solution was
+evaporated to dryness and the residue was re-dissolved in 100 μL chloroform. This solution
+(1 μL) was analyzed by GC–MS.
+2.2.2.3 N-methyl-trimethylsilyltrifluoroacetamide (MSTFA)
+N-methyl-trimethylsilyltrifluoroacetamide (MSTFA) is the most volatile of the trimethylsilyl
+acetamides. It is most useful for the analysis of volatile trace materials where the derivatives
+may be near the reagent or by-product peak. The general equation of the reaction (Equation
+14) using MSTFA is shown below;
+
+Equation 14: Silylation reaction using N-methyl-trimethylsilyltrifluoroacetamide (MSTFA):
+TMS = Si(CH3)3, Y = O, S, NH, NR`, COO, R, R` = Alk, Ar.
+
+www.intechopen.com
+
+94
+
+Advanced Gas Chromatography – Progress in Agricultural, Biomedical and Industrial Applications
+
+Silylation derivatization procedures by Butts, (1972) using BSTFA, BSA, or MSTFA formed
+the basis for derivatisation application that was used to analyze over 200 organic
+compounds including carboxylic acids, amines, alcohols, phenols, and nucleic acids. The
+basis of the procedure is as follows: to a 1 - 5 mg sample, 100 μL each of pyridine as a
+solvent and silylating reagent are added. The mixture is capped and heated to 60 °C for 20
+minutes. For moderately hindered or slowly reacting compounds, BSTFA is recommended
+for use with 1 or 10 % TMCS catalyst. Under extreme conditions compounds may require
+heating for up to 16 hours. When Ketones are derivatized using this procedure, they may
+form 15 – 20 % enol trimethylsilyl esters. The esters can be eliminated by first forming a
+methoxime. In the case of Amino acids the reaction may be required to be in a sealed tube or
+vial (Butts, 1972). The samples are heated cautiously, near the boiling point of the mixture
+until a clear solution is obtained.
+2.2.2.4 Hexamethyldisilzane (HMDS)
+Hexamethyldisilzane (HMDS) is a weak donor, as it has symmetry. If it is used for
+derivatization, it will attack only easily silylated hydroxyl groups. Equation 15 shows the
+reaction using hexamethyldisilzane.
+
+Equation 15: Silylation reaction using Hexamethyldisilzane (HMDS): Y = O, S, NH, NR`,
+COO, R, R` = Alk, Ar.
+Hexamethyldisilzane is a weak TMS donor that can be used for silylation of carbohydrates.
+It can be used as mixture with pyridine and trifluoroacetic acid. The derivatization
+procedure is simple as shown in this procedure where 2 ml of hexamethyldisilazane, 2 ml of
+pyridine and 175 μL of trifluoroacetic acid are added to the samples. Silylation is then
+performed at 60 °C for 1 hour.
+2.2.2.5 Trimethylchlorosilane (TMCS)
+Trimethylchlorosilane (TMCS) is also a weak donor. In addition, it produces hydrochloric
+acid as a by product with is acidic. It is therefore not commonly used. However, it is often
+found as a catalyst to increase TMS donor potential. An example of derivatization reaction
+using Trimethylchlorosilane (TMCS) is shown in equation 16.
+
+Equation 16: Silylation reaction using Trimethylchlorosilane (TMCS): Y = O, S, NH, NR`,
+COO, R, R` = Alk, Ar.
+
+www.intechopen.com
+
+Derivatization Reactions and Reagents for Gas Chromatography Analysis
+
+95
+
+2.2.2.6 Trimethylsilylimidazole (TMSI)
+Trimethylsilylimidazole (TMSI) is not a weak donor, but it is selective as it reacts with
+alcohols and phenols but not amines or amides (nitrogen groups). Since it is selective, it will
+target the hydroxyls in wet sugars and also derivatize the acid sites of amino acids. It will
+leave the amino group free for fluorinated derivatization. An example of reaction equation
+using TMSI is shown below (Equation 17).
+
+Equation 17: Silylation reaction using Trimethylsilylimidazole (TMSI): TMS = R, R` = Alk,
+Ar.
+The derivatives produced are suitable for ECD analysis. Isoherranen and Soback, (2000)
+used the following derivatization procedure for the determination of Gentamicin. In the
+procedure, the sample solution was evaporated to dryness under a stream of nitrogen in an
+auto sampler vial and the dry residue was dissolved in 50 ml of anhydrous pyridine. To the
+pyridine solution, 100 ml of TMSI were added and the vial was closed and incubated for 15
+min at 60 °C. Thereafter, 70 ml of Trifluoroacetic anhydride (TFAA) were added and the vial
+was closed and incubated for 60 min at 60 °C.
+2.2.2.7 Trimethylsilyldiethylamine (TMS-DEA)
+Trimethylsilyldiethylamine (TMS-DEA) reagent is used for derivatizing amino acids,
+antibiotics, urea-formaldehyde condensates, steroids and carboxylic acids and it also targets
+hindered compounds. Hydrolysis of TMS derivatives and reagents produces
+hexamethyldisiloxane [(CH3)3SiOSi(CH3)]. Hexamethyldisiloxane is quite inert and does not
+interfere in the reaction or produce byproducts with the sample. The reaction by product
+diethylamine is very volatile and the reaction can be driven to completion by evaporating
+the diethylamine produced. Equation 18 shows the derivatisation reaction using TMS-DEA
+reagent.
+TMS-N (C2H5)2+ H-Y-R → TMS-Y-R + H-N (C2H5)2
+Equation 18: Silylation reaction using Trimethylsilyldiethylamine (TMS-DEA) reagent: TMS
+= Si(CH3)3, Y = O, S, NH, NR`, COO, R, R` = Alk, Ar.
+Because of its high volatility, it is eluted with the solvent or reagent and usually does not
+interfere with the chromatogram.
+2.2.2.8 N-methyl-N-t-butyldimethylsilyltrifluoroacetamide (MTBSTFA)
+Silylation
+derivatisaion
+using
+N-methyl-N-t-butyldimethylsilyltrifluoroacetamide
+(MTBSTFA) replaces the active hydrogen with tert-Butyldimethylsilyl (t-BDMS) group. The
+tert-Butyldimethylsilyl derivatives which are more resistant to hydrolysis and can be up to
+10,000
+times
+more
+stable
+than
+TMS
+derivatives.
+N-methyl-N-tbutyldimethylsilyltrifluoroacetamide will target sulfonic and phosphoric groups if present
+
+www.intechopen.com
+
+96
+
+Advanced Gas Chromatography – Progress in Agricultural, Biomedical and Industrial Applications
+
+and it is suitable for GC with Mass spectroscopy detector as it produces easily interpreted
+mass spectra. A typical (shown as equation 19) reaction involving MTBSTFA as the
+derivatization reagent is shown below.
+
+Equation 19: Silylation reaction using N-methyl-N-t-butyldimethylsilyltrifluoroacetamide
+(MTBSTFA) reagent: Y = O, S, NH, NR`, COO, R, R` = Alk, Ar.
+Silylation derivatization procedure using MTBSTFA can be carried out in the laboratory as
+follows. To a 1 - 5 mg sample, 100 μL each of reagent and solvent is added and shaken on a
+vortex mixture for five minutes. In case of hindered compounds, they should be heated in a
+closed vial at 60 °C for 1 hour. For alcohols and amines, MTBSTFA with 1 % tert-butyl
+dimethylchlorosilane (t-BDMCS) catalyst is used.
+In another method where dicarboxylic acids are produced, 150 μL of sample, 100 μL of
+acetonitrile and 10 uL of MTBSTFA are added. The vial is sealed and the mixture is allowed
+to stand overnight. Then 100 μL of water is added to hydrolyze any unreacted MTBSTFA,
+followed with 250 μL of hexane. Vortex mixing and centrifuging follows before the upper
+hexane layer is decanted and dried to approximately 5 μL under a gentle stream of nitrogen.
+The sample is finally injected onto GC column for analysis.
+2.3 Acylation
+Derivatization by acylation is a type of reaction in which an acyl group is introduced to an
+organic compound. In the case of a carboxylic acid, the reaction involves the introduction of
+the acyl group and the loss of the hydroxyl group. Compounds that contain active
+hydrogens (e.g., -OH, -SH and -NH) can be converted into esters, thioesters and amides,
+respectively, through acylation (Zenkevich, 2009). Acylation is also a popular reaction for
+the production of volatile derivatives of highly polar and in volatile organic materials
+(Zaikin and Halket, 2003). Acylation also improves the stability of those compounds that are
+thermally labile by inserting protecting groups into the molecule. Acylation can render
+extremely polar materials such as sugars amenable to separation by GC and, consequently,
+are a useful alternative or complimentary to the silylation. Equation 20 shows an example of
+an acylation is the reaction between acetic anhydride and an alcohol.
+H  Catalyst 
+CH3OCOCOCH3 + HOR 
+ CH3OCOR´ + HOCOCH3
+
+Equation 20: Reaction between acetic anhydride and an alcohol to produce acetate ester and
+acetic acid. (Blau and Halket, 1993).
+Acylation has the following benefits in GC analysis.
+i.
+ii.
+
+It improves analyte stability by protecting unstable groups.
+It can provide volatility on substances such as carbohydrates or amino acids, which
+have many polar groups that they are nonvolatile and normally decompose on heating.
+
+www.intechopen.com
+
+Derivatization Reactions and Reagents for Gas Chromatography Analysis
+
+97
+
+iii. It assists in chromatographic separations which might not be possible with compounds
+that are not suitable for GC analysis.
+iv. Compounds are detectable at very low levels with an electron capture detector (ECD).
+In addition, acyl derivatives tend to produce fragmentation patterns of compounds in MS
+applications which are clear to interpret and provide useful information on the structure of
+these materials. Acylation can be used as a first step to activate carboxylic acids prior to
+esterfication. However, acylation derivatives can be difficult to prepare especially because of
+interference of other reaction products (acid by-products) which need to be removed before
+GC separation. Acylation reagents are moisture sensitive, hazardous and odorous.
+2.3.1 Derivatization reagents used in acylation
+Common reagents for the Alkylation process are Fluoracylimidazoles, Fluorinated
+Anhydrides, N-Methyl-bis(trifluoroacetamide) (MBTFA), Pentafluorobenzoyl Chloride
+(PFBCI) and Pentafluoropropanol (PFPOH). Acylating reagents readily target highly polar,
+multi-functional compounds, such as carbohydrates and amino acids. In addition, acylating
+reagents offer the distinct advantage of introducing electron-capturing groups (Kataoka,
+2005), and therefore enhancing detectability during analysis. These reagents are available as
+acid anhydrides, acyl derivatives, or acyl halides. The acyl halides and acyl derivatives are
+highly reactive and may be suited for use where issues of steric hindrance may be a factor.
+Acid anhydrides are available in a number of fluorinated configurations, which can improve
+detection. These fluorinated anhydride derivatives are used primarily for electron capture
+detection (ECD), but can also be used for flame ionization detection (FID). Fluorinated
+anhydrides are often used in derivatizing samples to confirm drugs of abuse. Despite this
+special use, their acidic nature requires that any excess or byproducts be removed prior to
+GC analysis to prevent deterioration of the column. Because of the acidic byproducts, the
+derivatization process has been carried out in pyridine, tetrahydrofuran or another solvent
+capable of accepting the acid by-product.
+2.3.1.1 Fluorinated anhydrides
+Fluorinated Anhydrides include the following compounds; Trifluoroacetoic Anhydride
+(TFAA), Pentafluoropropionic Anhydride (PFPA) and Heptafluorobutyric Anhydride
+(HFBA) which are suitable for both Flame ionization Detectors (FID) and Electron Capture
+Detectors (ECD). Equations i, ii, and iii representing acylation reactions using HFBA, PFPA
+and TFAA derivatization reagents respectively are shown below (Equation 21).
+i.
+ii.
+iii.
+
+C3F7OCOCOC3F7 + H-Y-R → C3F7OC-Y-R + C3F7OC-OH
+C2F5OCOCOC2F5 + H-Y-R → C2F5OC-Y-R + C2F5OC-OH
+CF3OCOCOCF3 + H-Y-R → CF3OC-Y-R + CF3OC-OH
+
+Equation 21: Derivatization reactions using HFBA, PFPA and TFAA respectively: Y = O,
+NH, NR´, R, R´ = Alk, Ar.
+The perfluoroacid anhydrides and acyl halide reagents react to form acidic byproducts
+which must be removed prior to the GC analysis in order to prevent damage to the
+
+www.intechopen.com
+
+98
+
+Advanced Gas Chromatography – Progress in Agricultural, Biomedical and Industrial Applications
+
+chromatography column. The reagents basically react with alcohols, amines, and phenols to
+produce stable and highly volatile derivatives. Bases, such as triethylamine, can be added as
+an acid receptor and promote reactivity (Lin et al., 2008). Amine bases also may be used as
+catalysts/acid acceptors.
+The following procedure by Palmer et al., (2000) for derivatization using Fluorinated
+Anhydrides involves the use of Triethylamine (TMA), as a catalyst. In a 5 mL vial, 50 μg (or
+250 μg in case of FID) of sample is dissolve in 0.5 mL benzene. Then, 0.1 mL of 0.05 M
+triethylamine in benzene is added followed by 10 μL of desired anhydride such as
+heptafluorobutyric Anhydride (HFBA). The vial is capped and heat to 50 °C for 15 minutes.
+This is followed by cooling and addition of 1 mL of a 5 % aqueous ammonia solution. The
+cool mixture is shaken for 5 minutes, to separate the benzene layer, and injected directly
+onto the GC column.
+2.3.1.2 Fluoracylimidazoles
+Fluoracylimidazoles include Trifluoroacetylimidazole (TFAI), Pentafluoropropanylimidazole
+(PFPI) and Heptafluorobutyrylimidazole (HFBI) which reacts under mild conditions. The byproducts (imidazole and/or N-methytrifluoroacetamide) are not acidic and therefore do not
+harm the column. Care must be taken because these reagents react violently with water.
+Fluoracylimidazoles work best with amines and hydroxy compounds (Kataoka, 2005). For
+example Heptafluorobutyrylimidazole readily forms derivatives with phenols, alcohols and
+amines (as shown in equation 22) and the derivatives are suitable for ECD.
+
+NOCC3F7 + H-Y-R
+N
+
+C3F7OC-Y-R +
+
+NH
+N
+
+Equation 22: Derivatization reaction using Heptafluorobutyrylimidazole: Y = O, NH, NR´, R,
+R´ = Alk, Ar.
+The following procedure can be used for the derivatization of alcohols, amines, amides, and
+phenols with imidazoles. To 1- 2 mg of sample in a vial, 2 mL toluene is added followed by
+0.2 mL of imidazole (HFBI). The vial is capped and heat to 60 °C for 20 minutes. This is
+followed by cooling the mixture and then washing it 3 times with 2 mL of H2O. The mixture
+is then dried over MgSO4 and inject onto the GC for separation.
+2.3.1.3 N-Methyl-bis(trifluoroacetamide) (MBTFA)
+N-Methyl-bis(trifluoroacetamide) (MBTFA) reagent reacts rapidly with primary and
+secondary amines, and also slowly with hydroxyl groups and thiols. Reaction conditions are
+mild with relatively inert and non acidic by-products and therefore do not damage the GC
+column (Lelowx et al., 1989). The general reaction is presented in equation 23:
+F3COCN (CH3) OCCF3 + H-Y-R → F3OC-Y-R + CH3NHOCCF3
+Equation 23: Representative reaction of the derivatization of amines, hydroxyl groups and
+thiols using N-Methyl-bis(trifluoroacetamide) (MBTFA) reagent: Y = O, S, NH, NR´, R, R´ =
+Alk, Ar.
+
+www.intechopen.com
+
+Derivatization Reactions and Reagents for Gas Chromatography Analysis
+
+99
+
+N-Methyl-N-bis(trifluoroacetamide is recommended for the analysis of sugars (Matsuhisa,
+2000; Hannestad, 1997) and as an acylation reaction is often used for amine drugs, such as
+stimulants, amino acids, and alcohols.
+In the method used by Matsuhisa, (2000), 20 μL of D-glucose standard aqueous solution
+(10 μg/mL) was sampled and freeze-dried. Trifluoroacetylation was performed by adding
+10 μL of pyridine and 10 μL of MBTFA (N-methyl-bis-trifluoroacetamide) to the dried
+sample, and then heating at 60 °C for 60 minutes. The cooled sample was ready for GC
+analysis.
+Donike, (1973) applied the following procedure for the rapid derivatization of amines. To 10
+mg sample, 0.2 mL MBTFA and 0.5 mL solvent of choice is added in a reaction vial. The vial
+is capped and heat to 60 - 100 °C for 15 to 30 minutes. It was also observed that some
+compounds with steric hindrance require additional heating.
+2.3.1.4 Pentafluorobenzoyl Chloride (PFBCI)
+Pentafluorobenzoyl chloride (PFBCI) is used in making derivatives of alcohols and
+secondary amines of which secondary amines are the most highly reactive, forming the most
+sensitive ECD derivatives of amine and phenol. Phenols are the most receptive site for this
+reagent (Regis, 1999). Pentafluorobenzoyl chloride (PFBCI) is suitable for functional groups
+that are sterically hindered. A base such as NaOH is often used to remove the HCl that is
+produced as byproduct. This derivatization procedure which is presented by the reaction
+below (equation 24) basically uses a pentafluorobenzoyl chloride (PFBCl) to provide rapid
+formation of the derivatives of amines and phenols.
+C6 F5-OCCl + C6H5-OH → C6 F5-OCO- C6H5 + HCl
+Equation 24: Formation of derivatives of amines and phenols using Pentafluorobenzoyl
+chloride (PFBCI).
+The following derivatization procedure can be used for PFBCI reagent. In a 5 mL vial, 25 - 50
+mg of sample and 2.5 mL of 2.5 N NaOH are dissolved. Then, 0.1 g of PFBCl, is added and
+the vial is capped, shaken vigorously for 5 minutes. The derivative formed is extracted into
+methyl chloride and dried over MgSO4. The sample is then injected directly onto the GC
+column.
+2.3.1.5 Pentafluoropropanol (PFPOH)
+Pentafluoropropanol (CF3CF2CH2OH) is used in combination with pentafluoropropionic
+anhydride (PFPA) and is applied commonly with polyfunctional bio-organic compounds
+(Regis, 1999). For example, 2,2,3,3,3-Pentafluoropropanol is used in combination with PFPA
+to make derivatives of the most common functional groups, especially polyfunctional bioorganic compounds (Regis, 1999). The formed derivatives are highly suitable for ECD.
+Sample analysis and derivatization can be done through the following sequential
+derivatization procedure, in which 1 mg of sample is added in a reaction vial, followed by
+the addition of 50 μL PFPOH and 200 μL of PFPA. The sample is then heated to 75 °C for 15
+minutes and then evaporated to dryness under N2. An additional 100 μL PFPA is added and
+the sample is again heated to 75 °C for 5 minutes. The sample is finally evaporated to
+dryness and dissolved in ethyl acetate prior to injection.
+
+www.intechopen.com
+
+100
+
+Advanced Gas Chromatography – Progress in Agricultural, Biomedical and Industrial Applications
+
+2.3.1.6 4-Carbethoxyhexafluorobutyryl chloride (4-CB)
+4-Carbethoxyhexafluorobutyryl chloride (4-CB) forms stable products with secondary
+amines, such as methamphetamine, allowing the removal of excess agent by adding protic
+solvents. 4-Carbethoxyhexafluorobutyryl chloride decreases the net charge of the peptides
+and increased hydrophobicity (Klette, 2005). The following equation 25 shows the
+derivatization of an amine using 4-CB reagent.
+ClOCC3F6OCOC2H5 + R-NH2 → RNHOCC3F6OCOC2H5 + HCL
+Equation 25: Amine derivatization using 4-Carbethoxyhexafluorobutyryl chloride (4-CB)
+reagent.
+The procedure for derivatization follows the one used by Dasgupta et al., (1997). In the
+procedure, 50 μL of 4-CB is added to dried sample (dried by passing of a gentle stream of
+nitrogen gas to remove the organic phase) followed by incubation at 80 °C for 20 minutes.
+After derivatization the excess 4-CB is evaporated and the derivatized sample is
+reconstituted in 50 μL ethyl acetate of which 1 - 2 μL is injected to GC for analysis.
+
+3. GC Chiral Derivatization
+Chiral derivatization involves reaction of an enatiomeric molecule with an enatiomerically
+pure chiral derivatizing agent (CDA) to form two diastereomeric derivatives that can be
+separated in this case using GC. A solution in which both enantiomers of a compound are
+present in equal amounts is called a racemic mixture. Diastereomers are stereoisomers (they
+have two or more stereo centers) that are not related as object and mirror image and are
+therefore not enantiomers. In other word, unlike enatiomers which are mirror images of
+each other and non-sumperimposable, diastereomers are not mirror images of each other
+and non-superimposable. Diastereomers can have different physical properties and
+reactivity.
+Any molecule having asymmetric carbon is called as chiral molecule. Chirality of analyte
+molecules requires special consideration in their analysis and separation techniques.
+Scientists and other regulatory authorities are in the demand of data on concentrations and
+toxicity of the chiral pollutants, and therefore chiral derivatization is becoming an essential,
+urgent and demanding field. However the derivatization procedures are tedious and time
+consuming due to the different reaction rates of the individual enantiomers (Schurig, 2001).
+Generally, there are two ways of separating enantiomers by chromatography:
+i.
+ii.
+
+Separation on an optically active stationary phase
+Preparation of diastereomeric derivatives that can be separated on a non chiral
+stationary phase.
+
+The second option (ii above) requires derivatization of the analyte molecule. The presence of
+a suitable functional group in a pollutant is a condition for a successful derivatization of a
+chiral molecule. The indirect chromatographic analysis of racemic mixtures can be achieved
+by derivatization with a chiral derivatizing agent resulting into the formation of
+diastereoisomeric complex/salt (Hassan et al., 2004). From the resulting chromatograms,
+calculations are made to determine the enantiomeric concentration of the analyte. The
+
+www.intechopen.com
+
+Derivatization Reactions and Reagents for Gas Chromatography Analysis
+
+101
+
+diastereoisomers having different physical and chemical properties can be separated from
+each other by an achiral chromatographic method. Nowadays, the chromatographic
+methods are the most popular for enantiomeric analysis of environmental pollutants
+(Hassan et al 2004).
+3.1 Gas chromatography chiral derivatization reagents
+Gas Chromatography analysis of enantiomeric compounds on nonracemic or achiral
+stationary phases requires the use of enantiopure derivatization reagents (Hassan et al,
+2004). Enantiopure compounds refer to samples that contain molecules having one chirality
+within the limits of detection. These reagents generally target one specific functional group
+to produce diastereomers of each of the enantiomeric analytes in GC to produce
+chromatograms. Some of the most common Gass Chromatography chiral derivatization
+reagents are: (-) menthylchloroformate (MCF), (S)-(–)-N-(Trifluoroacetyl)-prolylchlorides
+(TPC), (–)-α-Methoxy-α-trifluoromethylphenylacetic acid (MTPA). Examples of the use of
+these derivatizing agents were employed in analysis of major drugs of forensic interest, and
+for optically active alcohols (Tagliaro et al., (1998).
+3.1.1 N-trifluoroacetyl-L-prolyl chloride (TPC)
+The reagent is used for optically active amines, most notably amphetamines as represented
+in the following reaction (equation 26) where N-Trifluoroacetyl-L-prolyl chloride couples
+with amines to form diastereomers which can be separated on GC columns as it increases
+the sample volatility.
+
+Equation 26: N-Trifluoroacetyl-L-prolyl chloride derivatization of amines
+The standard TPC derivatization procedure is as follows; following sample clean up and
+extraction procedure, 1.0 mL of the TPC reagent is added to the clean sample. The mixture is
+allowed to stand for 5 min before the addition of 20 µL of triethylamine to take up excess
+unreacted TPC. After 15 min of intermittent shaking, 1.0 mL of 6 N HC1 is used to remove
+the ammonium salt. The mixture is finally washed with 1 mL of distilled water and then
+dried over anhydrous magnesium sulfate before dilution and analyzed by GC.
+3.1.2 (S)-(–)-N-(Trifluoroacetyl)-prolylchloride (l-TPC)
+(S)- (–)-N-(Trifluoroacetyl)-prolylchloride (l-TPC) is widely used for amine drugs analysis.
+Qiao Feng Tao & Su Zeng (2002) analyzed the enantiomers of chiral amine drugs by using
+stereo selective methods to separate enantiomers on an achiral capillary gas chromatography
+by pre-column chiral derivatization with S-(_)-N-(fluoroacyl)-prolyl chloride. In the study, it
+was noted that the stereo selectivity and sensitivity can be improved by chiral derivatization.
+The method has been used to determine S-(+) - methamphetamine in human forensic samples
+
+www.intechopen.com
+
+102
+
+Advanced Gas Chromatography – Progress in Agricultural, Biomedical and Industrial Applications
+
+and to analyze enantiomers of amphetamine and fenfluramine in rat liver microsomes. Two
+analytical procedures used by Qiao Fang Tao and Su Zing (2002) for aqueous and organic
+phase derivatization methods are described below.
+Aqueous phase derivatization method: Urine or liver homogenate was added to a 10 ml
+Teflon-lined, screw-capped test tube. The pH of the sample was adjusted to 9 by 10 M
+NaOH, then 0.5 ml of chilled 1 M sodium bicarbonate/sodium carbonate buffer (pH 9.0).
+After mixing, 40 µL of S-(_)-TFAPC was added, and the tube was vortex mixed for 30 min at
+room temperature. The resulting mixture was saturated with NaCl and adjusted to pH 9,
+followed by addition of 0.5 ml of chilled 1 M sodium bicarbonate/sodium carbonate buffer
+(pH 9.0) and extracted with 4 ml of ethyl acetate by gently shaking for 15 min. After the
+phases separate, the organic layer was washed with 2 ml of deionized water. The organic
+layer was evaporated to dryness under a gentle stream of air at 40 °C. The residue was
+cooled to room temperature and reconstituted with ethyl acetate. An aliquot of 1 µL of
+analyte was analyzed by GC/MS.
+Organic phase derivatization method: A 1.0 ml sample of microsomal mixture spiked with
+chiral amine was piped into a 15 ml screw capped test tube. The pH of the sample was
+adjusted to 12 – 13 with 40% NaOH. The mixtures were extracted with 2 ml of chloroform
+by rotatory shaking for 1 min. After centrifugation at 4000 rpm for 10 min, the aqueous
+phase was removed by aspiration. The remaining organic phase was dried by anhydrous
+sodium sulfate, and then transferred to another clean screw-capped test tube. A 10 µL
+sample of triethylamine as a catalytic agent and 40 µL S-(_)-TFAPC were added into the test
+tube and mixed. The tube was capped and allowed to react for 15 min at room temperature
+by gentle shaking. The chloroform layer was washed with 2 ml distilled water and
+evaporated to dryness at under a water bath and a gentle stream of air 50° C. The residues
+were allowed to cool to room temperature and reconstituted with 40 µL ethyl acetate prior
+to injection into the GC/FID system (Qiao Feng Tao & Su Zeng, 2002).
+3.1.3 (–)-α-Methoxy-α-trifluoromethylphenylacetic acid (MTPA)
+(–)-α-Methoxy-α-trifluoromethylphenylacetic acid is also mostly used in drug analysis. In a
+study by S-M Wang et al., (2005) pharmaceutical drugs were analyzed using compounds
+that were derivatized with (–)-α-Methoxy-α-trifluoromethylphenylacetic acid (MTPA) as the
+derivatizing reagent. These types of derivatization reactions are represented by equation 27.
+In the reaction the hydroxyl group on the MTPA molecule is lost in the derivative formation.
+
+Equation 27: Derivatization reaction between (–)-α-Methoxy-α-trifluoromethylphenylacetic
+acid and an amine group of an analyte molecule.
+The derivatization using MTPA can be achieved as follows: after extraction, clean up and
+drying the sample under nitrogen, the residue is added 50 μL N, Ndicyclohexycarbodiimide and 100 μL MTPA. The reaction mixture is then thoroughly
+mixed, then incubated at 70 °C for 20 min before GC analysis.
+
+www.intechopen.com
+
+Derivatization Reactions and Reagents for Gas Chromatography Analysis
+
+103
+
+4. Summary
+The choice of the derivatization technique for analysis of compounds will depend on the
+available reagent and reaction types that can produce derivatives that give desirable results
+in GC. The derivatives must be suitable, detectable and efficient for GC analysis. The
+evaluation of the functional group of the analyte, the GC detector and even the by products
+of the reaction among others considerations will guide the choice of derivatization
+technique.
+For example, insertion of perfluoroacyl groups into a molecule enhances its detectability by
+electron capture. The presence of a carbonyl group adjacent to halogenated carbons in an
+analyte enhances the electron capture detector (ECD) response. For mass spectroscopic
+detector, acyl derivatives tend to direct the fragmentation patterns of compounds and
+therefore, providing useful information on the structure of molecules.
+For acid analytes, the first choice for derivatization is esterification. Acids are reactive
+compounds and also more polar to be separated well by gas chromatography. The
+underivatized acids will tend to tail because of the adsorption and non-specific interaction
+with the column. Esterification is used to derivatize carboxylic acids and other acidic
+functional groups. The reaction involves the condensation of the carboxyl group of an acid
+and the hydroxyl group of an alcohol, with the elimination of water. Consequently, the
+polarity of the molecule is reduced.
+Nearly all functional groups which present a problem in gas chromatographic separation
+(hydroxyl, carboxylic acid, amine, thiol, phosphate) can be derivatized by silylation
+reagents. The derivatives of the silylation reactions are generally less polar, more volatile
+and more thermally stable. The introduction of a silyl group(s) can also serve to enhance
+mass spectrometric properties of derivatives, by producing either more favorable diagnostic
+fragmentation patterns of use in structure investigations, or characteristic ions of use in trace
+analyses in other related techniques.
+In considering the functional group or compound type, dimethylformamidedialkylacetals (DMF-DEA) or similar type of reagents are recommended for sterically
+hindered aldehydes, amines, carboxylic acids, and phenols. Shorter chain reagents like
+DMF- DEA will produce more volatile derivatives than longer chain reagents. The by
+products of the reaction will also determine the choice of reagent. In this view,
+perfluoroacylimidazole is a better choice rather than perfluoroacid anhydrides.
+Perfluoroacid anhydrides produce acidic byproducts which must be removed from the
+reaction mixture before the derivatives are injected onto the GC column. With
+perfluoroacylimidazole there are no acid byproducts.
+The complexity surrounding chiral derivatization is generally because of different reaction
+rates of the individual enantiomers. Derivatization with a chiral derivatizing agent resulting
+into the formation of diastereoisomeric complexes is an option in GC analysis, and has been
+applied to analyze various analytes (Hassan et al., 2004 & Schurig, 2001). Table 1 gives a
+summary guide of derivatization technique and reagent selection based on the functional
+group of the analyte molecule.
+
+www.intechopen.com
+
+104
+
+Advanced Gas Chromatography – Progress in Agricultural, Biomedical and Industrial Applications
+
+Functional group
+
+Reaction
+type
+
+Alcohols and
+Phenols
+
+Silylation
+
+Derivatization reagent
+
+Acylation
+Alkylation
+
+Bis(trimethylsilyl)–acetamide,
+Bistrimethylsilyltrifluoroacetamide, N-methyl-N-tbutyldimethylsilyltrifluoroacetamide
+Heptafluorobutyrylimidazole, Pentafluoropropionic
+Anhydride, Trifluoroacetic anhydride, N-Methylbis(trifluoroacetamide)
+Dimethylformamide, Pentafluorobenzyl bromide
+Bis(trimethylsilyl)–acetamide,
+Bistrimethylsilyltrifluoroacetamide, Trimethylsilylimidazole,
+N-methyl-N-t-butyldimethylsilyltrifluoroacetamide
+Pentafluoropropanol / pentafluoropropionic anhydride
+Dimethylformamide, Tetrabutylammonium hydroxide
+Bis(trimethylsilyl)–acetamide,
+Bistrimethylsilyltrifluoroacetamide / Trimethylchlorosilane,
+Hydrox-Sil, N-methyl-trimethylsilyltrifluoroacetamide,
+Pentafluoropropanol / pentafluoropropionic anhydride
+Dimethylformamide, Tetrabutylammonium hydroxide
+
+Carbohydrates
+and Sugars
+
+Silylation
+
+Hexamethyldisilzane, Trimethylsilylimidazole
+
+Amides
+
+Silylation
+
+Acylation
+Alkylation
+Carboxylic acids
+
+Silylation
+Acylation
+Alkylation
+
+Active hydrogens Silylation
+
+Acylation
+Alkylation
+Amines
+
+Silylation
+Acylation
+
+Amino acids
+
+Catecholamines
+
+Alkylation
+Silylation
+Acylation
+Alkylation
+Silylation
+Acylation
+
+Inorganic anions
+
+Silylation
+
+Nitrosamine
+
+Silylation
+Acylation
+Alkylation
+
+Sulfonamides
+
+Acylation
+
+Sulfides
+
+silylation
+
+Bis(trimethylsilyl)–acetamide, N, O-bis-(trimethylsilyl)trifluoroacetamide
+Heptafluorobutyrylimidazole
+Dimethylformamide
+Bistrimethylsilyltrifluoroacetamide, N-methyl-N-tbutyldimethylsilyltrifluoroacetamide
+Trifluoroacetic anhydride, Pentafluorobenzoyl chloride,
+Heptafluorobutyrylimidazole
+Dimethylformamide (Diacetals)
+Bistrimethylsilyltrifluoroacetamide, Trimethylsilylimidazole
+Heptafluorobutyrylimidazole
+Dimethylformamide, Tetrabutylammonium hydroxide
+Trimethylsilylimidazole
+Pentafluoropropionic Anhydride,
+Heptafluorobutyrylimidazole,
+Bistrimethylsilyltrifluoroacetamide, N-methyl-N-tbutyldimethylsilyltrifluoroacetamide
+Bistrimethylsilyltrifluoroacetamide
+HFBA, Pentafluoropropionic anhydride, Trifluoroacetic
+anhydride
+Dimethylformamide, Pentafluorobenzyl bromide
+Trifluoroacetoic & Heptafluorobutyric Anhydride,
+Pentafluorobenzyl bromide
+Trimethylsilylimidazole
+
+Table 1. A summary guide for the derivatization techniques and reagents selection based on
+sample types.
+
+www.intechopen.com
+
+Derivatization Reactions and Reagents for Gas Chromatography Analysis
+
+105
+
+5. References
+Allmyr M, McLachlan MS, Sandborgh-Englund G, Adolfsson-Erici M. (2006). Determination
+of Triclosan as its pentafluorobenzoyl ester in human plasma and milk using
+electron capture negative ionization mass spectrometry. Anal Chem. 2006; 78:
+6542–6.
+Bao Ming-Liang, Pantani Francesco, Griffini Osvaldo, Burrini Daniela, Santianni Daniela,
+Barbieri Katia (1998). Determination of carbonyl compounds in water by
+derivatization–solid-phase micro extraction and gas chromatographic analysis.
+Journal of Chromatography A. 809 (1998) 75–87
+Blau, K., King, G. (1997). Handbook of Derivatives for Chromatography; Heyden & Sons
+Ltd.; London, 1979
+Butts W.C. (1972). Two-column gas chromatography of trimethylsilyl derivatives of
+Biochemically significant compounds.. Analytical Biochemistry. Volume 46, Issue 1,
+March 1972, Pages 187-199
+Chen, B.-G., Wang, S.-M. and Liu, R. H. (2007). GC-MS analysis of multiply derivatized
+opioids in urine. Journal of mass spectrometry JMS (2007). Volume: 42, Issue: 8,
+Pages: 1012-1023
+Chien, C.-J.; Charles, M. J.; Sexton, K. G.; Jeffries, H. E. (1998). Analysis of airborne
+carboxylic acids and phenols as their pentafluorobenzyl derivatives: gas
+Chromatography/Ion Trap Mass Spectrometry with a novel chemical ionization
+reagent, PFBOH, Environmental Science And Technology. 1998, 32, 299-309.
+Christie, W.W. (1993): preparation of ester derivatives of fatty acids for chromatographic
+analysis. Advances in Lipid Methodology - Two, pp. 69-111 (1993) (Ed. W.W.
+Christie, Oily Press, Dundee),
+Danielson, Neil D., Gallagher Patricia A., and Bao James J. (2000). Chemical Reagents and
+Derivatization Procedures in Drug Analysis. Encyclopedia of Analytical Chemistry.
+John Wiley & Sons Ltd, Chichester, 2000. R.A. Meyers (Ed.). pp. 7042–7076.
+Dasgupta, Amitava, Blackwell Walter and Burns Elizabeth (1997). Gas Chromatographicmass spectrometric identification and quantitization of urinary phenols after
+derivatization with 4-carbethoxyhexafluorobutyryl chloride, a novel derivative.
+Journal of Chromatography B: Biomedical Sciences and Applications Volume 689,
+Issue 2, 21 February 1997, Pages 415-421
+Destaillats, H.; Spaulding, R. S.; Charles, M. J. (2002). Ambient air measurement of acrolein
+and other carbonyls at the Oakland-San Francisco Bay Bridge toll plaza.
+Environmental Science and Technology 2002, 36, 2227-2235.
+Donike, M. (1973). Acylation with bis (acylamides). N-methyl-bus (trifluoroacetamide) and
+bis (trifluoroacetamide), two new reagents for trifluoroacetylation. Journal of
+Chromatography A. Volume 78, Issue 2, 25 April 1973, Pages 273-279.
+Galceran, M. T.; Moyano, E.; Poza, J. M. (1995). Pentafluorobenzyl derivatives for the gaschromatographic determination of hydroxy-polycyclic aromatic hydrocarbons in
+urban aerosols. Journal of Chromatography A 1995, 710, 139-147.
+Gehrke, Charles W. (1968). Quantitative gas-liquid chromatography of amino acids in
+proteins and biological substances: Macro, semimicro, and micro methods.
+Analytical Biochemistry Laboratories (Columbia, Mo). 1st edition. 101-289-264
+
+www.intechopen.com
+
+106
+
+Advanced Gas Chromatography – Progress in Agricultural, Biomedical and Industrial Applications
+
+Hannestad, U.; Lundblad, A. (1997). Accurate and Precise Isotope Dilution Mass
+Spectrometry Method for Determining Glucose in Whole Blood. Clinical
+Chemistry, 1997, 43, 5, 794-800.
+Hassan, Y. Aboul-Enein & Imran Ali (2004): Analysis of the chiral pollutants by
+Chromatography, Toxicological & Environmental Chemistry, 86:1, 1-22
+Isoherranen, Nina and Soback Stefan (2000). Determination of gentamicin after
+Trimethylsilylimidazole and trifluoroacetic anhydride derivatization using gas
+Chromatography and negative ion chemical ionization ion trap mass spectrometry.
+Analyst, 2000, 125, 1573–1576
+Jang Myoseon and Kamens Richards, M. (2001). Characterization of Secondary Aerosol from
+the Photooxidation of Toluene in the Presence of NOx and 1-Propene Environ. Sci.
+Technol. 2001, 35, 3626-3639
+Kataoka, Hiroyuki (2005). Gas chromatography of amines as various derivatives.
+Quantitization of amino acids and amines by chromatography - methods and
+protocols. Journal of Chromatography Library. Volume 70, 2005, Pages 364-404.
+Kawahara, F.K. (1968). Micro determination of pentafluorobenzyl ester derivatives of
+Organic acids by means of electron capture gas chromatography.
+Klette, L Kevin., Jamerson H. Matthew, Morris-Kukoski L. Cynthia, Kettle R. Aaron, and
+Snyder
+J.
+Jacob
+(2005).
+Rapid
+Simultaneous
+Determination
+of
+Amphetamine, Methamphetamine, 3, 4-Methylenedioxyamphetamine, 3, 4Methylenedioxymethamphetamine, and 3, 4-Methylenedioxyethyla. Journal of
+Analytical Toxicology. Volume Number: 29: Issue 7: 669–674
+Knapp, Daniel R. (1979). Handbook of Analytical Derivatization Reaction; pages 10, 10;
+Wiley & Sons; New York, 1979.
+Kühnel, E., Laffan Dr, D.D.P., Lloyd-Jones, G.C., Martínez del Campo, T., Shepperson, I.R.
+Slaughter,J.L.,(2007). Mechanism of Methyl Esterification of Carboxylic Acids by
+Trimethylsilyldiazomethane. Angewandte Chemie International Edition. Volume
+46, Issue 37, pages 7075–7078, September 17, 2007.
+Kuo, H.W., Ding, W.H. (2004). Trace determination of bisphenol A and phytoestrogens in
+infant formula powders by gas chromatography-mass spectrometry. J. Chromatogr.
+A, 1027, 67.
+Lelowx, M.S. De jong E.G and Meas RA.A. (1989). Improved screening method for betablockers in urine using solid- phase extraction and capillary gas chromatography—
+mass spectrometry. Journal of Chromatography. 488 (1989). 357-.367.
+Lin, D.-L. Wang, S.-M. Wu, C.-H. Chen, B.-G. Liu, R.H. (2008). Chemical Derivatization for
+the Analysis of Drugs by GC- MS — A Conceptual Review. Journal of Food and
+Drug Analysis, Vol. 16, No. 1, 2008, Pages 1-1
+Matsuhisa, M.; Yamasaki, Y.; Shiba, Y.; Nakahara, I.; Kuroda, A.; Tomita, T. (2000).
+Important Role of the Hepatic Vagus Nerve in Glucose Uptake and Production by
+the Liver Metabolism, 2000, 49, No 1 (January), 11-16.
+Naritisin, D.B. and Markey, S.P. (1996). Assessment of DNA oxidative damage by
+Quantification of thymidine glycol residues using gas chromatography/electron
+Capture negative ionization mass spectrometry. Anal. Biochem. 241:35-41.
+Orata, F. Quinete, N. Wilken, R.D. (2009). Long Chain Perfluorinated Alkyl Acids
+Derivatization and Identification in Biota and Abiota Matrices Using Gas
+
+www.intechopen.com
+
+Derivatization Reactions and Reagents for Gas Chromatography Analysis
+
+107
+
+Chromatography. Bulletin of Environmental Contamination and Toxicology 2009
+Vol. 83 No. 5 pp. 630-635
+Palmer, R.B, Kim N.H. and Dasgupta A (2000). Simultaneous determination of fenfluramine
+and phentermine in urine using gas chromatography-mass spectrometry with
+pentafluoropropionic anhydride derivatisation. Ther. Drug Monit. 22 (2000). 418422.
+Pierce, Alan E. (1968). Silylation of Organic Compounds. Pierce Chemical Company, 1968.
+Pierce, (2004) .GC Derivatization. .Applications Handbook & Catalog.
+Qiao Feng Tao and Su Zeng (2002). Analysis of enantiomers of chiral phenethylamine drugs
+by capillary gas chromatography/mass spectrometry/flame–ionization detection
+and pre-column chiral derivatization. J. Biochem. Biophys. Methods 54 (2002) 103–
+113.
+Rao, X.; Kobayashi, R.; White-Morris, R.; Spaulding, R.; Frazey, P.; Charles, M. J. (2001). J
+GC/ITMS measurement of carbonyls and multifunctional carbonyls in PM2.5
+particles emitted from motor vehicles.Journal of AOAC International 2001, 84, 699705.
+Ribeiro Bárbara, Guedes de Pinho Paula, Andrade B. Paula, Baptista Paula, Valentão
+Patrícia. (2009). Fatty acid composition of wild edible mushrooms species: A
+comparative study. Micro chemical Journal 93 (2009) 29–35 Regis (1999).
+Chromatography Catalog, pages 89, 90
+Saraji, M. and Mirmahdieh, S. (2009). Single-drop micro extraction Followed by in-syringe
+derivatization and GC-MS detection for the determination of parabens in water and
+cosmetic products. J. Sep. Sci. 2009, 32, 988 – 995
+Schauer, J. J.; Kleeman, M. J.; Cass, G. R.; Simoneit, B. R. T. (2002). Environ. Science and
+Technology 2002, 36, 1169-1180.
+Schurig V (2001). Chiral separation of amino acids is of great importance in biology,
+Pharmaceutics and agriculture. This has been performed traditionally with
+Chromatographic methods such as gas chromatography (GC). J. Chromatogr. A
+906 (2001) 275.
+Scott, R. P.W. (2003). Gas chromatography. book 2 Chrom-Ed Book Series.
+http://www.library4science.com/eula.html. 2
+S-M Wang, Lewis j. Russell, Canfield Dennis, Li Tien-Lai, Chen Chang-Yu, Liu H. Ray
+(2005). Enantiomeric determination of ephedrines and norephedrines by chiral
+derivatization gas chromatography–mass spectrometry approaches. J. Chromatogr.
+B 825 (2005) 88–95
+Sobolevsky, T.G. Alexander I.R. Miller, B. Oriedo, V., Chernetsova, E.S., Revelsky, I. A.
+(2003). Comparison of silylation and esterification/acylation procedures in GC-MS
+analysis of amino acids. Journal of Separation Science. Volume 26, Issue 17, pages
+1474–1478, November 2003
+Spaulding, R. S.; Schade, G. W.; Goldstein, A. H.; Charles, M. J. Journal of Geophysical
+Research, [Atmospheres] 2003, 108, ACH7/1-ACH7/17.
+Szyrwińska, K. Kołodziejczak A., Rykowska I., Wasiak W., and Lulek J. (2007).
+Derivatization and Gas chromatography– low-resolution Mass Spectrometry of
+Bisphenol A. Acta Chromatographica, No. 18, 2007
+
+www.intechopen.com
+
+108
+
+Advanced Gas Chromatography – Progress in Agricultural, Biomedical and Industrial Applications
+
+Tagliaro Franco, Smith Frederick P, Tedeschi Luciano, Castagna Franca, Dobosz Marina,
+Boschi Ilaria and Pascali Vincenzo (1998). Toxicological and Forensic Applications
+Chapter 21. Journal of Chromatography Library Volume 60, 1998, Pages 917-961
+Thenot, J.-P., Horning, E.C. (1972). Amino acid N-dimethyllaminomethylene alkyl esters.
+New derivatives for GC and GC-MS studies. Anal. Lett.5 (8): 519-29.
+Thenot, J. P, Stafford M. and Horning M. G. (1972). Fatty acid esterification with N, NDimethylformamide dialkyl acetals for GC analysis. Anal. Lett. 5(4): 217-23.
+Zaikin, V.G., Halket, J.M (2003). Derivatization in mass spectrometry--2. Acylation. Eur J
+Mass Spectrum. 2003; 9(5):421-34.
+Zenkevich, Igor, G. (2009). Acids: Derivatization for GC Analysis Encyclopedia of
+Chromatography, Third Edition 2009, DOI: 10.1081/E-ECHR3-120045222
+
+www.intechopen.com
+
+Advanced Gas Chromatography - Progress in Agricultural,
+Biomedical and Industrial Applications
+Edited by Dr. Mustafa Ali Mohd
+
+ISBN 978-953-51-0298-4
+Hard cover, 460 pages
+Publisher InTech
+
+Published online 21, March, 2012
+
+Published in print edition March, 2012
+Progress in agricultural, biomedical and industrial applications' is a compilation of recent advances and
+developments in gas chromatography and its applications. The chapters cover various aspects of applications
+ranging from basic biological, biomedical applications to industrial applications. Book chapters analyze new
+developments in chromatographic columns, microextraction techniques, derivatisation techniques and
+pyrolysis techniques. The book also includes several aspects of basic chromatography techniques and is
+suitable for both young and advanced chromatographers. It includes some new developments in
+chromatography such as multidimensional chromatography, inverse chromatography and some discussions
+on two-dimensional chromatography. The topics covered include analysis of volatiles, toxicants, indoor air,
+petroleum hydrocarbons, organometallic compounds and natural products. The chapters were written by
+experts from various fields and clearly assisted by simple diagrams and tables. This book is highly
+recommended for chemists as well as non-chemists working in gas chromatography.
+
+How to reference
+
+In order to correctly reference this scholarly work, feel free to copy and paste the following:
+Francis Orata (2012). Derivatization Reactions and Reagents for Gas Chromatography Analysis, Advanced
+Gas Chromatography - Progress in Agricultural, Biomedical and Industrial Applications, Dr. Mustafa Ali Mohd
+(Ed.), ISBN: 978-953-51-0298-4, InTech, Available from: http://www.intechopen.com/books/advanced-gaschromatography-progress-in-agricultural-biomedical-and-industrial-applications/derivatization-reactions-andreagents-for-gas-chromatography-analysis
+
+InTech Europe
+
+University Campus STeP Ri
+Slavka Krautzeka 83/A
+51000 Rijeka, Croatia
+Phone: +385 (51) 770 447
+Fax: +385 (51) 686 166
+www.intechopen.com
+
+InTech China
+
+Unit 405, Office Block, Hotel Equatorial Shanghai
+No.65, Yan An Road (West), Shanghai, 200040, China
+Phone: +86-21-62489820
+Fax: +86-21-62489821
+
+© 2012 The Author(s). Licensee IntechOpen. This is an open access article
+distributed under the terms of the Creative Commons Attribution 3.0
+License, which permits unrestricted use, distribution, and reproduction in
+any medium, provided the original work is properly cited.
+
+

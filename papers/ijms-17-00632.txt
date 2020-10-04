@@ -1,0 +1,916 @@
+International Journal of
+
+Molecular Sciences
+Review
+
+Advantages and Pitfalls of Mass Spectrometry Based
+Metabolome Profiling in Systems Biology
+Ina Aretz and David Meierhofer *
+Max Planck Institute for Molecular Genetics, Ihnestraße 63-73, 14195 Berlin, Germany; gielisch@molgen.mpg.de
+* Correspondence: meierhof@molgen.mpg.de; Tel.: +49-30-8413-1567; Fax: +49-30-8413-1960
+Academic Editor: Ting-Li (Morgan) Han
+Received: 22 March 2016; Accepted: 21 April 2016; Published: 27 April 2016
+
+Abstract: Mass spectrometry-based metabolome profiling became the method of choice in systems
+biology approaches and aims to enhance biological understanding of complex biological systems.
+Genomics, transcriptomics, and proteomics are well established technologies and are commonly
+used by many scientists. In comparison, metabolomics is an emerging field and has not reached
+such high-throughput, routine and coverage than other omics technologies. Nevertheless, substantial
+improvements were achieved during the last years. Integrated data derived from multi-omics
+approaches will provide a deeper understanding of entire biological systems. Metabolome profiling
+is mainly hampered by its diversity, variation of metabolite concentration by several orders of
+magnitude and biological data interpretation. Thus, multiple approaches are required to cover most
+of the metabolites. No software tool is capable of comprehensively translating all the data into
+a biologically meaningful context yet. In this review, we discuss the advantages of metabolome
+profiling and main obstacles limiting progress in systems biology.
+Keywords: metabolome profiling; mass spectrometry; nuclear magnetic resonance (NMR)
+spectroscopy; systems biology; multiple reaction monitoring (MRM); LC-MS; derivatization
+
+1. Introduction
+Metabolomics offers a framework for analyzing individuals with a specific phenotype at a
+molecular level in cell biology, personalized medicine, and systems biology [1–3]. Metabolites are small
+molecules participating in metabolic reactions, which are necessary for cellular function, maintenance
+and growth [4]. Typically, metabolites range from 50 to 1500 Da, while their concentrations span
+several orders of magnitude. The metabolome is highly dynamic, time-dependent, and metabolites are
+sensitive to many environmental conditions. It is still unknown how many different metabolite species
+exist within a cell or organism; predicted are at least 2000 in mammals [5], the Human Metabolome
+Database (HMDB) [6] currently has more than 8000 verified entries. Plants and bacteria outnumber
+the diversity of compounds by two orders of magnitude; more than 200,000 metabolites are estimated,
+for example, to exist in the plant kingdom [7,8]. Metabolites are extensively exchanged with the
+environment, e.g., food intake, excretion, inhalation, secondary metabolites, such as medications,
+flavorings, and recreational drugs, which can be further processed by the gut microbiome or organs.
+Furthermore, metabolites are, chemically, very diverse (polarity, charge, pKa, solubility, volatility,
+stability, and reactivity), consequently no single method can capture and analyze the entire metabolome
+at once. Hence, many extraction methods were developed to identify and quantify specific classes of
+metabolites. The most commonly used approaches to explore the metabolome are gas chromatography
+(GC), liquid chromatography (LC) or, to a lesser extent, capillary electrophoresis (CE), online coupled to
+a mass spectrometer (MS), as well as nuclear magnetic resonance (NMR) spectroscopy [9]. Nevertheless,
+the contextual and chemical diversity makes the detection of a whole set of metabolites present in a
+biological sample an ambitious goal [10,11].
+Int. J. Mol. Sci. 2016, 17, 632; doi:10.3390/ijms17050632
+
+www.mdpi.com/journal/ijms
+
+Int. J. Mol. Sci. 2016, 17, 632
+
+2 of 14
+
+Systems biology is a novel subject in the field of life science, which aims to understand biological
+systems as a whole entity, under a variety of conditions [12]. The availability of huge amounts of
+quantitative data and the development of computational methodologies are the main reasons for the
+emergence of systems biology [12]. The complete biological model can only be discovered if different
+levels of gene expression, proteins, and metabolites are considered in an analysis. Multi-omics data can
+be combined as predictor variables in order to identify models that predict phenotypes and elucidate
+biomarkers [13].
+Metabolites are regarded as the final response of a biological system to environmental changes or
+gene regulations and, thus, an aberrant metabolism can be linked to disease severity and phenotypes.
+The metabolome is, thereby, the most predictive of phenotype [1,4]. Metabolic profiling refers to
+the comprehensive identification and quantification of metabolites in a biological system [14,15].
+Systems biology-based metabolome profiling is a new and promising field, which is still puzzled by
+several aspects, such as sample preparation, identification, standardization, and translating results
+into biological meaningful data.
+Metabolomics and systems biology-driven studies have a great potential for hypotheses
+generation and dissection of signaling networks in an unbiased or untargeted fashion [16]. The main
+advantage of systems biology-based metabolomics is the connection of metabolic networks to the
+underlying reaction pathway structure [7]. Thus, systems biology based metabolomics has a lot
+of benefits, such as elucidating connectivity maps of pathways, but is still far from covering the
+entire metabolome.
+In this review, we will focus on the advantages and challenges in metabolome profiling for systems
+biological approaches and cover various techniques and their limitations with a special spotlight on
+real-time metabolome profiling as a very promising new strategy.
+2. Sample Preparation
+Typically, a sample preparation protocol contains a solvent extraction step, ultrafiltration,
+solid-phase extraction and, optionally, a chemical derivatization step [1]. The optimization of sample
+pretreatment is an important point in method development, since it ensures reproducibility. This review
+is not focusing on pretreatment strategies and we refer to a variety of other review articles [17–20].
+2.1. Derivatization
+Derivatization methods apply reagents, which chemically modify and transform a specific
+target structure. Thus, derivatization is one of the most effective method to improve the detection
+characteristics of metabolites in GC- or LC-MS, binding to LC columns, or to stabilize compounds.
+For example, formaldehyde can be used to label the amine groups through reductive amination.
+Silylation is a common derivatization reagent in GC-MS, as it transfers a wide range of functional
+groups, even though some products are not very stable [21].
+By derivatization, a sensitivity gain by several orders of magnitude can be achieved.
+The drawbacks are that an additional derivatization step is introduced and not all metabolites can be
+derivatized by only one reagent. Furthermore, the mass spectra are different in terms of parent and
+fragment masses from their endogenous counterparts. Thus, databases for endogenous compounds
+cannot be applied for reference matching and derivatization-specific databases are rare or have to be
+built from scratch.
+A combination of derivatization and internal standards (ISs), named isotope-coded derivatization
+(ICD), is a good alternative for relative quantification, in order to improve analytical precision,
+(reviewed in [22,23]). Thereby, one sample is derivatized with a naturally-labeled reagent, while the
+other sample is separately derivatized with the isotopically-labeled reagent. After differential labelling,
+the samples are pooled and processed jointly to avoid any method biases. Thus, this method offers
+new perspectives for quantitative metabolite profiling, where current protocols can easily comprise
+over a hundred metabolites [22]. ICD is very similar to the classic stable isotope labeling by amino
+
+Int. J. Mol. Sci. 2016, 17, 632
+
+3 of 14
+
+acids in cell culture (SILAC) approach used in proteomics, where specific amino acids are incorporated
+into newlysynthesized proteins [24]. Thus, ICD works well for selected compounds or compound
+groups, such as amino acids, glycans, phosphometabolites, amines, nucleotides, carboxylic- and fatty
+acids [22].
+2.2. Internal Standards
+In mass spectrometry, ISs are the method of choice for absolute or relative quantification,
+calibration curves, recovery rate determination, or to correct for matrix effects. Typically, ISs are
+isotopically (13 C, 15 N or deuterium)-labeled counterparts of compounds of interest. The ISs have
+the same chemical behavior as their endogenous counterparts, do not show drastic chromatographic
+isotope effects, and have the same retention time. The application of ISs is widespread, but one
+drawback is that they are not 100% labeled. Thus, an additional and indistinguishable unlabeled
+peak of typically 1%–2% intensity, depending on the impurity ratio may occur in the mass spectrum.
+Therefore, the amount of introduced ISs should be reduced to a minimum in order to avoid these
+interferences. Furthermore, isotopically-labeled ISs are not practical for large profiling approaches,
+since they are expensive and not available for the majority of compounds or it is impossible like for
+de novo identifications. To circumvent this bottleneck, only a few ISs, matching to similar compound
+groups, are selected. Ionization suppression or enhancement is matrix-specific and shows fluctuations
+over the elution time. This is not always properly reflected by only using a few ISs.
+Alternatives for isotopically-labeled ISs are synthetic compounds, which are very similar to
+the target compound, such as a 17-carbon chain sphingosine instead of the natural 18-carbon chain
+sphingosine [25]. Label-free approaches, which aim to determine the relative amount of proteins
+based on precursor signal intensities or on spectral counting, are well established in proteomics [26].
+Several methods have been developed to align chromatographic profiles of non-targeted data without
+the need of ISs for normalization, like applied in XCMS Online [27,28].
+3. Data Acquisition and Analysis
+3.1. GC-, LC-MS, and NMR in Metabolomics
+Most metabolic profiling studies are performed using chromatographic separation online coupled
+to mass spectrometers, usually gas chromatography (GC)-MS and liquid chromatography (LC)-MS,
+as well as nuclear magnetic resonance (NMR) spectroscopy [29].
+NMR is generally accepted as the gold standard in metabolite structural elucidation, due to its
+high selectivity, analytical reproducibility, non-destructive nature, and simplicity of sample preparation.
+However, it suffers from relatively low sensitivity compared to MS [30].
+Mass spectrometry-based approaches for metabolic profiling have the advantages of a high
+sensitivity and selectivity, as well as high throughput and depth of coverage [11]. GC-MS has
+advantages of a greater chromatographic resolution [31–33] when compared to LC-MS-based methods,
+a good retention of small compounds that elute early with the solvent front in reverse-phase LC-MS
+methods [34], and large spectral libraries [35]. Unfortunately, the thermal stability of the stationary
+phase, metabolites and their derivatives limit the metabolome coverage derived by GC-MS [11].
+Furthermore, several metabolites can just be analyzed by GC-MS after derivatization and this might
+introduce variability and produce derivatization artifacts [30].
+Due to its high sensitivity and wide range of molecules that can be analyzed, the usage of LC-MS
+has expanded rapidly over the past ten years [1,29].
+Bingol and colleagues introduced a strategy, which combines direct infusion MS with NMR
+(SUMMIT MS/NMR) for the identification of unknown metabolites in complex mixtures [9].
+First, the chemical formulas of compounds in the mixture are identified from accurate masses by MS
+and, subsequently, all possible structures are generated [9]. Second, NMR spectra of each member of the
+structural manifold are predicted and compared with the experimental spectra to identify the molecular
+
+Int. J. Mol. Sci. 2016, 17, 632
+
+4 of 14
+
+structure that match the information obtained from MS/NMR [9]. With this method, different types of
+metabolites, such as amino acids, polyamines, nucleic acids, nucleosides, and carbohydrate conjugates
+could be identified in an E. coli extract [9]. This approach opens new possibilities in biomedicine,
+synthetic chemistry, or food sciences for high-throughput identification of unknown metabolites and
+to overcome limitations of databases [9]. Thus, it is possible to combine different approaches, but due
+to instrumentation limitations usually just one analytical method is used [36,37].
+3.2. Chromatographic Dimension
+The metabolome is a collection of compounds with diverse physicochemical properties; no single
+retention mechanism is adequate to resolve complex sample mixtures that vary widely in their polarity,
+charge, and stability [1]. Usually, polar and nonpolar metabolites are separated and analyzed in
+parallel by according analytical columns.
+Reversed-phase liquid chromatography (RPLC) is extensively used, because of its reproducible
+and predictable retention times, wide applicability to various classes of metabolites, and mobile phase
+compatibility for direct coupling to electrospray ionization mass spectrometry (ESI-MS) [1]. The major
+disadvantage of RPLC is the poor recovery of hydrophilic compounds. This problem can be solved by
+the use of hydrophilic interaction chromatography (HILIC), which requires longer re-equilibration and
+can show retention time drifts [38]. Nevertheless, HILIC is the most commonly used separation mode in
+LC-MS for polar metabolites that is used together with RPLC for comprehensive metabolomic studies.
+The combined use of HILIC and RPLC is an optimal method to increase metabolome coverage,
+because it is ideal for retaining extremely polar and lipophilic compounds [39]. The main disadvantage
+is that the applied mobile phases of HILIC and RPLC are incompatible and, thus, two separate runs are
+necessary, which reduces sample throughput. Furthermore, different chromatographic conditions can
+cause redundant data analysis and sample preparation is more complicated due to the requirement of
+different sample buffers [39,40].
+To overcome these problems, Haggarty and colleagues applied a method where a sample is
+injected onto both, RP and HILIC columns in tandem in a single injection [41]. To solve the problem
+with the solvent strength incompatibility between the columns, a high-aqueous mobile phase at low
+flow rate for the RPLC column and a high-acetonitrile mobile phase at high flow rate for the HILIC
+column were used [39].
+This tandem column approach was already successfully applied with quadrupole, time of flight
+(TOF), and orbitrap mass analyzers [39,41–43]. This method could significantly increase the amount
+of identified metabolites in a single analytical run, but one disadvantage is that isomers cannot be
+separated [39].
+3.3. Non-Targeted, Targeted, and Real-Time Metabolome Profiling
+Experimental approaches can be classified into non-targeted and targeted metabolomics.
+Non-targeted metabolomics approaches are widely used for de novo analyte identification, where
+no prior knowledge about compounds is necessary. In contrast, targeted metabolomics aims to detect
+a priori selected analytes, on the basis of known parent and fragment masses, with a method termed
+multiple reaction monitoring (MRM). Once optimized for every transition, the MRM approach has
+the advantage of selective and sensitive measurement of the selected analytes in complex samples.
+The specificity is achieved by fragmenting the analyte and by monitoring both parent and one [44–48]
+or more product ions simultaneously [49–53].
+Savolainen and colleagues developed a GC-MS method using a high scan speed (20,000 Da/s),
+which combines targeted and non-targeted metabolomics into one single accurate, reproducible, and
+reliable method [34]. This method has the advantage of measuring predefined metabolites relevant to
+the study question and, additionally, identifies unexpected metabolites [34].
+Direct sample injection on high-resolution mass spectrometers is an effective way to maximize
+analytical throughput, since sampling, sample preparation, and measurements are time-intensive
+
+Int. J. Mol. Sci. 2016, 17, 632
+
+5 of 14
+
+and difficult to automate [54,55]. The applicability of direct injection in metabolomics is extended
+by advanced instrumentation capable of high-resolution, accurate mass measurements and tandem
+MS (such as FT-ICR-MS and orbitrap MS) [30]. Flow injection analysis/mass spectrometry (FIA/MS),
+a method using a HPLC without a column, was applied for metabolite fingerprinting [56], screening
+in drug discovery [57] and detection of pesticides in food [58]. Matrix effects resulting in inaccurate
+identification and quantification are the main disadvantages of direct sample injection.
+Fuhrer and colleagues established a robust platform for high-throughput, accurate mass, and
+non-targeted metabolome profiling of E. coli extracts [54]. This method is ideal for initial untargeted
+metabolome screens where a variety of samples need to be analyzed rapidly [54].
+Link and colleagues went a step further and performed real-time metabolome profiling by direct
+injection of living bacteria, yeast, and mammalian cells into a Q-TOF MS in order to reveal metabolic
+switches between starvation and growth [55]. They detected 10,466 ions with distinct mass-to-charge
+ratios, which could be assigned to around 300 metabolites in 15–30 second cycles. The real-time data
+were confirmed by comparison to a manual sampling and extraction method by flow-injection TOF-MS.
+By applying the real-time method, more time points were analyzed, more metabolites were identified,
+and detected ion intensities were higher than those derived from manually-obtained samples [55].
+Thus, metabolome profiling of living cells can be monitored in real-time over extended periods to
+follow the dynamics of metabolic processes. Furthermore, the consequences of any kind of cell
+manipulation can be studied in real-time, leading to new experimental approaches that could not be
+performed before.
+3.4. Metabolic Flux Analysis
+The original method of metabolic flux analysis (MFA) studies systems at a metabolic steady state,
+by determining metabolite transport rates within and out of tissues, cells, or their sub-compartments,
+which are then balanced in reaction networks to provide estimates of intracellular fluxes [59].
+The limitation of this classical MFA approach is that it cannot resolve fluxes through parallel pathways,
+such as glycolysis and pentose phosphate pathway, circular pathways or reversible reactions [60].
+To overcome the limitation in MFA, isotope 13 C tracers, such as the main substrates for mammalian
+cell culture, glucose and glutamine, can be used [60]. Labeled nutrients in biological systems spread
+through the network as a function of metabolic activity and produces labeling patterns in the backbone
+of metabolic intermediates over time [59]. In vivo fluxes are calculated by mathematical models that
+describe the label propagation from isotopic patterns and extracellular transport rates [59].
+Isotope labeled-MFA of co-cultures can be performed, in order to determine inter-species
+metabolite exchange and population dynamics. This method simplifies experimental and analytical
+procedures for co-culture flux analysis, improves accuracy, and allows flux elucidation in systems
+where physical separation of cells or proteins is difficult [61].
+Recently, we applied an isotope based flux analysis in order to determine the enzymatic activity
+of mutated pyrroline-5-carboxylate synthase (P5CS), a protein of the mitochondrial proline cycle.
+The mutation causes an autosomal-dominant form of cutis laxa with progeroid features. The flux
+analysis revealed that mutated cells had a reduced P5CS enzymatic activity leading to a delayed
+proline accumulation [62].
+The advantage of fluxomics is that the turnover of virtually any metabolite can be studied by
+isotope labeling. New pathways or disease-causing genes can be elucidated, a perfect method for
+specific tasks. Systems biological approaches are mainly hampered by the complexity of the entire
+system, as most pathways are not straightly leading from A to B, introducing a bias and are, hence,
+difficult to compute.
+3.5. Mass Spectrometry Imaging
+Mass spectrometry imaging (MSI) is a spatially-resolved label-free technique, which can directly
+identify and map the spatial distribution and abundance of known or unknown molecular species in
+
+Int. J. Mol. Sci. 2016, 17, 632
+
+6 of 14
+
+tissues [63]. Metabolites are the direct measure of metabolic activities and can therefore be correlated
+to phenotypes. Many critical parameters, such as the discrepancy between the low number of detected
+metabolites versus the real number of possible metabolites, the bias against compound classes and the
+overlap of compartmentalized metabolic processes in tissue samples, complicate the interpretation of
+metabolite profiles [7]. As the two or three dimensional distribution of metabolites in specific tissue
+parts or even subcellular compartments are crucial for many scientific questions, one option to resolve
+their precise location is MSI. Conventional imaging techniques are not suitable for simultaneous
+visualization of endogenous molecules. MSI, using matrix-assisted laser desorption/ionization
+quadrupole ion trap timeofflight (MALDI-QIT-TOF), was used to visualize the spatial distribution of
+metabolites in tissue sections [64], or plant surface metabolites [65]. Nanospray desorption electrospray
+ionization (nano-DESI), combined with MS/MS, enabled simultaneous imaging and identification of a
+large number of metabolites and lipids with a spatial resolution [66]. Three-dimensional secondary
+ion mass spectrometry (SIMS) imaging was used to investigate the cellular metabolite uptake on the
+single cell level [67]. Even MS free systems, such as an electrochemical camera chip for simultaneous
+imaging of multiple metabolites in biofilms was applied [68].
+Limited by the absence of a comprehensive MSI method, normalization, and sample preparation
+techniques suitable for all metabolite classes, we can barely talk about a systems-wide approach, which
+covers the metabolome. Derivatization enables increased detection of metabolites that are hard to
+ionize, but may cause analyte suppression or delocalization [69]. Nevertheless, MSI in all its variants
+is a valuable diagnostic and systems biology tool, capable of providing comprehensive 2D–3D spatial
+distribution of selected metabolites, like amino acids, lipids, carnitines, or carbohydrates [63,70] in a
+wide variety of cells and tissues.
+3.6. Metabolite Databases
+Metabolite databases are repositories of metabolite information, based on experimental
+confirmation or in silico prediction, and usually contain MS/MS data in order to facilitate metabolite
+identification. The most established repositories for biological compounds are METLIN, featuring
+242,000 entries, 14,000 with high-resolution MS/MS data [71], the Human Metabolome Database
+(HMDB), with more than 40,000 annotated metabolite entries, including “detected” metabolites
+(those with measured concentrations or experimental confirmation of their existence) and “expected”
+metabolites (those for which biochemical pathways are known or human intake/exposure is frequent,
+but the compound has yet to be detected in the body) [6], and MassBank [72].
+Several in silico-generated compound databases are available as well, such as MINE, containing
+over 571,000 compounds [73], MyCompoundID, using an evidence-based metabolome library (EML)
+with 375,809 predicted metabolites [74]. Matching metabolite spectra against such huge in silico
+databases can give rise to too many false-positive identifications just by chance. Based on our
+experience, databases contain several erroneous entries. Especially, the MS spectra are sometimes
+of poor quality, they are recorded by different groups with different MS instrumentations, and the
+provided instrument settings are sometimes very scarce.
+All data derived from metabolome profiling studies should be made publically available in
+according depository databases. Thus, full transparency is guaranteed and datasets can be reused for
+future identification, quantification, secondary analysis, or systems biology approaches. Data storage,
+maintenance, and harmonization are critical points, since abandoned or broken depositories would
+cause a significant loss of knowledge. Currently, just a few metabolomics-specific depositories, such as
+MetaboLights [75] and PMR [76], are available.
+3.7. Metabolite Identification
+Due to the complexity and chemical diversity of the metabolome with metabolite concentrations
+spread over a wide range of magnitudes, identification is still a challenge. In addition to the variety
+of instruments and their different operation and acquisition methods, even more programs exist for
+
+Int. J. Mol. Sci. 2016, 17, 632
+
+7 of 14
+
+data processing, typically for a specific class of data. For example, different instrument settings used in
+LC-MS, such as collision energy, resolution, targeted, non-targeted, and fragmentation methods, such as
+CID (collision induced dissociation), HCD (higher energy collision dissociation), ETD (electron-transfer
+dissociation), and PQD (pulsed-Q dissociation) [77–80], can give rise to different fragments species
+and intensities. Hence, it is a tough task to use or build metabolite-specific spectral databases for
+compound identification.
+One of the best, but time consuming, options is to create an instrument specific MRM method
+for a set of preselected metabolites. The advantage of using up to three MRMs and their MRM ion
+ratios, which are stable properties between transitions [81] for robust and unambiguous analysis of
+complex samples, was demonstrated in a screening approach of rotenone-treated HeLa cells [53].
+In this study, a MRM method was developed using pure substances and the transitions had to co-elute
+at the same retention time with identical peak shapes. MRM ion ratios have been shown to be
+essential to avoid false-positive identifications in an example for inosine 51 -monophosphate [53].
+Schürmann and colleagues revealed the need of a third transition as well [52]. In their study,
+product ions from a co-eluting interfering matrix compound were consistent with MRMs of two
+sebuthylazine transitions [52]. Following the European Union directive 2002/657/EC, which regulates
+the confirmation of suspected positive identifications, this would have resulted in a false-positive
+finding. To date there is an insufficient discussion about the relative importance of using certain
+transitions for compound identification [52]. Fragment mis-assignments can originate from impure Q1
+isolation [39], co-eluting isobaric compounds, wrong database entries, or incorrect peak picking.
+Due to its complex nature, non-targeted metabolomics has to be linked to advanced chemometric
+techniques, to reduce the data complexity into a smaller set of manageable signals [82]. Analytical
+methods and required improvements in non-targeted metabolomics are extensively described in a
+review of Alonso and colleagues [83]. A METLIN search for the exemplary parent mass 136 Da reveals
+131 isobaric, but unique metabolites, many of them with very similar structures and, thus, almost
+similar fragment spectra. As a result, a ranked list based on similarity scores is provided and cutoff
+values have to be used to verify the identification. It is debatable whether this is sufficient enough and
+how many false-positive identifications are actually included. A big effort is being done to improve
+spectral databases, but the development of accurate automatic identification algorithms is still subject
+to the availability of an exhaustive set of reference metabolite spectra [83].
+As target identification is one of the most critical steps, in silico target identification methods,
+including chemical similarity database searches, are used, such as CSNAP (Chemical Similarity
+Network Analysis Pulldown) [84]. Several strategies exist on how unknown peaks can be
+deciphered and interpreted, but validation guidelines were missing for a long time. A collection
+of guidelines/minimum requirements for the validation of metabolite identification, were finally
+conceived by the Metabolomics Standards Initiative (MSI in 2005, in order to allow data to be efficiently
+applied, shared and reused [85]. The initiative “COordination of Standards in MetabOlomicS”
+(COSMOS) is generating robust data infrastructures and exchange standards for metabolomics data
+and metadata [86].
+4. Biological Interpretation of Results
+At this point, a large knowledge gap exists in the translation from changes in metabolite
+concentration in body fluids to organ biochemistry and (molecular) physiological interpretation [20].
+Existing scarce information are usually only available for specific species, organs, or body fluids and
+cannot be transferred from one another easily. Software tools, such as pathway or enrichment analysis
+are not taking that into account.
+What does it actually mean, if metabolite X from a distinct pathway is found to be decreased?
+On one hand, downstream enzymes could have an increased activity or, on the other hand, the enzyme
+producing metabolite X could have a decreased activity; both can lead to a decreased level of metabolite X.
+
+Enzyme activities can be influenced by their specific product by steric inhibition/feedback-inhibition
+
+Int. J. Mol. Sci. 2016, 17, 632
+
+8 of 14
+
+or activation, and thereby guarantee a balanced homeostasis in the cell. This strategy avoids large
+metabolic changes with a potential negative effect for the cell.
+Many metabolites play a role in several pathways and are the product or substrate of many
+different enzymes or processes. Thus, it is a challenge to pinpoint an altered metabolite to a specific
+pathway or enzyme. Nevertheless, the pathway information may already give the correct answer,
+or at least a hint, for a biological question. Changes in metabolite abundances can be mapped to
+specific pathways, thereby providing mechanistic information of the process under study. Data derived
+from metabolic profiling can be complemented by genome, proteome, clinical, and environmental
+data, which supports the discovery of potential biomarkers that would not have been identified with
+targeted studies alone [87].
+Metabolome profiles have the advantage to detect unknown compounds (shotgun) and alterations
+on a global scale (shotgun and targeted). As many metabolites usually originate from several different
+processes, specific methods have to be used for validation, like a knockdown of the according
+enzyme or isotope-labeled MFA. Many bioinformatics tools are continuously created to address
+several important questions in the metabolomic field, like interpreting profiling data. MetaboAnalyst
+(www.metaboanalyst.ca), permits a comprehensive metabolomic data analysis, visualization and
+interpretation, including complex statistical calculations [88]. Metabolite pathway enrichment analysis
+(MPEA) was designed for the visualization and biological interpretation of metabolic profiling data
+at the system level. The tool tests whether metabolites involved in some predefined pathways occur
+towards the top or bottom of a ranked query compound list [89]. Integrated Molecular Pathway
+Level Analysis (IMPaLA) [90] is a tool for pathway over-representation and enrichment analysis with
+expression- and metabolite data. This proves the importance of metabolomics, but on the downside,
+many of these programs get funding for only a few years and are abandoned thereafter and egress,
+or even become useless, as file formats and necessary accompanying software changes permanently.
+Furthermore, most of the programs require specific raw or input data, which are frequently not
+interchangeable between programs.
+Biomarker Discovery
+Biomarker discovery is driven by applying new instrumentation, protocols, and software tools,
+in order to find novel and specific key metabolic features, which are characteristic for specific pathological
+
+conditions, diseases, or cancer. Surprisingly, the clinical breakthrough is still out of sight. Nevertheless,
+metabolomic key features indicative for diseases such as depression [91], schizophrenia [92,93],
+cardiovascular and coronary artery disease [94], diabetes [95,96], and cancers, such as liver [97],
+ovarian [98], and breast cancers have been reported [99]. The metabolic level variation between
+people, as well as within tissues and time points, is huge and dynamic. The genome, epigenome,
+transcriptome, and proteome states are much more stable compared to the high fluctuating metabolites.
+The aim in the biomarker field is to find biomarkers, which can precisely detect an early malignancy in
+order to achieve the best treatment effects and finally the highest survival rates for patients. So far,
+there were no new approved biomarkers in recent years [100,101]. The current strategy to find single
+biomarkers for a disease is hampered by high and dynamic fluctuations of metabolites. As every
+disease not only changes one metabolite, but entire metabolic pathways, we probably should search for
+differentially regulated pathways or metabolite classes to be the more robust biomarkers in the future.
+This can be accomplished the best by an integrative approach taking many omics subdisciplines
+into account [102]. Thus, accurate multi-data analyses will be the key to reveal, assess, and track
+molecular patterns, which reflect disease-perturbed networks [102,103].
+5. Conclusions
+The metabolome, lying closest to the phenotype and the most predictive of phenotype, is
+of emerging interest for systems biologists. Metabolomics has a long lasting importance in the
+field of biomarker detection and, finally, for drug treatments. No universal instrument or method
+
+Int. J. Mol. Sci. 2016, 17, 632
+
+9 of 14
+
+exists yet, which is capable of measuring the entire metabolome at once. Currently, we are still in
+the status of metabolomic profiling, intensive parallelization of different approaches and methods
+are transforming metabolomic profiling steadily into metabolome profiling. For a holistic view,
+integration of genome, transcriptome, proteome, and/or metabolome datasets can significantly
+enhance the insight into biological questions and molecular interactions between these disciplines.
+The integration of different molecular profiling data into a comprehensive entity is still challenging,
+especially in the bioinformatics area. Knowledge about the function of metabolites and, specifically,
+their multiple biological interactions are still missing. Thus, interpretation of results has to be
+handled with care. Our review highlights the advantages of metabolome profiles for systems biology
+approaches, as well as the current pitfalls, such as data interpretation and translation of results into a
+biologically-useful meaning.
+Acknowledgments: Our work is supported by the Max Planck Society.
+Author Contributions: The manuscript was written through contributions of Ina Aretz and David Meierhofer.
+Both authors have given approval to the final version of the manuscript.
+Conflicts of Interest: The authors declare no conflict of interest.
+
+References
+1.
+2.
+3.
+4.
+5.
+6.
+
+7.
+8.
+9.
+
+10.
+
+11.
+
+12.
+13.
+14.
+15.
+
+Kuehnbaum, N.L.; Britz-McKibbin, P. New advances in separation science for metabolomics: Resolving
+chemical diversity in a post-genomic era. Chem. Rev. 2013, 113, 2437–2468. [CrossRef] [PubMed]
+Johnson, C.H.; Gonzalez, F.J. Challenges and opportunities of metabolomics. J. Cell. Physiol. 2012, 227,
+2975–2981. [CrossRef] [PubMed]
+Patti, G.J.; Yanes, O.; Siuzdak, G. Innovation: Metabolomics: The apogee of the omics trilogy. Nat. Rev. Mol.
+Cell Biol. 2012, 13, 263–269. [CrossRef] [PubMed]
+Dettmer, K.; Aronov, P.A.; Hammock, B.D. Mass spectrometry-based metabolomics. Mass Spectrom. Rev.
+2007, 26, 51–78. [CrossRef] [PubMed]
+Harrigan, G.G., Goodacre, R., Eds.; Metabolic Profiling: Its Role in Biomarker Discovery and Gene Function
+Analysis; Springer US: Boston, MA, USA, 2003.
+Wishart, D.S.; Jewison, T.; Guo, A.C.; Wilson, M.; Knox, C.; Liu, Y.; Djoumbou, Y.; Mandal, R.; Aziat, F.;
+Dong, E.; et al. HMDB 3.0—The human metabolome database in 2013. Nucleic Acids Res. 2013, 41, D801–D807.
+[CrossRef] [PubMed]
+Weckwerth, W. Metabolomics in systems biology. Annu. Rev. Plant Biol. 2003, 54, 669–689. [CrossRef]
+[PubMed]
+Saito, K.; Matsuda, F. Metabolomics for functional genomics, systems biology, and biotechnology.
+Annu. Rev. Plant Biol. 2010, 61, 463–489. [CrossRef] [PubMed]
+Bingol, K.; Bruschweiler-Li, L.; Yu, C.; Somogyi, A.; Zhang, F.; Brüschweiler, R. Metabolomics beyond
+spectroscopic databases: A combined MS/NMR strategy for the rapid identification of new metabolites in
+complex mixtures. Anal. Chem. 2015, 87, 3864–3870. [CrossRef] [PubMed]
+Veuthey, J.-L.; Guillarme, D.; Schoenmakers, P.J.; Forcisi, S.; Moritz, F.; Kanawati, B.; Tziotis, D.; Lehmann, R.;
+Schmitt-Kopplin, P. Liquid chromatography–mass spectrometry in metabolomics research: Mass analyzers
+in ultra high pressure liquid chromatography coupling. J. Chromatogr. A 2013, 1292, 51–65.
+Wang, Y.; Liu, S.; Hu, Y.; Li, P.; Wan, J.-B. Current state of the art of mass spectrometry-based metabolomics
+studies—A review focusing on wide coverage, high throughput and easy identification. RSC Adv. 2015, 5,
+78728–78737. [CrossRef]
+Lee, S. Systems biology—A pivotal research methodology for understanding the mechanisms of traditional
+medicine. J. Pharmacopunct. 2015, 18, 11–18. [CrossRef] [PubMed]
+Ritchie, M.D.; Holzinger, E.R.; Li, R.; Pendergrass, S.A.; Kim, D. Methods of integrating data to uncover
+genotype-phenotype interactions. Nat. Rev. Genet. 2015, 16, 85–97. [CrossRef] [PubMed]
+Clarke, C.J.; Haselden, J.N. Metabolic profiling as a tool for understanding mechanisms of toxicity.
+Toxicol. Pathol. 2008, 36, 140–147. [CrossRef] [PubMed]
+Yu, T.; Bai, Y. Analyzing LC/MS metabolic profiling data in the context of existing metabolic networks.
+Curr. Metab. 2013, 1, 83–91.
+
+Int. J. Mol. Sci. 2016, 17, 632
+
+16.
+
+17.
+
+18.
+19.
+
+20.
+
+21.
+22.
+23.
+24.
+
+25.
+
+26.
+
+27.
+
+28.
+29.
+
+30.
+31.
+
+32.
+33.
+34.
+
+35.
+
+10 of 14
+
+Caldana, C.; Fernie, A.R.; Willmitzer, L.; Steinhauser, D. Unraveling retrograde signaling pathways: Finding
+candidate signaling molecules via metabolomics and systems biology driven approaches. Front. Plant Sci.
+2012, 3, 267. [CrossRef] [PubMed]
+Hounoum, B.M.; Blasco, H.; Emond, P.; Mavel, S. Liquid chromatography-high resolution mass
+spectrometry-based cell metabolomics: Experimental design, recommendations and applications.
+TrAC Trends Anal. Chem. 2015, 75, 118–128. [CrossRef]
+Fumes, B.H.; Silva, M.R.; Andrade, F.N.; Nazario, C.E.D.; Lanças, F.M. Recent advances and future trends in
+new materials for sample preparation. TrAC Trends Anal. Chem. 2015, 71, 9–25. [CrossRef]
+Raterink, R.-J.; Lindenburg, P.W.; Vreeken, R.J.; Ramautar, R.; Hankemeier, T. Recent developments in
+sample-pretreatment techniques for mass spectrometry-based metabolomics. TrAC Trends Anal. Chem. 2014,
+61, 157–167. [CrossRef]
+Scalbert, A.; Brennan, L.; Fiehn, O.; Hankemeier, T.; Kristal, B.S.; van Ommen, B.; Pujos-Guillot, E.; Verheij, E.;
+Wishart, D.; Wopereis, S. Mass-spectrometry-based metabolomics: Limitations and recommendations for
+future progress with particular focus on nutrition research. Metabolomics 2009, 5, 435–458. [CrossRef]
+[PubMed]
+Tallent, W.H.; Kleiman, R.; Cope, D.G. Gas—Liquid chromatography of silylated mixtures from lipolysis of
+triglycerides containing unusual fatty acyl groups. J. Lipid Res. 1966, 7, 531–535. [PubMed]
+Bruheim, P.; Kvitvang, H.F.N.; Villas-Boas, S.G. Stable isotope coded derivatizing reagents as internal
+standards in metabolite profiling. J. Chromatogr. A 2013, 1296, 196–203. [CrossRef] [PubMed]
+Toyo’oka, T. LC-MS determination of bioactive molecules based upon stable isotope-coded derivatization
+method. J. Pharm. Biomed. Anal. 2012, 69, 174–184. [CrossRef] [PubMed]
+Ong, S.-E.; Blagoev, B.; Kratchmarova, I.; Kristensen, D.B.; Steen, H.; Pandey, A.; Mann, M. Stable isotope
+labeling by amino acids in cell culture, SILAC, as a simple and accurate approach to expression proteomics.
+Mol. Cell. Proteom. 2002, 1, 376–386. [CrossRef]
+Lieser, B.; Liebisch, G.; Drobnik, W.; Schmitz, G. Quantification of sphingosine and sphinganine from crude
+lipid extracts by HPLC electrospray ionization tandem mass spectrometry. J. Lipid Res. 2003, 44, 2209–2216.
+[CrossRef] [PubMed]
+Cox, J.; Hein, M.Y.; Luber, C.A.; Paron, I.; Nagaraj, N.; Mann, M. MaxLFQ allows accurate proteome-wide
+label-free quantification by delayed normalization and maximal peptide ratio extraction. Mol. Cell. Proteom.
+2014, 13, 2513–2526. [CrossRef] [PubMed]
+Smith, C.A.; Want, E.J.; O’Maille, G.; Abagyan, R.; Siuzdak, G. XCMS: Processing mass spectrometry data for
+metabolite profiling using nonlinear peak alignment, matching, and identification. Anal. Chem. 2006, 78,
+779–787. [CrossRef] [PubMed]
+Tautenhahn, R.; Patti, G.J.; Rinehart, D.; Siuzdak, G. XCMS Online: A web-based platform to process
+untargeted metabolomic data. Anal. Chem. 2012, 84, 5035–5039. [CrossRef]
+Contrepois, K.; Jiang, L.; Snyder, M. optimized analytical procedures for the untargeted metabolomic
+profiling of human urine and plasma by combining hydrophilic interaction (hilic) and reverse-phase liquid
+chromatography (RPLC)–Mass spectrometry. Mol. Cell. Proteom. 2015, 14, 1684–1695. [CrossRef] [PubMed]
+Lei, Z.; Huhman, D.V.; Sumner, L.W. Mass spectrometry strategies in metabolomics. J. Biol. Chem. 2011, 286,
+25435–25442. [CrossRef] [PubMed]
+Chan, E.C.Y.; Pasikanti, K.K.; Hong, Y.; Ho, P.C.; Mahendran, R.; Raman Nee Mani, L.; Chiong, E.;
+Esuvaranathan, K. Metabonomic profiling of bladder cancer. J. Proteome Res. 2015, 14, 587–602. [CrossRef]
+[PubMed]
+Pasikanti, K.K.; Ho, P.C.; Chan, E.C.Y. Gas chromatography/mass spectrometry in metabolic profiling of
+biological fluids. J. Chromatogr. B. 2008, 871, 202–211. [CrossRef] [PubMed]
+Koek, M.M.; Muilwijk, B.; van der Werf, M.J.; Hankemeier, T. Microbial metabolomics with gas
+chromatography/mass spectrometry. Anal. Chem. 2006, 78, 1272–1281. [CrossRef] [PubMed]
+Savolainen, O.I.; Sandberg, A.-S.; Ross, A.B. A Simultaneous metabolic profiling and quantitative
+multimetabolite metabolomic method for human plasma using gas-chromatography tandem mass
+spectrometry. J. Proteome Res. 2016, 15, 259–265. [CrossRef] [PubMed]
+Want, E.J.; Nordström, A.; Morita, H.; Siuzdak, G. From exogenous to endogenous: The inevitable imprint of
+mass spectrometry in metabolomics. J. Proteome Res. 2007, 6, 459–468. [CrossRef] [PubMed]
+
+Int. J. Mol. Sci. 2016, 17, 632
+
+36.
+37.
+38.
+
+39.
+
+40.
+41.
+
+42.
+
+43.
+
+44.
+45.
+
+46.
+47.
+
+48.
+
+49.
+
+50.
+
+51.
+
+52.
+
+53.
+54.
+
+11 of 14
+
+Psychogios, N.; Hau, D.D.; Peng, J.; Guo, A.C.; Mandal, R.; Bouatra, S.; Sinelnikov, I.; Krishnamurthy, R.;
+Eisner, R.; Gautam, B.; et al. The human serum metabolome. PLoS ONE 2011, 6, e16957. [CrossRef] [PubMed]
+Büscher, J.M.; Czernik, D.; Ewald, J.C.; Sauer, U.; Zamboni, N. Cross-platform comparison of methods for
+quantitative metabolomics of primary metabolism. Anal. Chem. 2009, 81, 2135–2143. [CrossRef] [PubMed]
+Gray, N.; Heaton, J.; Musenga, A.; Cowan, D.A.; Plumb, R.S.; Smith, N.W. Comparison of reversed-phase and
+hydrophilic interaction liquid chromatography for the quantification of ephedrines using medium-resolution
+accurate mass spectrometry. J. Chromatogr. A 2013, 1289, 37–46. [CrossRef] [PubMed]
+Yan, Z.; Yan, R. Increase the accessibility and scale of targeted metabolomics: Construction of a human
+urinary metabolome-wide multiple reaction monitoring library using directly-coupled reversed-phase and
+hydrophilic interaction chromatography. Anal. Chim. Acta 2015, 894, 65–75. [CrossRef] [PubMed]
+Hemström, P.; Irgum, K. Hydrophilic interaction chromatography. J. Sep. Sci. 2006, 29, 1784–1821. [CrossRef]
+[PubMed]
+Haggarty, J.; Oppermann, M.; Dalby, M.J.; Burchmore, R.J.; Cook, K.; Weidt, S.; Burgess, K.E.V. Serially
+coupling hydrophobic interaction and reversed-phase chromatography with simultaneous gradients
+provides greater coverage of the metabolome. Metabolomics 2015, 11, 1465–1470. [CrossRef] [PubMed]
+Falasca, S.; Petruzziello, F.; Kretz, R.; Rainer, G.; Zhang, X. Analysis of multiple quaternary ammonium
+compounds in the brain using tandem capillary column separation and high resolution mass spectrometric
+detection. J. Chromatogr. A 2012, 1241, 46–51. [CrossRef] [PubMed]
+Greco, G.; Grosse, S.; Letzel, T. Serial coupling of reversed-phase and zwitterionic hydrophilic interaction
+LC/MS for the analysis of polar and nonpolar phenols in wine. J. Sep. Sci. 2013, 36, 1379–1388. [CrossRef]
+[PubMed]
+Wei, R.; Li, G.; Seymour, A.B. High-throughput and multiplexed LC/MS/MRM method for targeted
+metabolomics. Anal. Chem. 2010, 82, 5527–5533. [CrossRef] [PubMed]
+Lu, W.; Clasquin, M.F.; Melamud, E.; Amador-Noguez, D.; Caudy, A.A.; Rabinowitz, J.D. Metabolomic
+analysis via reversed-phase ion-pairing liquid chromatography coupled to a stand alone orbitrap mass
+spectrometer. Anal. Chem. 2010, 82, 3212–3221. [CrossRef] [PubMed]
+Buré, C.; Ayciriex, S.; Testet, E.; Schmitter, J.-M. A single run LC-MS/MS method for phospholipidomics.
+Anal. Bioanal. Chem. 2013, 405, 203–213. [CrossRef] [PubMed]
+Bielawski, J.; Pierce, J.S.; Snider, J.; Rembiesa, B.; Szulc, Z.M.; Bielawska, A. Comprehensive quantitative
+analysis of bioactive sphingolipids by high-performance liquid chromatography-tandem mass spectrometry.
+Methods Mol. Biol. 2009, 579, 443–467. [PubMed]
+Preinerstorfer, B.; Schiesel, S.; Lämmerhofer, M.; Lindner, W. Metabolic profiling of intracellular metabolites
+in fermentation broths from β-lactam antibiotics production by liquid chromatography-tandem mass
+spectrometry methods. J. Chromatogr. A 2010, 1217, 312–328. [CrossRef] [PubMed]
+Kitteringham, N.R.; Jenkins, R.E.; Lane, C.S.; Elliott, V.L.; Park, B.K. Multiple reaction monitoring for
+quantitative biomarker analysis in proteomics and metabolomics. J. Chromatogr. B 2009, 877, 1229–1239.
+[CrossRef] [PubMed]
+Bueno, M.J.M.; Agüera, A.; Gómez, M.J.; Hernando, M.D.; García-Reyes, J.F.; Fernandez-Alba, A.R.
+Application of liquid chromatography/quadrupole-linear Ion trap mass spectrometry and time-of-flight
+mass spectrometry to the determination of pharmaceuticals and related contaminants in wastewater.
+Anal. Chem. 2007, 79, 9372–9384. [CrossRef] [PubMed]
+Gros, M.; Petrović, M.; Barceló, D. Tracing pharmaceutical residues of different therapeutic classes in
+environmental waters by using liquid chromatography/quadrupole-linear ion trap mass spectrometry and
+automated library searching. Anal. Chem. 2009, 81, 898–912. [CrossRef] [PubMed]
+Schürmann, A.; Dvorak, V.; Crüzer, C.; Butcher, P.; Kaufmann, A. False-positive liquid chromatography/tandem
+
+mass spectrometric confirmation of sebuthylazine residues using the identification points system according
+to EU directive 2002/657/EC due to a biogenic insecticide in tarragon. Rapid Commun. Mass Spectrom. 2009,
+23, 1196–1200. [CrossRef] [PubMed]
+Gielisch, I.; Meierhofer, D. Metabolome and proteome profiling of complex I deficiency induced by rotenone.
+J. Proteome Res. 2015, 14, 224–235. [CrossRef] [PubMed]
+Fuhrer, T.; Heer, D.; Begemann, B.; Zamboni, N. High-throughput, accurate mass metabolome profiling
+of cellular extracts by flow injection-time-of-flight mass spectrometry. Anal. Chem. 2011, 83, 7074–7080.
+[CrossRef] [PubMed]
+
+Int. J. Mol. Sci. 2016, 17, 632
+
+55.
+56.
+
+57.
+
+58.
+
+59.
+60.
+61.
+62.
+
+63.
+
+64.
+65.
+
+66.
+
+67.
+
+68.
+
+69.
+70.
+71.
+
+72.
+
+73.
+
+12 of 14
+
+Link, H.; Fuhrer, T.; Gerosa, L.; Zamboni, N.; Sauer, U. Real-time metabolome profiling of the metabolic
+switch between starvation and growth. Nat. Methods 2015, 12, 1091–1097. [CrossRef] [PubMed]
+Beckmann, M.; Parker, D.; Enot, D.P.; Duval, E.; Draper, J. High-throughput, nontargeted metabolite
+fingerprinting using nominal mass flow injection electrospray mass spectrometry. Nat. Protoc. 2008, 3,
+486–504. [CrossRef] [PubMed]
+Roddy, T.P.; Horvath, C.R.; Stout, S.J.; Kenney, K.L.; Ho, P.-I.; Zhang, J.-H.; Vickers, C.; Kaushik, V.;
+Hubbard, B.; Wang, Y.K. Mass spectrometric techniques for label-free high-throughput screening in drug
+discovery. Anal. Chem. 2007, 79, 8207–8213. [CrossRef] [PubMed]
+Nanita, S.C.; Stry, J.J.; Pentz, A.M.; McClory, J.P.; May, J.H. Fast extraction and dilution flow injection mass
+spectrometry method for quantitative chemical residue screening in food. J. Agric. Food Chem. 2011, 59,
+7557–7568. [CrossRef] [PubMed]
+Sá, J.; Duarte, T.; Carrondo, M.; Alves, P.; Teixeira, A. Metabolic Flux Analysis: A Powerful Tool in Animal Cell
+Culture; Al-Rubeai, M., Ed.; Springer International Publishing: Cham, Switzerland, 2015; Volume 9.
+Niklas, J.; Heinzle, E. Metabolic flux analysis in systems biology of mammalian cells. Adv. Biochem.
+Eng. Biotechnol. 2012, 127, 109–132. [PubMed]
+Gebreselassie, N.A.; Antoniewicz, M.R. 13 C-metabolic flux analysis of co-cultures: A novel approach.
+Metab. Eng. 2015, 31, 132–139. [CrossRef] [PubMed]
+Fischer-Zirnsak, B.; Escande-Beillard, N.; Ganesh, J.; Tan, Y.X.; Al Bughaili, M.; Lin, A.E.; Sahai, I.; Bahena, P.;
+Reichert, S.L.; Loh, A.; et al. Recurrent de novo mutations affecting residue arg138 of pyrroline-5-carboxylate
+synthase cause a progeroid form of autosomal-dominant cutis laxa. Am. J. Hum. Genet. 2015, 97, 483–492.
+[CrossRef] [PubMed]
+Li, T.; He, J.; Mao, X.; Bi, Y.; Luo, Z.; Guo, C.; Tang, F.; Xu, X.; Wang, X.; Wang, M.; et al. In situ biomarker
+discovery and label-free molecular histopathological diagnosis of lung cancer by ambient mass spectrometry
+imaging. Sci. Rep. 2015, 5, 14089. [CrossRef] [PubMed]
+Zaima, N.; Hayasaka, T.; Goto-Inoue, N.; Setou, M. Matrix-assisted laser desorption/ionization imaging
+mass spectrometry. Int. J. Mol. Sci. 2010, 11, 5040–5055. [CrossRef] [PubMed]
+Shroff, R.; Schramm, K.; Jeschke, V.; Nemes, P.; Vertes, A.; Gershenzon, J.; Svatoš, A. Quantification
+of plant surface metabolites by matrix-assisted laser desorption-ionization mass spectrometry imaging:
+Glucosinolates on Arabidopsis thaliana leaves. Plant J. 2015, 81, 961–972. [CrossRef] [PubMed]
+Lanekoff, I.; Burnum-Johnson, K.; Thomas, M.; Short, J.; Carson, J.P.; Cha, J.; Dey, S.K.; Yang, P.;
+Prieto Conaway, M.C.; Laskin, J. High-speed tandem mass spectrometric in situ imaging by nanospray
+desorption electrospray ionization mass spectrometry. Anal. Chem. 2013, 85, 9596–9603. [CrossRef] [PubMed]
+Passarelli, M.K.; Newman, C.F.; Marshall, P.S.; West, A.; Gilmore, I.S.; Bunch, J.; Alexander, M.R.; Dollery, C.T.
+Single-cell analysis: Visualizing pharmaceutical and metabolite uptake in cells with label-free 3D mass
+spectrometry imaging. Anal. Chem. 2015, 87, 6696–6702. [CrossRef] [PubMed]
+Bellin, D.L.; Sakhtah, H.; Zhang, Y.; Price-Whelan, A.; Dietrich, L.E.P.; Shepard, K.L. Electrochemical camera
+chip for simultaneous imaging of multiple metabolites in biofilms. Nat. Commun. 2016, 7, 10535. [CrossRef]
+[PubMed]
+Goodwin, R.J.A. Sample preparation for mass spectrometry imaging: Small mistakes can lead to big
+consequences. J. Proteom. 2012, 75, 4893–4911. [CrossRef] [PubMed]
+Harvey, D.J. Analysis of carbohydrates and glycoconjugates by matrix-assisted laser desorption/ionization
+mass spectrometry: An update for 2007–2008. Mass Spectrom. Rev. 2012, 31, 183–311. [CrossRef] [PubMed]
+Smith, C.A.; O’Maille, G.; Want, E.J.; Qin, C.; Trauger, S.A.; Brandon, T.R.; Custodio, D.E.; Abagyan, R.;
+Siuzdak, G. METLIN: A metabolite mass spectral database. Ther. Drug Monit. 2005, 27, 747–751. [CrossRef]
+[PubMed]
+Horai, H.; Arita, M.; Kanaya, S.; Nihei, Y.; Ikeda, T.; Suwa, K.; Ojima, Y.; Tanaka, K.; Tanaka, S.; Aoshima, K.;
+et al. MassBank: A public repository for sharing mass spectral data for life sciences. J. Mass Spectrom. 2010,
+45, 703–714. [CrossRef] [PubMed]
+Jeffryes, J.G.; Colastani, R.L.; Elbadawi-Sidhu, M.; Kind, T.; Niehaus, T.D.; Broadbelt, L.J.; Hanson, A.D.;
+Fiehn, O.; Tyo, K.E.J.; Henry, C.S. MINEs: Open access databases of computationally predicted enzyme
+promiscuity products for untargeted metabolomics. J. Cheminform. 2015, 7, 44. [CrossRef] [PubMed]
+
+Int. J. Mol. Sci. 2016, 17, 632
+
+74.
+
+75.
+
+76.
+
+77.
+
+78.
+79.
+
+80.
+
+81.
+
+82.
+83.
+84.
+
+85.
+
+86.
+
+87.
+88.
+89.
+90.
+
+91.
+
+92.
+
+13 of 14
+
+Huan, T.; Tang, C.; Li, R.; Shi, Y.; Lin, G.; Li, L. MyCompoundID MS/MS Search: Metabolite identification
+using a library of predicted fragment-ion-spectra of 383,830 possible human metabolites. Anal. Chem. 2015,
+87, 10619–10626. [CrossRef] [PubMed]
+Haug, K.; Salek, R.M.; Conesa, P.; Hastings, J.; de Matos, P.; Rijnbeek, M.; Mahendraker, T.; Williams, M.;
+Neumann, S.; Rocca-Serra, P.; et al. MetaboLights—An open-access general-purpose repository for
+metabolomics studies and associated meta-data. Nucleic Acids Res. 2013, 41, D781–D786. [CrossRef]
+[PubMed]
+Hur, M.; Campbell, A.A.; Almeida-de-Macedo, M.; Li, L.; Ransom, N.; Jose, A.; Crispin, M.; Nikolau, B.J.;
+Wurtele, E.S. A global approach to analysis and interpretation of metabolic data for plant natural product
+discovery. Nat. Prod. Rep. 2013, 30, 565–583. [CrossRef] [PubMed]
+Ichou, F.; Schwarzenberg, A.; Lesage, D.; Alves, S.; Junot, C.; Machuron-Mandard, X.; Tabet, J.-C. Comparison
+of the activation time effects and the internal energy distributions for the CID, PQD and HCD excitation
+modes. J. Mass Spectrom. 2014, 49, 498–508. [CrossRef] [PubMed]
+Sleno, L.; Volmer, D.A. Ion activation methods for tandem mass spectrometry. J. Mass Spectrom. 2004, 39,
+1091–1112. [CrossRef] [PubMed]
+Oppermann, M.; Damoc, N.E.; Crone, C.; Moehring, T.; Muenster, H.; Hornshaw, M. High precision
+measurement and fragmentation analysis for metabolite identification. Methods Mol. Biol. 2012, 860, 145–156.
+[PubMed]
+Donohoe, G.C.; Maleki, H.; Arndt, J.R.; Khakinejad, M.; Yi, J.; McBride, C.; Nurkiewicz, T.R.; Valentine, S.J.
+A new ion mobility-linear ion trap instrument for complex mixture analysis. Anal. Chem. 2014, 86, 8121–8128.
+[CrossRef] [PubMed]
+Kushnir, M.M.; Rockwood, A.L.; Nelson, G.J.; Yue, B.; Urry, F.M. Assessing analytical specificity in
+quantitative analysis using tandem mass spectrometry. Clin. Biochem. 2005, 38, 319–327. [CrossRef]
+[PubMed]
+Roberts, L.D.; Souza, A.L.; Gerszten, R.E.; Clish, C.B. Targeted metabolomics. Curr. Protoc. Mol. Biol. 2012.
+[CrossRef]
+Alonso, A.; Marsal, S.; Julià, A. Analytical methods in untargeted metabolomics: State of the art in 2015.
+Front. Bioeng. Biotechnol. 2015, 3, 23. [CrossRef] [PubMed]
+Lo, Y.-C.; Senese, S.; Li, C.-M.; Hu, Q.; Huang, Y.; Damoiseaux, R.; Torres, J.Z. Large-scale chemical similarity
+networks for target profiling of compounds identified in cell-based chemical screens. PLoS Comput. Biol.
+2015, 11, e1004153. [CrossRef] [PubMed]
+Sumner, L.W.; Amberg, A.; Barrett, D.; Beale, M.H.; Beger, R.; Daykin, C.A.; Fan, T.W.-M.; Fiehn, O.;
+Goodacre, R.; Griffin, J.L.; et al. Proposed minimum reporting standards for chemical analysis Chemical
+Analysis Working Group (CAWG) Metabolomics Standards Initiative (MSI). Metabolomics 2007, 3, 211–221.
+[CrossRef] [PubMed]
+Salek, R.M.; Neumann, S.; Schober, D.; Hummel, J.; Billiau, K.; Kopka, J.; Correa, E.; Reijmers, T.;
+Rosato, A.; Tenori, L.; et al. COordination of Standards in MetabOlomicS (COSMOS): Facilitating integrated
+metabolomics data access. Metabolomics 2015, 11, 1587–1597. [CrossRef] [PubMed]
+Weckwerth, W.; Morgenthal, K. Metabolomics: From pattern recognition to biological interpretation.
+Drug Discov. Today 2005, 10, 1551–1558. [CrossRef]
+Xia, J.; Sinelnikov, I.V.; Han, B.; Wishart, D.S. MetaboAnalyst 3.0—Making metabolomics more meaningful.
+Nucleic Acids Res. 2015, 43, W251–W257. [CrossRef] [PubMed]
+Kankainen, M.; Gopalacharyulu, P.; Holm, L.; Oresic, M. MPEA—Metabolite pathway enrichment analysis.
+Bioinformatics 2011, 27, 1878–1879. [CrossRef] [PubMed]
+Kamburov, A.; Cavill, R.; Ebbels, T.M.D.; Herwig, R.; Keun, H.C. Integrated pathway-level analysis of
+transcriptomics and metabolomics data with IMPaLA. Bioinformatics 2011, 27, 2917–2918. [CrossRef]
+[PubMed]
+Paige, L.A.; Mitchell, M.W.; Krishnan, K.R.R.; Kaddurah-Daouk, R.; Steffens, D.C. A preliminary metabolomic
+analysis of older adults with and without depression. Int. J. Geriatr. Psychiatry 2007, 22, 418–423. [CrossRef]
+[PubMed]
+Holmes, E.; Tsang, T.M.; Huang, J.T.-J.; Leweke, F.M.; Koethe, D.; Gerth, C.W.; Nolden, B.M.; Gross, S.;
+Schreiber, D.; Nicholson, J.K.; et al. Metabolic profiling of CSF: Evidence that early intervention may impact
+on disease progression and outcome in schizophrenia. PLoS Med. 2006, 3, e327. [CrossRef] [PubMed]
+
+Int. J. Mol. Sci. 2016, 17, 632
+
+93.
+94.
+
+95.
+
+96.
+
+97.
+
+98.
+
+99.
+100.
+101.
+102.
+
+103.
+
+14 of 14
+
+Kaddurah-Daouk, R. Metabolic profiling of patients with schizophrenia. PLoS Med. 2006, 3, e363. [CrossRef]
+[PubMed]
+Brindle, J.T.; Antti, H.; Holmes, E.; Tranter, G.; Nicholson, J.K.; Bethell, H.W.L.; Clarke, S.; Schofield, P.M.;
+McKilligin, E.; Mosedale, D.E.; et al. Rapid and noninvasive diagnosis of the presence and severity of
+coronary heart disease using 1H–NMR-based metabonomics. Nat. Med. 2002, 8, 1439–1444. [CrossRef]
+[PubMed]
+Yi, L.-Z.; He, J.; Liang, Y.-Z.; Yuan, D.-L.; Chau, F.-T. Plasma fatty acid metabolic profiling and biomarkers
+of type 2 diabetes mellitus based on GC/MS and PLS-LDA. FEBS Lett. 2006, 580, 6837–6845. [CrossRef]
+[PubMed]
+Wang, C.; Kong, H.; Guan, Y.; Yang, J.; Gu, J.; Yang, S.; Xu, G. Plasma phospholipid metabolic profiling and
+biomarkers of type 2 diabetes mellitus based on high-performance liquid chromatography/electrospray mass
+spectrometry and multivariate statistical analysis. Anal. Chem. 2005, 77, 4108–4116. [CrossRef] [PubMed]
+Yang, J.; Xu, G.; Zheng, Y.; Kong, H.; Pang, T.; Lv, S.; Yang, Q. Diagnosis of liver cancer using HPLC-based
+metabonomics avoiding false-positive result from hepatitis and hepatocirrhosis diseases. J. Chromatogr. B.
+Anal. Technol. Biomed. Life Sci. 2004, 813, 59–65. [CrossRef] [PubMed]
+Odunsi, K.; Wollman, R.M.; Ambrosone, C.B.; Hutson, A.; McCann, S.E.; Tammela, J.; Geisler, J.P.; Miller, G.;
+Sellers, T.; Cliby, W.; et al. Detection of epithelial ovarian cancer using 1 H–NMR-based metabonomics.
+Int. J. Cancer 2005, 113, 782–788. [CrossRef] [PubMed]
+Monteiro, M.S.; Carvalho, M.; Bastos, M.L.; Guedes de Pinho, P. Metabolomics analysis for biomarker
+discovery: Advances and challenges. Curr. Med. Chem. 2013, 20, 257–271. [CrossRef] [PubMed]
+Diamandis, E.P. Cancer biomarkers: Can we turn recent failures into success? J. Natl. Cancer Inst. 2010, 102,
+1462–1467. [CrossRef] [PubMed]
+Konforte, D.; Diamandis, E.P. Is early detection of cancer with circulating biomarkers feasible? Clin. Chem.
+2013, 59, 35–37. [CrossRef] [PubMed]
+Meierhofer, D.; Weidner, C.; Sauer, S. Integrative analysis of transcriptomics, proteomics, and metabolomics
+data of white adipose and liver tissue of high-fat diet and rosiglitazone-treated insulin-resistant mice
+identified pathway alterations and molecular hubs. J. Proteome Res. 2014, 13, 5592–5602. [CrossRef]
+[PubMed]
+Wang, K.; Lee, I.; Carlson, G.; Hood, L.; Galas, D. Systems biology and the discovery of diagnostic biomarkers.
+Dis. Markers 2010, 28, 199–207. [CrossRef] [PubMed]
+© 2016 by the authors; licensee MDPI, Basel, Switzerland. This article is an open access
+article distributed under the terms and conditions of the Creative Commons Attribution
+(CC-BY) license (http://creativecommons.org/licenses/by/4.0/).
+
+

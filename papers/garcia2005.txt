@@ -1,0 +1,1071 @@
+Journal of Chromatography B, 825 (2005) 111–123
+
+The effect of the mobile phase additives on sensitivity in the analysis
+of peptides and proteins by high-performance liquid
+chromatography–electrospray mass spectrometry
+M.C. Garcı́a ∗
+Departamento de Quı́mica Analı́tica, Facultad de Quı́mica, Universidad de Alcalá, 28871 Alcalá de Henares, Madrid, Spain
+Received 15 December 2004; accepted 22 March 2005
+Available online 26 April 2005
+
+Abstract
+The study of the effect of mobile phases on sensitivity in the analysis of peptides and proteins by high-performance liquid chromatography
+(HPLC)–electrospray mass spectrometry (ESI-MS) has been the aim of this review. Reversed-phase chromatography (RPLC) is the chromatographic mode most suitable for coupling with ESI-MS since mobile phases containing organic modifiers are used. The analysis of proteins
+and peptides by RPLC mostly involves the use of trifluoroacetic acid (TFA) as an ion-pairing agent despite its being a strong suppressor of the
+MS signal. Different studies reporting the effects of using other ion-pairing agents (other perfluorinated acids, acetic acid, formic acid, etc.)
+and buffers (ammonium acetate, ammonium formate, ammonium bicarbonate, morpholine, etc.) in RPLC–ESI-MS of proteins and peptides
+did not yield a single strong candidate that could generally replace TFA. The enhancement in sensitivity with other reagents observed in some
+cases strongly depended on the analyte, the experimental conditions used, and the mass spectrometer and, usually, it did not compensate for
+the loss in separation resolution related to TFA. The examples of direct coupling of affinity, size-exclusion, or ion-exchange chromatography
+(IEC) to ESI-MS are very limited because of incompatibilities related to the use of mobile phases containing high salt concentrations. To
+overcome this problem, an intermediate desalting step is needed. Multidimensional chromatography, microdialysis, and ion-capture modules
+can be used to couple these chromatographic modes with ESI-MS. Multidimensional chromatography with RPLC as a second dimension has
+most often been used. Although most examples involve the trap and analysis in the second dimension of a certain part of the first separation,
+some comprehensive analyses of the entire sample in the second dimension have also appeared.
+© 2005 Elsevier B.V. All rights reserved.
+Keywords: Reversed-phase chromatography; Size-exclusion chromatography; Ion-exchange chromatography; Affinity chromatography; Protein; Peptide;
+Electrospray mass spectrometry
+
+1. Introduction
+In order to understand the role biomolecules play in biochemical processes, it is important to develop methods for
+their identification. Since in most cases there is a clear limitation of the sample amount, these methods have to enable
+the sensitive detection of these molecules. Mass spectrometry
+(MS) is the detection technique most widely used for this purpose. Nevertheless, this technique requires the use of more or
+less clean samples in order to obtain suitable detection limits.
+∗
+
+Tel.: +34 918854915; fax: +34 918854971.
+E-mail address: concepcion.garcia@uah.es.
+
+1570-0232/$ – see front matter © 2005 Elsevier B.V. All rights reserved.
+doi:10.1016/j.jchromb.2005.03.041
+
+Matrix components coeluting with a target analyte may affect
+its ionisation and thus provide no valid results [1].
+In order to overcome this problem, a separation technique
+enabling the clean up of a sample or the preconcentration
+of analytes prior to detection is needed. High-performance
+liquid chromatography (HPLC) has been widely coupled to
+electrospray ionisation mass spectrometry (ESI-MS) for the
+analysis of proteins and peptides. Nevertheless, the performance of HPLC–ESI-MS can be compromised if no adequate
+mobile phases are chosen. In fact, the eluent choice in ESIMS is severally restricted to volatile compounds while mobile
+phases typically used for the separation of proteins and peptides by HPLC may not be readily volatile and, therefore, not
+
+112
+
+M.C. Garcı́a / J. Chromatogr. B 825 (2005) 111–123
+
+compatible with the electrospray process [2]. A suitable eluent for electrospray ionisation should contain an organic modifier (methanol or acetonitrile) and a volatile buffer whose
+concentration could also be critical; concentrations that are
+too high may result in the suppression of the analyte signal,
+while concentrations that are too low may lead to poor peak
+shape and efficiency.
+This review is mainly centred on HPLC–ESI-MS for the
+analysis of peptides and proteins although certain relevant
+examples comprising the analysis of other organic molecules
+have also been included. The effect of the mobile phases additives used in every chromatographic mode on the sensitivity
+in HPLC–ESI-MS and the problems faced in each case to
+match LC with ESI-MS have been reviewed.
+
+2. Reversed-phase chromatography
+Reversed-phase chromatography (RPLC) constitutes a
+powerful tool for the separation of very heterogeneous samples and has been widely used in combination with mass
+spectrometry detection. RPLC is the chromatographic mode
+which best matches ESI-MS since the mobile phases used
+present low ionic strengths and contain organic modifiers.
+The chemical composition of these mobile phases plays an
+important role both in the chromatographic separation and in
+the mass spectrometer performance.
+Mobile phases used in RPLC for the analysis of proteins
+and peptides contain an additive which is working as an ionpairing agent. This component increases the hydrophobic-
+
+ity of molecules by forming ionic pairs with their charged
+groups. As a consequence, interaction of the molecules with
+the hydrophobic stationary phase is possible and, therefore,
+so is their separation. Moreover, these additives usually yield
+very high or low pHs and promote protein unfolding and denaturation. Thus, molecules are present in the same random
+coil conformation, eluting in sharper and more symmetrical
+peaks [3–5].
+Table 1 shows the ion-pairing agents most used in the separation of proteins and peptides by RPLC. As can be seen, these
+additives are added to the mobile phase in low concentrations.
+The ion-pairing agent most widely used for the separation of
+proteins and peptides is trifluoroacetic acid (TFA) although
+reagents such as acetic acid or phosphate buffer have also
+been employed. As well as ion-pairing agents, other additives
+such as sodium dodecyl sulphate (SDS), urea, and mercaptoethanol can also be added to the mobile phase to improve
+separation. Unfortunately, many of these compounds result
+in deleterious detection by ESI-MS.
+In fact, typical RPLC mobile phases containing phosphate
+buffer or TFA result in low sensitivity in the detection of proteins and peptides by ESI-MS. Salts and other non-volatile
+compounds are not suitable for ESI-MS since they can deposit
+on the ion source. This would result in capillary obstruction
+affecting the sensitivity and the accuracy of the quantitative
+analysis. Nevertheless, volatility is not the only limitation. A
+widely used volatile reagent such as TFA is also not suitable
+for sensitive mass spectrometry detection. In fact, TFA forms
+very strong ion pairs with analytes that can not be broken
+apart in the conditions used in the electrospray ionisation in-
+
+Table 1
+Ion-pairing agents used in the analysis of proteins and peptides by RPLC [5–10]
+Eluent
+Perfluorinated carboxylic acids
+Trifluoroacetic acid
+Heptafluorobutytic acid
+Others: nonafluoropentanoic acid, tridecafluoroheptanoic acid,
+pentadecafluorooctanoic acid, etc.
+Other acids
+Acetic acid
+Formic acid
+Hydrochloric acid
+Salts
+Phosphate buffer (pH 2–9)
+Triethylammonium phosphate (pH 4)
+Formate (ammonium, trialkylammonium or pyridinium salt)
+Acetate (ammonium, trialkylammonium or pyridinium salt)
+Perchlorate
+Ammonium bicarbonate (pH 7–11)
+Ammonium sulfate (pH 4)
+Alkylsulfonates/alkylsulfates (e.g., heptanesulfonate)
+Teraalkylammonium salts (e.g., tetrabutylammonium salts)
+Alkylamines (e.g., triethylamine, dodecylamine, pyridine)
+(acetate, formate or phosphate)
+Bases
+Morpholine
+
+Concentration in
+mobile phase
+
+Characteristics
+
+0.05–0.5%
+10–50 mM
+10–50 mM
+
+Very volatile
+Volatile
+Retention controlled by the alkyl chain-length; volatile
+
+0.5–1 M
+20–60%
+5 mM
+
+Volatile
+Volatile; lower resolution and recovery than TFA
+Volatile and corrosive
+
+10–20 mM
+125 mM
+20–200 mM
+20–200 mM
+100 mM
+50–100 mM
+125 mM
+10–15 mM
+10 mM
+10 mM
+
+Not volatile
+Not volatile
+Volatile
+Volatile
+Not volatile
+Volatile
+Not volatile
+Retention controlled by the alkyl chain-length; not volatile
+Retention controlled by the alkyl chain-length; not volatile
+Volatile
+
+10 mM
+
+Volatile
+
+M.C. Garcı́a / J. Chromatogr. B 825 (2005) 111–123
+
+terface preventing the ionisation of analytes. Moreover, TFA
+also results in spray instability and signal reduction due to the
+high conductivity and high surface tension of the eluent [3].
+Consequently, ion-pairing agents allowing for a compromise
+between a sensitive mass detection and an efficient chromatographic separation are required for suitable RPLC–ESI-MS
+performance.
+Numerous attempts have been made to achieve this compromise. One approach has been the reduction of the detrimental effects derived from the use of TFA by the addition
+of an organic sheath liquid. In fact, the use of an organic
+auxiliary liquid has been demonstrated to help the generation
+of ions in the electrospray process [11–13]. The most recent
+trial base on the use of an auxiliary liquid was developed by
+Apffel et al. [3]. They proposed the post-column addition of a
+highly concentrated weak acid (RCOOH) which would compete with TFA (strong acid) to pair with the analyte. As the
+weak acid is present in a high concentration, the competition
+between TFA and the weak acid would be driven towards the
+deprotonation of the weak acid:
+CF3 COO− + RCOOH  CF3 COOH ↑ + RCOO−
+Consequently, the protonated TFA could be evaporated
+from the droplet and the analyte would form ion pairs with
+the new anion (RCOO− ). As these ion pairs would be
+weaker than those previously formed with the TFA anion,
+the presence of the analyte in its protonated form would
+be promoted. Apffel and his colleagues tried different organic acids (propionic acid, valeric acid, formic acid, acetic
+acid, and butyric acid) added post-column at concentrations ranging from 0 to 20% in an organic carrier solvent.
+With the exception of formic acid, the rest of the additives resulted in enhanced sensitivity, with propionic acid
+observed to perform best. They also tried different organic
+carrier solvents (2-propanol, acetonitrile, methanol, ethanol,
+butanol-acetonitrile, 2-methoxyethanol, 2-methoxyethanol2-propanol, and 2-methoxyethanol-butanol) since this could
+also affect the stability and intensity of the signal. The postcolumn addition of propionic acid-2-propanol (75:25, v/v) in
+a 1:2 proportion in the HPLC mobile phase resulted in an
+overall 10- to 100-fold improvement in the signal-to-noise
+ratio. Fig. 1 shows the effect of the addition of propionic
+acid-2-propanol in the analysis of different amounts of a tryptic digest of lysozyme by RPLC–ESI-MS using TFA. In all
+cases, significant increases in the MS signal were observed
+when the auxiliary acid was added. Similar improvements
+were also detected with other ion-pairing agents such as heptafluorobutyric acid (HFBA) and hydrochloric acid. Nevertheless, these interesting results were only valid for small
+proteins and peptides but not with larger proteins in whose
+case it is not possible to break up enough ion pairs formed
+with TFA to efficiently recover the signal.
+Different studies were focused on the discovery of alternatives to TFA which do not interfere with the ion-formation
+process while still yielding acceptable chromatographic behaviour. The first studies were performed with thermospray
+
+113
+
+(TSP) RPLC–MS since problems similar to those observed
+in ESI were found. In fact, TSP performance is also highly
+dependent on mobile phase composition requiring the presence of volatile buffers. Voyksner and Haney [14] evaluated
+the effect of different volatile buffers (ammonium carbonate,
+ammonium bicarbonate, ammonium acetate, ammonium formate, and triethylamine) on the analysis of organic molecules.
+They found better results when using ammonium acetate and
+ammonium formate, whereas the strong bases (carbonate, bicarbonate, and triethylamine) yielded the lowest sensitivities.
+The authors supported these results on the basis of a competition mechanism between analytes and buffer for protons and
+attributed the low signal observed when using basic buffers to
+their stronger affinity for protons than the analytes. They also
+studied the influence of the concentration on sensitivity, with
+the buffer ammonium acetate yielding the highest signal. By
+increasing its concentration to 0.08 M, an increase in the MS
+response was observed. Higher concentrations of buffer did
+not result in a significant increase in sensitivity. These results were similar to those obtained by Duchateau et al. [15]
+who, some years later, confirmed the applicability of ammonium formate, ammonium acetate, and ammonium bicarbonate for the analysis of three decomposition products of an ␣dipeptide by RPLC–MS. The separation of these compounds
+by RPLC and UV detection had been described several times
+using alkylsulphonates as ion-pairing agents. These authors
+tested the analysis of these compounds by RPLC–MS using
+TFA, ammonium formate, ammonium acetate, and ammonium bicarbonate as volatile reagents. Even though ammonium formate resulted in the highest signal-to-noise ratio, it
+yielded very poor resolution. The presence of 8 mM TFA in
+the mobile phase significantly improved separation without
+increasing background signal.
+The first studies with ESI compared its performance when
+analysing organic compounds dissolved in different LC eluents containing ion-pairing agents. Miller and Fisher [16]
+tried different volatile (valeric acid (a weak ion-pairing agent)
+and perfluoroheptanoic acid (a strong ion-pairing agent))
+and non-volatile reagents (heptane sulphonic acid) in the
+positive mode and in the negative mode (tributylamine (a
+strong, volatile ion-pairing agent), tetrabutylammonium hydroxide (a strong, non-volatile ion-pairing agent) as ionpairing agents for the analysis of organic compounds using
+ESI-MS. As expected, volatile ion-pairing agents (valeric
+acid, perfluoroheptanoic acid, and tributylamine) yielded
+higher responses than non-volatile agents (heptane sulphonic
+acid and tetrabutylammonium hydroxide). In addition, the
+signal observed was, in some cases, related to the volatility
+of the analyte itself, the most volatile producing the highest signals. Temesi and Law [17] also studied the effect of
+TFA, formic acid, and ammonium acetate on the MS response observing the best results with formic acid and the
+worst with TFA. Furthermore, analyte responses decreased
+with an increased concentration of the ion-pairing agent (in
+the range 1–100 mM) and significant variations of the signal
+were detected depending on whether the organic modifier
+
+114
+
+M.C. Garcı́a / J. Chromatogr. B 825 (2005) 111–123
+
+Fig. 1. Peptide maps of tryptic digests of different amounts of lysozyme by RPLC–ESI-MS (with and without postcolumn addition of propionic acid-2-propanol)
+and RPLC–UV. With permission from ref. [3].
+
+M.C. Garcı́a / J. Chromatogr. B 825 (2005) 111–123
+
+Fig. 2. Influence of the mobile phase additive on the detectability of proteins
+(cytochrome c (CYT), lysozyme (LYS), and carbonic anhydrase (CAH)) by
+RPLC-ESI-MS. With permission from ref. [19].
+
+was methanol or acetonitrile. In this respect, Vanhoutte et al.
+[18] discovered an important dependence of sensitivity on
+the percentage of organic modifier used in the mobile phase
+when using a nano-electrospray interface. This dependence
+was also related to the nature and concentration of the buffer.
+Thus, sensitivity was significantly reduced when less than
+40% methanol was present in the mobile phase using a 0.1 M
+ammonium acetate buffer, while this percentage decreased
+to 20% when the buffer was removed. As well as methanol
+and acetonitrile, trifluoroethanol or hexafluoroisopropanol,
+known for their tendency to stabilize the secondary structure
+of peptides, have also been used as organic modifiers [19].
+Moreover, non-polar solvents such as chloroform in combination with polar solvents (methanol/water) and acidified
+with acetic acid or TFA have successfully been applied for
+the analysis of hydrophobic peptides [19].
+From the experience of previous work focussing on the
+analysis of small peptides and other organic molecules (e.g.
+drugs), formic acid and acetic acid were seen to be the most
+promising candidates for the replacement of TFA in the analysis of proteins and peptides by RPLC–ESI-MS. Huber and
+Premstaller [20] compared the performance of acetic acid,
+formic acid, and TFA for the analysis of proteins with molecular masses ranging from 14,000 to 80,000. Fig. 2 shows the
+influence of the mobile phase additive on the detectability of
+these proteins. They found a 35- to 160-fold improvement in
+protein detectability when using 0.1% formic acid in comparison to 0.1% TFA. This improvement was significantly
+greater than that obtained by Liu et al. [21] who observed
+a three-fold increase in MS sensitivity with 2% formic acid
+in comparison to 0.1% TFA, although in this case a different
+method and instrumentation were used. Even so, in both cases
+the improvement in sensitivity obtained was in detriment of
+the separation efficiency, with increases ranging from 32 to
+104% in peak width at half height when substituting TFA for
+acetic or formic acid. This loss in efficiency did not consti-
+
+115
+
+tute a problem when working with standard proteins or with
+very clean samples, nor with peptides in which case RPLC
+with acetic acid or formic acid resulted in minimal chromatography penalty. Nevertheless, there should be a better
+balance between separation performance and sensitivity detection when more complex samples are used.
+An example is observed in the work of Corradini et al. [22]
+who tried TFA, formic acid, and acetic acid for the analysis of
+a more complex kind of protein (membrane proteins binding
+chlorophylls isolated from spinach leaves) by RPLC–ESIMS. Despite the fact that formic and acetic acid showed less
+signal suppression than TFA in ESI-MS, these acids gave
+poorer resolution. In this particular case, the decrease in resolution was so critical that the authors suggested the use of a
+lower percentage of TFA (0.05%) as the most suitable alternative for the analysis of these proteins. The use of low TFA
+concentrations minimised signal suppression in comparison
+with 0.1% TFA. Moreover, part of the decrease in sensitivity
+observed in comparison with other ion-pairing agents such as
+formic acid was regained through the increase in sample concentration entering the mass spectrometer and derived from
+the sharper peaks encountered when using TFA [3].
+Other approaches have been the use of mobile phases containing mixtures of different ion-pairing agents [23,24] and
+the use of other perfluorinated carboxylic acids with longer
+n-alkyl chains than TFA [25,26].
+The idea of using mixtures of TFA with other volatile
+ion-pairing agents in the mobile phase was first applied in
+TSP–MS by Duchateau et al. [15] who suggested the use
+of a mixture of TFA with formic acid for sensitive and high
+resolution RPLC–MS. Some years later other authors applied
+the same idea for the detection of proteins by RPLC–ESIMS. Clarke et al. [23] selected a mixture of 0.5% acetic acid
+and 0.02% TFA to reach a balance between sensitivity and
+resolution in the detection of amyloid-␤ polypeptides while
+Chong et al. [24] used mobile phases containing 0.1% TFA
+and formic acid in concentrations ranging from 0.2 to 0.3%
+for the analysis of protein fractions from human breast cancer
+whole cells using a non-porous RPLC column coupled to
+ESI-MS.
+Regarding the use of other perfluorinated carboxylic acids
+other than TFA, Elfakir and co-workers [9,25,26] compared
+the effect of using tridecafluoroheptanoic acid (TDFHA),
+HFBA, nonafluoropentanoic acid (NFPA), and pentadecafluorooctanoic acid (PDFOA) as ion-pairing agents related to
+TFA for the analysis of amino acids by RPLC. They studied the effect of the concentration and length of the side
+alkyl chain of the perfluorinated acid on the MS response
+and chromatographic selectivity, respectively. As expected,
+the best separation of amino acids was obtained with the
+perfluorinated reagent with the longest chain (PDFOA) using a classical silica column. Nevertheless, this agent did not
+yield the best separation when the silica column was replaced
+by a graphitic carbon column. Moreover, they also observed
+increasing signal intensities at higher ion-pairing concentrations [25]. These results contrasted with those observed by
+
+116
+
+M.C. Garcı́a / J. Chromatogr. B 825 (2005) 111–123
+
+other authors [27,28] and with those observed by the same
+authors when using other experimental conditions [26]. In
+these cases, the presence of a significant concentration of
+ion-pairing agent in the mobile phase resulted in analyte signal suppression.
+The same perfluorinated acids (TFA, HFBA, TDFHA,
+NFPA, and PDFOA) were applied two years later by the
+same group for the analysis of 23 small peptides (with masses
+ranging from 133 to 613) by RPLC–ESI-MS [29]. They observed TFA and HFBA (the agents containing the shortest
+side chains) were not efficient enough to separate most polar peptides. PDFOA (the agent containing the longest side
+chain) resulted in a very high retention time but not the best
+selectivity. Although, in principal, both NFPA and TDFHA
+yielded good peptide separations, the higher volatility of
+NFPA, its lower re-equilibration time, and its general higher
+selectivity lead to the choice of this reagent for the LC–MS
+analysis of small peptides.
+More recent papers describe the results obtained when
+comparing the performance of ion-pairing agents of a different nature in the analysis of peptides and proteins by
+RPLC–ESI-MS. TFA, HFBA, acetic acid, and formic acid
+have been compared in the analysis of peptide mixtures [30].
+TFA gave the best resolution while HFBA was the ion-pairing
+agent yielding the worst separation, and acetic and formic
+acid provided a better balance. Regarding detection, formic
+acid yielded the strongest (100 times higher than TFA) signal by ESI-MS. They also compared the separation obtained
+when using methanol and acetonitrile as organic modifiers.
+In general, better resolution, selectivity, symmetry, and efficiency were observed with acetonitrile.
+One recent work [31] studied the effect of different
+reagents (TFA, formic acid, ammonium formate, and phosphate buffer) at constant low pH (2.3–3.2) in the separation
+of basic peptides. The worst separations were observed with
+formic acid. This was attributed to reduced column capacity
+derived from an increased mutual repulsion of charge peptides in the stationary phase surface when low ionic strength
+buffers such as formic acid were used. As inorganic salts are
+
+non-volatile and TFA is a signal suppressor, the authors suggested the use of ammonium formate since its ionic strength
+was high enough to reduce column overloading.
+Garcı́a et al. [32] tried a wide range of reagents in the positive mode at pHs ranging from 2 to 11.5 for their performance
+in the separation of standard proteins by RPLC–ESI-MS. The
+compounds used were: TFA, formic acid, acetic acid, HFBA,
+ammonium acetate (pH 3 and 6), ammonium formate (pH 3
+and 6), ammonium bicarbonate, ammonium hydroxide, and
+morpholine. Formic acid (0.2%) was the additive yielding the
+highest responses (in FIA experiments) followed by acetic
+acid (0.3%), ammonium formate (10 mM, pH 3), and ammonium bicarbonate (50 mM, pH 9), while the worst results
+were observed with TFA, ammonium formate (pH 6), and
+ammonium acetate (pH 6). The effect of the variation of the
+concentration on the MS signal with the ion-pairing agents
+giving the highest responses (formic acid, acetic acid, ammonium formate (pH 3), and ammonium bicarbonate (pH 9)) was
+also investigated using FIA experiments (Fig. 3). In general,
+responses increased initially and decreased when very high
+concentrations were used with the exception of ammonium
+bicarbonate in which case no such decrease was observed.
+These selected ion-pairing agents were tested for the separation of standard proteins in comparison with TFA. Ammonium formate (pH 3) and ammonium bicarbonate (pH 9) did
+not result in any separation of the protein tested. Although the
+separation quality was worse than that observed with TFA,
+formic acid and acetic acid were the only agents enabling that
+separation. Nevertheless, problems related to a poor recovery
+of proteins in the separation column when using formic acid
+and the significant signal suppression observed when TFA
+was employed, made neither of them suitable for the sensitive detection of the proteins by RPLC–ESI-MS. The use of
+0.3% acetic acid as an additive in RPLC–ESI-MS provided
+a suitable balance between mass response and separation of
+proteins in LC–MS. Furthermore, the comparison of calibration curves obtained by FIA with those observed when the
+separation took place showed an increase in the sensitivity
+when the column was connected [32].
+
+Fig. 3. Variation of the signal (expressed in percentage related to the maximum signal) obtained by ESI-MS for 2 ␮M solutions of myoglobin and cytochrome
+c with different buffers. With permission from ref. [32].
+
+M.C. Garcı́a / J. Chromatogr. B 825 (2005) 111–123
+
+As can be seen, and despite the efforts to the contrary,
+TFA continues to be the ion-pairing agent most widely
+used with no solid alternative having been discovered, especially when complex separations are required. In fact,
+the use of other additives proposed as alternatives to TFA
+resulted in ruined separations when complex samples are
+used as in the case of proteomic and mapping studies. The
+only change proposed in these cases to alleviate the suppression effects of TFA has been the reduction of its concentration to 0.05%, although accompanied by a small decrease in chromatographic performance [33–35]. More recently, Naidong [36] reported that the addition of acetic acid
+to a mobile phase containing TFA resulted in reduced ionisation suppression while chromatographic peak shape was
+preserved.
+
+3. Hydrophilic-interaction chromatography
+Liquid chromatography has been used for the reduction
+of matrix interferences in mass spectrometry. Nevertheless,
+very polar compounds are poorly retained on a reversedphase column and this weak analyte retention may result in
+detrimental matrix effects. Moreover, the use of very high
+aqueous mobile phases, such as those used in RPLC, can
+compromise the spray formation and be critical for sensitivity. One approach to achieve better sensitivity and column
+retention could be the use of hydrophilic-interaction chromatography. This chromatographic mode uses polar mobile
+phases containing low water and high organic modifier proportions, more favourable for the electrospray process. Unlike normal phase chromatography, hydrophilic-interaction
+chromatography uses water-miscible organic solvents such
+as acetonitrile instead of water-immiscible ones such as hexane or chloroform [36]. This chromatographic mode has been
+applied to the analysis of polar analytes in LC–MS and could
+be an alternative to RPLC for the separation of some kinds
+of peptides.
+
+4. Chromatographic modes involving the use of salts
+The application of ESI-MS as a detection technique
+has centred on the chromatographic modes using volatile
+buffers such as RPLC. Ionic HPLC systems (hydrophobicinteraction, affinity, ion-exchange, and size-exclusion chromatography (SEC)) have had much less success due to the
+incompatibility of ESI-MS with the non-volatile buffers commonly used in these chromatographic modes. In fact, the
+use of mobile phases containing inorganic salts affects the
+electrospray stability and provokes the formation of adduct
+peaks. Adduct formation makes molecular ions of the sample
+disperse among many different species at different mass-tocharge ratios (m/z) resulting in decreased sensitivity and complicated mass spectra. Nevertheless, when the preservation of
+biological activity and native structure is required, chromato-
+
+117
+
+graphic modes involving the use of salts are preferred and,
+consequently, the interest in coupling these chromatographic
+modes with ESI-MS is clear.
+4.1. Hydrophobic-interaction chromatography (HIC)
+Hydrophobic-interaction chromatography and RPLC are
+related techniques, but stationary phases are less hydrophobic
+and, therefore, operate under less denaturing conditions. One
+of the main differences with RPLC are the elution solvents
+used. HIC gradients begin with a very high ionic-strength
+solvent (high concentration salt solutions) and end with low
+concentration salt solutions or with the addition of organic additives (e.g. ethylene glycol or isopropanol) while in RPLC,
+elution gradients start with aqueous buffers and end with an
+organic solvent (e.g. acetonitrile). Although there are no examples of the use of HIC coupled on-line with ESI-MS, a
+few examples can be found for the off-line combination with
+MALDI [37,38].
+4.2. Afﬁnity chromatography
+Affinity chromatography, especially frontal affinity chromatography (FAC), has been coupled on-line with ESI-MS
+as a screening technique, as a purification technique, and
+as a preconcentration technique for the analysis of proteins
+and peptides [39]. FAC consists of the continuous infusion
+of analytes (potential ligands) through a column containing
+an immobilized biological receptor (e.g. a protein or a cell
+fragment). The elution time for each analyte is related to its
+binding strength. Thus, the strongest the binding of an analyte in the column results in the longest retention time. The
+coupling of FAC with ESI-MS allows for the monitoring of
+eluted analytes. For that purpose, the elution buffer used has
+to enable the elution of retained compounds and provide a
+suitable sensitivity in ESI-MS.
+FAC–ESI-MS has been used to screen oligosaccharide,
+peptide, and enzyme inhibitor libraries against an antibody, a
+lectin, and protease ligands [40–43]. In all cases, the FAC–MS
+system consisted of three syringes in parallel containing the
+test sample, the elution buffer, and the makeup solution that
+were connected to a pump by a switching valve connected
+to the inlet of the affinity column. The outlet of the affinity
+column was connected to a tee for the addition of makeup
+buffer that flowed directly to the ESI-MS. The elution buffer
+and makeup solution used were compatible with the electrospray process and consisted of 2 mM ammonium acetate
+(pH 6.6) and 10% (v/v) of the elution buffer in acetonitrile,
+respectively.
+Ogata et al. [44,45] designed a lab-on-valve apparatus for
+coupling FAC and ESI-MS which enabled bead regeneration,
+column repacking, and repetitive measurements in minutes.
+This system was applied to screen the binding of immobilized streptavidin to biotin containing conjugates, and the
+binding of a peptide mixture to certain proteins (human and
+Trypanosoma brucei tPex5). In this case, the elution buffer
+
+118
+
+M.C. Garcı́a / J. Chromatogr. B 825 (2005) 111–123
+
+consisted of 4.5 mM 2,2-difluoroethylamine, 2.3 mM acetic
+acid (pH 7.0) [45].
+Another mode of affinity chromatography that has been
+coupled with ESI-MS for the analysis of proteins and peptides
+is immobilized metal-ion affinity chromatography (IMAC).
+This technique is based on the selective complexation of
+electron-donating groups, such as phosphate, cysteine, tryptophan, and histidine, with an appropriate immobilized metal
+ion (e.g. Fe (III)). However, optimal conditions for the elution
+of proteins from an IMAC column are not compatible with
+ESI-MS and result in very low detection limits and poor separations. In this respect, Nuwaysir and Stults [46] developed an
+on-line IMAC (Fe (III))–ESI-MS method for the determination of phosphopeptides and phosphoproteins. They observed
+that the limiting factors in sensitivity of IMAC–ESI-MS derived from the use of eluents incompatible with ESI-MS were
+less important than sample losses derived from sample handling in off-line experiments.
+Different alternatives have been proposed to couple IMAC
+and ESI-MS: off-line IMAC followed by solid-phase extraction (SPE)–capillary electrophoresis (CE)–ESI-MS [47],
+off-line IMAC followed by RPLC–ESI-MS [48,49], online IMAC–CE–ESI-MS [50], off-line IMAC–RPLC followed by ESI-MS [51], and on-line IMAC–RPLC–ESIMS [52–55]. Of these approaches, on-line multidimensional
+chromatography–ESI-MS is the most popular option and will
+be reviewed below.
+4.3. Ion-exchange chromatography (IEC)
+Ion-exchange chromatography has widely been used for
+the separation of proteins and peptides since both of them
+contain amino acids or carbohydrates with groups that can be
+positively or negatively charged. In ion-exchange separations
+of proteins and peptides, the composition of the mobile phase
+plays a decisive role. Usually, protein to be isolated is bound
+to an ion-exchanger and then sequentially separated by linear
+or step variations of the mobile phase composition (salt concentration or pH) resulting in decreasing interactions between
+the protein and the stationary phase. It is possible to distinguish four types of ion-exchangers: weak anion, weak cation,
+strong anion, and strong cation. The terms weak and strong
+are related to the degree of ionisation of the ion-exchanger
+as a function of pH. Strong ion-exchangers are fully ionised
+over a broader pH range (2–12) while weak ion-exchangers
+are charged at pHs ranging from 9.5 to 5.5.
+When applying IEC to the separation of peptides and proteins, cation-exchange is the main choice. At pHs lower than
+3, negative charges of carboxyl groups are neutralized, which
+protonates the N-terminus making them ready to be fractionated by cation-exchange chromatography. In the anionexchange mode, the opposite is required. Thus, carboxylic
+groups have to be negatively charged while the N-terminus
+are neutralized. This situation involves the use of mobile
+phases with pHs greater than 12 which are not compatible
+with most chromatographic columns based on silica [56].
+
+Direct IEC–ESI-MS is possible using as eluents organic
+modifiers such as acetonitrile, and volatile reagents such as
+ammonium formate or formic acid [57,58]. Loughlin et al.
+[58] used IEC–ESI-MS to separate highly polar peptides (glutathione and its related products) employing chromatographic
+conditions compatible with mass detection. These conditions
+consisted of a gradient elution with phase A being 0.1% (v/v)
+formic acid in water/acetonitrile (1/1) and phase B being 0.2%
+(v/v) formic acid in water/acetonitrile (1/1) [58].
+Despite these examples, in most cases the elution in IEC
+involves the use of high salt concentrations that suppress
+ionisation and result in deposits of non-volatile salts at the
+ion source inlet. Consequently, the connection of this chromatographic mode with ESI-MS has mostly been carried
+out by the prior removal of salts, primarily through offline methods. Alternative on-line desalting methods have
+also been developed. In some cases, these methods involved multidimensional chromatography using a reversedphase column, the incorporation of an ion-capture module,
+or on-line dialysis [21,59–66]. These possibilities will be
+discussed below.
+Salt gradient is the usual elution mode in IEC. Nevertheless, there is an alternative elution mode in IEC that does not
+require high salt concentrations in the mobile phase and is
+based on the change of the eluent pH. This mode, called chromatofocusing, is, in principle, more compatible with ESI-MS
+detection and could be very promising for the direct analysis
+of proteins and peptides by IEC–ESI-MS. For that purpose,
+weak ion exchangers are needed and two buffers are used: an
+equilibration buffer defining the upper pH of the separation
+gradient, and a focusing buffer defining the lower pH of the
+gradient. The pH gradient formed inside the ion-exchange
+column enables the elution of bound proteins in order of decreasing isoelectric points. An on-line coupling of chromatofocusing and mass spectrometry has been carried out for the
+determination of nucleoside triphosphates. For that purpose,
+mobile phases consisting of ammonium acetate in acetonitrile
+at pH 6 (buffer A) and pH 10.5 (buffer B) were employed [67].
+Other examples of coupling of chromatofocusing and ESIMS involving the use of an intermediate RPLC separation
+will be discussed below [68].
+4.4. Size-exclusion chromatography (SEC)
+Size-exclusion chromatography is a technique enabling
+the separation of analytes according to their hydrodynamic
+volumes. Stationary phases used consist of porous materials
+with size-defined cavities. Molecules smaller than the pore
+size enter the cavity and travel through the chromatographic
+column. Compared to other chromatographic modes, SEC
+provides limited resolving power. Nevertheless, this chromatographic mode is used extensively due to the fact that it
+demonstrates a universal separation principle: size can be applied to the analysis of all biological molecules. Moreover,
+SEC is also known as a biologically friendly chromatographic
+mode since elution conditions, in general, do not promote
+
+M.C. Garcı́a / J. Chromatogr. B 825 (2005) 111–123
+
+protein denaturation. In fact, mobile phases used in SEC normally consist of buffers at pHs ranging from 6.5 to 8. In some
+cases, a small proportion of an organic modifier (acetonitrile
+or methanol) is also added. In order to take advantage of SEC,
+a universal detection system such as mass spectrometry is required. Nevertheless, the connection of SEC to ESI-MS is restricted due to the use of high concentrations of non-volatile
+buffers (e.g. KH2 PO4 , NaCl, Na2 SO4 , etc.) to overcome interactions between the stationary phase and the protein, as
+well as protein–protein interactions [37,69].
+SEC has been coupled off-line to MS for the analysis
+of biopolymers. There are very few examples of methods
+based on the direct coupling of SEC with MS with the exception of the detection of inorganic elements in biological samples by inductively coupled plasma mass spectrometry [70]. Moreover, the limited number of examples of online SEC–MS have been applied to the analysis of small
+molecules (small peptides or polysaccharides such as heparin) using ESI [71–73]. In most of these cases, volatile mobile phases containing acetonitrile and TFA (for peptides) or
+methanol and ammonium bicarbonate (for heparin) were employed. Prokai and Simonsick coupled SEC and ESI-MS and
+demonstrated that the use of tetrahydrofuran containing 10−5
+to 10−4 M of a sodium salt as a mobile phase provided a stable electrospray [74]. Naylor and co-workers [75–77] developed different on-line SEC–ESI-MS methods for the detection of protein–protein, protein–DNA, and protein–metal interactions without requiring any desalting or buffer-exchange
+protocol. Mobile phases containing volatile salts such as ammonium acetate and ammonium bicarbonate were employed
+in these studies. Fig. 4 shows the spectra and deconvolution
+obtained from the SEC–ESI–MS analysis of the inhibitory effect of disulfiram on the rmALDH (mitochondrial aldehyde
+dehydrogenase) enzyme using 5 mM ammonium acetate in
+water as a mobile phase.
+Lecchi and Abramson [78,79] interfaced SEC with an
+innovative MS technique called chemical reaction interface
+mass spectrometry (CRIMS) for the analysis of biopolymers.
+This system did not provide information about the molecular
+weight of intact molecules but about the elemental and isotopic composition of any organic molecule after its decomposition by a chemical reaction with a gas (e.g. SO2 ) into
+low-molecular-weight products. These authors tested different buffer solutions containing volatile salts since volatile
+buffers previously used in SEC–ESI-MS (e.g., TFA) resulted
+in unacceptable chromatographic separations derived from
+the interactions between proteins and the column. They observed that ammonium acetate was the buffer that worked
+the best for polysaccharides (dextrans, heparin) and nucleic
+acid polymers (RNA, oligonucleotides), while for proteins
+(thyroglobulin, catalase, collagen, transferrin, albumin, carbonic anhydrase, lysozime, and insulin) the best separation
+was obtained with triethylammonium formate (pH 3) in water/tetrahydrofuran (2/1).
+The coupling of SEC to RPLC and ESI-MS is reviewed
+below [80–82].
+
+119
+
+Fig. 4. Spectra and deconvolution obtained from the SEC–ESI-MS analysis of the inhibitory effect of disulfiram on the rmALDH (mitochondrial
+aldehyde dehydrogenase) enzyme. With permission from ref. [75].
+
+5. On-line desalting methods
+5.1. Multidimensional chromatography
+Multidimensional HPLC separations are enjoying great
+acceptance for the analysis of proteins and peptides. This
+technology, first described by Giddings [83], enables a significant increase in system peak capacity and has widely
+been used for the separation of very complex samples when
+a single chromatographic mode does not provide for suitable resolution and results in fractions enriched with similar
+components. Multidimensional chromatography also enables
+the on-line coupling of chromatographic methods using high
+salt concentrations with ESI-MS. In fact, most multidimensional separations used first dimensional separations needing high salt concentrations while RPLC is the final dimension due to its desalting ability. Thus, the sample arrives at
+the mass detector in its most desirable form for electrospray
+ionisation.
+Multidimensional separations mainly consist of the trapping of the effluent from the first separation column (that
+involving the use of salts) on a reversed-phase column while
+salts and other unwanted compounds are washed off the col-
+
+120
+
+M.C. Garcı́a / J. Chromatogr. B 825 (2005) 111–123
+
+umn and directed to waste [38]. Nevertheless, in principle,
+salt containing mobile phases are not compatible with RPLC
+since the solubility of salts and its miscibility are highly related to the presence of organic modifiers. Thus, optimising
+buffer conditions will be needed in every case.
+Other limitations can arise when testing the coupling of
+chromatographic modes with different flow rates, as is true
+of SEC and RPLC. Separations by SEC are carried out at
+low flow rates, whereas separations by RPLC employ higher
+flow rates. In order to overcome this problem, a preconcentration device between the two systems could be used [23]. An
+SEC–RPLC–ESI-MS system was applied to the analysis of
+peptides using ammonium acetate–acetonitrile–water as elution solvent in SEC and a gradient water–acetonitrile–acetic
+acid/TFA for the separation in RPLC.
+Tuyten et al. [52] applied IMAC–RPLC–ESI-MS to the
+analysis of nucleotides. They developed a column-switching
+set-up preventing the on-line coupling of the IMAC column
+(precolumn) with the analytical column (RP column) thus
+avoiding contamination of the RPLC–ESI-MS system with
+possible metal leaking from the IMAC column. In order to do
+so, they introduced the concept of an elution plug. The elution
+of the sample from the IMAC column to the RPLC column
+was performed by injecting only 20 ␮L of a suitable solvent
+from the autosampler. Since conditions enabling the appropriate clean up of a sample by IMAC could ruin the analytical
+separation by RPLC, they studied the influence of different
+eluents (ammonium hydroxide, ammonium acetate, and ammonium phosphate in different concentrations and pHs and
+water) on the performance of IMAC and RPLC. In all cases,
+a methanol makeup flow was added through a tee in order to
+improve electrospray performance and sensitivity. Although
+ammonium phosphate (pH 4.7) yielded better results from
+a chromatographic point-of-view, an ammonium phosphate
+buffer (pH 8.0) was chosen since only this yielded satisfactory
+elution from the IMAC column. Nevertheless, the sensitivity
+of the system was still unsatisfactory partly due to the use of
+an ammonium phosphate buffer in the mobile phase in the
+RPLC separation which resulted in significant background
+and possible ion suppression [52].
+Apffel et al. [53] described a multidimensional affinity
+chromatography–RPLC–ESI-MS method for peptide mapping of digested glycoproteins. Two immobilized lectin affinity columns were used to fractionate glycopeptides according
+to glycosilation type (N-linked glycopeptides in a Concanavalin A column, and O-linked glycopeptides in a column
+with different immobilized lectins) while non-glycolysated
+peptides were retained in a C18 column. Finally, the isolated
+fractions were sequentially separated in an analytical
+reversed-phase column and detected by ESI-MS. Samples
+were loaded and washed off the lectin column with salt containing mobile phases and the mobile phase used in RPLC
+was the typical one consisting of water–acetonitrile–TFA although in this case, as previously described, the postcolumn
+addition of propionic acid-isopropanol resulted in reduced
+signal suppression due to TFA.
+
+An on-line coupling of affinity chromatography to ESIMS has also been developed for the purification and identification of transferrin isoforms from diluted serum using an
+immunoaffinity column with immobilized anti-human transferrin [54]. The connection of the affinity column with the
+mass spectrometer was performed by a C4 column.
+Canarelli et al. [55] developed a multidimensional chromatographic separation/reactor with ESI-MS for the on-line
+verification of the identity and integrity of (recombinant) proteins. The protein was first captured in an affinity column,
+automatically transferred to an immobilized trypsin column
+for digestion, and then the resulting peptides were separated
+by RPLC and detected by ESI-MS. The carrier buffer in
+the affinity separation consisted of a phosphate buffer (pH
+7.0) containing sodium chloride and the elution buffer was
+a solution containing glycine, guanidine, and dithiothreitol
+(pH 3.0). The digestion buffer was ammonium bicarbonate
+(pH 8.5) containing cysteine. The outline of the digesting
+column was connected to a reversed-phase column and the
+separation of peptides was successfully accomplished with
+water–acetonitrile–formic acid.
+Chromatofocusing has also been used for the separation
+of biomolecules as first dimension followed by RPLC–ESIMS. Chong et al. [68] applied this technique to the separation
+of proteins from human breast epithelial whole-cell lysates
+in an off-line combination with RPLC–ESI-MS.
+In addition to these multidimensional configurations in
+which only part of the effluent from the first dimension is directed to the second dimension (heart cutting systems), there
+are also some examples of comprehensive systems developed
+for the analysis of peptides and proteins by ESI-MS. This alternative configuration enables the entire eluent from the first
+dimension to be subjected to the second dimension.
+While there are numerous examples of methods based on
+the first approach, the number of comprehensive LC–LC systems is quite limited. Moreover, most examples of comprehensive systems do not use MS detection but optical detection
+techniques [84]. Opiteck et al. [59] applied a comprehensive
+system previously used with UV detection to the analysis of
+proteins by ESI-MS. The system used a cation-exchange column as the first dimension and a reversed-phase column as the
+second dimension. The columns were connected through an
+eight-port switching valve with two loops. As one loop was
+filling with eluent from the ion-exchange column, the other
+loop was pumping out through the reversed-phase column.
+The ion-exchange separation was carried out by gradient elution and mobile phases consisting of sodium/ammonium formate, urea, and acetonitrile. The reversed-phase separation
+used a typical water–acetonitrile gradient containing 0.05%
+TFA.
+Another approach has been the use of a unique column
+for the first dimension and different columns in the second
+dimension. Opiteck et al. [80,82] designed a comprehensive
+system consisting of one size-exclusion column connected
+to two parallel reversed-phase columns. The analyte eluting
+from the size-exclusion dimension was transferred alter-
+
+M.C. Garcı́a / J. Chromatogr. B 825 (2005) 111–123
+
+natively to one of the two reversed-phase columns. While
+one reversed-phase column was being loaded with the
+effluent from the SEC column, the second RPLC column
+(already loaded) was running the separation [80,82]. The
+mobile phases used in the RPLC separation consisted of
+water–acetonitrile–TFA while SEC separations were carried
+out with a salt solution [80] or with a solvent containing
+water–TFA [82]. Wagner et al. [60] developed a method for
+protein mapping by coupling an ion-exchange column with
+two parallel reversed-phase columns. Using this configuration they also coupled a restricted-access material (RAM)
+with ion-exchange functionalities in the first dimension
+with four reversed-phase columns for analysing proteins
+and peptides from a human hemofiltrate [61]. They used
+a phosphate buffer gradient for the elution in IEC and a
+water–acetonitrile–TFA gradient for the separation in RPLC.
+Link et al. [62] have combined multidimensional IEC and
+RPLC with tandem mass spectrometry to identify proteins
+in biological samples using a single column containing
+both stationary phases. Complex peptides were loaded into
+the column in an acidic pH and, in an iterative process, a
+fraction of the peptide was displaced from the ion-exchange
+part to the reversed-phase part by a salt-step gradient. This
+displaced fraction was separated in the reversed-phase part
+and directed to the ESI-MS. After re-equilibration, another
+fraction of peptides was displaced from the ion-exchange
+material by the use of an increased salt concentration and
+separated by RPLC. This technology was optimised and automated two years later by Yates and co-workers [63,64] who
+called it multidimensional protein identification technology
+(MudPIT). This device used a unique microcapillary column
+containing two kinds of chromatographic packing materials,
+a strong cation-exchange and a reversed-phase. Mobile
+phases for IEC and RPLC were compatible with mass
+detection. The IEC separation was accomplished by gradient
+elution with mobile phases consisting of 5% ACN–0.02%
+HFBA and containing ammonium acetate. Mobile phases
+used for the gradient elution of peptides from the reversedphase column consisted of water–acetonitrile–HFBA. They
+compared the performance of this system when using acetic
+acid instead of HFBA observing that the use of HFBA
+enabled the identification of a higher number of proteins and
+peptides, especially low-abundance peptides.
+5.2. Microdialysis
+Microdialysis has also been used as a desalting system.
+This technique incorporates a dialysis membrane into a microprobe. The integration of microdialysis on-line with other
+analytical techniques such as HPLC or CE has resulted in
+increased sample throughput and experimental efficiency
+[85,86].
+The first applications of microdialysis as an on-line desalting device were developed for direct ESI-MS and no chromatographic separation took place [87–89]. Wu et al. [90]
+described an on-line microdialysis system for the desalting
+
+121
+
+Fig. 5. ESI-MS spectra of apomyoglobin in 10 mM ammonium acetate and
+250 mM sodium chloride obtained from direct infusion (A) and after on-line
+microdialysis (B). With permission from ref. [90].
+
+of samples for ESI-MS that was applied to the analysis of proteins and peptides. Fig. 5 shows the effect of microdialysis on
+the mass spectrum of apomyoglobin. The direct infusion of
+the protein in 10 mM ammonium acetate and 250 mM sodium
+chloride produced a no interpretable spectrum due to sodium
+adduction. A significant improvement in spectrum quality
+was observed when samples were microdialyzed before detection. Moreover, the signal-to-noise ratio increased by a
+factor of more than 40 after desalting. The same group used
+this technique for the analysis of oligonucleotides and DNA
+[91,92]. They also proposed a dual-microdialysis configuration for a fast clean up of complex biological samples such
+as whole-cell lysate for ESI-MS. In the first stage, the system
+enabled the removal of high-molecular-weight components
+while low-molecular-weight components such as salts were
+removed in the second stage [93]. A miniaturized version of
+microdialysis has also been constructed and applied to the
+rapid clean up of biological samples for ESI-MS [94].
+The applications of microdialysis to desalt effluents from
+chromatographic separations have been more recent. Liu
+and Verma [66] developed a cation-exchange HPLC–online microdialysis–ESI-MS system that was applied to
+the analysis of peptides and proteins. Cation-exchange
+chromatography was carried out with non-volatile mobile
+phases (phase A consisted of a Tris–HCl buffer and phase B
+was the same buffer containing 500 mM NaCl). The effluent
+was desalted by microdialysis against an ammonium acetate
+buffer. Moreover, they observed that the sensitivity of the
+method increased at lower dialysis-buffer concentrations, at
+
+122
+
+M.C. Garcı́a / J. Chromatogr. B 825 (2005) 111–123
+
+higher dialysis temperature, and when adding a sheath liquid
+consisting of 2% acetic acid in methanol [66].
+Canarelli et al. [95] also developed a microdialysis system allowing the on-line coupling of ESI-MS with LC methods requiring the use of salts. They applied this system to
+the separation of proteins by affinity chromatography-, IEC, and SEC–ESI-MS. In all separations, salt solutions were
+employed for the elution of proteins (glycine buffer in affinity chromatography, Tris–HCl buffer and a gradient of NaCl
+in IEC, and a phosphate buffer containing NaCl in SEC).
+The effluents were split at 10 ␮L/min and dialysed against a
+5 mM acetic-acid solution. To enhance protein ionisation, a
+1:1 (v/v) mixture of (A) 10% formic acid in water and (B) 2%
+formic acid in water–acetonitrile (1:1) was used as a makeup
+solvent.
+5.3. Ion capture
+Another approach for on-line desalting in mass spectrometry detection is the use of ion-capture modules. These devices
+usually consist of chromatographic materials and constitute
+an alternative to full high-performance liquid chromatography systems [96]. Emmett and Caprioli [97] developed a
+concentration desalting device integrated in a capillary needle and containing C18 chromatographic packing material.
+The sample, consisting of peptides and proteins, was desalted on-line and directly sprayed from this capillary needle
+[97]. Benson et al. [77] developed a rapid in-line desalting
+(RILED) system consisting of a small gel cartridge that was
+coupled to ESI-MS. The system was applied to the analysis
+of protein complexes and protein–metal interactions established in salt solutions. The results were compared with those
+obtained by SEC observing that RILED provided a much
+faster high-throughput desalting than conventional SEC. Ionexchange resins have also been used as desalting matrices
+for the analysis of biomolecules prior to ESI-MS [98].
+
+6. Conclusions
+There is a great interest for coupling chromatographic
+techniques and ESI-MS, with RPLC being the chromatographic mode which best matches with ESI-MS and the one
+most widely coupled. While much effort has been focused
+on instrumental improvements, not much has been done regarding the intrinsic incompatibilities of both techniques. Trifluoroacetic acid continues to be the ion-pairing agent most
+often used for the separation of peptides and proteins by
+RPLC–ESI-MS despite the fact that its use results in limited
+sensitivity. The efforts aimed at looking for other reagents that
+work better in ESI-MS and that enable a suitable separation
+have not yielded any solid alternative. Moreover, the results
+observed are not conclusive and, in some cases, can even be
+contradictory because the experimental and instrumentation
+conditions as well as the sample itself can dramatically affect
+the results. Chromatographic modes involving the use of mo-
+
+bile phases containing salts present even greater limitations
+when coupling with ESI-MS. Although there are some examples enabling the direct coupling of these chromatographic
+modes with ESI-MS using volatile mobile phases, most couplings involve the use of an intermediate desalting step. The
+desalting procedure can comprise a full high-performance
+liquid chromatography separation in which RPLC is the second dimension. Other approaches include microdialysis and
+the use of ion-capture devices.
+
+References
+[1] B. Law, D. Temesi, J. Chromatogr. B 748 (2000) 21.
+[2] J.F. Banks, C.M. Whitehouse, Method Enzymol. 270 (1996) 486.
+[3] A. Apffel, S. Fischer, G. Goldberg, P.C. Goodley, F.E. Kuhlmann, J.
+Chromatogr. A 712 (1995) 177.
+[4] K.D. Nugent, W.G. Burton, T.K. Slattery, B.F. Johnson, J. Chromatogr. 443 (1988) 381.
+[5] H. Schlüter, in: M. Kastner (Ed.), Protein Liquid Chromatography,
+Journal of Chromatography Library, vol. 61, Elsevier, Amsterdam,
+2000, p. 147.
+[6] G. Winkler, P. Briza, C. Kunz, J. Chromatogr. 361 (1986) 191.
+[7] M.T.W. Hearn, Ion-pair chromatography of amino acids, peptides,
+and proteins, in: M.T.W. Hearn (Ed.), Ion-pair chromatography. Theory and biological and pharmaceutical applications, Marcel Dekker,
+New York, 1985, p. 207.
+[8] J.D. Pearson, M.C. McCroskey, J. Chromatogr. A 746 (1996) 277.
+[9] K.N. Petritis, P. Chaimbault, C. Elfakir, M. Dreux, J. Chromatogr.
+A 833 (1999) 147.
+[10] Y. Chen, C.T. Mant, R.S. Hodges, J. Chromatogr. A 1043 (2004)
+99.
+[11] R.D. Smith, C.J. Barinaga, H.R. Udseth, Anal. Chem. 60 (1988)
+1948.
+[12] C.E. Parker, J.R. Perkins, K.B. Tomer, Y. Shida, K. O’Hara, M.
+Kono, J. Am. Soc. Mass Spectrom. 3 (1992) 563.
+[13] D.F. Hunt, R.A. Henderson, J. Shabanowitz, K. Sakaguchi, H.
+Michel, N. Sevilir, A.L. Cox, E. Appella, V.H. Engelhard, Science
+255 (1992) 1261.
+[14] R.D. Voyksner, C.A. Haney, Anal. Chem. 57 (1985) 991.
+[15] A.L.L. Duchateau, B.H.M. Munsters, G.T.C. Kwakkenbos, R.G.J.
+Van Leuken, J. Chromatogr. 552 (1991) 605.
+[16] C. Miller, S. Fisher, Impact of ion-pair reagents on LC/MS analysis,
+Agilent Technologies Application (2000).
+[17] D. Tamesi, B. Law, LC–GC North Am. 17 (1999) 626.
+[18] K. Vanhoutte, W.V. Dongen, E.L. Esmans, Rapid Commun. Mass
+Spectrom. 12 (1998) 15.
+[19] B. Mehlis, U. Kertscher, Anal. Chim. Acta 352 (1997) 71.
+[20] C.G. Huber, A. Premstaller, J. Chromatogr. A 849 (1999) 161.
+[21] H. Liu, S.J. Berger, A.B. Chakraborty, R.S. Plumb, S.A. Cohen, J.
+Chromatogr. B 782 (2002) 267.
+[22] D. Corradini, C.G. Huber, A.M. Timperio, L. Zolla, J. Chromatogr.
+A 886 (2000) 111.
+[23] N.J. Clarke, F.W. Crow, S. Younkin, S. Naylor, Anal. Biochem. 298
+(2001) 32.
+[24] B.E. Chong, F. Yan, D.M. Lubman, F.R. Miller, Rapid Commun.
+Mass Spectrom. 15 (2001) 291.
+[25] P. Chaimbault, K. Petritis, C. Elfakir, M. Dreux, J. Chromatogr. A
+855 (1999) 191.
+[26] P. Chaimbault, K. Petritis, C. Elfakir, M. Dreux, J. Chromatogr. A
+870 (2000) 245.
+[27] T.R. Covey, A.P. Bruins, J.D. Henion, Org. Mass Spectrom. 23
+(1988) 178.
+
+M.C. Garcı́a / J. Chromatogr. B 825 (2005) 111–123
+[28] K.W.N. Siu, R. Guevremont, J.C.Y. Le Blanc, G.J. Gardner, S.S.
+Berman, J. Chromatogr. 554 (1991) 27.
+[29] K. Petritis, S. Brussaux, S. Guenu, C. Elfakir, M. Dreux, J. Chromatogr. A 957 (2002) 173.
+[30] H.J. Issaq, S.D. Fox, M. Mahadevan, T.P. Conrads, T.V. Veenstra, J.
+Liq. Chromatogr. Related Technol. 26 (2003) 2255.
+[31] D.V. McCalley, J. Chromatogr. A 1038 (2004) 77.
+[32] M.C. Garcı́a, A.C. Hogenboom, H. Zappey, H. Irth, J. Chromatogr.
+A 957 (2002) 187.
+[33] G. Heine, M. Raida, W.G. Forssmann, J. Chromatogr. A 776 (1997)
+117.
+[34] A. Premstaller, H. Oberacher, W. Walcher, A.M. Timperio, L. Zolla,
+J.P. Chervet, N. Cavusoglu, A. Dorsselaer, C.G. Huber, Anal. Chem.
+73 (2001) 2390.
+[35] D.B. Kassel, B. Shushan, T. Sakuma, J.P. Salzmann, Anal. Chem.
+66 (1994) 236.
+[36] W. Naidong, J. Chromatogr. B 796 (2003) 209.
+[37] B.J. Compton, L. Kreilgaard, Anal. Chem. 66 (1994) 1175A.
+[38] K.M. Millea, I.S. Krull, J. Liq. Chromatogr. Related Technol. 26
+(2003) 2195.
+[39] W.C. Lee, K.H. Lee, Anal. Biochem. 324 (2004) 1.
+[40] D.C. Schriemer, D.R. Dundle, L. Li, O. Hindsgaul, Angew. Chem.
+Int. Ed. 37 (1998) 3383.
+[41] D.C. Schriemer, O. Hindsgaul, Comb. Chem. High Throughput
+Screening 1 (1998) 155.
+[42] B. Zhang, M.M. Palcic, H. Mo, I.J. Goldstein, O. Hindsgaul, Glycobiology 11 (2001) 141.
+[43] B. Zhang, M.M. Palcic, D.C. Schriemer, G. Alvarez-Manilla, M.
+Pierce, O. Hindsgaul, Anal. Biochem. 299 (2001) 173.
+[44] Y. Ogata, L. Scampavia, J. Ruzicka, C.R. Scott, M.H. Gelb, F. Turecek, Anal. Chem. 74 (2002) 4702.
+[45] Y. Ogata, L. Scampavia, T.L. Carter, E. Fran, F. Turecek, Anal.
+Biochem. 331 (2004) 161.
+[46] L.M. Nuwaysir, J.T. Stults, J. Am. Soc. Mass Spectrom. 4 (1993)
+662.
+[47] D. Figeys, S.P. Gygi, Y. Zhang, J. Watts, M. Gu, R. Aebersold,
+Electrophoresis 19 (1998) 1811.
+[48] S. Li, C. Dass, Anal. Biochem. 270 (1999) 9.
+[49] S.B. Ficarro, M.L. McCleland, P.T. Stukenberg, D.J. Burke, M.M.
+Ross, J. Shabanowitz, D.F. Hunt, F.M. White, Nat. Biotechnol. 20
+(2002) 301.
+[50] P. Cao, J. Stults, J. Chromatogr. A 853 (1999) 225.
+[51] J.D. Watts, M. Affolter, D.L. Krebs, R.L. Wange, L.E. Samelson, R.
+Aebersold, J. Biol. Chem. 269 (1994) 29520.
+[52] R. Tuytten, F. Lemière, W.V. Dongen, H. Slegers, R.P. Newton, E.L.
+Esmans, J. Chromatogr. B 809 (2004) 189.
+[53] A. Apffel, J.A. Chakel, W.S. Hancock, C. Souders, T.M. Timkulu,
+E. Pungor Jr., J. Chromatogr. A 750 (1996) 35.
+[54] J.M. Lacey, H.R. Bergen, M.J. Magera, S. Naylor, J.F. O’Brien, Clin.
+Chem. 47 (2001) 513.
+[55] S. Canarelli, I. Fisch, R. Freitag, J. Chromatogr. B 775 (2002)
+27.
+[56] A.J. Link, Trends Biotechnol. 20 (2002) 8.
+[57] G.J. Dear, R.S. Plumb, B.C. Sweatman, P.S. Parry, A.D. Roberts, J.C.
+Lindon, J.K. Nicholson, I.M. Ismail, J. Chromatogr. B 748 (2000)
+295.
+[58] A.F. Loughlin, G.L. Skiles, D.W. Alberts, W.H. Schaefer, J. Pharmaceut. Biomed. Anal. 26 (2001) 131.
+[59] G.J. Opiteck, K.C. Lewis, J.W. Jorgenson, R.J. Anderegg, Anal.
+Chem. 69 (1997) 1518.
+[60] K. Wagner, K. Racaityte, K.K. Unger, T. Miliotis, L.E. Edholm, R.
+Bischoff, G. Marko-Varga, J. Chromatogr. A 893 (2000) 293.
+[61] K. Wagner, T. Miliotis, G. Marko-Varga, R. Bischoff, K.K. Unger,
+Anal. Chem. 74 (2002) 809.
+
+123
+
+[62] A.J. Link, J. Eng, D.M. Schieltz, E. Carmack, G.J. Mize, D.R. Morris, B.M. Garvik, J.R. Yates, Nat. Biotechnol. 17 (1999) 676.
+[63] D.A. Wolters, M.P. Washburn, J.R. Yates III, Anal. Chem. 73 (2001)
+5683.
+[64] M.P. Washburn, D. Wolters, J.R. Yates III, Nat. Biotechnol. 19 (2001)
+242.
+[65] M.T. Davis, J. Beierle, E.T. Bures, M.D. McGinley, J. Mort, J.H. Rubinson, C.S. Spahr, W. Yu, R. Lurthy, S.D. Patterson, J. Chromatogr.
+B 752 (2001) 281.
+[66] C. Liu, S.S. Verma, J. Chromatogr. A 835 (1999) 93.
+[67] G. Shi, J. Wu, Y. Li, R. Geleziunas, K. Gallagher, T. Emm, T. Olah,
+S. Unger, Rapid Commun. Mass Spectrom. 16 (2002) 1092.
+[68] B.E. Chong, F. Yan, D.M. Lubman, F.R. Miller, Rapid Commun.
+Mass Spectrom. 15 (2001) 291.
+[69] G.B. Irvine, J. Biochem. Biophys. Methods 56 (2003) 233.
+[70] S. Mounicou, J. Meija, J. Caruso, Analyst 129 (2004) 116.
+[71] J. Herinksen, L.H. Ringborg, P. Roepstorrf, J. Mass Spectrom. 39
+(2004) 1305.
+[72] Y.T. Li, Y.L. Hsieh, J.D. Henion, M.W. Senko, F.W. McLafferty, B.J.
+Ganem, J. Am. Chem. Soc. 115 (1993) 8409.
+[73] I. Nylander, K. Tanno, A. Winter, J. Silberring, Life Sci. 57 (1995)
+123.
+[74] L. Prokai, W.J. Simonsick, Rapid Commun. Mass Spectrom. 7 (1993)
+853.
+[75] M.L. Shen, L.M. Benson, K.L. Johnson, J.J. Lipsky, S. Naylor, J.
+Am. Soc. Mass Spectrom. 12 (2001) 97.
+[76] J. Cavanagh, R. Thompson, B. Bobay, L.M. Benson, S. Naylor, Biochemical 41 (2002) 7859.
+[77] L.M. Benson, R. Kumar, J. Cavanagh, S. Naylor, Rapid Commun.
+Mass Spectrom. 17 (2003) 267.
+[78] P. Lecchi, F.P. Abramson, J. Chromatogr. A 828 (1998) 509.
+[79] P. Lecchi, F. Abramson, Anal. Chem. 71 (1999) 2951.
+[80] G.J. Opiteck, S.M. Ramirez, J.W. Jorgenson, M.A. Moseley, Anal.
+Biochem. 258 (1998) 349.
+[81] P. Lecchi, A.R. Gupte, R.E. Perez, L.V. Stockert, F.P. Abramson, J.
+Biochem. Biophys. Methods 56 (2003) 141.
+[82] C.J. Opiteck, J.W. Jorgenson, Anal. Chem. 69 (1997) 2283.
+[83] J.C. Giddings, Anal. Chem. 56 (1984) 1258A.
+[84] M.M. Bushey, J.W. Jorgenson, Anal. Chem. 62 (1990) 161.
+[85] E.H. Kerns, K.J. Volk, S.E. Klohr, M.S. Lee, J. Pharmaceut. Biomed
+Anal. 20 (1999) 115.
+[86] L. Yang, C.S. Lee, S.A. Hofstadler, R.D. Smith, Anal. Chem. 70
+(1998) 4945.
+[87] K. Benkestock, P.O. Edlund, J. Roeraade, Rapid Commun. Mass
+Spectrom. 16 (2002) 2054.
+[88] E.S.M. Lutz, M. Larsson, Chromatographia 49 (1999) 28.
+[89] J.C. Hannis, D.C. Muddiman, Rapid Commun. Mass Spectrom. 13
+(1999) 323.
+[90] Q. Wu, C. Liu, R.D. Smith, Rapid Commun. Mass Spectrom. 101
+(1996) 835.
+[91] C. Liu, Q. Wu, A.C. Harms, R.D. Smith, Anal. Chem. 68 (1996)
+3295.
+[92] C.L. Liu, D.C. Muddiman, K.Q. Tang, R.D. Smith, J. Mass Spectrom. 32 (1997) 425.
+[93] C. Liu, S.A. Hofstadler, J.A. Bresson, H.R. Udseth, T. Tsukuda, R.D.
+Smith, Anal. Chem. 70 (1998) 1797.
+[94] N. Xu, Y. Lin, S.A. Hofstadler, D. Matson, C.J. Call, R.D. Smith,
+Anal. Chem. 70 (1998) 3553.
+[95] S. Canarelli, I. Fisch, R. Freitag, J. Chromatogr. A 948 (2002) 139.
+[96] J.P. DeGnore, S. Konig, W.C. Barrett, P.B. Chock, H.M. Fales, Rapid
+Commun. Mass Spectrom. 12 (1998) 1457.
+[97] M.R. Emmett, R.M. Caprioli, J. Am. Soc. Mass Spectrom. 5 (1994)
+605.
+[98] C.G. Huber, M.R. Buchmeiser, Anal. Chem. 70 (1998) 5288.
+
+

@@ -1,0 +1,1646 @@
+C H A P T E R
+
+18
+Mass Spectrometry and NMR
+SpectroscopyeBased Quantitative
+Metabolomics
+Danijel Djukovic, G.A. Nagana Gowda, Daniel Raftery
+Mitochondria and Metabolism Center, Department of Anesthesiology and Pain Medicine, University
+of Washington, Seattle, WA, USA
+
+O U T L I N E
+Metabolomics
+
+279
+
+Suppression of Macromolecular Signals
+Quantitative Referencing
+Spectral Simpliﬁcation Methods
+Metabolite Quantitation Using
+1D NMR
+Metabolite Quantitation Using 2D NMR
+Isotope-Labeled NMR
+Ex Vivo Isotope Labeling
+
+Comparative Chemometric Analysis versus
+Quantitative Metabolomics
+280
+Mass Spectrometry
+Liquid Chromatography Resolved MS
+(LC-MS) Methods
+Metabolite Quantitation Using LC-MS
+Gas ChromatographyeResolved MS
+(GC-MS) Methods
+
+281
+
+NMR Spectroscopy
+Solvent Suppression
+
+285
+286
+
+281
+282
+285
+
+METABOLOMICS
+Metabolomics (also known as metabonomics
+or metabolic proﬁling) deals with the quantitative
+analysis of multicomponent mixtures of biological samples and is focused on establishing
+
+Proteomic and Metabolomic Approaches to Biomarker Discovery
+http://dx.doi.org/10.1016/B978-0-12-394446-7.00018-2
+
+286
+288
+289
+289
+290
+291
+291
+
+Conclusions
+
+293
+
+References
+
+293
+
+metabolic responses of living systems to pathophysiological stimuli or genetic alterations.1,2
+Although vast progress in the ﬁelds of genomics3
+and proteomics4 has provided a wealth of information for understanding the factors that regulate cell physiology and pathology, great insight
+
+279
+
+Copyright Ó 2013 Elsevier Inc. All rights reserved.
+
+280
+
+18. MASS SPECTROMETRY AND NMR SPECTROSCOPYeBASED QUANTITATIVE METABOLOMICS
+
+into the functions of biological systems is also
+gained through the study of concentrations and
+ﬂuxes of metabolites. The quantitative measurement of small molecule metabolites that are the
+end products of genes, transcripts, and proteins
+provides vital information for understanding
+the composition and function of biochemical
+networks and promises solutions to many important questions related to human disease
+diagnosis, prognosis, and therapeutic development.5e9 Signiﬁcant interest in the application
+of metabolomics-based approaches stems from
+an ability to detect and quantitatively analyze
+up to many hundreds of metabolites in parallel,
+which provides an efﬁcient method for unraveling altered biochemistry.10,11 Because subtle
+changes in gene expression or protein levels can
+cause substantial changes in metabolite concentrations, analysis of metabolites represents
+a very sensitive measure of biological status.
+More important, metabolomicsdthrough the
+ﬁngerprinting of biological variations of individualsdoffers avenues to achieve the goal of
+“personalized medicine.”12
+Numerous advanced analytical methods are
+used for the analysis of complex mixtures of
+biological samples including blood serum/
+plasma, urine, cerebrospinal ﬂuid, bile, saliva,
+seminal ﬂuid, amniotic ﬂuid, synovial ﬂuid, gut
+aspirate, and cells and tissue.2 The two most
+commonly used methods are mass spectrometry
+(MS) and nuclear magnetic resonance (NMR)
+spectroscopy. Numerous methods within these
+two major techniques provide both complementary and supplementary information on the identity and concentration of metabolites. MS is
+highly sensitive and can detect more than a thousand metabolic features. Currently, methods that
+use MS are almost always combined with separation techniques such as liquid chromatography
+(LC) and gas chromatography (GC). Liquid chromatography enables separation of intact molecules; gas chromatography requires chemical
+derivatization of biological mixtures, often with
+silylating agents to make the metabolites volatile.
+
+NMR spectroscopy, on the other hand, detects
+relatively high concentration metabolites (typically >5 mM) and is highly reproducible and
+quantitative. The latest technological advancements in NMRdincluding strong magnetic
+ﬁelds, cryogenic probes and microcoils, and their
+combination with isotope labelingdpromise
+routine access to more than a hundred metabolites in biological mixtures.13
+The data obtained from MS or NMR spectroscopy are complex and require analysis using
+multivariate statistical methods. A large variety
+of statistical methods are used currently for metabolomics applications, with the most frequently
+used methods being principal component analysis
+(PCA), logistic regression, and partial least
+squares discriminant analysis (PLS-DA) and its
+variants. PCA is an unsupervised method that is
+often used as a starting point in the data analysis.14,15 Subsequently, predictive models are
+often constructed using supervised methods.
+PLS-DA is commonly used to build a model based
+on the regression of data matrix X against matrix Y
+that contains class information for each sample.16
+Logistic regression, which is widely used in
+biomedicine, is helpful for the selection of metabolites that contribute most to the classiﬁcation of
+patients and controls. To avoid overﬁtting,
+PLS-DA models are usually cross-validated, ﬁrst
+internally using the same data set and later externally using independent data sets.
+
+COMPARATIVE CHEMOMETRIC
+ANALYSIS VERSUS
+QUANTITATIVE METABOLOMICS
+Metabolomics experiments fall into one of two
+somewhat broad categories: One category uses
+chemometric methods for comparative data
+analysis and the other uses a quantitative
+approach.17,18 In the traditional chemometric
+approach, metabolites are not identiﬁed initially
+from the spectral data. The complex data are
+directly used for global multivariate statistical
+
+281
+
+MASS SPECTROMETRY
+
+analysis after subjecting the data to preprocessing
+steps such as baseline correction, peak alignment,
+and solvent peak removal. Subsequently, metabolite features that distinguish sample classes are
+identiﬁed and then the structures of distinguishing metabolic features are established.19 A major
+drawback is that this approach often differentiates
+sample classes based on a long list of minor metabolite features that make small contributions.
+Possible solutions to this issue often involve
+scaling the data or ﬁltering (feature selection, or
+targeted analysis as discussed below) based on
+a set of criteria such as univariate analysis.
+Another challenge is that errors due to imperfect
+spectral baselines and peak alignments and strong
+uneven solvent backgrounds can cause signiﬁcant
+problems for the analysis. Metabolite peaks from
+both MS and NMR spectra are sensitive to sample
+conditions. Positions of NMR signals, for example,
+can be sensitive to subtle differences between
+samples such as pH, ionic strength, temperature,
+and concentration of macromolecules. Sensitivity
+to these parameters is more pronounced for bioﬂuids such as urine.20,21 Spectral binning, in which
+spectra are divided into several regions and the
+data points within each region are integrated,
+has been suggested to alleviate the deleterious
+effects of small peak shifts.13,22,23 Nevertheless,
+peak shifts combined with baseline distortions
+can still translate into spectral bins that do not
+represent true peak intensity and pose a signiﬁcant
+challenge to the accuracy of the outcome. The
+problem becomes more severe when the metabolite peaks involved are of low intensity.
+Quantitative metabolomics, on the other
+hand, follows a targeted approach wherein the
+metabolites are ﬁrst identiﬁed and quantitated.24
+The identities of metabolites are established
+generally based on the available databases of
+standard compounds; the identiﬁed metabolite
+peaks are then quantiﬁed based on internal or
+external reference compounds. The resulting
+data can then be used as input variables for
+statistical analysis using a variety of methods
+as described previously for global chemometric
+
+analysis. Because of the reliable peak identiﬁcation and measurement of metabolite integrals,
+quantitative metabolomics can provide greater
+insights into the dynamics and ﬂuxes of metabolites and promises robust statistical models for
+distinguishing classes with better classiﬁcation
+accuracy.
+
+MASS SPECTROMETRY
+Due to its high sensitivity (typically pg level)
+and fast data acquisition speed, mass spectrometry (MS) is one of the most commonly employed
+analytical tools in metabolomics. Since early 2000,
+there has been tremendous growth in MS-based
+methods, including chromatography separation,
+ionization,
+and
+detection
+strategies.2,25,26
+Advanced software combined with rich databases
+have enabled automatic peak alignment, identiﬁcation, and quantitation of metabolites. Because
+of the complexity of biological matrices, it is often
+necessary to separate metabolites of interest prior
+to MS acquisition, especially in case of metabolite
+quantitation. Thus, hyphenated analytical platforms that combine chromatography with MS
+have proved effective for metabolomics applications. Common separation techniques used
+include liquid chromatography (LC), gas chromatography (GC), and capillary electrophoresis
+(CE).27 Common MS techniques include quadrupole, triple-quadrupole, ion-trap, time-of-ﬂight
+(TOF), and OrbitrapÔ mass analyzers, which
+have been described in detail.28 LC- and
+GC-based MS methods are particularly widespread, and the latest advances enable improved
+quantitation by canceling errors arising from
+sample complexity (i.e., matrix) effects.
+
+Liquid Chromatography Resolved MS
+(LC-MS) Methods
+Among the MS methods, LC-MS is by far the
+most widely used for metabolomics applications.29 It allows direct detection of metabolites
+
+282
+
+18. MASS SPECTROMETRY AND NMR SPECTROSCOPYeBASED QUANTITATIVE METABOLOMICS
+
+from biological samples with no requirement for
+chemical modiﬁcation such as derivatization.
+The latest LC-MS technological advances allow
+absolute quantitation of more than 200 metabolites in rat plasma30 and relative quantitation of
+more than 250 metabolic species in bodily ﬂuids,
+cells, and tissue.31
+LC-based MS methods commonly use “soft”
+ionization techniques such as electrospray
+ionization (ESI), as it ionizes a wide range of
+metabolites without inducing metabolite fragmentation. Ion suppression is a major problem
+associated with ESI, as it affects both the detection of metabolites as well as their reliable quantitation.32 Ion suppression, in which analytes do
+not become efﬁciently ionized because of competition with other ionizable species, is caused by
+numerous endogenous and exogenous factors
+including the presence of salts, macromolecules,
+or highly abundant interfering metabolites. The
+addition of volatile buffers such as ammonium
+acetate or ammonium formate in LC solvents
+can help alleviate ion suppression due to the
+salt effect. Ion suppression can also be reduced
+by proper choice of sample preparation and LC
+and MS parameters. Most biological samples
+contain macromolecules such as proteins, which
+need to be precipitated using organic solvents
+such as methanol or acetonitrile. Further puriﬁcation by solid-phase extraction (SPE) can also
+help reduce matrix effects. However, SPE is
+more labor intensive and often requires
+a recovery test for each metabolite. Therefore,
+protein precipitation using an organic solvent
+is typically a better choice for large-scale studies.
+Another important step to alleviate ion suppression is optimization of chromatographic parameters for better peak resolution and minimization
+of co-eluting metabolites. In order to improve the
+separation, recently a number of researchers
+used multiplexed LC methods on different
+analytical columns. This approach allowed Wei
+et al. to perform absolute quantitation of over
+200 metabolites in biological samples.30 Regular
+cleaning of the ion source and optimization of
+
+the MS acquisition parameters are also critical
+steps for minimizing ion suppression.
+
+Metabolite Quantitation Using LC-MS
+A number of LC-MS approaches have been
+proposed to compensate for the effect of ion
+suppression and provide reliable metabolite
+quantitation. The most common approaches involve spiking biological specimens with stable
+isotope (2H, 13C, or 15N)elabeled internal standards (SILISs) or structural analogues as internal
+standards. Because these materials can often be
+purchased commercially and can be obtained
+in high purity, they can serve as relatively reliable standards. Quantitation utilizing SILISs
+represents a very reliable approach, as such standards possess nearly identical chemical and
+physical characteristics as the analyte of interest.
+Each SILIS compound is eluted and ionized
+nearly identically to its corresponding metabolite in the biological sample, and the increased
+mass provides a peak offset by the mass difference between the two isotopic forms.
+In practice, biological samples are spiked with
+a standard solution of a single or multiple SILISs,
+often prior to the sample preparation step to
+compensate for any inaccuracies caused by
+recovery loss.30,33 Accurate concentrations of
+metabolites are then determined by directly
+comparing peak areas of metabolites and their
+isotope-labeled internal standard. The peak
+area comparison, however, is reliable only if
+the peak areas for both the metabolite and its
+internal standard are similar, which is often not
+the case for all metabolites. Some metabolites
+vary in concentration or may have unknown
+concentrations. In such cases, calibration curves
+need to be obtained using mixtures of standard
+compounds (calibrants) of different concentrations. All calibrant mixtures are spiked with SILISs at the same concentration as used in the
+analysis of actual biological samples. The calibrants’ concentrations are chosen to cover the
+whole linear dynamic range (LDR) for each
+
+283
+
+MASS SPECTROMETRY
+
+target metabolite. A typical calibration curve is
+shown in Figure 1.
+Using this calibration curve, for example, the
+actual concentration of the target metabolite in
+a biological sample is determined by inverting
+the equation for the ﬁtted calibration curve as:
+
+Metabolite Concentration ¼
+
+variation (CVs) of less than 15% for 80% or
+more of the metabolites (Figure 2).30,34 Such
+approaches assume that the chosen SILIS
+compounds have similar ionization behavior to
+the metabolites under investigation. Another
+approach uses structural analogues as internal
+
+½Park Area ðMetaboliteÞOPeak Area ðSILISÞ  0:0332
+0:2474
+
+where Peak Area (SILIS) is the peak area,
+obtained from the multiple reaction mode detection, of the stable isotope-labeled internal standard spiked in the biological sample and 0.0332
+and 0.2474 are the y-intercept and slope, respectively, as shown in Figure 1.
+A major drawback of this approach is the
+often prohibitively high cost of stable SILIS
+compounds and/or commercial unavailability
+of isotope-labeled standards for many metabolites. To circumvent this problem, many studies
+have utilized a small set of representative SILIS
+compounds and used them to analyze up to
+200 or more metabolites with coefﬁcients of
+
+(1)
+
+standards that have similar structures and chemico/physical properties as the targeted metabolite class and are not a part of the endogenous
+compounds. Tubercidin, for example, is thus
+used as a structural analogue for the analysis of
+nucleosides.35,36 Quantitation using such structural analogues is performed by spiking biological specimens with one or more structural
+analogues as internal standards, and metabolite
+concentrations are determined by comparison
+of mass peak area with that of structural
+analogue or by using a calibration curve similar
+to that shown in Figure 1. CVs of 5% to 20% have
+been obtained by this approach in the analysis of
+
+Peak Area (Standard Metabolite) /
+Peak Area (SILIS)
+
+4.0
+3.5
+3.0
+
+y = 0.2474x + 0.0332
+R² = 0.9994
+
+2.5
+2.0
+1.5
+1.0
+0.5
+0.0
+0.0
+
+5.0
+10.0
+Standard Metabolite Concentration (µM)
+
+15.0
+
+FIGURE 1 Typical calibration curve obtained using solutions with different standard metabolite concentration and ﬁxed
+internal standard (SILIS) concentration.
+
+284
+
+18. MASS SPECTROMETRY AND NMR SPECTROSCOPYeBASED QUANTITATIVE METABOLOMICS
+
+FIGURE 2 Distribution of CV values for metabolites in rat
+plasma obtained using a small set of representative internal
+standards (SILIS).30
+
+modiﬁed nucleosides in biological samples.35,36
+The use of structural analogues or a small
+number of representative SILIS compounds can
+be cost-effective in targeted metabolite quantitation. However, spiking with a SILIS for each
+metabolite provides more reliable results (intraand interday CVs <10%), as only the labeled
+counterpart can truly mimic the response of an
+individual metabolite as compared to a structurally similar internal standard or representative
+labeled metabolite.37,38
+An approach that does not depend on
+the commercially available isotope-labeled
+compounds and eliminates a major drawback of
+LC-MS-based metabolite quantiﬁcation utilizes
+isotope-labeled metabolites produced in vivo.39,40
+A mixture of hundreds of 13C-isotope-labeled
+metabolites, for example, can be produced within
+a few hours by feeding microorganisms such as
+yeast or bacteria with U-13C-labeled medium.
+This approach is signiﬁcantly less expensive and
+enables access to isotope-labeled standards for
+the majority of metabolites of interest in biological
+samples. As with commercially available SILIS
+compounds, metabolite quantitation is performed
+by mixing biological specimens with in vivo
+isotope-labeled mixture and comparing mass
+peak intensities of each metabolite with its labeled
+counterpart or using the calibration plots
+(Figure 1). A one-time determination of metabolite
+
+concentrations of isotope-labeled metabolites in
+algal or bacterial extracts, however, is needed,
+utilizing unlabeled standard mixtures of metabolites, and one needs to be careful about SILIS
+sample stability. Nevertheless, using this in vivoe
+derived SILIS compound approach, more than
+90% of measured metabolites were shown to
+exhibit CVs of less than 15%.33 This method has
+fostered increased interest for determining absolute concentrations of cellular metabolites,18,40e45
+and it will be interesting to see whether it
+promises a robust method for mass spectrometryebased quantitative metabolomics using
+commonly used biological samples such as blood,
+urine, and tissue. Detailed step-by-step experimental protocols for quantitation of intracellular
+metabolites and measurement of cellular ﬂuxes
+have been described using examples of Escherichia
+coli and primary human ﬁbroblasts fed with
+U-13C-labeled carbon sources and labeled metabolite detection using LC-MS/MS.46,47
+In the previously described quantitation
+methods using a limited number of labeled
+internal standards, external calibration curves
+are usually used to calculate the metabolic
+concentrations. These calibration curves are
+obtained from calibrant samples that were spiked
+with labeled internal standards. However, some
+studies utilized external calibration curves
+without spiking the calibrants with labeled
+internal standards, and the metabolic concentrations were determined from a plot of the MS
+peak intensity versus standard metabolite
+concentration. The advantage of this approach is
+that the calibrant samples do not require spiking
+with labeled standards. The disadvantage of this
+approach is that the calibration curves are based
+on the series of standard dilutions with signiﬁcantly lower matrix effects than those exhibited
+in the biological samples. Without the presence
+of labeled internal standards to offset the ion
+suppression effect, one risks underreporting the
+actual metabolic concentrations. In addition,
+the MS signal can drift over time due to the ﬂuctuations in the ionization efﬁciency, and as a result
+
+285
+
+NMR SPECTROSCOPY
+
+the linearity of the predetermined calibration
+curves can no longer be valid.
+
+Gas ChromatographyeResolved MS
+(GC-MS) Methods
+GC-MS is a robust method for metabolomics
+applications. It combines high separation efﬁciency and sensitive detection following electron
+ionization.27,48 In particular, it is the preferred
+method for the analysis of metabolites with low
+molecular weight, as they can be quite effectively
+analyzed with good sensitivity and reproducibility. Although the volatile, low-molecularweight metabolites can be directly analyzed,
+nonvolatile, polar metabolites require chemical
+derivatizationdoften silylationdbefore analysis.
+There is a large literature on derivatization
+methods in GC-MS.49 To improve resolution in
+GC-MS, the development of two-column
+approaches (2D GC-MS) offers further enhancement and is well suited for the analysis of
+complex biological mixtures.50e52
+The quantitative accuracy obtainable from
+GC-MS critically depends on numerous factors
+including sample collection, storage, extraction,
+derivatization, stability, and analysis. By
+comparison, instrumental stability reproducibility is much less problematic. In addition,
+the ionization method of choicedelectron
+ionizationdavoids complications such as ion
+suppression. Factors that are of most concern
+for GC-MS are the efﬁciency of derivatization
+and the stability of derivatized metabolites.
+Regarding the derivatization process, metabolites can be broadly grouped into three classes:
+Class 1 metabolites, which contain hydroxyl or
+carboxyl groups, exhibit the highest efﬁciency
+towards derivatization and stability of the derivatized metabolite; Class 2 metabolites contain
+amine or phosphoric groups and are very
+sensitive to experimental conditions and are
+measured with intermediate precision; and Class
+3 compounds, with amide, thiol, or sulfonic functional groups, are more difﬁcult to derivatize and
+
+analyze. To account for these differences, use of
+representative
+compounds
+from
+all
+three groups as internal references has been
+proposed.26
+Nevertheless, with proper care regarding both
+the sample processing and experimental conditions, precise results can be obtained to compare
+relative metabolite concentrations. In general,
+quantitative methods for GC-MS are less popular
+than for LC-MS. External calibration methods are
+sometimes used for quantitation; however,
+literature-reported applications of SILIS to
+GC-MS are quite limited. In contrast, in vivoe
+labeling methods attract more attention. One
+study reported the use of 13C-labeled yeast
+cell extracts as a source for internal standards
+to quantify intracellular metabolites in
+S. cerevisiae cells. This study focused on measuring
+nonoxidative pentose phosphate pathway intermediates using GC-MS.53 More recently, a simpliﬁed GC-MS method for absolute quantitation of
+metabolites using commercially available
+13
+C-labeled algal extract for use as internal standards has been reported.54 13C isotope labeling
+was also used to estimate metabolic ﬂuxes and
+concentrations in mammalian (hepatic) cells using
+a combination of GC-MS and LC-MS methods.45,55
+Results of these studies promise more widespread
+use of in vivoelabeled metabolites as internal standards for routine quantitative metabolomics
+applications.
+
+NMR SPECTROSCOPY
+NMR spectroscopy is one of the most
+information-rich techniques in the ﬁeld of metabolomics. It exhibits a number of important characteristics for both identiﬁcation and quantitative
+analysis of metabolites in complex biological
+samples. In particular, the high resolution and
+superb reproducibility enable access to a large
+number of metabolites and their accurate concentrations. Unlike MS, NMR allows structural veriﬁcation/identiﬁcation of both known and
+
+286
+
+18. MASS SPECTROMETRY AND NMR SPECTROSCOPYeBASED QUANTITATIVE METABOLOMICS
+
+unknown metabolites as well as quantitation,
+from the same measurement. Because the same
+nuclei, 1H for example, are detected with the
+same sensitivity, a single internal standard is
+sufﬁcient to determine the absolute concentrations of all detected metabolites in a single experiment. In addition, the ratios between peaks for
+a speciﬁc metabolite are ﬁxed and depend on
+the number of equivalent nuclei that contribute
+to the peak and hence the integrated peak area
+for any one isolated peak is sufﬁcient to determine a metabolite’s concentration.
+
+Solvent Suppression
+A critical requirement for quantiﬁcation by
+NMR is the efﬁcient suppression of the water
+signal. Owing to its high natural abundance,
+sensitivity, and ubiquitous nature, 1H is the most
+preferred nucleus for NMR-based metabolomics.
+Bioﬂuids are aqueous in nature and the concentration of water in these samples is four orders of
+magnitude or more higher than the typical concentrations of metabolites. To date, a large number of
+water suppression methods exist, each with its
+own advantages and disadvantages. Generally,
+these methods use weak radio frequency (RF)
+pulses, pulse ﬁeld gradients, or their combination
+to suppress water signal.56e59 Numerous
+improvements have been made that circumvent
+many challenges associated with water suppression and provide spectra without distortions in
+phase or peak intensity.60e65 A recently developed
+water suppression pulse technique, WET180,
+efﬁciently suppresses faraway water that experiences signiﬁcantly reduced RF ﬁelds relative to
+bulk water within the RF coil redgion and enables
+sensitive detection of metabolite signals (even
+those very close to the water signal).66
+
+Suppression of Macromolecular Signals
+NMR spectra of bioﬂuids such as blood serum
+and plasma obtained using the single pulse or
+1D NOESY (nuclear Overhauser effect
+
+spectroscopy) sequence are complicated due to
+the overwhelming macromolecular signals
+from lipids and proteins. It is very difﬁcult to
+derive quantitative information on metabolites
+from such spectra, although spectral ﬁtting approaches can provide limited solutions. Considering that blood is the most important medium
+and is widely used in metabolomics applications, numerous developments have been made
+to avoid the interference of macromolecular
+signals. The spin-echo pulse sequence, speciﬁcally its improved version, the Carr-PurcellMieboom-Gill (CPMG) pulse sequence, which
+exploits the large difference in the nuclear spin
+relaxation properties between metabolites and
+macromolecules, is often used to eliminate or
+reduce macromolecular signals.2,67e73 Currently,
+the CPMG pulse sequence is commonly used for
+the analysis of blood serum and plasma samples.
+However, caution should be exercised when
+using this sequence for quantitative analysis
+because the metabolite signals are attenuated
+somewhat due to T2 relaxation. Further, many
+physiologically important metabolites including
+lactate, ketone bodies, and aromatic amino acids
+such as tyrosine, phenylalanine, and histidine
+bind to protein molecules in blood serum/
+plasma. The 1H nuclei from such bound metabolites experience a substantial decrease in their
+transverse relaxation (T2) times and make such
+metabolites substantially invisible in the 1H
+NMR spectra74,75; due to the line broadening
+caused by such binding, some metabolite signals
+can even altogether disappear from NMR
+spectra. Thus, use of the CPMG sequence can
+underestimate concentrations of all endogenous
+and exogenous compounds that bind to
+proteins.74,76
+An altogether different approach that
+completely separates metabolites and macromolecular signals in blood plasma is shown
+in Figure 3.77 This approach utilizes diffusionsensitized 1H NMR spectroscopy and exploits
+a large difference in the translational diffusion
+coefﬁcients between blood plasma metabolites
+
+287
+
+NMR SPECTROSCOPY
+
+(A)
+Albumin
+(lysyl)
+
+Lipoproteins
+(= CH)
+
+Lipoproteins
+(CH2)n
+(CH3)
+
+Glycoproteins
+(N-acetyl)
+
+(B)
+
+× 1.2
+Ace
+[2-13C]-Ace
+
+Lac
+BHB
+
+Glc
+βH2
+Glc
+
+αH1
+Glc
+
+AcA
+Crn
+
+(C)
+5.25
+
+4.0
+
+3.5
+
+3.0
+
+Cit
+
+2.5
+
+Val
+Leu
+Ile
+
+Ac
+
+Ala
+2.0
+
+1.5
+
+1.0
+
+PPM
+
+FIGURE 3 (A) 1H NMR spectrum of blood plasma acquired with a low sensitivity toward diffusion (diffusion factor,
+b ¼ 4.1 s/mm2), overlaid with a spectrum obtained with high diffusion sensitivity (diffusion factor, b ¼ 10,000 s/mm2, gray).
+(B) 1H NMR spectrum of blood plasma acquired with a high sensitivity toward diffusion (diffusion factor, b ¼ 10,000 s/mm2).
+The macromolecule spectra in (A) and (B) are identical. (C) Difference spectrum between (A) and (B). Abbreviations: acetate
+(Ace), acetoacetate (AcA), aceton (Ac), alanine (Ala), b-hydroxybutyrate (BHB), citrate (Cit), creatinine (Crn), glucose (Glc),
+isoleucine (Ile), lactate (Lac), leucine (Leu), and valine (Val). (Reproduced with permission from reference #77.)
+
+288
+
+18. MASS SPECTROMETRY AND NMR SPECTROSCOPYeBASED QUANTITATIVE METABOLOMICS
+
+and macromolecules to separate signals from the
+two groups. Two separate NMR spectra are
+obtained: one that is minimally affected by relaxation and diffusion and another in which all
+metabolite signals are removed based on their
+faster diffusion, which causes the NMR signal
+to attenuate. Subtraction of the latter spectrum
+from the ﬁrst provides a spectrum for blood
+plasma metabolites, which is devoid of broad
+peaks as well as baseline distortions from macromolecules. Another important method for
+macromolecular signal suppression includes
+physically removing proteins from the biological
+mixtures. There are numerous ways for such
+removal of proteins from blood plasma and
+serum including precipitation by adding organic
+solvents, salts, or altering pH, or by ultraﬁltration.78 The performance of such deproteinization
+methods is shown to vary signiﬁcantly, and
+hence caution should be exercised while optimizing the deproteinization protocol.79 Owing
+to their superior performance, deproteinization
+by ultracentrifugation using 3kDa cutoff ﬁlters,
+for example,79,80 and precipitation using methanol solvent81 are more commonly used for
+quantitative applications.
+
+Quantitative Referencing
+Adding a known amount of TSP [sodium
+d4-3- (trimethylsilyl)-propionate] or DSS (sodium
+d6-2, 2-dimethyl-2-silapentane-5-sulfonate) can
+provide a signal that can be used as both a quantitative and chemical shift reference. However,
+the binding of these standards with macromolecules such as proteins and their sensitivity to
+sample conditions such as pH can lead to severe
+signal attenuation or peak shifting; hence, addition of these compounds directly into biological
+mixtures is generally not preferred. To circumvent this problem, formate was explored as
+a quantitative reference, which reportedly does
+not interact with macromolecules.82 Its utility
+as a reference for quantitation is limited because
+formate is present generally in most biological
+
+mixtures. The use of a coaxial capillary tube containing a solution of TSP or DSS in deuterium
+oxide (D2O) offers a number of advantages.
+The reference compound does not interact with
+the sample matrix; it serves as a chemical shift
+as well as a quantitative reference, and the D2O
+solvent serves as a ﬁeld-frequency locking
+solvent. Further, the same capillary tube can be
+used for all samples, which adds to minimizing
+the quantitation errors. Nevertheless, this
+approach adds some additional steps and is
+hard to automate.
+Somewhat recently, considering that water is
+highly concentrated in biological mixtures,
+a method that uses water itself as a concentration
+reference was proposed.83 Here, the very large
+solvent (water) signal is obtained in a separate
+experiment with reduced receiver gain. The integral of the solvent signal is then compared with
+those of metabolites using the two spectra to
+obtain absolute concentrations of the metabolites
+of interest. It was shown that quantitation of
+metabolites can be made with errors less than
+2% over a wide range of concentrations. This
+method does not require additional compounds
+for concentration referencing and is indifferent
+to probe tuning. For accurate quantitation,
+however, it assumes a linear response to radiofrequency pulse length and transmitter power,
+and receiver gain settings, which is generally
+true. Several following reports discuss the inﬂuence of such parameters on the accuracy of
+metabolite quantitation.84e87 A method known
+as ERETIC (Electronic REference To access In
+vivo Concentrations) that does not require either
+a reference compound or a solvent signal for
+quantitation has also been proposed.88 It
+involves synthesis of a reference signal by an
+electronic device, and its position in the spectrum can be conveniently chosen so as to not
+interfere with metabolite signals. For accurate
+quantitation, however, the ERETIC method
+requires occasional calibration using a standard
+compound. Although this approach is very
+simple, the results are reliable only when the
+
+NMR SPECTROSCOPY
+
+289
+
+same sample load and probe tuning is maintained between samples.
+
+promise for a number of quantitative metabolomics applications.
+
+Spectral Simpliﬁcation Methods
+
+Metabolite Quantitation Using 1D NMR
+
+1
+
+In a typical H NMR spectrum, signals are
+observed between 0 ppm and 9 ppm, and most
+are crowded into two spectral regions that
+roughly span 5 ppm (0.84.4 ppm, 6.88.0
+ppm). Because of the signal overlap, the identiﬁcation and quantiﬁcation of many metabolites of
+interest often becomes impossible. This problem
+is compounded because it is almost always the
+case that a given bioﬂuid will contain a relatively
+few species present at high concentrations that
+will dominate the NMR spectra. Numerous
+studies have been focused on alleviating this
+challenge. One such approach uses selective total
+correlation spectroscopy (TOCSY) methodology,
+which can detect metabolites quantitatively even
+if they are found at concentrations 10 to 100
+times below those of the major components
+and provides improved data inputs for principal
+component analysis.89,90 Recently, quantitative
+aspects were examined by optimizing the 1D
+TOCSY experiment and comparing integrations
+of 1D TOCSY read peaks to the bucket integration of 1D proton NMR spectra.91 An important
+aspect of this approach is that selective TOCSY,
+apart from metabolite quantitation, enables
+unknown peak identiﬁcation in complex
+ﬂuids.92 More recently, a new method called
+Add to Subtract for efﬁcient suppression of background signals from highly concentrated metabolites in bioﬂuids such as strong glucose
+background in serum and diabetic urine spectra
+was shown.93 This method is simple to perform,
+as it requires only obtaining a second spectrum
+after the addition of a small drop of concentrated
+glucose solution. It can reduce the glucose
+signals by 98% and allow retrieval of the hidden
+metabolic information. This spectral simpliﬁcation approach enables identiﬁcation of
+distinguishing low concentrated metabolites
+by multivariate statistical analysis and shows
+
+Unambiguous peak identiﬁcation is a critical
+step in quantitative metabolomics. To aid such
+identiﬁcation, databases that contain NMR chemical shifts and spectra for several hundreds of
+metabolites have been developed using standard
+compounds that are publicly available.94,95 For
+applications involving large sample sets, automation of metabolite identiﬁcation and quantitation
+is often sought. Numerous method development
+efforts have been focused on automated peak
+identiﬁcation and/or metabolite quantitation.
+Automated integration of deﬁned spectral
+regions is the simplest approach for metabolite
+quantitation. It reduces the number of variables
+and, at the same time, provides integrals for the
+reduced variables (metabolite signals). However,
+this approach assumes that each variable
+contains the same chemical information, which
+is often not the case because many metabolitesd
+for example, citrate, histidine, and taurined
+exhibit signiﬁcant peak shifts due to altered pH
+or ion concentrations. The severity of their peak
+shifts is more prominent for bioﬂuids such as
+urine.96,97 Moreover, baseline distortions deleteriously affect the quantitative measurement of
+metabolites using this approach.98
+A number of curve ﬁtting methods have been
+proposed to focus on metabolite identiﬁcation
+and quantitative analysis. A frequency domain
+data ﬁtting approach was proposed to identify metabolite peaks from overlapped spectral
+regions.99 It uses a semiautomated approach
+and can therefore be time consuming for the
+analysis of large sample sets. A different
+approach, which is insensitive to the variation
+of peak shifts because it makes use of prior
+knowledge of the spectra of pure compounds,
+was suggested.100 This method assumes that at
+least one peak for the metabolite is isolated,
+without overlap from other compounds, such
+
+290
+
+18. MASS SPECTROMETRY AND NMR SPECTROSCOPYeBASED QUANTITATIVE METABOLOMICS
+
+that it can be used as a reference. A major
+improvement to peak identiﬁcation and accurate quantitative analysis of metabolites using
+1D NMR spectra is provided by Chenomx
+Inc.101,102 Metabolite identiﬁcation is facilitated
+by modeling of the spectral features using
+spectra of pure compounds from pH and spectrometer frequencyedependent chemical shift
+databases. Accurate metabolite concentrations
+are then obtained by comparing modeled
+metabolite peak integrals with that of an
+internal reference compound such as DSS. This
+method allows identiﬁcation of peaks, even if
+they are shifted due to altered conditions, such
+as pH, and provides accurate concentration
+values that can then be inputted for further
+multivariate statistical analysis. The approach
+is semiautomated and needs manual selection
+of appropriate metabolites from the library
+and manual feedback in the ﬁtting of peaks.
+More recently, a method that performs automated spectral deconvolution of 1D NMR
+spectra was presented.80 It uses an algorithm,
+AutoFit, to reconstruct experimental spectra using
+a reference compound library. The algorithm optimizes a number of parameters, including a recalibration of reference spectral library based on
+position, intensity, and the peak line width from
+a reference compound such as DSS, from the
+experimental spectrum. An alternative approach,
+based on a Bayesian ﬁtting algorithm, was
+recently proposed.103 Although this approach is
+currently limited to small spectral regions due to
+its computational requirements, it operates in
+a fully automated mode.
+
+Metabolite Quantitation Using 2D NMR
+In 1D 1H NMR, the relatively narrow spectral
+region in which all metabolite signals are
+observed results in peak overlap and limits the
+number of metabolites that can be identiﬁed
+and quantiﬁed accurately. This problem can be
+greatly alleviated by making use of twodimensional (2D) NMR spectra, in which peaks
+
+are spread along two dimensions to enable both
+unambiguous identiﬁcation and accurate quantitation of an enhanced pool of metabolites.
+Various 2D NMR methods that provide complementary information on metabolite identity
+and metabolite concentrations are used. 2D
+J-resolved spectroscopy, correlation spectroscopy (COSY), TOCSY, heteronuclear single
+quantum-coherence
+(HSQC)
+spectroscopy,
+and heteronuclear multiple-bond correlation
+(HMQC) spectroscopy experiments are the
+most commonly used. Projections of 2D
+J-resolved spectra are much simpler as each
+multiplet that arises due to spinespin couplings
+(J-coupling) is collapsed to a single peak.104,105
+However, care should be exercised in quantitating metabolites using this experiment since,
+as for the 1D CPMG experiment, peak integrals
+are affected by transverse relaxation during the
+long evolution period. The 2D HSQC experiment is particularly attractive due to its much
+higher resolving power, which arises from the
+wider chemical shift ranges of heteronuclei
+such as 13C and 15N. Lower sensitivity due to
+the low gyromagnetic ratios of 13C and 15N,
+combined with their low natural abundances
+is, however, a major challenge that limits wider
+utility of such 2D experiments. Nevertheless,
+the latest advances in NMR instrumentation,
+including the development of strong ﬁeld
+magnets, cryogenic and microcoil probes, and
+isotope labeling approaches, are contributing
+to the increased utility of these experiments
+for metabolomics applications.
+A protocol for the determination of metabolite concentrations was evaluated using the
+1
+H-13C HSQC spectrum.106 Here, the 2D peak
+integrals are compared with calibration curves
+obtained from 2D spectra of three equimolar
+mixtures of standard compounds to predict
+the metabolite concentrations. Improving on
+this quantitation strategy, an algorithm to
+deconvolute 2D NMR peaks was developed.107
+It constructs simple time domain models with
+the fewest number of peaks, whose frequency
+
+NMR SPECTROSCOPY
+
+domain spectra match with target regions of the
+experimental spectrum. Focusing on enhancing
+the accuracy for the derived metabolite concentrations, three time-zero 1H-13C HSQC series
+spectra with incremented repetition times were
+used. From this series of spectra, an extrapolated time-zero HSQC spectrum (HSQC0) was
+obtained.108,109 Peak intensities in the HSQC0
+spectra represent true concentrations of individual metabolites, as they are not inﬂuenced
+by delays during the pulse sequence that could
+cause substantial loss of coherence due to relaxation. However, this method is somewhat time
+consuming because of the need for multiple
+2D spectrum acquisitions. A method that does
+not require standard compounds for determining metabolite concentrations using 1H-13C
+HSQC spectra was also reported.110 This
+approach is based on applying a correction
+factor to the 2D peak integrals, calculated
+from the solution of the Bloch equations and
+analysis of product operator formalism utilizing
+longitudinal (T1) and transverse (T2) relaxation
+parameters, 1H-13C heteronuclear J-coupling
+and the delays used in the 2D pulse sequence.
+Applying a correction factor eliminates the
+effects of T1 and T2 relaxation, heteronuclear
+couplings, and experimental parameters and
+provides peak integrals that represent true metabolite concentrations.
+
+Isotope-Labeled NMR
+Another approach is the use of isotope
+labeling using heteronuclei such as 13C and
+15
+N, which provides a number of beneﬁts for
+quantitative metabolomics. Currently, isotope
+labeling is used in two major applications. One
+area focuses on tracing metabolic pathways
+and ﬂux analysis using in vivo isotope labeling111e117 and the other on increasing the pool
+of detected metabolites by enhancing resolution
+and sensitivity using ex vivo labeling. Because
+the ﬁrst area is not used primarily for quantitation, we focus on the second.
+
+291
+
+Ex Vivo Isotope Labeling
+Owing to the extremely high complexity of
+biological mixtures, only a small fraction of
+metabolites can be accurately analyzed, and the
+information derived from such a small number
+of metabolite is insufﬁcient to gain insights into
+altered cellular biochemistry. Targeting different
+metabolite classes (acids, amines, etc.) using chemoselective isotope tags reduces molecular
+complexity and improves the detection of lowconcentration metabolites by reducing the contribution of less interesting chemical signals. Stable
+isotopes such as 13C and 15N and abundant heteronuclei such as 31P have been used to tag metabolites with speciﬁc functional groups and thereby
+signiﬁcantly enhance the resolution and sensitivity of NMR experiments.118e122
+Isotope labeling of metabolites using a 13C-acetylation tag results in selective labeling of
+amine containing metabolites, and using the
+1
+H-13C HSQC experiment allows the detection of
+the 13C-tagged metabolites with improved resolution and sensitivity.118 This labeling approach is
+quantitative and the tagging reaction can be
+carried out directly in aqueous solution at ambient
+temperature. More recently, tagging using formylation using 13C-formic acid was shown to
+improve the detection of amine containing metabolites.119 The large, 200 Hz, one-bond J-coupling
+between the labeled 13C and 1H facilitates efﬁcient
+transfer of polarization between the two nuclei in
+HSQC experiments. Carboxyl functional group
+containing metabolites represent another major
+class of molecules in biological systems. They can
+be chemically tagged with 15N-ethanolamine and
+detected using a 2D 1H-15N HSQC experiment.120
+The enhanced sensitivity and resolution from this
+approach enables detection of metabolites at
+concentrations as low as a few micromolar, quantitatively and reproducibly. Using this approach,
+nearly 200 well-resolved signals corresponding
+to well over 100 carboxyl-containing metabolites
+can be routinely detected in biological mixtures.
+A method to detect lipid metabolites with
+
+292
+
+18. MASS SPECTROMETRY AND NMR SPECTROSCOPYeBASED QUANTITATIVE METABOLOMICS
+
+FIGURE 4 Concentration of some
+of the metabolites in the NIST plasma
+obtained using 1D/2D NMR experiments with and without isotope
+tagging: (A) obtained from 1H-15N
+HSQC NMR after 15N tagging; (B)
+obtained from 1H-13C HSQC NMR
+after 13C tagging; (C) obtained from
+1
+H-1H TOCSY NMR of neat plasma;
+and (D) obtained from 1D NMR of the
+neat plasma sample. (Reproduced with
+permission from reference #122.)
+
+(A)
+
+(B)
+
+(C)
+
+(D)
+
+293
+
+REFERENCES
+
+hydroxyl, carboxyl, or aldehyde groups was
+recently developed using a 31P isotope label.121 It
+uses a 31P containing reagent, 2-chloro4,4,5,5-tetramethyldioxaphospholane (CTMDP),
+to tag the lipid metabolites. Derivatized metabolites are then detected with enhanced resolution
+using one-dimensional 31P NMR. The method
+provides sufﬁcient sensitivity and spectral resolution, and derivatized species have unique and
+well-resolved resonances in the 31P NMR
+spectrum.
+A single peak, devoid of multiplicity, for each
+tagged metabolite and effective ﬁltering of nontagged metabolites signiﬁcantly add to the
+sensitivity and background suppression. Identiﬁcation of tagged metabolites requires the
+knowledge of chemical shifts of isotope-tagged
+standard compounds. In view of this, a chemical
+shift library for nearly 150 isotope-tagged metabolites is developed and using this library, more
+than 50 metabolites in human serum and urine
+have been identiﬁed.119e121 More recently, using
+a combination of NMR methodsdincluding
+isotope taggingdmetabolites in human plasma
+from the National Institute of Standards and
+Technology (NIST) (Gaithersburg, MD) were
+quantiﬁed.122 1H-15N HSQC and 1H-13C HSQC
+experiments on the isotope-tagged samples
+combined with the conventional 1H onedimensional and 1H-1H TOCSY experiments
+provide quantitative information on a large
+number of metabolites in plasma (Figure 4).
+The methods were ﬁrst tested on a mixture of
+synthetic analogues of metabolites commonly
+present in human blood and then metabolites
+in a standard NIST plasma were identiﬁed and
+quantiﬁed with an average coefﬁcient of variation of less than 5.6%.
+
+approach is to use SILISs to minimize ion
+suppression effects. This technique is capable
+of performing metabolic measurements with
+intra- and interday CVs in the single digit
+range. Another, less accurate approach, is to
+use structural analogues as internal standards,
+and ﬁnally the use of external calibration
+curves is cost effective, relatively straightforward, and gaining popularity in the metabolomics ﬁeld. NMR spectroscopy, with its ability
+to provide both the identities and accurate
+concentrations of a large number of metabolites
+using a single internal reference, represents an
+important method for quantitative metabolomics. NMR’s ability to proﬁle metabolites in
+intact biological samples, including cells and
+tissue, is unique and offers important avenues
+to identify and quantify new metabolites, as
+well as to translate the ﬁndings of biomarker
+discovery research to in vivo clinical applications. New methods that provide enhanced
+resolution and better sensitivity for both
+NMR and MS platforms will continue to propel
+quantitative metabolomics.
+
+References
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+CONCLUSIONS
+Quantitative metabolomics has progressed
+quickly on a number of fronts. For mass spectrometry, the most accurate and quantitative
+
+6.
+7.
+
+Nicholson JK, Lindon JC, Holmes E, et al. Metabonomics: understanding the metabolic responses of
+living systems to pathophysiological stimuli via
+multivariate statistical analysis of biological NMR
+spectroscopic data. Xenobiotica 1999;29:1181e9.
+Nagana Gowda GA, Zhang S, Gu H, et al. Metabolomics-based methods for early disease diagnostics:
+a review. Exp Rev Mol Diagn 2008;8:617e33.
+Brown PO, Botstein D. Exploring the new world of the
+genome with DNA microarrays. Nat Genetics 1999;21:
+33e7.
+Patterson SD, Aebersold RH, et al. Proteomics: the
+ﬁrst decade and beyond. Nat Genetics 2003;33:
+311e23.
+Fiehn O. Metabolomicsdthe link between genotypes
+and phenotypes. Plant Mol Biol 2002;48:155e71.
+Fell DA. Enzymes, metabolites and ﬂuxes. J Exp Bot
+2005;56:267e72.
+Saghatelian A, Cravatt BF. Global strategies to integrate the proteome and metabolome. Curr Opin Chem
+Biol 2005;9:62e8.
+
+294
+8.
+
+9.
+10.
+
+11.
+12.
+13.
+
+14.
+
+15.
+
+16.
+17.
+18.
+
+19.
+
+20.
+
+21.
+
+22.
+
+23.
+
+18. MASS SPECTROMETRY AND NMR SPECTROSCOPYeBASED QUANTITATIVE METABOLOMICS
+
+Assfalg M, Bertini I, Colangiuli D, et al. Evidence of
+different metabolic phenotypes in humans. Proc Natl
+Acad Sci USA 2008;105:1420e4.
+Nicholson JK, Lindon JC. Systems biology: metabonomics. Nature 2008;455:1054e6.
+Wishart DS, Knox C, Guo AC, et al. HMDB: a knowledge base for the human metabolome. Nucleic Acids
+Res 2009;37:D603e10.
+Psychogios N, Hau DD, Peng J, et al. The human
+serum metabolome. PLoS One 2011;6:e16957.
+Holmes E, Wilson ID, Nicholson JK, et al. Metabolic
+phenotyping in health and disease. Cell 2008;134:714e7.
+Ye T, Zhang S, Nagana Gowda GA, et al. Nuclear
+magnetic resonance and statistical analysis. In:
+Meyers RA, editor. Encyclopedia of Anal. Chem. Hoboken, NJ: John Wiley; 2010.
+Holmes E, Antti H. Chemometric contributions to
+the evolution of metabonomics: mathematical
+solutions to characterising and interpreting complex
+biological NMR spectra. Analyst 2002;127:1549e57.
+Grifﬁn JL. Metabolic proﬁles to deﬁne the genome: can
+we hear the phenotypes? Philos Trans Royal Soc Lond B
+Biol Sci 2004;359:857e71.
+Barker M, Rayens W. Partial least squares for
+discrimination. J Chemom 2003;17:166e73.
+Wishart DS. Quantitative metabolomics using NMR.
+Trends Anal Chem 2008;27:228e37.
+Büscher JM, Czernik D, Ewald JC, et al. Cross-platform comparison of methods for quantitative metabolomics of primary metabolism. Anal Chem 2009;81:
+2135e43.
+Grifﬁn JL. Metabonomics: NMR spectroscopy and
+pattern recognition analysis of body ﬂuids and tissues
+for characterisation of xenobiotic toxicity and disease
+diagnosis. Curr Opin Chem Biol 2003;7:648e54.
+Lauridsen M, Hansen SH, Jaroszewski JW, et al.
+Human urine as test material in 1H NMR-based
+metabonomics: recommendations for sample preparation and storage. Anal Chem 2007;79:1181e6.
+Asiago V, Nagana Gowda GA, Zhang S, et al. Use of
+EDTA to minimize ionic strength and pH dependent
+frequency shifts in the 1H NMR spectra of urine.
+Metabolomics 2008;3:328e36.
+Gartland KP, Beddell CR, Lindon JC, et al. Application
+of pattern recognition methods to the analysis and
+classiﬁcation of toxicological data derived from proton
+nuclear magnetic resonance spectroscopy of urine. Mol
+Pharmacol 1991;39:629e42.
+Anthony ML, Sweatman BC, Beddell CR, et al. Pattern
+recognition classiﬁcation of the site of nephrotoxicity
+based on metabolic data derived from proton nuclear
+magnetic resonance spectra of urine. Mol Pharmacol
+1994;46:199e211.
+
+24. Lanza IR, Zhang S, Ward LE, et al. Quantitative
+metabolomics by H-NMR and LC-MS/MS conﬁrms
+altered metabolic pathways in diabetes. PLoS One
+2010;5:e10538.
+25. Lu W, Bennett BD, Rabinowitz JD, et al. Analytical
+strategies for LC-MS-based targeted metabolomics. J
+Chromatogr B Analyt Technol Biomed Life Sci 2008;871:
+236e42.
+26. Koek MM, Jellema RH, van der Greef J, et al. Quantitative metabolomics based on gas chromatography
+mass spectrometry: status and perspectives. Metabolomics 2011;7:307e28.
+27. Skoog DA, Holler FJ, Crouch SR, et al. Principles of
+Instrumental Analysis. 6th ed. Salt Lake City, UT:
+Brooks Cole Publishing Co; 2006.
+28. Boyd RK, Basic C, Bethem RA, et al. Trace Quantitative
+Analysis by Mass Spectrometry. Hoboken, NJ: John
+Wiley; 2008.
+29. Wilson ID, Plumb R, Granger J, et al. HPLC-MS-based
+methods for the study of metabolomics. J Chromatog B
+2005;817:67e76.
+30. Wei R, Li G, Seymour AB, et al. High-throughput and
+multiplexed LC/MS/MRM method for targeted
+metabolomics. Anal Chem 2010;82:5527e33.
+31. Yuan M, Breitkopf SB, Yang X, et al. A positive/negative ioneswitching, targeted mass spectrometryebased
+metabolomics platform for bodily ﬂuids, cells, and fresh
+and ﬁxed tissue. Nat Protoc 2012;7:872e81.
+32. Annesley TM. Ion suppression in mass spectrometry.
+Clin Chem 2003;49:1041e4.
+33. Bajad SU, Lu W, Kimball EH, et al. Separation and
+quantitation of water soluble cellular metabolites by
+hydrophilic interaction chromatography-tandem mass
+spectrometry. J Chromatogr A 2006;1125:76e88.
+34. Janeckova H, Hron K, Wojtowicz P, et al. Targeted
+metabolomic analysis of plasma samples for the
+diagnosis of inherited metabolic disorders. J Chromatogr A 2012;1226:11e7.
+35. Djukovic D, Baniasadi HR, Ravi KC, et al. Targeted
+serum metabolite proﬁling of nucleosides in esophageal adenocarcinoma. Rapid Commun Mass Spectrom
+2010;24:3057e62.
+36. Cho SH, Choi MH, Lee WY, et al. Evaluation of
+urinary nucleosides in breast cancer patients before
+and after tumor removal. Clin Biochem 2009;42:540e3.
+37. Koc H, Mar MH, Ranasinghe A, et al. Quantitation of
+choline and its metabolites in tissue and foods by
+liquid
+chromatography/electrospray
+ionizationisotope dilution mass spectrometry. Anal Chem 2002;
+74:4734e40.
+38. Nagy K, Takats Z, Pollreisz F, et al. Direct tandem
+mass spectrometric analysis of amino acids in dried
+blood spots without chemical derivatization for
+
+REFERENCES
+
+39.
+
+40.
+
+41.
+
+42.
+
+43.
+
+44.
+
+45.
+
+46.
+
+47.
+
+48.
+
+49.
+
+50.
+
+neonatal screening. Rapid Commun Mass Spectrom
+2003;17:983e90.
+Birkemeyer C, Luedemann A, Wagner C, et al.
+Metabolome analysis: the potential of in vivo labeling
+with stable isotopes for metabolite proﬁling. Trends
+Biotechnol 2005;23:28e33.
+Mashego MR, Wu L, van Dam JC, et al. MIRACLE:
+mass isotopomer ratio analysis of U-13C-labeled
+extracts: a new method for accurate quantiﬁcation of
+changes in concentrations of intracellular metabolites.
+Biotechnol Bioeng 2004;85:620e8.
+Wu L, Mashego MR, van Dam JC, et al. Quantitative
+analysis of the microbial metabolome by isotope dilution mass spectrometry using uniformly 13C-labeled
+cell extracts as internal standards. Anal Biochem 2005;
+336:164e71.
+Seifar RM, Zhao Z, van Dam J, et al. Quantitative
+analysis of metabolites in complex biological samples
+using ion-pair reversed-phase liquid chromatographyisotope dilution tandem mass spectrometry. J Chromatogr A 2008;1187:103e10.
+Bennett BD, Kimball EH, Gao M, et al. Absolute
+metabolite concentrations and implied enzyme active
+site occupancy in Escherichia coli. Nat Chem Biol 2009;
+5:593e9.
+Luo B, Groenke K, Takors R, et al. Simultaneous
+determination of multiple intracellular metabolites
+in glycolysis, pentose phosphate pathway and tricarboxylic acid cycle by liquid chromatography-mass
+spectrometry. J Chromatogr A 2007;1147:153e64.
+Hofmann U, Maier K, Niebel A, et al. Identiﬁcation of
+metabolic ﬂuxes in hepatic cells from transient
+13
+C-labeling experiments: Part I. Experimental observations. Biotechnol Bioeng 2008;100:344e54.
+Bennett BD, Yuan J, Kimball EH, et al. Absolute
+quantitation of intracellular metabolite concentrations
+by an isotope ratio-based approach. Nat Protoc 2008;3:
+1299e311.
+Yuan J, Bennett BD, Rabinowitz JD, et al. Kinetic ﬂux
+proﬁling for quantitation of cellular metabolic ﬂuxes.
+Nat Protoc 2008;3:1328e40.
+Villas-Boas SG, Delicado DG, et al. Simultaneous analysis of amino and non-amino organic acids as methyl
+chloroformate derivatives using gas chromatographymass spectrometry. Anal Biochem 2003;322:134e8.
+Sparkman OD, Penton Z, Kitson FG, et al. Gas Chromatography and Mass Spectrometry: A Practical Guide.
+2nd ed. Burlington, MA: Academic Press; 2011.
+Mohler RE, Dombek KM, Hoggard JC, et al.
+Comprehensive two-dimensional gas chromatography time-of-ﬂight mass spectrometry analysis of
+metabolites in fermenting and respiring yeast cells.
+Anal Chem 2006;78:2700e9.
+
+295
+
+51. Asiago VM, Alvarado LZ, Shanaiah N, et al. Early
+detection of recurrent breast cancer using metabolite
+proﬁling. Cancer Res 2010;70:8309e18.
+52. Mondello L, Tranchida PQ, Dugo P, et al. Comprehensive two-dimensional gas chromatography-mass spectrometry: a review. Mass Spectrom Rev 2008;27:101e24.
+53. Cipollina C, ten Pierick A, Canelas AB, et al. A
+comprehensive method for the quantiﬁcation of the
+non-oxidative pentose phosphate pathway intermediates in Saccharomyces cerevisiae by GC-IDMS. J
+Chromatogr B Analyt Technol Biomed Life Sci 2009;877:
+3231e6.
+54. Vielhauer O, Zakhartsev M, Horn T, et al.
+Simpliﬁed absolute metabolite quantiﬁcation by gas
+chromatography-isotope dilution mass spectrometry
+on the basis of commercially available source material.
+J Chromatogr B Analyt Technol Biomed Life Sci 2011;879:
+3859e70.
+55. Maier K, Hofmann U, Reuss M, et al. Identiﬁcation of
+metabolic ﬂuxes in hepatic cells from transient
+13
+C-labeling experiments: Part II. Flux estimation.
+Biotechnol Bioeng 2008;100:355e70.
+56. Piotto M, Saudek S, Sklenar V. Gradient-tailored
+excitation for single-quantum NMR spectroscopy of
+aqueous solutions. J Biomol NMR 1992;2:661e5.
+57. Sklenar V, Piotto M, Leppik R, et al. Gradient-tailored
+water suppression for 1He15N HSQC experiments
+optimized to retain full sensitivity. J Magn Reson A
+1993;102:241e5.
+58. Hoult DI. Solvent peak saturation with single phase
+and quadrature Fourier transformation. J Magn Reson
+1976;21:337e47.
+59. Ogg RJ, Kingsley PB, Taylor JS. WET, a T1- and B1insensitive water-suppression method for in vivo
+localized 1H NMR spectroscopy. J Magn Reson B 1994;
+104:1e10.
+60. Neuhaus D, Ismail IM, Chung CW. “FLIPSY”da new
+solvent-suppression sequence for nonexchanging
+solutes offering improved integral accuracy relative to
+1D NOESY. J Magn Reson A 1996;118:256e63.
+61. Simpson AJ, Brown SA, Purge NMR: effective and easy
+solvent suppression. J Magn Reson 2005;175:340e6.
+62. Mo H, Raftery D. Pre-SAT180, a simple and effective
+method for residual water suppression. J Magn Reson
+2008;190:1e6.
+63. Hwang TL, Shaka AJ. Water suppression that works:
+excitation sculpting using arbitrary wave forms and
+pulsed ﬁeld gradients. J Magn Reson A 1995;112:275e9.
+64. Mescher M, Tannus A, Johnson MO, Garwood M.
+Solvent suppression using selective echo dephasing. J
+Magn Reson A 1996;123:226e9.
+65. Nguyen BD, Meng X, Donovan KJ, et al. SOGGY:
+solvent-optimized double gradient spectroscopy for
+
+296
+
+66.
+67.
+
+68.
+
+69.
+
+70.
+
+71.
+
+72.
+
+73.
+
+74.
+75.
+
+76.
+
+77.
+
+78.
+79.
+
+80.
+
+81.
+
+18. MASS SPECTROMETRY AND NMR SPECTROSCOPYeBASED QUANTITATIVE METABOLOMICS
+
+water suppression. A comparison with some existing
+techniques. J Magn Reson 2007;184:263e74.
+Mo H, Raftery D. Improved residual water suppression: WET180. J Biomol NMR 2008;41:105e11.
+Carr HY, Purcell EM. Effects of diffusion on free
+precession in nuclear magnetic resonance experiments. Phys Rev 1954;94:630e8.
+Meiboom S, Gill D. Modiﬁed spin-echo method for
+measuring nuclear relaxation times. Rev Sci Instrum
+1958;29:688e91.
+Nicholson JK, Wilson ID. High resolution proton
+magnetic resonance spectroscopy of biological ﬂuids.
+Prog Nucl Magn Reson Spectrosc 1989;21:449e501.
+Nicholson JK, Buckingham MJ, Sadler PJ. High resolution 1H n.m.r. studies of vertebrate blood and
+plasma. Biochem J 1983;211:605e15.
+Nicholson JK, Flynn MP, Sadler PJ, et al. Protonnuclear-magnetic resonance studies of serum, plasma
+and urine from fasting normal and diabetic subjects.
+Biochem J 1984;217:365e75.
+Iles RA, Buckingham MJ, Hawkes GE. Spin-echo
+proton nuclear magnetic resonance studies of normal
+and abnormal metabolites in plasma and urine.
+Biochem Soc Trans 1983;11:374e5.
+Rabenstein DL, Millis KK, Strauss EJ. Proton NMR
+spectroscopy of human blood plasma and red blood
+cells. Anal Chem 1988;60:1380Ae91A.
+Bell JD, Brown JC, Kubal G, Sadler PJ. NMR-invisible
+lactate in blood plasma. FEBS Lett 1988;235:81e6.
+Nicholson JK, Gartland KP. 1H NMR studies on
+protein binding of histidine, tyrosine and phenylalanine in blood plasma. NMR Biomed 1989;2:77e82.
+Wevers RA, Engelke U, Heerschap A. High-resolution
+1
+H-NMR spectroscopy of blood plasma for metabolic
+studies. Clin Chem 1994;40(7 Pt 1):1245e50.
+de Graaf RA, Behar KL. Quantitative 1H NMR spectroscopy of blood plasma metabolites. Anal Chem 2003;
+75(9):2100e4.
+Voet D, Voet JG. Biochemistry. New York, NY: Wiley;
+1990.
+Daykin CA, Foxall PJ, Connor SC, et al. The comparison of plasma deproteinization methods for the
+detection of low-molecular-weight metabolites by
+(1)H nuclear magnetic resonance spectroscopy. Anal
+Biochem 2002;304(2):220e30.
+Mercier P, Lewis MJ, Chang D, et al. Towards automatic metabolomic proﬁling of high-resolution onedimensional proton NMR spectra. J Biomol NMR 2011;
+49(3e4):307e23.
+Want EJ, O’Maille G, Smith CA, et al. Solventdependent metabolite distribution, clustering, and
+protein extraction for serum proﬁling with mass
+spectrometry. Anal Chem 2006;78(3):743e52.
+
+82. Kriat M, Confort-Gouny S, Vion-Dury J, et al. Quantitation of metabolites in human blood serum by
+proton magnetic resonance spectroscopy: a comparative study of the use of formate and TSP as concentration standards. NMR Biomed 1992;5(4):179e84.
+83. Mo H, Raftery D. Solvent signal as an NMR concentration reference. Anal Chem 2008;80:9835e9.
+84. Mo H, Harwood J, Raftery D. NMR quantitation:
+inﬂuence of RF inhomogeneity. Magn Reson Chem
+2011;49(10):655e8.
+85. Mo H, Harwood JS, Raftery D. A quick diagnostic test
+for NMR receiver gain compression. Magn Reson Chem
+2010;48(10):782e6.
+86. Mo H, Harwood JS, Raftery D. Receiver gain function:
+the actual NMR receiver gain. Magn Reson Chem 2010;
+48(3):235e8.
+87. Mo H, Harwood J, Zhang S, et al. R: A quantitative
+measure of NMR signal receiving efﬁciency. J Magn
+Reson 2009;200(2):239e44.
+88. Akoka S, Barantin L, Trierweiler M. Concentration
+measurement by proton NMR using the ERETIC
+method. Anal Chem 1999;71(13):2554e7.
+89. Sandusky P, Raftery D. Use of semiselective TOCSY
+and the Pearson correlation for the metabonomic
+analysis of bioﬂuid mixtures: application to urine.
+Anal Chem 2005;77(23):7717e23.
+90. Sandusky P, Raftery D. Use of selective TOCSY NMR
+experiments for quantifying minor components in
+complex mixtures: application to the metabonomics of
+amino acids in honey. Anal Chem 2005;77(8):2455e63.
+91. Sandusky P, Appiah-Amponsah E, Raftery D. Use of
+optimized 1D TOCSY NMR for improved quantitation
+and metabolomic analysis of bioﬂuids. J Biomol NMR
+2011;49(3-4):281e90.
+92. Appiah-Amponsah E, Shanaiah N, Nagana Gowda GA,
+et al. Identiﬁcation of 4-deoxythreonic acid present
+in human urine using HPLC and NMR techniques.
+J Pharm Biomed Anal 2009;50(5):878e85.
+93. Ye T, Zheng C, Zhang S, et al. “Add to subtract”:
+a simple method to remove complex background
+signals from the 1H nuclear magnetic resonance
+spectra of mixtures. Anal Chem 2012;84(2):994e1002.
+94. Wishart DS, Knox C, Guo AC, et al. HMDB: a knowledge base for the human metabolome. Nucleic Acids
+Res 2009;(Database Issue):D603e10.
+95. Markley JL, Anderson ME, Cui Q, et al. New bioinformatics resources for metabolomics. Pac Symp
+Biocomput; 2007;157e68.
+96. Holmes E, Nicholson JK, Nicholls AW, et al. The
+identiﬁcation of novel biomarkers of renal toxicity
+using automatic data reduction techniques and PCA
+of proton NMR spectra of urine. Chemom Intell Lab Syst
+1998;44:245e55.
+
+REFERENCES
+
+97. Asiago V, Nagana Gowda GA, Zhang S, et al. Use of
+EDTA to minimize ionic strength and pH dependent
+frequency shifts in the 1H NMR spectra of urine.
+Metabolomics 2008;3:328e36.
+98. Potts BC, Deese AJ, Stevens GJ, et al. NMR of bioﬂuids
+and pattern recognition: assessing the impact of NMR
+parameters on the principal component analysis of
+urine from rat and mouse. J Pharm Biomed Anal 2001;
+26(3):463e76.
+99. Mierisová S, Ala-Korpela M. MR spectroscopy quantitation: a review of frequency domain methods. NMR
+Biomed 2001;14(4):247e59.
+100. Crockford DJ, Keun HC, Smith LM, et al. Curve-ﬁtting
+method for direct quantitation of compounds in
+complex biological mixtures using 1H NMR: application in metabonomic toxicology studies. Anal Chem
+2005;77(14):4556e62.
+101. Weljie AM, Newton J, Mercier P, et al. Targeted
+proﬁling: quantitative analysis of 1H NMR metabolomics data. Anal Chem 2006;78(13):4430e42.
+102. NMR Suite Chenomx. Edmonton, AB, Canada: Chenomx Inc., http://www.chenomx.com; 2010.
+103. Zheng C, Zhang S, Ragg S, et al. Identiﬁcation and
+quantiﬁcation of metabolites in (1)H NMR spectra by
+Bayesian model selection. Bioinformatics 2011;27(12):
+1637e44.
+104. Parsons HM, Ludwig C, Gunther UL, et al. Improved
+classiﬁcation accuracy in 1- and 2-dimensional NMR
+metabolomics data using the variance stabilising
+generalised logarithm transformation. BMC Bioinform
+2007;8:234.
+105. Ludwig C, Viant MR. Two-dimensional J-resolved
+NMR spectroscopy: review of a key methodology in
+the metabolomics toolbox. Phytochem Analysis 2010;
+21(1):22e32.
+106. Lewis IA, Schommer SC, Hodis B, et al. Method for
+determining molar concentrations of metabolites in
+complex solutions from two-dimensional 1H-13C NMR
+spectra. Anal Chem 2007;79(24):9385e90.
+107. Chylla RA, Hu K, Ellinger JJ, et al. Deconvolution of two-dimensional NMR spectra by fast maximum
+likelihood reconstruction: application to quantitative
+metabolomics. Anal Chem 2011;83(12):4871e80.
+108. Hu K, Westler WM, Markley JL. Simultaneous quantiﬁcation and identiﬁcation of individual chemicals in
+metabolite mixtures by two-dimensional extrapolated
+time-zero 1H-13C HSQC (HSQC0). J Am Chem Soc 2011;
+133:1662e5.
+109. Hu K, Ellinger JJ, Chylla RA, et al. Measurement of
+absolute concentrations of individual compounds in
+metabolite mixtures by gradient-selective time-zero
+1
+H-13C HSQC with two concentration references and
+
+110.
+
+111.
+
+112.
+
+113.
+
+114.
+
+115.
+
+116.
+
+117.
+
+118.
+
+119.
+
+120.
+
+121.
+
+122.
+
+297
+fast maximum likelihood reconstruction analysis. Anal
+Chem 2011;83(24):9352e60.
+Rai RK, Tripathi P, Sinha N. Quantiﬁcation of
+metabolites from two-dimensional nuclear magnetic
+resonance spectroscopy: application to human urine
+samples. Anal Chem 2009;81(24):10232e8.
+Fan TW, Lane AN. NMR-based stable isotope
+resolved metabolomics in systems biochemistry.
+J Biomol NMR 2011;49:267e80.
+Wise DR, DeBerardinis RJ, Mancuso A, et al. Myc
+regulates a transcriptional program that stimulates
+mitochondrial glutaminolysis and leads to glutamine
+addiction. Proc Natl Acad Sci USA 2008;105:18782e7.
+Fan TW, Lane AN, Higashi RM, et al. Stable isotope
+resolved metabolomics of lung cancer in a SCID
+mouse model. Metabolomics 2011;7:257e69.
+Fan TW, Lane AN, Higashi RM, et al. Altered regulation of metabolic pathways in human lung cancer
+discerned by (13)C stable isotope-resolved metabolomics (SIRM). Mol Cancer 2009;8:41.
+Locasale JW, Grassian AR, Melman T, et al. Phosphoglycerate dehydrogenase diverts glycolytic ﬂux
+and contributes to oncogenesis. Nat Genet 2011;43:
+869e74.
+Burgess SC, Babcock EE, Jeffrey FM, et al. NMR
+indirect detection of glutamate to measure citric acid
+cycle ﬂux in the isolated perfused mouse heart. FEBS
+Lett 2001;505:163e7.
+Perdigoto R, Furtado AL, Porto A, et al. Sources of
+glucose production in cirrhosis by 2H2O ingestion and
+2
+H NMR analysis of plasma glucose. Biochim Biophys
+Acta 2003;1637:156e63.
+Shanaiah N, Desilva A, Nagana Gowda GA, et al.
+Metabolite class selection of amino acids in bioﬂuids
+using chemical derivatization and their enhanced 13C
+NMR. Proc Natl Acad Sci USA 2007;104:11540e4.
+Ye T, Zhang S, Mo H, et al. 13C-formylation for
+improved NMR proﬁling of amino metabolites in
+bioﬂuids. Anal Chem 2010;82:2303e9.
+Ye T, Mo H, Shanaiah N, et al. Chemoselective 15N tag
+for sensitive and high-resolution nuclear magnetic
+resonance proﬁling of the carboxyl-containing
+metabolome. Anal Chem 2009;81:4882e8.
+DeSilva MA, Shanaiah N, Nagana Gowda GA, et al.
+Application of 31P NMR spectroscopy and chemical
+derivatization for metabolite proﬁling of lipophilic
+compounds in human serum. Magn Reson Chem 2009;
+47:S74e80.
+Nagana Gowda GA, Tayyari F, Ye T, et al. Quantitative analysis of blood plasma metabolites using
+isotope enhanced NMR methods. Anal Chem 2010;82:
+8983e90.
+
+

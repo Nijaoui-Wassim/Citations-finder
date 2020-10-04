@@ -1,0 +1,1438 @@
+Journal of Analytical Toxicology, 2016;40:201–207
+doi: 10.1093/jat/bkv140
+Advance Access Publication Date: 10 January 2016
+Article
+
+Article
+
+Comparison of LC–MS-MS and GC–MS Analysis
+of Benzodiazepine Compounds Included in the
+Drug Demand Reduction Urinalysis Program
+Erick Roman Perez, Joshua A. Knapp, Carl K. Horn, Stedra L. Stillman,
+James E. Evans, and Darryl P. Arfsten*
+Navy Drug Screening Laboratory, H-2033 Adams Avenue, NAS Jacksonville, FL 32212-0113, USA
+*Author to whom correspondence should be addressed. Email: darryl.p.arfsten.mil@mail.mil
+
+Abstract
+Liquid chromatography–tandem mass spectrometry (LC–MS-MS) offers speciﬁc advantages over
+gas chromatography–mass spectrometry (GC–MS) such as the ability to identify and measure a
+broader range of compounds with minimal sample preparation. Comparative analysis of LC–MSMS versus GC–MS was performed for urinalysis detection of ﬁve benzodiazepine compounds currently part of the Department of Defense (DoD) Drug Demand Reduction Program (DDRP) testing
+panel; alpha-hydroxyalprazolam, oxazepam, lorazepam, nordiazepam and temazepam. In the analyses of internally prepared control urine samples at concentrations around the DDRP administrative
+decision point for benzodiazepines (100 ng/mL), both technologies produced comparable results
+with average accuracies between 99.7 and 107.3% and average coefﬁcients of variation (%CV)
+<9%. Analysis of service member specimens that screened positive for benzodiazepines using
+both technologies produced comparable results for all analytes. Different degrees of matrix effect
+were observed for all analytes in the LC–MS-MS analysis. However, the effects were controlled by
+using deuterated internal standards (ISTDs). Additionally, there was a 39% increase in nordiazepam
+mean concentration analyzed by LC–MS-MS due to suppression of the ISTD ion by the ﬂurazepam
+metabolite 2-hydroxyethylﬂurazepam. The ease and speed of sample extraction, the broader range
+of compounds that can be analyzed and shorter run time make the LC–MS-MS technology a suitable
+and expedient alternative conﬁrmation technology for benzodiazepine testing.
+
+Introduction
+While gas chromatography–mass spectrometry (GC–MS) has been
+widely recognized as the ‘gold standard’ in forensic testing, use of
+liquid chromatography–tandem mass spectrometry (LC–MS-MS) is becoming more common. This is because LC–MS-MS offers several advantages over GC–MS such as quicker and less extensive extraction
+procedures and the ability to identify and measure a broader range of
+compounds. LC–MS-MS has been authorized for use in federally regulated workplace drug testing (WPDT) since 2008 (1) and its use is also
+expanding in the Department of Defense (DoD) Drug Demand Reduction Program (DDRP), most recently for the analysis of benzodiazepines.
+Benzodiazepines remain one of the most widely prescribed classes
+of drugs to manage anxiety, insomnia, seizures, muscle relaxation and
+
+a myriad of other conditions. Five benzodiazepines in particular are
+among the 200 most commonly prescribed drugs in the USA, alprazolam (Xanax®), lorazepam (Ativan®), clonazepam (Klonopin®), diazepam (Valium®) and temazepam (Restoril®) (2). Benzodiazepines are
+commonly abused due in part to their availability and strong sedative
+properties. Additionally, benzodiazepines are often used in combination with illicit drugs to enhance their effects making them a target
+for drug abuse monitoring programs (3, 4).
+In 2012, ﬁve benzodiazepine compounds were added to the DDRP
+urinalysis drug testing panel; nordiazepam, alpha-hydroxyalprazolam,
+oxazepam, lorazepam and temazepam. WPDT platforms commonly
+employ an initial screening test followed by a conﬁrmatory test by either GC–MS or LC–MS-MS. However, in high-throughput testing
+
+Published by Oxford University Press 2016. This work is written by (a) US Government employee(s) and is in the public domain in the US.
+
+201
+
+202
+operations with strict turnaround requirements, such as DDRP laboratories, benzodiazepine detection and measurement by GC–MS
+is not temporally optimal as polarity and thermal stability issues can
+require extensive sample preparation and long run times.
+Some of these issues can be avoided using LC–MS-MS. Unlike GC
+analysis, sample volatilization is not required for LC which avoids problems associated with chemical degradation and the formation of new
+products common under high heat conditions. Particularly attractive
+to high volume laboratory environments is the fact that LC–MS-MS
+specimens typically require no derivatization and minimal sample
+preparation. In some cases, the specimens can be diluted and directly
+injected into the LC–MS-MS, which signiﬁcantly increases throughput.
+While previous studies have compared the performance of LC–
+MS-MS versus GC–MS for detecting and measuring various drugs
+in human urine (1, 5), there are currently no studies that compare
+the performance of these two analytical methods in the detection
+and analysis of benzodiazepines. In this study, we compared the performance of LC–MS-MS versus GC–MS technology for detecting, in
+urine, ﬁve benzodiazepines currently part of the DDRP testing panel.
+Benzodiazepine conﬁrmation testing was carried out according to
+DoD requirements (6) using GC–MS and LC–MS-MS methods certiﬁed by the Armed Forces Medical Examiner System (AFMES). Both
+methods were compared with respect to their linearity, precision,
+accuracy and reproducibility of internally prepared quality control
+materials in the detection of benzodiazepines.
+
+Materials and methods
+Chemicals and reagents
+All solvents used were of analytical grade or better. Sodium acetate buffer, carbonate buffer, acetonitrile, methylene chloride, methanol, ethyl
+acetate and formic acid were purchased from Fisher Scientiﬁc (Fair
+Lawn, NJ). β-glucuronidase (type HP-2), anhydrous ethanol, ammonium
+hydroxide and N-tert-butyldimethylsilyl-N-methyltriﬂuoroacetamide
+(MTBSTFA) (w/1% N-methyl-N-tert-butyldimethylsilytriﬂuoroacetamide, MTBDMCS) were purchased from Sigma-Aldrich (St. Louis,
+MO). Solid-phase extraction (SPE) columns (CEREX® CLIN II) for
+the GC–MS method were purchased from SPEware (San Pedro, CA)
+and SPE columns (Clean Screen® XCEL I) for the LC–MS-MS method
+were purchased from United Chemical Technologies (Bristol, PA).
+
+Preparation of standards, calibrator, controls
+and samples
+Reference material of alpha-hydroxyalprazolam (AHAL), AHAL-d5,
+Oxazepam (OXAZ), OXAZ-d5, Lorazepam (LORA), LORA-d4,
+Nordiazepam (NORD), NORD-d5, Temazepam (TEMA) and
+TEMA-d5 used in the preparation of control and internal standard
+(ISTD) solutions and sample material were obtained from Cerilliant
+(Round Rock, TX). Reference material of AHAL, OXAZ, LORA,
+NORD and TEMA used in the preparation of the calibrator solution
+were obtained from Alltech (Deerﬁeld, IL).
+The calibrator was prepared by fortifying 1,000 mL of certiﬁed
+drug-free urine with 0.1 mg of AHAL, OXAZ, LORA, NORD and
+TEMA, for a ﬁnal concentration of 100 ng/mL. The low quality control (LQC) was prepared by fortifying 1,000 mL of certiﬁed drug-free
+urine with 0.04 mg of AHAL, OXAZ, LORA, NORD and TEMA, for
+a ﬁnal concentration of 40 ng/mL. The high quality control (HQC)
+was prepared by fortifying 500 mL of certiﬁed drug-free urine with
+0.5 mg of AHAL, OXAZ, LORA, NORD and TEMA, for a ﬁnal
+concentration of 1,000 ng/mL. The blind quality control (BQC) was
+prepared by fortifying 1,000 mL of certiﬁed drug-free urine with
+
+Perez et al.
+0.125 mg of AHAL, OXAZ, LORA, NORD and TEMA, for a ﬁnal
+concentration of 125 ng/mL. The ISTD used for the GC–MS method
+was prepared by fortifying 1,000 mL of anhydrous ethanol with 1 mg
+of AHAL-d5, OXAZ-d5, NORD-d5 and TEMA-d5, for a ﬁnal concentration of 1,000 ng/mL. The ISTD used for the LC–MS-MS method was prepared by fortifying 1,000 mL of anhydrous ethanol with
+0.5 mg of AHAL-d5, OXAZ-d5, LORA-d4, NORD-d5 and
+TEMA-d5, for a ﬁnal concentration of 500 ng/mL. All solutions
+were aliquoted and stored at −30°C.
+Sample material was prepared by fortifying 100 mL of certiﬁed
+drug-free urine with AHAL, OXAZ, LORA, NORD and TEMA at
+20, 40, 75, 100, 125, 200, 500 and 1,000 ng/mL. The material was
+aliquoted into 1 and 0.5 mL aliquots for GC–MS and LC–MS-MS
+analysis, respectively. The aliquots were stored at −30°C. A total of
+ten independent batches of four replicates of sample material for
+each analyte concentration were analyzed by GC–MS and LC–
+MS-MS. Calibrators and controls were analyzed with each batch.
+
+GC–MS analysis
+Sample preparation and extraction
+A 1 mL urine aliquot, 0.100 mL of ISTD (ﬁnal concentration of
+100 ng/mL of AHAL-d5, OXAZ-d5 (used for OXAZ and LORA),
+NORD-d5 and TEMA-d5), 2 mL 0.1 M sodium acetate buffer ( pH
+4.75) and 0.050 mL of β-glucuronidase (type HP-2) were combined.
+Tubes were capped, vortexed and incubated for 60 min at 55°C.
+Tubes were allowed to cool and then centrifuged for 5 min at
+3,000 rpm. Samples were transferred to 3 mL CEREX® CLIN II cartridges, and positive pressure was applied at a rate of 1 mL/min using
+CEREX® System 48-11 from SPEware Corporation (Baldwin Park,
+CA). The cartridges were then washed with 1 mL of pH 9 carbonate
+buffer, followed by 1 mL of water–acetonitrile (80:20), followed by
+1 mL of water. The cartridges were dried for 15 min at 50 psi. Analytes were eluted with 1 mL methylene chloride–methanol–ammonium hydroxide (85:10:2) and then evaporated to dryness at 55°C.
+Derivatization was accomplished by adding 0.050 mL of ethyl acetate
+and 0.050 mL of MTBSTFA (w/1% MTBDMCS) to the dried extracts. Tubes were capped, vortexed and incubated for 20 min at
+65°C. Samples were removed from the heat block, allowed to cool
+and transferred to the GC–MS.
+Instrumental analysis
+GC–MS equipment consisted of an Agilent Technologies 7890 GC
+coupled to a 5975 MS (Palo Alto, CA). A sample volume of 0.5 µL
+was injected into an Agilent HP-ULTRA 1 (15 M, 0.20 mm,
+0.33 μm) column, using a helium carrier gas at a ﬂow rate of 0.9
+mL/min and operating in a pulsed splitless mode. Data analysis was
+done using Agilent Drug Analysis Chemstation, version E.02.02.
+GC parameters are listed in Supplementary Material, Table SI and
+MS analysis was conducted in selected ion monitoring (SIM) mode,
+and ions are listed in Supplementary Material, Table SII. Two benzodiazepine dedicated instruments, ID9252 and ID9700, were used for
+GC–MS analyses. Three ions for drugs and two ions for ISTD were
+monitored for compound identiﬁcation. Furthermore, criteria of
+peak retention times within ±1% and ion ratios within ±20% of
+batch calibration standard were used.
+
+LC–MS-MS analysis
+Sample preparation and extraction
+A 0.5 mL urine aliquot, 0.100 mL ISTD solution (ﬁnal concentration
+of 100 ng/mL of AHAL-d5, OXAZ-d5, LORA-d4, NORD-d5 and
+
+203
+
+LC–MS-MS and GC–MS Analysis of Benzodiazepine Compounds
+TEMA-d5), 1 mL 0.1 M sodium acetate buffer ( pH 4.75) and
+0.025 mL of β-glucuronidase (type HP-2) were combined. Tubes
+were capped, vortexed and incubated for 60 min at 55°C. Tubes were
+allowed to cool and centrifuged for 5 min at 3,000 rpm. Samples were
+transferred to 3 mL UCT Clean Screen® XCEL I cartridges, and positive pressure was applied at a rate of 1 mL/min. The cartridges were
+dried for 1 min at 25 psi. The cartridges were then washed with
+1 mL of methylene chloride, followed by an additional 5 min dry
+down at 50 psi. Analytes were eluted with 1 mL ethyl acetate–ammonium hydroxide (100:2) and then evaporated to dryness at 55°C. Samples were reconstituted with 0.200 mL of mobile phase (0.1% formic
+acid–acetonitrile; 75:25) and transferred to the LC–MS-MS.
+Instrumental analysis
+LC–MS-MS equipment consisted of a Waters ACQUITY LC (Milford,
+MA). A sample volume of 10 µL was injected into an ACQUITY
+UPLC BEH C18 (1.7 μm, 2.1 × 50 mm) column coupled to a Waters
+Quattro Micro triple quadrupole mass spectrometer with an electrospray source (Milford, MA). Data analysis was performed using
+Waters MassLynx and TargetLynx, version 4.1 SCN805, with
+smoothing = mean, iterations = 2 and width = 3. The mobile phase
+components were (A) 0.1% formic acid and (B) acetonitrile. The LC
+parameters are listed in Supplementary Material, Table SIII. The analyses were conducted in multiple reaction monitoring (MRM) mode
+using the MS–MS conditions listed in Supplementary Material,
+Table SIV with cone voltages and collision energies optimized. The
+same compound identiﬁcation criteria were employed for LC–
+MS-MS with the exception of the retention time, which was ±2%.
+Matrix effects
+Matrix effects (ME) were assessed using the method described by
+Matuszewski, et al. (7). Two concentrations were used in the evaluation: one at the LQC concentration of 40 ng/mL and one at the
+administrative decision point of 100 ng/mL. Three sets of samples
+were prepared. The (A) samples contained the target analytes fortiﬁed
+into the mobile phase. The (B) samples contained the target analytes
+fortiﬁed into negative urine prior to extraction. The (C) samples contained the target analytes fortiﬁed into urine after extraction. All the
+samples also contained 100 ng/mL of ISTD. The mean area responses
+for the target analytes and the corresponding ISTD in samples A, B
+and C were evaluated across ten different lots of negative urine.
+Urine used in the ME studies were randomly selected from service
+member specimens that screened negative for all drugs tested in the
+DDRP panel. ME was calculated by taking the ratio of the urine fortiﬁed with target analytes after extraction divided by the mobile phase
+fortiﬁed with target analytes (C/A) × 100. Resulting values <100 indicate ionization suppression and values >100 indicate ionization enhancement. Recovery was calculated by taking the ratio of urine
+fortiﬁed with target analytes prior to extraction divided by urine fortiﬁed with target analytes after extraction (B/C) × 100. The process efﬁciency was calculated by taking the ratio of urine fortiﬁed with target
+analytes prior to extraction divided by the mobile phase fortiﬁed with
+target analytes (B/A) × 100.
+
+Limit of detection, limit of quantitation and upper limit
+of linearity
+The limit of detection (LOD) and limit of quantitation (LOQ) were established for GC–MS and LC–MS-MS methods. For each analyte,
+four replicates of the concentration range of 2.0–40.0 ng/mL were
+quantitated. The LOD was deﬁned as the lowest concentration
+where the coefﬁcient of variation of the replicates was ≤10%, all
+
+ion ratios were ±20% of the calibrator and retention times were within
+±1 for GC or ±2% for LC of the averages established by the calibrator.
+The LOQ was deﬁned as the lowest concentration where the mean
+concentration of the replicates was within ±20% of the target concentration with coefﬁcient of variation ≤10%, all ion ratios were ±20% of
+the calibrator and retention times were within ±1 for GC or ±2% for
+LC of the averages established by the calibrator. Also, all peaks met
+resolution and symmetry requirements. The upper limit of linearity
+(ULOL) was assigned based on ten times the benzodiazepine DDRP
+administrative decision point of 100 ng/mL.
+
+Method comparison
+Internally prepared sample solutions containing AHAL, OXAZ,
+LORA, NORD and TEMA at 20, 40, 75, 100, 125, 200, 500 and
+1,000 ng/mL were analyzed by GC–MS and LC–MS-MS. The methods were compared with respect to their linearity, precision, accuracy
+and reproducibility.
+
+Interferences
+Interference samples were prepared by fortifying certiﬁed drug-free
+urine to a concentration of 40 ng/mL of the target compounds and
+5,000 ng/mL of the interferant compounds indicated in Supplementary Material, Table SV: (i) structurally similar compounds; (ii) a
+mix of over the counter (OTC) drugs and (iii) mix of ‘club’ drugs.
+The interference samples were then analyzed in ﬁve replicates by
+GC–MS and LC–MS-MS technologies. The interference effect was
+evaluated based on quantitation values within ±20% of the target concentration and acceptable chromatography.
+
+Service member urine specimens side-by-side
+comparison
+Benzodiazepine concentrations in service member urine specimens
+were measured using both GC–MS and LC–MS-MS and then compared to assess agreement between the two conﬁrmation technologies.
+Urine specimens used in this evaluation were anonymously donated
+from US service members submitted to NDSL Jacksonville for drug
+screening in accordance with the Military Personnel Drug Abuse Testing Program (MPDATP). As per DDRP procedures, specimens were
+aliquoted and screened by immunoassay (IA). Screening was conducted on a Roche/Hitachi (Indianapolis, IN) DAT 2400 immunoanalyzer. Urine was screened for benzodiazepines using the Microgenics
+Corporation CEDIA® (Fremont, CA) DAU immunoassay kit
+(1775561). Oxazepam in urine at 200 ng/mL was used as reference
+calibrator using a two-point calibration. Aliquots that screened at or
+above the cutoff for benzodiazepines were extracted and conﬁrmed for
+benzodiazepines using both GC–MS and LC–MS-MS as described
+previously. All identiﬁers were removed prior to testing.
+
+Statistical analysis
+The average, standard deviation (SD), coefﬁcient of variation (%CV),
+accuracy and mean difference were calculated using Microsoft Excel
+2010 (Seattle, WA). Evaluation of the linear regression with analysis
+of variance (ANOVA) of the regression ﬁt, one-way ANOVA for precision analysis, and Student’s t-test analyses were conducted using
+Minitab 17 (State College, PA).
+
+Results and discussion
+LOD and LOQ evaluation
+Table I summarizes the LOD and LOQ results for the three instruments used in this study. For most analytes, data used to establish
+
+204
+
+Perez et al.
+
+Table I. Evaluation of Instruments LOD, LOQ and ULOL
+Instrument
+
+Analyte
+
+GC–MS ID
+9252
+
+AHAL
+OXAZ
+LORA
+NORD
+TEMA
+AHAL
+OXAZ
+LORA
+NORD
+TEMA
+AHAL
+OXAZ
+LORA
+NORD
+TEMA
+
+GC/MS ID
+9700
+
+LC–MS-MS
+ID 1768
+
+a
+
+LOD
+(ng/mL)
+
+LOD
+%CV
+
+LOQ
+(ng/mL)
+
+LOQ
+%CV
+
+ULOL
+(ng/mL)
+
+5.53
+19.31
+6.13
+7.72
+14.99
+5.70
+5.62
+26.30
+14.98
+14.56
+5.96
+15.83
+2.15
+1.96
+2.03
+
+0.9
+1.7
+3.4
+0.4
+1.0
+0.9
+4.3
+4.8
+0.9
+1.1
+3.2
+1.0
+3.4
+8.1
+4.1
+
+5.53
+24.66
+6.13
+7.72
+14.99
+5.70
+15.61
+26.30
+14.98
+14.56
+5.96
+15.83
+2.15
+1.96
+2.03
+
+0.9
+0.6
+3.4
+0.4
+1.0
+0.9
+4.9
+4.8
+0.9
+1.1
+3.2
+1.0
+3.4
+8.1
+4.1
+
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+
+LOD, limit of detection; LOQ, limit of quantitation; ULOL, upper limit of
+linearity.
+a
+n = 4 for all analytes at all concentrations evaluated.
+
+the LOD values also met the criteria to be established as the LOQ
+value. For LORA, NORD and TEMA the LC–MS-MS instrument attained lower LOD and LOQ values, ranging from 1.96 to 2.15 ng/mL
+with CVs between 3.4 and 8.1%, respectively, than the GC–MS instrument, value ranges of 6.13–26.30 ng/mL with CVs between 0.4
+and 4.8%, respectively. For AHAL and OXAZ, the LOD and LOQ
+values were equivalent for both technologies.
+
+Method comparison of GC–MS and LC–MS-MS
+Independent sets of samples containing four replicates of the target
+concentrations: 20, 40, 75, 100, 125, 200, 500 and 1,000 ng/mL
+were analyzed by GC–MS (10 sets) and LC–MS-MS (9 sets) using
+a single point calibration at the DDRP administrative decision
+point of 100 ng/mL. Comparison of GC–MS and LC–MS-MS measured concentrations and descriptive statistics are presented in
+Table II. Of particular interest is the comparison of both technologies
+at concentrations around the DDRP administrative decision point of
+100 ng/mL. At concentrations of 75, 100 and 125 ng/mL, GC–MS
+technology had an average accuracy of 102% with CVs < 5% for
+all analytes across the three concentrations, while the LC–MS-MS
+technology average accuracy was a comparable 105% with CVs <
+7% (Table II). Qualitatively, LC–MS-MS measured concentrations
+demonstrated a greater spread as compared with GC–MS measurements. However, the % difference between GC–MS and LC–
+MS-MS at measured concentrations around the DDRP administrative decision point of 100 ng/mL ranged between 0.14 and 5.07%
+(Table II).
+Further, GC–MS analysis across all concentrations for all
+analytes had a within-run precision average CV < 4%, and a
+between-run precision average CV < 5% (Supplementary Material,
+Table SVI). When the measured concentration was compared with
+the target concentration, the average accuracy for all analytes ranged
+between 99.3 and 103.8%, with % CVs ranging from 2.93 to
+4.93%. Regression analysis was also used to compare measured
+versus target concentration following the methods used by Stout
+et al. (1, 5). Regression comparison to target concentrations and
+ANOVA analysis of the line of ﬁt showed that all analytes had a
+slope close to the ideal value of 1.000 (r 2 > 0.993), which was
+
+signiﬁcantly different from 0.000 with all intercepts equal to zero
+with the exception of NORD and TEMA, suggesting a signiﬁcant deviation in measured versus target concentration for these two analytes. However, in both cases, the intercepts were below the LOQ
+established for the two GC–MS instruments used for the analysis
+(Table I). Further, the within-run precision and between-run precision average CVs were below 2 and 4%, respectively, with average
+accuracies of 100.8 for NORD and 99.3 for TEMA (Supplementary
+Material, Table SVI).
+LC–MS-MS analysis across all concentrations for all analytes had
+a within-run precision average CV of <4%, and a between-run precision average CV of <6% (Supplementary Table SVII). The average accuracy for all analytes ranged between 102.5 and 105.9%, with %
+CVs ranging between 3.77 and 7.14%. Regression comparison to target concentrations and ANOVA analysis of the line of ﬁt showed that
+all analytes had a slope close to the ideal value of 1.000 (r 2 > 0.992),
+which was signiﬁcantly different from 0.000 with all intercepts equal
+to zero with the exception of LORA. Suggesting a signiﬁcant deviation
+in measured versus target concentration for LORA. However, LORA
+within-run precision and between-run precision CV averages were
+below 3 and 4%, respectively, with an average accuracy of 105.1%
+(Supplementary Material, Table SVII).
+
+Evaluation of ME
+Table III summarizes the LC–MS-MS ME for all analytes at 40 ng/mL
+and at the DDRP administrative decision point for benzodiazepines of
+100 ng/mL in 10 different human urine matrices. For all analytes except NORD, ME led to target ion enhancement ranging from 2 to
+52% at both concentrations. Only for NORD at 100 ng/mL did the
+ME cause target ion suppression by <1%. Target ion recovery (RE)
+and process efﬁciency (PE) ranged between 44–83% and 44–95%, respectively. For all analytes at both concentrations, target and ISTD ion
+responses were similar, suggesting that urine ME effects were appropriately controlled by including compound matched deuterated ISTDs
+in each analysis. This was further demonstrated by the quantitation
+analysis of C samples (target analytes fortiﬁed into urine after extraction) reported in Table III. For both concentrations, accuracies for
+AHAL, OXAZ, LORA, NORD and TEMA ranged between 98.3
+and 102.5% with CVs <5%.
+
+Interference study
+Results for the interference study are summarized in Table IV. Deviations between target and mean measured concentrations were within
+±20% for GC–MS analysis for all analytes. For LC–MS-MS analysis,
+deviations between target and mean measured concentrations were
+within ±20% for all analytes, with the exception of NORD in the
+presence of 2-hydroxy-ethylﬂurazepam (2HEF). In comparing GC–
+MS to LC–MS-MS results, only discrepancies greater than 10% were
+considered of practical interest. GC–MS and LC–MS-MS measured
+mean concentrations for LORA and NORD differed more than 10%
+when 2HEF was fortiﬁed into 40 ng/mL of these analytes. For
+LORA, 2HEF caused a 15% difference in measured concentrations
+between technologies. For NORD, 2HEF increased the LC–
+MS-MS mean quantitation value by 39% as compared with the results obtained using GC–MS. Supplementary Material, Figure S1
+shows an LC–MS-MS response of a representative sample of
+NORD at 40 ng/mL containing the interferant 2HEF. In the interference sample, NORD ISTD ion response was suppressed by 36% in
+comparison to the ISTD ion response in the LQC at 40 ng/mL. In
+contrast, similar responses were observed for the interference sample
+
+205
+
+LC–MS-MS and GC–MS Analysis of Benzodiazepine Compounds
+
+Table II. Descriptive Statistics of GC–MS and LC–MS-MS Analysis of Sample Material at Variable Target Concentrations
+Analyte
+
+Target
+concentration
+
+GC–MS
+average
+concentrationa
+
+GC–MS
+average
+concentration
+CV%
+
+GC–MS
+concentration
+average %
+accuracy
+
+LC–MS-MS
+average
+concentrationb
+
+LC–MS-MS
+average
+concentration
+CV%
+
+LC–MS-MS
+concentration
+average %
+accuracy
+
+GC–MS
+LC–
+MS-MS %
+difference
+
+AHAL
+
+20
+40
+75
+100
+125
+200
+500
+1,000
+20
+40
+75
+100
+125
+200
+500
+1,000
+20
+40
+75
+100
+125
+200
+500
+1,000
+20
+40
+75
+100
+125
+200
+500
+1,000
+20
+40
+75
+100
+125
+200
+500
+1,000
+
+19.9
+39.6
+74.8
+100.2
+125.1
+200.3
+501.0
+981.9
+20.5
+40.4
+76.9
+103.1
+127.0
+202.2
+505.0
+1,005.0
+20.5
+41.1
+78.1
+105.7
+130.1
+206.3
+523.7
+1,034.6
+20.4
+40.1
+76.6
+102.4
+127.3
+202.2
+496.8
+974.2
+20.0
+39.6
+75.4
+100.1
+124.9
+199.1
+491.7
+966.8
+
+2.61
+3.08
+2.26
+1.93
+2.24
+2.53
+3.83
+3.94
+4.15
+3.94
+3.50
+3.75
+4.91
+5.38
+6.74
+6.06
+4.45
+3.18
+3.90
+4.91
+4.86
+5.31
+5.76
+5.82
+4.19
+3.82
+2.59
+3.04
+2.75
+3.36
+5.07
+3.99
+3.00
+2.48
+2.60
+2.81
+2.88
+2.97
+4.57
+3.90
+
+99.5
+99.0
+99.7
+100.2
+100.1
+100.2
+100.2
+98.2
+102.5
+101.0
+102.5
+103.1
+101.6
+101.1
+101.0
+100.5
+102.5
+102.8
+104.1
+105.7
+104.1
+103.2
+104.7
+103.5
+102.0
+100.3
+102.1
+102.4
+101.8
+101.1
+99.4
+97.4
+100.0
+99.0
+100.5
+100.1
+99.9
+99.6
+98.3
+96.7
+
+20.6
+40.0
+77.1
+102.7
+128.1
+203.2
+517.1
+1,042.3
+20.8
+41.8
+78.7
+105.7
+130.6
+207.7
+527.6
+1,060.9
+21.1
+41.6
+80.0
+105.8
+132.0
+213.1
+520.2
+1,028.6
+21.2
+42.2
+80.5
+106.1
+133.2
+212.5
+527.7
+1,041.8
+20.3
+41.1
+78.0
+103.5
+129.6
+207.6
+526.2
+1,057.9
+
+6.24
+4.86
+6.01
+6.12
+5.39
+5.35
+5.45
+4.91
+5.45
+5.46
+5.72
+4.21
+5.26
+5.42
+6.18
+7.30
+4.37
+3.65
+3.83
+4.06
+3.15
+3.60
+2.89
+3.05
+5.15
+4.12
+3.68
+4.03
+3.33
+3.60
+3.88
+4.05
+4.32
+2.68
+3.39
+3.34
+3.76
+4.07
+3.60
+4.71
+
+103.0
+100.0
+102.8
+102.7
+102.5
+101.6
+103.4
+104.2
+104.0
+104.5
+104.9
+105.7
+104.5
+103.9
+105.5
+106.1
+105.5
+104.0
+106.7
+105.8
+105.6
+106.6
+104.0
+102.9
+106.0
+105.5
+107.3
+106.1
+106.6
+106.3
+105.5
+104.2
+101.5
+102.8
+104.0
+103.5
+103.7
+103.8
+105.2
+105.8
+
+3.5
+1.0
+3.1
+2.5
+2.4
+1.4
+3.2
+6.2
+1.5
+3.5
+2.3
+2.5
+2.8
+2.7
+4.5
+5.6
+2.9
+1.2
+2.4
+0.1
+1.5
+3.3
+−0.7
+−0.6
+3.9
+5.2
+5.1
+3.6
+4.6
+5.1
+6.2
+6.9
+1.5
+3.8
+3.4
+3.4
+3.8
+4.3
+7.0
+9.4
+
+OXAZ
+
+LORA
+
+NORD
+
+TEMA
+
+Bolded values denote data for concentrations around the DDRP decision point for benzodiazepines (100 ng/mL).
+a
+n = 40 for each analyte at each target concentration.
+b
+n = 36 for each analyte at each target concentration.
+
+and the low quality control NORD target quant ion. These ﬁndings
+are consistent with the observed difference in NORD measured
+concentration between GC–MS and LC–MS-MS. Although scientifically interesting, the impact of 2HEF on NORD quantitation is of
+minimal concern for DDRP laboratory operations since the concentration used for the interference study was comparable to urine concentrations found in fatal cases (8), additionally ﬂurazepam is not a
+commonly prescribed benzodiazepine (9). However, the effect of
+2HEF on NORD quantitation should be taken into consideration
+during method development if the same parental and transition
+ions are chosen.
+Successful analysis of TEMA (40 ng/mL) by GC–MS was not
+accomplished in three of ﬁve replicates containing club drug mixture.
+In each case, the analysis did not meet GC–MS chromatographic
+
+criteria for the qualiﬁer ion 359 m/z. No problems were encountered
+with the analysis of TEMA by LC–MS-MS.
+
+Urinalysis specimens analyzed by both GC–MS
+and LC–MS-MS
+Table V summarizes the results for service member specimens analyzed
+for benzodiazepines using both GC–MS and LC–MS-MS. The regression analysis suggests a linear relationship between both technologies
+for all analytes. A t-test analysis found no signiﬁcant difference (P <
+0.05) between GC–MS and LC–MS-MS quantitation values for
+NORD, OXAZ, LORA and AHAL. In contrast, TEMA results differed
+signiﬁcantly between technologies (P = 0.025), however the mean percent difference between both technologies was found to be <3% (data
+
+206
+
+Perez et al.
+
+Table III. LC–MS-MS Matrix Effect Evaluation at 40 and 100 ng/mL
+Analyte
+
+Target ion
+
+AHAL(40)
+AHAL(100)
+OXAZ(40)
+OXAZ(100)
+LORA(40)
+LORA(100)
+NORD(40)
+NORD(100)
+TEMA(40)
+TEMA(100)
+
+ISTD ion
+
+Quantitation (type C sample)
+
+% ME
+
+% RE
+
+% PE
+
+% ME
+
+% RE
+
+% PE
+
+Averagea
+
+% Accuracy
+
+% CV
+
+151.9
+129.4
+114.5
+107.6
+108.6
+103.0
+105.2
+99.4
+106.4
+101.9
+
+59.7
+63.6
+82.7
+81.5
+77.9
+75.8
+80.1
+82.7
+53.8
+43.7
+
+90.8
+82.2
+94.7
+87.7
+84.5
+78.1
+84.2
+82.2
+57.3
+44.5
+
+154.8
+128.7
+111.8
+107.1
+109.7
+103.1
+105.3
+100.4
+106.8
+101.0
+
+59.7
+65.1
+83.0
+81.2
+78.4
+77.3
+80.9
+81.9
+54.6
+45.6
+
+92.4
+83.8
+92.8
+87.0
+86.1
+79.7
+85.2
+82.2
+58.3
+46.1
+
+39.3
+100.7
+41.0
+100.6
+39.6
+100.0
+39.9
+99.0
+39.9
+101.0
+
+98.3
+100.7
+102.5
+100.6
+99.0
+100.0
+99.8
+99.0
+99.8
+101.0
+
+2.79
+3.39
+1.39
+4.21
+3.27
+3.40
+2.94
+3.65
+2.88
+3.91
+
+Type C samples contained the target analytes fortiﬁed into urine after extraction.
+ME, matrix effect; RE, recovery; PE, process efﬁciency.
+a
+n = 10 for each analyte at each target concentration.
+
+Table IV. GC–MS and LC–MS-MS Interference Analysis at Target Concentration of 40 ng/mL
+Analyte
+
+AHAL
+Average
+% CV
+OXAZ
+Average
+% CV
+LORA
+Average
+% CV
+NORD
+Average
+% CV
+TEMA
+Average
+% CV
+
+OTC Mix
+
+Club Mix
+
+AHT
+
+7AC
+
+2HEF
+
+AHM
+
+GC
+
+LC
+
+GC
+
+LC
+
+GC
+
+LC
+
+GC
+
+LC
+
+GC
+
+LC
+
+GC
+
+LC
+
+37.8
+1.27
+
+34.8
+3.50
+
+37.5
+0.21
+
+34.2
+3.10
+
+46.1
+4.41
+
+47.7
+6.23
+
+37.7
+2.07
+
+34.5
+3.85
+
+37.3
+1.16
+
+33.7
+1.82
+
+37.9
+0.80
+
+40.3
+7.30
+
+40.3
+1.25
+
+37.8
+3.14
+
+40.4
+0.46
+
+37.8
+1.50
+
+40.5
+0.70
+
+37.1
+2.57
+
+40.2
+1.06
+
+37.4
+1.76
+
+40.1
+1.43
+
+37.5
+1.89
+
+40.6
+0.88
+
+38.5
+1.00
+
+38.3
+3.63
+
+39.7
+2.63
+
+38.4
+0.82
+
+39.7
+0.70
+
+38.5
+2.51
+
+38.8
+2.55
+
+38.7
+3.34
+
+38.7
+1.88
+
+37.7
+1.71
+
+43.4a
+2.63
+
+38.2
+2.10
+
+39.9
+2.54
+
+40.2
+1.38
+
+40.1
+3.73
+
+40.1
+0.51
+
+39.3
+2.70
+
+40.3
+0.62
+
+39.2
+2.53
+
+40.2
+1.43
+
+38.8
+2.17
+
+39.9
+0.94
+
+55.4a,b
+1.97
+
+40.6
+0.79
+
+39.7
+1.69
+
+40.1
+0.60
+
+39.6
+3.45
+
+39.7
+1.94
+
+39.0
+1.43
+
+39.4
+0.99
+
+37.8
+2.43
+
+39.2
+1.36
+
+38.4
+1.03
+
+39.2
+1.15
+
+38.9
+1.81
+
+39.7
+1.70
+
+39.1
+2.91
+
+n = 5 for each analyte and each interferant.
+a
+≥10% deviation between GC–MS and LC–MS-MS measured concentrations.
+b
+≥20% deviation between target and measured concentration.
+
+Table V. Side By Side Comparison of GC–MS and LC–MS-MS Results for DoD Service Member Specimens Submitted to NDSL Jacksonville,
+FL (Nov 2012–Jul 2013)
+
+N
+r2
+Regression slope
+t-test results (P-value)
+Average GC–MS ISTD response
+% CV
+Average LC–MS-MS ISTD response
+% CV
+Average GC–MS retention time
+% CV
+Average LC–MS-MS Retention time
+% CV
+a
+
+NORD
+
+OXAZ
+
+LORA
+
+TEMA
+
+AHAL
+
+50
+0.991
+1.09
+0.057
+60,771
+23.87
+37,447
+19.75
+5.93
+0.44
+1.91
+0.22
+
+81
+0.998
+1.02
+0.109
+11,745
+30.18
+101,989
+11.77
+6.68
+0.53
+1.80
+0.25
+
+7
+0.995
+0.98
+0.052
+11,661
+21.21
+24,302
+8.30
+7.21
+0.65
+1.87
+0.26
+
+71
+0.998
+1.05
+0.025a
+34,031
+26.09
+133,746
+17.24
+6.80
+0.58
+2.11
+0.18
+
+8
+0.998
+1.03
+0.090
+31,364
+30.78
+18,854
+20.71
+9.10
+0.82
+1.66
+0.00
+
+GC–MS and LC–MS-MS results signiﬁcantly different (P < 0.05) for TEMA.
+
+207
+
+LC–MS-MS and GC–MS Analysis of Benzodiazepine Compounds
+analysis not shown). The ISTD responses for all analytes measured via
+LC–MS-MS had a tighter distribution as compared with GC–MS. Both
+technologies had similar and tightly distributed retention time windows.
+
+Supplementary material
+Supplementary Material is available at Journal of Analytical Toxicology
+online.
+
+Conclusion
+This study demonstrated that LC–MS-MS technology is comparable
+with GC–MS and produced conﬁrmatory testing results that meet
+DDRP guidelines and criteria for urine drug testing without the extensive sample preparation required for GC–MS analysis. Both technologies produced comparable results at concentrations around the DDRP
+administrative decision point for benzodiazepines (100 ng/mL), with
+excellent accuracy and precision across the range of concentrations
+evaluated. Analysis of service member specimens that screened positive for benzodiazepines using both technologies produced comparable results for all analytes. Different degrees of ME were observed
+for all analytes in the LC–MS-MS analysis. However, these effects
+were controlled for by using deuterated ISTD resulting in minimal impact on measured versus target quantitation values. Interference in
+NORD LC–MS-MS quantitation occurred in the presence of ﬂurazepam metabolite 2HEF resulting in a 39% increase in NORD mean
+measured concentration from suppression of the sample ISTD ion
+by 2HEF. However, this effect occurred at 2HEF concentrations that
+were 125 times greater than the sample and in quantities higher than
+the literature suggests would be physiologically realistic concentrations. This study conﬁrmed that LC–MS-MS technology is a suitable
+and expedient alternative for DDRP benzodiazepine conﬁrmation
+testing. LC–MS-MS offers the additional advantages of ease and
+speed of sample extraction, shorter run times and potentially a broader range of compounds that can be analyzed as compared with
+GC–MS.
+
+Disclaimer
+The views expressed in this article are those of the authors and do not
+necessarily reﬂect the ofﬁcial policy or position of the Department of
+the Navy, Department of Defense, nor the US Government.
+
+References
+1. Stout, P.R., Bynum, N.D., Mitchell, J.M., Baylor, M.R., Ropero-Miller, J.D.
+(2009) A comparison of the validity of gas chromatography–mass spectrometry and liquid chromatography–tandem mass spectrometry analysis
+of urine samples for morphine, codeine, 6-acetylmorphine, and benzoylecgonine. Journal of Analytical Toxicology, 33, 398–408.
+2. Levine, B. (ed) (2013) Principles of Forensic Toxicology, 4th edition. American Association for Clinical Chemistry, Inc., Washington, DC, pp. 173,
+237–251.
+3. Darke, S. (1994) Benzodiazepine use among injecting drug users: problems
+and implications. Addiction, 89, 379–382.
+4. Jones, J.D., Mogali, S., Comer, S.D. (2012) Polydrug abuse: a review of opioid and benzodiazepine combination use. Drug and Alcohol Dependence,
+125, 8–18.
+5. Stout, P.R., Bynum, N.D., Lewallen, C.M., Mitchell, J.M., Baylor, M.R.,
+Ropero-Miller, J.D. (2010) A comparison of the validity of gas chromatography–mass spectrometry and liquid chromatography–tandem mass spectrometry analysis of urine samples II: amphetamine, methamphetamine,
+(±)-3,4-methylenedioxyamphetamine, (±)-3,4- methylenedioxymethamphetamine, (±)-3,4-methylenedioxyethylamphetamine, phencyclidine, and
+(±)-11-nor-9-carboxy-Δ9-tetrahydrocannabinol. Journal of Analytical
+Toxicology, 34, 430–443.
+6. Department of Defense Instruction 1010.16 (2012). Technical Procedures
+for the Military Personnel Drug Testing Program (MPDATP). http://www
+.dtic.mil/whs/directives/corres/pdf/101016p.pdf (accessed May 15, 2015).
+7. Matuszewski, B.K., Constanzer, M.L., Chavez-Eng, C.M. (2003) Strategies
+for the assessment of matrix effect in quantitative bioanalytical methods
+based on HPLCMS/MS. Analytical Chemistry, 75, 3019–3030.
+8. Ferrara, S.D., Tedeschi, L., Marigo, M., Castagna, F. (1979) Concentrations
+of phenobarbital, ﬂurazepam, and ﬂurazepam metabolites in autopsy cases.
+Journal of Forensic Sciences, 24, 61–69.
+9. PharmacyTimes (2013). Top 200 Drugs of 2012. http://www.pharmacy
+times.com/publications/issue/2013/July2013/Top-200-Drugs-of-2012 (accessed May 15, 2015).
+
+

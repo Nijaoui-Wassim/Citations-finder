@@ -1,0 +1,1031 @@
+Protein Cell 2015, 6(9):628–637
+DOI 10.1007/s13238-015-0185-x
+
+Protein & Cell
+
+REVIEW
+Functional metabolomics: from biomarker
+discovery to metabolome reprogramming
+Bo Peng2, Hui Li1, Xuan-Xian Peng1&
+
+Protein & Cell
+
+1
+
+Center for Proteomics and Metabolomics, State Key Laboratory of Biocontrol, School of Life Sciences, MOE Key Lab Aquat
+Food Safety, School of Life Sciences, Sun Yat-sen University, Guangzhou 510275, China
+2
+Molecular Foundry, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
+& Correspondence: pxuanx@sysu.edu.cn (X.-X. Peng)
+Received May 7, 2015 Accepted May 28, 2015
+
+ABSTRACT
+Metabolomics is emerging as a powerful tool for studying
+metabolic processes, identifying crucial biomarkers
+responsible for metabolic characteristics and revealing
+metabolic mechanisms, which construct the content of
+discovery metabolomics. The crucial biomarkers can be
+used to reprogram a metabolome, leading to an aimed
+metabolic strategy to cope with alteration of internal and
+external environments, naming reprogramming metabolomics here. The striking feature on the similarity of the
+basic metabolic pathways and components among vastly
+different species makes the reprogramming metabolomics
+possible when the engineered metabolites play biological
+roles in cellular activity as a substrate of enzymes and a
+regulator to other molecules including proteins. The
+reprogramming metabolomics approach can be used to
+clarify metabolic mechanisms of responding to changed
+internal and external environmental factors and to establish a framework to develop targeted tools for dealing with
+the changes such as controlling and/or preventing infection with pathogens and enhancing host immunity against
+pathogens. This review introduces the current state and
+trends of discovery metabolomics and reprogramming
+metabolomics and highlights the importance of reprogramming metabolomics.
+
+KEYWORDS metabolomics, discovery metabolomics,
+reprogramming metabolomics, metabolic strategy, metabolic
+regulation
+
+INTRODUCTION
+Metabolism is the cornerstone of life, with the set of life-sustaining chemical transformations within the cells of living
+
+organisms to provide building blocks and energy equivalents
+for fundamental biological processes, such as cell growth, cell
+differentiation and environmental adaptation. The chemical
+transformations, one chemical being transformed into a new
+chemical, are organized as metabolic cascades, which are
+catalyzed by a series of enzymes. As the major players in
+metabolic pathways, enzymes drive the desirable reactions
+but also regulate metabolic pathways positively or negatively
+to maintain the energy homeostasis within the cells. Regulation of metabolism entails several levels of controls including
+transcriptional, posttranscriptional and allosteric mechanisms
+to eventually affect enzyme abundance and kinetics (Fuhrer
+and Zamboni, 2015), indicating metabolism is a complex and
+dynamic process with systemic outcomes represented by
+metabolites. The thorough and comprehensive analysis of the
+metabolites, named as metabolomics, would provide the
+insights of cellular activities without considering the change of
+genetic or epigenetic changes.
+Metabolomics has been extensively used in basic and
+applied research in recent years and gradually become a
+mutually complementary technique to genomics, transcriptomics and proteomics (Dumas, 2012; Castro-Santos et al.,
+2015). Metabolomics speciﬁcally addresses the activity of
+the small molecules(<10 kDa) produced by active and living
+cells during their life cycles, which are not accessible by
+genomics, transcriptomics and proteomics (Peng, 2013).
+Therefore, metabolomics can give an instantaneous snapshot of the physiological status of the cells, which tells
+people how the metabolic proﬁle of a complex biological
+system is changed in response to stress like adverse factors,
+environmental alterations or physiological adaption to dietary
+change (Patel and Ahmed, 2015; Zhang et al., 2014; Gibbons et al., 2015). Metabolomics speeds up the understanding of global metabolic characteristics, elucidation of
+metabolic mechanisms and identiﬁcation of metabolic
+
+© The Author(s) 2015. This article is published with open access at Springerlink.com and journal.hep.com.cn
+
+biomarkers. A striking feature of metabolism is the similarity
+of the basic metabolic pathways and metabolites among
+vastly different species, while genes, mRNAs and proteins
+are diversiﬁed from species to species. In this regard,
+metabolomics is a universal language to describe a complex
+life activity across different species. For example, the set of
+carboxylic acids that are best known as the intermediates in
+the TCA cycle are present in all known organisms, being
+found in species as diverse as from unicellular bacterium like
+Escherichia coli to huge multicellular organisms like elephants and complex multicellular organisms like humans.
+These similarities in metabolic pathways and metabolites are
+likely due to their early appearance in evolution and their
+retention because of their efﬁcacy. Compared to other
+OMICs, metabolomics provides broad scope and yet direct
+information on the integrated cellular response to changes in
+internal and external environment with low demand in
+material and sample preparation (Fuhrer and Zamboni,
+2015). While the current state and trends of high throughput
+metabolomics proﬁling focus on the purpose of discovering
+biomarkers and hunting for metabolic mechanism, a
+prospective direction, namely reprogramming metabolomics,
+highlights the way to use metabolomics approach for the
+purpose of prevention and treatment of disease through
+reconstitution of perturbed metabolic pathways (Peng et al.,
+2015a). Therefore, metabolomics is not only used to discover the metabolome of cells or organisms under different
+conditions but also used to evaluate the reprogramming
+efﬁcacy of exogenous metabolite treatment, which were
+termed as discovery metabolomics and reprogramming
+metabolomics, respectively. In this review, we summarize the
+current state and trends of discovery metabolomics and
+reprogramming metabolomics and highlight the importance
+of reprogramming metabolomics for therapeutic purpose.
+
+TECHNIQUES FOR DISCOVERY METABOLOMICS
+Metabolomics is a universally applicable, comprehensive
+analytical approach for the identiﬁcation and quantiﬁcation of
+metabolites in a biological system, leading to description and
+understanding of a metabolic-responsive proﬁle (Holmes
+et al., 2008; Suhre et al., 2011). The discovery metabolomics
+has been established and applied as the method of choice
+for investigating metabolic phenotypes in life science
+research. Metabolomic studies consist of two sequential
+procedures: (1) High throughput detection of an all-inclusive
+spectrum of the complete proﬁle of low-molecular weight
+metabolites in a biological sample; (2) Model recognizable
+analysis for interpreting detected data.
+To identify, quantify and characterize the small molecules/
+metabolites in cell or organism, metabolomics primarily
+depends on high throughput analytical technologies. The
+most commonly used technologies in metabolomics are
+nuclear magnetic resonance (NMR) spectroscopy and mass
+spectrometry (MS). The most popular analytical methods in
+
+MS are gas chromatography-mass spectrometry (GC-MS),
+liquid chromatography-mass spectrometry (LC-MS) and
+capillary electrophoresis coupled to mass spectrometry (CEMS). These four analytical methods provide technical pillars
+for high throughput discovery metabolomics. Each of these
+techniques has its own advantages and disadvantages.
+NMR provides an in situ way for monitoring certain classes
+of metabolites with high reproducibility and less inter-laboratory variation. More importantly, NMR allows a rapid,
+nondestructive and automated analysis of crude extracts,
+and the quantitative detection of many different groups of
+metabolites. But the drawback is the limitation of sensitivity
+and dynamic range (Wolfender et al., 2015). GC-MS integrates the advantage of high resolution, separation reproducibility and the stable metabolite fragmentation patterns
+from the standardized MS electron ionization energy of
+70 eV and is ideally suited for the analysis of both volatile
+and nonvolatile compounds (or compounds with volatile
+derivatives) (Gao and Xu, 2015). GC-MS has long been
+used for identifying metabolites of biological ﬂuids. However,
+the variety of metabolites that can be analyzed with this
+technique is limited by the volatility or the ability to form
+appropriate volatile derivatives of the molecules. LC-MS
+allows the analysis of thermally labile but non-volatile compounds. LC-MS detects the molecules that range from polar
+sugars and non-aromatic organic acids to various lipids
+(Commisso et al., 2013). Recently, CE-MS has emerged as
+an attractive technique for the proﬁling of polar and charged
+compounds in biological samples and used in metabolomics
+due to complementation of unique chemical information that
+is not provided by GC-MS and LC-MS (Ramautar et al.,
+2015). The combination of GC-MS with NMR or/and LC-MS
+has widely used in separation, dramatization and characterization of small molecules/metabolites (Kumar et al, 2014;
+Gao and Xu, 2015). This leads to the improvement of
+structural analysis and better interpretation of targeted
+metabolome.
+Most of the metabolomics data is recorded as unassigned
+peaks of different intensity on different retention times,
+masses or mass fragments (mass spectrometric data) or
+chemical shifts (NMR data). Analysis and interpretation of
+these data show more common features among different
+MS-based platforms. The area of each compound peak is
+extracted from the total ion chromatograms with software.
+Single ions are used to deconvolute overlapping peaks.
+Compounds are identiﬁed based on matching with retention
+time and mass spectrum. The data matrix must be normalized before statistical analysis. The normalization factors are
+dependent on different requirements. The internal standards
+or statistical models derived from the complete dataset, e.g.,
+the total peak intensities, the quartile range or the corresponding metabolite fragments are generally used in the
+relevant quality control samples (Gao and Xu, 2015). After
+normalization, multivariate statistical methods or pattern
+recognition methods are used to handle the acquired data, to
+
+© The Author(s) 2015. This article is published with open access at Springerlink.com and journal.hep.com.cn
+
+629
+
+Protein & Cell
+
+REVIEW
+
+Reprogramming metabolomics
+
+REVIEW
+
+Bo Peng et al.
+
+search for the discriminating features and to identify the
+biomarkers from the tested samples.
+
+Protein & Cell
+
+DISCOVERY METABOLOMICS
+The metabolome can be a very sensitive measure of an
+organism’s phenotype because metabolites are the ﬁnal
+products of enormous genome-wide or proteome-wide
+interactions. This fact has made metabolomics particularly
+useful in the study of environment-gene and -protein interactions (Rojo et al., 2015; Wang et al., 2015; Zhang et al.,
+2015), the identiﬁcation of disease biomarkers (Peng et al.,
+2015b), revelation of pathogenesis (Kim et al., 2015; Ghartey et al., 2015) and the discovery of novel drugs (Mastrangelo et al., 2014; Krug and Müller, 2014). Metabolism is
+also embedded in the sensing and signaling machinery,
+integrating information transmitted from internal and external
+environment of cells (Helms et al, 2015; Zheng et al., 2015).
+Therefore, metabolism is pivotal in decision-making in both
+health and disease and a valuable target for targeted therapy. Current metabolomics studies essentially focus on what
+can be known from the metabolome. The discovery metabolomics studies aim to measure the up-regulation and
+down-regulation of metabolites in abundance, and the
+impact of their variations on metabolic pathways and networks. Typically, the discovery metabolomics is addressed to
+identify biomarkers to improve early diagnosis, accurate
+prognosis and aid adequate monitoring of disease and
+understand physiological changes in response to environmental alteration (Gibbons et al, 2015).
+Recently, the metabolomics approach has been widely
+used in investigation of cellular activity. In biomedical application, this approach is usually employed to identify altered
+abundance of metabolites and the affected metabolic pathways in a disease-speciﬁc manner for use as diagnostic
+markers or therapeutic targets (Budczies et al., 2015). Budczies et al., used GC-MS based metabolomics to quantify the
+dysregulation of the glutamate-glutamine equilibrium and
+characterize glutamate accumulation as new diagnostic
+opportunity in breast cancer. These ﬁndings may have
+important implications for patient stratiﬁcation related to utilization of glutaminase inhibitors (Budczies et al., 2015).
+Metabolomics is also performed to characterize the interactions of organisms with their environment for the discovery of
+new disease risk biomarkers and diagnostics. Changes in the
+metabolic proﬁles in a group of 389 healthy smelter workers
+exposed to lead, cadmium and arsenic were studied on pooled
+serum samples using proton nuclear magnetic resonance
+spectroscopy. These multivariate metabolomics datasets
+were analyzed with principal component analysis and partial
+least squares discriminant analysis. Analysis of metabolic
+proﬁles of people exposed to heavy metals suggested that
+energy metabolism disturbance could be induced by heavy
+metals (Dudka et al., 2014). Changes in lipid fraction, unsaturated lipids and in the level of amino acids suggested the
+perturbation of lipids metabolism and amino acids
+630
+
+metabolism. This approach is capable of identifying intermediate biomarkers of response to toxicants at environmental/
+occupational concentrations, paving the way to its use in a
+monitoring of smelter workers exposed to low doses of lead,
+cadmium and arsenic (Dudka et al., 2014). Do et al., presented
+a generic, data-driven network-based approach for structuring
+and visualizing metabolite correlations within and between
+multiple body ﬂuids including blood, urine and saliva, enabling
+unbiased interpretation of metabolomics multiﬂuid data (Do
+et al., 2015).
+In preclinical and clinical drug development, the applications of metabolomics have a considerable scope in the
+pharmaceutical industry, almost at each step from drug discovery to clinical development. These include determination
+of drug target, potential safety and efﬁcacy biomarkers and
+mechanisms of drug action, the validation of preclinical
+experimental models against human disease proﬁles, and
+the discovery of clinical safety and efﬁcacy biomarkers
+(Kumar et al., 2014). Farag et al., indicated comparative
+metabolomics could be utilized for Senna drug quality control
+analysis. They revealed secondary metabolite compositional
+differences among Senna species through utilizing both
+UPLC-MS and NMR and recognition methods (Farag et al.,
+2015). Weckmann et al., showed that a single injection of
+Ketamine had an impact on the major energy metabolism
+pathways and indicated that 2-ketoisovalerate, glutathione,
+maleate, methylmalonate, fumarate and cytosine qualify as
+biomarkers for the Ketamine drug response (Weckmann
+et al., 2014). Since treatment of mammalian cells with
+chemotherapeutic drugs can result in perturbations of
+nucleotide pools, Liu et al., monitored these perturbations in
+cultured human tumor cells for a better understanding of the
+mechanism of action of these drugs. They showed that GMP
+and ATP were the best potential biomarkers for DNA-damaging drugs, as well as GMP, ATP and UDP for the
+antimetabolite and the mitotic spindle agents. These results
+provide a preliminary evidence for the role of pharmacometabolomics in the preclinical development of drugs (Liu
+et al., 2014).
+Applications of discovery metabolomics in nutritional
+research can include three main areas: identiﬁcation of dietary
+biomarkers, study of diet-related diseases and identiﬁcation of
+biomarkers of disease and application to dietary intervention
+studies as a tool to identify molecular mechanisms (Gibbons
+et al., 2015). Metabolomics is impactful on all of these areas
+and contributes signiﬁcantly on the study of diet-health relationships (Gibbons et al., 2015; Brennan, 2014). Wagner et al.,
+showed that the nutritional state of a freshwater invertebrate,
+Daphnia magna, could be determined by analyzing endogenous metabolites using hydrogen nuclear magnetic resonance-based metabolomics. In addition, the metabolite
+composition of D. magna was correlated to the diets they were
+taking and environmental stresses they suffered. Thus, dietary-speciﬁc induced changes in metabolite composition of
+animal consumers hold considerable promise as indicators of
+nutritional stress and will be invaluable for future studies of
+
+© The Author(s) 2015. This article is published with open access at Springerlink.com and journal.hep.com.cn
+
+animal nutrition (Wagner et al., 2015). The Mediterranean diet
+is a dietary pattern with beneﬁcial effects on human health.
+Vazquez-Fresno et al., used NMR-based metabolomics to
+assess the effect of an Mediterranean diet on urinary metabolome and revealed that the most prominent hallmarks
+concerning Mediterranean diet groups were related to the
+metabolism of carbohydrates, creatine, creatinine, amino
+acids, lipids and microbial cometabolites. The application of
+NMR-based metabolomics enables the classiﬁcation of individuals regarding their dietary pattern and highlights the
+potential of this approach for evaluating changes in the urinary
+metabolome at different time points of follow-up in response to
+speciﬁc dietary interventions (Vázquez-Fresno et al. 2014).
+Floegel et al., investigated the associations between diet,
+physical activity, cardiorespiratory ﬁtness and obesity with
+serum metabolite networks in a population-based study and
+found that amino acids were particularly positively associated
+with cardiorespiratory ﬁtness and physical activity. C6-sugar
+and acylcarnitines were positively associated with obesity and
+inversely associated to the intake of whole-grain bread.
+Phospholipids were negatively associated with obesity and
+coffee intake. Metabolic networks of coffee intake and obesity
+were inversely correlated. Strong positive correlation was
+observed between metabolite networks of body mass index
+and waist circumference, as well as the metabolic networks of
+cake and cookie intake with cardiorespiratory ﬁtness and
+intake of whole-grain bread. Therefore, lifestyle factors and
+phenotypes seem to interrelate in various metabolic pathways
+(Floegel et al., 2014).
+Development of stress-tolerant plants and reducing the
+gap between the pace of natural products research and
+highly-demanded modern drug discovery are emerging
+topics in current plant industry. The applications of discovery
+metabolomics greatly beneﬁt the elucidation of molecular
+mechanisms involved in biotic or abiotic stress, phytomedicines quality control analysis and drug discovery from
+natural sources (Nakabayashi and Saito, 2015; Jorge et al.,
+2015; Mahrous and Farag et al., 2015). Salt stress is an
+important factor that limits crop production worldwide.
+Kusuda et al., compared the metabolic proﬁles between
+myo-inositol 3-phosphate synthase-overexpressing and
+wild-type rice and found myo-inositol 3-phosphate synthase
+improved salt stress tolerance through activation of central
+metabolism, such as glycolysis, the pentose phosphate
+pathway, the TCA cycle and inositol metabolism (Kusuda
+et al., 2015). Sun et al., used NMR techniques to examine
+the metabolic responses of maize plants grown under different conditions including soil drought, soil salinity, heat and
+multiple concurrent stresses. Drought-stressed maize plants
+subjected to salt or heat stress showed distinct integrated
+metabolic proﬁles compared with those exposed to either
+stress alone. Moreover, the TCA cycle and core nitrogen
+metabolism were identiﬁed, which were related to their
+multiple functions during plant growth. The primary metabolic
+responses to soil drought, heat and combined drought and
+heat stress occurred in a time-dependent manner, indicating
+
+that plasticity at the metabolic level might allow maize plants
+to accumulate their metabolic ranges in response to environmental change (Sun et al., 2015).
+In microbiological research and industrial fermentation
+applications, the discovery metabolmics is used in metabolic
+ﬂux analysis, gene function elucidation, enzyme function
+analysis and fermentation optimization (Gao and Xu, 2015).
+NtcA, a conserved cAMP receptor protein-type transcription
+factor among cyanobacteria, regulates gene expression in
+response to nitrogen status. Osanai et al., overexpressed
+ntcA in Synechocystis sp. PCC 6803, which dramatically
+affected sugar, purine/pyrimidine nucleotide, organic acid
+and amino acid metabolisms. This study set an example to
+advance the understanding of metabolic regulation of unicellular cyanobacteria (Osanai et al., 2014). Dörries et al.,
+investigated the impact of antibiotic compounds with different
+cellular targets on the metabolome of Staphylococcus aureus HG001. They found far-ranging effects within the
+metabolome by comparing the metabolic proﬁles of
+unstressed and stressed staphylococcal cells in a time-dependent manner. They showed that ciproﬂoxacin altered the
+pool of deoxy- nucleotides and peptidoglycan precursors;
+erythromycin tended to increase the amounts of intermediates of the pentose phosphate pathway and lysine; fosfomycin inhibited the ﬁrst enzymatic step of peptidoglycan
+synthesis; vancomycin and ampicillin inhibited the last stage
+of peptidoglycan construction on the outer cell surface. Each
+antibiotic also affected intracellular levels of the TCA intermediates (Dörries et al., 2014). These results suggested an
+association of antibiotic action with metabolic environment.
+Wu et al., used GC-MS approach to disclose the metabolic
+mechanism manipulated by glycine, which led to higher
+antifungal activity, in a fungal strain Penicillium citrinum W1
+isolated from a Southwest Indian Ocean sediment sample.
+They showed that elevated glycine, serine and threonine
+metabolism promoted biosynthesis of fatty acids and the
+TCA cycle and thereby contributed to bacterial growth and
+antifungal activity. Further the replacement of glycine with
+serine demonstrated the reliability of the identiﬁed glycine,
+serine and threonine metabolism. These results indicate
+functional metabolimcs is a powerful tool for understanding
+mechanisms through supplementing compound (Wu et al.,
+2015).
+Recently, the metabolite-based genome-wide association
+study (mGWAS) has allowed the simultaneous analysis of
+the genetic and environmental impacts on homeostasis
+(Adamski, 2012). It has emerged as a powerful alternative
+forward genetics strategy to dissect the genetic and biochemical basis of metabolism, providing a useful approach
+for functional gene identiﬁcation with more precision, standardization, robustness and sensitivity (Adamski and Suhre,
+2013). Feng et al., performed an mGWAS on stools from
+advanced adenoma and carcinoma patients and from healthy subjects, revealing microbial genes, strains and functions
+enriched in each group and suggested that fecal microbiome-based strategies might be useful for early diagnosis
+
+© The Author(s) 2015. This article is published with open access at Springerlink.com and journal.hep.com.cn
+
+631
+
+Protein & Cell
+
+REVIEW
+
+Reprogramming metabolomics
+
+REVIEW
+
+Bo Peng et al.
+
+and treatment of colorectal adenoma or carcinoma (Feng
+et al., 2015). The developed mGWAS described the proﬁle
+that metabolites and small molecules were not independent.
+They were organized in biochemical pathways and in a wider
+metabolic network, which was self-dependent on various
+genetic and signaling networks for its regulation (Dumas,
+2012). Importantly, a new generation of integrative study of
+genomics, transcriptomics, proteomics and metabolomics
+improves an understanding of the response mechanism of
+organisms to internal and external environments (Dumas
+et al., 2014; Bielecka et al., 2014; Klähn et al., 2015).
+
+Protein & Cell
+
+REPROGRAMMING METABOLOMICS
+Metabolomics is a powerful tool for exploring the alterations
+in the metabolite abundance, and metabolic pathways and
+networks which are involved in various pathophysiological
+conditions and offers the platform for identiﬁcation of genotype-phenotype as well as genotype-envirotype interactions
+(Kumar et al., 2014). On the other hand, the similarity of the
+basic metabolic pathways and components between different species as well as the commercially available metabolite
+lead to a possibility that metabolome can be reprogrammed
+by exogenous metabolites (Peng et al., 2015a), which is very
+difﬁcult to be achieved by conventional genetic means.
+Metabolome is the collection of end products of cellular
+activities, reﬂecting the status of cells at certain stage. Cells
+resistant to certain factor can be sensitized to the factor by
+administrating certain metabolite. Therefore, metabolomic
+approach is used not only to screen biomarkers of diseases,
+but also to identify crucial metabolites or potential drugs to
+revert or enhance the status according to requirement. This
+is because the metabolites have biological activities (Matsuda et al., 2014; Carey et al., 2015). The binding of various
+types of metabolites with hormones, fatty acids, drugs or
+other xenobiotics, transport proteins and receptors proteins
+has been reported (Matsuda et al., 2014; Tannahill et al.,
+2013). The binding of metabolites to proteins leading to
+conformational and functional change of the protein is of
+growing interest recently (Matsuda et al., 2014). Thus,
+metabolomics change is a strategy that host mounts to cope
+with changes of the internal and external environment.
+Exogenous crucial metabolites can reprogram the metabolic
+strategy to adapt or suppress such changes.
+Metabolites play biological roles in cell activity as a substrate of enzymes and a regulator to other molecules
+including proteins and nucleic acids. Metabolite abundance
+is decisive to the biological roles. When the abundance is
+changed, activity of the enzymes and action of the regulated
+molecules will be modulated, which affect the metabolic
+pathways and networks and possibly modulate the metabolic
+ﬂow. Differential activation or suppression of one or more
+metabolic pathways could be a critical feature of the
+response (stress or disease) phenotype. If a responsive
+‘metabolome’ could be identiﬁed, it may be possible to
+632
+
+induce susceptibility or resistance to response-induced
+treatment by exogenous administration of a crucial
+metabolite that is less or more abundant in the response
+metabolome. In other words, the response-resistant or
+-susceptible metabolome could be converted into the
+response-susceptible or resistant metabolome by engineering the metabolic environment, respectively. This leads to
+metabolome reprogramming. The reprogramming metabolomics approach can be used to clarify the mechanism of cell
+response and then based on the mechanism to establish a
+framework to develop convenient and efﬁcient tools for
+dealing with the changes such as controlling and/or preventing infection with pathogens and enhancing host
+immunity against pathogens.
+Bacterial antibiotic resistance is a threat to human health
+and to the viability of animal and plant species in the human
+food chain (Li et al., 2012; Lin et al., 2014). However, novel
+drugs that can manage infections by multidrug-resistant
+bacteria have proved elusive. We demonstrated that the
+bacterial susceptibility to antibiotics was strongly associated
+with metabolic states, and that speciﬁc metabolic proﬁles
+were correlating with certain antibiotic-resistance. Glucose,
+fructose and alanine abundances are greatly suppressed in
+kanamycin-resistant Edwardsiella tarda revealed by GC/MS
+based metabolomics. Exogenous alanine, glucose or fructose restores susceptibility of multidrug-resistant E. tarda to
+killing by kanamycin. Similar results were obtained with other
+Gram-negative bacteria including Vibrio parahaemolyticus,
+Klebsiella pneumoniae, Pseudomonas aeruginosa and
+Gram-positive bacterium Staphylococcus aureus. These
+results were also reproduced in a mouse model for urinary
+tract infection. Therefore, metabolites that reverted the
+metabolomics proﬁle of an antibiotic-resistant strain to that of
+an antibiotic-sensitive strain could potentially revert the
+antibiotic resistance (Fig. 1) (Peng et al., 2015a; Su et al.,
+2015). The study proposes a novel approach to identify
+metabolic modulator through investigation of metabolomics,
+by which crucial modulators can be used for therapeutic
+purpose through reprogramming metabolome (Bhargava
+and Collins, 2015).
+Elimination of microbes through regulation of immunity
+has been widely accepted. This leads to widespread use of
+immune modulators to control infections. Interferon (IFN)
+family is a large group of cytokines involved in innate
+immune response against various microorganisms. However, whether IFN functions in antimicrobial property by
+metabolic pathways is largely unknown. When GC/MSbased metabolomics was applied to humoral ﬂuid of zebraﬁsh (Dario rerio) exposed to three different doses of IFN-α2b,
+designed as IFN-L (low dose), IFN-M (middle dose) and IFNH (high dose), forty-three IFN-responsive metabolites were
+identiﬁed. Analysis on the dose-related metabolites indicated
+that biosynthesis of unsaturated fatty acids was enriched
+only in IFN-M and IFN-H, which was related to IFN-α2b high
+protection against bacterial infection. Moreover, exogenous
+fatty acids, especially unsaturated linoleic acid, elevated
+
+© The Author(s) 2015. This article is published with open access at Springerlink.com and journal.hep.com.cn
+
+REVIEW
+
+Reprogramming metabolomics
+
+Drug-sensitive
+
+Drug-resistant
+
+Metabolome
+
+Metabolome
+
+Biomarkers
+
+Reprogramming metabolites
+
+Supplements
+
+Reprogramming
+
+Alanine Glucose Fructose
+
+NDH
+
+H
+
++
+H+ H
+
++
+
+Q
+
+Cytoplasm
+Alanine Glucose Fructose
+
+NADH H+ NAD+
+
+oA
+-C
+yl
+Ac
+
+et
+
+CS
+
+Oxaloacetate
+
+TCA
+cycle
+
+Fumarate
+SDH
+
+Quniol
+oxidase
+H+
+
+lsocitrate
+ICDH
+
+Citrate
+
+Pyruvate
+
+Kanamycin
+
+PMF
+
+Protein & Cell
+
+Extracellular
+space
+
+H+
+
+Cell death
+
+α-Ketoglutarate
+OGD
+Succinyl-CoA
+
+Succinate
+
+SucC
+
+Figure 1. Antibiotic-resistant metabolome is reprogrammed to antibiotic-susceptible metabolome by exogenous alanine,
+fructose and glucose. These exogenous metabolites promote TCA ﬂux, increase proton-motive force and lead to kanamycin
+uptake.
+
+survival ability of zebraﬁsh infected with extracellular
+pathogenic V. alginolyticus and intracellular pathogenic
+Edwardsiella tarda. Since the dose of IFN-α2b was proportional to protective ability against bacteria and exogenous
+fatty acids played the similar roles in eliminating microbial
+infection, activation of biosynthesis of unsaturated fatty acids
+became a downstream pathway to mediate anti-microbial
+function of IFN-α2b. These results reveal an unknown
+mechanism by which IFN-α2b protects host from microbial
+infections, highlighting the ways to understand action of IFN
+in content of metabolic regulation (Zhao et al., 2014).
+Besides the reprogramming metabolome of immune
+regulator such as IFN-α2b, the approach can be used to
+restore host defense ability from susceptibility to resistance
+to pathogens. Streptococcosis causes massive tilapia kills,
+which results in heavy economic losses of tilapia farming
+industry. Current antibiotic options are limited and possess
+severe practical limitations and potential adverse environmental impacts. GC-MS based metabolomics is used to
+characterize variation of metabolomes in response to
+S. iniae. Nine key metabolites that separate the survivals
+
+from the dying and control were identiﬁed. N-acetylglucosamine was the most critical metabolite elevated in survival groups but decreased in dying groups. The reversal
+change formed a characteristic feature as a result of tilapias
+against infection caused by S. iniae. When exogenous
+N-acetylglucosamine was added, the survival ability signiﬁcantly elevated by at least 35%. In anti-S. agalactiae metabolome, signiﬁcant decrease of several amino acids and
+their metabolic pathways was characterized. L-proline was
+identiﬁed as a crucial biomarker. Three-day L-proline-supplemented tilapias by intraperitoneal injection or oral
+administration before challenging with S. agalactiae showed
+the signiﬁcant higher resistance against the challenging
+bacteria, elevating 60% survival rates in group with 2 mg
+L-proline injection (Cheng et al., 2014). In the same way, the
+approach can be used to reprogram a metabolic strategy to
+modulate the effect of temperature on bacterial toxicity. S.
+agalactiae killed more tilapias in higher than lower temperatures, where 50% mortality and 70% mortality were reported for tilapias cultured in 25°C and 30°C, respectively while
+no death was detected at 20°C (Zhao et al., 2015). We
+
+© The Author(s) 2015. This article is published with open access at Springerlink.com and journal.hep.com.cn
+
+633
+
+REVIEW
+
+Bo Peng et al.
+
+investigated the metabolome change in the livers of tilapia.
+Thirty-six and forty-ﬁve varied abundance of metabolites
+were identiﬁed in livers of tilapias cultured at 25°C and 30°C,
+respectively. Decreasing abundance of L-proline was identiﬁed as a crucial biomarker for indexing higher water temperature and a potential modulator to reduce the high death.
+This was validated by engineering injection or oral addition of
+L-proline. Exogenous L-proline led to elevated amino acid
+metabolism, which contributed to the elevated survivals
+(Zhao et al., 2015). These results highlight the way to identify
+drug potentials to combat microbial infections though
+reprogramming metabolome (Fig. 2).
+
+Protein & Cell
+
+METHODOLOGIES FOR REPROGRAMMING
+METABOLOMICS
+Reprogramming metabolomics identiﬁes crucial biomarkers
+and pathways while discovery metabolomics does to provide
+potential metabolic modulators, reprogramming metabolites,
+for modulating an existing metabolome to a targeted metabolome. This leads to reconstitution of metabolic strategy. The
+reconstitution can be demonstrated by metabolomics analysis
+and functional assays (Peng et al., 2015a). The metabolomics
+analysis is used to validate the effect of exogenous metabolite
+boosting on varied metabolites and pathways and identify the
+metabolic ﬂux magnitudes into each metabolite pool by
+determining the mass isotopomer distribution for all labeled
+compounds (Peng et al., 2015a). The functional assays provide proofs on whether the reconstituted metabolic strategy
+may show the similar phenotypes and the mechanism of
+action (Peng et al., 2015a; Su et al., 2015; Cheng et al., 2014;
+Zhao et al., 2014; Ma et al., 2015). Thus, reprogramming
+metabolomics reveal the response and reconstituted
+
+Samples
+
+NMR GC-MS LC-MS CE-MS
+
+Integrated metabolomics technologies
+Other OMICs technologies
+
+Key enriched pathways
+
+Crucial biomarkers
+
+Crucial reprogramming metabolites
+Engineering metabolites
+Reprogramming phenotype
+
+Reprogramming metabolome
+
+Reprogramming mechanism
+
+Reprogramming significance
+
+Figure 3. Outline of reprogramming metabolome.
+
+mechanisms by analysis of the response metabolome and
+reconstituted metabolome, respectively, in which methods on
+molecular biology and biochemistry, cell biology and
+immunology will become basic tool to elucidate these mechanisms. The general methodologies of the reprogramming
+metabolomics are outlined in Fig. 3.
+
+Bacteria
+
+SUMMARY AND PERSPECTIVES
+Host
+Death
+
+Survival
+
+Survival metabolome
+
+Death metabolome
+
+Biomarkers
+Reprogramming
+
+Figure 2. Bacterial infection-sensitive metabolome is reprogrammed to bacterial anti-infective metabolome by exogenous crucial metabolites. Sublethal dose of pathogen causes
+hosts either to die or survival, which is related to their
+metabolomes. Crucial metabolites can be identiﬁed by comparison of the two metabolomes. Exogenous addition of the crucial
+metabolites increases the chances of survival.
+
+634
+
+While recent studies on metabolic proﬁles, metabolic
+biomarkers and metabolic mechanisms by the discovery
+metabolomics have substantially increased our understanding of cellular activity, it has also become clear that we should
+pay more attention to the reprogramming metabolomics. The
+striking feature on the similarity of the basic metabolic pathways and components between vastly different species
+makes the reprogramming metabolomics possible, forming a
+characteristic feature that differentiates from other OMICs.
+The reprogramming metabolomics combines response
+metabolome with reconstitution metabolome together to
+clarify response and reconstitution mechanisms and provide
+potential drugs for the purposes of disease prevention and
+treatment. Future research towards the theory and application
+of reprogramming metabolomics for the reconstitution of host
+metabolic strategies or the modulating of pathogenic
+microbes’ adverse metabolomes needs to be focused on
+understanding of the mechanisms underlying metabolic
+strategy, identiﬁcation of crucial biomarkers that can be
+
+© The Author(s) 2015. This article is published with open access at Springerlink.com and journal.hep.com.cn
+
+REVIEW
+
+Reprogramming metabolomics
+
+ACKNOWLEDGEMENTS
+This work was sponsored by grants from Science and Technology
+Program of Guangzhou (201504010025), the National Natural Science Foundation of China (Grant Nos. 41276145 and 31272702), the
+National Basic Research Program (973 Program) (No.
+2012CB114406), Doctoral Fund of Ministry of Education of China
+(20120171110008).
+
+ABBREVIATIONS
+CE-MS, capillary electrophoresis coupled to mass spectrometry;
+GC-MS, gas chromatography-mass spectrometry; IFN, interferon;
+LC-MS, liquid chromatography-mass spectrometry; mGWAS,
+
+metabolite-based genome-wide association study; MS, mass spectrometry; NMR, nuclear magnetic resonance.
+
+COMPLIANCE WITH ETHICS GUIDELINES
+Bo Peng, Hui Li and Xuanxian Peng declare that they have no
+conﬂict of interest. This article does not contain any studies with
+human or animal subjects performed by the any of the authors.
+
+OPEN ACCESS
+This article is distributed under the terms of the Creative Commons
+Attribution 4.0 International License (http://creativecommons.org/
+licenses/by/4.0/), which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to
+the original author(s) and the source, provide a link to the Creative
+Commons license, and indicate if changes were made.
+
+REFERENCES
+Adamski J (2012) Genome-wide association studies with metabolomics. Genome Med 4:34
+Adamski J, Suhre K (2013) Metabolomics platforms for genome
+wide association studies—linking the genome to the metabolome. Curr Opin Biotechnol 224:39–47
+Bhargava P, Collins JJ (2015) Boosting bacterial metabolism to
+combat antibiotic resistance. Cell Metab 21:154–155
+Bielecka M, Watanabe M, Morcuende R, Scheible WR, Hawkesford
+MJ, Hesse H, Hoefgen R (2014) Transcriptome and metabolome
+analysis of plant sulphate starvation and resupply provides novel
+information on transcriptional regulation of metabolism associated with sulphur, nitrogen and phosphorus nutritional responses
+in Arabidopsis. Front Plant Sci 5:805
+Brennan L (2014) NMR-based metabolomics: from sample preparation to applications in nutrition research. Prog Nucl Magn
+Reson Spectrosc 83:42–49
+Budczies J, Pﬁtzner BM, Györffy B, Winzer KJ, Radke C, Dietel M,
+Fiehn O, Denkert C (2015) Glutamate enrichment as new
+diagnostic opportunity in breast cancer. Inter J Cancer
+136:1619–1628
+Carey BW, Finley LW, Cross JR, Allis CD, Thompson CB (2015)
+Intracellular α-ketoglutarate maintains the pluripotency of embryonic stem cells. Nature 518:413–416
+Castro-Santos P, Laborde CM, Diaz-Pena R (2015) Genomics,
+proteomics and metabolomics: their emerging roles in the
+discovery and validation of rheumatoid arthritis biomarkers. Clin
+Exp Rheumatol 33:279–286
+Cheng ZX, Ma YM, Li H, Peng XX (2014) N-acetylglucosamine
+enhances survival ability of tilapias infected by Streptococcus
+iniae. Fish Shellﬁsh Immunol 40:524–530
+Commisso M, Strazzer P, Toffali K, Stocchero M, Guzzo F (2013)
+Untargeted metabolomics: an emerging approach to determine the
+composition of herbal products. Comput Struct Biotechnol J 4:1–7
+Do KT, Kastenmuller G, Mook-Kanamori DO, Yousri NA, Theis FJ,
+Suhre K, Krumsiek J (2015) Network-based approach for
+analyzing intra- and interﬂuid metabolite associations in human
+blood, urine, and saliva. J Proteome Res 14:1183–1194
+
+© The Author(s) 2015. This article is published with open access at Springerlink.com and journal.hep.com.cn
+
+635
+
+Protein & Cell
+
+efﬁcient for reprogramming metabolome, and disclosing of the
+reprogramming mechanisms. While gene-to-metabolite and
+protein-to-metabolite analysis by mGWAS and integrated
+OMICs provides a useful tool for improvement of crucial biomarker identiﬁcation and mechanism understanding, the
+regulation of metabolites to other molecules including proteins
+and nucleic acids and the clariﬁcation of metabolic ﬂuxes by
+exogenous metabolites are a useful clue to understanding the
+reprogramming mechanisms.
+The reprogramming metabolomics described in this paper
+has so far only been ‘the beginning’, but the approach has
+proven to be useful tools for reconstitution of an aimed metabolome and understanding of the reconstitution mechanisms,
+such as reverting ‘antibiotic-resistant metabolome’ to ‘antibiotic-susceptible metabolome’ by promoting the TCA cycle,
+NADH and proton motive force and thereby increasing
+antibiotic uptake (Peng et al., 2015a; Su et al., 2015). Particular attention should be paid to identify highly efﬁcient reprogramming metabolites that result in reinforcing host’s
+metabolic strategy against adverse factors and reverting
+microbes’ resistant-metabolomes to susceptible-metabolomes to killing. The identiﬁcation should be based on understanding of metabolic proﬁle, clariﬁcation of metabolic
+pathways and network, and disclosing of metabolic mechanisms. Furthermore, the synergistic use of reprogramming
+compounds can elevate then reprogramming effects (Peng
+et al., 2015a), which highlights the way to boost the reprogramming output. A further factor that may be neglected is the
+clariﬁcation of metabolic ﬂuxes caused by exogenous reprogramming metabolites. The metabolic ﬂuxes play a crucial role
+in reconstitution of the reinforcing or reverting metabolomes,
+determination of the reconstitution effect and understanding of
+the reprogramming mechanisms. Finally, the goal to be pursued in the future will be to transfer these approaches to
+clinical use by identifying efﬁcient reprogramming metabolites
+as drugs. Since metabolites are generally non-poisonous to
+organisms, the use of the reprogramming drugs becomes
+relatively simple, which brings the gospel to human heath,
+animal feed and aquaculture. Therefore, the reprogramming
+metabolomics will provide an alternative way for nutrition care,
+physical recovery, disease prevention and treatment.
+
+Protein & Cell
+
+REVIEW
+
+Bo Peng et al.
+
+Dörries K, Schlueter R, Lalk M (2014) Impact of antibiotics with
+various target sites on the metabolome of Staphylococcus
+aureus. Antimicrob Agents Chemother 58:7151–7163
+Dudka I, Kossowska B, Senhadri H, Latajka R, Hajek J, Andrzejak
+R, Antonowicz-Juchniewicz J, Gancarz R (2014) Metabonomic
+analysis of serum of workers occupationally exposed to arsenic,
+cadmium and lead for biomarker research: a preliminary study.
+Environ Int 68:71–81
+Dumas ME (2012) Metabolome 2.0: quantitative genetics and network
+biology of metabolic phenotypes. Mol Biosyst 8:2494–2502
+Dumas ME, Kinross J, Nicholson JK (2014) Metabolic phenotyping
+and systems biology approaches to understanding metabolic
+syndrome and fatty liver disease. Gastroenterol 146:46–62
+Farag MA, Porzel A, Mahrous EA, El-Massry MM, Wessjohann LA
+(2015) Integrated comparative metabolite proﬁling via MS and
+NMR techniques for Senna drug quality control analysis. Anal
+Bioanal Chem 407:1937–1949
+Feng Q, Liang S, Jia H, Stadlmayr A, Tang L, Lan Z, Zhang D et al
+(2015) Gut microbiome development along the colorectal adenoma–carcinoma sequence. Nat Commun 6:6528
+Floegel A, Wientzek A, Bachlechner U, Jacobs S, Drogan D, Prehn
+C, Adamski J, Krumsiek J, Schulze M, Pischon T (2014) Linking
+diet, physical activity, cardiorespiratory ﬁtness and obesity to
+serum metabolite networks: ﬁndings from a population-based
+study. Int J Obes (Lond) 38:1388–1396
+Fuhrer T, Zamboni N (2015) High-throughput discovery metabolomics. Curr Opin Biotechnol 31:73–78
+Gao P, Xu G (2015) Mass-spectrometry-based microbial metabolomics: recent developments and applications. Anal Bioanal
+Chem 407:669–680
+Ghartey J, Bastek JA, Brown AG, Anglim L, Elovitz MA (2015)
+Women with preterm birth have a distinct cervicovaginal
+metabolome. Am J Obstet Gynecol 212:776-e1
+Gibbons H, O’Gorman A, Brennan L (2015) Metabolomics as a tool
+in nutritional research. Curr Opin Lipidol 26:30–34
+Helms JB, Kaloyanova DV, Strating JR, van Hellemond JJ, van der
+Schaar HM, Tielens AG, van Kuppeveld FJ, Brouwers JF (2015)
+Targeting of the hydrophobic metabolome by pathogens. Trafﬁc
+16:439–460
+Holmes E, Wilson ID, Nicholson JK (2008) Metabolic phenotyping in
+health and disease. Cell 134:714–717
+Jorge TF, Rodrigues JA, Caldana C, Schmidt R, van Dongen JT,
+Thomas‐Oates J, António C (2015). Mass spectrometry‐based
+plant metabolomics: Metabolite responses to abiotic stress. Mass
+Spectrom Rev. doi:10.1002/mas.21449
+Kim D, Fiske BP, Birsoy K, Freinkman E, Kami K, Possemato RL,
+Chudnovsky Y et al (2015) SHMT2 drives glioma cell survival in
+ischaemia but imposes a dependence on glycine clearance.
+Nature 520:363–367
+Klähn S, Orf, Schwarz D, Matthiessen JK, Kopka J, Hess WR,
+Hagemann M (2015). Integrated transcriptomic and metabolomic
+characterization of the low-carbon response using an ndhR
+mutant of Synechocystis sp. PCC 6803. Plant Physiol, 144
+Krug D, Müller R (2014) Secondary metabolomics: the impact of
+mass spectrometry-based approaches on the discovery and
+characterization of microbial natural products. Nat Prod Rep
+31:768–783
+
+636
+
+Kumar B, Prakash A, Ruhela RK, Medhi B (2014) Potential of
+metabolomics in preclinical and clinical drug development.
+Pharmacol Rep 66:956–963
+Kusuda H, Koga W, Kusano M, Oikawa A, Saito K, Hirai MY, Yoshida
+KT (2015) Ectopic expression of myo-inositol 3-phosphate
+synthase induces a wide range of metabolic changes and
+confers salt tolerance in rice. Plant Sci 232:49–56
+Li PP, Liu XJ, Li H, Peng XX (2012) Downregulation of Na (+)–NQR
+complex is essential for Vibrio alginolyticus in resistance to
+baloﬂoxacin. J Proteomics 75:2638–2648
+Lin XM, Yang MJ, Li H, Wang C, Peng XX (2014) Decreased
+expression of LamB and Odp1 complex is crucial for antibiotic
+resistance in Escherichia coli. J Proteomics 98:244–253
+Liu X, Zhang CC, Liu Z, Wei L, Liu YJ, Yu J, Sun LX (2014) LCbased targeted metabolomics analysis of nucleotides and identiﬁcation of biomarkers associated with chemotherapeutic drugs
+in cultured cell models. Anti Cancer Drugs 25:690–703
+Ma YM, Yang MJ, Wang S, Li H, Peng XX (2015) Liver functional
+metabolomics discloses an action of L-leucine against Streptococcus iniae infection intilapias. Fish Shellﬁsh Immunol 45:414–421
+Mahrous EA, Farag MA (2015) Two dimensional NMR spectroscopic
+approaches for exploring plant metabolome: A review. J Adv Res
+6:3–15
+Mastrangelo A, Armitage EG, García A, Barbas C (2014) Metabolomics as a tool for drug discovery and personalised medicine. A
+review. Curr Top Med Chem 14:2627–2636
+Matsuda R, Bi C, Anguizola J, Sobansky M, Rodriguez E, Badilla JV,
+Zheng X, Hage B, Hage DS (2014) Studies of metabolite–protein
+interactions: a review. J Chromatogr B Analyt Technol Biomed
+Life Sci 966:48–58
+Nakabayashi R, Saito K (2015) Integrated metabolomics for abiotic
+stress responses in plants. Curr Opin Plant Biol 24:10–16
+Osanai T, Oikawa A, Iijima H, Kuwahara A, Asayama M, Tanaka K,
+Ikeuchi M, Saito K, Hirai MY (2014) Metabolomic analysis reveals
+rewiring of Synechocystis sp. PCC 6803 primary metabolism by
+ntcA overexpression. Environ Microbiol 16:3304–3317
+Patel S, Ahmed S (2015) Emerging ﬁeld of metabolomics: big
+promise for cancer biomarker identiﬁcation and drug discovery.
+J Pharm Biomed Anal 107:63–74
+Peng XX (2013) Proteomics and its applications to aquaculture in
+China: Infection, immunity, and interaction of aquaculture hosts
+with pathogens. Dev Comp Immunol 39:63–71
+Peng B, Su YB, Li H, Han Y, Guo C, Tian YM, Peng XX (2015a)
+Exogenous alanine and/or glucose plus kanamycin kills antibiotic-resistant bacteria. Cell Metab 21:249–261
+Peng S, Zhang J, Liu L, Zhang X, Huang Q, Alamdar A, Tian M,
+Shen H (2015b) Newborn meconium and urinary metabolome
+response to maternal gestational diabetes mellitus: a preliminary
+case–control study. J Proteome Res 14:1799–1809
+Ramautar R, Somsen GW, de Jong GJ (2015) CE-MS for
+metabolomics: developments and applications in the period
+2012–2014. Electrophoresis 36:212–224
+Rojo D, Gosalbes MJ, Ferrari R, Pérez-Cobas AE, Hernández E,
+Oltra R, Buesa J, Latorre A, Barbas C, Ferrer M (2015).
+Clostridium difﬁcile heterogeneously impacts intestinal community architecture but drives stable metabolome responses. ISME
+J. doi:10.1038/ismej.2015.32
+
+© The Author(s) 2015. This article is published with open access at Springerlink.com and journal.hep.com.cn
+
+Su YB, Peng B, Han Y, Li H, Peng XX (2015) Fructose restores
+susceptibility of multidrug-resistant Edwardsiella tarda to kanamycin. J Proteome Res 14:1612–1620
+Suhre K, Shin SY, Petersen AK, Mohney RP, Meredith D, Wägele B,
+Altmaier E, Deloukas P, Erdmann J, Grundberg E (2011) Human
+metabolic individuality in biomedical and pharmaceutical
+research. Nature 477:54–60
+Sun CX, Li MQ, Gao XX, Liu LN, Wu XF, Zhou JH (2015). Metabolic
+response of maize plants to multi-factorial abiotic stresses. Plant
+Biol (Stuttg). doi:10.1111/plb.12305
+Tannahill GM, Curtis AM, Adamik J, Palsson-McDermott EM,
+McGettrick AF, Goel G, Frezza C et al (2013) Succinate is an
+inﬂammatory signal that induces IL-1β through HIF-1α. Nature
+496:238–242
+Vázquez-Fresno R, Llorach R, Urpi-Sarda M, Lupianez-Barbero A,
+Estruch R, Corella D, Fitó M, Arós F, Ruiz-Canela M, SalasSalvadó J (2014) Metabolomic pattern analysis after mediterranean diet intervention in a nondiabetic population: a 1-and
+3-year follow-up in the PREDIMED study. J Proteome Res
+14:531–540
+Wagner ND, Lankadurai BP, Simpson MJ, Simpson AJ, Frost PC
+(2015) Metabolomic differentiation of nutritional stress in an
+aquatic invertebrate. Physiol Biochem Zool 88:43–52
+Wang X, Mu X, Zhang J, Huang Q, Alamdar A, Tian M, Liu L, Shen H
+(2015) Serum metabolomics reveals that arsenic exposure
+disrupted lipid and amino acid metabolism in rats: a step forward
+in understanding chronic arsenic toxicity. Metallomics 7:544–552
+Weckmann K, Labermaier C, Asara J, Müller M, Turck C (2014)
+Time-dependent metabolomic proﬁling of Ketamine drug action
+
+reveals hippocampal pathway alterations and biomarker candidates. Transl Psychiatry 4:e481
+Wolfender JL, Marti G, Thomas A, Bertrand S (2015) Current
+approaches and challenges for the metabolite proﬁling of
+complex natural extracts. J Chromatogr A 1382:136–164
+Wu CW, Zhao XL, Wu XJ, Wen C, Li H, Chen XH, Peng XX (2015)
+Exogenous glycine and serine promote growth and antifungal
+activity of Penicillium citrinum W1 from the Southwest Indian
+Ocean. FEMS Microbiol Lett 362:fnv040
+Zhang J, Shen H, Xu W, Xia Y, Barr DB, Mu X, Wang X, Liu L, Huang
+Q, Tian M (2014) Urinary metabolomics revealed arsenic internal
+dose-related metabolic alterations: a proof-of-concept study in a
+Chinese male cohort. Environ Sci Technol 48:12265–12274
+Zhang Y, Zhao F, Deng Y, Zhao Y, Ren H (2015) Metagenomic and
+metabolomic analysis of the toxic effects of trichloroacetamideinduced gut microbiome and urine metabolome perturbations in
+mice. J Proteome Res 14:1752–1761
+Zhao XL, Wu CW, Peng XX, Li H (2014) Interferon-α2b against
+microbes through promoting biosynthesis of unsaturated fatty
+acids. J Proteome Res 13:4155–4163
+Zhao XL, Han Y, Ren ST, Ma YM, Li H, Peng XX (2015) L-proline
+increases survival of tilapias infected by Streptococcus agalactiae in higher water temperature. Fish Shellﬁsh Immunol 44:33–
+42
+Zheng H, Kim J, Liew M, Yan JK, Herrera O, Bok JW, Kelleher NL,
+Keller NP, Wang Y (2015) Redox metabolites signal polymicrobial
+bioﬁlm development via the NapA oxidative stress cascade in
+aspergillus. Curr Biol 25:29–37
+
+© The Author(s) 2015. This article is published with open access at Springerlink.com and journal.hep.com.cn
+
+637
+
+Protein & Cell
+
+REVIEW
+
+Reprogramming metabolomics
+
+

@@ -1,0 +1,703 @@
+RESEARCH ARTICLE
+
+Exploring the Saccharomyces cerevisiae
+Volatile Metabolome: Indigenous versus
+Commercial Strains
+Zélia Alves1, André Melo2,3, Ana Raquel Figueiredo1,2, Manuel A. Coimbra1, Ana
+C. Gomes2, Sílvia M. Rocha1*
+1 Departament of Chemistry & QOPNA, University of Aveiro, 3810–193, Aveiro, Portugal, 2 Genomics Unit,
+Biocant–Biotechnology Innovation Center, Parque Tecnológico de Cantanhede, Núcleo 4, Lote 8, 3060–197,
+Cantanhede, Portugal, 3 Departament of Biology & CESAM, University of Aveiro, 3810–193, Aveiro,
+Portugal
+* smrocha@ua.pt
+
+Abstract
+OPEN ACCESS
+Citation: Alves Z, Melo A, Figueiredo AR, Coimbra
+MA, Gomes AC, Rocha SM (2015) Exploring the
+Saccharomyces cerevisiae Volatile Metabolome:
+Indigenous versus Commercial Strains. PLoS ONE
+10(11): e0143641. doi:10.1371/journal.pone.0143641
+Editor: Tiffany L. Weir, Colorado State University,
+UNITED STATES
+Received: July 30, 2015
+Accepted: November 6, 2015
+Published: November 24, 2015
+Copyright: © 2015 Alves et al. This is an open
+access article distributed under the terms of the
+Creative Commons Attribution License, which permits
+unrestricted use, distribution, and reproduction in any
+medium, provided the original author and source are
+credited.
+Data Availability Statement: All relevant data are
+within the paper in the Supporting Information files
+(full data set was added).
+Funding: Funding is acknowledged from the
+European Regional Development Fund (FEDER)
+through the Competitive Factors Thematic
+Operational Program (COMPETE) and from the FCT,
+Portugal, for supporting the Organic Chemistry
+Research Unit (62/94 QOPNA, under projects FCT
+UID/QUI/00062/2013), and project HoliWine: Holistic
+approaches to oenology (FCOMP-01-0124-FEDER027411).
+
+Winemaking is a highly industrialized process and a number of commercial Saccharomyces
+cerevisiae strains are used around the world, neglecting the diversity of native yeast strains
+that are responsible for the production of wines peculiar flavours. The aim of this study was
+to in-depth establish the S. cerevisiae volatile metabolome and to assess inter-strains variability. To fulfill this objective, two indigenous strains (BT2652 and BT2453 isolated from
+spontaneous fermentation of grapes collected in Bairrada Appellation, Portugal) and two
+commercial strains (CSc1 and CSc2) S. cerevisiae were analysed using a methodology
+based on advanced multidimensional gas chromatography (HS-SPME/GC×GC-ToFMS)
+tandem with multivariate analysis. A total of 257 volatile metabolites were identified, distributed over the chemical families of acetals, acids, alcohols, aldehydes, ketones, terpenic
+compounds, esters, ethers, furan-type compounds, hydrocarbons, pyrans, pyrazines and
+S-compounds. Some of these families are related with metabolic pathways of amino acid,
+carbohydrate and fatty acid metabolism as well as mono and sesquiterpenic biosynthesis.
+Principal Component Analysis (PCA) was used with a dataset comprising all variables (257
+volatile components), and a distinction was observed between commercial and indigenous
+strains, which suggests inter-strains variability. In a second step, a subset containing esters
+and terpenic compounds (C10 and C15), metabolites of particular relevance to wine aroma,
+was also analysed using PCA. The terpenic and ester profiles express the strains variability
+and their potential contribution to the wine aromas, specially the BT2453, which produced
+the higher terpenic content. This research contributes to understand the metabolic diversity
+of indigenous wine microflora versus commercial strains and achieved knowledge that may
+be further exploited to produce wines with peculiar aroma properties.
+
+PLOS ONE | DOI:10.1371/journal.pone.0143641 November 24, 2015
+
+1 / 16
+
+Exploring the Saccharomyces cerevisiae Volatile Metabolome
+
+Competing Interests: The authors stated that there
+are no conflicts of interest regarding the publication of
+this article. Research support played no role in the
+study design; in the collection, analysis and
+interpretation of data; in the writing of the report; or in
+the decision to submit the report for publication.
+
+Introduction
+Winemaking is a highly industrialized process and different Saccharomyces cerevisiae starter
+cultures are commercially available for its control and fermentation homogeneity. In fact, their
+dominant growth reduce the development of indigenous species potentially detrimental and, as
+a consequence, decrease the risk of wine spoilage [1–3]. However, the current existing commercial yeasts present some constrains, namely reducing the uniqueness of wine bouquet, characteristic of the different vitivinicultural regions throughout the world [1,4,5]. Recently, the role
+of indigenous yeast strains has gaining importance, as a form to express peculiar characters
+and to leverage the aroma profile of wines from a specific region/Appellation [6–9]. Indeed, the
+use of a “microarea-specific” starter culture has shown that the volatile profile of wine is strictly
+related to the geographical origin of the yeast employed used on the fermentation process [9].
+Also, the high biodiversity of S. cerevisiae strains throughout the vitivinicultural regions suggests the occurrence of specific natural strains associated with particular terroirs [10], which is
+not yet completely understood [11–13], namely those related with volatile metabolomic profiles. Previous studies suggested that some yeasts volatile metabolites, such as alcohols, esters
+and organic acids have impact on wine character [2,11].
+Microbial metabolomics constitutes an integrated component of systems biology, as it studies a set of metabolites produced by microorganism and monitors the global outcome of interactions between their development processes and the environment. Thus, metabolomics can
+potentially provide a more accurate snapshot of the physiological state of the microorganisms
+[14]. Recently, a metabolomic research exposed different behaviours of S. cerevisiae in two distinct growth media, expressed by differences in exometabolites related to wine quality, especially on the higher alcohols [15]. Studies on the characterization of S. cerevisiae metabolome
+by using high resolution 1H NMR (Nuclear Magnetic Resonance) [16] and GC-MS (gas chromatography-mass spectrometry) [17] were also reported, providing evidences that yeast behaviour depends on the strain, namely on the response to the stress induced by ethanol [16], and
+on the production of volatile aroma compounds [17]. Furthermore, different nutrients availability (e.g. nitrogen supplementation) confers strain metabolic behaviour changes during fermentative process, such variability is not only determined as a result of the stress but also due
+to the genetic background of the strain [18]. Actually, microbial metabolomics has been a
+breaking new ground as a very useful tool in several areas, including those related to microbial
+technology and aroma properties, since microorganisms produce several volatile metabolites
+that can be used as unique chemical fingerprints of each species, and possibly of each strain.
+Thus, the aim of the current research was to in-depth establish the S. cerevisiae metabolome
+based on the volatile metabolites. To fulfil this objective, two indigenous strains (isolated from
+spontaneous fermentation of grapes collected in Bairrada Appellation, Portugal) and two of the
+mostly used commercial strains (CSc1 and CSc2) of S. cerevisiae were analysed using high sensitive and high throughput methodology based on two dimensional gas chromatography
+(GC×GC). Previously, a phenotypic characterization was performed to allow a selection of the
+two S. cerevisiae indigenous strains using some crucial criteria such as high resistance to copper
+sulphate, high temperature tolerance, low production of hydrogen sulphide, killer activity, high
+tolerance to sulphur dioxide and high fermentation performance, that unveil the yeast oenological potential [19].
+
+Materials and Methods
+The sampling, reporting of chemical analysis and metadata relative to data pre-processing, pretreatment, processing, validation and interpretation were performed according to the metabolomics standards initiative (MSI) [20–22]. Fig 1 represents the main stages for S. cerevisiae
+
+PLOS ONE | DOI:10.1371/journal.pone.0143641 November 24, 2015
+
+2 / 16
+
+Exploring the Saccharomyces cerevisiae Volatile Metabolome
+
+Fig 1. Schematic representation of the main stages for S. cerevisiae metabolome determination. This includes yeast growth, sample, preparation and
+metabolites extraction, GC×GC analysis and data processing.
+doi:10.1371/journal.pone.0143641.g001
+
+metabolome determination, including yeast growth, sample preparation and metabolites
+extraction, GC×GC analysis and data processing, which were described in detail in the following sub-sections.
+
+S. cerevisiae isolation
+Grape samples were collected in Bairrada Appellation (Portugal) in the 2011 vintage. In the
+laboratory, grapes were crushed in a bag in aseptic conditions and the resulting must was
+placed in a sterile 500 mL Erlenmeyer. The fermentations were carried out at room temperature. The fermentation kinetic was monitored by daily weight measurements until the must
+weight was reduced 70 g/L (which was close to the end of fermentation). At the end of the fermentation, samples were filtered, diluted 10−4 times and plated in agar YPD medium (1% w/v
+yeast extract, 2% w/v glucose, 2% w/v peptone) in an incubator at 30°C during 48 h. Then, 30
+randomly chosen colonies were collected and the isolates were cryopreserved in glycerol (40%,
+w/v) at—80°C.
+The molecular identification of the isolated yeasts was carried out as described in [23] and
+in S1 Protocol and S1 Fig, both from Supporting Information. A total of 313 S. cerevisiae strains
+were identified. In order to select a reduced number of yeast strains to carry out the HS-SPME/
+GC×GC-ToFMS analysis, the phenotypic traits of the entire set of strains were characterized,
+to expose the maximum variability within the isolated strain collection. Thus, it was used a
+high throughput phenomics methodologies (S2 Protocol from Supporting Information), where
+a total of 36 growth conditions were tested, and grouped according to their phenotype profile.
+For the selection of two S. cerevisiae strains to use in downstream experiments, the following
+criteria have taken into consideration: firstly, strains were trimmed according to their
+
+PLOS ONE | DOI:10.1371/journal.pone.0143641 November 24, 2015
+
+3 / 16
+
+Exploring the Saccharomyces cerevisiae Volatile Metabolome
+
+oenological potential, where strains with high tolerance to SO2 and CuSO4, that were able to
+grow at high temperatures (42°C), and did not produce H2S were selected; secondly, from the
+resulting reduced set of strains, those two that displayed a more distinctive phenotype profile
+were selected (BT2453 and BT2652) (S2 Fig from Supporting Information). Also, two of the
+mostly used commercial wine yeast strains were selected for the volatile metabolome analyses
+(herein referred as CSc1 and CSc2).
+
+Growth conditions for metabolomics characterization
+The cryopreserved yeasts (BT2453, BT2652, CSc1 and CSc2) were plated in YPD (yeast peptone dextrose, Formedium, Norfolk, UK) solid medium and incubated during two days at
+30°C. Then, an isolated colony was replied from the medium and transferred into a falcon tube
+(50 mL) containing 10 mL of YPD liquid medium to grow at 30°C overnight, with gentle stirring (100 rpm). Afterwards, the cells were counted with a TC10 Automated Cell Counter
+(BioRad) and 106 cells of each strain were transferred to 20 mL of SD (0.69% (w/v) from YNB
+(yeast nitrogen base) without amino acids and 2% (w/v) from glucose, Formedium, Norfolk,
+UK) liquid medium and incubated at 30°C during 25 h, with a stirring of 160 rpm. The SD
+medium was chosen as a minimal growth media to allow a reduce co-elution with the yeast volatile components and metabolites. Three independent assays were performed for each strain.
+The cell culture was transferred to a vial of 60 mL with a magnetic stirrer and 4 g of NaCl
+99.5%. The vial was capped with a PTFE septum and an aluminium screw cap (Chromacol,
+Hertfordshire, UK) and the metabolic quenching was achieved by freezing the samples at
+-80°C. The strict control of quenching procedure that arrests the cellular metabolism and enzymatic reactions of yeast should be done to reduce data variability. As a control, 20 mL of SD
+medium in vials of 60 mL with a magnetic stirrer and 4 g of NaCl 99.5% was used.
+
+S. cerevisiae metabolome profiling by HS-SPME/GC×GC-ToFMS
+The volatile metabolites of the four yeast strains were analysed by headspace solid phase microextraction (HS-SPME) combined with comprehensive two-dimensional gas chromatography
+coupled to mass spectrometry with a high resolution time of flight analyzer (GC×GC-ToFMS).
+The SPME device included a fused silica fiber coating partially cross-linked with 50/30 μm divinylbenzene/carboxen/poly(dimethylsiloxane) (DVB/CAR/PDMS), with 1cm of length. The
+SPME fiber was conditioned at 250°C for 30 min in the GC injector, according to the manufacturer’s recommendations.
+For the HS-SPME assay, the samples stored at– 80°C in sampling vials were dethawed and
+placed in a thermostated water bath adjusted to 40.0 ± 0.1°C for 15 min to promote the transference of the metabolites from the sample to the headspace. After this step, the SPME fiber
+coating was manually inserted into the sample vial headspace for 45 min to obtain the free volatile metabolites. Three independent cultures were analysed from each S. cerevisiae strain.
+After the extraction/concentration step, the SPME fiber was manually introduced into the
+GC×GC-ToFMS injection port at 250°C and maintained for 30 s for desorption. The injection
+port was lined with a 0.75 mm I.D. splitless glass liner. Splitless injections were used (30 s). The
+LECO Pegasus 4D (LECO, St. Joseph, MI, USA) GC×GC-ToFMS system consisted of an Agilent GC 7890A gas chromatograph (Agilent Technologies, Inc., Wilmington, DE), with a dual
+stage jet cryogenic modulator (licensed from Zoex) and a secondary oven, and a mass spectrometer equipped with a high resolution ToF analyser. An Equity-5 column (30 m × 0.32 mm
+I.D, 0.25 μm film thickness, J&W Scientific Inc, Folsom, CA, USA) was used as 1D (first dimension) column and a DBFFAP (0.79 m × 0.25 mm I.D., 0.25 μm film thickness, J&W Scientific
+Inc, Folsom, CA, USA) was used as a 2D (second dimension) column. The carrier gas was
+
+PLOS ONE | DOI:10.1371/journal.pone.0143641 November 24, 2015
+
+4 / 16
+
+Exploring the Saccharomyces cerevisiae Volatile Metabolome
+
+helium at a constant flow rate of 2.50 mL/min. The primary oven temperature was programmed from 40°C (hold 1 min) to 230°C (10°C/min) (hold 2 min). The secondary oven temperature program was 30°C offset above the primary oven. The MS transfer line and MS source
+temperature was set at 250°C. The modulation time was 5 s and the modulator temperature
+was kept at 20°C offset (above secondary oven). The ToFMS was operated at a spectrum storage rate of 125 spectra/s. The mass spectrometer was operated in the EI mode at 70 eV using a
+range of m/z 35–350 and the detector voltage was -1786 V. Total ion chromatograms (TIC)
+were processed using the automated data processing software ChromaTOF1 (LECO) at signal-to-noise threshold of 100. Contour plots were used to evaluate the separation general quality and for manual peak identification. In order to tentatively identify the different compounds,
+the mass spectrum of each compound detected was compared to those in mass spectral libraries which included an in-house library of standards, and commercial databases (Wiley 275 and
+US National Institute of Science and Technology (NIST) V. 2.0 -Mainlib and Replib). Moreover, a manual analysis of mass spectra was done, combining additional information like retention index (RI) value, which was experimentally determined according to van den Dool and
+Kratz RI equation [24]. A C8-C20 n-alkanes series was used for RI determination (the solvent
+n-hexane was used as C6 standard), comparing these values with reported ones in existing literature for chromatographic columns similar to 1D column above mentioned (S1 Table from
+Supporting Information). The majority of the identified compounds presented similarity
+matches > 800. The Deconvoluted Total Ion Current (DTIC) GC×GC area data were used as
+an approach to estimate the relative content of each metabolite component of yeast strains.
+Reproducibility was expressed as relative standard deviation (% RSD) in S1 and S2 Tables from
+Supporting Information.
+
+Data processing
+In order to extract the main sources of variability and hence to characterize the data set, a multivariate analysis was performed. Principal Component Analysis (PCA) is a statistical tool used
+to visualize patterns of classification from the data sets analysed. It simplifies high dimensionality data sets by converting observations into principal components that emphasise variances in
+the data [25]. Peak areas of all compounds were extracted from the chromatograms and used
+to build the data matrix, consisting of 12 observations (3 independent samples per strains, in a
+total of 4 yeast strains) and 257 variables (metabolites). A complete list of these compounds is
+provided in S1 Table and the full data set with the corresponding areas of the three independent replicates of each strain is presented in S2 Table (Supporting Information). Considering
+the relevant potential contribution of the terpenic compounds and esters for the wine aroma,
+in a second step, a PCA was also performed using these two chemical families. This sub-data
+set consisted of 12 observations (3 independent samples per strain, in a total of 4 yeast strains)
+and 72 variables (peak areas of terpenic compounds and esters). After median and autoscaling
+normalization, PCAs were performed using the MetaboAnalyst 2.0 (web interfaces) [26,27]. A
+heatmap visualization of the data set (4 yeast strains and 257 volatile compounds) was also performed after a logarithm function transformation of each GC peak area using the Unscrambler1 X (30 day trial version–CAMO Software AS, Oslo, Norway).
+
+Results and Discussion
+S. cerevisiae metabolome profiling
+The volatile metabolome of four S. cerevisiae strains under study is represented in the GC×GC
+total ion chromatogram contour plots (Fig 2). The visual analysis of the contour plots allows a
+rapid assessment of yeast strains comparison. This technique is ideal for the analysis of
+
+PLOS ONE | DOI:10.1371/journal.pone.0143641 November 24, 2015
+
+5 / 16
+
+Exploring the Saccharomyces cerevisiae Volatile Metabolome
+
+Fig 2. Volatile metabolome of S. cerevisiae strains represented by GC×GC total ion chromatogram contour plots: BT2453 and BT2652
+corresponding to strains isolated from wine, and CSc1 and CSc2, corresponding to commercial yeast strains.
+doi:10.1371/journal.pone.0143641.g002
+
+PLOS ONE | DOI:10.1371/journal.pone.0143641 November 24, 2015
+
+6 / 16
+
+Exploring the Saccharomyces cerevisiae Volatile Metabolome
+
+complex mixtures, as compounds with similar chemical structure can be grouped into distinct
+patterns in the 2D chromatographic plane, providing useful information on their volatility and
+polarity (as a non-polar/polar column set was used), and relationships of structured retentions
+have proved especially useful for compound identification (S1 Table). This unique peculiarity
+of the GC×GC chromatogram is a powerful tool in the identification step.
+The contour plot shows that all S. cerevisiae strains have similar profiles (Fig 2), although
+minimal differences between yeast strains are noticeable. In fact, BT2453 strain exhibited
+higher number of compounds and peak areas. For a detailed S. cerevisiae metabolomic profiling, a pre-processing of raw instrumental data was done to construct a data matrix regarding
+further statistical analysis. The full data matrix is provided as Supplementary Data (S1 Table),
+which presents the information obtained for each of the 257 compounds tentatively identified,
+including the retention times in both dimensions, GC peak areas, RSD, and retention index
+experimentally calculated (RIcal) and available in the literature for a 5% phenyl polysilphenylene-siloxane GC column or equivalent (RIlit).
+The volatile metabolites were distributed over 13 chemical classes including acetals, acids,
+alcohols, aldehydes, ketones, terpenic compounds, esters, ethers, furan-type compounds,
+hydrocarbons, pyrans, pyrazines and S-compounds (Fig 3 and S1 Table), revealing the complexity of this matrix. To date, studies on the volatile metabolome of S. cerevisiae have reported
+the presence of 1,1-diethoxyethane, 1-propanol, isobutanol, 3-methylbutanol, 2-methylbutanol, 2-phenylethanol, acetoin (3-hydroxy-2-butanone), ethyl acetate, ethyl lactate (ethyl
+2-hydroxypropanoate) previously reported [15]. Further, other studies performed on wine
+characterization also suggests the role of the yeasts on the production of aroma compounds,
+such as acetic acid, hexanoic acid, octanoic acid, ethyl hexanoate, ethyl octanoate, 2-phenylethyl acetate, butanal, 3-methyl-1-butanal, 1-hexanol, linalool, geraniol or nerol [2,28,29].
+These metabolites were also detected on the present research as S. cerevisiae metabolites.
+The number of metabolites per strain ranged from 210 compounds for BT2453 strain up to
+156 for the CSc1 strain. The CSc2 and the BT2652 strains produced similar amounts of volatile
+compounds, 172 and 170, respectively. For an easy interpretation of the full data set concerning
+the volatile profile of the strains under study a heatmap representation (Fig 3) was performed,
+which allows a rapid visual assessment of the similarities and differences between samples.
+Concerning the number of compounds identified, esters, alcohols and ketones represent the
+major groups for all the S. cerevisiae strains (Fig 3). Indeed, differences on the relative abundance of compounds among strains were observed, suggesting that these strains have different
+metabolome profiles. The BT2453 strain, which stands out from the other three, was isolated
+from wine and produced the higher relative abundances of compounds belonging to the chemical family of aldehydes, terpenic compounds, esters, furan-type compounds, pyrazines and Scompounds.
+The S. cerevisiae metabolome profiling revealed a network of pathways that explains the origin of the detected metabolites. This information is scarce and disperse, however, the origin of
+some families is already known. For instance, aliphatic acids with a short chain, such as acetic,
+propanoic and butanoic acids, are by-products of fermentation, while medium-chain fatty
+acids (e.g. octanoic and decanoic acids) are intermediates formed enzymatically during fermentation by fatty acid biosynthesis [2,30]. The octanoic acid was the most dominant acid for all
+the strains under study, followed by decanoic acid, excepting for BT2652 strain, whose second
+most abundant compound was acetic acid. The biosynthesis of higher alcohols derives either
+by Ehrlich pathway (transamination reactions of an amino acid to an α-keto acid) and/or by
+carbohydrate metabolism via pyruvate by anabolic pathway. The resulting α-keto acid is converted into the corresponding fusel alcohol by decarboxylation to form an aldehyde and followed by a reduction to higher alcohols [2,31]. The 3-methyl-1-butanol and 2-methyl-
+
+PLOS ONE | DOI:10.1371/journal.pone.0143641 November 24, 2015
+
+7 / 16
+
+Exploring the Saccharomyces cerevisiae Volatile Metabolome
+
+Fig 3. Heatmap representation of GC×GC peak areas of metabolites from four S. cerevisiae strains. The metabolites were organized by chemical
+families, and with the indication of the number of compounds per family. Areas are normalized by applying a logarithm function. Each line corresponds to one
+metabolite, and each column corresponds to each strain (BT2453, BT2652, CSc1 and CSc2, each one with three independent cultures). The terpenic profile
+is highlighted at the right side: β -Myrcene (121), α-Terpinene (122), Limonene (123), β-Ocimene (124), Dihydromyrcenol (125), γ-Terpinene (126),
+6,10-Dihydromyrcenol (127), α-Terpinolene (128), Linalool (129), α-Terpineol (130), Nerol (131), Isogeraniol (132), Geraniol (133), Citral (134),
+Geranylacetate (135), β-Farnesene (136), α-Farnesene (137), Nerolidol (138).
+doi:10.1371/journal.pone.0143641.g003
+
+PLOS ONE | DOI:10.1371/journal.pone.0143641 November 24, 2015
+
+8 / 16
+
+Exploring the Saccharomyces cerevisiae Volatile Metabolome
+
+1-propanol were the main aliphatic alcohols present in the metabolome from all yeast strains,
+and both can be produced through degradation of the branched-chain amino acids leucine and
+valine. Other relevant volatile metabolites are 2-methyl-1-butanol and 2-phenylethanol, which
+can be formed from isoleucine and phenylalanine, respectively [2,31]. Both aliphatic (eg.
+3-methyl-1-butanal and 2-methyl-1-butanal) and aromatic aldehydes (e.g. 2-phenylacetaldeyde) can derive from degradation of specific amino acids and from sugar metabolism. Further, this chemical family can be formed by oxidation of alcohols and autoxidation of fatty
+acids [2]. Some aliphatic ketone metabolites are produced by S. cerevisiae strain as intermediates in the reductive decarboxylation of pyruvate to 2,3-butanodiol (acetoin biosynthesis), generally 2,3-butanedione (diacetyl) and 3-hydroxy-2-butanone (acetoin). These compounds can
+be produced during amino acid, especially valine, and sugar metabolism [32]. Sulphur compounds family is characterized by some chemical classes as ketones, alcohols, furans and thiazoles. The degradation of sulphur-containing amino acids (methionine and cysteine) by
+Ehrlich pathway is responsible of volatile sulphur compounds (e.g. 3-(methylthio)propanol
+and methyldisulfide) [31,33].
+From all the 13 chemical families identified on the S. cerevisiae metabolome, particular
+attention was done to the terpenic and esters compounds due to their potential positive impact
+to the wine aroma properties. Regarding terpenic compounds, S. cerevisiae metabolome comprised 9 up to 17 metabolites per strain, in a total of 18 compounds detected on all the strains
+under study, distributed over monoterpenic (15) and sesquiterpenic (3) compounds. Hydrocarbon-type compounds represent the higher number of components, however the higher content was observed for the alcohol type, such as for the linalool, geraniol and nerolidol. The
+BT2453 strain presented the higher total GC peak area due to the high abundance of linalool
+and the presence of four metabolites which were not present in volatile metabolome of other
+strains (α-terpinene, γ-terpinene, iso-geraniol and nerol acetate), thus explaining its potential
+contribution for peculiar beverage characteristics. The origin of mono and sesquiterpenic compounds may be explained based on a set of mechanisms: terpen biosynthesis pathway (mevalonate pathway where the geranyl and farnesyl diphosphate, precursors of monoterpenic and
+sesquiterpenic compounds respectively, are produced) [5,34] and/or biotransformation reactions [35,36] from precursor compounds present in growth media composition (four monoterpenoids, γ-terpinene, α-terpinolene, linalool, α-terpineol) was found in SD growth medium–
+data not shown). A schematic representation is proposed to illustrate the network of pathways
+that explains the S. cerevisiae terpen and ester metabolites origin (Fig 4).
+Esters family is characterized by 45 aliphatic (C4-C15) and 9 aromatic (C8-C12) compounds,
+which are represented by acetates of higher alcohols and ethyl esters of fatty acids [38]. The
+first can be formed by condensation reaction between acetyl-CoA and alcohol [38] and the second is derived from ethanol and a medium-chain acyl-CoA activated [2,29,39]. These substrates are produced during carbohydrate, fatty acid and/or amino acid metabolism [37]. Ethyl
+octanoate represented the major ester for all the strains, with the exception of CSc1. For this
+strain, ethyl decanoate was the dominant one. Other relevant compound that characterizes the
+volatile metabolome for all strains was ethyl hexanoate, and the BT2652 strain was the higher
+producer. Ethyl dec-9-enoate was only detected in the metabolome profile of CSc1. Within aromatic esters, BT2453 strain produced all the metabolites while the remaining strains only produced four. However, all the strains were capable to produce the two major aromatic esters
+tentatively identified in S. cerevisiae volatile metabolome—methyl benzoate and 2-phenylacetate. In relation to aliphatic acetates, ethyl acetate and 2-methylbutyl acetate were the major
+components for all strains under study. Ethyl acetate can be one of the major compounds due
+to the large quantities of ethanol present and because the primary alcohols are the most reactive
+[40].
+
+PLOS ONE | DOI:10.1371/journal.pone.0143641 November 24, 2015
+
+9 / 16
+
+Exploring the Saccharomyces cerevisiae Volatile Metabolome
+
+Fig 4. Schematic representation proposed to explain S. cerevisiae metabolic pathways related to terpenic and esters chemical families. (PP—
+Diphosphate) [34,35,37].
+doi:10.1371/journal.pone.0143641.g004
+
+S. cerevisiae strains distinction using Principal Component Analysis and
+potential impact on aroma peculiarities
+In order to simplify the high dimensionality of the data set and to understand the variability
+among the strains, the GC peak areas of 257 metabolites were submitted to a PCA procedure to
+generate a visual representation of the discrimination between the strains by their metabolite
+profiles. Fig 5(A) shows the scores scatter plot in which the two first principal components
+explain 71.5% of the total variability of data set. Fig 5(B) and 5(C) represents the corresponding
+PC1 and PC2 loadings plot, respectively, which establishes the contribution of each metabolite
+to the principal components. Accordingly, PC1 explains 43.4% of the total variability, and
+BT2453 strain (PC1 negative) was distinguished from all other strains, and was characterized
+by aldehydes, ketones, terpenic compounds, esters, furan-type, pyrazines and S-compounds.
+PC2, which explains 28.1% of the total variability, allowed for the distinction of BT2652 strain
+(PC2 positive) from the two commercial strains (CSc1 and CSc2). The commercial strains were
+clustered, allowing to infer their similar metabolomic signature. These strains were predominantly characterized by alcohols, ketones and hydrocarbons families. On the other hand, the
+indigenous strain BT2652 was characterized by acetals, alcohols, ketones, esters, ethers and
+hydrocarbons compounds.
+Due to the complexity of the PC1 × PC2 loadings (Fig 5) and to potential relevant impact of
+esters and terpenic compounds on the aroma properties, a second multivariate analysis by
+PCA was performed using these two chemical families. Fig 6(A) represents the PC1 × PC2
+scores plot, which explains 65.8% of the total variability. PC1 allowed to distinction of three
+
+PLOS ONE | DOI:10.1371/journal.pone.0143641 November 24, 2015
+
+10 / 16
+
+Exploring the Saccharomyces cerevisiae Volatile Metabolome
+
+Fig 5. PC1 × PC2 analysis applied to all chemical families from metabolome of the four yeasts strains: BT2453, BT2652, CSc1 and CSc2. Scores
+scatter plot (A) and PC1 (B) and PC2 (C) loadings plots.
+doi:10.1371/journal.pone.0143641.g005
+
+PLOS ONE | DOI:10.1371/journal.pone.0143641 November 24, 2015
+
+11 / 16
+
+Exploring the Saccharomyces cerevisiae Volatile Metabolome
+
+Fig 6. PC1 × PC2 analysis applied to terpenic compounds and esters from metabolome of the four yeasts strains: BT2453, BT2652, CSc1 and
+CSc2. Scores scatter plot (A) and PC1 (B) and PC2 (C) loadings plots.
+doi:10.1371/journal.pone.0143641.g006
+
+PLOS ONE | DOI:10.1371/journal.pone.0143641 November 24, 2015
+
+12 / 16
+
+Exploring the Saccharomyces cerevisiae Volatile Metabolome
+
+clusters, where the commercial CSc1 and BT2453 indigenous strain were projected in PC1 positive and negative, respectively, and the other commercial strain CSc2 and BT2652 indigenous
+strain were near to origin. PC2 allowed the distinction between BT2652 indigenous wine strain
+and CSc2 commercial strain.
+Fig 6B and 6C represents the corresponding PC1 and PC2 loadings plot, respectively, which
+establishes the contribution of each metabolite to the principal components. To estimate the
+potential impact of each strain on aroma properties, the loadings strain attribution was done in
+parallel with the aroma descriptor of each variable (metabolite). BT2453 is characterized by 9
+of 18 terpenic compounds present in volatile metabolome profile such as α-terpinene (herbal,
+citrus), γ-terpinene (citrus, menthol), 6,10-dihydromyrcenol, α-terpinolene (sweet pine, lime,
+green), linalool (citrus, sweet, floral) [41,42], isogeraniol (floral), geraniol (floral, sweet) [41],
+geranyl acetate (fresh, rose) and α-farnesene (woody), and aliphatic long chain and aromatic
+esters—butoxyethanol acetate, decyl acetate (fruity), propyl decanoate, 2-methylpropyl decanoate, dodecyl acetate, benzyl acetate (floral, bitter), 4-ethylphenyl acetate and ethyl 3-phenylpropanoate. CSc1 is characterized by esters with short chain like propyl formate, ethyl acetate
+(vinegar, fruity), propyl acetate (fruity), ethyl isobutyrate (fruity, strawberry), isobutyl acetate
+(floral), isopentyl formate (sweet, green, fruity, winey), ethyl butyrate (fruity) and ethyl
+2-hydroxypropanoate (buttery). CSc2 and BT2652 exhibited a similar terpenic composition:
+limonene (citrus) [43], β-ocimene (green) [44], dihydromyrcenol, α-terpineol (floral, sweet)
+[41], nerol (rose) [41], citral (sweet, lemon) [43] and nerolidol (floral) [44]–and esters with
+medium chain–ethyl 2-butenoate (caramellic fruity), pentyl propanoate (sweet, fruity, apricotpineapple), 3-acetyloxypropyl acetate, butyl butanoate, isobutyl hexanoate, ethyl 7-octenoate,
+ethyl octanoate (fruity, floral).
+These results highlight the metabolomic inter-strains variability and, consequently, their
+different impact on wine aroma. BT2453 may confer a uniqueness character peculiar due to its
+ability to produce terpenes. Conversely, CSc1 strain, which is currently used in winemaking,
+was mainly distinguished from the others due to its capacity to produce short chain esters.
+Finally, it is important to point out that the effective impact of these strains on the aroma properties will depended on a network of effects, such as strain metabolism, raw material composition and winemaking procedure, amongst others.
+
+Concluding Remarks
+In this work metabolic variability of S. cerevisiae strains were analyzed in a minimal growth
+medium. The in-depth metabolome characterization by GC×GC-ToFMS combined with
+SPME revealed the complexity of the matrix under study, and a high number of instrumental
+features were detected from the 257 metabolites identified. It was possible to highlight that
+their origin results from a network of pathways, namely from amino acid, fatty acid and carbohydrate metabolism, as well mono and sesquiterpenoid biosynthesis. The metabolome profile
+of the two indigenous (isolated from spontaneous fermentation of grapes collected in Bairrada
+Appellation, Portugal) and the two commercial (CSc1 and CSc2) S. cerevisiae strains revealed
+inter-strains metabolic variability. A sub-set of metabolites belonging to terpenic and esters
+chemical families also showed variability between stains, suggesting that according to their
+metabolome profiling, these strains might produce wines with different aroma properties,
+namely those associated to specific fruity and floral notes. Finally, in order to go further in the
+understanding of the S. cerevisiae volatile metabolites, a more extensive study should be conducted using yeasts collected in different Appellations. Also, further studies are required in particular to better understand the relationship between the volatile metabolome of strains and
+the correspondent wine aroma profile produced. This knowledge should be crucial to produce
+
+PLOS ONE | DOI:10.1371/journal.pone.0143641 November 24, 2015
+
+13 / 16
+
+Exploring the Saccharomyces cerevisiae Volatile Metabolome
+
+wines with peculiar and differentiate characteristics, highlighting regional specificities which
+are in line with the actual market trend.
+
+Supporting Information
+S1 Fig. Workflow summarizing the S. cerevisiae selection for metabolome study.
+(TIFF)
+S2 Fig. Phenotypic characterization of the S. cerevisiae strains, with the localization on the
+heatmap of the 2 selected strains–BT2652 and BT2453, ordered by hierarchical clustering
+(Pearson Correlation with average linkage) using MeV 4.9.0. Heatmap rows = 36 growth
+conditions, columns = 313 endogenous S. cerevisiae strains.
+(TIFF)
+S1 Protocol. S. cerevisiae strain isolation, identification and selection.
+(PDF)
+S2 Protocol. Phenotypic S. cerevisiae characterization.
+(PDF)
+S1 Table. Volatile metabolites identified by HS-SPME/GC×GC-ToFMS in four S. cerevisiae
+strains under study: BT2453 and BT2652 corresponding to strains isolated from wine, and
+CSc1 and CSc2, corresponding to commercial yeast strains.
+(PDF)
+S2 Table. Full data set used for statistics processing including the volatile metabolites identified by HS-SPME/GC×GC-ToFMS in four S. cerevisiae strains under study: BT2453 and
+BT2652 corresponding to strains isolated from wine, and CSc1 and CSc2, corresponding to
+commercial yeast strains.
+(XLS)
+
+Author Contributions
+Conceived and designed the experiments: ZA AM ARF MAC ACG SMR. Performed the experiments: AM ARF ACG SMR. Analyzed the data: ZA AM ARF MAC ACG SMR. Contributed
+reagents/materials/analysis tools: MAC ACG SMR. Wrote the paper: ZA AM ARF MAC ACG
+SMR.
+
+References
+1.
+
+Romano P. Metabolic characteristics of wine strains during spontaneous and inoculated fermentation.
+Food Technol Biotechnol. 1997; 35: 255–260.
+
+2.
+
+Lambrechts M, Pretorius I. Yeast and its importance to wine aroma—a review. South African J Enol
+Vitic. 2000; 21: 97–129.
+
+3.
+
+Pretorius IS. Tailoring wine yeast for the new millennium: novel approaches to the ancient art of winemaking. Yeast. 2000; 16: 675–729. PMID: 10861899
+
+4.
+
+Romano P, Monteleone E, Paraggio M, Marchese R, Caporale G, Carlucci A. A methodological
+approach to the selection of Saccharomyces cerevisiae wine strains. Food Technol Biotechnol. 1998;
+36: 69–74.
+
+5.
+
+Swiegers JH, Bartowsky EJ, Henschke PA, Pretorius IS. Yeast and bacterial modulation of wine aroma
+and flavour. Aust J Grape Wine Res. 2005; 11: 139–173.
+
+6.
+
+Martini A. Biotechnology of natural and winery-associated strains of Saccharomyces cerevisiae. Int
+Microbiol. 2003; 6: 207–209. PMID: 12898401
+
+7.
+
+Callejon RM, Clavijo A, Ortigueira P, Troncoso a M, Paneque P, Morales ML. Volatile and sensory profile of organic red wines produced by different selected autochthonous and commercial
+
+PLOS ONE | DOI:10.1371/journal.pone.0143641 November 24, 2015
+
+14 / 16
+
+Exploring the Saccharomyces cerevisiae Volatile Metabolome
+
+Saccharomyces cerevisiae strains. Anal Chim Acta. 2010; 660: 68–75. doi: 10.1016/j.aca.2009.09.040
+PMID: 20103145
+8.
+
+Saberi S, Cliff MA, van Vuuren HJJ. Impact of mixed S. cerevisiae strains on the production of volatiles
+and estimated sensory profiles of Chardonnay wines. Food Res Int. 2012; 48: 725–735.
+
+9.
+
+Tufariello M, Chiriatti M a., Grieco F, Perrotta C, Capone S, Rampino P, et al. Influence of autochthonous Saccharomyces cerevisiae strains on volatile profile of Negroamaro wines. LWT—Food Sci Technol. 2014; 58: 35–48.
+
+10.
+
+Schuller D, Cardoso F, Sousa S, Gomes P, Gomes AC, Santos MAS, et al. Genetic diversity and population structure of Saccharomyces cerevisiae strains isolated from different grape varieties and winemaking regions. PLoS One. 2012; 7: e32507. doi: 10.1371/journal.pone.0032507 PMID: 22393409
+
+11.
+
+Bisson LF, Karpel JE. Genetics of yeast impacting wine quality. Annu Rev Food Sci Technol. 2010; 1:
+139–162. doi: 10.1146/annurev.food.080708.100734 PMID: 22129333
+
+12.
+
+Ugliano M, Bartowsky EJ, McCarthy J, Moio L, Henschke PA. Hydrolysis and transformation of grape
+glycosidically bound volatile compounds during fermentation with three Saccharomyces yeast strains.
+J Agric Food Chem. 2006; 54: 6322–6331. PMID: 16910726
+
+13.
+
+Swiegers JH, Pretorius IS, Bauer FF. Regulation of respiratory growth by Ras: the glyoxylate cycle
+mutant, cit2Delta, is suppressed by RAS2. Curr Genet. 2006; 50: 161–171. PMID: 16832579
+
+14.
+
+Tang J. Microbial metabolomics. Curr Genomics. 2011; 12: 391–403. doi: 10.2174/
+138920211797248619 PMID: 22379393
+
+15.
+
+Moreno-García J, García-Martínez T, Moreno J, Millán MC, Mauricio JC. A proteomic and metabolomic
+approach for understanding the role of the flor yeast mitochondria in the velum formation. Int J Food
+Microbiol. 2014; 172: 21–29. doi: 10.1016/j.ijfoodmicro.2013.11.030 PMID: 24361829
+
+16.
+
+Lourenço AB, Roque FC, Teixeira MC, Ascenso JR, Sá-Correia I. Quantitative 1H-NMR-metabolomics
+reveals extensive metabolic reprogramming and the effect of the aquaglyceroporin FPS1 in ethanolstressed yeast cells. PLoS One. 2013; 8: e55439. doi: 10.1371/journal.pone.0055439 PMID: 23408980
+
+17.
+
+Rossouw D, Naes T, Bauer FF. Linking gene regulation and the exo-metabolome: a comparative transcriptomics approach to identify genes that impact on the production of volatile aroma compounds in
+yeast. BMC Genomics. 2008; 9: 530. doi: 10.1186/1471-2164-9-530 PMID: 18990252
+
+18.
+
+Barbosa C, García-Martínez J, Pérez-Ortín JE, Mendes-Ferreira A. Comparative Transcriptomic Analysis Reveals Similarities and Dissimilarities in Saccharomyces cerevisiae Wine Strains Response to
+Nitrogen Availability. PLoS One. 2015; 10: e0122709. doi: 10.1371/journal.pone.0122709 PMID:
+25884705
+
+19.
+
+Pereira AR. Estudo da biodiversidade de estirpes vínicas de S. cerevisiae. M. Sc.Thesis. Universidade
+de Aveiro. 2012.
+
+20.
+
+Fiehn O, Robertson D, Griffin J, vab der Werf M, Nikolau B, Morrison N, et al. The metabolomics standards initiative (MSI). Metabolomics. 2007; 3: 175–178.
+
+21.
+
+Goodacre R, Broadhurst D, Smilde AK, Kristal BS, Baker JD, Beger R, et al. Proposed minimum reporting standards for data analysis in metabolomics. Metabolomics. 2007; 3: 231–241.
+
+22.
+
+Sumner LW, Amberg A, Barrett D, Beale MH, Beger R, Daykin CA, et al. Proposed minimum reporting
+standards for chemical analysis Chemical Analysis Working Group (CAWG) Metabolomics Standards
+Initiative (MSI). Metabolomics. 2007; 3: 211–221. PMID: 24039616
+
+23.
+
+Franco-Duarte R, Mendes I, Gomes AC, Santos MAS, de Sousa B, Schuller D. Genotyping of Saccharomyces cerevisiae strains by interdelta sequence typing using automated microfluidics. Electrophoresis. 2011; 32: 1447–1455. doi: 10.1002/elps.201000640 PMID: 21630290
+
+24.
+
+van den Dool H., Kratz PD. A generalization of the retention index system including linear temperature
+programmed gas—liquid partition chromatography. J Chromatogr. 1963; 11: 463–471. PMID:
+14062605
+
+25.
+
+Varmuza K, Filzmoser P. Introduction to multivariate statistical analysis in chemometrics. Boca Raton:
+CRC Press.; 2009.
+
+26.
+
+Xia J, Mandal R, Sinelnikov I V, Broadhurst D, Wishart DS. MetaboAnalyst 2.0—a comprehensive
+server for metabolomic data analysis. Nucleic Acids Res. 2012; 40: W127–133. doi: 10.1093/nar/
+gks374 PMID: 22553367
+
+27.
+
+Xia J, Psychogios N, Young N, Wishart DS. MetaboAnalyst: a web server for metabolomic data analysis and interpretation. Nucleic Acids Res. 2009; 37: W652–660. doi: 10.1093/nar/gkp356 PMID:
+19429898
+
+28.
+
+Carrau FM, Medina K, Boido E, Farina L, Gaggero C, Dellacassa E, et al. De novo synthesis of monoterpenes by Saccharomyces cerevisiae wine yeasts. FEMS Microbiol Lett. 2005; 243: 107–15. doi: 10.
+1016/j.femsle.2004.11.050 PMID: 15668008
+
+PLOS ONE | DOI:10.1371/journal.pone.0143641 November 24, 2015
+
+15 / 16
+
+Exploring the Saccharomyces cerevisiae Volatile Metabolome
+
+29.
+
+Cordente AG, Curtin CD, Varela C, Pretorius IS. Flavour-active wine yeasts. Appl Microbiol Biotechnol.
+2012; 96: 601–618. doi: 10.1007/s00253-012-4370-z PMID: 22940803
+
+30.
+
+Horák T, Culík J, Cejka P, Jurková M, Kellner V, Dvorák J, et al. Analysis of free fatty acids in beer: comparison of solid-phase extraction, solid-phase microextraction, and stir bar sorptive extraction. J Agric
+Food Chem. 2009; 57: 11081–11085. doi: 10.1021/jf9028305 PMID: 19904941
+
+31.
+
+Styger G, Prior B, Bauer FF. Wine flavor and aroma. J Ind Microbiol Biotechnol. 2011; 38: 1145–1159.
+doi: 10.1007/s10295-011-1018-4 PMID: 21786136
+
+32.
+
+Bell S, Henschke PA. Implications of nitrogen nutrition for grapes, fermentation and wine. 2005; 242–
+295.
+
+33.
+
+Etschmann MMW, Kötter P, Hauf J, Bluemke W, Entian KD, Schrader J. Production of the aroma chemicals 3-(methylthio)-1-propanol and 3-(methylthio)-propylacetate with yeasts. Appl Microbiol Biotechnol.
+2008; 80: 579–587. doi: 10.1007/s00253-008-1573-4 PMID: 18597084
+
+34.
+
+Carrau FM, Medina K, Boido E, Farina L, Gaggero C, Dellacassa E, et al. De novo synthesis of monoterpenes by Saccharomyces cerevisiae wine yeasts. FEMS Microbiol Lett. 2005; 243: 107–15. PMID:
+15668008
+
+35.
+
+King A, Richard Dickinson J. Biotransformation of monoterpene alcohols by Saccharomyces cerevisiae,Torulaspora delbrueckii and Kluyveromyces lactis. Yeast. 2000; 16: 499–506. PMID: 10790686
+
+36.
+
+Takoi K, Koie K, Itoga Y, Katayama Y, Shimase M, Nakayama Y, et al. Biotransformation of hopderived monoterpene alcohols by lager yeast and their contribution to the flavor of hopped beer. J Agric
+Food Chem. 2010; 58: 5050–5058. doi: 10.1021/jf1000524 PMID: 20364865
+
+37.
+
+Procopio S, Qian F, Becker T. Function and regulation of yeast genes involved in higher alcohol and
+ester metabolism during beverage fermentation. Eur Food Res Technol. 2011; 233: 721–729.
+
+38.
+
+Liang H-Y, Chen J-Y, Reeves M, Han B-Z. Aromatic and sensorial profiles of young Cabernet Sauvignon wines fermented by different Chinese autochthonous Saccharomyces cerevisiae strains. Food
+Res Int. Elsevier Ltd; 2013; 51: 855–865.
+
+39.
+
+Blazquez Rojas I, Smith P a., Bartowsky EJ. Influence of choice of yeasts on volatile fermentationderived compounds, colour and phenolics composition in Cabernet Sauvignon wine. World J Microbiol
+Biotechnol. 2012; 28: 3311–3321. doi: 10.1007/s11274-012-1142-y PMID: 22878903
+
+40.
+
+Sumby KM, Grbin PR, Jiranek V. Microbial modulation of aromatic esters in wine: Current knowledge
+and future prospects. Food Chem. Elsevier Ltd; 2010; 121: 1–16.
+
+41.
+
+Rocha SM, Coelho E, Zrostlíková J, Delgadillo I, Coimbra MA. Comprehensive two-dimensional gas
+chromatography with time-of-flight mass spectrometry of monoterpenoids as a powerful tool for grape
+origin traceability. J Chromatogr A. 2007; 1161: 292–9. PMID: 17585921
+
+42.
+
+Coelho E, Rocha SM, Delgadillo I, Coimbra MA. Headspace-SPME applied to varietal volatile components evolution during Vitis vinifera L. cv. “Baga” ripening. Anal Chim Acta. 2006; 563: 204–214.
+
+43.
+
+Hu L, Wang Y, Du M, Zhang J. Characterization of the volatiles and active components in ethanol
+extracts of fruits of Litsea cubeba (Lour.) by gas chromatography-mass spectrometry (GC-MS) and gas
+chromatography-olfactometry (GC-O). JMedPlants Res. 2011; 5: 3298–3303.
+
+44.
+
+Cheong M- W, Liu S- Q, Yeo J, Chionh H- K, Pramudya K, Curran P, et al. Identification of Aroma-Active
+Compounds in Malaysian Pomelo (Citrus grandis (L.) Osbeck) Peel by Gas Chromatography-Olfactometry. J Essent Oil Res. 2011; 23: 34–42.
+
+PLOS ONE | DOI:10.1371/journal.pone.0143641 November 24, 2015
+
+16 / 16
+
+

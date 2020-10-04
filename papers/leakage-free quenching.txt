@@ -1,0 +1,2175 @@
+Metabolomics (2008) 4:226–239
+DOI 10.1007/s11306-008-0116-4
+
+ORIGINAL ARTICLE
+
+Leakage-free rapid quenching technique for yeast metabolomics
+André B. Canelas Æ Cor Ras Æ Angela ten Pierick Æ Jan C. van Dam Æ
+Joseph J. Heijnen Æ Walter M. van Gulik
+
+Received: 25 February 2008 / Accepted: 7 June 2008 / Published online: 26 June 2008
+Ó The Author(s) 2008
+
+Abstract Accurate determination of intracellular metabolite levels requires reliable, reproducible techniques for
+sampling and sample treatment. Quenching in 60% (v/v)
+methanol at -40°C is currently the standard method for
+sub-second arrest of metabolic activity in microbial metabolomics but there have been contradictory reports in the
+literature on whether leakage of metabolites from the cells
+occurs. We have re-evaluated this method in S. cerevisiae
+using a comprehensive, strictly quantitative approach. By
+determining the levels of a large range of metabolites in
+different sample fractions and establishing mass balances
+we could trace their fate during the quenching procedure
+and confirm that leakage of metabolites from yeast cells
+does occur during conventional cold methanol quenching,
+to such an extent that the levels of most metabolites have
+been previously underestimated by at least twofold. In
+addition, we found that the extent of leakage depends on
+the time of exposure, the temperature and the properties of
+the methanol solutions. Using the mass balance approach
+we could study the effect of different quenching conditions
+and demonstrate that leakage can be entirely prevented by
+quenching in pure methanol at B-40°C, which we propose
+as a new improved method. Making use of improved data
+on intracellular metabolite levels we also re-evaluated the
+need of sub-second quenching of metabolic activity and of
+removing the extracellular medium. Our findings have
+serious implications for quantitative metabolomics-based
+fields such as non-stationary 13C flux analysis, in vivo
+kinetic modeling and thermodynamic network analysis.
+
+A. B. Canelas (&)  C. Ras  A. ten Pierick 
+J. C. van Dam  J. J. Heijnen  W. M. van Gulik
+Department of Biotechnology, Delft University of Technology,
+Julianalaan 67 2628BC, The Netherlands
+e-mail: a.canelas@tudelft.nl
+
+123
+
+Keywords Quantitative metabolomics 
+Intracellular metabolite analysis  Rapid sampling 
+Cold methanol quenching  Leakage  S. cerevisiae
+Abbreviations
+gDW Gram of dry weight biomass
+G6P Glucose-6-phosphate
+T6P Trehalose-6-phosphate
+FBP Fructose-1,6-bis-phosphate
+6PG 6-Phospho gluconate
+F6P Fructose-6-phosphate
+G1P Glucose-1-phosphate
+M6P Mannose-6-phosphate
+2PG 2-Phospho glycerate
+3PG 3-Phospho glycerate
+PEP Phosphoenolpyruvate
+
+1 Introduction
+The accurate measurement of physiological levels of
+intracellular metabolites is of prime interest in the study of
+metabolic reaction networks and their regulation in vivo.
+Owing mainly to developments in analytical tools, in particular in MS-based techniques, the field of metabolite
+analysis is undergoing fast expansion. Metabolomics, the
+systematic analysis of large numbers of low molecular
+weight compounds from a biological system, is in the
+process of establishing itself as a global analysis method
+complementary to transcriptomics and proteomics and is
+expected to provide major contributions to areas such as
+functional genomics, toxicology and nutrigenomics. However, whether for quantitative or qualitative purposes, the
+quality and reliability of metabolomics data will invariably
+
+Leakage-free cold methanol quenching
+
+depend on the sampling and sample treatment techniques
+employed, which usually receive relatively little attention.
+Strikingly, there is no consensus in the literature on the
+effectiveness or even adequacy of the available techniques
+for sampling, quenching and extraction of intracellular
+metabolites from microbial cultures (Dekoning and Vandam 1992; Gonzalez et al. 1997; Hajjaj et al. 1998; Hans
+et al. 2001; Maharjan and Ferenci 2003; Castrillo et al.
+2003; Wittmann et al. 2004; Villas-Boas et al. 2005; Oldiges and Takors 2005; Schaub et al. 2006; Loret et al.
+2007; Bolten et al. 2007; Villas-Boas and Bruheim 2007;
+Mashego et al. 2007).
+Many intermediates in metabolic reaction networks have
+turnover times in the order of seconds, due to the relatively
+high conversion rates and low metabolite concentrations
+found in vivo. The need to rapidly quench metabolic activity
+upon sampling to avoid unwanted changes in intracellular
+metabolite levels was already recognized and documented
+by biochemists many decades ago (Wollenberger et al.
+1960; Williams et al. 1967; Veech et al. 1969; Faupel et al.
+1972). In the case of cell suspension cultures rapid sampling
+was initially accomplished by sampling broth directly into a
+cold perchloric acid (PCA) extraction solution followed by a
+series of freezing-thawing cycles, thus achieving quenching,
+release of intracellular metabolites and inactivation of
+enzymes (Harrison and Maitra 1969; Cole et al. 1967;
+Weibel et al. 1974). However, direct extraction has two
+major disadvantages: the low concentrations of metabolites
+in the samples, owing to low biomass densities; and the risk
+of overestimating intracellular pools, because the metabolites present in the extracellular medium are not removed.
+The first significant attempt to combine quenching with cell
+separation involved fast filtration and washing of the cells
+with 50% (v/v) methanol at -40°C, followed by the
+extraction step (Saez and Lagunas 1976). Maintaining a very
+low temperature minimized metabolic activity during filtration while allowing removal of the extracellular medium.
+This technique was later improved by De Koning and Van
+Dam, who proposed sampling the broth directly into 60%
+(v/v) methanol at -40°C and separating the cells by centrifugation (Dekoning and Vandam 1992). That was a decisive
+improvement because it allowed sub-second arrest enzymatic activity. This technique has remained mostly
+unchanged and is still the most widespread method for rapid
+sampling of microbial cultures (Oldiges and Takors 2005;
+Mashego et al. 2007).
+Perhaps the most critical assumption in the cold methanol
+quenching method is that intracellular metabolites will
+remain inside the cells during quenching and centrifugation.
+If metabolites were to leak from the cells into the methanol
+solutions, which are discarded, the intracellular levels might
+be severely underestimated. The original work of De Koning
+and Van Dam and some of the subsequent literature
+
+227
+
+concluded that metabolite leakage did not occur in yeast
+(Dekoning and Vandam 1992; Gonzalez et al. 1997), fungi
+(Ruijter and Visser 1996; Hajjaj et al. 1998) or bacteria
+(Moritz et al. 2000). However, this assumption is increasingly being questioned after some recent studies, making use
+of more sensitive MS-based analytical methods, reported the
+occurrence of extensive losses of intracellular metabolites
+during cold methanol quenching in yeast (Villas-Boas et al.
+2005) as well as bacteria (Wittmann et al. 2004; Bolten et al.
+2007). Unfortunately, this issue has not been thoroughly and
+systematically addressed yet. In addition, if leakage does
+occur, there is no reliable, validated alternative method,
+despite some recent efforts in finding substitute quenching
+solutions (Villas-Boas and Bruheim 2007).
+The purpose of this work was to determine quantitatively
+whether leakage of intracellular metabolites occurs in
+S. cerevisiae during cold methanol quenching and, if so, find
+a way to prevent it. In contrast with previous method evaluation attempts, we proposed to use only strictly quantitative
+data from samples obtained in standardized, reproducible
+culture conditions through well-defined rapid sampling and
+sample treatment procedures. In addition, a wide range of
+metabolites was analyzed, to cover different classes of
+compounds (phosphorylated intermediates, organic acids,
+aminoacids) and different molecular properties (e.g.
+molecular weight, polarity). Furthermore, after initial indications of leakage we adopted an even broader approach by
+measuring metabolite levels in all possible sample fractions
+and establishing mass balances to be able to trace the fate of
+the metabolites during cold methanol treatment. Only such a
+comprehensive approach made it possible to positively
+conclude on the occurrence of leakage under different conditions and find a way to prevent it. We hope the outcomes of
+this work will serve those in the metabolomics community
+by providing an improved quenching method for intracellular metabolite analysis in S. cerevisiae and a standard for
+method validation in other microorganisms.
+
+2 Experimental procedures
+2.1 Solvents and chemicals
+HPLC-grade methanol, ethanol and chloroform were supplied by Baker (The Netherlands). Analytical grade
+standards were supplied by Sigma.
+2.2 Strain and cultivation conditions
+The Saccharomyces cerevisiae strain used in this study was
+CEN.PK 113-7D (MATa) (van Dijken et al. 2000). The
+cells were grown in aerobic carbon-limited chemostat
+cultures in a 7 l fermentor (Applikon, The Netherlands)
+
+123
+
+228
+
+with a working volume of 4 l. Unless stated otherwise,
+defined mineral medium (Verduyn et al. 1992) with 7.5 g/l
+glucose was used, which supported a steady-state biomass
+concentration of 3.7 gDW/l, the dilution rate was 0.1 h-1
+and the aeration rate was 0.5 vvm (120 l/h). Dissolved
+oxygen tension (DOT) was measured in situ with an oxygen probe (Mettler-Toledo, Switzerland) and O2 and CO2
+concentrations in the off-gas were measured at-line using a
+combined paramagnetic/infrared analyzer (NGA 2000,
+Rosemount, USA). The pH was controlled at 5.0 with 4 M
+KOH and the temperature was set at 30°C. The overpressure in the vessel was kept at 0.3 bar and the stirrer speed
+was 600 rpm, ensuring that the DO was always above 80%.
+All experiments were carried out with steady-state cultures,
+that is, after 5 residence times of glucose-limited growth
+with constant DOT and off-gas readings.
+
+Canelas et al.
+
+residues were resuspended in 500 ll demineralized water
+and centrifuged at 15,000g for 5 min at 4°C. The supernatants were stored at -80°C until analysis.
+2.6 Samples for quenching solution (QS) and washing
+solution (WS) metabolites
+Instead of discarding the methanol supernatants after quenching or washing, they were collected in pre-cooled tubes at
+-40°C. Each methanol solution was thoroughly vortexed and
+300–500 ll was transferred to an empty pre-cooled tube. The
+exact sample weights were determined by weighing all tubes
+before and after transfer and keeping record of the corresponding intracellular samples. U-13C-labeled cell extract was
+added as internal standard. Boiling ethanol extraction was
+performed as above to minimize the chance of sample matrix
+effects and ensure inactivation of any enzyme activity.
+
+2.3 Samples for intracellular metabolites (IC)
+Samples were taken using a specialized rapid-sampling setup
+(Lange et al. 2001). Unless stated otherwise, approximately
+1 g (±0.05) of broth was withdrawn and injected (B0.8 s)
+into a tube containing 5 ml 60% aqueous methanol (v/v)
+solution pre-cooled to -40°C, the contents of the tube were
+quickly mixed by vortexing (&1 s) and the tube was placed
+back in the cryostat at -40°C (Lauda, Germany). This way, a
+set of replicate samples can be taken quickly without
+noticeably disturbing the steady-state of the culture. During
+all subsequent steps the temperature of the tubes was maintained as close to -40°C as possible. The exact sample
+weights were determined by weighing each tube before and
+after sampling. The tubes were centrifuged using a rotor precooled to -40°C at 4,000g for 5 min in a centrifuge cooled to
+-20°C. Unless stated otherwise, the biomass pellets were
+washed in 5 ml 60% methanol (v/v) solution pre-cooled to
+-40°C and centrifuged again as before. After decanting,
+U-13C-labeled cell extract was added to the cell pellets as
+internal standard (Mashego et al. 2004; Wu et al. 2005).
+2.4 Metabolite extraction
+Extraction of intracellular metabolites was performed using
+the boiling ethanol method, adapted from (Gonzalez et al.
+1997) as described in (Lange et al. 2001). Briefly, each
+tube was taken from the cryostat at -40°C and 5 ml 75%
+(v/v) boiling ethanol was added. Each tube was immediately vortexed and placed in a water bath at 95°C. After
+3 min each tube was placed back in the cryostat.
+
+2.7 Samples for whole-broth (T) metabolites
+Sampling was done as for intracellular metabolites but the
+quenched cell suspension was not centrifuged. Instead, it
+was thoroughly vortexed and 300–500 ll was transferred
+to an empty tube pre-cooled to -40°C. The exact sample
+weights were determined by weighing all tubes before and
+after sampling and transfer. U-13C-labeled cell extract was
+added as internal standard. Boiling ethanol extraction was
+performed as above to minimize the chance of sample
+matrix effects and ensure complete cell disruption and
+inactivation of enzyme activity.
+2.8 Samples for extracellular (EX) metabolites
+Broth was quickly sampled by over-pressure into a syringe
+containing an amount of cooled steel beads designed to bring
+the temperature down to 0°C (Mashego et al. 2003). The
+broth was then quickly filtered through a 0.45 lm cartridge
+filter directly into a tube containing 5 ml 60% methanol (v/v)
+at -40°C. The resulting methanol filtrate solution was
+thoroughly vortexed and 300–500 ll was transferred to an
+empty tube pre-cooled to -40°C. The exact sample weights
+were determined by weighing all tubes before and after
+sampling and transfer. U-13C-labeled cell extract was added
+as internal standard. Boiling ethanol extraction was performed as above to minimize the chance of sample matrix
+effects and ensure inactivation of any enzyme activity.
+2.9 Metabolite analysis
+
+2.5 Sample concentration
+All ethanol extracts were evaporated under vacuum for
+110 min, as described in (Mashego et al. 2004). Dried
+
+123
+
+The concentrations of the metabolic intermediates G6P,
+F6P, FBP, PEP, pyruvate, T6P, 6PG, G1P, M6P, citrate,
+oxoglutarate, succinate, fumarate, and malate, as well as
+
+Leakage-free cold methanol quenching
+
+the combined pool 2PG + 3PG, were determined by ESILC-MS/MS (Van Dam et al. 2002). The concentrations of
+several aminoacids were determined by GC-MS using the
+EZ:Faast kit for free aminoacid analysis from Phenomenex
+(Torrance, CA, USA). Quantification of the metabolites
+was based on the use of U-13C-labeled cell extract as
+internal standard (Mashego et al. 2004; Wu et al. 2005).
+
+3 Results and discussion
+3.1 Effect of prolonged exposure
+Our initial experiments aimed at reproducing the results of
+De Koning and Van Dam, who ruled out the occurrence of
+leakage because measured metabolite levels did not
+decrease significantly after 30 min of extra exposure to the
+quenching methanol solution (Dekoning and Vandam
+1992). We tested this by placing samples back in the
+cryostat after re-suspension in the washing methanol
+solution and leaving them at -40°C for periods of +0,
++30, +60 or +90 min prior to the second centrifugation
+step. Unlike the majority of the experiments reported here,
+this was done with samples from cultures at D = 0.05 h-1
+and a biomass concentration of 14.5 gDW/l (Kresnowati
+et al. 2006). If leakage did not occur, we would expect to
+find the same intracellular levels regardless of the time of
+exposure. The results are shown in Fig. 1. G6P
+(MW = 260) and Fumarate (MW = 116) are given as
+representative examples of the results found for phosphorylated intermediates (larger, more polar) and organic
+acids (smaller, less polar), respectively. The results showed
+that the longer the cells remained in contact with the
+washing solution, the lower the measured intracellular
+
+Fig. 1 Effect of prolonged exposure to methanol washing solution
+(60% v/v) on the measured intracellular levels, exemplified for G6P
+and fumarate. Prolonged exposure was achieved by leaving the
+samples at -40°C before the second centrifugation step. Samples
+were from a culture at D = 0.05 h-1 and 14.5 gDW/l (Kresnowati
+et al. 2006). Data are averages ± standard deviation of four replicate
+samples, each analyzed in duplicate
+
+229
+
+levels, suggesting time-dependent release of the intracellular metabolites. Interestingly, the rate of decrease was
+somewhat higher for smaller compounds, which might be
+released more easily, than for larger compounds. All
+samples were replicates, taken, treated and analyzed as one
+sample-set. Sample matrix effects in the analysis can be
+discarded since U-13C-labelled extract was used as internal
+standard. Then, differences can only originate from the
+period of exposure to the methanol washing solution. These
+results are not necessarily in contradiction with the work of
+De Koning and Van Dam, since the measured losses represented not more than 30% per hour (so\15% in 30 min),
+which were probably not observable with the enzymebased analytical techniques available at the time. Nevertheless, they do indicate that leakage is occurring and that
+the contact time with the methanol solution should be kept
+to a minimum. That is broadly in agreement with the
+findings of Villas-Boas et al. (2005). What cannot be
+concluded from these results is whether significant losses
+occur even without prolonged exposure, since it cannot be
+assumed that the rate of loss is the same throughout the
+entire procedure.
+3.2 Effect of buffers and ionic strength
+Although the original method proposed by De Koning and
+Van Dam described the use of non-buffered methanol
+solutions for quenching and washing, much of the later
+literature describes the use of methanol solutions with
+some sort of additive, usually a buffer (Ruijter and Visser
+1996; Gonzalez et al. 1997). Presumably, this would prevent or minimize cell damage caused by changes in pH or
+osmotic shock. However, to our knowledge no quantitative
+data has ever been presented to back up this claim. We
+therefore tested the effect of adding buffers (HEPES at pH
+5 or Tricine at pH 6) or salts (NH4HCO3, pH 8), at two
+different concentrations (10 or 100 mM), by quenching and
+washing replicate samples in each type of solution and
+comparing the metabolite levels measured in the resulting
+intracellular extracts. If changes in pH or low ionic strength
+caused cell damage and losses of metabolites from the
+cells, we would expect to see higher levels of intracellular
+metabolites in samples treated with buffers or salts. The
+results are shown in Fig. 2. Again, G6P and Fumarate are
+given as representative examples of the results found for
+phosphorylated intermediates and organic acids, respectively. The results show that there is no significant benefit
+in buffering or increasing the ionic strength of the methanol
+solution. On the contrary, for most metabolites this resulted
+in slightly lower intracellular amounts. In addition, this
+effect was more pronounced for smaller compounds, which
+might be released more easily, than for larger compounds.
+All samples were replicates and U-13C-labelled extract was
+
+123
+
+230
+
+Fig. 2 Effect of additions (HEPES at pH 5, Tricine at pH 6 or
+NH4HCO3 at pH 8, to 10 or 100 mM) to the methanol quenching/
+washing solutions (60% v/v) on the measured intracellular levels,
+exemplified for G6P and fumarate. Samples were from a culture at
+D = 0.1 h-1 and 3.7 gDW/l. Data are averages ± standard deviation
+of two replicate samples, each analyzed in duplicate
+
+used as internal standard, so the differences must originate
+from the quenching and washing steps. These results suggest that losses can occur during quenching/washing, since
+changing the properties of the methanol solutions can
+affect the levels found in the cell pellets. Furthermore, they
+showed that if losses are occurring, they cannot be prevented by adding buffers or salts to the methanol solutions.
+On the contrary, such additions may even enhance the
+extent of the losses.
+3.3 Effect of methanol concentration
+Methanol is widely regarded as a toxic compound that can
+have detrimental effects on cell membrane integrity. A
+methanol concentration of 60% (v/v), as proposed by De
+Koning and Van Dam, is just enough to keep the cell
+suspension after sampling (50% v/v final, FP & -42°C1)
+from freezing at -40°C. This seems to reflect the perceived
+need to keep the methanol concentration as low as possible,
+for fear of causing damage to the cells. We are not aware of
+subsequent literature where this has been changed. However, to our knowledge no quantitative data has ever been
+presented to demonstrate the adverse effects of methanol in
+the context of quenching and intracellular metabolite
+analysis. We therefore evaluated the effect of the methanol
+concentration by quenching and washing replicate samples
+in 50%, 60%, 70% and 80% methanol and comparing the
+metabolite levels measured in the resulting intracellular
+extracts. To avoid freezing of the samples quenched with
+50% (v/v) solutions (42% v/v final, FP & -32°C (see
+footnote 1)), in this experiment the cryostat temperature
+was -30°C instead of -40°C. If increasing methanol
+1
+
+Interpolated from the data for methanol in (David 2007) using a
+sixth order polynomial
+
+123
+
+Canelas et al.
+
+concentrations caused cell membrane damage and this
+allowed release of intracellular metabolites, we would
+expect to find higher metabolite levels in samples treated
+with lower methanol concentrations. The results are shown
+in Fig. 3. Once again, G6P and Fumarate are given as
+representative examples of the results found for phosphorylated intermediates and organic acids, respectively.
+Contrary to our expectations, in samples obtained by
+quenching and washing with higher methanol concentrations the intracellular metabolites levels were higher. In
+addition, the differences followed a clear, smooth profile as
+function of increasing methanol concentration. All samples
+were replicates and U-13C-labelled extract was used as
+internal standard, so the differences must originate from the
+quenching and washing steps. Like before, the fact that
+changing the properties of the methanol solutions could
+affect the obtained intracellular levels of metabolites suggested that losses can occur during quenching/washing.
+More importantly, the results unexpectedly show that under
+these conditions higher concentrations of methanol may
+reduce those losses, rather than increase them.
+3.4 Full mass balance and the importance of methanol
+concentration and temperature
+Although useful information can be obtained by analyzing
+only the intracellular samples, as presented above, these
+provide merely indications. To draw definitive conclusions
+on the occurrence and the extent of leakage it is necessary
+to analyze metabolite levels in all the other sample fractions and perform mass balances. Only then can the fate of
+the metabolites during sample treatment be adequately
+evaluated. To achieve this, we have analyzed metabolite
+amounts in six different fractions (see Fig. 4), representing
+
+Fig. 3 Effect of the methanol (MeOH) concentration of the quenching/washing solutions on the measured intracellular levels,
+exemplified for G6P and fumarate. To avoid freezing of the samples
+quenched with 50% methanol the cryostat temperature was -30°C
+instead of -40°C. Samples were from a culture at D = 0.1 h-1 and
+3.7 gDW/l. Data are averages ± standard deviation of two replicate
+samples, each analyzed in duplicate
+
+Leakage-free cold methanol quenching
+
+231
+
+Fig. 4 Sample fractions where
+metabolite concentrations were
+measured to investigate the fate
+of the metabolites during
+sample treatment (see Methods
+for details). The temperature
+and methanol concentration of
+the quenching/washing
+solutions was varied according
+to Table 1
+
+be used as a benchmark, with which the levels measured in
+the methanol-quenched intracellular samples (IC) can be
+compared. Detailed data on these values, for each measured metabolite, is provided in Table 2. The IC/(T - EX)
+ratio, which is a measure of how close each protocol variation comes to delivering to ‘‘true’’ intracellular levels, is
+represented in Fig. 6.
+The results show that leakage of intracellular metabolites does occur in the standard procedure of quenching in
+60% methanol at -40°C (Fig. 5), regardless of whether a
+washing step is carried out (C) or not (D). The measured
+intracellular levels are lower than the calculated cell levels
+(T - EX) and the differences can be found back in the
+methanol solutions. In the samples that were processed at
+-20°C instead of -40°C, leakage was much more severe
+(A and B). Increasing the final concentration of methanol
+from 50% to around 90% was found to minimize leakage
+(D–G). At final methanol concentrations above 80% (F and
+G) most measured intracellular levels are within ±20% of
+the estimated cell levels (Fig. 6). Further decreasing the
+temperature to -78°C did not result in any significant
+further improvement (H). In addition, leakage was most
+critical for smaller metabolites, which may permeate
+
+washed and non-washed intracellular samples (IC), the
+respective quenching and washing methanol solutions (QS
+and WS), the medium filtrate (EX) and the whole-broth
+(T). The actual metabolite levels in the cells were estimated
+by the so-called ‘‘differential method’’ by subtracting the
+amount in the extracellular medium from the whole-broth
+total (T - EX). Furthermore, we analyzed all fractions for
+eight variations of the cold methanol quenching protocol,
+as described in Table 1, to investigate the effects of
+methanol concentration and temperature. These samples
+were analyzed not only for phosphorylated intermediates
+and organic acids but also for aminoacids, providing an
+even wider range of compounds. All metabolite levels were
+expressed in lmol/gDW, to establish the mass balances. The
+mass balance results are shown in Fig. 5. G6P and Fumarate are given as representative examples of the results
+found for phosphorylated intermediates and organic acids
+and Glutamate (MW = 147) as a representative of midmolecular weight aminoacids. Average mass balance closure over all measured metabolites (calculated as
+(IC + QS)/T) was 105% (±36%), which is quite satisfactory considering the analytical challenge involved. The cell
+levels calculated by the differential method (T - EX) can
+
+Table 1 Variations in sample treatment protocol tested to investigate the effects of temperature and methanol concentration on metabolite
+leakage (see Fig. 4)
+Protocol
+variation
+
+Temperature
+(°C)
+
+Concentration of methanol
+solutions (v/v) (%)
+
+Sample/
+quenching
+solution ratio
+
+Concentration of methanol
+after sampling (v/v) (%)
+
+Washing step
+
+No
+
+A
+
+-20
+
+40
+
+1:5
+
+33
+
+B
+
+-20
+
+60
+
+1:5
+
+50
+
+No
+
+C
+
+-40
+
+60
+
+1:5
+
+50
+
+Yes
+
+D
+
+-40
+
+60
+
+1:5
+
+50
+
+No
+
+E
+
+-40
+
+80
+
+1:5
+
+67
+
+No
+
+F
+
+-40
+
+100
+
+1:5
+
+83
+
+No
+
+G
+
+-40
+
+100
+
+1:10
+
+91
+
+No
+
+H
+
+-78
+
+100
+
+1:10
+
+91
+
+No
+
+123
+
+232
+
+Canelas et al.
+
+Fig. 5 Full mass balance of the metabolite levels measured in the
+different sample fractions (see Fig. 4) under eight different variations
+in sample treatment protocol (see Table 1), exemplified for G6P,
+glutamate and fumarate. The metabolite levels inside the cells were
+
+estimated from the difference of the concentrations in whole-broth
+and extracellular medium (T - EX). Samples were from cultures at
+D = 0.1 h-1 and 3.7 gDW/l. Data are averages ± standard deviation
+of at least two replicate samples, each analyzed at least in duplicate
+
+through the cell membrane more easily, while bulkier,
+more polar metabolites seemed to leak less. These results
+show that the standard protocol of quenching in 60%
+methanol at -40°C leads to considerable underestimation
+of the intracellular levels of most metabolites. The results
+also highlight the importance of the temperature and the
+methanol concentration, two factors that were not fully
+explored before, in obtaining accurate data. Special care
+
+should be taken to ensure that the temperature is not significantly above -40°C throughout the sample treatment,
+since even at -20°C leakage may become much more
+severe. Furthermore, the results confirm that at least in the
+context of quenching, methanol seems to act as a cryopreservant rather than as an extractant and that increasing
+its final concentration to above 80% can effectively prevent
+losses of metabolites from the cells. These conclusions
+
+123
+
+0.30 ± 0.00
+
+1.26 ± 0.05
+
+1.46 ± 0.09
+
+F6P
+0.35 ± 0.02
+
+4.3 ± 0.1
+
+0.17 ± 0.00
+
+0.49 ± 0.02
+
+0.061 ± 0.003
+
+G1P
+
+1.84 ± 0.06
+
+0.176 ± 0.005
+
+0.176 ± 0.054
+
+G3P
+
+Tyr
+
+0.05 ± 0.00
+
+0.577 ± 0.058
+
+1.96 ± 0.14
+
+PEP
+
+0.22 ± 0.00
+
+Trp
+
+1.39 ± 0.11
+
+Phe
+
+1.19 ± 0.04
+
+0.035 ± 0.000
+
+2.51 ± 0.09
+
+5.23 ± 0.32
+
+14.3 ± 3.3
+
+0.168 ± 0.037
+
+Met
+
+His
+
+26 ± 2
+
+2PG + 3PG
+
+180 ± 2
+
+Glu
+
+5.9 ± 0.3
+0.94 ± 0.04
+
+0.23 ± 0.01
+
+Citrate
+
+51.6 ± 2.1
+3.84 ± 0.13
+
+Gln
+Lys
+
+0.69 ± 0.04
+
+6.27 ± 1.90
+
+2.30 ± 1.70
+
+2.0 ± 0.1
+
+Malate
+
+0.99 ± 0.05
+
+4.18 ± 0.28
+
+19.2 ± 0.5
+
+Orn
+
+Asp
+
+Oxoglutarate
+
+0.56 ± 0.03
+
+4.74 ± 0.15
+
+0.29 ± 0.01
+
+0.22 ± 0.01
+
+0.56 ± 0.02
+
+Asn
+
+4.42 ± 0.12
+
+Thr
+
+0.32 ± 0.02
+
+0.99 ± 0.09
+
+5.03 ± 2.16
+
+Succinate
+
+1.2 ± 0.1
+
+0.12 ± 0.00
+
+1.71 ± 0.06
+
+9.1 ± 0.3
+
+Val
+
+Leu
+
+0.75 ± 0.09
+
+Fumarate
+
+0.42 ± 0.02
+
+3.1 ± 0.2
+
+0.33 ± 0.01
+
+0.032 ± 0.007
+0.41 ± 0.01
+
+A
+
+IC (lmol/gDW)
+
+Ile
+
+38.6 ± 0.6
+
+4.60 ± 0.11
+
+1.35 ± 0.36
+
+Pyruvate
+
+Ala
+
+0.125 ± 0.056
+3.18 ± 0.42
+
+Glyoxylate
+Gly
+
+Pro
+
+T - EX (lmol/gDW)
+
+Metabolite
+
+0.35 ± 0.00
+
+0.28 ± 0.00
+
+0.151 ± 0.006
+
+3.8 ± 0.2
+
+0.38 ± 0.00
+
+0.48 ± 0.02
+
+0.059 ± 0.007
+
+0.11 ± 0.00
+
+0.17 ± 0.00
+
+1.39 ± 0.05
+
+0.025 ± 0.001
+
+25 ± 0
+
+6.0 ± 0.2
+0.85 ± 0.02
+
+0.18 ± 0.00
+
+0.56 ± 0.01
+
+1.7 ± 0.0
+
+1.08 ± 0.02
+
+0.54 ± 0.02
+
+0.20 ± 0.01
+
+0.16 ± 0.00
+
+0.37 ± 0.01
+
+0.22 ± 0.00
+
+0.9 ± 0.0
+
+0.09 ± 0.00
+
+0.27 ± 0.01
+
+1.7 ± 0.0
+
+0.42 ± 0.00
+
+0.043 ± 0.006
+0.43 ± 0.01
+
+B
+
+0.47 ± 0.02
+
+0.57 ± 0.00
+
+0.301 ± 0.012
+
+4.9 ± 0.1
+
+1.42 ± 0.05
+
+0.97 ± 0.04
+
+0.081 ± 0.012
+
+1.19 ± 0.06
+
+0.20 ± 0.00
+
+2.74 ± 0.12
+
+0.033 ± 0.000
+
+52 ± 2
+
+15.3 ± 0.1
+2.10 ± 0.04
+
+0.31 ± 0.01
+
+0.78 ± 0.00
+
+3.9 ± 0.1
+
+2.54 ± 0.03
+
+1.37 ± 0.06
+
+0.43 ± 0.02
+
+0.28 ± 0.01
+
+0.78 ± 0.04
+
+0.21 ± 0.01
+
+2.0 ± 0.1
+
+0.14 ± 0.01
+
+0.58 ± 0.03
+
+3.6 ± 0.1
+
+0.33 ± 0.01
+
+0.041 ± 0.002
+0.42 ± 0.01
+
+C
+
+0.67 ± 0.02
+
+0.71 ± 0.02
+
+0.406 ± 0.016
+
+6.0 ± 0.2
+
+1.68 ± 0.06
+
+1.18 ± 0.02
+
+0.088 ± 0.005
+
+1.25 ± 0.07
+
+0.50 ± 0.11
+
+3.87 ± 0.31
+
+0.063 ± 0.010
+
+70 ± 2
+
+22.1 ± 3.2
+2.65 ± 0.15
+
+0.76 ± 0.12
+
+1.52 ± 0.18
+
+5.8 ± 0.5
+
+2.86 ± 0.05
+
+1.80 ± 0.08
+
+0.65 ± 0.04
+
+0.41 ± 0.03
+
+1.20 ± 0.06
+
+0.55 ± 0.08
+
+2.9 ± 0.2
+
+0.27 ± 0.03
+
+0.95 ± 0.06
+
+6.2 ± 0.3
+
+0.70 ± 0.15
+
+0.041 ± 0.011
+0.63 ± 0.01
+
+D
+
+1.07 ± 0.02
+
+1.29 ± 0.10
+
+0.462 ± 0.022
+
+7.1 ± 0.4
+
+2.35 ± 0.11
+
+1.55 ± 0.05
+
+0.108 ± 0.006
+
+1.93 ± 0.07
+
+0.65 ± 0.28
+
+4.76 ± 0.49
+
+0.105 ± 0.009
+
+124 ± 3
+
+45.2 ± 2.9
+3.60 ± 0.22
+
+1.57 ± 0.02
+
+2.47 ± 0.20
+
+13.2 ± 0.7
+
+3.91 ± 0.09
+
+3.75 ± 0.14
+
+1.21 ± 0.03
+
+0.73 ± 0.02
+
+2.64 ± 0.03
+
+0.94 ± 0.20
+
+6.4 ± 0.4
+
+0.42 ± 0.03
+
+2.15 ± 0.04
+
+16.1 ± 0.1
+
+0.89 ± 0.16
+
+0.043 ± 0.010
+1.47 ± 0.05
+
+E
+
+1.34 ± 0.06
+
+1.41 ± 0.02
+
+0.526 ± 0.004
+
+12.9 ± 0.2
+
+2.89 ± 0.00
+
+1.53 ± 0.07
+
+0.113 ± 0.005
+
+2.33 ± 0.02
+
+1.55 ± 0.04
+
+6.29 ± 0.02
+
+0.197 ± 0.004
+
+174 ± 2
+
+69.0 ± 1.8
+4.04 ± 0.03
+
+1.61 ± 0.08
+
+6.09 ± 1.15
+
+21.4 ± 0.0
+
+4.31 ± 0.12
+
+4.77 ± 0.09
+
+1.68 ± 0.06
+
+1.02 ± 0.05
+
+3.92 ± 0.13
+
+2.65 ± 0.29
+
+11.6 ± 0.9
+
+0.75 ± 0.00
+
+3.42 ± 0.04
+
+28.0 ± 0.4
+
+1.19 ± 0.04
+
+0.121 ± 0.018
+2.49 ± 0.20
+
+F
+
+1.33 ± 0.03
+
+1.46 ± 0.01
+
+0.507 ± 0.021
+
+16.8 ± 0.9
+
+2.77 ± 0.03
+
+1.79 ± 0.07
+
+0.141 ± 0.005
+
+2.31 ± 0.03
+
+1.66 ± 0.07
+
+6.02 ± 0.07
+
+0.208 ± 0.013
+
+170 ± 1
+
+65.9 ± 1.2
+4.12 ± 0.07
+
+1.67 ± 0.01
+
+7.74 ± 0.52
+
+20.8 ± 0.0
+
+4.06 ± 0.07
+
+4.75 ± 0.01
+
+1.67 ± 0.00
+
+1.01 ± 0.00
+
+4.07 ± 0.04
+
+4.42 ± 0.17
+
+10.3 ± 0.5
+
+1.03 ± 0.03
+
+4.29 ± 0.03
+
+34.3 ± 0.2
+
+1.03 ± 0.07
+
+0.094 ± 0.015
+3.17 ± 0.12
+
+G
+
+1.24 ± 0.03
+
+1.45 ± 0.00
+
+0.502 ± 0.008
+
+10.9 ± 0.1
+
+2.72 ± 0.06
+
+1.58 ± 0.04
+
+0.139 ± 0.001
+
+2.22 ± 0.01
+
+1.64 ± 0.07
+
+5.84 ± 0.10
+
+0.190 ± 0.011
+
+167 ± 3
+
+56.4 ± 0.2
+4.03 ± 0.03
+
+1.99 ± 0.13
+
+7.94 ± 0.66
+
+20.1 ± 0.2
+
+3.97 ± 0.08
+
+4.47 ± 0.02
+
+1.60 ± 0.02
+
+0.97 ± 0.03
+
+3.92 ± 0.12
+
+4.86 ± 0.20
+
+9.5 ± 0.4
+
+0.78 ± 0.16
+
+4.02 ± 0.16
+
+33.4 ± 0.3
+
+1.04 ± 0.05
+
+0.113 ± 0.013
+3.03 ± 0.19
+
+H
+
+Table 2 Estimated cell levels (T - EX) and measured intracellular levels (IC) (see Fig. 4), under eight different protocol variations (see Table 1), for all metabolites analyzed
+
+Leakage-free cold methanol quenching
+233
+
+123
+
+Samples were from cultures at D = 0.1 h-1 and 3.7 gDW/l. Values are averages ± standard error of at least 2 (IC) or 6 (T, EX) replicate samples, each analyzed at least in duplicate. Metabolites
+are in order of increasing molecular weight
+
+0.645 ± 0.003
+0.344 ± 0.002
+0.509 ± 0.022
+0.458 ± 0.000
+0.731 ± 0.051
+0.403 ± 0.005
+1.001 ± 0.231
+0.379 ± 0.037
+FBP
+T6P
+
+0.584 ± 0.048
+0.133 ± 0.002
+
+0.736 ± 0.021
+0.218 ± 0.009
+
+0.562 ± 0.007
+0.356 ± 0.007
+
+0.848 ± 0.074
+0.380 ± 0.007
+
+0.755 ± 0.012
+0.365 ± 0.021
+
+1.69 ± 0.01
+1.78 ± 0.02
+
+5.24 ± 0.00
+
+1.76 ± 0.07
+
+5.33 ± 0.11
+
+1.89 ± 0.14
+
+4.94 ± 0.02
+
+1.49 ± 0.08
+
+3.89 ± 0.11
+
+1.37 ± 0.05
+
+3.14 ± 0.02
+2.33 ± 0.05
+
+0.70 ± 0.01
+0.67 ± 0.01
+
+2.08 ± 0.07
+
+2.11 ± 0.13
+
+5.62 ± 0.12
+
+M6P
+
+G6P
+
+G
+F
+E
+D
+C
+B
+A
+
+IC (lmol/gDW)
+T - EX (lmol/gDW)
+Metabolite
+
+Table 2 continued
+
+123
+
+5.03 ± 0.05
+
+Canelas et al.
+
+H
+
+234
+
+Fig. 6 Ratios between measured intracellular level (IC) and estimated cell level (=T - EX) for each protocol variation (Table 1).
+Values are calculated from the data provided in Table 2. Each cross
+represents a metabolite. The dotted line joins the averages of all
+metabolites under each condition and the error bars represent the
+standards deviations
+
+could not have been drawn and the quenching method
+could not have been reliably optimized without a comprehensive, fully quantitative approach.
+The occurrence of leakage in S. cerevisiae has also been
+reported by Villas-Boas et al. from measurements of
+metabolites in cell pellets, quenching solutions and filtrates
+(Villas-Boas et al. 2005). In contrast, other studies have
+dismissed leakage mainly or exclusively because metabolite levels in methanol supernatants were below detection
+or considered negligible (Dekoning and Vandam 1992;
+Hans et al. 2001; Castrillo et al. 2003; Loret et al. 2007).
+Hans et al. actually found much higher levels of intracellular aminoacids after sampling into cold water (4°C) than
+after cold methanol quenching, which is a rather strong
+indication of leakage, but a mass balance was not performed (Hans et al. 2001). To our knowledge, Gonzalez
+et al. were the only ones to report a mass balance (for four
+metabolites: G6P, ATP, NAD and NADH) including the
+measurement of metabolites in whole-broth to investigate
+leakage in S. cerevisiae (Gonzalez et al. 1997). They
+found that metabolite levels in methanol-quenched pellets
+were lower than in the whole-broth, particularly for G6P
+and NAD. However, the difference could be accounted for
+by the noticeably high amounts found extracellularly,
+which represented 45% of the total whole-broth G6P and
+30% of NAD.
+It should also be noted that all previous studies which in
+some way or another investigated the occurrence of leakage in S. cerevisiae were carried out with shake-flask
+
+Leakage-free cold methanol quenching
+
+cultures. Instead, the experiments described in this study
+were performed in aerobic glucose-limited chemostat cultures. The obvious advantage of chemostat cultures is that
+they are more reproducible (Hoskisson and Hobbs 2005).
+In addition, while in batch cultures the time of sampling is
+critical because metabolite levels are highly dynamic (Hans
+et al. 2001; Weibel et al. 1974), in steady-state chemostat
+cultures metabolite levels change much more slowly or not
+at all (Wu et al. 2006; Mashego et al. 2005). Furthermore,
+a larger fermenter volume and the use of rapid-sampling
+equipment mean that a large number of replicate samples
+can be obtained within a very short period of time and
+processed together, further improving data consistency and
+reproducibility. The differences in growth conditions and
+sampling, as well as differences between S. cerevisiae
+strains and medium composition are likely to affect the
+biomass composition and sample properties, which in turn
+could affect the extent of metabolite leakage. This might
+explain, at least partly, some of the differences in results.
+Our results show that the extent of metabolite leakage
+depends on the temperature during treatment and the
+properties of the quenching/washing solutions, namely the
+methanol concentration and the ionic strength. Throughout
+all experiments, including tryouts not shown here, the same
+trends were consistent and reproducible. To our knowledge, none of these factors had been quantitatively
+investigated before. One possible explanation for the effect
+of the methanol concentration might be that it decreases the
+freezing point (FP). The larger the difference between the
+processing temperature and the freezing point, the lower
+the chance that part of the sample freezes, causing cell
+lysis. However, we found that losses by quenching with
+40% methanol (33% v/v final, FP & -23°C (see footnote
+1)) and 60% methanol (50% v/v final, FP & -42°C (see
+footnote 1)) at -20°C were higher than with 60% methanol
+(50% v/v final, FP & -42°C (see footnote 1)) and 80%
+methanol (50% v/v final, FP & -72°C (see footnote 1)) at
+-40°C, respectively (Fig. 5A vs. D and B vs. E). Therefore, metabolite leakage depended both on temperature
+(Fig. 5B vs. D) and methanol concentration (Fig. 5D vs.
+E), but not on the difference between temperature and
+freezing point. In addition, if leakage occurred by cell lysis
+we would expect to find metabolites levels in the quenching/washing solutions in proportion to their levels inside
+the cells, which was not the case. What changes in methanol concentration, temperature and ionic strength have in
+common is that they can affect the solubility and diffusivity
+of metabolites. Methanol is a fairly polar solvent but it is
+by far not as good a solvent as water for hydrophilic
+compounds, so the higher its concentration the lower the
+solubility of most intracellular metabolites. On the other
+hand, increasing the ionic strength of a concentrated
+methanol solution may improve the solubility of polar
+
+235
+
+compounds by allowing more ion-ion interactions. In
+addition, the solubility and diffusion coefficients usually
+increase with the temperature. In view of these considerations, we would expect higher methanol concentrations
+and lower temperatures and lower ionic strengths to reduce
+the solubility and diffusion rate of polar compounds, which
+is in agreement with the observed effects in terms of
+metabolite leakage from the cells. This is also in agreement
+with the fact that smaller metabolites were found to leak
+more than larger ones, as illustrated in Fig. 7, since smaller
+metabolites are expected to have higher diffusivities.
+Although increasing the methanol concentration could
+effectively prevent leakage of intracellular metabolites, this
+can also have one important disadvantage. We found that
+samples quenched and washed in solutions with higher
+methanol content contained much higher levels of phosphate
+and sulfate. Both are abundant in the medium used for the
+cultures (22 mM phosphate and 40 mM sulfate) and apparently were carried over in the samples, indicating that the
+washing efficiency was significantly decreased. While leakage can lead to underestimation of intracellular levels,
+insufficient washing can lead to overestimation. Extracellular
+components not adequately eliminated can also potentially
+interfere with certain analytical techniques (e.g. ion-suppression in MS-based analysis). Our results indicate that the
+intracellular levels were not overestimated even in samples
+quenched in pure methanol, since the measured IC levels were
+not consistently higher than the calculated cell levels
+(T - EX) (Fig. 6F–H). However, in other culture conditions
+
+Fig. 7 Relation between the molecular weight (proxy for molecular
+size) and the extent of leakage under the conventional cold methanol
+quenching (60% v/v, -40°C). The extent of leakage was calculated
+from the data in Table 3 (1 minus the inverse of the loss factor)
+
+123
+
+236
+
+where extracellular concentrations are higher (e.g. batch,
+anaerobic conditions) this may need to be confirmed.
+3.5 The importance of quenching metabolism,
+removing the extracellular medium and avoiding
+leakage
+Although the need to stop metabolic activity upon sampling
+for intracellular metabolite analysis has been well documented for decades it is still possible to find studies being
+published which report intracellular metabolite measurements
+from samples obtained without any apparent concern for
+quenching. The turnover time, which is the ratio between the
+metabolite concentration and the flux through that pool, is a
+good criteria to evaluate the need for quenching. Since our
+results show that intracellular metabolite levels have been
+significantly underestimated due to leakage, we have re-calculated the turnover times based on our best estimate of the
+intracellular levels. These were obtained as the averages of the
+levels found with quenching in pure methanol (columns F, G
+and H of Table 2), where leakage was prevented (Fig. 6). As
+shown in Table 3, most intermediates in central metabolism
+have short turnover times, particularly those that are highly
+connected (Pyruvate) or that have relatively low pools (FBP,
+fumarate). In this regard it is worth mentioning that cofactors
+such as ATP, ADP, NAD and NADH, which are involved in
+large numbers of reactions, are likely to have even shorter
+turnover times. On the other hand, most aminoacids have
+much longer turnover times, owing to proportionally small
+fluxes and large pools. In view of these results we can conclude that sub-second quenching of metabolic activity is
+necessary for reliable analysis of intracellular levels of intermediates in central metabolism, while slower sampling
+methods such as filtration (Bolten et al. 2007) may also
+acceptable for analysis of aminoacid levels.
+As mentioned before, the main reason to use cold methanol quenching is that it allows removal of metabolites
+present in the extracellular medium. This is necessary if a
+significant fraction of the metabolites is present outside the
+cells. It may also be desirable in cases where medium components can interfere with analytical techniques (e.g. high
+salt concentrations can cause peak-shifting in ion-exchange
+LC and ion-supression in MS). If separation was not necessary, whole-broth extraction might be a simpler and faster
+alternative. Since we analyzed metabolite levels in all sample fractions, we can re-check the need to separate the
+extracellular medium by calculating the extracellular fraction for each metabolite (=EX/T). It should be kept in mind
+that a large extracellular fraction does not necessarily mean
+that the extracellular concentration is high. The reason for
+this is that the extracellular volume is typically 100–1,000fold higher than the intracellular volume so even very low
+extracellular concentrations can represent a large fraction of
+
+123
+
+Canelas et al.
+
+the total whole-broth amount (see Fig. 5). As shown in
+Table 3, several metabolites have rather high extracellular
+fractions, particularly organic acids and aminoacids with
+non-polar side chains. Accurate analysis of the intracellular
+levels of these metabolites therefore requires adequate separation of the extracellular medium, while methods
+involving whole-broth extraction may be acceptable for
+analysis of compounds such as the phosphorylated intermediates, which are mostly present inside the cells. Note that
+these results were obtained in carbon-limited cultures and
+that extracellular fractions are most likely higher in carbonexcess conditions (Bolten et al. 2007).
+One possibility to differentiate between intracellular and
+extracellular metabolites is the ‘‘differential method’’,
+which we used above as benchmark for the improvement of
+the cold methanol quenching protocol. The major disadvantage of the differential method is the propagation of
+error associated with the subtraction, especially because
+metabolite levels in the filtrate are very dilute and difficult
+to assay reliably. This problem is further amplified if the
+extracellular fraction is large (two large numbers being
+subtracted to obtain a small number). The only way to try
+to minimize the uncertainty is through ‘‘brute force’’, by
+increasing the number of replicate samples (note that the
+uncertainties in Table 2 are standard errors, not standard
+deviations), but in practice this is sometimes not possible
+(e.g. investigation of short-term dynamics) and it is not
+guaranteed to succeed. The differential method is also not
+an alternative in the cases where medium components
+interfere with the analytical procedures.
+It follows that the most desirable is to have a sampling
+method that ensures sub-second quenching of metabolism
+while allowing separation of the extracellular medium, which
+explains the popularity of the cold methanol method. Methanol is the most obvious choice of solvent because it is fully
+miscible with water (in contrast with more apolar solvents) but
+has a very low freezing-point (much lower than ethanol,
+propanol or glycerol, for example). In addition, methanol is
+thought to be less harmful to the cells than other organic
+compounds and methanol-water solutions are not very viscous, which allows easy centrifugation and cell separation.
+However, cold methanol quenching can only be used if
+leakage of intracellular metabolites does not occur. Much of
+the work reported here aimed at quantifying the extent of
+leakage and trying to prevent it. As shown in Table 3, the
+extent of leakage in the conventional cold methanol quenching method (60%, -40°C) is such that most metabolites
+investigated would be underestimated by more than twofold.
+With the exception of only the largest, most polar metabolites
+(FBP, T6P and probably others such as nucleotides), accurate
+analysis of the intracellular metabolite levels in S. cerevisiae
+is only possible using the improved cold methanol quenching
+method described here.
+
+Leakage-free cold methanol quenching
+
+237
+
+Table 3 Intracellular levels, turnover times, extracellular fractions and loss factors due to leakage during conventional cold methanol quenching
+Metabolite
+
+Intracellular
+level (lmol/gDW)
+
+Estimated flux
+(lmol/gDW/s)
+
+Estimated
+turnover time (s)
+
+Extracellular
+fraction (%)
+
+Loss factor due to leakage
+in conventional cold
+methanol quenching
+
+Glyoxylate
+
+0.11
+
+–
+
+–
+
+70
+
+2.7
+
+Gly
+
+2.9
+
+0.012
+
+247
+
+33
+
+6.9
+
+Pyruvate
+Ala
+
+1.1
+32
+
+0.656
+0.010
+
+2
+3268
+
+57
+5
+
+3.3
+8.9
+
+Pro
+
+3.9
+
+0.004
+
+925
+
+8
+
+6.7
+
+Fumarate
+
+0.85
+
+0.208
+
+4
+
+66
+
+6.2
+
+Val
+
+10
+
+0.021
+
+490
+
+6
+
+5.1
+
+Succinate
+
+4.0
+
+0.197
+
+20
+
+50
+
+19.2
+
+Thr
+
+4.0
+
+0.018
+
+220
+
+9
+
+5.1
+
+Leu
+
+1.0
+
+0.008
+
+125
+
+28
+
+3.6
+
+Ile
+
+1.6
+
+0.012
+
+140
+
+15
+
+3.8
+
+Asn
+
+4.7
+
+0.004
+
+1142
+
+9
+
+3.4
+
+Orn
+
+4.1
+
+0.008
+
+502
+
+22
+
+1.6
+
+Asp
+
+21
+
+0.036
+
+577
+
+4
+
+5.3
+
+Malate
+
+7.3
+
+0.240
+
+30
+
+61
+
+9.3
+
+Oxoglutarate
+
+1.8
+
+0.377
+
+5
+
+78
+
+5.6
+
+Gln
+
+64
+
+0.027
+
+2401
+
+3
+
+4.2
+
+Lys
+Glu
+
+4.1
+170
+
+0.007
+0.153
+
+619
+1112
+
+8
+2
+
+1.9
+3.3
+
+Met
+
+0.20
+
+0.003
+
+66
+
+42
+
+6.0
+
+His
+
+6.0
+
+0.002
+
+3141
+
+10
+
+2.2
+
+Phe
+
+1.6
+
+0.004
+
+430
+
+17
+
+8.1
+
+PEP
+
+2.3
+
+0.404
+
+6
+
+8
+
+1.9
+
+G3P
+
+0.13
+
+0.002
+
+57
+
+70
+
+1.6
+
+Tyr
+
+1.6
+
+0.002
+
+832
+
+11
+
+1.7
+
+2PG + 3PG
+
+2.8
+
+0.422
+
+7
+
+8
+
+2.0
+
+Citrate
+
+14
+
+0.228
+
+59
+
+50
+
+2.8
+
+Trp
+
+0.51
+
+0.001
+
+788
+
+17
+
+1.7
+
+F6P
+
+1.4
+
+0.197
+
+7
+
+2
+
+2.5
+
+G1P
+
+1.3
+
+–
+
+–
+
+20
+
+2.8
+
+M6P
+
+1.7
+
+–
+
+–
+
+1
+
+1.3
+
+G6P
+
+5.2
+
+0.311
+
+17
+
+2
+
+1.7
+
+FBP
+
+0.64
+
+0.197
+
+3
+
+6
+
+1.1
+
+T6P
+
+0.39
+
+–
+
+–
+
+16
+
+1.1
+
+Best estimates of the intracellular levels are the averages of levels obtained by quenching in pure methanol (average of columns F, G and H of
+Table 2). Net fluxes through metabolite pools were calculated from the estimated steady-state intracellular flux distribution under aerobic
+glucose-limited conditions according to (Daran-Lapujade et al. 2004). The turnover time is the ratio between the intracellular level and the flux.
+The extracellular fraction is the ratio between the levels measured in the extracellular (EX) and total broth (T) samples. The loss factor due to
+leakage is the ratio between the best estimate of the intracellular level (in the second column) and the level found by conventional cold methanol
+quenching (column C of Table 2). Metabolites are in order of increasing molecular weight
+–, Metabolites not present in the stoichiometric model (Daran-Lapujade et al. 2004) under aerobic glucose-limited conditions
+
+These findings have obvious implications for metabolomics-based research in S. cerevisiae, such as nonstationary 13C flux analysis, in vivo kinetic modeling and
+thermodynamic network analysis, which all rely on the
+accuracy of intracellular metabolite determination.
+
+4 Concluding remarks and recommendations
+For accurate determination of intracellular metabolites in
+S. cerevisiae broth should be harvested into pure methanol
+at B-40°C with a sample/quenching solution ratio of 1:5
+
+123
+
+238
+
+or lower (final methanol concentration C83%). Preferably,
+this should be done using rapid sampling equipment to
+avoid changes in metabolite concentrations during harvesting, especially from chemostat cultures and if shortturnover metabolites are to be measured. Centrifugation
+should be done quickly (B5 min at C4,000g) and using a
+pre-cooled rotor, to keep the temperature below or around
+-40°C. The overall time of exposure to methanol should
+be kept to a minimum. If a washing step is strictly necessary, to minimize the concentration of contaminants from
+the extracellular medium, this should be done with C83%
+methanol.
+Sample treatment techniques should be validated quantitatively for each microorganism and growth condition.
+Not doing so compromises the conclusions drawn from
+subsequent research.
+Acknowledgement This work was funded by SenterNovem through
+the IOP Genomics initiative (project IGE3006A).
+Open Access This article is distributed under the terms of the
+Creative Commons Attribution Noncommercial License which permits any noncommercial use, distribution, and reproduction in any
+medium, provided the original author(s) and source are credited.
+
+References
+Bolten, C. J., Kiefer, P., Letisse, F., Portais, J. C., & Wittmann, C.
+(2007). Sampling for metabolome analysis of microorganisms.
+Analytical Chemistry, 79, 3843–3849. doi:10.1021/ac0623888.
+Castrillo, J. I., Hayes, A., Mohammed, S., Gaskell, S. J., & Oliver, S. G.
+(2003). An optimized protocol for metabolome analysis in yeast
+using direct infusion electrospray mass spectrometry. Phytochemistry, 62, 929–937. doi:10.1016/S0031-9422(02)00713-6.
+Cole, H. A., Wimpenny, J. W., & Hughes, D. E. (1967). Atp pool in
+Escherichia Coli. I. Measurement of pool using a modified
+luciferase assay. Biochimica et Biophysica Acta 143, 445–453.
+Daran-Lapujade, P, Jansen, M. L. A., Daran, J. M., van Gulik, W., de
+Winde, J. H., & Pronk, J. T. (2004) Role of transcriptional
+regulation in controlling fluxes in central carbon metabolism of
+Saccharomyces cerevisiae—A chemostat culture study. The
+Journal of Biological Chemistry, 279, 9125–9138.
+David, R. L. (2007) Concentrative properties of aqueous solutions:
+Density, refractive index, freezing point depression, and viscosity. In
+R. L. David (Ed.), CRc handbook of chemistry and physics, internet
+version 2007 (87th ed.). Boca Raton, FL: Taylor and Francis.
+Dekoning, W., & Vandam, K. (1992). A method for the determination
+of changes of glycolytic metabolites in yeast on a subsecond
+time scale using extraction at neutral Ph. Analytical Biochemistry, 204, 118–123. doi:10.1016/0003-2697(92)90149-2.
+Faupel, R. P., Seitz, H. J., Tarnowsk, W., Thiemann, V., & Weiss, C.
+(1972). Problem of tissue sampling from experimental-animals
+with respect to freezing technique, anoxia, stress and narcosis—
+New method for sampling rat-liver tissue and physiological
+values of glycolytic intermediates and related compounds.
+Archives of Biochemistry and Biophysics, 148, 509–522.
+Gonzalez, B, Francois, J, & Renaud, M. (1997). A rapid and reliable
+method for metabolite extraction in yeast using boiling buffered
+ethanol. Yeast (Chichester, England), 13, 1347–1355.
+Hajjaj, H., Blanc, P. J., Goma, G., & Francois, J. (1998). Sampling
+techniques and comparative extraction procedures for
+
+123
+
+Canelas et al.
+quantitative determination of intra- and extracellular metabolites
+in filamentous fungi. FEMS Microbiology Letters, 164, 195–200.
+doi:10.1111/j.1574-6968.1998.tb13085.x.
+Hans, M. A., Heinzle, E., & Wittmann, C. (2001). Quantification of
+intracellular amino acids in batch cultures of Saccharomyces
+cerevisiae. Applied Microbiology and Biotechnology, 56, 776–
+779. doi:10.1007/s002530100708.
+Harrison, D. E., & Maitra, P. K. (1969). Control of respiration and
+metabolism in growig klebsiella aerogenes—Role of adenine
+nucleotides. Biochemical Journal, 112, 647–656.
+Hoskisson, P. A., & Hobbs, G. (2005). Continuous culture—Making a
+comeback? Microbiology-Sgm, 151, 3153–3159.
+Kresnowati, M. T. A. P, Van Winden, W. A, Almering, M. J. H, ten
+Pierick, A, Ras, C, Knijnenburg, T. A., et al. (2006). When
+transcriptome meets metabolome: Fast cellular responses of
+yeast to sudden relief of glucose limitation. Molecular Systems
+Biology, 2, 49.
+Lange, H. C., Eman, M., van Zuijlen, G., Visser, D., Van Dam, J. C.,
+Frank, J., et al. (2001). Improved rapid sampling for in vivo
+kinetics of intracellular metabolites in Saccharomyces cerevisiae. Biotechnology and Bioengineering, 75, 406–415. doi:
+10.1002/bit.10048.
+Loret, M. O., Pedersen, L., & Francois, J. (2007). Revised procedures
+for yeast metabolites extraction: Application to a glucose pulse
+to carbon-limited yeast cultures, which reveals a transient
+activation of the purine salvage pathway. Yeast (Chichester,
+England), 24, 47–60. doi:10.1002/yea.1435.
+Maharjan, R. P., & Ferenci, T. (2003). Global metabolite analysis:
+The influence of extraction methodology on metabolome profiles
+of Escherichia coli. Analytical Biochemistry, 313, 145–154. doi:
+10.1016/S0003-2697(02)00536-5.
+Mashego, M. R., Jansen, M. L. A., Vinke, J. L., Van Gulik, W. M., &
+Heijnen, J. J. (2005). Changes in the metabolome of Saccharomyces cerevisiae associated with evolution in aerobic glucoselimited chemostats. FEMS Yeast Research, 5, 419–430. doi:
+10.1016/j.femsyr.2004.11.008.
+Mashego, M. R., Rumbold, K., De Mey, M., Vandamme, E., Soetaert,
+W., & Heijnen, J. J. (2007). Microbial metabolomics: Past,
+present and future methodologies. Biotechnology Letters, 29, 1–
+16. doi:10.1007/s10529-006-9218-0.
+Mashego, M. R., Van Gulik, W. M., Vinke, J. L., & Heijnen, J. J.
+(2003). Critical evaluation of sampling techniques for residual
+glucose determination in carbon-limited chemostat culture of
+Saccharomyces cerevisiae. Biotechnology and Bioengineering,
+83, 395–399. doi:10.1002/bit.10683.
+Mashego, M. R., Wu, L., Van Dam, J. C., Ras, C., Vinke, J. L., Van
+Winden, W. A., et al. (2004). MIRACLE: Mass isotopomer ratio
+analysis of U-C-13-labeled extracts. A new method for accurate
+quantification of changes in concentrations of intracellular
+metabolites. Biotechnology and Bioengineering, 85, 620–628.
+doi:10.1002/bit.10907.
+Moritz, B., Striegel, K., de Graaf, A. A., & Sahm, H. (2000). Kinetic
+properties of the glucose-6-phosphate and 6-phosphogluconate
+dehydrogenases from Corynebacterium glutamicum and their
+application for predicting pentose phosphate pathway flux
+in vivo. European Journal of Biochemistry, 267, 3442–3452.
+doi:10.1046/j.1432-1327.2000.01354.x.
+Oldiges, M., & Takors, R. (2005) Applying metabolic profiling
+techniques for stimulus-response experiments: Chances and
+pitfalls. Technology Transfer in Biotechnology: From Lab to
+Industry to Production, 92, 173–196.
+Ruijter, G. J. G., & Visser, J. (1996). Determination of intermediary
+metabolites in Aspergillus niger. Journal of Microbiological
+Methods, 25, 295–302. doi:10.1016/0167-7012(95)00104-2.
+Saez, M. J., & Lagunas, R. (1976). Determination of intermediary
+metabolites in yeast—Critical-examination of effect of sampling
+
+Leakage-free cold methanol quenching
+conditions and recommendations for obtaining true levels.
+Molecular and Cellular Biochemistry, 13, 73–78. doi:10.1007/
+BF01837056.
+Schaub, J., Schiesling, C., Reuss, M., & Dauner, M. (2006).
+Integrated sampling procedure for metabolome analysis. Biotechnology Progress, 22, 1434–1442. doi:10.1021/bp050381q.
+Van Dam, J. C., Eman, M. R., Frank, J., Lange, H. C., van Dedem, G.
+W. K., & Heijnen, S. J. (2002). Analysis of glycolytic
+intermediates in Saccharomyces cerevisiae using anion exchange
+chromatography and electrospray ionization with tandem mass
+spectrometric detection. Analytica Chimica Acta, 460, 209–218.
+doi:10.1016/S0003-2670(02)00240-4.
+van Dijken, J. P., Bauer, J., Brambilla, L., Duboc, P., Francois, J. M.,
+Gancedo, C., et al. (2000). An interlaboratory comparison of
+physiological and genetic properties of four Saccharomyces
+cerevisiae strains. Enzyme and Microbial Technology, 26, 706–
+714. doi:10.1016/S0141-0229(00)00162-9.
+Veech, R. L., Egglesto, L. V., & Krebs, H. A. (1969). Redox state of
+free nicotinamide-adenine dinucleotide phosphate in cytoplasm
+of rat liver. Biochemical Journal, 115, 609–619.
+Verduyn, C., Postma, E., Scheffers, W. A., & Vandijken, J. P. (1992).
+Effect of benzoic-acid on metabolic fluxes in yeasts—A
+continuous-culture study on the regulation of respiration and
+alcoholic fermentation. Yeast (Chichester, England), 8, 501–517.
+Villas-Boas, S. G., & Bruheim, P. (2007). Cold glycerol-saline: The
+promising quenching solution for accurate intracellular metabolite analysis of microbial cells. Analytical Biochemistry, 370,
+87–97.
+Villas-Boas, S. G., Hojer-Pedersen, J., Akesson, M., Smedsgaard, J.,
+& Nielsen, J. (2005). Global metabolite analysis of yeast:
+
+239
+Evaluation of sample preparation methods. Yeast (Chichester,
+England), 22, 1155–1169. doi:10.1002/yea.1308.
+Weibel, K. E., Mor, J. R., & Fiechter, A. (1974). Rapid sampling of
+yeast-cells and automated assays of adenylate, citrate, pyruvate
+and glucose-6-phosphate pools. Analytical Biochemistry, 58,
+208–216. doi:10.1016/0003-2697(74)90459-X.
+Williams, D. H., Lund, P., & Krebs, H. A. (1967). Redox state of free
+nicotinamide-adenine dinucleotide in cytoplasm and mitochondria of rat liver. Biochemical Journal, 103, 514–527.
+Wittmann, C, Kromer, J. O., Kiefer, P., Binz, T., & Heinzle, E.
+(2004). Impact of the cold shock phenomenon on quantification
+of intracellular metabolites in bacteria. Analytical Biochemistry,
+327, 135–139.
+Wollenberger, A., Ristau, O., & Schoffa, G. (1960). Eine Einfache
+Technik der Extrem Schnellen Abkuhlung Grosserer Gewebestucke. Pflugers Archiv fur die Gesamte Physiologie des
+Menschen und der Tiere, 270, 399–412. doi:10.1007/BF00
+362995.
+Wu, L., Mashego, M. R., Proell, A. M., Vinke, J. L., Ras, C., van
+Dam, J., et al. (2006). In vivo kinetics of primary metabolism in
+Saccharomyces cerevisiae studied through prolonged chemostat
+cultivation. Metabolic Engineering, 8, 160–171. doi:
+10.1016/j.ymben.2005.09.005.
+Wu, L., Mashego, M. R., Van Dam, J. C., Proell, A. M., Vinke, J. L.,
+Ras, C., et al. (2005). Quantitative analysis of the microbial
+metabolome by isotope dilution mass spectrometry using
+uniformly C-13-labeled cell extracts as internal standards.
+Analytical Biochemistry, 336, 164–171. doi:10.1016/j.ab.
+2004.09.001.
+
+123
+
+

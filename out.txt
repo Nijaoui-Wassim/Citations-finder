@@ -1,0 +1,796 @@
+
+
+
+ *****  papers/13238_2015_Article_185   ***** 
+
+
+
+
+
+ *****  papers/216_2011_Article_5308   ***** 
+
+
+
+
+ accurcy =  72.0576692122892 %
+
+ Your sentence from the intro : 
+normal phase liquid chromatography
+
+ the similar sentence from the paper : 
+multiple columns exist include reverse phase liquid chromatography rplc hydrophilic interaction liquid chromatography hilc normal phase liquid chromatography nplc ijms1700632 used elute metabolites different propertiespaper file name: papers/216_2011_Article_5308
+
+
+
+ accurcy =  63.24555320336758 %
+
+ Your sentence from the intro : 
+mobile phase order achieve elution
+
+ the similar sentence from the paper : 
+work increasing polarity mobile phase achieve elution 2162011paper file name: papers/216_2011_Article_5308
+
+
+
+ accurcy =  64.45033866354895 %
+
+ Your sentence from the intro : 
+nonaqueous normal phase liquid chromatography
+
+ the similar sentence from the paper : 
+multiple columns exist include reverse phase liquid chromatography rplc hydrophilic interaction liquid chromatography hilc normal phase liquid chromatography nplc ijms1700632 used elute metabolites different propertiespaper file name: papers/216_2011_Article_5308
+
+
+
+
+ *****  papers/282574   ***** 
+
+
+
+
+
+ *****  papers/354671   ***** 
+
+
+
+
+
+ *****  papers/armitage2014   ***** 
+
+
+
+
+
+ *****  papers/bkv140   ***** 
+
+
+
+
+ accurcy =  77.45966692414834 %
+
+ Your sentence from the intro : 
+sample preparation extraction
+
+ the similar sentence from the paper : 
+second step sample preparation extractionpaper file name: papers/bkv140
+
+
+
+ accurcy =  77.45966692414834 %
+
+ Your sentence from the intro : 
+sample preparation extraction
+
+ the similar sentence from the paper : 
+second step sample preparation extractionpaper file name: papers/bkv140
+
+
+
+
+ *****  papers/canelas2009   ***** 
+
+
+
+
+
+ *****  papers/canelas_2008   ***** 
+
+
+
+
+ accurcy =  66.66666666666669 %
+
+ Your sentence from the intro : 
+5 importance quenching metabolism
+
+ the similar sentence from the paper : 
+thus importance quenchingpaper file name: papers/canelas_2008
+
+
+
+
+ *****  papers/Chapter-13   ***** 
+
+
+
+
+ accurcy =  61.23724356957945 %
+
+ Your sentence from the intro : 
+different classes metabolites
+
+ the similar sentence from the paper : 
+different methods extract metabolites different propertiespaper file name: papers/Chapter-13
+
+
+
+ accurcy =  60.927179584494226 %
+
+ Your sentence from the intro : 
+laser desorption ionization esi electrospray ionization
+
+ the similar sentence from the paper : 
+many ionization techniques could used resulting different ms types electrospray ionization esi atmospheric pressure chemical ionization apci inductively coupled plasma icp matrix assisted laser desorption maldi electron ionization ei chemical ionization ci atmospheric pressure photoionization appi many rockwood2018paper file name: papers/Chapter-13
+
+
+
+ accurcy =  64.28111195587375 %
+
+ Your sentence from the intro : 
+14 schematic plot ms components including ei electron impact ci chemical ionization maldi matrixassisted laser desorption ionization esi electrospray ionization fab fastatom bombardment sims resonance ionization pd plasmadesorption ionization lims laser ionization rims resonance ionization
+
+ the similar sentence from the paper : 
+many ionization techniques could used resulting different ms types electrospray ionization esi atmospheric pressure chemical ionization apci inductively coupled plasma icp matrix assisted laser desorption maldi electron ionization ei chemical ionization ci atmospheric pressure photoionization appi many rockwood2018paper file name: papers/Chapter-13
+
+
+
+ accurcy =  60.55300708194983 %
+
+ Your sentence from the intro : 
+pressure chemical ionization apci esi
+
+ the similar sentence from the paper : 
+many ionization techniques could used resulting different ms types electrospray ionization esi atmospheric pressure chemical ionization apci inductively coupled plasma icp matrix assisted laser desorption maldi electron ionization ei chemical ionization ci atmospheric pressure photoionization appi many rockwood2018paper file name: papers/Chapter-13
+
+
+
+ accurcy =  61.23724356957945 %
+
+ Your sentence from the intro : 
+different separation methods
+
+ the similar sentence from the paper : 
+different methods extract metabolites different propertiespaper file name: papers/Chapter-13
+
+
+
+ accurcy =  63.24555320336758 %
+
+ Your sentence from the intro : 
+depending different properties metabolites potentially
+
+ the similar sentence from the paper : 
+different methods extract metabolites different propertiespaper file name: papers/Chapter-13
+
+
+
+
+ *****  papers/clinchem1041   ***** 
+
+
+
+
+ accurcy =  63.960214906683134 %
+
+ Your sentence from the intro : 
+potential deleterious effects electrospray ionization esi atmospheric pressure chemical ionization
+
+ the similar sentence from the paper : 
+many ionization techniques could used resulting different ms types electrospray ionization esi atmospheric pressure chemical ionization apci inductively coupled plasma icp matrix assisted laser desorption maldi electron ionization ei chemical ionization ci atmospheric pressure photoionization appi many rockwood2018paper file name: papers/clinchem1041
+
+
+
+
+ *****  papers/current metabolomics  applicable    ***** 
+
+
+
+
+
+ *****  papers/data analysis for lc-ms_ms   ***** 
+
+
+
+
+ accurcy =  66.66666666666669 %
+
+ Your sentence from the intro : 
+conclusion pros cons
+
+ the similar sentence from the paper : 
+technique pros conspaper file name: papers/data analysis for lc-ms_ms
+
+
+
+
+ *****  papers/defalco2018   ***** 
+
+
+
+
+
+ *****  papers/determination of intermediary metabolites   ***** 
+
+
+
+
+
+ *****  papers/djukovic2013   ***** 
+
+
+
+
+ accurcy =  67.70032003863302 %
+
+ Your sentence from the intro : 
+include liquid chromatography lc gas chromatography gc capillary electrophoresis
+
+ the similar sentence from the paper : 
+analyzing techniques coupled many separation techniques include gas chromatography gc liquid chromatography lc capillary electrophoresis ce overview mass spectrometrybased metabolomicsopportunitiesandchallengespaper file name: papers/djukovic2013
+
+
+
+
+ *****  papers/f1000research-6-12415   ***** 
+
+
+
+
+ accurcy =  62.01736729460423 %
+
+ Your sentence from the intro : 
+within sample change ionization efficiency
+
+ the similar sentence from the paper : 
+addition reproducibility issue ms since contaminants within sample change efficiency ionization new frontierpaper file name: papers/f1000research-6-12415
+
+
+
+
+ *****  papers/Fast sampling for quantitative microbial metabolomics   ***** 
+
+
+
+
+
+ *****  papers/garcia2005   ***** 
+
+
+
+
+
+ *****  papers/gb-2005-6-11-354   ***** 
+
+
+
+
+
+ *****  papers/hayashi2009   ***** 
+
+
+
+
+
+ *****  papers/ibanez2013   ***** 
+
+
+
+
+
+ *****  papers/ijms-17-00632   ***** 
+
+
+
+
+
+ *****  papers/InTech-Derivatization_reactions_and_reagents_for_gas_chromatography_analysis   ***** 
+
+
+
+
+ accurcy =  60.30226891555272 %
+
+ Your sentence from the intro : 
+however care taken handling
+
+ the similar sentence from the paper : 
+however method timeconsuming chloroform hazardous thus extra care needs taken handlingpaper file name: papers/InTech-Derivatization_reactions_and_reagents_for_gas_chromatography_analysis
+
+
+
+
+ *****  papers/journal.pone.0016015   ***** 
+
+
+
+
+ accurcy =  66.66666666666666 %
+
+ Your sentence from the intro : 
+saccharomyces cerevisiae model organism
+
+ the similar sentence from the paper : 
+study saccharomyces cerevisiae environmentally friendly yeast model organism usedpaper file name: papers/journal.pone.0016015
+
+
+
+ accurcy =  66.66666666666666 %
+
+ Your sentence from the intro : 
+saccharomyces cerevisiae model organism
+
+ the similar sentence from the paper : 
+study saccharomyces cerevisiae environmentally friendly yeast model organism usedpaper file name: papers/journal.pone.0016015
+
+
+
+ accurcy =  66.66666666666666 %
+
+ Your sentence from the intro : 
+saccharomyces cerevisiae model organism
+
+ the similar sentence from the paper : 
+study saccharomyces cerevisiae environmentally friendly yeast model organism usedpaper file name: papers/journal.pone.0016015
+
+
+
+ accurcy =  66.66666666666666 %
+
+ Your sentence from the intro : 
+saccharomyces cerevisiae model organism
+
+ the similar sentence from the paper : 
+study saccharomyces cerevisiae environmentally friendly yeast model organism usedpaper file name: papers/journal.pone.0016015
+
+
+
+ accurcy =  66.66666666666666 %
+
+ Your sentence from the intro : 
+saccharomyces cerevisiae model organism
+
+ the similar sentence from the paper : 
+study saccharomyces cerevisiae environmentally friendly yeast model organism usedpaper file name: papers/journal.pone.0016015
+
+
+
+ accurcy =  66.66666666666666 %
+
+ Your sentence from the intro : 
+saccharomyces cerevisiae model organism
+
+ the similar sentence from the paper : 
+study saccharomyces cerevisiae environmentally friendly yeast model organism usedpaper file name: papers/journal.pone.0016015
+
+
+
+ accurcy =  66.66666666666666 %
+
+ Your sentence from the intro : 
+saccharomyces cerevisiae model organism
+
+ the similar sentence from the paper : 
+study saccharomyces cerevisiae environmentally friendly yeast model organism usedpaper file name: papers/journal.pone.0016015
+
+
+
+ accurcy =  66.66666666666666 %
+
+ Your sentence from the intro : 
+saccharomyces cerevisiae model organism
+
+ the similar sentence from the paper : 
+study saccharomyces cerevisiae environmentally friendly yeast model organism usedpaper file name: papers/journal.pone.0016015
+
+
+
+ accurcy =  66.66666666666666 %
+
+ Your sentence from the intro : 
+saccharomyces cerevisiae model organism
+
+ the similar sentence from the paper : 
+study saccharomyces cerevisiae environmentally friendly yeast model organism usedpaper file name: papers/journal.pone.0016015
+
+
+
+ accurcy =  66.66666666666666 %
+
+ Your sentence from the intro : 
+saccharomyces cerevisiae model organism
+
+ the similar sentence from the paper : 
+study saccharomyces cerevisiae environmentally friendly yeast model organism usedpaper file name: papers/journal.pone.0016015
+
+
+
+
+ *****  papers/journal.pone.0143641   ***** 
+
+
+
+
+
+ *****  papers/JZUSB15-0333   ***** 
+
+
+
+
+ accurcy =  61.237243569579455 %
+
+ Your sentence from the intro : 
+pi membrane impermeant dye
+
+ the similar sentence from the paper : 
+pi fluorescent dye cross membrane damagedpaper file name: papers/JZUSB15-0333
+
+
+
+
+ *****  papers/leakage-free quenching   ***** 
+
+
+
+
+ accurcy =  66.66666666666669 %
+
+ Your sentence from the intro : 
+5 importance quenching metabolism
+
+ the similar sentence from the paper : 
+thus importance quenchingpaper file name: papers/leakage-free quenching
+
+
+
+
+ *****  papers/metabolites-07-00053   ***** 
+
+
+
+
+ accurcy =  72.16878364870323 %
+
+ Your sentence from the intro : 
+comparing methodsí abilities extract different metabolites
+
+ the similar sentence from the paper : 
+different methods extract metabolites different propertiespaper file name: papers/metabolites-07-00053
+
+
+
+ accurcy =  65.31972647421807 %
+ error getting the info 
+
+
+ accurcy =  61.72133998483677 %
+
+ Your sentence from the intro : 
+phosphorylated metabolites nucleotides tricarboxylic acids 1851
+
+ the similar sentence from the paper : 
+however metabolites nucleotides tricarboxylic acids canít recoveredpaper file name: papers/metabolites-07-00053
+
+
+
+ accurcy =  63.24555320336758 %
+
+ Your sentence from the intro : 
+sample preparation
+
+ the similar sentence from the paper : 
+second step sample preparation extractionpaper file name: papers/metabolites-07-00053
+
+
+
+
+ *****  papers/metabolites-08-00072   ***** 
+
+
+
+
+
+ *****  papers/neue2007   ***** 
+
+
+
+
+ accurcy =  61.23724356957945 %
+
+ Your sentence from the intro : 
+different methods rather p r
+
+ the similar sentence from the paper : 
+different methods extract metabolites different propertiespaper file name: papers/neue2007
+
+
+
+
+ *****  papers/nihms-274264   ***** 
+
+
+
+
+
+ *****  papers/nihms123167   ***** 
+
+
+
+
+
+ *****  papers/nihms480173   ***** 
+
+
+
+
+ accurcy =  63.9009650422694 %
+
+ Your sentence from the intro : 
+typically composed three major parts ion source mass analyzer detector
+
+ the similar sentence from the paper : 
+ms machinery consists three major components ion source mass analyzer detector citepaper file name: papers/nihms480173
+
+
+
+ accurcy =  60.40686963408963 %
+
+ Your sentence from the intro : 
+esi atmospheric pressure chemical ionization apci atmospheric pressure
+
+ the similar sentence from the paper : 
+many ionization techniques could used resulting different ms types electrospray ionization esi atmospheric pressure chemical ionization apci inductively coupled plasma icp matrix assisted laser desorption maldi electron ionization ei chemical ionization ci atmospheric pressure photoionization appi many rockwood2018paper file name: papers/nihms480173
+
+
+
+ accurcy =  64.28571428571426 %
+
+ Your sentence from the intro : 
+watersolvent composition remains constant separation gradient elution
+
+ the similar sentence from the paper : 
+hplc separates metabolites using isocratic elution watersolvent composition stays separation using gradient elution watersolvent composition changes separation nihms480173paper file name: papers/nihms480173
+
+
+
+ accurcy =  66.14378277661476 %
+
+ Your sentence from the intro : 
+watersolvent composition changes separation
+
+ the similar sentence from the paper : 
+hplc separates metabolites using isocratic elution watersolvent composition stays separation using gradient elution watersolvent composition changes separation nihms480173paper file name: papers/nihms480173
+
+
+
+ accurcy =  65.37204504606136 %
+
+ Your sentence from the intro : 
+lcesims reverse phase liquid chromatography rplc
+
+ the similar sentence from the paper : 
+multiple columns exist include reverse phase liquid chromatography rplc hydrophilic interaction liquid chromatography hilc normal phase liquid chromatography nplc ijms1700632 used elute metabolites different propertiespaper file name: papers/nihms480173
+
+
+
+ accurcy =  67.0820393249937 %
+
+ Your sentence from the intro : 
+separate polar compounds like sugars amino sugars amino acids vitamins carboxylic
+
+ the similar sentence from the paper : 
+hilc uses columns like aminopropyl column separate polar compounds sugars amino acidspaper file name: papers/nihms480173
+
+
+
+
+ *****  papers/nihms656478 copy   ***** 
+
+
+
+
+ accurcy =  62.279915532921834 %
+
+ Your sentence from the intro : 
+pressure chemical ionization apci atmospheric pressure photoionization appi
+
+ the similar sentence from the paper : 
+many ionization techniques could used resulting different ms types electrospray ionization esi atmospheric pressure chemical ionization apci inductively coupled plasma icp matrix assisted laser desorption maldi electron ionization ei chemical ionization ci atmospheric pressure photoionization appi many rockwood2018paper file name: papers/nihms656478 copy
+
+
+
+
+ *****  papers/nihms656478   ***** 
+
+
+
+
+ accurcy =  62.279915532921834 %
+
+ Your sentence from the intro : 
+pressure chemical ionization apci atmospheric pressure photoionization appi
+
+ the similar sentence from the paper : 
+many ionization techniques could used resulting different ms types electrospray ionization esi atmospheric pressure chemical ionization apci inductively coupled plasma icp matrix assisted laser desorption maldi electron ionization ei chemical ionization ci atmospheric pressure photoionization appi many rockwood2018paper file name: papers/nihms656478
+
+
+
+
+ *****  papers/nihms689503   ***** 
+
+
+
+
+
+ *****  papers/nrd.2016.32   ***** 
+
+
+
+
+
+ *****  papers/recent development in microbial metabolomics   ***** 
+
+
+
+
+ accurcy =  64.54972243679028 %
+
+ Your sentence from the intro : 
+food safety food quality food nutrition
+
+ the similar sentence from the paper : 
+food industry quality food greatly affects prices sensory evaluation plays important role food controlpaper file name: papers/recent development in microbial metabolomics
+
+
+
+
+ *****  papers/rockwood2018   ***** 
+
+
+
+
+ accurcy =  61.237243569579455 %
+
+ Your sentence from the intro : 
+ci commonly used techniques
+
+ the similar sentence from the paper : 
+ei ci ionization techniques used gcmspaper file name: papers/rockwood2018
+
+
+
+ accurcy =  60.55300708194983 %
+
+ Your sentence from the intro : 
+ionization apci atmospheric pressure photoionization
+
+ the similar sentence from the paper : 
+many ionization techniques could used resulting different ms types electrospray ionization esi atmospheric pressure chemical ionization apci inductively coupled plasma icp matrix assisted laser desorption maldi electron ionization ei chemical ionization ci atmospheric pressure photoionization appi many rockwood2018paper file name: papers/rockwood2018
+
+
+
+ accurcy =  61.72133998483677 %
+
+ Your sentence from the intro : 
+esi soft ionization technique sample ionized
+
+ the similar sentence from the paper : 
+esi soft ionization technique little fragmentation seenpaper file name: papers/rockwood2018
+
+
+
+ accurcy =  67.700320038633 %
+
+ Your sentence from the intro : 
+atmospheric pressure chemical ionization
+
+ the similar sentence from the paper : 
+many ionization techniques could used resulting different ms types electrospray ionization esi atmospheric pressure chemical ionization apci inductively coupled plasma icp matrix assisted laser desorption maldi electron ionization ei chemical ionization ci atmospheric pressure photoionization appi many rockwood2018paper file name: papers/rockwood2018
+
+
+
+ accurcy =  67.61234037828132 %
+
+ Your sentence from the intro : 
+laser beam sample ion generation
+
+ the similar sentence from the paper : 
+transfers energy laser sample ion generation rockwoodpaper file name: papers/rockwood2018
+
+
+
+ accurcy =  61.237243569579455 %
+
+ Your sentence from the intro : 
+ionization techniques used lcms
+
+ the similar sentence from the paper : 
+ei ci ionization techniques used gcmspaper file name: papers/rockwood2018
+
+
+
+ accurcy =  66.66666666666666 %
+
+ Your sentence from the intro : 
+ionization techniques used lcms
+
+ the similar sentence from the paper : 
+esi apci appi one many ionization techniques used lcmspaper file name: papers/rockwood2018
+
+
+
+ accurcy =  61.237243569579455 %
+
+ Your sentence from the intro : 
+ms came forefront analytical techniques used
+
+ the similar sentence from the paper : 
+maldi used ms techniquespaper file name: papers/rockwood2018
+
+
+
+ accurcy =  63.960214906683134 %
+
+ Your sentence from the intro : 
+atmospheric pressure ionization
+
+ the similar sentence from the paper : 
+many ionization techniques could used resulting different ms types electrospray ionization esi atmospheric pressure chemical ionization apci inductively coupled plasma icp matrix assisted laser desorption maldi electron ionization ei chemical ionization ci atmospheric pressure photoionization appi many rockwood2018paper file name: papers/rockwood2018
+
+
+
+
+ *****  papers/ryan2006   ***** 
+
+
+
+
+
+ *****  papers/Sch√§del2011_Article_EvaluationOfCellDamageCausedBy   ***** 
+
+
+
+
+
+ *****  papers/[14796813 - Journal of Molecular Endocrinology] Integrated omics_ tools, advances and future approaches   ***** 
+
+
+
+
+ accurcy =  79.05694150420948 %
+
+ Your sentence from the intro : 
+integrated omics tools advances future
+
+ the similar sentence from the paper : 
+different samples integrated omics tools advances future approachespaper file name: papers/[14796813 - Journal of Molecular Endocrinology] Integrated omics_ tools, advances and future approaches
+
+
+
+ accurcy =  70.71067811865474 %
+
+ Your sentence from the intro : 
+absolute amounts sugars lipids amino acids organic
+
+ the similar sentence from the paper : 
+metabolomics help determine relative absolute amounts different sugars lipids amino acids organic compounds etcpaper file name: papers/[14796813 - Journal of Molecular Endocrinology] Integrated omics_ tools, advances and future approaches
+
+
+
+ accurcy =  66.66666666666669 %
+
+ Your sentence from the intro : 
+due strengths limitations
+
+ the similar sentence from the paper : 
+technique strengths limitationspaper file name: papers/[14796813 - Journal of Molecular Endocrinology] Integrated omics_ tools, advances and future approaches
+

@@ -1,0 +1,1354 @@
+Anal. Chem. 2009, 81, 7379–7389
+
+Quantitative Evaluation of Intracellular Metabolite
+Extraction Techniques for Yeast Metabolomics
+André B. Canelas,* Angela ten Pierick, Cor Ras, Reza M. Seifar, Jan C. van Dam,
+Walter M. van Gulik, and Joseph J. Heijnen
+Department of Biotechnology, Kluyver Centre for Genomics of Industrial Fermentation, Delft University of Technology,
+Julianalaan 67, 2628 BC, The Netherlands
+Accurate determination of intracellular metabolite levels
+requires well-validated procedures for sampling and
+sample treatment. Several methods exist for metabolite
+extraction, but the literature is contradictory regarding the
+adequacy and performance of each technique. Using a
+strictly quantitative approach, we have re-evaluated five
+methods (hot water, HW; boiling ethanol, BE; chloroformmethanol, CM; freezing-thawing in methanol, FTM; acidic
+acetonitrile-methanol, AANM) for the extraction of 44
+intracellular metabolites (phosphorylated intermediates,
+amino acids, organic acids, nucleotides) from S. cerevisiae cells. Two culture modes were investigated (batch and
+chemostat) to check for growth condition dependency, and
+three targeted platforms were employed (two LC-MS
+and one GC/MS) to exclude analytical bias. Additionally,
+for the determination of metabolite recoveries, we applied
+a novel approach based on addition of 13C-labeled internal standards at different stages of sample processing.
+We found that the choice of extraction method can
+drastically affect measured metabolite levels, to an
+extent that for some metabolites even the direction of
+changes between growth conditions can be inverted.
+The best performances, in terms of efficacy and metabolite recoveries, were achieved with BE and CM,
+which yielded nearly identical levels for the metabolites
+analyzed. According to our results, AANM performs
+poorly in yeast and FTM cannot be considered adequate as an extraction method, as it does not ensure
+inactivation of enzymatic activity.
+The ability to accurately determine intracellular concentrations
+of metabolites is of key importance in studying signaling and
+metabolic reaction networks and their regulation in vivo. With
+the dawn of the metabolomics era, mainly fueled by the development of sensitive high-throughput MS-based analytics, metabolome-wide analysis is set to become reality. However, despite half
+a century of experience in the measurement of intracellular
+metabolites, the procedures used for preparation of the biological
+samples remain an issue.1-5 It is increasingly recognized that,
+whether for semiquantitative or for quantitative purposes, the
+accuracy and reliability of the results are to a large extent
+* To whom correspondence should be addressed. Tel: +31 (0)15 278 2352.
+Fax: +31 (0)15 278 2355. E-mail: a.canelas@tudelft.nl.
+(1) Canelas, A. B.; Ras, C.; ten Pierick, A.; Van Dam, J. C.; Heijnen, J. J.; Van
+Gulik, W. M. Metabolomics 2008, 4, 226–39.
+10.1021/ac900999t CCC: $40.75  2009 American Chemical Society
+Published on Web 08/04/2009
+
+determined by the first steps of sample treatment, namely rapid
+sampling, quenching of metabolic activity, separation of extracellular medium (when applicable), and metabolite extraction. We
+have recently addressed the problem of metabolite leakage from
+yeast cells during cold methanol quenching.1 Here, we approach
+the main issues regarding the performance of extraction methodologies for microbial metabolomics, with a focus on S. cerevisiae.
+There are three essential requirements that an ideal metabolite
+extraction method must fulfill:6,7 (i) completeness of extraction,
+to ensure all intracellular pools are made entirely accessible for
+analysis, (ii) prevention of metabolite conversion during the
+extraction or subsequent steps, mainly by ensuring effective
+inactivation of enzymes, and (iii) absence of extensive degradation
+of metabolites by the procedure itself. With respect to this last
+requirement, partial losses may be acceptable if the results can
+be corrected by means of metabolite-specific recovery factors6,7
+or through the use of adequate internal standards (e.g., isotope
+based).8-10 Theoretically, completeness of extraction cannot be
+directly verified, since one does not know a priori how much of
+each metabolite is initially present in the cells. Instead, completeness can be evaluated by comparing the ability of different
+methods to release metabolites from identical biological samples,
+which we shall refer to as efficacy. The absence of enzyme activity
+and the extent of metabolite degradation can both be tested by
+determining metabolite recoveries, traditionally by means of
+spiking or standard additions. Metabolite-specific recoveries much
+below 100% typically indicate degradation, while mixed recoveries
+above and below 100% for different metabolites would indicate
+interconversion.
+Extraction can be achieved using high temperature, extreme
+pH, organic solvents, mechanical stress, or combinations of these.
+(2) Taymaz-Nikerel, H.; De Mey, M.; Ras, C.; ten Pierick, A.; Seifar, R. M.;
+Van Dam, J. C.; Heijnen, J. J.; Van Glilik, W. M. Anal. Biochem. 2009,
+386, 9–19.
+(3) Bolten, C. J.; Wittmann, C. Biotechnol. Lett. 2008, 30, 1993–2000.
+(4) Bolten, C. J.; Kiefer, P.; Letisse, F.; Portais, J. C.; Wittmann, C. Anal. Chem.
+2007, 79, 3843–49.
+(5) Wittmann, C.; Kromer, J. O.; Kiefer, P.; Binz, T.; Heinzle, E. Anal. Biochem.
+2004, 327, 135–39.
+(6) Dekoning, W.; Vandam, K. Anal. Biochem. 1992, 204, 118–23.
+(7) Gonzalez, B.; Francois, J.; Renaud, M. Yeast 1997, 13, 1347–55.
+(8) Wu, L.; Mashego, M. R.; Van Dam, J. C.; Proell, A. M.; Vinke, J. L.; Ras,
+C.; Van Winden, W. A.; Van Gulik, W. M.; Heijnen, J. J. Anal. Biochem.
+2005, 336, 164–71.
+(9) Birkemeyer, C.; Luedemann, A.; Wagner, C.; Erban, A.; Kopka, J. Trends
+Biotechnol. 2005, 23, 28–33.
+(10) Buscher, J. M.; Czernik, D.; Ewald, J. C.; Sauer, U.; Zamboni, N. Anal.
+Chem. 2009, 81, 2135–43.
+
+Analytical Chemistry, Vol. 81, No. 17, September 1, 2009
+
+7379
+
+Some of the most well-known extraction methods, such as
+perchloric acid (PCA),11,12 hot water (HW),13,14 and boiling ethanol
+(BE),15,16 have been employed at least since the 1950s. Eventually,
+the perceived need to adopt less aggressive procedures to prevent
+metabolite degradation seems to have steered researchers into
+the development of milder extraction methods. In the 1990s, a
+neutral low-temperature technique based on a two-phase liquid
+extraction with chloroform-methanol (CM) was introduced,6
+presumably adapted from a method for lipid extraction from
+tissues.17 More recently, two other methods have been proposed,
+one based on freezing-thawing cycles in methanol (FTM),18
+another using acidic acetonitrile-methanol (AANM).19
+Given the variety of extraction methods available, how does
+one decide which method to use? To demonstrate the complexity
+of this choice, we have assembled a complete (to the best of our
+knowledge) survey of method comparisons in the literature, which
+we present in Table 1. As this overview shows, each of the
+methods is considered very good, or best, by some studies and
+poor, or inadequate, by others (with the exception of AANM which
+was evaluated only once). Since method comparisons have been
+performed in different species, when comparing them, one should
+keep in mind that some aspects of extraction performance can
+be organism dependent. In particular, completeness of extraction
+may be microbe specific, since some types of cells are more
+susceptible to lysis than others (e.g., eukaryotes vs prokaryotes,
+gram-positive vs gram-negative). Enzyme resistance to inactivation
+may also be organism dependent; although among mesophile
+species, one would expect it to be comparable. As for metabolite
+stability, it should be nearly independent of the type of cell
+extracted. Although these factors must be considered, they seem
+unlikely to change the performance of a particular method from
+bad to best, nor can they explain the discrepancies found within
+the same or closely related species. Another observation from the
+overview in Table 1 is the prominence of mild extractions in recent
+literature. Five out of the last eight studies consider FTM the best
+extraction method. Although cold methanol is known to release
+intracellular metabolites,1,5,20 it is less clear whether enzyme
+activity can be effectively inactivated, especially if one considers
+that enzyme activities can be assayed at temperatures below 0 °C
+in 70% methanol.21,22 Furthermore, of the 15 studies examined, 5
+did not determine metabolite recoveries, without which it is not
+possible to check for metabolite conversion or degradation, and
+8 investigated only 2-3 extraction methods, which limits the
+conclusions that can be drawn in terms of efficacy. In addition,
+all but 3 studies examined relatively small sets of compounds of
+very similar molecular properties. Finally, 5 of the last 8 studies
+based their evaluation on qualitative or semiquantitative measures.
+Qualitative measures (e.g., number of GC peaks) bear little or no
+information on the fulfillment of the essential requirements, while
+the use of semiquantitative measures (e.g., peak area or height,
+(11)
+(12)
+(13)
+(14)
+(15)
+(16)
+(17)
+(18)
+(19)
+(20)
+
+Hancock, R. Biochim. Biophys. Acta 1958, 28, 402–12.
+Hommes, F. A. Arch. Biochem. Biophys. 1964, 108, 36-46.
+Gale, E. F. J. Gen. Microbiol. 1947, 1, 53–76.
+Work, E. Biochim. Biophys. Acta 1949, 3, 400–11.
+Fuerst, R.; Wagner, R. P. Arch. Biochem. Biophys. 1957, 70, 311–26.
+Bent, K. J.; Morton, A. G. Biochem. J. 1964, 92, 260-269.
+Folch, J.; Lees, M.; Stanley, G. H. S. J. Biol. Chem. 1957, 226, 497–509.
+Maharjan, R. P.; Ferenci, T. Anal. Biochem. 2003, 313, 145–54.
+Rabinowitz, J. D.; Kimball, E. Anal. Chem. 2007, 79, 6167–73.
+Link, H.; Anselment, B.; Weuster-Botz, D. Metabolomics 2008, 4, 240–47.
+
+7380
+
+Analytical Chemistry, Vol. 81, No. 17, September 1, 2009
+
+normalized intensities) generally implies the assumption of linearity of response and absence of matrix effects, which often is not
+valid for MS-based analysis of complex samples such as cell
+extracts.10
+The purpose of this study was to carry out an objective and
+quantitative re-evaluation of available extraction methods. The
+model organism S. cerevisiae was used, for which we have
+previously validated sampling and quenching procedures.1,23 Of
+(21) More, N.; Daniel, R. M.; Petach, H. H. Biochem. J. 1995, 305, 17–20.
+(22) Bragger, J. M.; Dunn, R. V.; Daniel, R. M. Biochim. Biophys. Acta-Protein
+Struct. Mol. Enzymol. 2000, 1480, 278–82.
+(23) Lange, H. C.; Eman, M.; van Zuijlen, G.; Visser, D.; Van Dam, J. C.; Frank,
+J.; de Mattos, M. J. T.; Heijnen, J. J. Biotechnol. Bioeng. 2001, 75, 406–15.
+(24) Villas-Boas, S. G.; Hojer-Pedersen, J.; Akesson, M.; Smedsgaard, J.; Nielsen,
+J. Yeast 2005, 22, 1155–69.
+(25) Hajjaj, H.; Blanc, P. J.; Goma, G.; Francois, J. FEMS Microbiol. Lett. 1998,
+164, 195–200.
+(26) van Dijken, J. P.; Bauer, J.; Brambilla, L.; Duboc, P.; Francois, J. M.;
+Gancedo, C.; Giuseppin, M. L. F.; Heijnen, J. J.; Hoare, M.; Lange, H. C.;
+Madden, E. A.; Niederberger, P.; Nielsen, J.; Parrou, J. L.; Petit, T.; Porro,
+D.; Reuss, M.; van Riel, N.; Rizzi, M.; Steensma, H. Y.; Verrips, C. T.;
+Vindelov, J.; Pronk, J. T. Enzyme Microb. Technol. 2000, 26, 706–14.
+(27) Verduyn, C.; Postma, E.; Scheffers, W. A.; Vandijken, J. P. Yeast 1992, 8,
+501–17.
+(28) Postma, E.; Verduyn, C.; Scheffers, W. A.; Vandijken, J. P. Appl. Environ.
+Microbiol. 1989, 55, 468–77.
+(29) Bruinenberg, P. M.; Vandijken, J. P.; Scheffers, W. A. J. Gen. Microbiol.
+1983, 129, 965–71.
+(30) Mashego, M. R.; Wu, L.; Van Dam, J. C.; Ras, C.; Vinke, J. L.; Van Winden,
+W. A.; Van Gulik, W. M.; Heijnen, J. J. Biotechnol. Bioeng. 2004, 85, 620–
+28.
+(31) Hans, M. A.; Heinzle, E.; Wittmann, C. Appl. Microbiol. Biotechnol. 2001,
+56, 776–79.
+(32) Luttik, M. A. H.; Vuralhan, Z.; Suir, E.; Braus, G. H.; Pronk, J. T.; Daran,
+J. M. Metab. Eng. 2008, 10, 141–53.
+(33) Martinezforce, E.; Benitez, T. Biotechnol. Prog. 1995, 11, 386–92.
+(34) Onodera, J.; Ohsumi, Y. J. Biol. Chem. 2005, 280, 31582–86.
+(35) Castrillo, J. I.; Hayes, A.; Mohammed, S.; Gaskell, S. J.; Oliver, S. G.
+Phytochemistry 2003, 62, 929–37.
+(36) Smits, H. P.; Cohen, A.; Buttler, T.; Nielsen, J.; Olsson, L. Anal. Biochem.
+1998, 261, 36–42.
+(37) Teleman, A.; Richard, P.; Toivari, M.; Penttilla, M. Anal. Biochem. 1999,
+272, 71–79.
+(38) Villas-Boas, S. G.; Bruheim, P. Anal. Biochem. 2007, 370, 87–97.
+(39) Van Dam, J. C.; Eman, M. R.; Frank, J.; Lange, H. C.; van Dedem, G. W. K.;
+Heijnen, S. J. Anal. Chim. Acta 2002, 460, 209–18.
+(40) Seifar, R. M.; Ras, C.; van Dam, J. C.; van Gulik, W. M.; Heijnen, J. J.; van
+Winden, W. A. Anal. Biochem. 2009, 388, 213–19.
+(41) Lange, H. C.; Heijnen, J. J. Biotechnol. Bioeng. 2001, 75, 334–44.
+(42) Winder, C. L.; Dunn, W. B.; Schuler, S.; Broadhurst, D.; Jarvis, R.; Stephens,
+G. M.; Goodacre, R. Anal. Chem. 2008, 80, 2939–48.
+(43) Faijes, M.; Mars, A. E.; Smid, E. J. Microbial Cell Factories; 2007; Vol 6, 27.
+(44) Wang, Q. Z.; Yang, Y. D.; Chen, X.; Zhao, X. M. Chin. J. Anal. Chem. 2006,
+34, 1295–98.
+(45) Lundin, A.; Thore, A. Appl. Microbiol. 1975, 30, 713–21.
+(46) Larsson, C. M.; Olsson, T. Plant Cell Physiol. 1979, 20, 145–55.
+(47) Hiller, J.; Franco-Lara, E.; Weuster-Botz, D. Biotechnol. Lett. 2007, 29, 1169–
+78.
+(48) Loret, M. O.; Pedersen, L.; Francois, J. Yeast 2007, 24, 47–60.
+(49) Wiebe, M. G.; Rintala, E.; Tamminen, A.; Simolin, H.; Salusjarvi, L.; Toivari,
+M.; Kokkonen, J. T.; Kiuru, J.; Ketola, R. A.; Jouhten, P.; Huuskonen, A.;
+Maaheimo, H.; Ruohonen, L.; Penttila, M. FEMS Yeast Res. 2008, 8, 140–
+54.
+(50) Mulet, J. M.; Alejandro, S.; Romero, C.; Serrano, R. Yeast 2004, 21, 569–
+82.
+(51) Ewald, J. C.; Heux, S.; Zamboni, N. Anal. Chem. 2009, 81, 3623–29.
+(52) Yang, W. C.; Sedlak, M.; Regnier, F. E.; Mosier, N.; Ho, N.; Adamec, J.
+Anal. Chem. 2008, 80 (24), 9508–9516.
+(53) Oldiges, M.; Takors, R. Technology Transfer in Biotechnology: from Lab to
+Industry to Production; Springer: Berlin, 2005; Vol. 92, pp 173-196.
+(54) Mashego, M. R.; Rumbold, K.; De Mey, M.; Vandamme, E.; Soetaert, W.;
+Heijnen, J. J. Biotechnol. Lett. 2007, 29, 1–16.
+(55) Bagnara, A. S.; Finch, L. R. Anal. Biochem. 1972, 45, 24-34.
+(56) Jernejc, K. Acta Chim. Slov. 2004, 51, 567–78.
+
+Analytical Chemistry, Vol. 81, No. 17, September 1, 2009
+
+7381
+
+E. coli
+
+E. coli
+
+Wang et al., 200644
+
+47
+
+Lactobacillus plantarum
+
+E. coli
+
+Faijes et al., 200743
+
+Winder et al., 200842
+
++++
+
++++
+
++++
+
++
+
++
+
++++
+
+++
+
++
+
+++
+
++++
+
++
+
++
+
+++
+
+++
+
++
+
++++
+
++++
++
+
++
+
++
+
++++
+
++++
+
+++
+
+++
+
++++
+++
+
+++
+
++++
+
+BE
+
+++
+
++++
+
++++
+
++++
+
++++
+
+HW
+
+++
+
+KOH
++
+
+PCA
++++
+
++++
+
+++
+
++
+
+++
+
++
+
++++
+
+CM
+
++++
+
++++
+
++
+
++++
+
+++
+
+++
+
+FTM
+
++++
+
+AANM
+
+notes
+Quantitative, TLC, 6 metabolites (nucleotides), no
+recoveries. Tested 1 other method (TCA).
+Quantitative, enzymatic analysis, 3 metabolites
+(ATP, ADP, AMP), recoveries by spiking. Tested
+6 other methods.
+Quantitative, enzymatic analysis, 3 metabolites
+(ATP, ADP, AMP), no recoveries. Tested 3 other
+methods.
+Quantitative, enzymatic analysis, up to 13
+metabolites (data not shown), recoveries by
+spiking (only CM).
+Quantitative, enzymatic analysis, 6 metabolites,
+recoveries by spiking.
+Quantitative, enzymatic analysis, 2-6 metabolites,
+recoveries by spiking.
+Quantitative, HPLC, 17 metabolites (amino acids),
+recoveries by spiking (only BE).
+2D-TLC, semiquantitative for efficacies (total
+extract intensity and relative intensities for 13
+metabolites), no recoveries. Tested 1 other
+method (hot methanol).
+Quantitative, enzymatic analysis, 3 metabolites
+(organic acids), recoveries by stability in
+solution.
+GC/MS, qualitative for efficacies (number of peaks
+detected), quantitative for recoveries, 27
+metabolites, by spiking.
+Qualitative, ESI-MS (richness and reproducibility
+of mass spectra), no recoveries.
+Quantitative, enzymatic analysis, 7 metabolites,
+recoveries by standard additions.
+LC-MS, semiquantitative for efficacies (peak
+heights for nearly 100 metabolites) and
+recoveries, by spiking (peak heights for 12
+metabolites). Tested 2 other methods (and some
+variations).
+Quantitative, enzymatic analysis, 3 metabolites,
+recoveries by spiking (only FTM). Tested 1 other
+method (chloroform-water).
+GC/MS, qualitative (number of peaks detected)
+and semiquantitative (relative abundance of 21
+metabolites) for efficacies, no recoveries.
+
+a
+Legend: +, poor/bad; ++, fair; +++, good; underlined, best among the methods tested. Some variations in extraction time, buffers, solvent concentrations, and temperatures are considered within
+the same method.
+
+E. coli
+
+Rabinowitz and Kimball, 200719
+
+Hiller et al., 2007
+
+S. cerevisiae
+
+A. niger
+
+E. coli
+
+S. cerevisiae
+
+Villas-Boas et al., 200524
+
+Jernejc, 200456
+
+Maharjan and Ferenci, 2003
+
+Hans et al., 200131
+
+18
+
+S. cerevisiae
+
+Gonzalez et al., 19977
+
+Monascus ruber
+
+S. cerevisiae
+
+de Koning and van Dam, 19926
+
+Hajjaj et al., 1998
+
+4 algae species
+
+Larsson and Olsson, 197946
+
+25
+
+5 bacteria species
+
+Lundin and Thore, 197545
+
+microrganism(s)
+
+E. coli
+
+source
+
+Bagnara and Finch, 197255
+
+authors’ evaluation, per extraction methoda
+
+Table 1. Survey of Comparisons of Extraction Procedures for Intracellular Metabolite Analysis in Microorganisms
+
+the techniques in Table 1 only acid (PCA) and base (KOH)
+extractions were not included, because their salt-rich extracts
+present limitations for our analytical platform (e.g., ion suppression). These methods have also seen relatively little use in recent
+years, due to reported near-total losses of specific coenzymes.7,24,25
+We have based our evaluation only on strictly quantitative data of
+metabolite concentrations in cell extracts. Samples were obtained
+under well-defined, reproducible culture conditions using optimized sampling procedures. Two different growth states were
+investigated (glucose limitation and excess), to check for growth
+condition dependency. Three analytical methods (GC/MS and two
+LC-MS/MS) were employed, to exclude analytical bias, covering
+a total of 44 metabolites of different classes and molecular
+properties (phosphorylated intermediates, organic acids, amino
+acids, nucleotides). For the determination of metabolite recoveries,
+we introduced and applied a novel approach based on differential
+addition of 13C-labeled internal standards at the beginning and
+end of the sample treatment.
+We are confident that the outcomes of this work will serve
+researchers in the microbial metabolomics community by providing an improved assessment of the extraction techniques at their
+disposal. The experimental strategy employed, including the new
+13
+C-based approach for determining recoveries, should also be
+useful as a framework for systematic validation of these, and
+newer methods, in other microorganisms.
+EXPERIMENTAL PROCEDURES
+Solvents and Chemicals. HPLC-grade solvents were from
+J.T. Baker. Analytical grade standards were from Sigma-Aldrich.
+Strain and Medium. The strain used was the prototrophic
+haploid Saccharomyces cerevisiae CEN.PK 113-7D (MATa).26 Strain
+stocks were kept in 20% glycerol at -80 °C. A new low-salt minimal
+medium was designed, for sustaining a biomass concentration of
+1.5-4.5 gDW/L. Ensuring low residual concentrations of salts
+minimizes interferences in the analysis (e.g., peak-shifting, ion
+suppression) by ions carried over in samples, in case of limited
+washing.1 No change in morphology or physiology has been
+observed in the cells compared to growth on standard saltrich medium.27,28 The composition of the optimized medium was,
+per liter: 0.3 g of (NH4)2SO4, 3 g of NH4H2PO4, 0.3 g of KH2PO4,
+0.5 g of MgSO4 · 7H2O, 1 g of vitamin solution,29 and 1 g of
+trace element solution.28 As carbon source, the medium
+contained 7.5 g/L glucose, and as antifoam, it contained 0.05
+g/L silicone antifoaming agent (BDH, U.K.). The final pH was
+adjusted to 5 with KOH.
+Cultivation Conditions. Cultivations were performed aerobically in a 7 L fermentor (Applikon, The Netherlands) equipped
+with a DCU3 controller and continuous data acquisition via MFCS
+(B. Braun Biotech, Germany). A working volume of 4 L was
+maintained by weight control. The cultivations were carried out
+at 30 °C, pH 5.0 (via addition of 2 M KOH), with 0.3 bar
+overpressure, an aeration rate of 0.5 vvm (120 L/h), and a stirrer
+speed of 500 rpm. Base utilization and effluent accumulation were
+monitored by weight. Oxygen and CO2 fractions in dry exhaust
+gas and air were measured using a combined paramagnetic/
+infrared analyzer (NGA 2000, Rosemount, U.S.) via a MUX
+multiplexer unit (B. Braun Biotech, Germany). Precultures
+were carried out in unbaffled 500 mL conical flasks on 100 mL
+of minimal medium as described above, adjusted to pH 6, and
+7382
+
+Analytical Chemistry, Vol. 81, No. 17, September 1, 2009
+
+inoculated with 2 mL strain stocks. These were grown overnight in a rotary shaker, at 30 °C, 200 rpm, and then used to
+inoculate the fermentor. Two growth conditions were investigated: chemostat and batch. The glucose-limited chemostat
+culture was carried out at a dilution rate of 0.1 h-1. Sampling
+took place after 6 residence times (60 h) of steady-state growth
+with constant dissolved oxygen and off-gas readings, at a
+biomass concentration of 3.7 gDW/L. For the batch culture, the
+medium was supplemented before inoculation with a sterile
+concentrated glucose solution, for an initial concentration of
+30 g/L. Sampling took place in exponential glucose-consumption phase, 11 h after inoculation, at a biomass concentration
+of 3.2 gDW/L. Biomass dry weight concentration was determined gravimetrically on membrane disk filters (PES, 0.45 µm,
+Pall, U.S.) dried for 48 h at 70 °C. Preweighed filters were
+loaded with 5-10 g of broth and washed with 3 volumes of
+demineralized water.
+Samples for Intracellular Metabolites. For an overview of
+the experimental design, see Figure 1. Samples were taken using
+a custom-made low dead-volume rapid sampling setup,23 and
+leakage-free quenching was performed according to Canelas et
+al.1 Briefly, 1.2 g (±0.06) of broth was withdrawn (<1 s) into 5 mL
+of pure methanol at -40 °C, the mixture was quickly vortexed
+(≈1 s) and placed back in the cryostat (-40 °C) (Lauda,
+Germany). Extracellular medium was separated by centrifugation
+(5000g, 5 min, -20 °C, rotor precooled to -40 °C). No additional
+washing step was performed. After decanting, 200 µL of U-13Clabeled cell extract was added to half of the samples as internal
+standard (IS).8,30 Each of the 5 different extractions was performed in quadruplicate: two samples with 13C-labeled IS (named
+AQ: after quenching) and two samples without (BA, see below)
+(Figure 1).
+Metabolite Extraction Methods. The procedures for each
+extraction method were adapted, in some cases with minor
+simplifications, from the most relevant literature sources. For HW,
+BE, CM, and FTM, these were the protocols most commonly used
+for S. cerevisiae. In the case of AANM, for which there is yet no
+source in the literature referring to its application to yeast cells,
+we employed the protocol that gave optimal results in E. coli. The
+details of each procedure are described individually below.
+Hot Water (HW) Extraction. This procedure was adapted
+from refs 4 and 31-34. Tubes containing 2 mL of demineralized
+water were preheated in a water bath at 95-100 °C for 6 min.
+Then, each sample was taken from the cryostat; the hot water
+was quickly poured over the cell pellet; the mixture was immediately vortexed, and the sample was placed in the water bath.
+After 15 min, each tube was placed on ice, and the extracts were
+stored at -80 °C until further use.
+Boiling Ethanol (BE) Extraction. This procedure was
+adapted from refs 7, 23, 31, and 35. Tubes containing 5 mL of
+75% ethanol were preheated in a water bath at 95 °C for 5 min.
+Then, each sample was taken from the cryostat; the boiling ethanol
+was quickly poured over the cell pellet; the mixture was immediately vortexed, and the sample was placed in the water bath.
+After 3 min, each tube was transferred back to the cryostat (-40
+°C), and the extracts were stored at -80 °C until further use.
+Chloroform-Methanol (CM) Extraction. This procedure
+was adapted from refs 6, 24, 36, and 37. Throughout the procedure,
+
+Figure 1. Schematic representation of the experimental design.
+
+the temperature of samples and solutions was maintained as close
+as possible to -40 °C. Each sample was resuspended in 2.5 mL
+of precooled 50% (v/v) aqueous methanol, after which 2.5 mL of
+precooled chloroform was added. All samples were then vigorously
+shaken for 45 min with an orbital shaker, using a custom-made
+tube adaptor, inside a -40 °C freezer (temperature never above
+-32 °C). The samples were then centrifuged (5000g, 5 min, -20
+°C, rotor precooled to -40 °C); the upper water/methanol phases
+were collected separately, and the lower layers were reextracted
+with 2.5 mL precooled 50% (v/v) methanol by vortexing for 30 s.
+After centrifugation, the upper phases were pooled with the first
+extracts, and the combined extracts were stored at -80 °C until
+further use.
+Freezing-Thawing in Methanol (FTM) Extraction. This
+procedure was adapted from refs 18, 24, and 38. Each sample was
+resuspended in 2.5 mL of 50% (v/v) aqueous methanol precooled
+to -40 °C; then, the resulting solution was frozen in liquid nitrogen
+for 3-5 min and thawed on ice for 3-5 min. After three
+freeze-thaw cycles, the samples were centrifuged (5000g, 5 min,
+-20 °C); the supernatants were collected separately, and the
+pellets were reextracted with 2.5 mL precooled 50% (v/v) methanol
+by vortexing for 30 s. After centrifugation, the supernatants were
+pooled with the first extracts, and the combined extracts were
+stored at -80 °C until further use.
+Acidic Acetonitrile-Methanol (AANM) Extraction. This
+procedure was adapted from ref 19. Each sample was resuspended
+in 1 mL of precooled (-20 °C) acidic acetonitrile/methanol/water
+(40:40:20 v/v, containing 0.1 M formic acid) solution and placed
+in a cryostat at -20 °C for 15 min. The samples were then
+centrifuged (5000g, 5 min, 4 °C); the supernatants were collected
+separately, and the pellets were reextracted twice with 200 µL of
+ice-cold AANM solution, each time by vortexing for 20 s. Finally,
+the pooled extracts (1.4 mL) were neutralized with 100 µL of 1.4
+M NH4OH and stored at -80 °C until further use.
+Sample Concentration and Conditioning. After thawing, BE,
+CM, and FTM extracts were evaporated under vacuum (120 min,
+30 °C, <10 mbar) using a RapidVac (Labconco, U.S.). Dried
+residues of samples with 13C-labeled IS (AQ) and without (BA)
+
+were resuspended in 600 µL or 400 µL of Milli-Q water,
+respectively. All samples, including the HW and AANM
+extracts, were then centrifuged (15 000g, 5 min, 4 °C) to remove
+cell debris. The supernantants were transferred to filter caps
+(Ultrafree, PVDF, 0.22 µm, Millipore) and centrifuged again,
+and the filtrates were collected and stored at -80 °C. Finally,
+to simulate the effect of typical waiting times during an analysis
+run, all samples were thawed and left to stand in the refrigerator
+(4-5 °C) for 8-9 h. At the end of this period, 200 µL of 13Clabeled IS was added to the half of the samples which had not
+received it yet (named BA: before analysis), and all samples
+were placed back at -80 °C until analysis.
+Metabolite Analysis. The concentrations of glucose-6phosphate (G6P), fructose-6-phosphate (F6P), glucose-1-phosphate
+(G1P), mannose-6-phosphate (M6P), fructose-1,6-bisphosphate
+(FBP), trehalose-6-phosphate (T6P), 6-phospho-gluconate (6PG),
+3-phosphoglycerate + 2-phosphoglycerate (3PG), phosphoenolpyruvate (PEP), glycerol-3-phosphate (G3P), citrate + isocitrate
+(Citrate), oxoglutarate, succinate, fumarate, malate, sedoheptulose7-phosphate (S7P), and UDP-glucose were determined by anionexchange LC-MS/MS.39 The concentrations of AMP, ADP, ATP,
+UMP, UDP, UTP, GDP, and CDP were determined by ion-pair
+reverse-phase LC-MS/MS.40
+The concentrations of 19 amino acids were determined by GC/
+MS using the EZ:Faast Free Amino Acid Kit (Phenomenex, U.S.).
+Extraction and derivatization of the amino acids were carried out
+according to the instructions of the manufacturer. Briefly, after a
+solid-phase extraction (SPE) step, the amino acids are simultaneously derivatized in an aqueous medium on the amino- and
+carboxyl group with n-propyl chloroformate in the presence of
+n-propanol and 3-picoline, resulting in n-propoxycarbonyl npropylesters. Owing to the SPE step and the high specificity of
+the derivatization reagent propyl chloroformate, sample matrix
+effects such as high salt and buffer concentrations are limited and
+other components as sugars and organic acids do not interfere
+with the measurement. The derivatized extracts were analyzed
+with a Trace GC Ultra equipped with a programmed temperature
+vaporizer (PTV) injector and autosampler AI 3000 which was
+Analytical Chemistry, Vol. 81, No. 17, September 1, 2009
+
+7383
+
+Figure 2. Intracellular levels of representative metabolites, obtained by extraction of cells from two growth conditions using five extraction
+methods (see Figure 1 for the experimental design). Data are averages and standard deviations of duplicate samples each analyzed twice.
+Legend: dark, AQ samples; light, BA samples; solid, chemostat; striped, batch. Comparison of dark and light bars indicates the effect of the
+sample treatment procedure, including the extraction, on the metabolite levels. Comparison of the solid and striped bars shows the differences
+in metabolite levels related to the growth condition.
+
+directly coupled to a Trace DSQ single quadrupole mass spectrometer with an electron ionization source (Thermo Finnigan,
+U.S.). One microliter of derivatized sample was injected on a ZBAAA column (medium polarity fused silica capillary column 10 m
+× 0.25 mm ID with a film thickness of 0.25 µm). The PTV injector,
+equipped with a glass liner with, carbofrit, was set in PTV-splitless
+mode with an initial temperature of 45 °C and a splitless time of
+1 min. The temperature of the PTV was raised at 14.5 °C/s to
+280 °C, held for 5 min, and subsequently raised at 14.5 °C/s to
+300 °C. The GC temperature was initially set at 45 °C and then
+raised at 30 °C/min to 320 °C and held for 1 min. Helium was
+used as carrier gas with a gas flow of 1.5 mL/min. The transfer
+line to the MS was set to 250 °C and the ion source to 240 °C.
+The electron ionization was operated with 70 eV. For quantitative
+measurements, the MS was used in selected ion monitoring (SIM)
+mode.
+All analyses were performed in duplicate. U-13C-labeled cell
+extract was added as internal standard to both samples and
+calibration standards for IDMS-based quantification.8,30
+RESULTS AND DISCUSSION
+Whether for Quantitative or for Qualitative Purposes, the
+Choice of Extraction Method can Affect the Results. An
+objective evaluation of intracellular metabolite extraction methods
+must be based primarily on the fulfillment of three essential
+criteria: completeness of extraction, prevention of interconversion
+(e.g., due to enzymatic activity), and absence of extensive
+degradation (e.g., chemical, thermal). Here, we have evaluated
+these criteria using a strictly quantitative approach, that is, based
+7384
+
+Analytical Chemistry, Vol. 81, No. 17, September 1, 2009
+
+on the absolute determination of metabolite levels in cell extracts
+obtained using different extraction techniques.
+In these experiments, we have employed a novel approach for
+determination of metabolite recoveries, based on the addition of
+13
+C-labeled IS at the beginning and end of the sample treatment
+(see Figure 1). For samples named AQ, 13C-labeled IS was added
+right after quenching (as is standard procedure), while for
+samples named BA, it was added just before analysis. Thus, in
+BA samples, the 13C-labeled IS will only correct for analytical
+artifacts (e.g., sample matrix effects), while in AQ samples, it
+will also compensate for losses during sample treatment (e.g.,
+volume losses, partial degradation). Levels in AQ samples
+provide a measure of the ability of each extraction method to
+release metabolites from the cells, independent of their stability
+during treatment, that is, its efficacy. By comparing levels in
+BA and AQ samples, we can determine the change in
+concentration of each metabolite over the entire sample
+treatment, that is, its recovery.
+In this respect, note that we are determining an overall process
+recovery, including extraction, concentration, and a conditioning
+period at 4-5 °C which was meant to simulate the effect of the
+time samples spend waiting for analysis (see Figure 1). The reason
+for doing so is that the extraction method applied determines the
+extent of changes in metabolites not only during the extraction
+itself but also potentially further down the sample treatment until
+the actual point when the sample is injected in the LC or GC (for
+example, if enzymatic activity is not fully inactivated). By determining overall process recoveries, all such changes are taken into
+account.
+
+In Figure 2, we present the measured metabolite levels in
+samples extracted with each of the 5 methods tested, under the
+two growth conditions investigated (chemostat and batch), for a
+set of 9 representative metabolites (of the 44 analyzed) chosen to
+cover a wide range of molecular weight (from <100 to >500 Da),
+abundance (from <1 to >100 µmol/gDW), functional class (amino
+acids, organic acids, phosphorylated intermediates, nucleotides)
+and analytical method used (3 each). From these data, it is
+clear that different extraction techniques can indeed result in
+substantial differences in the measured metabolite levels.
+Overall, the CM, BE, and HW methods seem to yield comparable metabolite levels, while AANM stands out with somewhat
+lower levels for the phosphorylated compounds, and FTM can
+result in both higher and lower levels, depending on the
+metabolite and growth condition. Furthermore, even for experiments where the absolute metabolite levels are not required
+but only a qualitative impression of their changes, the choice
+of extraction method can still drastically influence the results.
+This can be seen for Leu, 3PG, G6P, and the nucleotides in
+Figure 2, for which even the direction of change observed
+between growth conditions (glucose excess vs glucose limitation)
+depends on the extraction technique used.
+Comparison of Extraction Efficacy. As a measure of a
+method’s ability to release metabolites from the cells, we have
+defined extraction efficacy, versus the maximum among the five
+techniques, for metabolite x under extraction method i, as
+
+efficacy(vs max)x, i )
+
+[x]iAQ
+max[x]AQ
+
+(1)
+
+However, it became clear that in certain situations an extraction
+method might yield higher metabolite concentrations than the
+others; if, for example, remaining substrate is converted to
+intermediates or macromolecules are broken down, in which case,
+the efficacy of all other methods would appear, by comparison,
+misleadingly low. If so, an alternative measure would be to
+calculate an efficacy versus the median, rather than the maximum,
+which we defined as
+
+efficacy(vs median)x, i )
+
+[x]iAQ
+median[x]AQ
+
+(2)
+
+Note that these efficacy factors are comparative measures of
+effectiveness, so the results do depend on the set of techniques
+investigated. However, by comparing a sufficiently varied set of
+methods, based on different extraction principles and separately
+optimized for optimal release of metabolites, it seems safe to
+assume that at least one of them, if not more, will completely
+release any given metabolite. In this case, efficacies may be treated
+as near-absolute measures.
+The extraction efficacies of all 44 metabolites analyzed, for both
+experiments, are plotted, for each extraction method, in Figure
+3. The efficacy profiles for HW, BE, and CM are all very similar,
+with efficacies near 1 for most of the metabolites. The profile for
+AANM is similar to the former for a wide range of metabolites
+but shows a clear discrimination of the larger, more polar
+metabolites (e.g., di- and triphosphate compounds), for which
+efficacies drop significantly. Finally, the profile for FTM is the
+
+Figure 3. Extraction efficacies for all 44 metabolites analyzed, in
+order of increasing molecular weight, for each of the extraction
+methods, under both growth conditions (see Results and Discussion
+for definitions of efficacy vs max and efficacy vs median). Data are
+averages and standard deviations of duplicate samples each analyzed
+twice. Legend: 3 and 4, efficacy vs max in chemostat and batch,
+respectively; 1 and 2, efficacy vs median in chemostat and batch,
+respectively. Gray dashed vertical lines are for guidance only.
+
+most scattered, with efficacies below 1 for a large number of
+metabolites, as well as exceptionally high efficacies for a small
+subset of compounds in the batch experiment. A clear bias is also
+observed, as with AANM, toward lower extractability of the larger,
+more polar compounds.
+The uniformity of the results with HW, BE, and CM strongly
+indicates that these three methods achieve near-complete extraction of all metabolites analyzed. The only remarkable exceptions
+are six metabolites (PEP, 3PG, G6P, F6P, G1P, and M6P) which
+were found at much higher levels in FTM extracts in the batch
+experiment. Strikingly, the very same metabolites are found at
+comparatively lower levels in the chemostat experiment. FurtherAnalytical Chemistry, Vol. 81, No. 17, September 1, 2009
+
+7385
+
+more, in both growth conditions, the FTM method achieved
+overall poor efficacies, so it seems implausible that the difference
+lies in metabolite extractability. Rather, the fact that all six
+metabolites are fast-turnover glycolytic intermediates and their
+levels are comparatively higher in the condition of glucose-excess,
+but not glucose-limitation, points at the possibility of metabolite
+formation from the substrate (the 13C-labeled IS would not
+correct for that). Furthermore, the metabolites involved imply
+that at least the whole glycolysis is active. This hypothesis is
+strengthened by the evidence of more widespread enzyme
+activity in FTM extracts provided by the recoveries, which we
+shall discuss below.
+Among the similarity between the results of HW, BE, and CM,
+a few differences stand out upon closer inspection. The profiles
+for BE and CM are particularly close, while HW yielded somewhat
+higher levels of certain metabolites, especially Leu, Met, GDP,
+succinate, Phe, and Ile (>2 standard deviations), followed by Trp,
+fumarate, ADP, Ser, and Tyr (>1 standard deviation). In principle,
+higher efficacies mean that HW has a better ability to extract these
+metabolites. However, it is unclear why a few amino acids and
+organic acids, but not others, should be better released by HW
+than, say, BE. The occurrence of several amino acids among the
+largest differences suggested an alternative possibility: that the
+higher levels could originate from decomposition of macromolecules such as proteins. If protein hydrolysis occurred, the largest
+relative contribution would be for those amino acids which are
+most abundant in whole-protein compared to their free pool. If
+we calculate, for each amino acid, the quotient between its
+percentage in protein41 and its percentage in the free pool, the
+highest are for Leu (31), Phe (22), Met (16), and Ile (13), followed
+by Gly, Trp, Tyr, and Pro (5-10). The striking correspondence
+with the amino acids which are higher in HW samples strongly
+indicates that partial protein hydrolysis could indeed be the source.
+Protein is a major component of biomass (≈0.4 g/gDW). We
+estimate that the hydrolysis of as little as 0.2% of the cell protein
+would be sufficient to explain the measured differences in free
+pools. This also complicates experimental verification of amino
+acid release from purified protein, as it is possible that only a
+small number of labile proteins are degraded. It is conceivable
+that the other metabolites elevated in HW extracts also
+originate from macromolecular degradation, although the exact
+biomass components that would generate succinate, fumarate,
+GDP, and ADP upon thermal hydrolysis remain to be elucidated.
+Comparison of Metabolite Recoveries. As a measure of the
+stability of each metabolite throughout sample treatment with each
+extraction technique, we have defined the overall process recovery
+for metabolite x under extraction method i as
+
+recoveryx, i )
+
+[x]iBA
+[x]iAQ
+
+(3)
+
+Since we are determining an overall process recovery, nonspecific
+losses are to be expected simply by volume loss during centrifugation, filtration, etc. In our samples, estimated losses of 30-60 µL
+would represent 5-10% (recoveries 90-95%). Thus, even allowing
+for measurement error, losses of more than 15-20% indicate
+metabolite degradation, especially if they are metabolite specific.
+Conversely, mixed recoveries above as well as below 100% would
+7386
+
+Analytical Chemistry, Vol. 81, No. 17, September 1, 2009
+
+Figure 4. Overall process recoveries for all 44 metabolites analyzed,
+in order of increasing molecular weight, for each of the extraction
+methods, under both growth conditions (see Results and Discussion
+for the definition of recovery). Data are averages and standard
+deviations of duplicate samples each analyzed twice. Legend: 3,
+chemostat; 4, batch. Gray dashed vertical lines are for guidance only.
+
+mean that metabolite conversion, either enzymatic or chemical,
+is taking place during the sample treatment. Metabolite conversion
+will distort the metabolic “snapshot” that each sample represents.
+An extraction technique which does not effectively prevent it (e.g.,
+by inactivating enzymatic activity) cannot be considered suitable
+for metabolomics research.
+The overall process recoveries of all analyzed metabolites, for
+both experiments, are plotted, per extraction method, in Figure
+4. The recovery profiles for HW, BE, and CM are quite comparable, with recoveries near 1 across all metabolites. The profile
+for BE is noticeably the “flattest”, indicating the near absence of
+metabolite-specific losses and excellent reproducibility. With CM
+and HW only a few metabolite-specific effects were observed: in
+
+the case of CM, the recovery was low for Asn (0.38, batch) and
+Orn (0.71-0.74), while in the case of HW, it was low for Leu (0.61,
+batch) and Met (0.54, chemostat).
+Extraction with AANM led to much more pronounced losses.
+While the recoveries for smaller, less polar compounds were very
+reproducible and near 1, a few mid-MW metabolites had low
+recoveries: Orn (0.48-0.52), Lys (0.63-0.68), His (0.54-0.59),
+PEP (0.35-0.38), and 3PG (0.39-0.49). For the larger phosphorylated intermediates, the recoveries were systematically below
+60% and some nucleotides (e.g., GDP, CDP, UTP, ADP, UDP)
+must have been so affected that they could not be detected in
+some of the samples. What these metabolites have in common is
+that they correspond exactly to the positively charged side chaincontaining amino acids (the remaining, Arg, was not analyzed)
+and the phosphorylated compounds. Why they are lost, however,
+is unclear. Exposure to low pH is not very long (45-60 min total)
+and is at low temperatures. Besides, both compound classes are
+thought to be reasonably stable under acidic conditions. The
+AANM and ammonia solutions were titrated against each other
+before use (as a check), so prolonged exposure to low pH due to
+inadequate neutralization can be excluded. An alternative explanation could be that the most polar, charged metabolites are not
+entirely soluble in the cold solvent-rich mixture and, if partially
+precipitated (e.g., with cell debris, trace elements), would be lost
+during centrifugation and filtration.
+The profile of recoveries for FTM extraction clearly shows that
+metabolite stability is most problematic with this method. Not only
+are there several observations of very low recoveries but also there
+is a large number of recoveries above 100%. This confirms the
+suspicions, discussed above, of remaining enzymatic activity
+during the procedure. In addition, rather than being reproducibly
+high or low in both experiments, for many metabolites, the
+recovery depended on the origin of the samples. For example,
+Asn, Orn, Lys, PEP, 3PG, 6PG, S7P, T6P, and UDP-glucose had
+low recoveries in samples from the batch experiment but not from
+the chemostat, while Gly, Ser, Leu, Met, and UMP had recoveries
+above 100% in samples from the chemostat but not from the Batch.
+Furthermore, for a series of fast-turnover metabolites: G3P, G6P,
+F6P, G1P, M6P, AMP, CDP, UDP, ADP, GDP, UTP, and ATP,
+recoveries were above 100% in chemostat samples and well below
+100% in Batch samples. Consider for instance the hexosephosphates: in the batch their levels in AQ samples were far
+higher than with the other extraction methods, which we have
+attributed to assimilation of glucose (see above). However, in BA
+samples, their levels had decreased again, indicating conversion
+of the elevated pools into other intermediates later on in the
+sample treatment. This would have been partly compensated by
+the 13C-labeled IS in the AQ samples, giving the very low
+recoveries but not in BA samples. Conversely, in the chemostat,
+the hexose-phosphate levels in AQ samples were comparatively
+low, indicating poor extractability, but in BA samples, the levels
+were higher, again indicating interconversion between metabolite pools after extraction. This could, in principle, occur at any
+stage after extraction, implying that enzymes were extracted
+from the cells but not actually inactivated. Additionally, it cannot
+be ruled out that conversion occurs also during extraction,
+since the samples spend several minutes thawing at 0 °C, and
+methanol and low temperatures do not prevent enzymatic
+
+activity but merely slow it down.21,22 While the latter could
+perhaps be prevented by thawing instead at -40 °C, the former
+cannot. Note that the use of 13C-labeled IS is not meant to deal
+quantitatively with metabolite conversion (that would require
+the substrate/product ratios in the IS to be exactly the same
+as in the sample) but rather with degradation and analytical
+artifacts (e.g., matrix effects). In conclusion, the changes
+observed in glycolytic intermediates are consistent with the
+presence of enzymatic activity, and the extent of other metabolites exhibiting condition-dependency effects suggests this
+activity is widespread. Since inactivation of enzymatic activity
+is an essential requirement of an extraction method, these
+results mean that FTM cannot be considered a suitable
+technique for metabolomics research, at least in S. cerevisiae.
+Finally, we would like to draw attention to the advantages of
+the approach used here for the determination of recoveries in
+comparison to the “traditional” approaches of spiking and standard
+additions. In principle, these involve additions (at one or multiple
+concentrations) of each metabolite to different samples. Furthermore, if the influence of sample treatment and analysis are to be
+distinguished, separate additions must be performed at different
+stages. Doing this separately for every metabolite requires so
+many samples that in practice mixes of metabolites are used
+instead. Not only does the addition of multiple metabolites make
+interconversion difficult to notice but also the concentrations
+added are sometimes so high that they may no longer reflect what
+takes place in a real sample. This implies that the outcomes are
+dependent on the actual mix of metabolites chosen and concentrations applied. These limitations are circumvented by the 13Clabeled IS approach designed here. Since the added (labeled)
+metabolites do not interfere with the (unlabeled) metabolites
+already present, recoveries reflect changes as they actually
+occur in physiological samples. Since the IS mix is a cell extract
+itself, thus containing all metabolites, distinguishing metabolome-wide losses over the entire sample processing can be
+achieved with a modest experimental workload. Furthermore,
+if the recoveries at individual stages of sample treatment need
+to be distinguished, it is possible to extend the approach by
+applying the 13C-labeled IS to additional replicate samples
+before and after each processing step. Although that will
+multiply the experimental effort several-fold, it should allow
+losses to be tracked down to specific operations.
+Our Verdict: Best Performance with BE and CM. From
+the quantitative data presented above, the five extraction methods
+investigated can be objectively evaluated in terms of completeness
+of extraction, prevention of metabolite conversion, and metabolite
+stability. We conclude that the best extraction performance is
+obtained with the BE and CM methods. Both techniques achieved
+quantitative extraction of all metabolites analyzed with near-100%
+recoveries and good reproducibility. In the investigation of
+biological phenomena (RSD > 15%), the metabolite profiles
+obtained with these two methods should be nearly indistinguishable, which is quite remarkable considering they are based on
+rather different extraction principles. The data from CM and BE
+samples have been combined, and the resulting intracellular
+metabolite levels for the two growth conditions investigated are
+presented in Table 2.
+Analytical Chemistry, Vol. 81, No. 17, September 1, 2009
+
+7387
+
+Table 2. Comparison of Intracellular Metabolite Levels
+under the Two Growth Conditions Investigated
+intracellular level (µmol/gDW)a
+metabolite
+
+chemostat (µ ) 0, 1 h-1)
+
+Glycolysis
+G6P
+5.53 ± 0.08
+F6P
+1.38 ± 0.04
+FBP
+0.47 ± 0.02
+3PG
+2.9 ± 0.1
+PEP
+2.1 ± 0.1
+Carbohydrate Synthesis
+G1P
+1.07 ± 0.05
+UDP-Glucose
+3.03 ± 0.09
+T6P
+0.37 ± 0.02
+M6P
+1.75 ± 0.03
+PPP and Glycerol Synthesis
+6PG
+0.69 ± 0.03
+S7P
+2.97 ± 0.06
+G3P
+0.09 ± 0.02
+TCA Cycle
+Citrate
+7±1
+Oxoglutarate
+1.9 ± 0.1
+Succinate
+1.09 ± 0.05
+Fumarate
+0.655 ± 0.008
+Malate
+3.01 ± 0.09
+Nucleotides
+ATP
+7.0 ± 0.2
+ADP
+1.7 ± 0.1
+AMP
+0.45 ± 0.06
+UTP
+1.8 ± 0.2
+UDP
+0.78 ± 0.05
+UMP
+0.10 ± 0.02
+GDP
+0.21 ± 0.04
+CDP
+0.17 ± 0.02
+Amino Acids (Aromatic and His)
+Phe
+0.47 ± 0.02
+Tyr
+1.41 ± 0.05
+Trp
+0.40 ± 0.02
+His
+5.3 ± 0.2
+Amino Acids (from 3PG)
+Ser
+4.0 ± 0.9
+Gly
+2.3 ± 0.4
+Amino Acids (from Pyruvate)
+Ala
+19.8 ± 0.4
+Leu
+0.98 ± 0.05
+Ile
+1.72 ± 0.04
+Val
+8.1 ± 0.1
+Amino Acids (from Oxoglutarate)
+Glu
+122 ± 2
+Gln
+45.1 ± 0.6
+Pro
+3.9 ± 0.1
+Orn
+3.9 ± 0.1
+Amino Acids (from Oxaloacetate)
+Asp
+15.8 ± 0.3
+Asn
+4.52 ± 0.04
+Lys
+4.4 ± 0.1
+Met
+0.218 ± 0.007
+Thr
+4.1 ± 0.2
+
+batch (µ ) 0, 4 h-1)
+6.4 ± 0.4
+1.0 ± 0.1
+18 ± 1
+1.5 ± 0.1
+0.18 ± 0.03
+0.40 ± 0.02
+0.60 ± 0.03
+0.080 ± 0.004
+0.72 ± 0.03
+1.0 ± 0.1
+1.03 ± 0.03
+0.66 ± 0.05
+2.4 ± 0.1
+2.8 ± 0.1
+1.8 ± 0.2
+0.45 ± 0.03
+1.6 ± 0.1
+3.8 ± 0.2
+1.40 ± 0.09
+0.27 ± 0.03
+1.2 ± 0.1
+0.38 ± 0.04
+0.06 ± 0.01
+0.13 ± 0.04
+0.10 ± 0.01
+1.5 ± 0.1
+1.01 ± 0.06
+0.190 ± 0.008
+7.7 ± 0.5
+12.4 ± 0.8
+12 ± 1
+18 ± 1
+1.05 ± 0.05
+1.99 ± 0.09
+8.9 ± 0.3
+55 ± 2
+43 ± 5
+2.7 ± 0.2
+15 ± 1
+12 ± 2
+2.7 ± 0.1
+20.2 ± 0.8
+0.42 ± 0.02
+12.3 ± 0.7
+
+a
+Data are averages and standard deviations of four samples, two
+extracted with BE and two with CM, each analyzed twice.
+
+Extraction with HW gave results very similar to BE and CM
+for most metabolites but raised some concerns regarding possible
+hydrolysis of macromolecules, which is undesirable. Although an
+incubation of 15 min is until now standard for extraction of yeast
+cells, it seems very likely that a shorter extraction time would
+lead to a performance comparable to that of BE. Extraction with
+AANM gave poor results, with limited efficacy and low recoveries
+for specific types of metabolites. Nevertheless, if the reason behind
+the problems encountered with the more polar, charged metabolites is found and solved, it could eventually provide a viable
+7388
+
+Analytical Chemistry, Vol. 81, No. 17, September 1, 2009
+
+alternative to CM. Finally, according to our results, FTM cannot
+effectively prevent metabolite conversion throughout the samples
+treatment, most likely by failing to inactivate enzymatic activity,
+and thus, cannot be considered an adequate extraction method.
+Considering the inconsistency in the literature concerning
+the evaluation of extraction methods illustrated in Table 1, it
+is not surprising that our conclusions are partly in agreement
+with some previous works and in disagreement with others.
+In the interest of clarifying possible causes for the differences
+in outcome, it is worth comparing our conclusions with those
+of previous studies. At first sight, our most striking conclusion
+would appear to be that FTM is not adequate as an extraction
+method, since much of the recent literature, including some
+of the most influential papers on this topic, consider it the best
+technique.18,24,42-44 However, three of these studies, including
+the original proponents of the method, did not determine
+metabolite recoveries,18,42,44 thereby leaving two of the essential
+requirements untested. In the study by Villas-Boas et al.,
+metabolite recoveries were determined for 27 metabolites (14
+of which also measured here) in extracts spiked with a mix of
+the same compounds.24 Recoveries differed substantially between extraction methods and were generally quite low,
+including for BE and CM extractions. Some metabolites, such
+as sugar phosphates, were not recovered acceptably (>30%) with
+any of the procedures, for which no explanation could be found.
+CM and FTM had, overall, the least unsatisfactory recoveries
+so the authors concluded FTM was the best choice, based on
+higher extraction efficacy (judged from the number of GC peaks
+detected) and lower solvent toxicity. A more recent study
+actually found evidence of conversion of ATP to ADP and AMP
+in ATP-spiked FTM extracts.43 Despite this, the authors
+concluded that presence of enzyme activity was only a minor
+drawback of the method and, based on experimental simplicity
+and metabolite yields comparable to BE and PCA (in L.
+plantarum, for 3 metabolites), selected it as their preferred
+extraction method. From these considerations, we conclude
+that, in the evaluation of the FTM method, the main sources
+of discrepancy between this work and the literature lie in the
+definition of evaluation criteria and the type of data used for
+their verification.
+Our results also differ from the literature regarding the
+evaluation of the AANM extraction. The proponents of the
+method compared it to FTM and CM (and a few other
+variations) for the extraction of metabolites from E. coli.19
+Contrary to our results, they found that CM gave lower
+metabolite levels than AANM or FTM. However, the authors
+had adapted the procedure for CM extraction6 by applying no
+mixing of the two-phase system. Interestingly, another study
+also in E. coli where only short periods of mixing (3 × 30 s)
+were applied for CM extraction also concluded it had limited
+efficacy.18 Insufficient interfacial stress could well explain why
+CM failed to perform better than FTM and AANM, although it
+does not explain why it performed worse. This discrepancy may
+well be related to organism-specific differences. In the comparison between FTM and AANM, the authors preferred AANM
+because they found less metabolite conversion (attributed to
+chemical degradation) in nucleotide-spiked samples than with
+the FTM method. This is partially in agreement with our
+
+findings, since presence of enzymatic activity in FTM extracts
+(see above) would explain the conversions between metabolites
+which they observed. Finally, the authors also concluded that
+AANM gave the best performance for the extraction of
+nucleotides, which is opposite to our findings. If our hypothesis
+of metabolite precipitation were true, it is unclear why the E.
+coli samples would be less affected. On the other hand, it also
+cannot be excluded that losses were also taking place in their
+study since metabolite recoveries were not determined.
+To our knowledge, BE, CM, and HW extractions had not been
+compared together before, although several works compared at
+least two of them. Among those studies, half concluded they gave
+similar results,31,42,45,46 while the other half found significant
+differences.18,24,43,47 As discussed above, in some instances, the
+poor performance found with CM might be related to insufficient
+mixing of the two-phase system.18,43 Villas-Boas et al.,24 also using
+S. cerevisiae, found particularly poor recoveries with BE extraction
+for several metabolites, among them hexose-phosphates (100%
+loss), Lys, Phe, Trp, citrate, and oxoglutarate, which were
+completely stable in our experiments. The cause of this discrepancy is unknown. However, it should be noted that their finding
+of 0% recovery for hexose-phosphates is not in agreement with
+the fact that these metabolites can be routinely assayed in BE
+extracts at several laboratories.48-52 In the study of Hiller et al.,47
+HW extraction was considered superior to BE in terms of
+reproducibility and linearity of standard additions (from which
+detection limits were determined). These aspects cannot be easily
+compared between studies since reproducibility can be affected
+by so many different factors. In our study, the reproducibility with
+HW and BE was comparable. In fact, the average RSD between
+metabolite levels (n ) 88) in duplicate biological samples was
+below 5% with BE, HW, or CM.
+Finally, let us consider how our findings relate with the idea
+that comprehensive coverage of the metabolome can only be
+achieved using a combination of parallel extraction methods.
+This notion can be traced back to the works of Maharjan and
+Ferenci and Villas-Boas et al.18,24 Having observed a large
+disparity in results with different extraction methods and in
+the absence of one method that was better for all metabolites,
+Maharjan and Ferenci concluded it was unlikely that a single
+extraction method could cover all metabolites, given their
+variety in chemical and physical properties. Their conclusion
+was based on relative measurements of 13 metabolites, most
+with poor reproducibility, and no data on metabolite recoveries.
+This frame of mind may have led Villas-Boas et al. to express
+their results in terms of metabolite classes rather than
+individual compounds. Having observed a large disparity in the
+recoveries of 27 metabolites, they concluded that every method
+discriminated particular metabolite classes and concluded that
+developing a method that could extract the large variety of
+compounds in the cell was an impossible task. Since then, these
+notions have been supported by at least two reviews on the
+topic (one of which was by our group)53,54 and by some of the
+most recent literature.42 An additional contributing factor may
+have been the inconsistency between published method comparisons, illustrated in Table 1. However, the results we have
+presented here are not consistent with that view. Admittedly,
+
+we have analyzed only a subset of the metabolome, from which
+is it dangerous to extrapolate. It cannot be excluded that
+extraction performances differ significantly for functional
+classes not analyzed here, such as lipids, sugars, CoA derivatives, etc. Nevertheless, the fact that all metabolites analyzed
+could be extracted with high efficacies and near-100% recoveries
+by at least two very different extraction techniques deserves
+being considered before assuming that metabolome-wide
+extraction is an impossible feat, in yeast as well as other
+microorganisms.
+CONCLUDING REMARKS AND
+RECOMMENDATIONS
+For accurate determination of intracellular metabolite levels
+in S. cerevisiae, samples should be extracted using boiling
+ethanol or chloroform-methanol. Both methods gave high
+efficacies and excellent recoveries for the whole range of
+metabolites analyzed here. Hot water also performs generally
+well but raises the risk of overestimating some metabolite pools,
+presumably due to macromolecule hydrolysis, although this
+can probably be minimized with a shorter incubation time. The
+performance of acidic acetonitrile-methanol is inferior, for
+reasons not yet elucidated. Freezing-thawing in methanol is
+inadequate as an extraction method, as it does not ensure
+inactivation of enzymatic activity.
+Some aspects of metabolite extraction are species dependent,
+so the performance of the different techniques available should
+be adequately validated with each microorganism. Furthermore,
+extraction performance may, in some cases, depend on the history
+of the sample, so method comparisons can benefit if investigations
+are performed under more than one growth condition (e.g.,
+chemostat and batch).
+The approach outlined here, of applying 13C-labeled internal
+standards at different stages of the sample treatment process,
+is particularly useful for the determination of metabolite
+recoveries.
+The choice of methods for the earliest steps in sample
+treatment can affect the outcome of a metabolomics-based experiment to the extent that even the direction of changes in metabolite
+levels may be distorted. Insufficient validation of the experimental
+procedures used, thus, compromises the results of subsequent
+research and conclusions derived thereof.
+ACKNOWLEDGMENT
+The authors are grateful to Sergio Rossel, Ana Luı́sa Cruz, and
+Nathalie Bleijie for precious assistance in carrying out the
+extractions in parallel, Wouter van Winden and Aljoscha Wahl
+for insightful suggestions on the experimental design, Zhen Zeng
+for expert analytical work, and Rob Kerste and Dirk Geerts for
+knowledgeable support in the fermentation lab. This work was
+funded by SenterNovem through the IOP Genomics initiative
+(Project IGE3006A) and carried out within the research program
+of Kluyver Centre for Genomics of Industrial Fermentation, which
+is part of NGI/NWO.
+Received for review May 8, 2009. Accepted July 16, 2009.
+AC900999T
+
+Analytical Chemistry, Vol. 81, No. 17, September 1, 2009
+
+7389
+
+

@@ -1,0 +1,3098 @@
+3
+
+HPLC COLUMNS AND PACKINGS
+U W E D. NEUE, BONNIE A. ALDEN, EDWARD R. GROVER,
+ERIC S. GRUMBACH, PAMELA C. IRANETA, A N D
+ALBERTO MENDEZ
+
+Waters Corporation, 34 Maple Street, Milford, MA O175 7, USA
+
+ABSTRACT
+I. INTRODUCTION
+II. COLUMN CHEMISTRY
+A. General Comments
+B. The Particle Backbone
+C. The Particle Surface
+D. Monolithic Structures
+E. Reproducibility
+III. SPEEDAND RESOLUTION
+A. Column Performance in Isocratic Chromatography
+B. Column Performance in Gradient Chromatography
+C. The Need for Pressure
+IV. SPECIALTY COLUMNS FROM NANOBORETO PREPARATIVE
+CHROMATOGRAPHY
+A. Preparative Columns
+B. From Microbore to Nanobore
+V. SUMMARY
+REFERENCES
+
+ABSTRACT
+In this chapter on HPLC columns, we are discussing both the surface chemistry of
+a packing as well as column design and performance. In the section that covers column
+chemistry, we cover modern options of base materials as well as the commonly used
+approaches towards the surface chemistry of a packing. Specific subsections are dedicated to the selectivity of reversed-phase packings, HILIC, monolithic structures, and the
+reproducibility of modern packings. In the section on speed and resolution, we familiarize the reader with the principles of how to choose a column. In the section on specialty
+columns, we cover briefly preparative chromatography and columns with a very small
+diameter.
+
+9 2007 Elsevier Inc. All rights reserved.
+HPLC Method Development for Pharmaceuticals
+S. Ahuja and H. Rasmussen, editors.
+
+45
+
+46
+
+U.D. NEUE et al.
+
+I. INTRODUCTION
+
+When we consider the role of HPLC column technology, we should
+remind ourselves that the birth hour of true high-performance LC was when
+it became possible for the first time to pack efficient columns with particles
+smaller than 30 gm. a This improved the separation performance of a standard column from a few hundred theoretical plates to a few thousand, and
+quite satisfactory analyses could be performed in a time frame of around
+15 min to half an hour. This performance resulted in the rapid acceptance
+of HPLC in the analytical laboratories in the pharmaceutical industry.
+An important element of column performance is the particle size of the
+packing. However, there is much more to the story than just the particle
+size. We will provide in this chapter the important aspects of column performance in chromatography. In Section II, we will familiarize the reader
+first with the different options available today with respect to the particle
+backbone or the structure of chromatographic columns. Then we will look
+into the very important subject of the surface chemistry of chromatographic packings. What creates the selectivity of the separation? How can
+this selectivity be characterized in a quantitative way? What are the characteristics of the commonly used types of chromatographic packings?
+How are they useful in the practice of HPLC? Finally, we will go back to
+the parameters that make HPLC what it is today: the speed and the resolving power in a separation. How can we assess both in a quantitative way?
+How can we judge the overall capability of a column? Is there a difference
+in the case of isocratic chromatography and gradient chromatography,
+and how can we evaluate column performance under gradient conditions?
+In most of these discussions, we will focus on particle-based columns.
+However, today another option has become available: monolithic
+columns, both based on silica and on polymeric structures. We will briefly
+discuss the basic properties of these new structures as well. The most
+commonly used packings are silica-based packings. Polymeric packings
+have been an alternative for a long time, but their disadvantages outweighed the advantages, and they are much less frequently used for the
+HPLC analysis of small molecules. However, polymer-based packings
+are successfully used in sample preparation techniques. In modern times,
+other alternatives to silica have been developed, and these newer alternatives have gained a wider acceptance. These include hybrid packings
+and packings based on zirconia or titania.
+In Section IV, we will briefly cover some aspects of unusual column
+dimensions. Is there any advantage to a column with a very small diameter? What are the aspects of column design and the choice of particle
+size that are important for preparative applications? This discussion will
+be brief only.
+Of course, all these sections do not need to be read in sequence and
+stand on their own.
+
+3
+
+HPLC COLUMNS AND PACKINGS
+
+47
+
+I!. COLUMN CHEMISTRY
+A. General Comments
+
+All but few particles used in HPLC are fully porous packings.
+Fully porous packings have a large specific surface area, and this creates a larger retention and a larger loadability, i.e. fully porous packings are less prone to exhibit broad peaks with increased injection
+(with respect to both volume and mass). A typical specific surface
+area is in the range of 200-300 m2/g. This quite sizeable surface area
+resides in the pores of the packing. The pore size must be sufficiently
+large to allow access of the analytes to the surface of the packing. For
+the analysis of small molecules (molecular weight 100-500), a pore
+size of 1 0 n m is about right. Some packings have a slightly smaller
+pore size (around 8 nm), some have a bit larger pores (about 13 nm).
+One needs to be careful with some of these designations though, since
+the methods used for the pore size measurements are not consistent
+from manufacturer to manufacturer, and often only nominal values
+are given.
+The 10nm (or 100 A) packings can be used for peptide analysis as well,
+but for larger molecules (proteins) a larger pore size, nominally 30nm (or
+300 A), is needed. The larger pore size provides a smaller specific surface
+area, therefore these larger pore packings are less retentive, and they are not
+commonly used for small molecules.
+The most important properties of a porous particle are the specific
+surface area and the specific pore volume. "Specific" means that these
+values are given per gram of packing. This approach is acceptable for a
+comparison of different silica-based packings, but such values can be
+misleading, if silica-based packings are compared to zirconia-based
+packings or polymer-based packings. Chromatographers are usually
+more interested in which packing would result in more retention or less
+retention. The retentivity of a particle can be estimated quickly by looking at the ratio of the specific surface area to the specific pore volume.
+This is called the particle phase ratio tip:2
+Asp
+
+/~P ~---V
+
+sp
+
+(1)
+
+Asp is the specific surface area (in m2/g) and Vsp is the specific pore
+volume (in mL/g). However, for a quantitative assessment, the ratio of
+the surface area of the packing in the column to the column void volume
+needs to be considered. This true phase ratio inside the column can be
+calculated as follows: 2
+fl - ( 1 - ei)
+
+Asp
+
+Vsp q-(gi //gp)
+
+(2)
+
+48
+
+U.D. NEUE et al.
+
+8i is the interstitial fraction. Its value is typically 0.4 for most HPLC
+columns. The skeletal density pp is 2.2g/mL for silica. For polymeric
+packings, it is around 0.8-1 g/mL. This equation allows for a meaningful comparison of different packings, including non-porous packings.
+The advantage of fully porous packings is clear: they have a much
+larger surface area than non-porous particles. Therefore, their retentivity
+and loadability is much larger. Equation (2) permits a direct comparison
+of the retentivity of all packings, whether they are non-porous, porous,
+superficially porous, or based on silica or another carrier.
+It is important to get a true understanding of the basic properties of
+different particles to obtain a proper assessment of their value in chromatography. You will find that the true phase ratio gives you quite a different impression than the surface area alone. Let us compare two
+packings! One is a silica packing with a specific surface area of 350 m2/g
+and a specific pore volume of 1 mL/g; the other is also a silica packing,
+but now with a specific surface area of 200 m2/g and a specific pore volume of 0.5 mL/g. When we calculate the phase ratios, we find that both
+are practically identical: 178 m2/mL compared to 176 m2/mL. Thus, the
+retentivity and the preparative loadability of both packings should be
+equal, unless other particle properties affect these values. If we would
+have used only the specific surface area for judging the retention of these
+two packings, we would have believed that the one with the larger surface area would be nearly two times as retentive. This comparison points
+out the importance of Equation (2).
+The strength of a particle depends on its specific pore volume. For
+normal HPLC applications, strength is of no issue, if the specific pore
+volume is 1 mL/g or less. For ultra-high-pressure applications, a slightly
+lower pore volume is needed.
+
+B. The Particle Backbone
+
+In HPLC, packings based on silica are predominantly utilized. The
+most important reason for the broad use of silica is its mechanical
+strength together with the availability of well-established surface modification techniques, especially for the creation of reversed-phase packings
+(see Section II.C). Another important feature of silica is the freedom with
+which surface area and pore size can be tailored to specific applications.
+One needs to distinguish two types of silica. The classical type is of
+low purity, and contains a fair amount of other ions in its matrix and on
+its surface. Common impurities are alumina and iron oxide. Both stem
+from the raw materials, which are of inorganic origin (water glass).
+These contaminants are embedded in the matrix of the material, and create acidified surface silanols. Acidic surface silanols are a significant
+problem when reversed-phase packings based on a classical silica are
+used in applications common to the pharmaceutical industry, such as the
+
+3
+
+HPLC C O L U M N S A N D PACKINGS
+
+4~
+
+analysis of compounds containing basic functional groups (amino
+groups). The classical way to solve the problem is to work only under
+acidic mobile-phase conditions and/or with bases as competing additives
+to the mobile phase, or both.
+This problem was reduced significantly when high-purity silicas
+became commercially available. They are synthesized from very pure
+organic silanes, such as tetraethoxysilane, and metal contamination can
+be kept out of a silica based on these raw materials by using carefully
+controlled manufacturing processes. There is a class difference in the
+peak shape quality for basic analytes between reversed-phase packings
+based on classical silicas and those based on high-purity silicas. Today,
+packings based on high-purity silicas are widely available, and there are
+no compromises that would prevent anyone from using these much
+higher quality packings based on high-purity silicas. Since method development with high-purity or other modern packings is so much easier, we
+recommend the use of modern packings for this purpose.
+The surface of a silica packing (or a silica-hybrid packing, see below)
+is occupied by silanols. One distinguishes three types of silanol groups.
+H
+
+H
+
+I
+
+-
+
+H
+
+\o
+I
+
+si
+
+o/
+I
+
+si
+
+o/1\o/1%
+
+o/1%
+
+bridged or vicinal
+silanols
+
+lone or isolated
+silanols
+
+0
+
+0
+
+0
+
+H
+
+H
+
+t
+
+o
+0
+
+\
+
+t
+
+si
+
+/
+
+o
+
+/ \o
+
+geminal
+silanols
+
+Lone silanols are more acidic than the other types of silanols, which
+exist on well-hydrated surfaces. The generally accepted average pK a of
+silanols on a fully hydroxylated high-purity silica is around 7. 3 On a lowpurity silica, a significant portion of the silanols are more acidic, 4 which
+is the cause of base tailing on the older silicas.
+In recent years, a derivative technology of high-purity silica has been
+developed: hybrid organic/inorganic packings based on a co-condensation
+of tetraethoxysilane and other silanes containing silicon-carbon bonds.
+This technology provides a mixed organic/inorganic matrix. The primary
+advantage of this technology is an improved stability of the packing to an
+alkaline environment. Silica-based packings are commonly unstable above
+pH 8 even at room temperature. A dense coating with a C18 layer can alleviate this problem somewhat, but the real solution to this weakness of silica
+is a modification of the matrix. The incorporation of methyl groups or
+ethyl bridges into the matrix significantly improves the pH stability of the
+packing. Methyl-hybrid packings have been reported to be stable above
+pH 11, while the stability of a newer version, the ethyl-bridged hybrid
+packing, 4 has been demonstrated to reach pH 12.
+
+50
+
+U.D. NEUE et al.
+
+A side benefit of at least one version of the hybrid silicas is a shift of
+the pK a of the surface silanols into the alkaline pH range, s Under the same
+conditions of measurement, the pK a of a high-purity silica was measured to
+be around 7, while it was around 10 for the methyl hybrid packing. 6 This
+means that the "silanol activity" of the methyl hybrid packing is much
+reduced compared to silica-based packings, resulting in generally improved
+peak shapes for basic analytes compared even to high-purity silica packings.
+Zirconia-based packings are stable from pH 1 to 14, as well as at elevated temperatures. However, bonding procedures like the silanization
+of silica are not available for zirconia. For reversed-phase applications,
+packings are prepared by either a coating of the zirconia with polybutadiene or polystyrene, or by preparing a thin surface layer of carbon, with
+a subsequent derivatization of the carbon with a C18 layer. The zirconia
+carrier has a large pore size, 30 nm, with an associated lower specific
+surface area (30m2/g). The lower surface area means that commonly
+10-30% less organic modifier is needed for getting equivalent retention
+to a standard silica-based C18 column for a neutral analyte.
+Due to the unique character of the zirconia surface, one needs to
+rethink the method development process. Phosphate, bicarbonate, or
+carboxylic acid buffers are preferred mobile phase additives, but they are
+also strongly adsorbed to the zirconia surface. The carbon-coated zirconia is more akin to activated carbon than to a C18 packing, and it retains
+some of these characteristics after the C18 coating.
+Polymer-based packings are very rarely used in reversed-phase
+applications for small molecules. The reason for this lack of use is, on
+one hand, the commonly inferior mass transfer properties of polymeric
+packings (i.e., they give wider peaks), and on the other hand, the swelling
+and shrinking that goes along with an organic polymer. Polymeric
+packings are more frequently used in special applications such as size
+exclusion chromatography, hydrophilic interaction chromatography,
+large molecular weight biomolecule analysis, or in sample preparation
+techniques.
+C. The Particle Surface
+The particle surface is the most important part of the packing, since
+it is the interaction with this surface that creates the separation. We will
+once again focus on silica and silica-hybrid packings since they are most
+commonly used.
+I. Surface Chemistry
+The surface silanols of silica are derivatized with organosilanes to create the different types of packings. 7 Typical reagents are chlorosilanes,
+although other silanes can be used as well. Monofunctional, difunctional,
+and trifunctional silanes can be equally employed in this surface reaction.
+
+3 HPLCCOLUMNSAND PACKINGS
+
+$I
+
+Since HC1 is formed during the reaction, a base is used to scavengethe
+acid. The surface reaction of a monofunctional silane is shown below:
+
+O~
+O~Si--OH
+o
+
+/ CH3 -HC1
++ CI--Si--R ~
+\ OH3
+
+O~
+/OH 3
+O--Si--O--Si--R
+o/
+
+\ OH3
+
+If a difunctional or trifunctional silane is used, more than one bond
+with the surface is created. This is shown schematically below:
+oN
+
+O--Si--OXsi/CH30
+/
+
+oO---~Si--Ox /OH
+si
+
+o
+
+i~o/' ~ a
+
+o~si~o
+o/
+
+The desired predominant reaction product of a difunctional silane
+with the surface is the structure shown above. In this way, a maximum
+number of surface silanols can be removed. However, the details of the
+actual reaction conditions determine how close one can get to obtaining
+a large concentration of bidentate bonding. For many bonded molecules,
+only one link to the surface is formed, and the second silanol is left open.
+Trifunctional silanes almost never form a triple link to the surface.
+Thus, the derivatization with a trifunctional silane creates at least as
+many new silanol groups as there are ligands attached to the surface. In
+order to remove these new silanols of multi-functional silanes and residual silanols that were not accessible to the larger monofunctional silanes,
+the packings are commonly endcapped with trimethylsilyl groups:
+
+/OH3
+Si~CH 3
+
+\
+
+OH3
+
+This procedure removes additional accessible silanols. However, we
+must keep in mind that there are about 8 l~mol/m2 of silanols on a fully
+hydroxylated silica, but the surface reaction and the endcapping can only
+eliminate about 4 ~tmol/m2, leaving still plenty of silanols on the surface.
+These silanols tend to interact with basic analytes, and may produce peak
+tailing. This is one of the reasons why hybrid packings have been created,
+since they exhibit a smaller number of silanol groups on the surface to start
+with. Modern, high-quality, more sophisticated endcapping techniques
+can also remove a larger number of these "residual" silanol groups.
+Another bonding option not yet mentioned is the use of bidentate
+ligands. Such ligands have the capability to attach to the surface in more
+than one spot. This results in an additional improvement in stability.
+
+52
+
+U.D. NEUE et al.
+
+O
+0
+
+R
+
+\ ~o~1/
+Si_
+Si
+
+~
+
+/
+
+\
+
+/
+
+\
+
+/
+
+o/
+
+o s, o 7 '
+R
+
+The common side group of monofunctional silanes is a methyl
+group. However, added stability under acidic conditions can be achieved
+with more bulky side chains, such as isopropyl or isobutyl groups. The
+disadvantage of this approach is that the bulkiness of these side chains
+reduces the surface coverage, and thus more silanols remain and accessible by analyte molecules.
+The most common ligand in reversed-phase chromatography is the
+C18 ligand, an 18-carbon hydrocarbon chain. This chain creates the
+hydrophobic retention of the reversed-phase packing. As an alternative,
+a C 8 ligand is sometimes used. Due to the shorter chain length, it provides a bit less retention than the C18 ligand, but it is occasionally preferred for several reasons. Sometimes, a shorter retention is desired.
+Some C 8 packings give a slightly improved peak shape compared to a C18
+ligand, since the smaller ligand can result in a slightly better surface coverage. Or, a slightly different selectivity is desired. It should be pointed
+out that the selectivity differences between C~8 and C8 packings based on
+the same substrate and with the same surface coverage are rather small,
+but they still can be useful on occasion.
+If one is looking for an appreciable difference in selectivity, packings
+with an embedded polar group are recommended as the first choice. These
+packings have a polar group incorporated into the long-chain ligand, three
+carbons away from the silicon group that is used to attach the ligand to the
+surface. 8 In order to be effective, the polar group is best selected from the
+group of amide, carbamate, or urea, which all provide excellent hydrogen
+bonding capability. The three commonly used examples are shown below.
+
+~Si
+
+/
+\
+
+R
+
+/
+
+\
+
+/'
+\
+
+NH
+R
+
+O
+
+/
+Si
+\
+
+O
+
+R
+
+/
+
+\
+NH
+
+R
+
+Amide
+
+H
+N
+
+/
+
+\
+
+0
+
+Urea
+
+3
+
+$~
+
+HPLCCOLUMNSAND PACKINGS
+R
+
+/
+
+/
+
+H
+
+\
+
+Si
+
+/"o
+
+\
+
+\
+
+R
+
+Carbamate
+
+0
+
+R represents the possible side groups. For a monofunctional ligand
+(such as the commercially available carbamate phase), R represents a methyl
+group. Most other packings are based on a trifunctional silane, which means
+that R is either an additional attachment to the surface or a free silanol.
+The length of the ligand varies with the manufacturer. Some short
+ligands with eight carbons are available, other packings use longer chains,
+such as a C14 ligand.
+Many (but not all) of the commercially available amide phases are
+prepared in a two-step reaction, where the silica is first derivatized with
+an amino silane, and the amide is formed in the second step. This leaves
+residual amine on the surface. This gives these packings an additional
+anion exchange function, which can be as detrimental to the peak shapes
+of acids as silanols are for the peak shapes of bases.
+Recently, another packing of the same class was introduced. It is
+based on a sulfonamide function as the embedded polar group.
+
+0
+
+/
+Si
+\
+
+CH 3
+
+/
+
+\
+
+/
+
+/
+
+CH3
+
+. o
+\//
+//s-(CH2)15CH3
+
+o
+CH 3
+
+O
+
+This phase does not appear to have the hydrogen bonding ability of
+the phases mentioned above, but it improves the peak shape for difficult
+analytes as the other packings with embedded polar functions do.
+Finally, a combination of the idea of the bidentate ligand with the
+idea of an embedded polar group has become commercially available
+as well. In this case, both attachments to the surface are based on a
+trifunctional silane, and the distance between "neighboring" attachment
+groups is rather large:
+
+O
+
+\
+O~Si
+/
+
+\
+
+O
+
+o\
+
+o/si
+O
+
+O
+
+N
+
+//
+
+~C17H35
+,,
+
+5~
+
+U.D. NEUE et al.
+
+All packings with an embedded polar group share with each other
+the fact that they can be used in 100% aqueous mobile phases without
+dewetting, 9 an improved peak shape for basic analytes, and significantly
+different selectivity patterns compared to standard C~8 phases. These differences in the selectivity compared to the classical C18 phases can be
+attributed to the participation of the polar group in the interaction of
+analytes with the surface of the packing.
+Another packing with an embedded polar group is based on a phenol
+ether. However, this group does not exhibit the characteristic selectivity
+effects typical of the amide, carbamate, and urea phases.
+A comparison of the selectivity difference between different packings
+is shown in Figure 1. In this figure, the retention times of over 70 analytes
+measured in an acetonitrile or a methanol gradient at pH 3, 7, and 10 are
+shown. In Figure l a, the retention data obtained on a C 8 packing are
+compared to the same data on a C18 packing. In Figure l b, the same
+comparison is made for a classical C8 column and a packing with an
+embedded carbamate group of the same chain length. One can see that
+the scatter is much larger for the comparison of the classical column and
+the embedded-polar-group column (EPG column). This demonstrates the
+larger selectivity difference created by the embedded polar group.
+Figure 2 depicts the details of the selectivity difference between a classical C 8 packing and a packing with an embedded polar group. For simplicity, only the data obtained in methanol are shown. The patterns
+observed in acetonitrile were similar, but with a smaller impact of the stationary phase selectivity. Generally, the retention is higher for both ionized
+acids and bases on the classical C 8 packing. However, since the XTerra MS
+packing is well deactivated, the patterns for the ionic compounds do not
+differ much from the patterns for general neutral compounds. Analytes
+with the ability to hydrogen bond to the embedded carbamate group are
+more retained on the XTerra RP 8 packing. These include phenols, sulfonamides, and non-ionized acids, with the strongest effect for the first two
+classes of compounds. It should be pointed out that the hydrogen bonding
+ability of phenols is lost when the phenol group becomes ionized. The same
+is true for the hydrogen bonding ability of carboxylic acids.
+The selectivity differences between EPG packings and classical packings are exciting. However, they have a larger MS bleed than C18 packings, which bothers some LC/MS users. The bleed is not due to a larger
+ligand loss compared to a standard C~8 packing, but rather due to the
+much greater ease of ionization of the ligand, which is caused by the
+embedded polar group. The user needs to decide, if the significant advantages of well-designed EPG packings outweigh this drawback.
+Several different types of phenyl ligands are commercially available.
+They all share a phenyl group, but the attachment to the surface and the
+length of the chain between the surface and the ligand varies. The common linker is a three-carbon chain, but newer materials have a six-carbon
+
+3
+
+HPLC COLUMNS AND PACKINGS
+
+55
+
+20.00
+18.00
+
+o. 9
+$o
+
+16.00
+14.00
+0
+t~
+
+12.00
+10.00
+
+!X
+
+8.00
+6.00
+4.00
+2.00
+0.00
+0.00
+
+5.00
+
+10.00
+
+(a)
+
+15.00
+
+20.00
+
+25.00
+
+XTerra MS 018
+20.00
+18.00
+16.00
+
+44
+
+14.00 -~
+12.00
+tr
+m
+!.._
+L_
+
+k-
+
+X
+
+9
+
+10.00
+
+Ld
+4>4 9
+
+8.00
+
+;:.~.
+
+6.00
+
+~
+
+.
+
+4.00
+4> 9
+
+2.00
+0.00 I
+0.00
+
+(b)
+
+.
+2.00
+
+.
+.
+.
+4.00
+6.00
+
+.
+8.00
+
+.
+.
+.
+.
+1 0 . 0 0 1 2 . 0 0 1 4 . 0 0 1 6 . 0 0 1 8 . 0 0 20.00
+
+XTerra MS C8
+
+F I G U R E I Plot of the retention times for over 70 analytes for methanol and acetonitrile gradients
+at pH 3, 7, and I 0 for a change in ligand chain length (a) and a comparison of a packing with an embedded polar group (XTerra RP8) with one w i t h o u t it (XTerra MS C8) but with equal chain length (b). The
+larger scatter for (b) demonstrates the larger selectivity difference between the columns in (b) compared to the columns in (a). Data courtesy of A l b e r t o M~ndez, Waters Corporation.
+
+s6
+
+U.D. NEUE et al.
+
+20.00
+18.00
+H y d r o c a r b o n s _. "
+~:~ ~ -
+
+16.00
+
+x
+Non-Ionized Acids
+
+x
+
+9
+
+12.00
+
+IX
+
+Sulfonamides~
+
+•
+
+A
+
+_L~ L T L
+
+~ 4~-.:+
+
+~_~-~+
+
+__m 10.00
+9
+L_
+
+X
+
+"-~
+
+....
+
+14.00
+
+"
+
++
+
+~_ + ' -
+
+Ionized B a s e s
+
+8.00
+Phenols
+
+•
+
+~_ -=
+
+6.00
+
+;" - ~
++
+
+Ionized Acids
+
+~
+~149
+
+x
+
+4.00
+2.00
+0.00 I
+0.00
+
+" ' ~ F.
+2.00
+
+--
+
+_L
+
+4-.
+
+-+
+
+4.._{_1-.-
+
+.
+4.00
+
+.
+
+.
+6.00
+
+.
+8.00
+
+.
+.
+.
+10.00
+12.00
+
+.
+14.00
+
+16.00
+
+18.00
+
+20.00
+
+XTerra MS 08
+F I G U R E 2 Detailed comparison of the retention pattern of different compound classes on a
+packing with a classical ligand and one with an embedded polar group. ( + ) Ionized bases, ( - ) ionized acids, (X) phenols, (o) non-ionized carboxylic acids, (A) sulfonamides. Data courtesy of
+Alberto M~ndez, Waters Corporation.
+
+spacer (phenylhexyl packings). The phenyl group shows ~-~ interactions
+with suitable analytes. Most analytes of interest in the pharmaceutical
+industry contain aromatic rings and one often sees selectivity differences
+when switching from a C 8 or a C18 packing to a phenyl packing.
+However, in many cases these selectivity differences are rather small,
+which actually may be more of a benefit than a detriment. In some special cases, the selectivity and retention differences between a phenylhexyl
+packing and a C18 packing can be striking. Figure 3 shows this for the
+analysis of a set of explosives standards, carried out on 1.7-~tm particles
+using ultra-high-pressure LC (see also Section III.C). Due to the ~-~
+bonding, the phenylhexyl column exhibits a larger retention and a significant selectivity difference compared to the C18 packing.
+There are two principal types of perfluorinated packings: one is the
+aliphatic perfluoro octyl packing and the other one is the aromatic
+pentafluoro phenyl (PFP) packing. Due to the larger steric hindrance
+around the more bulky fluorinated groups, the coating levels are usually
+lower than those for equivalent non-fluorinated packings. As a consequence, both packings exhibit a larger amount of silanol interactions
+than their non-fluorinated counterparts. Therefore, it is often difficult to
+determine which selectivity effects stem from the ligand, and which originate in the increased level of silanol interaction. For example, the retention of bases is enhanced on typical PFP packings, which cannot be
+
+3
+
+57
+
+HPLCCOLUMNSAND PACKINGS
+
+,3
+
+ACQUITY TM BEH C18
+
+10
+1
+
+8
+
+6
+
+5
+
+9
+11
+12 13 14
+
+j
+4
+
+ACQUITY TM BEH Phenyl
+
+10
+
+3
+
+11
+
+98
+
+7
+
+13
+
+6
+
+1
+
+~_
+
+'''
+
+I'''
+2.00
+
+.__ .._.J . . . . .
+
+.
+
+.
+
+I'''1'''1'''
+4.00
+
+6.00
+
+.
+
+.
+
+.
+
+I'''
+8.00
+Minutes
+
+10.00
+
+~ f ~
+
+I'''
+12.00
+
+I'
+14.00
+
+F I G U R E 3 Comparison of the retention of explosives standards on 1.7-pm UPLC
+packings.Top: 100mm x 2.1 mm A C Q U I T Y T M BEH C, 8. Bottom: 100mm x 2.1 mm
+ACQUITY T M BEH Phenyl. Flow: 0.5 mL/min. Mobile phase: 28% methanol, 72% water.
+Instrument: ACQUITY T M UPLC with ACQUITY T M Photodiode Array Detector at
+254 nm. Peak designations: (I) HMX, (2) RDX, (3) 1,3,5-trinitrobenzene, (4) 1,3-dinitrobenzene, (5) Nitrobenzene, (6) tetryl, (7) 2,4,6-trinitrotoluene, (8) 2-amino-4,6dinitrotoluene, (9) 4-amino-2,6-dinitrotoluene, (10) 2,4-dinitrotoluene, (12)
+2-nitrotoluene, (13) 4-nitrotoluene, (14) 3-nitrotoluene. Data courtesy of Eric S.
+Grumbach,Waters Corporation.
+
+explained readily by a specific interaction with the ligand. Selectivity differences between a perfluoro octyl packing and a standard C18 are rather
+small, except for those that could be attributed to surface silanols.
+Cyano (CN) packings have been around since the beginning of HPLC,
+largely due to their success in GC. However, in LC, many users became
+
+S~
+
+U.D. NEUE et al.
+
+disenchanted with CN packings. This is largely due to multiple stability
+issues, but not due to a lack of selectivity difference compared to a C~8. The
+standard ligand is a propyl cyano ligand. The attachment to the surface can
+be done with the use of a monofunctional silane or a trifunctional silane.
+Due to the shorter chain length and the polar functional group, CN packings are significantly less retentive in reversed-phase HPLC compared to C 8
+or C18 packings. Due to the difficulties with existing packings, the use of
+CN packings is not recommended.
+
+2. Selectivity
+The general selectivity properties of commercial reversed-phase
+columns are of significant interest to the applied chromatographer. Several
+researchers have dedicated large resources to attempt to characterize the
+main features of commercially available columns. 1~ Reference 28
+(Chapter 4 in this book) describes the approach by one group of authors.
+The most erudite method and the most inclusive overview of different
+packings can be found in reference 26, with a recent refinement of the
+method in reference 27. However, with the exception of the judgment
+about the hydrophobicity of different packings, the agreement between the
+different methods is rather p o o r . 14 The reasons for these discrepancies are
+not understood. One possibility is that the mobile phase plays a more significant role, and that the dismissal of its influence is the underlying cause
+for the differences between the characterization methods. From the standpoint of the practitioner, this simply means that one needs to look at the
+described column features as paintings that have been created with a broad
+brush, and that one can only extract a general character of a column from
+the measured values. However, this is still of significant value.
+In the following, we will discuss the data collected by us using the
+method described in reference 13. We have measured the retention of a
+purely hydrophobic compound, acenaphthene, and that of a compound
+that shows a strong interaction with surface silanols, amitriptyline, in a
+methanol/buffer 65.0/35.0 (v/v) mobile phase. The buffer is a 2 0 m M
+pH 7.0 phosphate buffer. The logarithm of the retention factor of acenaphthene is the yardstick for the hydrophobicity of the packings. From
+the logarithm of the relative retention between acenaphthene and
+amitriptyline, a measure for the activity of the surface silanols is derived.
+This is demonstrated in Figure 4. In this figure, the silanol activity is plotted versus the hydrophobicity of the packings. C18 packings are marked
+with a black square and C 8 packings with a gray square. Generally, C18
+packings are more hydrophobic than C 8 packings, but this is not always
+the case, since the retention for a purely hydrophobic compound depends
+also on the ligand density and the phase ratio of the parent silica. The circles mark phenyl packings and the diamonds are CN packings. Most
+phenyl packings are less hydrophobic than C 8 packings, and CN packings
+are the most polar packings. The stars represent fluorinated packings.
+
+59
+
+HPLC COLUMNS AND PACKINGS
+
+3
+
+O
+
+3.5
+
+3
+
+0
+
+t'.,
+-r
+
+Q.
+
+2.5
+O
+
+'
+
+)K
+
+2
+
+*
+
+>
+,<
+
+9
+
+9
+
+o
+
+m
+
+>,
+
+0
+
+0
+
+0
+
+O
+
+Bl~
+
+Ilk l
+
+B
+
+O~"
+
+"lll~
+
+)~ I
+
+)
+
+9
+
+iI
+
+9
+
+1.5
+
+o
+"
+
+1
+
+,
+
+i
+
+o
+
+)
+)
+
+)
+
+~
+
+llli ram^
+
+.-~A.- " n,
+
+9
+
+I
+
+0.5
+
+9
+
+I
+
+A
+
+)
+
+i
+
+-1
+
+0
+
+i
+
+.......
+
+-0.5
+-2
+
+1
+
+2
+
+3
+
+4
+
+Hydrophobicity
+F I G U R E 4 Selectivity chart summary. Designation of packings: black squares: CIs, gray squares:
+C8, circles: phenyl, diamonds: cyano, stars: fluorinated packings, triangles: packings with embedded
+polar groups, small back diamonds: uncategorized packings. Reprinted from reference 43.
+
+The packings marked by a triangle are all packings with an embedded
+polar group. They clearly show a much lower silanol activity than the
+packings lacking this feature. This is a general advantage in method development. A line is drawn that shows the difference between packings with
+an embedded polar group and those packings that lack this feature.
+In Figure 5, plots of the values of the silanol activity versus the
+hydrophobicity are shown for 148 packings. Figure 5a is drawn at the
+same scale as Figure 4, which was used to orient the reader in the chart.
+Figure 5b is a magnified view of the indicated section of (a), and (c) is a
+magnification of (b). The charts cover a broad selection of different
+packings, from older stationary phases based on low-purity silicas to
+newer packings based on high-purity silica, to packings based on hybrid
+particles. The packings were selected from commercial sources in different parts of the world. Occasionally, some packings were tested multiple
+times to check the reproducibility of the packings. Therefore, the chart
+contains more data points than packings.
+Some packings with a very high silanol activity such as the Zorbax
+Classic or the Resolve C18 were not included in this chart due to the
+extremely high silanol activity. The same holds true for unendcapped C30
+packings such as the YMC C30. Among the remaining packings, the
+highest silanol activity on the chart is found for Waters Spherisorb
+Phenyl (#4), followed by Platinum EPS (#18). Low silanol activity is
+
+60
+
+U.D. N E U E et al.
+
+94
+
+i
+
+3.5
+
+...........................................................................................................................................................................................................................i ..........................................................................................................................................................
+
+3
+I',,..
+
+,18
+...........................................................................................................................................................................................................................
++..........................................................................................................................................................
+73
+,1~ ,22
+
+::Z::~. 2 . 5
+
+......................................................
+
+9 39
+
+,.~
+
+>'
+.,..,..
+0
+
+,~
+
+2
+
+* i
+
+i
+
+....................
+~ 2 .............................................................................................................
+; ..............
+:i2 * 3 ! ................................................................................................................................................
+~5
+i
+"2'~ i
+.72i
+91 i
+.11
+.
+_~
+_.,
+. *i97112
+..........m.t .............'~'t~J-~6 i .............................
+- 1 ~ 4 ......................
+..........................................................................................................................................................
+T ~ 1 2 3 ...........................................
+i...................
+*.-19 ..........., & ~
+'
+
+9 10 i
+
+1.5
+
+~
+
+. ~
+
+~
+
+-"~-'.~.t~l~i
+
+...t15
+
+O
+C
+
+...........................................................................................................................................................
+~ 6 ...........................
+~1z~9 ..........i............: ; : ~ ..................
+Z ~ 1 ~ ' 1 ~
+t~
+
+j
+
+/
+
+~_
+
+!
+
+i
+
+0.5
+
+......................
+i................................
+
+!
+
+"-.,~~3B~,,.....~70 ! 9 113 i
+
+i
+
+"~
+
+44 ' ' ~ ' '
+
+l
+
+* 117."
+
+9 125
+,126
+"~0
+:
+.
+i
+I
+..............................................................................
+i.....................................................................................................
+~ 1 2 1 .............................................................................................................................................................................................................
+I
+
+i
+
+-0.5
+-2
+
+I
+
+-1
+
+0
+
+(a)
+
+1
+
+2
+
+3
+
+4
+
+Hydrophobicity
+2.5
+
+* 2*429'80'
+
+* 72
+
+i
+',,97
+
+,42
+2
+
+9 5:1
+
+.,74
+
+* 112
+
+i
+
+............................................................................
+~--313L ..............................................................................................................................................
+*~,-5 ...............
+. - i ......................................................................................................
+[...................
+~-:i:i4 ..............
+119
+86
+*~7
+I
+
+9 21
+b"r
+Q.
+
+,28
+
+,38
+
+..32
+
+1.5
+
+33
+
+,~A
+
+i
+
+9 52
+
+j
+i
+
+**,a~,77
+
+"-" 9 7..7..~ . ~ B ~ '
+i
+1~5
+I
+[...............
+:i4~ ..............~ 8 { T .............T.....................................................................................
+
+*_58 I
+* 5 7 , 5"~ I
+
+6~
+
+~9, 1907~
+9 79-~N"s
+
+I
+4. 9 19Z-..1132
+
+118.
+
+m
+
+t_,,a~.
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+:
+
+~
+
+i
+.................................................
+t ..........................................................
+
+..............
+
+o
+
+7
+
+o
+c
+
+m
+
+0.5
+
+}
+
+_,.....3..4i ............................................
+~.........,...._4_8..._.....i...........................
+I]II~oZ..2ZZZ21Z]ZZZZZZZZ.222Z21ZZi
+
+.............................................................................
+
+9 43
+
+"44
+
+5*4 " 5 5
+
+i
+............................................................
+
+i'117
+
+92 0 ~
+;
+1.3
+(b)
+
+1.8
+
+2.3
+
+i
+
+i
+
+2.8
+
+3.3
+
+Hydrophobicity
+
+F I G U R E 5 (a) Column selectivity chart. (b) An expansion of (a), as indicated, and (c) is an
+expansion of (b). The same column designations are used in (a)-(c). ( I ) Nova-Pak C N HP,
+(2) Waters Spherisorb C N RP, (3) Hypersil CPS CN, (4) Waters Spherisorb Phenyl, (5) Keystone
+Fluofix 120N, (6) YMC-Pack CN, (7) Ultra PFP, (8) Zorbax SB-CN, (9) Hypersil BDS Phenyl,
+(I 0) Inertsil 3 CN, (I I) Fluophase RP, (I 2) Hypersil Phenyl, (I 3) Zorbax SB-Aq, (I 4 ) Y M C - P a c k Ph,
+(I 5 ) Y M C Basic, (I 6) Ultra Phenyl, (I 7) Inertsil Ph3, (I 8) Platinum EPS Ci8, (I 9) Synergi Polar, RP,
+(20) X T e r r a RP8, (2 I) Nova-Pak Phenyl, (22) Zorbax SB-Phenyl, (24) Zorbax Rx C8, (25) X T e r r a
+MS C 8, (26) Prodigy C 8, (28) Zorbax Eclipse X B D Phenyl, (29) Zorbax SB C8, (30) pBondapak Ci8,
+
+3
+
+61
+
+HPLC COLUMNS AND PACKINGS
+1.6
+9
+
+80
+111
+
+1.5 ................................................
+1:48.........i..
+...................................................~-i
+...................................................
+9 86 9 68i
+i
+1.4 ..................~...................."..,..6 9 .................
+~126.............
+;-#8 ...........o~
+...
+i
+i
+i
+i
+9149
+"Y
+i
+i
+i t0",
+i
+1.3 ..................i....................i................t...Z9
+... ...............!....
+93i-,-9t ....................,..i..3. 4 .................i...,..~...
+.. .........{.......................
+9 105
+* 96 .~.~i . . . . tni.~
+9
+" "'i"
+9 11ii(295-,,--..-.-..-i
+i..........;;-~.-~-~..-...-:;-*.--~.3~3.i
+,,u! 1-&~
+1.2 ..................~.......................................~.....................!~......::................................
+.. i
+-...................
+~..-~--,--:~..-..132
+...........
+102 {09' 92 110i
+"'-'v ,4u12.4 103
+,,',4.
+99
+. ..............................................
+i.......
+84
+i
+9
+i 67
+i
+* 88, 9147^&
+* 98
+1
+i
+9
+9 li43
+i ..........
+~..~.~...................*,~nn
+..... ..........................................................................
+..........................................................................................................................................
+
+i
+
+'
+
+i
+
+....................................................................................................................................
+
+r,.
+'I"Q,.
+.,-,
+m
+>"
+:Z
+
+'~
+
+..............,i45
+
+=
+--~ 0.9
+
+...........................................................................................
+!.......................................
+,~9
+
+9 146
+
+0.8
+
+........
+
+i
+
+' .....................................................................................
+
+"-"-'
+
+~
+i
+
+.
+
+.
+
+. * 131
+
+..................................................................................................................
+
+9 65
+
+0.7 ...........................................
+!...................................................................................................
+............ ~..............................................................................................................
+70
+9 113
+0.6
+i
+~ i*
+',
+;
+i
+2.3
+2.4
+2.5
+2.6
+2.7
+2.8
+2.9
+3
+3.1
+3.2
+3.3
+(c)
+Hydrophobicity
+I
+
+FIGURE
+
+5
+
+Cont.
+
+( 3 1 ) Y M C J'Sphere L 8 0 , ( 3 2 ) Supelcosil LC DB-C8, (33) Z i r C h r o m PBD, (34) Discovery RP A m i d e
+
+Ci6, (35) Hypersil BDS C8, (36) HydroBond AQ, (37) Lichrospher Select B, (38) Allure Ultra IBD,
+(39) Platinum Ci8, (40) Nova-Pak C8, (41) Capcell Pak Ci8 , (42) AIItima C8, (43) Discovery RP
+AmideCi6, (44) XTerra RPI8, (45) Symmetry300 Ci8, (46) Spectrum, (47) Z o r b a x Bonus RP,
+(48) Supelcosil L C - A B Z Plus, (50) SymmetryShield RP8, (5 I) Lichrosorb Select B, (52) PolyEncap
+A , ( 5 3 ) P r i s m , ( 5 4 ) Supelcosil LC-ABZ+, (55) Supelcosil LC-ABZ, (56) Luna C 8 (2), (57) Inertsil C8,
+(58) Kromasil C8, (59) Zorbax Eclipse X D B C8, (60) S y m m e t r y C8, (63) Hypersil HyPurity Elite Ci8 ,
+(64) Hypersil ODS, (65) Polaris CI8-A , (66) Luna PhenyI-Hexyl, (67) Hypersil BDS CI8, (68)
+Supelcosil LC DB-CI8, ( 6 9 ) A q u a Ci8, (70) SymmetryShield RPI8 , (72) Nucleosil Ci8 , ( 7 3 ) W a t e r s
+Spherisorb ODS-2, ( 7 4 ) W a t e r s Spherisorb ODSB, ( 7 5 ) Y M C J'Sphere M80, (77) Zorbax SB-CI8 ,
+(78) Synergi Max RP, ( 7 9 ) Y M C Hydrosphere Ci8 , (80) Nova-Pak Ci8, (81) PolyEncap Ci8, (82) TSKGel 80Ts, (83) Ace CI8, (84) XTerra MS Ci8 , (85) Fluophase PFP, (86) Purospher RPI8 , (87) Develosil
+C30 UG 5, (88) Develosil ODS UG 5, (89) Hypersil Elite CI8, (90) Zorbax Rx Ci8 , (91) Zorbax Eclipse
+X D B Ci8,(92 ) L-Column O D S , ( 9 3 ) Y M C O D S A Q , ( 9 4 ) Prodigy Ci8,(95 ) Luna CI8 (2),(96) Kromasil
+Ci8 , (97)Allure PFP Propyl, (98) Discovery HS Ci8, (99) Inertsil ODS-2, (100) S y m m e t r y Ci8 , (101)
+L-column ODS, (102) Puresil Ci8, (103) Cadenza CD-CI8, (105) Luna Ci8, (106) Zorbax Extend Ci8 ,
+(107) Inertsil ODS-3, (109) Zorbax Eclipse X D B CI8, (I 10)YMC Pack Pro Ci8 , (111) Purospher
+RPjEe, (I 12) AIItima Ci8, (I 13) ODPerfect, (I 14)YMC J'Sphere HS0, (I 15) Develosil ODS SR 5, (I 16)
+Nucleodur Gravity Ci8, (117) Inertsil ODS-EP, (I 18)YMC-Pack Pro CI8 RS, (119) Discovery HS F5,
+(I 20) Atlantis dCi8 , (I 21) Discovery HS PEG, (I 22) Discovery Cyano, (I 23) Luna CN, (I 24) Cadenza
+CD-CI8 , (125) experimental carbamate CN packing, (126) experimental carbamate phenyl packing,
+(I 27) Imtakt Presto FT Ci8, (I 28)Aquasil CI8 , (I 29) Pursuit Diphenyl, (130) XBridge Shield RPI8 ,
+(131) Acclaim PA, (132) Inertsil ODS 3V, (133) Capcell Pak MGII 5 pm, (134) Capcell Pak MGII
+3 pm, (I 35) Acclaim Ci8, (I 36) XBridge C8, (I 37) A C T Ace C8, (I 38) A C T Ace C=8, (I 39) Hypersil Gold,
+(140) SunFire Ci8, (141) XTerra Phenyl, (142) XBridge Phenyl, (143) XBridge Ci8 , (144) SunFire C8,
+(145) Pursuit Ci8 3 pm, (I 46) Discovery Ci8 , (I 47) Gemini Ci8 , (I 48) Synergi Fusion RP. Data supplied
+by Bonnie Alden.
+
+62
+
+U.D. NEUE et al.
+
+shown for all the types of packings with embedded polar groups. The
+polyethylene-glycol-derivatized Discovery HS PEG (#121) marks the
+bottom of the chart.
+The most hydrophobically retentive packing on the chart is YMCPack Pro RS combined with a silanol activity typical of high-purity
+silicas (#118). Intermediate hydrophobicity for a Cl8-type packing is
+exhibited by XTerra MS C18 (#84). The most polar stationary phase on
+the chart is the Nova-Pak CN HP packing (#1). The reader is encouraged
+to examine the three selectivity charts in detail to find the positions of his
+or her favorite packings.
+Today, many automated method development schemes use a parallel
+exploration of the selectivity of different columns. Based on the characteristics of the packings described here and in the previous paragraph, we have
+recommended to use a classical C 8 or C18, a short-chain or long-chain EPG
+column, and a phenyl column together with the selectivity of the mobile
+phase to search for a quick start in method development. 29 A typical scheme
+would use one of each type of columns, methanol and acetonitrile as solvents, and, if the analytes are ionizable, pH as the primary tools in the
+exploration of separation selectivity. Subsequently, mobile phase composition and temperature can be used for a method fine-tuning. Such a scenario
+uses every one of these principal selectivity parameters with maximal effect.
+These different selectivity characteristics can even be found within a
+given family of packings. The advantage of such an approach lies in other
+common factors of the packings. For example, the family of XBridge
+packings exhibits an excellent chemical stability at alkaline pH. At the
+same time, the character of the surfaces is measurably different. We can
+find the packings of this family on Figure 5b (connected lines): XBridge
+C 8 (#136) is found on the left side of the graph. The most hydrophobic
+packing in this family is XBridge C~8 (#143). The packing with the lowest silanol activity is the one with the incorporated polar group XBridge
+Shield RP18 (#130). The XBridge Phenyl packing (#142) has an intermediate hydrophobicity, but also shows selective ~-~ interaction typical of
+the phenyl packings (see Section II.C.1). When combined with mobile
+phase selectivity, these different stationary phase characteristics maximize
+the chances that a suitable separation will be found rapidly. 29
+3. Other Techniques: HILIC and Mixed-Mode Phases
+
+In the majority of this chapter, we are focusing on reversed-phase
+chromatography, since it is the most commonly used technique in the
+pharmaceutical industry. However, some alternative techniques may be
+of advantage under appropriate circumstances. One of these techniques
+is hydrophilic interaction chromatography, commonly abbreviated as
+HILIC. Like reversed-phase chromatography, aqueous-organic mobile
+phases are used. However, the stationary phases are very polar, and
+thus the overall retention patterns are opposite to what is found with
+
+3
+
+HPLCCOLUMNSAND PACKINGS
+
+63
+
+reversed-phase chromatography. The most common organic modifier is
+acetonitrile, and retention increases with an increase of acetonitrile in the
+mobile phase, and decreases with the addition of water. A good overview
+of the application of this technique for bioanalytical LC/MS can be
+found in reference 30.
+The basic mechanism of HILIC is partitioning of the analytes from the
+acetonitrile-rich mobile phase to the water-rich surface of the packing. 2 In
+other words, more polar compounds such as sugars are well retained,
+while hydrophobic compounds such as toluene are unretained and can
+serve as void-volume markers. In addition, some of the commercial packings used for HILIC also have ion-exchange properties, which can be
+advantageous for improving the separation or altering retention. It should
+be mentioned here that HILIC methods have been demonstrated to yield
+superior sensitivity in applications where electrospray mass spectrometry
+is used as the detection technique. 3~The improvement in sensitivity is often
+one order of magnitude, and may occasionally reach much higher values. 31
+The classical HILIC application is the separation of sugars on silicabased propylamino columns. 32 Due to stability issues with a standard
+amino column, modern "carbohydrate columns" are stabilized to overcome this difficulty. Also, polymer-based amino columns are available for
+this application. Due to the amine function, these columns can also be
+used in a combination of HILIC with an anion-exchange mechanism.
+Underivatized silica columns can also be used for HILIC applications. In
+this case, the polar surface of the silica is responsible for the attraction of
+the water from the mobile phase. In the case of silica, the HILIC retention
+mechanism is supported by cation-exchange with the surface silanols. 3~ It
+needs to be mentioned that in HILIC, silanols are not a detriment. The
+tailing observed with silanol-rich packings in reversed-phase chromatography is due to the fact that the silanols are few in number and buried
+under the hydrophobic C18 layer. In HILIC, the silanols are on the surface
+and easily accessible. Therefore, they can interact freely and without steric
+hindrance with the analytes. Thus, tailing is observed only rarely.
+A modern development in HILIC are zwitterionic stationary phases.
+The structure of the group responsible for the retention is shown below:
+
+I
+Phases with such groups can be prepared on silica and on organic
+polymers, and both forms of this packing are commercially available.
+Note that the opposite charges balance each other. The retention is created by the preferential binding of water by the charged groups. These
+packings work equally well for anionic, cationic, and neutral analytes.
+
+64
+
+U.D. NEUE et al.
+
+Another recent development of interest is the use of mixed-mode
+stationary phases, where hydrophobic interaction is combined with an
+ion-exchange mechanism. In these stationary phases, ion-exchange groups
+are incorporated into a reversed-phase ligand. Several different combinations of this type are commercially available, combining strong and weak
+cationic and anionic functions on the surface with reversed-phase ligands.
+Details about the structure of the ligands are unfortunately not available.
+Mixed-mode stationary phases on the basis of polymeric packings have
+been used extensively in sample preparation. 33 In this case, a packing prepared from divinylbenzene and N-vinyl pyrrolidone is partially derivatized
+with sulfonic acid groups, carboxylic acid groups, quaternary ammonium
+groups, or tertiary amino groups to create strong and weak cation and
+anion exchangers. Such packings interact both via the ion-exchange groups
+as well as via the hydrophobic matrix (divinylbenzene). Applications
+include the sample preparation of plasma and urine samples prior to HPLC
+analysis, often in combination with MS detection. Generally, it was found
+that techniques using the mixed-mode packings resulted in cleaner HPLC
+samples with significantly less ion-suppression in MS.
+Occasionally, good sample preparation techniques can be combined
+in an optimal way with HILIC as the analytical technique prior to
+MS detection. Next, we will describe an interesting application that combines the sample cleanup with the column chemistry and the detection.
+The ionizable analyte in a (rat) plasma sample is cleaned up via solidphase extraction using a mixed-mode ion-exchange technique. The elution solvent in this technique is methanol to eliminate hydrophobic
+interaction, together with an acid or a base to break the ion-exchange
+interaction. 33 This sample can subsequently be injected directly (i.e. without evaporation to dryness and reconstitution in another solvent) onto a
+HILIC column. Under HILIC conditions, methanol is a weak eluent and
+therefore a rather large injection volume is possible. Retention is further
+enhanced for basic compounds, if the HILIC column is a silica column,
+since the ion exchange with surface silanols assists the HILIC process. If
+the detection method is ESI-MS, one can achieve a higher sensitivity in
+mobile phases that are rich in organic solvent, as is typical for a HILIC
+method. 3~Such a strategy takes full advantage of the sample preparation,
+column chemistries, and detector sensitivity available.
+D. Monolithic Structures
+
+Since their inception in the mid-1990s, monolithic structures have
+inspired the imagination of chromatographers. However, the practice
+has remained far behind these early expectations.
+What are monoliths? They are continuous structures of the stationary phase, with a continuous macropore structure that provides the channels for the flow of the mobile phase. 34 The stationary phase can be
+
+3
+
+HPLC COLUMNS AND PACKINGS
+
+65
+
+porous or non-porous, with the same drawbacks of a non-porous structure as exhibited by non-porous beads in packed beds. In standard monoliths, the internal pore structure, also called micropores, provides the
+surface area necessary to achieve adequate retention in chromatography.
+Monoliths are available based on both silica 3s and organic polymers. 36 Most of the following discussion will focus on silica monoliths.
+With packed beds, the volume of the interstitial channels between
+the particles is typically 40% of the column volume (it is a bit higher for
+irregular-shaped particles, and it may also be somewhat lower for spherical particles, depending on the properties of those particles). The size of
+these interstitial channels determines the backpressure of the column,
+while the size of the particles determines the column performance. With
+a fixed interstitial volume fraction, the column performance and the column backpressure are simultaneously determined by the particle size in
+packed beds.
+With monoliths, this link no longer exists. Thus, it is possible to create structures with a larger interstitial fraction combined with a smaller
+characteristic size for the stationary phase than would have been possible
+with a packed bed. Since the backpressure depends inversely to roughly
+the fifth power on the interstitial fraction (in the range of 40% interstitial
+fraction), one can gain significantly by creating a more open monolithic
+structure. On the other hand, new methods for achieving a high level of
+macroscopic structural uniformity could lead to further improvements.
+The analysis of the performance of standard commercial monoliths 37
+showed that the chromatographic performance (van Deemter A-term) of
+the devices examined was similar to a well-packed bed of 3.5-5-~tm particles, while the backpressure was equivalent to that of a column packed
+with 8-10-l.tm particles. This gives a clear impression of the performance
+advantage of a standard monolith. At the same time, the pressure that can
+be applied to a commercial monolith is limited by the fact that the encasement of the column is made out of PEEKTM,which limits the pressure that
+the column can be exposed to (and thus the speed of analysis that can be
+achieved). Commercial silica monoliths are still limited to a single internal
+diameter. Within these constraints, good performance can be achieved.
+Organic monoliths are commercially available as well, but they are
+primarily used as media in the separation of large molecular weight
+compounds, mostly biomolecules. Typical applications include proteins,
+peptides, or DNA fragments. A study of the operational variables in
+such systems has been published. 38
+
+E. Reproducibility
+In the pharmaceutical industry, the reproducibility of a separation is of utmost importance. Once a separation has been developed,
+
+~6
+
+U.D. NEUE et al.
+
+it is expected that it can be transferred to other departments (e.g. QC
+department) or to other locations, often in other parts of the world,
+without any difficulties. The method developers also count on the stability of the method over long periods of time, i.e. decades. Both of
+these subjects have several implications.
+First of all, after the completion of method development, it is very
+important to test the reproducibility of a method from instrument to
+instrument, and from column to column. With respect to the column
+reproducibility, it is also worthwhile to compare used and new columns,
+and columns containing different preparations (= batches) of the packing
+material. Major column manufacturers can supply such columns, and
+some have such column sets in their standard offering. The comparison
+of a used column and a brand-new column ensures that the method is
+indeed reproducible. The comparison between columns from the same
+batch of material should give essentially identical results. The comparison between different preparations of the packing material gives an indication of the long-term reproducibility of a method. Good results
+increase the comfort of the QC department that the method will be stable over long periods of time.
+Second, the choice of columns used in method development needs to
+take into consideration the distribution capability of the column manufacturer. Many pharmaceutical companies have manufacturing sites in
+different parts of the world, and the same column needs to be readily
+available in different countries.
+The third point is the capability of the column manufacturer to
+ensure a long-term supply of the packing. This is more likely, if the column supplier is an integrated manufacturer. This means that the column
+manufacturer synthesizes the raw silica and does the surface bonding and
+column manufacturing. Some column manufacturers do not have the
+capability to synthesize the raw silica. Thus, they depend on another supplier to provide them with the silica. This has consequences for the security of the supply, and potentially, also the reproducibility of the final
+product.
+The quality of the batch QC-test of the column manufacturer
+together with reproducibility data of a packing material can also be
+taken into account in the selection of columns deemed for the development of QC procedures. Such data have, for example, been published in
+reference 39. Data on the long-term reproducibility of packings are also
+available from manufacturers upon request. An example of a dataset on
+the long-term reproducibility of one packing is shown in Figure 6.
+Relative retention values are plotted versus the batch numbers of all
+released batches of the product. The range of each retention window is
+_ 10% around the mean value. Let us discuss briefly the different values
+measured and the meaning of these values. The simplest value is
+the hydrophobic selectivity measured by the relative retention between
+
+3
+
+HPLCCOLUMNSAND PACKINGS
+
+m
+
+T,
+
+~,
+
+,~-,-r,
+
+'~1"
+
+67
+
+~
+
+,-T-
+
+,
+
+'
+
+~F'-r"-r
+
+. . . .
+
+"~"
+
+,-r,
+
+"r-r-r-r-rH-~
+
+~
+
+~
+
+,
+
+T
+
+.
+
+-
+
+r
+
+l | i l | | ~ v | 1 u | l | i ~ | 1 l | | | I v | l | | 1 l j | | | l | l i l ~ | I | ~ | | l l | ~ | | | ~ l | | l | | | l l ~ u l ~ 1 | 1 1 ~ | j I l a | i ~ I i 1 ~ i | ~ i ~ |
+
+O
+
+O
+~-
+
+O
+
+v-
+
+v-
+
+v--
+
+v--
+
+Cq
+
+~
+
+CXl CO
+-
+
+CO
+
+CO
+
+~-
+
+~-
+
+T-
+
+~
+
+~
+
+~1"
+
+*:9"
+
+~
+
+~
+
+t.O
+
+CD
+
+CD
+
+P-
+
+~
+
+I'~
+
+OO
+
+OO
+
+OO
+
+O0
+
+O'1
+
+O~
+
+O~
+
+~--
+
+~--
+
+~--
+
+~-
+
+~-
+
+~-
+
+~-
+
+~-
+
+~
+
+T-
+
+~-
+
+T-
+
+~--
+
+~-
+
+~-
+
+~-
+
+.i--
+
+~--
+
+Batch Number
+
+1
+
+F I G U R E 6 Batch-to-batch reproducibility of the Symmetry Ci8 packing. Range of each value: _+10%
+around the mean. (A) A: ~-dipropylphthalate/butylparaben, (B) +: ~-amitriptyline/propranolol,
+(C) 0: ~-amitriptyline/acenaphthene, (D) x: ~-dipropylphthalate/acenaphthene, (E) O: s-naphthalene/acenaphthene, (F) A: ~-butylparaben/acenaphthene, (G) I-I: ~-propranolol/acenaphthene. The
+chart includes all data of the released product since the introduction of the packing. Data supplied
+by Ed Grover, Waters Corporation.
+
+acenaphthene and naphthalene (Figure 6E). This value has a relative
+standard deviation of < 0.4%. As discussed above, the relative retention
+between a base and a neutral purely hydrophobic reference compound is
+a measure of the silanol group activity of a packing (Figure 6C and G).
+The test is carried out at pH 7.0, where the partial ionization of the surface silanols critically influences the retention of the positively charged
+base. The standard deviations of the relative retention of both bases to
+acenaphthene are around 2%. The relative retention between both bases
+(Figure 6B) is a measure of access to the surface silanols: one base is a
+secondary amine and the other a tertiary amine. The standard deviation
+of this value is 1.2%. The relative retention values between dipropylphthalate and acenaphthene (Figure 6D) and between butylparaben and
+acenaphthene (Figure 6F) reflect hydrogen bond acceptor and hydrogen
+bond donor activity of the surface. The first parameter has a standard
+deviation of 1.5% and the second one a value of 2.0%. The relative
+retention between the two polar compounds dipropylphthalate and
+butylparaben (Figure 6A) is a direct measure of the hydrogen bonding
+capability of the packing (without reference to hydrophobic interaction),
+and it exhibits a standard deviation of < 0.9% for this packing. It should
+
+68
+
+U.D. NEUE et al.
+
+also be mentioned that the retention factor of acenaphthene itself has a
+standard deviation of 2.7%. However, the reproducibility of the selectivity factors is a much better and more important indicator of the reproducibility of a packing than the reproducibility of the retention factors.
+
+III. SPEED AND RESOLUTION
+In this section, we will discuss the impact of column length and particle size on the performance of a separation. On first glance, it is already
+clear that it is not possible to run very fast separations on a long column
+packed with very small size particles. Conversely, we can also imagine
+that the separation capability of a short column packed with rather large
+particles is limited. In the following, we will attempt to shed some light
+on column performance capabilities in both isocratic and gradient chromatographies.
+
+A. Column Performance in Isocratic Chromatography
+The foundation of the views presented here is a series of publications
+by Martin, Eon, and Guiochon in the mid-1970s. 4~ Later publications 2'43 c o v e r the material in a similar fashion as described here.
+In isocratic chromatography, the analysis of column performance is
+very straightforward, and we can visualize what is happening with little
+difficulty. Let us assume that we have a 15-cm 5-~tm column with an
+internal diameter of 4.6 mm! We typically will operate this column at a
+flow rate of I mL/min. Now, let us take a standard separation, and let us
+increase the flow rate. The separation is happening faster and the peaks
+are narrower in time units, but we also will loose some resolution, since
+the peaks will be getting a bit wider compared to the distance between
+the peaks, as we increase the flow. If we do not have a tight pair of peaks
+in our chromatogram, we can still recognize that the peaks are getting
+wider with higher flow rate, since they are also getting shorter. At some
+point, we cannot increase the flow rate any further, because we would
+have reached the pressure limit of the instrument.
+What will happen, if we do the same thing with a 25-cm column, or
+with a 5-cm column, packed with the same size particles (5 ~tm)? We will
+start off with a higher plate count on the 25-cm column, but we will also
+hit the instrument pressure limit at a lower flow rate than with the
+15-cm column. Conversely, the 5-cm column will have a much lower
+plate count, but we will be able to operate it with three times the flow rate
+as the 15-cm column. Figure 7 puts these thoughts into a graphic format.
+Plotted is the square root of the plate count (which is proportional to the
+resolution of the separation) versus the analysis time for these three
+columns. We call the y-axis the "resolving power" of a separation. The
+
+3
+
+HPLC COLUMNS AND PACKINGS
+
+69
+
+25 cm 3 IJm
+200
+
+25 cm 5 IJm
+,.
+
+150
+
+o
+
+a.
+C
+,i
+
+>
+o
+
+100
+
+/
+
+tr
+
+/
+
+50
+
+0
+
+f
+
+15cm5pm
+
+f
+
+5 cm 5 pm
+
+i
+
+i
+
+i
+
+i
+
+20
+
+40
+
+60
+
+80
+
+100
+
+Analysis Time [min]
+1
+
+FIGURE
+
+7
+
+Influence of column length and particle size on the resolving power of a separation.
+
+x-axis is the analysis time. We can clearly see the pattern of the change
+in column performance when we change the column length for the three
+5-~tm columns.
+Also included in Figure 7 is the case, when we try to get even more
+resolving power out of a column by changing the particle size in the 25-cm
+column to 3 pm. Indeed, we do get what we had wanted, but the analysis time range over which this column can be used is very limited. If we
+run too slowly, we loose column performance (longitudinal diffusion
+takes over). We cannot run any faster, since we quickly reach the pressure limit with the 3-pm particles.
+The results in Figure 7 are not unexpected. Longer columns have
+more resolving power, shorter columns provide a faster separation.
+Reducing the particle size gains resolving power (for a given column
+length), but it limits the speed of analysis that can be achieved.
+There is another way though to think about column performance. This
+second way will gain speed and often also separation performance at the
+same time. Let us now change column length and particle size in proportion to each other! Let us compare the performance patterns of a 25-cm
+5-pm, a 15-cm 3-pm, and a 10-cm 2-pm column to each other! In this case,
+the ratio of column length to particle size remains constant. The performance pattern for this set of columns is shown in Figure 8 up to a pressure
+of 4000 psi (266 bar). Now, each of these columns has the same maximum
+resolving power. However, as we decrease the particle size, this maximum
+
+70
+
+U.D. NEUE et al.
+
+200
+
+10 cm 2 #m
+
+15 cm 3 IJm
+
+25 cm 5 IJm
+
+150
+!_
+
+o
+a.,
+,-
+
+J
+
+100
+
+o
+mr
+50
+
+0
+
+.0
+
+6o
+
+8o
+
+A n a l y s i s Time [min]
+F I G U R E 8 Resolving power as a function of analysis time for various columns with a constant
+ratio of column length to particle size.
+
+resolving power is reached in a shorter analysis time. At the point of maximum column performance, the 3-~tm column is about 2.8 times faster than
+the 5-~m column. In addition, we see that all three columns have the same
+limiting short analysis time. Given the pressure limit, the 10-cm 2-~tm column cannot be operated any faster than the 25-cm 5-~tm column, but it
+reaches the maximum column performance at a very short run time.
+We have seen now that the maximum column performance remains
+constant when we change the column length and the particle size in the
+same proportion. We also have seen that the fastest analysis that can be
+performed on columns scaled this way remains constant. The advantage
+of the shorter column with the smaller particles is only that the resolving
+power at or close to the speed limit is higher for the smaller particles.
+How do we get then to a faster analysis? We have to reduce the ratio
+of column length to particle size. Alternatively, if we want to maintain
+maximum column performance, we need to go to an instrument that can
+provide a higher pressure. We cover the latter aspects in Section III.C.
+Let us see what happens when we choose another ratio of column
+length to particle size! In Figure 9, we examine a 5-cm 5-~tm, a 3-cm 3-~tm,
+and a 2-cm 2-~tm column. Once again we see that all three columns have
+the same maximum plate count, all three columns can achieve the same
+shortest analysis time. The maximum resolving power is a little bit less
+than one half of what was achievable with the five times longer columns
+shown in Figure 8. But the speed is much higher: the fastest analysis at a
+
+3
+
+71
+
+HPLC COLUMNS AND PACKINGS
+
+80
+2 cm 2 pm
+
+3 cm 3 pm
+
+5 cm 5 pm
+
+6o
+Q)
+O
+n
+
+=
+
+-_>
+9
+
+40
+
+//
+
+0
+
+20
+
+0
+
+10
+
+15
+
+20
+
+Analysis Time [min]
+F I G U R E 9 Resolving power as a function of analysis time for various short columns with a constant ratio of column length to particle size.
+
+pressure of 3000 psi (200 bar) is just around 40 s for our standard analysis to a retention factor of 10. Of course, the smaller particle sizes always
+outperform the larger particles. Quite reasonable analyses can be performed in less than 2 min with either the 3-pm or the 2-1am columns.
+Obviously, the focus of the use of columns with a small ratio of column
+length to particle size is the speed of the analysis, not the maximum
+separation power.
+Before we conclude this section, it should be mentioned that the exact
+speed values that can be achieved depend on the viscosity of the mobile
+phase. In our examples, we assumed a viscosity of I cP, the value for water.
+If one is using a methanol-water mobile phase, the speed will be a bit
+slower, whereas for acetonitrile-based mobile phases, it will be a bit higher.
+However, in these comparisons it was more important to understand the
+influence of the column parameters such as column length and particle size.
+
+B. Column Performance in Gradient Chromatography
+The same principles that we have just applied to isocratic chromatography also apply to gradients. Despite the fact that the use of gradients complicates the picture a bit, the overall rules are similar to what
+we have seen in isocratic chromatography. We should use a fixed ratio
+of column length to particle size for the column comparisons in the same
+
+77-
+
+U.D. NEUE et al.
+
+>,,
+tJ
+m
+m
+
+o
+
+,~r
+
+256
+
+~[min]
+
+(a)
+
+o5
+F l o w Rate [ m l J m i n ]
+
+>,
+Q.
+m
+
+o
+
+256
+
+[min]
+9"-
+
+(b)
+
+--"
+o4
+
+o
+
+F l o w Rate [ m l J m i n ]
+
+0.
+
+0
+r
+(9
+
+256
+
+'nin]
+,,...
+
+(c)
+
+Flow Rate [mLJmin]
+
+3
+
+HPLC COLUMNS AND PACKINGS
+
+73
+
+way as we have done in isocratic chromatography. We will assume a
+fixed gradient from 0% to 100% organic for all the comparisons. In
+order to measure the separation performance of the gradient, we use the
+peak capacity, defined as the gradient run time tg divided by the average
+peak width w in the gradient:
+
+Pc - 1 + - -
+
+tg
+
+(3)
+
+w
+
+This is simply a measure of how many peaks could be eluted with a
+nearly baseline separation in a given gradient run time. Other measures
+for judging the performance of a gradient can be used as well (e.g. reference 44), but the overall findings remain essentially unchanged.
+In Figure 10, we have plotted the dependence of the peak capacity
+on the operational parameters flow rate and gradient run time for three
+different columns. Before discussing the details of the graphs, let us
+examine first the nature of the plot. Note that both the flow rate axis and
+the axis of the gradient duration are logarithmic. This permits a display
+of the column performance over a wide range of operating conditions.
+First, let us look at the conditions of a very long gradient run time, which
+was 512 min (=approximately 8 h) at the back end of the graphs. Under
+these circumstances, the peak capacity exhibits a maximum. The location of the maximum is at a slow flow rate, close to the optimum of the
+relationship between plate count and flow rate in isocratic chromatography. As we shorten the gradient run time, the maximum of the peak
+capacity moves to higher velocities. It also becomes lower. Generally, we
+obtain maximum resolution, and therefore the best peak capacity, at
+slow flow rates. However, an analysis time of 8 h or so is not practical.
+Most gradient analyses are carried out with run times less than I h, often
+even much faster than this. A 30-min analysis is pretty much in the center of the graphs. The flow rate at which the maximum of the peak
+capacity occurs for this gradient run time is around I mL/min for a column with an internal diameter of 3.9 mm. This is in good agreement with
+the standard operating practices in many labs: gradient run time about
+30 min, flow rate about I mL/min. The graphs stop on the right at the
+flow rate where we reach the pressure limit of the instrumentation. In
+our calculations, this limit was assumed to be around 6000 psi (400 bar).
+
+F I G U R E I 0 Peak capacity as a function of the flow rate and the gradient duration for
+three columns with an internal diameter of 3.9 m m . T h e logarithmic axis for the gradient duration tg is same for all three graphs and ranges from 4 to 512 min.The logarithmic axis for the flow rate varies from graph to graph. (a) Column: 300 m m x 3.9 m m ,
+10 IJm; flow rate from 0.25 to I 1.35 mL/min. (b) Column: 150 m m x 3.9 m m , 5 I~rn; flow
+rate from 0.125 to 5.67 mL/min. (c) Column: 100 m m x 3.9 m m , 3.5 I~m;flow rate from
+0.08 to 3.78 mL/min.
+
+74
+
+U.D. NEUE et al.
+
+8070t.1
+
+6o-~
+
+Q. 5O-
+
+o
+
+40-
+
+30-
+
+22.63
+.00
+
+tg [rain]
+d
+
+d
+.
+
+(a)
+
+Flow Rate [mL/min]
+
+i,~
+i,,,.
+o5
+
+1.00
+
+807060
+o
+0=
+0.. 5O
+
+o
+
+,~r
+
+40
+
+13.
+
+30
+
+22.63
+_,~22. 8.00
+83 tg [ m i n ]
+o. o
+o c5
+
+(b)
+
+1.00
+F l o w Rate [ m L / m i n ]
+
+.m
+
+O
+D.
+
+r
+
+a.
+
+22.63
+)0
+tg [ m i n ]
+
+C)
+
+P l o w i-late LmI.J'mlrtj
+
+3
+
+HPLC COLUMNS AND PACKINGS
+
+75
+
+Now that we have oriented ourselves in the graphs, let us examine
+them in more detail. In all three graphs, the maximum of the peak capacity at a particular gradient run time moves to a higher flow rate as the gradient run time becomes shorter. The reason for this observation is simple.
+If we reduce the gradient run time at a particular flow rate, the gradient
+volume becomes smaller, and we lose resolution. If we want to compensate for this, we need to increase the flow rate. The increase in flow rate
+brings with it a reduction in column plate count. Therefore, a reduction in
+run time will always be accompanied by a reduction in peak capacity, but
+it is not that bad if we increase the flow rate at the same time.
+Let us now compare the three graphs in Figure 10 to each other!
+Figure 10a shows the gradient performance of a 30-cm 10-1am column.
+Figure 10b represents a 15-cm 5-jam column, and Figure 10c a 10-cm
+3.5-1am column. We see that the performance at very long run times
+improves substantially from the 10-1am column to the 5-1am column, but
+the increase in peak capacity at the longest run time is only small going
+from the 5-1am column to the 3-jam column. This is in agreement with the
+experience shown above for isocratic chromatography: there is a gain in
+speed, when we reduce the column length together with the particle size,
+but for the longer run times, the gain in performance is small. However,
+when we look at the front of the graph, at quick gradient times as fast as
+4 min, the advantage of the shorter column packed with smaller particles
+is substantial (about 30% improvement in peak capacity). At the same
+time, we are operating close to the selected pressure limit. However, if
+we compare the gain in speed for equal performance, we can obtain the
+same peak capacity with the 3.5-1am column in about 4 min as was possible with the 10-gm column in about 30 min.
+The smaller particles provide a gain in speed, even in gradient separations. This gain is more pronounced, if we select shorter columns. This
+is shown in Figure 11, where we compare the peak capacities for 2.1-mm
+columns of a shorter length. Here we compare 10-cm 10-1am, 5-cm 5-1am,
+and 2.5-cm 2.5-1am columns. The fastest analysis time considered is a
+1-min analysis. The 10-1am column only delivers a peak capacity of
+around 13, completely inadequate for a real analysis. The 5-~tm column
+reaches a peak capacity of 22. Only the 2.5-1am column reaches an adequate peak capacity, i.e. 37, for this fast analysis. The flow rate is also
+fairly high for such a short column: I mL/min, in agreement with data
+for fast gradients reported in the literature. 4s,46
+
+FIGURE
+I I Peak capacity as a function of the flow rate and the gradient duration for three
+fast columns with an internal d i a m e t e r of 2. I m m . T h e logarithmic axis for the gradient duration
+tg is same for all three graphs and ranges from I to 32 m i n . T h e logarithmic axis for the flow rate
+varies from graph to graph. (a) Column: 1 0 0 m m x 2.1 m m , 101~m; flow rate from 0.14 to
+8.78 m L / m i n . (b) Column: 50 m m x 2. I m m , 5 IJm; flow rate from 0.07 to 4.39 m L / m i n . (c) Column:
+25 m m x 2. I m m , 2.5 I~m; flow rate from 0.03 to 2.19 m L / m i n .
+
+76
+
+U.D. NEUE et al.
+
+C. The Need for Pressure
+
+It is clear that smaller particles are of advantage if one wants to
+achieve a reasonably high performance at very short analyses times.
+At the same time, the pressure required to operate a column increases
+drastically. At a given flow rate, the pressure grows inversely to the
+square of the particle size. However, the flow rate needed to reach the
+optimum performance of columns packed with small particles also
+increases, as the particle size decreases. The consequence of both facts is
+that the pressure to operate a column under the best conditions increases
+with the inverse of the third power of the particle size. If we had been comfortable at 750psi (50 bar) with 3.5-gm particles, we will need 6000psi
+(400 bar) to operate the same column packed with 1.7-gm particles at
+the optimum flow. On the other hand, the gain in speed and performance is very much worth the effort. An example of an isocratic separation that takes advantage of the smaller particles at a constant column
+length is shown in Figure 12. The measured gain in resolution was
+1.5-fold, while the separation was 2.6 times faster. The consequence was
+
+0.050
+5 pm, 0.2 m L / m i n , 3 5 4 psi
+0.040
+0.030
+0.020
+0.010
+0.000
+'
+
+'
+
+9
+
+I
+
+2.00
+
+0.00
+
+I
+
+I
+
+I
+
+~00
+
+400
+
+'
+
+~00
+
+'
+
+~0100
+
+~'00
+
+15.00
+
+Minutes
+0.050 -
+
+1.7 pm, 0.6 mL/min, 7 6 5 6 psi
+
+0.040
+Z
+0.030 Z
+0.020
+0.010
+0.000
+
+,..J'.-v-,.-- L . . _
+|
+
+0.00
+
+|
+
+|
+
+i
+
+~..,_,,J~k__ ................................
+i
+
+1.00
+
+i
+
+i
+
+I
+
+2.00
+
+|
+
+i
+
+m
+
+|
+
+I
+
+~
+
+3.00
+
+|
+
+i
+
+i
+
+j
+I
+
+4.00
+
+i
+
+i
+
+!
+
+w
+
+k~______
+I
+
+5.00
+
+!
+
+i
+
+i
+
+i
+
+...... i
+
+6.00
+
+Minutes
+FIGURE
+12 I m p r o v e m e n t in a separation by reduction of the particle size at a constant
+column length of 5 cm. Columns: 50 m m x 2.1 m m . Top: 5 I~m. Bottom: 1.7 pro. C h r o m a t o g r a m
+courtesy of Eric S. G r u m b a c h , W a t e r s Corporation.
+
+3
+
+HPLC COLUMNS AND PACKINGS
+
+77
+
+a roughly 22-fold increase in pressure. All of these figures are in close
+agreement with the theoretical expectations. There is no question of the
+gain in performance from the very small particles. There is also no question that the cost of this improvement is pressure.
+Similar analyses can also be made if the column length is reduced
+with the particle size, as we have done above. We have shown there
+that under these circumstances, the performance optimum changes to
+shorter and shorter run times, as the particle size is reduced. If we continue to do this, we will at some point reach this performance maximum
+at the pressure limit of the instrument. The only way to further continue
+on this path towards increased performance is to increase the available
+pressure.
+Small particles are also of advantage for separations that require a
+very large horsepower in a reasonable time. The first examples of the use
+of very high pressure by Jorgenson and co-workers focused on maximizing column plate count. 47 In a later publication, the benefit of very small
+particles was demonstrated also for gradient applications. 48 In more
+recent times, the instrumentation to execute separations that require a
+higher pressure and the columns needed for high-power separations have
+become commercially available. 49 At the time of this writing, a typical particle size for ultra-performance LC applications is 1.7 ~tm (as in Figure 12)
+with column lengths up to 15 cm.
+An example of an analysis that requires a very high separation
+power is metabolite profiling in biofluids, i.e. the science of metabonomics. 5~ Also, impurity profiling does benefit from the improvement in
+separation power. Finally, further reduction of interferences in the
+LC/MS analysis of drugs in biofluids is possible by increasing the peak
+capacity of the chromatographic separation. The improved separation
+power results in fewer coelutions for each peak. Fewer interferences
+mean less ion suppression, which was the surprising side benefit of the
+performance increase due to small particles when complex separations
+were performed with MS detection.
+
+IV. SPECIALTY COLUMNS FROM NANOBORE TO PREPARATIVE CHROMATOGRAPHY
+
+In this section, we will briefly touch the subject of columns with both
+a wider and a smaller internal diameter than commonly used in HPLC.
+The technology of column preparation has not stood still at these fringes
+of standard column technology. However, special equipment is required
+to use these columns. For the proper use of preparative columns, pumps
+with higher flow rates and injectors with a larger injection volume are
+required. For the use of columns with a very small diameter, the main
+technological difficulty is the design of sensitive detectors with very small
+extra-column band spreading.
+
+78
+
+U.D. NEUE et al.
+
+A. Preparative Columns
+Preparative chromatography can be carried out at many different
+levels. The preparation of milligram quantities of purified substances
+from crude synthesis product has become commonplace in the pharmaceutical industry. Often, open-access systems are available that allow an
+automated purification of the crude product with pre-established chromatographic methods.
+The packings used in an open-access preparative system are identical to
+the ones used for chromatographic analysis. The commonly used particle
+size is 5 lam, and the common column length is 50 mm, but longer lengths
+are used as well. Common column diameters range from 7.8 to 30 mm.
+The loadability of a column can be estimated by the rule of thumb
+that column overload will deteriorate a separation if more than i mg of
+sample per I g of packing is injected. Another good rule of thumb is that
+a column contains about 0.75 g of packing per milliliter of column volume. Table 1 gives an estimate of how much sample can be injected on
+columns of various dimensions before significant overload occurs.
+Of course, these values need to be taken as guidelines, since for example
+an overload of the mobile phase buffer or the influence of the sample solvent can result in peak distortion at much smaller injections. A special
+injection technique, at-column dilution, can be employed to get around
+early peak distortion due to the sample solvent, sl In this technique, the
+sample is injected onto the column in a solvent stream that is compatible
+with the sample, and this solvent stream is converted just in front of the
+column to the mobile phase composition required to get good retention
+and loadability in the preparative chromatography.
+
+1
+
+TABLE I
+Dimensions
+I.d. (cm)
+
+Proposed Operating Conditions and Load for Various C o l u m n
+
+L (cm)
+
+Flow rate (mL/min)
+
+Load (g)
+
+0.46
+
+5
+
+0.5
+
+0.5-1
+
+0.46
+
+15
+
+2
+
+0.5-1
+
+0.78
+
+5
+
+2
+
+1.5-3
+
+1
+
+5
+
+3
+
+2.5-5
+
+1
+
+10
+
+6
+
+2.5-5
+
+1
+
+15
+
+9
+
+2.5-5
+
+2
+
+5
+
+12
+
+10-20
+
+2
+
+10
+
+25
+
+10-20
+
+2
+
+15
+
+35
+
+10-20
+
+3
+
+5
+
+25
+
+25-45
+
+3
+
+10
+
+55
+
+25-45
+
+3
+
+15
+
+80
+
+25-45
+
+3
+
+HPLC COLUMNS AND PACKINGS
+
+79
+
+Most preparative columns have some special hardware to stabilize
+the packed bed. Common techniques used for this purpose are various
+forms of axial or radial compression. Column stability is improved by
+increasing the packed bed density. Columns of this type have demonstrably a more predictable lifetime than columns without such features.
+B. From Microbore to Nanobore
+
+Columns with diameters of about 4 mm continue to be the most commonly used columns in HPLC. Due to the high linear velocities needed for
+fast analysis, 2.1-mm columns are often used for very rapid applications.
+Recently, 2.1- and l-ram columns have been used for analyses requiring
+a higher pressure, since the heat generated from the pressure can be dissipated better with a smaller column diameter. Smaller volume columns
+also generate a higher detector response for equal sample amounts
+injected, which is of advantage in the analysis of small sample quantities.
+Thus, there are advantages in the use of smaller diameter columns.
+There could be several reasons for the use of columns with a smaller
+internal diameter. Some MS detectors work best at flow rates lower than
+standard HPLC flow rates. Fast separations need to be carried out at a
+high linear velocity. This is best achieved by using a smaller column
+diameter. In this case, the diameter is best chosen to be around 2 mm.
+Solvent consumption in a high-throughput lab can be of concern. Under
+these circumstances, the use of a 3-mm column is often the best solution,
+since the standard HPLC equipment can be used with little modification.
+A modern low-dispersion system with a small gradient delay volume is
+needed for the successful implementation of 3-mm columns.
+Another important reason for the use of smaller diameter columns
+is a limit in the available sample volume. However, as the column
+diameter is reduced, the peak volumes become smaller as well. The
+smaller peak volumes require a smaller detector volume (or better, a
+lower post-column band spreading). If this is not done, the extra-column band spreading can deteriorate the separation. At the same time,
+a smaller detector volume often goes along with a reduced sensitivity of
+the detector. Thus, one needs to carefully think which column volumes
+go along with which detector volumes to not deteriorate the separation
+power of the columns by too much or compromise detector sensitivity
+by too much. Part of this thought process should also be the consideration of a sample enrichment on the column by dissolving the sample
+in a solvent composition that is a weaker eluent than the mobile phase.
+This permits a larger injection volume, and thus a larger sensitivity, i.e.
+better limits of detection and quantitation.
+There is a reasonable rule of thumb (for isocratic chromatography)
+that helps in the choice of the right column for the right detector or vice
+versa: the standard deviation of the system band spreading should not
+
+80
+
+U.D. NEUE et al.
+
+exceed 1% of the retention volume of the first peak of interest in the
+chromatogram. For a 15cm 3< 4.6mm column with 10,000 plates, this
+means that the system band spreading should not exceed 16 laL if the
+unretained peak is important. Conversely, if only retained peaks are
+important, a 3-mm column with the same performance can be run on the
+same system. For a column with an internal diameter of 100 ~tm, a system band spreading not exceeding 25 nL is desirable. However, these are
+rough guidelines that should be checked against the performance of the
+actual column/detector combination.
+
+V. SUMMARY
+In this chapter, we have described HPLC columns and packings. The
+first part deals with the chemistry of the packings, covering both the surface chemistry as well as the solid support matrix. This is followed by a
+discussion of the physical properties of the columns, i.e. column dimensions and particle sizes. Finally, a section has been devoted to unusual column dimensions. In all cases, special attention has been paid to items that
+we feel are important for HPLC users in the pharmaceutical industry.
+
+REFERENCES
+1. Kirkland, J. J. (1971). High speed liquid partition chromatography with chemically
+bonded organic stationary phases. J. Chromatogr. Sci. 9, 206-214.
+2. Neue, U. D. (1997). HPLC Columns- Theory, Technology, and Practice, Wiley-VCH,
+New York.
+3. Nawrocki, J. (1997). The silanol group and its role in liquid chromatography.
+J. Chromatogr. A 779, 29-71.
+4. Wyndham, K. D., O'Gara, J. E., Walter, T. H., Glose, K. H., Lawrence, N. L.,
+Alden, B. A., Izzo, G. S., Hudalla, C. J., and Iraneta, P. C. (2003). Characterization
+and evaluation of C18 HPL stationary phases based on ethyl-bridged hybrid
+organic-inorganic particles. Anal. Chem. 75, 6781-6788.
+5. Herrero-Martfnez, J. M., M~ndez, A., Bosch, E., and Ros6s, M. (2004). Characterization
+of the acidity of residual silanol groups in microparticulate and monolithic reversedphase columns. J. Chromatogr. A 1060, 135-145.
+6. Neue, U. D., Phoebe, C. H., Tran, K., Cheng, Y.-F., and Lu, Z. (2001). Dependence of
+reversed-phase retention of ionizable analytes on pH, concentration of organic solvent
+and silanol activity. J. Chromatogr. A 925, 49-67.
+7. Neue, U. D. (2000). Silica gel and its derivatization for liquid chromatography. In
+Encyclopedia of Analytical Chemistry (R. A. Meyers, Ed.), pp. 11450-11472, Wiley,
+Chichester.
+8. O'Gara, J. E., Walsh, D. P., Alden, B. A., Casellini, P., and Walter, T. H. (1999).
+Systematic study of the chromatographic behavior vs. alkyl chain length for HPLC
+phases containing an embedded carbamate group. Anal. Chem. 71, 2992-2997.
+9. Walter, T. H., Iraneta, P., and Capparella, M. (2005). Mechanism of retention loss
+when C8 and C18 HPLC columns are used with highly aqueous mobile phases.
+J. Chromatogr. A 1075, 177-183.
+
+3
+
+HPLC COLUMNS AND PACKINGS
+
+81
+
+10. Engelhardt, H., and Jungheim, M. (1990). Comparison and characterization of
+reversed-phases. Chromatographia 29, 59-68.
+11. Engelhardt, H., L6w, H., and G6tzinger, W. (1991). Chromatographic characterization of silica-based reversed phases. J. Chromatogr. 544, 371-379.
+12. Schmitz, S. J., Zwanziger, H., and Engelhardt, H. (1991). Characterization of reversed
+phases by chemometric methods. J. Chromatogr. 544, 381-391.
+13. Neue, U. D., Alden, B. A., and Walter, T. H. (1999). A universal procedure for the
+assessment of the reproducibility and the classification of silica-based reversed-phase
+packings: 2. Classification of reversed-phase packings. J. Chromatogr. A 849,
+101-116.
+14. Neue, U. D., Tran, K., Iraneta, P. C., and Alden, B. A. (2003). Characterization of
+HPLC packings. J. Sep. Sci. 26, 174-186.
+15. Kimata, K., Iwaguchi, K., Onishi, S., Jinno, K., Eksteen, R., Hosoya, K., Araki, M.,
+and Tanaka, N. (1989). Chromatographic characterization of silica C18 packing materials. Correlation between a preparation method and the retention behaviour of the
+stationary phase. J. Chromatogr. Sci. 27, 721-728.
+16. Euerby, M. R., and Petersson, P. (2003). Chromatographic classification and comparison of commercially available reversed-phase liquid chromatographic columns using
+principal component analysis. J. Chromatogr. A 994, 13-36.
+17. Sander, L. C., and Wise, S. A. (2004). A new standard reference material for column
+evaluation in reversed-phase liquid chromatography. J. Sep. Sci. 26, 283-294.
+18. Wilson, N. S., Nelson, M. D., Dolan, J. W., Snyder, L. R., Wolcott, R. G., and
+Carr, P. W. (2002). Column selectivity in reversed-phase liquid chromatography: I. A
+general quantitative relationship. J. Chromatogr. A 961, 171-193.
+19. Wilson, N. S., Nelson, M. D., Dolan, J. W., Snyder, L. R., and Carr, P. W. (2002).
+Column selectivity in reversed-phase liquid chromatography: II. Effect of a change in
+conditions. J. Chromatogr. A 961, 195-215.
+20. Wilson, N. S., Nelson, M. D., Dolan, J. W., Snyder, L. R., Carr, P. W., and Sander, L. C.
+(2002). Column selectivity in reversed-phase liquid chromatography: III. The physicochemical basis of selectivity. J. Chromatogr. A 961,217-236.
+21. Gilroy, J. J., Dolan, J. W., and Snyder, L. R. (2003). Column selectivity in reversedphase chromatography: IV. Type-B alkyl-silica columns. J. Chromatogr. A 1000,
+757-778.
+22. Gilroy, J. J., Dolan, J. W., Carr, P. W., and Snyder, L. R. (2004). Column selectivity
+in reversed-phase chromatography: V. Higher metal content (type-A) alkyl-silica
+columns. J. Chromatogr. A 1026, 77-89.
+23. Wilson, N. S., Gilroy, J. J., Dolan, J. W., and Snyder, L. R. (2004). Column selectivity
+in reversed-phase chromatography: VI. Columns with embedded or end-capping polar
+groups. J. Chromatogr. A 1026, 91-100.
+24. Marchand, D. H., Croes, K., Dolan, J. W., and Snyder, L. R. (2005). Column selectivity in reversed-phase chromatography: VII. Cyanopropyl columns. J. Chromatogr. A
+1062, 57-64.
+25. Marchand, D. H., Croes, K., Dolan, J. W., Snyder, L. R., Henry, R. A., Kallury, K. M.
+R., Waite, S., and Carr, P. W. (2005). Column selectivity in reversed-phase chromatography: VIII. Phenylalkyl and fluoro-substituted columns. J. Chromatogr. A
+1062, 65-78.
+26. Snyder, L. R., Dolan, J. W., and Carr, P. W. (2004). The hydrophobic-subtraction
+model of reversed-phase column selectivity. J. Chromatogr. A 1060, 77-116.
+27. Croes, K., Steffens, A., Marchand, D. H., and Snyder, L. R. (2005). Relevance of ~- 7~
+and dipole-dipole interactions for retention on cyano and phenyl columns in reversedphase liquid chromatography. J. Chromatogr. A 1098, 123-130.
+28. Visky, D. (2007). Column characterization and selection. In HPLC Method
+Development for Pharmaceuticals (S. Ahuja, and H. Rasmussen, Eds), Vol. 8,
+pp. 85-109, Elsevier, Amsterdam.
+
+~-
+
+U.D. NEUE et al.
+
+29. Neue, U. D., Grumbach, E. S., Mazzeo, J. R., Tran, K., and Wagrowski-Diehl, D. M.
+(2003). Method development in reversed-phase chromatography. In Handbook of
+Analytical Separations (I. D. Wilson, Ed.), Vol. 4, pp. 185-214, Elsevier, Amsterdam.
+30. Weng, N. (2003). Bioanalytical liquid chromatography tandem mass spectrometry
+methods on underivatized silica columns with aqueous/organic mobile phases.
+J. Chromatogr. B 796, 209-224.
+31. Grumbach, E. S., Wagrowski-Diehl, D. M., Mazzeo, J. R., Alden, B., and Iraneta, P. C.
+(2004). Hydrophilic interaction chromatography using silica columns for the retention
+of polar analytes and enhanced ESI-MS sensitivity. LC-GC 22(10), 1010-1023.
+32. Rabel, F. M., Caputo, A. G., and Butts, E. T. (1976). Separation of carbohydrates on
+a new polar bonded phase material. J. Chromatogr. 126, 731-740.
+33. Neue, U. D., Mallet, C. R., Lu, Z., Cheng, Y.-F., and Mazzeo, J. R. (2003). Techniques
+for sample preparation using solid-phase extraction. In Handbook of Analytical
+Separations (I. D. Wilson, Ed.), Vol. 4, pp. 73-90, Elsevier, Amsterdam.
+34. Tanaka, N., Kobayashi, H., Nakanishi, K., Minakuchi, H., and Ishizuka, N. (2001).
+Monolithic LC columns. Anal. Chem. 73,420A-429A.
+35. Cabrera, K., Lubda, D., Eggenweiler, H.-M., Minakuchi, H., and Nakanishi, K.
+(2000). A new monolithic-type HPLC column for fast separations. J. High Resolut.
+Chromatogr. 23, 93-99.
+36. Svec, F., and Fr&het, J. M. J. (1999). Molded rigid monolithic porous polymers: An inexpensive, efficient, and versatile alternative to porous beads for the design of materials with
+high flow characteristics for numerous applications. Ind. Eng. Chem. Res. 38, 34-48.
+37. Kele, M., and Guiochon, G. (2002). Repeatability and reproducibility of retention data
+and band profiles on six batches of monolithic LC columns. J. Chromatogr. A 960,
+19-49.
+38. Walcher, W., Toll, H., Ingendoh, A., and Huber, C. G. (2004). Operational variables
+in high-performance liquid chromatography-electrospray ionization mass spectrometry
+of peptides and proteins using poly(styrene-divinylbenzene) monoliths. J. Chromatogr.
+A 1053, 107-117.
+39. Neue, U. D., Serowik, E., Iraneta, P., Alden, B. A., and Walter, T. H. (1999). A universal procedure for the assessment of the reproducibility and the classification of
+silica-based reversed-phase packings: 1. Assessment of the reproducibility of reversedphase packings. J. Chromatogr. A 849, 87-100.
+40. Martin, M., Eon, C., and Guiochon, G. (1974). Study of the pertinency of pressure in
+liquid chromatography: I. Theoretical analysis. J. Chromatogr. 99, 357-376.
+41. Martin, M., Eon, C., and Guiochon, G. (1975). Study of the pertinency of pressure
+in liquid chromatography: II. Problems in equipment design. J. Chromatogr. 108,
+229-241.
+42. Martin, M., Eon, C., and Guiochon, G. (1975). Study of the pertinency of pressure in
+liquid chromatography: III. A practical method for choosing the experimental conditions in liquid chromatography. J. Chromatogr. 110, 213-232.
+43. Neue, U. D., Alden, B. A., Iraneta, P. C., M~ndez, A., Grumbach, E. S., Tran, K., and
+Diehl, D. M. (2005). HPLC columns for pharmaceutical analysis. In Handbook of
+Pharmaceutical Analysis by HPLC (M. Dong, and S. Ahuja, Eds), pp. 77-122,
+Academic Press, Elsevier, Amsterdam.
+44. Dolan, J. W., Snyder, L. R., Djordjevic, N. M., Hill, D. W., and Waeghe, T. J. (1999).
+Reversed-phase liquid chromatographic separation of complex samples by optimizing
+temperature and gradient time. I. Peak capacity limitations. J. Chromatogr. A 857, 1-20.
+45. Cheng, Y.-F., Lu, Z., and Neue, U. D. (2001). Ultra-fast LC and LC/MS/MS analysis.
+Rapid Commun. Mass Spectrom. 15, 141-151.
+46. Tiller, P. R., Romanyshyn, L. A., and Neue, U. D. (2003). Fast LC/MS in the analysis
+of small molecules. Anal. Bioanal. Chem. 377, 788-802.
+
+3
+
+HPLC COLUMNS AND PACKINGS
+
+8~
+
+47. MacNair, J. E., Lewis, K. C., and Jorgenson, J. W. (1997). Ultra-high pressure
+reversed-phase liquid chromatography in packed capillary columns. Anal. Chem. 69,
+983-989.
+48. Tolley, L., Jorgenson, J. W., and Moseley, M. A. (2001). Very high pressure gradient
+LC/MS/MS. Anal. Chem. 73, 2985-2991.
+49. Mazzeo, J. R., Neue, U. D., Kele, M., and Plumb, R. S. (2005). Advancing LC performance with smaller particles and higher pressures. Anal. Chem. 77(23), 460A-467A.
+50. Wilson, I. D., Plumb, R., Granger, J., Major, H., Williams, R., and Letz, E. M. (2005).
+HPLC-MS-based methods for the study of metabonomics. J. Chromatogr. B 817,
+67-76.
+51. Neue, U. D., Mazza, C. B., Cavanaugh, J. Y., Lu, Z., and Wheat, T. E. (2003). At-column
+dilution for improved loading in preparative chromatography. Chromatographia Suppl.
+57, S-121-S-127.
+
+

@@ -1,0 +1,356 @@
+Clinical Chemistry 49:7
+1041–1044 (2003)
+
+Minireview
+
+Thomas M. Annesley
+
+Background: Mass spectrometry (MS) is being introduced into a large number of clinical laboratories. It
+provides specificity because of its ability to monitor
+selected mass ions, sensitivity because of the enhanced
+signal-to-noise ratio, and speed because it can help
+avoid the need for intensive sample cleanup and long
+analysis times. However, MS is not without problems
+related to interference, especially through ion suppression effects. Ion suppression results from the presence
+of less volatile compounds that can change the efficiency of droplet formation or droplet evaporation,
+which in turn affects the amount of charged ion in the
+gas phase that ultimately reaches the detector.
+Content: This review discusses materials shown to
+cause ion suppression, including salts, ion-pairing
+agents, endogenous compounds, drugs, metabolites,
+and proteins. Experimental protocols for examining ion
+suppression, which should include, at a minimum,
+signal recovery studies using specimen extracts with
+added analyte, are also discussed, and a more comprehensive approach is presented that uses postcolumn
+infusion of the analyte to evaluate protracted ionization
+effects. Finally, this review presents options for minimizing or correcting ion suppression, which include
+enhanced specimen cleanup, chromatographic changes,
+reagent modifications, and effective internal standardization.
+Summary: Whenever mass spectrometric assays are
+developed, ion suppression studies should be performed using expected physiologic concentrations of
+the analyte under investigation.
+© 2003 American Association for Clinical Chemistry
+
+Mass spectrometry (MS)1 is a powerful qualitative and
+quantitative analytical technique that has been introduced
+into many clinical and research laboratories during the
+last 5 years. The cost of MS analyzers has dropped to a
+
+Department of Pathology, University of Michigan Medical Center, Ann
+Arbor, MI 48109-0054.
+Address for correspondence: University Hospital, Room 2G332, 1500 East
+Medical Center Dr., Ann Arbor, MI 48109-0054.
+Received February 13, 2003; accepted April 17, 2003.
+
+range that is affordable for a majority of laboratories.
+Compared with a decade ago, instruments are more
+robust, computer-interfaced, user-friendly, and easier to
+maintain. There is a greater awareness by manufacturers
+of the laboratory applications of MS in the clinical laboratory, so that technical support and assay development
+are high priorities with these companies. In the clinical
+laboratory, mass spectrometers are used to measure a
+wide range of clinically relevant analytes. When applied
+to biological samples, the power of MS lies in its selectivity toward the identification and quantification of compounds. The combination of gas chromatography or
+HPLC with MS yields a particularly powerful tool. This is
+especially so for HPLC-MS or HPLC-tandem MS, which is
+the reason that this combination is being used by many
+clinical laboratories.
+For many years HPLC separations have been monitored through ultraviolet (UV), fluorescence, or electrochemical detection. In reversed-phase HPLC-UV chromatography, more polar compounds are poorly retained on
+the column and elute at or near the initial void. This is
+observed as a peak (or peaks) that will interfere with the
+detection and quantification of the compound of interest.
+For this reason, sample cleanup is required, and it is the
+reason that chromatographic runs may be 10 min long. A
+trade-off often exists, where more extensive sample
+cleanup may allow shorter chromatographic runs. In
+contrast, a mass detector can be configured to isolate and
+quantify specific ions; therefore, sample cleanup and
+chromatographic separation can theoretically be reduced
+compared with other, less selective detection modes.
+Interferences that are apparent with UV detection are not
+observed with MS when analyte specific masses or product ions are monitored.
+Because of the specificity achieved with MS detectors,
+misconceptions have evolved that (a) chromatographic
+separation can be minimized or even eliminated, (b) the
+analytical column is needed only as a mechanism to load
+
+1
+Nonstandard abbreviations: MS, mass spectrometry; UV, ultraviolet; ESI,
+electrospray ionization; TFA, trifluoroacetic acid; MALDI, matrix-assisted laser
+desorption/ionization; and SELDI, surface-enhanced laser desorption/ionization.
+
+1041
+
+Downloaded from https://academic.oup.com/clinchem/article-abstract/49/7/1041/5642000 by Concordia University user on 27 February 2020
+
+Ion Suppression in Mass Spectrometry
+
+1042
+
+Annesley: Ion Suppression in MS
+
+Fig. 1. Signal response comparisons (m/z 195) for caffeine added to
+serum extracts prepared by solid-phase extraction, solvent extraction,
+and protein precipitation.
+Using an HPLC pump at a flow of 0.1 mL/min, I injected 5-␮L volumes into PEEK
+tubing connected directly to the mass analyzer. (A, C, and E), 1 mg/L caffeine
+solution. (B), solid-phase extract with 1 mg/L caffeine added. (D), methylene
+chloride extract with 1 mg/L caffeine added. (F), serum protein precipitation
+extract with 1 mg/L caffeine added. Conditions: mobile phase, 500 mL/L
+methanol and 10 mL/L formic acid in water; instrument, Waters Micromass LCT;
+capillary, 3600 V; sample cone, 40 V; RF lens, 180 V; extraction cone, 2 V;
+desolvation temperature, 200 °C; source temperature, 100 °C; scan duration,
+1.0 s; ionization mode, ES⫹.
+
+nitrile. The three dried extracts were reconstituted with
+0.5 mL of a caffeine solution (1 mg/L in 100 mL/L
+methanol plus 10 mL/L formic acid), vortex-mixed, and
+analyzed by injection (no analytical column) into the mass
+analyzer. As can be clearly seen in Fig. 1, all three extracts
+contained endogenous components that produced ion
+suppression ⬎90% when compared with a caffeine reference solution of identical concentration.
+The second protocol, which can be viewed as part of
+interference checks for an assay, involves injection of
+drugs or metabolites that may also be present in the
+specimen. Just because a coeluting drug does not produce
+similar mass fragments does not mean that this compound is incapable of ion suppression.
+The third protocol involves postcolumn continuous
+infusion of compound into the MS detector (3, 5, 6 ). The
+instrumental setup includes a syringe pump connected
+via a “tee” to the column effluent (Fig. 2). Because the
+compound being tested is introduced into the mass detector at a constant rate, a constant ESI response should
+ideally be observed (Fig. 3A) if no ionization interferences
+occur when an extract from a biological specimen, such as
+serum, is injected into the HPLC portion of the instrument. In actuality it is common to see suppression of the
+signal at the time point that corresponds to the void
+volume of the column. The degree of ion suppression and
+the recovery time to full response can vary from compound to compound (3 ) and from sample to sample, and
+can also be dependent on the sample preparation method
+
+Downloaded from https://academic.oup.com/clinchem/article-abstract/49/7/1041/5642000 by Concordia University user on 27 February 2020
+
+sample on the system, (c) specimen cleanup can be
+minimized or eliminated, and (d) the use of HPLC-MS or
+HPLC-tandem MS provides absolute accuracy and specificity. However, mass detection is not completely without
+problems that can compromise or invalidate results.
+One important factor that can affect the quantitative
+performance of a mass detector is ion suppression. Sample matrix, coeluting compounds, and cross-talk can contribute to this effect. Although ion suppression can have
+potential deleterious effects on both electrospray ionization (ESI) and atmospheric pressure chemical ionization
+(APCI), evidence indicates that the electrospray interface
+is more likely to be impacted (1 ). Ionization effects can
+theoretically occur in either the solution phase or the gas
+phase. Recent experiments involving ESI of biological
+extracts have shown that the main cause of ion suppression is a change in the spray droplet solution properties
+caused by the presence of nonvolatile or less volatile
+solutes (1 ). These nonvolatile materials (e.g., salts, ionpairing agents, endogenous compounds, drugs/metabolites) change the efficiency of droplet formation or droplet
+evaporation, which in turn affects the amount of charged
+ion in the gas phase that ultimately reaches the detector.
+The mass and charge of individual analytes are also
+factors in making a compound a candidate for ion suppression or in making one compound a source of ion
+suppression for another. It has been shown that molecules
+with higher mass will suppress the signal of smaller
+molecules (2 ) and that more polar analytes are more
+susceptible to suppression (3 ).
+The presence of ion suppression or other deleterious
+effects can be evaluated via several experimental protocols. The first involves comparison of (a) the instrument
+response for calibrators (including any internal standards)
+injected directly in mobile phase, (b) the same amount of
+compound added to preextracted samples, and (c) the
+same amount of compound added to specimen matrix
+before extraction (4 ). The data for the calibrator in mobile
+phase provide a relative 100% response value. The data
+for the same amount of compound added to preextracted
+samples show the effect of sample matrix on MS response
+(ion suppression), whereas the response data for extracted
+samples containing the analyte can highlight whether any
+loss of signal is attributable to the extraction process or
+ion suppression. It is important to perform the latter two
+experiments for several specimens to verify that subtle
+matrix differences do not contribute to a change in MS
+response. It is also important to evaluate ion suppression
+that may result from other specimen types (e.g., EDTA or
+heparin, uremia, lipemia). Fig. 1 shows an actual example
+of ion suppression attributable to endogenous matrix
+components. In this experiment, 0.1-mL aliquots of a
+deidentified donor serum were subjected to three different extraction techniques: solid-phase extraction using a
+Varian 60-mg Abselut column (water wash, methanol
+elution), solvent extraction with 0.8 mL of methylene
+chloride, and protein precipitation with 0.5 mL of aceto-
+
+Clinical Chemistry 49, No. 7, 2003
+
+Mobile phase or specimen extracts are injected into the HPLC system. The
+analyte being evaluated is continuously infused postcolumn and is mixed with
+the column effluent through a tee before entering the electrospray (ES) interface.
+
+(Fig. 3, B and C). Because endogenous compounds from
+the specimen matrix can continue to elute at any time
+during the chromatographic run, ion suppression is not
+limited to the column void. Ion suppression may not be
+evident during the initial HPLC-MS analysis but may be
+present during subsequent injections (Fig. 3C).
+The observed degree of ion suppression can also be
+dependent on the concentration of the analyte being
+monitored, which relates to the matrix/analyte ratio. For
+example, when analyzing clenbuterol in urine, van Hout
+et al. (7 ) reported that the percentage of ion suppression
+for different concentrations of drug using a C18 extraction
+cartridge ranged from 37% at 93 ␮g/L to 69% at 45 ␮g/L.
+Two important points can be taken from these types of
+data: (a) they highlight the benefits of decreasing the
+matrix/analyte ratio through more extensive sample
+cleanup or through better chromatographic separation;
+and (b) they show the importance of performing ion
+suppression validations, such as those outlined in the
+
+Fig. 3. Infusion chromatograms for hypothetical analyte.
+(A), mobile phase injection; (B), serum liquid-liquid extract injection; (C), serum
+protein precipitation extract injection. These profiles illustrate that ion suppression can be ⬎90%, that a recovery time may exist, and that suppression is not
+limited to the solvent-front region. For a comprehensive presentation of these
+types of effects, see Refs. (3, 5, 6 ).
+
+three protocols above, using concentrations of analyte that
+reflect those that will be encountered under real conditions.
+In addition to the effects of sample matrix components,
+there are other potential sources of ion suppression to be
+considered. One is the effect that chromatographic ionpairing agents may have on signal intensity. For example,
+trifluoroacetic acid (TFA) has been used in HPLC-UV
+analyses because it improves peak shape and retention
+times. Unfortunately, for MS analyses TFA also causes
+signal suppression and must be dealt with if this acid is
+used in the mobile phase. Being a component of the
+mobile phase, this agent will continuously be introduced
+into the ESI interface, so that signal suppression may be
+observed throughout the entire chromatographic run.
+Fortunately there are several options that can be used
+to minimize or correct for ion suppression during
+HPLC-MS analyses. For ion-pairing, other, weaker acids
+such as acetic, formic, or hexafluorobutyric acid may be
+successfully substituted for TFA in HPLC-MS analyses. If
+TFA must be used as an ion-pairing agent to achieve
+acceptable chromatography and peak shape, it may be
+possible to decrease the TFA concentration and still obtain
+adequate separation. The use of surface tension-lowering
+modifiers in the ESI source has also been reported to be
+successful when TFA is used as a mobile phase modifier
+(8 ). The postcolumn addition of acids and solvent carriers
+to displace TFA from compounds and aid ionization has
+also been used successfully. This is a process termed the
+“TFA Fix” (9 ). Yamaguchi et al. (10 ) reported the use of
+2-(2-methoxyethoxy)ethanol as a signal enhancer to eliminate the ion-suppressive effects of acetate anions; this
+agent produced an ⬃100-fold enhancement of the signal
+for the model drug ibuprofen.
+Another way to counter ion suppression is to modify
+the chromatographic conditions so that the compound(s)
+of interest elute(s) in a region where ion suppression is
+not observed. This generally involves increasing the chromatography time, but not always so (11 ). Because the
+majority of HPLC assays include an internal standard
+(stable isotope or structural analog), another approach is
+to modify the chromatography so that the compound of
+interest and the internal standard coelute (12 ). The ion
+suppression for both compounds should become equal if
+the peaks chromatographically coincide, thus “correcting” for the degree of suppression. If a stable-isotope
+internal standard is available, the ion suppression would
+be identical for the analyte and internal standard. It
+should be mentioned, however, that the use of an internal
+standard (even a stable isotope) might not fully solve
+accuracy or precision problems with the assay if ion
+suppression exists, as demonstrated in Figs. 1 and 3.
+Recall that part of the value of MS lies in the high
+signal-to-noise ratio achievable with this technique. If ion
+suppression significantly reduces the signal of the analyte
+or internal standard, the signal-to-noise may be compromised to a point where accuracy or precision becomes
+
+Downloaded from https://academic.oup.com/clinchem/article-abstract/49/7/1041/5642000 by Concordia University user on 27 February 2020
+
+Fig. 2. Postcolumn infusion system.
+
+1043
+
+1044
+
+Annesley: Ion Suppression in MS
+
+References
+1. King R, Bonfiglio R, Fernandez-Metzler C, Miller-Stein C, Olah T.
+Mechanistic investigation of ionization suppression in electrospray ionization. J Am Soc Mass Spectrom 2000;11:942–50.
+2. Sterner JL, Johnston MV, Nicol GR Ridge DP. Signal suppression in
+electrospray ionization fourier transform mass spectrometry of
+multi-component samples. J Mass Spectrom 2000;35:385–91.
+3. Bonfiglio R, King RC, Olah TV, Merkle K. The effects of sample
+preparation methods on the variability of the electrospray ionization response for model drug compounds. Rapid Commun Mass
+Spectrom 1999;13:1175– 85.
+4. Matuszewski BK, Constanzer ML, Chavez-Eng CM. Matrix effect in
+quantitative LC/MS/MS analyses of biological fluids: a method for
+determination of finasteride in human plasma at picogram per
+milliliter concentrations. Anal Chem 1998;70:882–9.
+5. Muller C, Schafer P, Stortzel M, Vogt S, Weinmann W. Ion
+suppression effects in liquid chromatography-electrospray-ionisation transport-region collision induced dissociation mass spectrometry with different serum extraction methods for systematic
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+toxicological analysis with mass spectral libraries. J Chromatogr B
+2002;773:47–52.
+Hsieh Y, Chintala M, Mei H, Agans J, Brisson J-M, Ng K, et al.
+Quantitative screening and matrix effect studies of drug discovery
+compounds in monkey plasma using fast-gradient liquid chromatography/tandem mass spectrometry. Rapid Commun Mass Spectrom 2001;15:2481–7.
+van Hout MWJ, Hoffland CM, Niederlander HAG, de Jong GJ.
+On-line coupling of solid-phase extraction with mass spectrometry
+for the analysis of biological samples. II. Determination of clenbuterol in urine using multiple-stage mass spectrometry in an
+ion-trap spectrometer. Rapid Commun Mass Spectrom 2000;14:
+2103–11.
+Eshraghi J, Chowdhury SK. Factors affecting the electrospray
+ionization of effluents containing trifluoroacetic acid for highperformance liquid chromatography/mass spectrometry. Anal
+Chem 1993;65:3528 –33.
+Apffel A, Fischer S, Goldberg G, Goodley PC, Kuhlmann FE.
+Enhanced sensitivity for peptide mapping with electrospray liquid
+chromatography-mass spectrometry in the presence of signal
+suppression due to trifluoroacetic acid-containing mobile phases.
+J Chromatogr A 1995;712:177–90.
+Yamaguchi J, Ohmichi M, Jingu S, Ogawa N, Higuchi S. Utility of
+postcolumn addition of 2-(2-methoxyethoxy)ethanol, a signal-enhancing modifier, for metabolite screening with liquid chromatography and negative ion electrospray ionization mass spectrometry.
+Anal Chem 1999;71:5386 –90.
+Beato BD, Gray DD, Wong P, Hampsch J, Peters S. Ramifications
+of pump-switching step gradients for bioanalytical LC/MS/MS
+assays. Curr Sep 2000;19:55– 8.
+Kitamura R, Matsuoka K, Matsushima E, Kawaguchi Y. Improvement in precision of the liquid chromatographic-electrospray ionization tandem mass spectrometric analysis of 3⬘-C-ethynylcytidine in rat plasma. J Chromatogr B 2001;754:113–9.
+Krause E, Wenschuh H, Jungblut PR. The dominance of argininecontaining peptides in MALDI-derived tryptic mass fingerprints of
+proteins. Anal Chem 1999;71:4160 –5.
+Gharahdaghi F, Kirchner M, Fernandez J, Mische SM. Peptidemass profiles of polyvinylidene difluoride-bound proteins by matrix-assisted laser desorption/ionization time-of-flight mass spectrometry in the presence of nonionic detergents. Anal Biochem
+1996;233:94 –9.
+
+Downloaded from https://academic.oup.com/clinchem/article-abstract/49/7/1041/5642000 by Concordia University user on 27 February 2020
+
+negatively affected. It is for this reason that ion suppression should be evaluated even if an internal standard is
+included in the assay.
+Lastly, because other MS techniques such as Fourier
+transform (FTMS), matrix-assisted laser desorption/ionization (MALDI), and surface-enhanced laser desorption/
+ionization (SELDI) are being more widely used, it is worth
+mentioning that ion suppression is not limited to just
+HPLC-MS or ESI interfaces, although the discussion in
+this review has focused on ESI. Arginine-containing peptides have been reported to dominate the peptide pattern
+for protein digests (13 ), the extent of which depends on
+the matrix used. The presence of ionic detergents such as
+Triton X-100 and Tween 20 has also been shown to cause
+signal suppression in MALDI experiments, which can be
+countered by modifications to the matrix (14 ). Because
+SELDI also uses the same matrices and ionization process,
+this technique would be similarly affected.
+
+

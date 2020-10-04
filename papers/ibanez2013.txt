@@ -1,0 +1,813 @@
+Mass spectrometry-based metabolomics of single
+yeast cells
+Alfredo J. Ibáñeza,1, Stephan R. Fagerera,1, Anna Mareike Schmidtb, Pawel L. Urbanc, Konstantins Jeﬁmovsd,
+Philipp Geigera, Reinhard Dechante, Matthias Heinemannf, and Renato Zenobia,2
+a
+Department of Chemistry and Applied Biosciences, bInstitute of Molecular Systems Biology, and eInstitute of Biochemistry, Eidgenössiche Technische
+Hochschule Zurich, CH-8093 Zurich, Switzerland; cDepartment of Applied Chemistry, National Chiao Tung University, Hsinchu 300, Taiwan; dLaboratory
+for Electronics/Metrology/Reliability, Swiss Federal Laboratories for Material Science and Technology (EMPA), CH-8600 Dübendorf, Switzerland;
+and fGroningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, 9747 AG, Groningen, The Netherlands
+
+Edited by Jerrold Meinwald, Cornell University, Ithaca, NY, and approved April 15, 2013 (received for review June 8, 2012)
+
+Single-cell level measurements are necessary to characterize the
+intrinsic biological variability in a population of cells. In this study,
+we demonstrate that, with the microarrays for mass spectrometry
+platform, we are able to observe this variability. We monitor
+environmentally (2-deoxy-D-glucose) and genetically (ΔPFK2) perturbed Saccharomyces cerevisiae cells at the single-cell, few-cell,
+and population levels. Correlation plots between metabolites from
+the glycolytic pathway, as well as with the observed ATP/ADP
+ratio as a measure of cellular energy charge, give biological insight
+that is not accessible from population-level metabolomic data.
+single-cell measurements
+
+| MALDI mass spectrometry | baker’s yeast
+
+E
+
+ven genetically identical cells present in the same microenvironment can express different phenotypes, for a number of
+reasons: cell-to-cell heterogeneity can stem from differences in
+the cell age and differences in the cell cycle stage, and stochastic
+effects together with feedback mechanisms can lead to distinctively different phenotypes, too (1–6). As population-level measurement techniques inherently average out such cell-to-cell
+differences, biochemical mechanisms underlying a studied system
+cannot be deduced from such measurements. Thus, to detect and
+exploit this heterogeneity, new analytical platforms with a sensitivity at the single-cell level and the ability to perform quantitative
+analyses must be developed and validated.
+Motivated by advances of mass spectrometry (MS) in metabolomics, the analytical chemistry community has stepped up its
+efforts toward realizing MS-based single-cell metabolomics (1,
+2). A number of analytical approaches were developed with
+detection limits low enough for single-cell metabolite analyses
+[e.g., nanostructured surfaces (7, 8), postionization techniques
+(9, 10), modiﬁed laser optics (11), the use of microsampling tools
+(12, 13), microarrays for MS measurements (14, 15), etc.]. Until
+now, however, most MS studies targeting single-cell metabolite
+analysis have only shown the analytical capabilities, but have not
+demonstrated that true biological information can be retrieved
+from studying the metabolism of single cells.
+Here, using the unicellular eukaryotic model organism Saccharomyces cerevisiae, we present an analytical validation of
+a single-cell metabolite analysis using the microarrays for mass
+spectrometry (MAMS) platform. This validation concerns both
+the analytical methodology and the biological information, by
+monitoring expected cellular responses upon an environmental
+and a genetic perturbation. Furthermore, we present examples of
+biological insight that are only accessible with a platform such as
+MAMS. Speciﬁcally, we unravel metabolite–metabolite correlations, and visualize coexisting subpopulations in an isogenic cell
+culture. This technology can now be used to reveal metabolic
+differences in cells of isogenic cell populations, such as differences caused by cell cycles stages, cell ages, or stochastically
+induced phenotypic differences.
+
+8790–8794 | PNAS | May 28, 2013 | vol. 110 | no. 22
+
+Results and Discussion
+MAMS represent a type of substrate for matrix-assisted laser
+desorption/ionization–mass spectrometry (MALDI-MS) recently
+introduced by our group (14, 15). MAMS uses a combination of
+hydrophilic reservoirs surrounded by an omniphobic surface (SI
+Text) for massively parallel, automated sample spotting.
+Brieﬂy, cells are taken from a liquid culture, quenched using
+cold solvents (to stop any metabolic activity), after which the
+supernatant is removed and cells are washed to remove salts.
+The cell suspension is then spread onto the MAMS substrate
+(Fig. 1). Applying the cell suspension onto the MAMS surface
+will result in an automated aliquoting of the cell suspension into
+the hydrophilic reservoirs, without the need for a microspotter.
+Dependent on the cell concentration used, the number of cells
+on each hydrophilic reservoir can be between zero and hundreds.
+The transparency of the MAMS substrate allows for microscopic
+analysis to determine the number of cells in each reservoir while
+the cellular metabolism remains quenched because the entire
+MAMS chip is kept cold in a cryochamber.
+The MALDI matrix used (9-aminoacridine) and the possibility
+of cocrystallizing cells with the matrix within the deﬁned reservoirs allow us to boost the sensitivity beyond that of traditional
+MALDI mass spectrometry (SI Text). Using the MAMS platform, we can reach the level of 100 amol to 10 fmol—a range on
+the order of the metabolite levels in a single yeast cell (14, 15).
+MAMS Is Capable to Detect Biological Information from Single/Few
+Cells. In principle, the MAMS platform is ready to be used to
+
+resolve cell-to-cell metabolic heterogeneity. However, because
+MS-based methods are destructive, we cannot make multiple
+measurements of the same sample to assess the measurement
+uncertainty. However, our samples (i.e., the S. cerevisiae cells)
+have an intrinsic biological variability. Thus, replicate measurements on different cells will inherently result in variable metabolite levels, although it is expected that the overall metabolism
+would present certain similarities. Therefore, for validating our
+single-cell metabolomics platform, we need to show that the signals
+acquired represent the biological variability and not just measurement noise (i.e., instrumental variability).
+
+Author contributions: A.J.I., M.H., and R.Z. designed research; A.J.I. and S.R.F. performed
+research; A.J.I., S.R.F., A.M.S., P.L.U., K.J., P.G., and R.D. contributed new reagents/analytic
+tools; A.J.I., S.R.F., and M.H. analyzed data; and A.J.I., S.R.F., M.H., and R.Z. wrote the
+paper.
+Conﬂict of interest statement: A.I., S.R.F., P.L.U., K.J., and R.Z. are developing a commercial
+product based on MAMS technology.
+This article is a PNAS Direct Submission.
+Database deposition: The MS data and metadata are available at MetaboLights, www.
+ebi.ac.uk/metabolights (study identiﬁer: MTBLS29).
+1
+
+A.J.I. and S.R.F. contributed equally to this work.
+
+2
+
+To whom correspondence should be addressed. E-mail: Zenobi@org.chem.ethz.ch.
+
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1209302110/-/DCSupplemental.
+
+www.pnas.org/cgi/doi/10.1073/pnas.1209302110
+
+Counts (a.u.)
+
+N2(l)
+
+Freeze
+drying
+m/z
+
+9-AA
+Fig. 1. Graphical summary of the work ﬂow used to prepare the samples
+for single-cell MALDI-MS analysis. Cellular metabolism is quenched by adding cold solvent. After centrifugation and discarding the supernatant, the
+pellet is reconstituted, and the cell suspension is spread onto a cold MAMS
+chip. This generates many uniform, liquid droplets trapped in the hydrophilic reservoirs on the MAMS chip that each contain ensemble of cells. The
+exact number of cells within a reservoir is given by a Poisson distribution and
+depends on the density of the cell suspension. After counting the cells under
+a microscope, a MALDI matrix (9-aminoacridine) is applied with an airbrush,
+and each reservoir on the plate is analyzed with MALDI-MS. Signals of
+metabolites from a reservoir are normalized by a unsaturated matrix background signal and by the number of cells found in the respective reservoir
+(containing between 1 and 15 cells) to reduce artifacts associated with differences in the cell size (biomass) and obtain the equivalent of a single-cell
+signal. See SI Text for details.
+
+To demonstrate that MAMS is indeed able to retrieve biological information from a single or a small ensemble of yeast
+cells positioned in the MAMS reservoirs, we perturbed them
+with 2-deoxy-D-glucose (2DG), a drug that blocks glycolysis (16,
+17). We dynamically monitored the response both with MAMS
+on the single-cell and near–single-cell level, and with traditional
+MALDI-MS on the population level, and compared the response
+of the two measurements. We indeed found that the addition of
+2% (wt/vol) 2DG to the growth medium generates similar trends
+
+Fig. 2. (A) Dynamic population-level measurements
+with a traditional bulk-level MALDI-MS metabolomic
+study and an average of multiple single-cell level
+metabolomic measurements with MAMS after apPopulation level:
+Hexose phosphate Hexose bisphosphate
+plying 2DG. Reference, untreated cells; control, cells
+0.6
+1.6
+2.0
+treated with doubly deionized water; treated, cells
+1.5
+treated with 2DG. The spike of water and 2DG
+1.0
+0.3
+0.8
+occurs at time = 0 min. (B) Metabolite time study for
+0.5
+2DG-treated samples. Here, we present the changes
+0.0
+0.0
+0.0
+observed in time for selected metabolites of the
+Ref. 0
+1
+5 10
+Ref 0 1 5 10
+Ref 0 1 5 10
+glycolytic pathway. Some of the assayed glycolytic
+Time (min.)
+metabolites are isobaric (i.e., they have the same
+molecular weight); thus, they cannot be differenti2DG6P
+PEP
+ated using mass spectrometry alone. For example,
+1.0
+0.14
+2.0
+glucose-6-phosphate (G6P) and fructose-6-phosphate
+1.5
+(F6P) are therefore summarized as hexose phosphate.
+1.0
+0.5
+0.07
+*The relative ion signal intensity for each plot metab0.5
+olite is additionally normalized, in the case of the sin0.0
+0.0
+0
+gle-cell level measurement (alone), by the number of
+Ref. 0
+1
+5 10
+Ref 0 1 5 10
+Ref 0 1 5 10
+cells found in the MAMS reservoir (SI Text). The cell
+Time (min.)
+Time (min.)
+number distributions for the MAMS samples are as
+WT + water (dotted line)
+follows: (i) reference = 62 measurements (1.694 ±
+Population
+WT + 2DG (solid line)
+1.521); (ii) control (t = 1 min) = 77 measurements
+(2.364 ± 1.356); (iii) control (t = 1 min) = 77 measurements (2.364 ± 1.356); (iv) control (t = 5 min) = 38 measurements (1.763 ± 1.651); (v) control (t = 10 min) = 76 measurements (4.500 ± 3.048); (vi) treated (t = 1 min) = 94
+measurements (2.500 ± 1.435); (vii) treated (t = 5 min) = 24 measurements (10.542 ± 2.843); (viii) treated (t = 10 min) = 23 measurements (1.763 ± 1.651). The
+population-level data are as follows (cell number = ±20): (i) reference = 110 measurements; (ii) control (t = 1 min) = 8 measurements; (iii) control (t = 5 min) = 8
+measurements; (iv) control (t = 10 min) = 8 measurements; (v) treated (t = 1 min) = 119 measurements; (vi) treated (t = 5 min) = 132 measurements; (vii) treated
+(t = 10 min) = 132 measurements. For detailed analytical instrumental conditions, see SI Text.
+
+Ibáñez et al.
+
+B
+
+Rel. intensity*
+
+Observed
+ATP/ADP
+ratio
+
+Observed
+ATP/ADP
+ratio
+
+A
+
+PNAS | May 28, 2013 | vol. 110 | no. 22 | 8791
+
+CHEMISTRY
+
+Shock
+frozen
+
+S. cerevesiae
+
+CELL BIOLOGY
+
+Ref.
+2-DG
+H2O
++ Quench +Quench +Quench
+
+in both the population-level as well as in few-cell level analyses
+made using the MAMS platform (Fig. 2). Speciﬁcally, the quantitative change in glycolytic metabolites and the drop in the energy
+charge (represented by the observed ATP/ADP ratio) 1 min after
+the addition of 2DG to the growth medium is consistent with
+earlier ﬁndings on the population level (Fig. 2A) (18, 19). Furthermore, we found that, in both 2DG-treated samples (i.e.,
+MAMS and population-level samples), we can detect 2-deoxyD -glucose-6-phosphate (2DG6P). 2DG6P, the product of the
+uptake and metabolism of 2DG, could not be detected in samples that were not drug treated (Fig. 2B). Together, this is a
+ﬁrst indication that MAMS is actually monitoring biological
+processes.
+Focusing in on the metabolite signals that we retrieved from
+individual MAMS reservoirs (containing between 1 and 15 cells),
+we sought further evidence that the different signals reﬂect the
+biological variability rather than just the technical or analytical
+variability. Before drawing any correlation plots, the metabolite
+signals were normalized by a nonsaturated matrix signal and by
+the number of cells found in the respective reservoir (SI Text);
+then, we plotted the metabolite data retrieved from single reservoirs against each other. We observed a number of correlations
+between different metabolite signals (Fig. 3). Speciﬁcally, we
+found that fructose-1,6-bisphosphate (F16BP) and the observed
+ATP/ADP ratio are correlated for cells treated with water but
+not with 2DG (Fig. 3 A and B). This is expected, because 2DG6P
+inhibits the glycolysis pathway upstream of the phosphofructokinase (Pfk) enzyme, which generates F16BP (16, 17), rendering
+the production of ATP (and thus the observed ATP/ADP ratio)
+independent of the amount of F16BP present in the cell.
+To further validate that our observations are of biological
+origin, we generated a deletion mutant of the gene pfk2, which
+encodes an isoenzyme of Pfk. This mutant has reduced phosphofructokinase activity and is known to partially mimic the effect of 2DG (20). We also found a correlation between the
+observed ATP/ADP ratio and F16BP (Fig. 3C) that resembled
+the wild type treated with 2DG (Fig. 3B) rather than the wildtype control (Fig. 3A). Together, these ﬁndings indicate that
+MAMS is indeed able to retrieve signals from individual and
+
+Wild-type + water
+(time = 1 min.)
+2.50
+2.00
+1.50
+1.00
+y = 0.4525x + 1.0591
+R = 0.240
+
+0.50
+0.00
+0.00
+
+Wild-type + 2DG
+(time = 1 min.)
+
+B
+Observed ATP/ADP
+ratio
+
+Observed ATP/ADP
+ratio
+
+A
+
+0.75
+
+1.50
+
+0.60
+
+0.60
+0.45
+
+0.00
+0.00
+
+0.30
+0.15
+
+Fig. 3. Relationship between the abundance of hexose bisphosphate and observed cellular ATP/ADP ratio.
+The correlation between the abundance of hexose
+bisphosphate [most probable fructose-1,6-bisphosphate (F16BP)] vs. the observed cellular ATP/ADP ratio
+is shown 1 min after applying two different stress
+conditions to the growth media: (A) plus doubly
+deionized water (control); (B) plus 2-deoxy-D-glucose
+(treated) (SI Text). In C, a different perturbation (genetic) is used to simulate part of the effects of 2DG
+on the S. cerevisiae wild-type cells. The metabolite
+abundance is based on the value of the relative signal
+intensity of the metabolite in the MS spectra divided
+by an unsaturated matrix background signal and the
+number of cells in the respective MAMS reservoir (see
+SI Text for more details). Changes in the slope of the
+linear regression (red line) between the ”control” and
+”treated” MAMS samples is due to the glycolytic inhibitor action of 2-deoxy-D-glucose in the yeast cells
+(for more details, see text). The cell number distributions for the MAMS samples are as follows: (i)
+wild type plus water (t = 1 min) = 77 measurements
+(2.364 ± 1.356); (ii) wild type plus 2DG (t = 1 min) = 94
+measurements (2.5 ± 1.435); (iii) ΔPFK2 deletion mutant = 73 measurements (2.836 ± 2.255).
+
+0.30
+
+y = -0.005x + 0.2861
+R = 0.000
+
+0.00
+0.00
+
+0.75 1.50
+
+Hexose bisphosphate
+
+Hexose bisphosphate
+
+(rel. intensity per cell)
+
+(rel. intensity per cell)
+
+PFK2 deletion mutant
+Observed ATP/ADP
+ratio
+
+C
+
+2.00
+
+2.50
+2.00
+
+0.00
+
+1.50
+
+0
+
+0.15
+
+1.00
+y = -0.7191x + 0.8311
+R = 0.022
+
+0.50
+0.00
+0
+
+0.75 1.50
+
+Hexose bisphosphate
+(rel. intensity per cell)
+
+8792 | www.pnas.org/cgi/doi/10.1073/pnas.1209302110
+
+A
+
+WT + 2DG
+
+(Time = 1 min.)
+
+(rel. intensity per cell)
+
+Glyceraldehyde-phosphate
+
+WT + H2O
+
+(Time = 1 min.)
+0.08
+
+0.08
+
+0.04
+
+0.04
+y = 0.1576x + 0.0067
+R = 0.641
+
+0.00
+0
+
+0.4
+
+y = 0.0719x + 0.005
+R = 0.878
+
+0.00
+
+0.8
+
+0
+
+0.4
+
+0.8
+
+Sedoheptulose phosphate
+
+(rel. intensity per cell)
+
+B
+
+Phosphoenlopyruvate
+
+(rel. intensity per cell)
+
+y = 0.0571x + 0.0019
+R = 0.751
+
+0.14
+
+y = 0.0278ln(x) + 0.1224
+R = 0.526
+
+0.14
+
+0.05
+0.07
+0.00
+
+0.00
+0
+
+0.15
+
+0.3
+
+0
+
+0.15
+
+0.3
+
+Pyruvate
+(rel. intensity per cell)
+
+C
+
+Glutamate
+
+MAMS Uncovers Metabolite–Metabolite Correlations. Next, equipped with this conﬁdence, we used MAMS to gain insight into the
+yeast metabolism. Above, we have shown a metabolite–metabolite
+correlation between hexose bisphosphate (most probably F16BP)
+and the observed ATP/ADP ratio (Fig. 3). Such a correlation is
+a consequence of the underlying metabolic and regulatory mechanisms, reﬂecting the system’s properties (21). Previously, metabolite–metabolite correlations have been reported with populationlevel measurements on samples that had quite different origin, i.e.,
+different plant tissues (21–24). Unlike what was done with tissues,
+we exploit the intrinsic biological variability on the single-cell level
+to uncover such metabolite–metabolite correlations.
+Correlations (and in particular positive correlations), however,
+could simply also emerge from variability in cell size, with larger
+cells generating higher metabolite signals. If this would be the
+case, then all metabolite–metabolite correlations would show the
+same proﬁle. That this is not the case becomes obvious when
+comparing metabolite–metabolite correlations obtained after
+different environmental perturbations: although control samples
+and 2DG-treated samples show differences in some correlations,
+others are identical (Fig. 4), indicating that the correlations must
+report on metabolic system properties, because if it were a mere
+cell size effect, the effect of the perturbation would have been
+the same for all pairs.
+One prominent correlation is the one between glyceraldehyde3-phosphate and sedoheptulose-7-phosphate (Fig. 4A). Glyceraldehyde-3-phosphate is produced via the glycolysis or via the
+pentose phosphate pathway (PPP), to which the metabolite
+sedoheptulose-7-phosphate belongs. After blocking the glycolysis-related synthesis of glyceraldehyde-3-phosphate with 2DG,
+the correlation between sedoheptulose-7-phosphate and glyceraldehyde-3-phosphate becomes more obvious (Fig. 4A), indicating that the synthesis of glyceraldehyde-3-phosphate is
+dependent of sedoheptulose-7-phosphate and the PPP. Another
+correlation is found between phosphoenolpyruvate (PEP) and
+pyruvate (PYR) (Fig. 4B)—two intermediates of glycolysis.
+
+Although PYR and PEP have a linear relationship for the control samples, the 2DG-treated samples show that the amount of
+PEP present seems to level off at higher PYR concentrations
+
+(rel. intensity per cell)
+
+small ensemble of cells, and that the data contain valid biological
+information, because averaged correlation plots made from
+random data would not show any signiﬁcant biological trend.
+Thus, this is clearly not a measurement artifact.
+
+0.60
+
+0.60
+
+0.30
+
+0.30
+y = 2.0089x + 0.0172
+R = 0.920
+
+0.00
+0
+
+0.15
+
+y = 2.1646x + 0.0105
+R = 0.905
+
+0.00
+
+0.3
+
+0
+
+0.15
+
+0.3
+
+Aspartate
+(rel. intensity per cell)
+
+Fig. 4. Pairwise metabolite–metabolite correlations can be used to unravel
+slight differences in the metabolic network regulation after the addition of a drug
+(2-deoxyglucose). (A) Glyceraldehyde-3-phosphate is solely produced by the
+pentose phosphate pathway (represented by sedoheptulose-7-phosphate). (B)
+Low glycolytic ﬂuxes in the cell due to the presence of 2DG increase the amount of
+phosphoenolpyruvate, which itself activates the pentose phosphate pathway
+(previously reported in refs. 24 and 25). (C) Glutamate is a key compound in
+cellular metabolism, whose biosynthesis (from its precursor aspartate) is apparently unmodiﬁed by the presence of 2DG in the growth medium. Glutamate can
+thus be used as a control for A and B. The cell number distributions for the MAMS
+samples are as follows: (i) wild type plus water (t = 1 min) = 77 measurements
+(2.364 ± 1.356); (ii) wild type plus 2DG (t = 1 min) = 94 measurements (2.5 ± 1.435).
+
+Ibáñez et al.
+
+Population A Population B
+Histogram (%)
+
+(Low F16BP)
+
+(High F16BP)
+
+50.0
+
+25.0
+
+0.0
+0.01
+
+0.14
+
+0.0
+0.01
+
+0.14
+
+0.0
+0.01
+
+0.14
+
+F16BP rel. signal intensity per single cell
+(WT - Reference)
+
+F16BP rel. signal intensity per single cell
+(WT + 2DG, Time = 1 min.)
+
+50.0
+
+50.0
+
+25.0
+
+0.0
+0.01
+
+0.14
+
+100.0
+
+50.0
+
+0.0
+0.01
+
+50.0
+25.0
+0.0
+0.00
+
+0.02
+
+0.14
+
+F16BP rel. signal intensity per single cell
+( PFK2 deletion mutant)
+
+25.0
+
+0.0
+0.01
+
+50.0
+
+25.0
+
+0.0
+0.01
+
+0.14
+
+F16BP rel. signal intensity per single cell
+(WT + 2DG, Time = 10 min.)
+
+(Fig. 4B). Finally, we found a strong correlation between glutamic
+acid and aspartic acid (Fig. 4C). This correlation can be considered
+as an analytical/biological control for the previous presented correlations, because neither the addition of 2DG nor water affected
+the correlation between these metabolites during the time frame
+covered in our experiments (10 min), because these two metabolites are too far away from the entry point of the added 2DG.
+MAMS Uncovers Different Phenotypes. Next, we focused on the
+glycolytic metabolite F16BP. The MAMS platform revealed evidence for the presence of two different phenotypes present in
+the cell population: one phenotype characterized by low levels of
+F16BP and one with high levels (Fig. 5). Independent replicate
+experiments demonstrated that this bimodal distribution is not
+a measurement artifact (Fig. 5, left panels), but rather a robust
+feature of heterogeneous single-cell behavior that is now uncovered with the MAMS platform.
+Measurements on the population level revealed that F16BP
+levels correlate with the magnitude of glycolytic ﬂux (25). Using
+this information, we speculated that the two populations found
+here are characterized by glycolytic ﬂuxes of two distinct magnitudes. Indeed, when we followed the F16BP levels upon the
+addition of 2DG—a treatment blocking glycolysis upstream of
+Ibáñez et al.
+
+0.14
+
+F16BP rel. signal intensity per single cell
+(WT + 2DG, Time = 5 min.)
+
+Histogram (%)
+
+F16BP rel. signal intensity per single cell
+(WT - Reference)
+
+Histogram (%)
+
+25.0
+
+Fig. 5. The F16BP signal intensity frequency distributions using an equal number of bins (between
+0.0083 and 0.01439) for S. cerevisiae cells detected
+using the MAMS platform at the ”single-cell” level
+under different environmental conditions (reference, treated samples with 2DG, and the ΔPFK2
+deletion mutant). The histogram of the latter is
+blown as an Inset (using the same number of bins as
+in the other histograms between the values of
+0.0006 and 0.0186). The cell number distributions
+for the MAMS samples are as follows: (i) reference
+(1) = 62 measurements (1.694 ± 1.521); (ii) reference
+(2) = 83 measurements (1.337 ± 0.859); (iii) reference (3) = 42 measurements (1.452 ± 0.942); (iv)
+ΔPFK2 deletion mutant = 73 measurements (2.836 ±
+2.255); (v) treated (t = 1 min) = 94 measurements
+(2.500 ± 1.435); (vi) treated (t = 5 min) = 24 measurements (10.542 ± 2.843); (vii) treated (t = 10 min) =
+23 measurements (1.763 ± 1.651). For detailed analytical instrumental conditions, see SI Text.
+
+F16BP—the phenotype with the high F16BP levels (high ﬂux,
+population B) disappears. Consistently, the phenotype at high
+F16BP levels is also not present in the ΔPFK2 deletion mutant
+(Fig. 5), which is a mutation that only realizes a low glycolytic ﬂux.
+We do not know the cause for the presence of these two distinct phenotypes. Although it is tempting to speculate that it
+might be cell cycle related, with cells in the G1 phase having high
+and cells in the S phase, low F16BP levels (26), only future
+studies on the metabolism of single cells—now enabled by the
+MAMS platform—will reveal the true cause.
+Conclusions
+In this work, we addressed one of the most difﬁcult challenges
+associated with single-cell level analysis of metabolites, validation. We reduced the technical (or analytical) variability to be
+able to observe the naturally occurring cell-to-cell heterogeneity.
+Furthermore, we presented a qualitative biological study based
+on a comprehensive dataset that shows the feasibility of monitoring Saccharomyces cerevisiae metabolism at the single-cell and
+few-cell level.
+These advances were feasible thanks to the use of the MAMS
+platform. The possibility of carrying out a single-cell level metabolic
+analysis, which takes advantage of the naturally occurring cell-to-cell
+PNAS | May 28, 2013 | vol. 110 | no. 22 | 8793
+
+CHEMISTRY
+
+25.0
+
+50.0
+
+CELL BIOLOGY
+
+Histogram (%)
+
+50.0
+
+Histogram (%)
+
+Histogram (%)
+
+Histogram (%)
+
+F16BP rel. signal intensity per single cell
+(WT - Reference)
+
+variability and exploits it to directly visualize two different phenotypes (both phenotypes characterized by different levels of F16BP),
+gives us insight into metabolic networks as well as regulation processes without the need of applying a nonnatural perturbation (e.g.,
+genetic modiﬁcation that favors one particular phenotype).
+We believe that in the near future the use of the MAMS platform will allow us to isolate data from subgroups of cells to investigate, in more depth, either bistability or metabolite/pathway
+interactions. The analytical variability that is still present in our
+measurements should still be further decreased. An increase in the
+number of data points for more extensive statistical studies of one
+particular subpopulation (e.g., multivariate data processing of metabolic proﬁles) would also be highly desirable. The number of reservoirs on the MAMS chips used here was limited to 160 per time
+point. However, available microfabrication techniques allow us to
+increase the density of the array to 250,000 wells on a single glass
+slide. This will be relevant for visualizing system-level interactions
+1. Heinemann M, Zenobi R (2011) Single cell metabolomics. Curr Opin Biotechnol 22(1):
+26–31.
+2. Walling MA, Shepard JRE (2011) Cellular heterogeneity and live cell arrays. Chem Soc
+Rev 40(7):4049–4076.
+3. Raj A, van Oudenaarden A (2008) Nature, nurture, or chance: Stochastic gene expression and its consequences. Cell 135(2):216–226.
+4. Dubnau D, Losick R (2006) Bistability in bacteria. Mol Microbiol 61(3):564–572.
+5. Balaban NQ, Merrin J, Chait R, Kowalik L, Leibler S (2004) Bacterial persistence as
+a phenotypic switch. Science 305(5690):1622–1625.
+6. Sumner ER, Avery SV (2002) Phenotypic heterogeneity: Differential stress resistance
+among individual cells of the yeast Saccharomyces cerevisiae. Microbiology 148(Pt 2):
+345–351.
+7. O’Brien, et al. (2013) Monitoring metabolic responses to chemotherapy in single cells
+and tumors using nanostructure-initiator mass spectrometry (NIMS) imaging. Cancer
+Metab 1:4.
+8. Amantonico A, Flamigni L, Glaus R, Zenobi R (2009) Negative mode nanostructureinitiator mass spectrometry for detection of phosphorylated metabolites. Metabolomics 5:346–353.
+9. Shrestha B, Nemes P, Vertes A (2010) Ablation and analysis of small cell populations
+and single cells by consecutive laser pulses. Appl Phys A Mater Sci Process 101:
+121–126.
+10. Shrestha B, Vertes A (2009) In situ metabolic proﬁling of single cells by laser ablation
+electrospray ionization mass spectrometry. Anal Chem 81(20):8265–8271.
+11. Bouschen W, Schulz O, Eikel D, Spengler B (2010) Matrix vapor deposition/recrystallization and dedicated spray preparation for high-resolution scanning microprobe
+matrix-assisted laser desorption/ionization imaging mass spectrometry (SMALDI-MS) of
+tissue and single cells. Rapid Commun Mass Spectrom 24(3):355–364.
+12. Hölscher D, et al. (2010) Matrix-free UV-laser desorption/ionization (LDI) mass spectrometric imaging at the single-cell level: Distribution of secondary metabolites of
+Arabidopsis thaliana and Hypericum species. Plant J 60:907–918.
+13. Rubakhin SS, Sweedler JV (2007) Characterizing peptides in individual mammalian
+cells using mass spectrometry. Nat Protoc 2(8):1987–1997.
+
+8794 | www.pnas.org/cgi/doi/10.1073/pnas.1209302110
+
+of metabolic pathways by observing metabolites that show a bimodal or higher order distribution.
+Materials and Methods
+All raw MS data collected for this publication have been uploaded to a European Molecular Biology Organization database. The MS data and metadata
+are available to the reader at MetaboLights (www.ebi.ac.uk/metabolights/),
+under the study identiﬁer MTBLS29. The reader may also contact the corresponding authors for additional details of the experiments presented here.
+Additional information, such as MAMS chip fabrication, cell culture and
+handling conditions, MALDI-MS measurement parameters, and data treatment can be found in SI Text.
+ACKNOWLEDGMENTS. A.I. gratefully acknowledges Dr. Madina Mansurova
+for her advice and thoughtful insights, the help of Guille Zampar for
+statistical interpretation of the data, the support of Robert Steinhoff, Jasmin
+Krismer, and Martin Pabst, and ﬁnancial support by the Seventh European
+Community Framework through the program Marie Curie Intra-European
+Fellowship (PIEF-GA-2011-271895-DiSC-MS).
+
+14. Urban PL, et al. (2011) Carbon-13 labelling strategy for studying the ATP metabolism
+in individual yeast cells by micro-arrays for mass spectrometry. Mol Biosyst 7(10):
+2837–2840.
+15. Urban PL, et al. (2010) High-density micro-arrays for mass spectrometry. Lab Chip 10
+(23):3206–3209.
+16. Pelicano H, Martin DS, Xu RH, Huang P (2006) Glycolysis inhibition for anticancer
+treatment. Oncogene 25(34):4633–4646.
+17. Walther T, et al. (2010) Control of ATP homeostasis during the respiro-fermentative
+transition in yeast. Mol Syst Biol 6:344.
+18. Ralser M, et al. (2008) A catabolic block does not sufﬁciently explain how 2-deoxy-Dglucose inhibits cell growth. Proc Natl Acad Sci USA 105(46):17807–17811.
+19. Randez-Gil F, Blasco A, Prieto JA, Sanz P (1995) DOGR1 and DOGR2: Two genes from
+Saccharomyces cerevisiae that confer 2-deoxyglucose resistance when overexpressed.
+Yeast 11(13):1233–1240.
+20. Pearce AK, et al. (2001) Pyruvate kinase (Pyk1) levels inﬂuence both the rate and
+direction of carbon ﬂux in yeast under fermentative conditions. Microbiology 147(Pt
+2):391–401.
+21. Steuer R (2006) Review: On the analysis and interpretation of correlations in metabolomic data. Brief Bioinform 7(2):151–158.
+22. Morgenthal K, Weckwerth W, Steuer R (2006) Metabolomic networks in plants:
+Transitions from pattern recognition to biological interpretation. Biosystems 83(2–3):
+108–117.
+23. Camacho D, de la Fuente A, Mendes P (2005) The origin of correlations in metabolomics data. Metabolomics 1:53–63.
+24. Steuer R, Kurths J, Fiehn O, Weckwerth W (2003) Observing and interpreting correlations in metabolomic networks. Bioinformatics 19(8):1019–1026.
+25. Huberts DHEW, Niebel B, Heinemann M (2012) A ﬂux-sensing mechanism could
+regulate the switch between respiration and fermentation. FEMS Yeast Res 12(2):
+118–128.
+26. Wittmann C, Hans M, van Winden WA, Ras C, Heijnen JJ (2005) Dynamics of intracellular metabolites of glycolysis and TCA cycle during cell-cycle-related oscillation
+in Saccharomyces cerevisiae. Biotechnol Bioeng 89(7):839–847.
+
+Ibáñez et al.
+
+
